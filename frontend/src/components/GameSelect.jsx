@@ -14,32 +14,38 @@ const GameSelect = ({ level, onSelectGame, onBackToLevels, playerProgress }) => 
 
   const getDifficultyColor = (difficulty) => {
     const colors = {
-      1: "bg-green-100 text-green-800",
-      2: "bg-yellow-100 text-yellow-800",
-      3: "bg-orange-100 text-orange-800", 
-      4: "bg-red-100 text-red-800"
+      1: "bg-cyan-500 text-white",
+      2: "bg-blue-500 text-white",
+      3: "bg-purple-500 text-white", 
+      4: "bg-pink-500 text-white"
     };
-    return colors[difficulty] || "bg-gray-100 text-gray-800";
+    return colors[difficulty] || "bg-gray-500 text-white";
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      {/* Header */}
-      <div className="flex items-center mb-6">
-        <Button 
-          onClick={onBackToLevels}
-          variant="outline" 
-          size="sm"
-          className="mr-4"
-        >
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back
-        </Button>
-        <div>
-          <h1 className="text-3xl font-bold text-gray-800">{level.title}</h1>
-          <p className="text-gray-600">{level.description}</p>
+    <div className="min-h-screen bg-brand-dark text-brand-cyan-bright">
+      <div className="max-w-4xl mx-auto p-6">
+        {/* Header */}
+        <div className="flex items-center mb-6">
+          <Button 
+            onClick={onBackToLevels}
+            className="mr-4 bg-brand-navy border-brand-cyan text-brand-cyan hover:bg-cyan-900"
+          >
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back
+          </Button>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_kidconnections/artifacts/t3eatmx3_B.png" 
+              alt="Logo" 
+              className="w-8 h-8 object-contain"
+            />
+            <div>
+              <h1 className="text-3xl font-bold text-brand-cyan-bright">{level.title}</h1>
+              <p className="text-cyan-300">{level.description}</p>
+            </div>
+          </div>
         </div>
-      </div>
 
       {/* Games Grid */}
       <div className="grid gap-6">

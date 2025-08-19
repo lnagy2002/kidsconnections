@@ -83,8 +83,14 @@ class Database:
             "dailyDate": date
         }
         
-        # Store daily game
-        await self.games.insert_one(daily_game)
+        # Store daily game (check if it already exists first)
+        existing = await self.games.find_one({"id": daily_game["id"]})
+        if not existing:
+            await self.games.insert_one(daily_game)
+        
+        # Remove _id for JSON serialization
+        if '_id' in daily_game:
+            del daily_game['_id']
         return daily_game
 
     # User Progress CRUD Operations

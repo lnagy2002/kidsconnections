@@ -90,12 +90,27 @@ const LevelDailyChallenge = ({ level, onPlayDaily, onBackToMenu, playerProgress 
   const progress = getLevelDailyProgress();
   const hasCompletedToday = progress.completedToday;
 
+  // Show loading state
+  if (loading) {
+    return <LoadingSpinner message={`Loading ${level} daily challenge...`} />;
+  }
+
+  // Show error state
+  if (error && !dailyGame) {
+    return (
+      <ErrorMessage 
+        error={error}
+        title="Unable to Load Daily Challenge"
+        onRetry={() => window.location.reload()}
+      />
+    );
+  }
+
   if (!dailyGame) {
     return (
       <div className="min-h-screen bg-brand-dark text-brand-cyan-bright flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-brand-cyan mx-auto mb-4"></div>
-          <p>Loading daily challenge...</p>
+          <p>No daily challenge available</p>
         </div>
       </div>
     );

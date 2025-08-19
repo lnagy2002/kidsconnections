@@ -167,18 +167,11 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectLevelDaily, playerProg
 
                     <Button 
                       onClick={() => onSelectLevel(levelKey)}
-                      disabled={!isUnlocked}
                       variant="outline"
-                      className={`w-full border-2 ${isUnlocked ? 'border-brand-cyan text-brand-cyan hover:bg-brand-cyan hover:text-brand-navy' : 'border-gray-600 text-gray-500'} font-medium py-2`}
+                      className={`w-full border-2 border-brand-cyan text-brand-cyan hover:bg-brand-cyan hover:text-brand-navy font-medium py-2`}
                     >
-                      {isUnlocked ? 'Browse Games' : '🔒 Locked'}
+                      Browse Games
                     </Button>
-
-                    {!isUnlocked && levelKey !== 'easy' && (
-                      <p className="text-xs text-cyan-400 mt-2 text-center">
-                        Complete previous level to unlock
-                      </p>
-                    )}
                   </div>
                 </CardContent>
               </Card>

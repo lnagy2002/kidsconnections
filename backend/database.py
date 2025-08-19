@@ -101,6 +101,9 @@ class Database:
             new_progress = UserProgress(userId=user_id)
             await self.user_progress.insert_one(new_progress.dict())
             return new_progress.dict()
+        # Remove _id for JSON serialization
+        if '_id' in progress:
+            del progress['_id']
         return progress
 
     async def update_user_progress(self, user_id: str, progress: dict) -> dict:

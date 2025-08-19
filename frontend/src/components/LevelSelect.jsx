@@ -17,10 +17,10 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
 
   const getLevelColor = (levelKey) => {
     const colors = {
-      easy: "from-green-400 to-green-600",
-      medium: "from-blue-400 to-blue-600", 
-      hard: "from-purple-400 to-purple-600",
-      youth: "from-red-400 to-red-600"
+      easy: "from-teal-300 to-teal-500",
+      medium: "from-cyan-400 to-teal-500", 
+      hard: "from-teal-500 to-cyan-600",
+      youth: "from-cyan-500 to-teal-600"
     };
     return colors[levelKey] || "from-gray-400 to-gray-600";
   };
@@ -45,27 +45,35 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
 
   return (
     <div className="max-w-4xl mx-auto p-6">
+      {/* Header with Logo */}
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800 mb-2">
-          Brain Connection Challenge! 🧠
-        </h1>
+        <div className="flex items-center justify-center gap-4 mb-4">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_kidconnections/artifacts/t3eatmx3_B.png" 
+            alt="Brain Connections Logo" 
+            className="w-16 h-16 object-contain"
+          />
+          <h1 className="text-4xl font-bold text-brand-teal-dark">
+            Brain Connection Challenge!
+          </h1>
+        </div>
         <p className="text-lg text-gray-600">
           Choose your level and start connecting patterns!
         </p>
       </div>
 
       {/* Daily Challenge Card - Featured at top */}
-      <Card className="mb-8 overflow-hidden relative border-2 border-orange-300 shadow-xl">
-        <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-pink-500 opacity-15" />
+      <Card className="mb-8 overflow-hidden relative border-2 border-teal-300 shadow-xl">
+        <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-cyan-400 opacity-15" />
         
         <CardHeader className="relative">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="p-3 rounded-full bg-gradient-to-br from-orange-400 to-pink-500 text-white">
+              <div className="p-3 rounded-full bg-gradient-to-br from-teal-400 to-cyan-500 text-white">
                 <Calendar className="w-8 h-8" />
               </div>
               <div>
-                <CardTitle className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+                <CardTitle className="text-2xl font-bold text-brand-teal-dark flex items-center gap-2">
                   Daily Challenge
                   {dailyProgress.completedToday && <Star className="w-6 h-6 text-yellow-500 fill-current" />}
                 </CardTitle>
@@ -76,11 +84,11 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
             <div className="text-right">
               <div className="flex items-center gap-2 mb-1">
                 <Flame className="w-5 h-5 text-orange-500" />
-                <span className="text-lg font-bold text-orange-600">
+                <span className="text-lg font-bold text-teal-600">
                   {dailyProgress.currentStreak} day streak
                 </span>
               </div>
-              <Badge variant="secondary" className="text-sm">
+              <Badge variant="secondary" className="text-sm bg-brand-cyan text-brand-teal-dark">
                 {dailyProgress.completedToday ? 'Completed Today!' : 'Available Now'}
               </Badge>
             </div>
@@ -100,7 +108,7 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
 
           <Button 
             onClick={onSelectDaily}
-            className="w-full bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-bold py-4 text-lg shadow-lg"
+            className="w-full bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 text-white font-bold py-4 text-lg shadow-lg"
           >
             {dailyProgress.completedToday ? 'View Daily Challenge' : 'Play Daily Challenge'}
           </Button>
@@ -120,7 +128,7 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
           return (
             <Card 
               key={levelKey} 
-              className={`relative overflow-hidden transition-all duration-300 hover:scale-105 ${
+              className={`relative overflow-hidden transition-all duration-300 hover:scale-105 border-teal-200 ${
                 isUnlocked ? 'shadow-lg hover:shadow-xl' : 'opacity-60'
               }`}
             >
@@ -131,11 +139,11 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
                   <div className={`p-3 rounded-full bg-gradient-to-br ${getLevelColor(levelKey)} text-white`}>
                     {getLevelIcon(levelKey)}
                   </div>
-                  <Badge variant="secondary" className="text-sm">
+                  <Badge variant="secondary" className="text-sm bg-brand-cyan text-brand-teal-dark">
                     {completed}/{total} completed
                   </Badge>
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-800">
+                <CardTitle className="text-xl font-bold text-brand-teal-dark">
                   {level.title}
                 </CardTitle>
                 <p className="text-gray-600 text-sm">
@@ -147,7 +155,7 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
                 {/* Progress Bar */}
                 {total > 0 && (
                   <div className="mb-4">
-                    <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div className="w-full bg-teal-100 rounded-full h-2">
                       <div 
                         className={`h-2 rounded-full bg-gradient-to-r ${getLevelColor(levelKey)} transition-all duration-500`}
                         style={{ width: `${(completed / total) * 100}%` }}
@@ -177,21 +185,21 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectDaily, playerProgress 
 
       {/* Quick Stats */}
       <div className="mt-8 text-center">
-        <div className="inline-flex items-center gap-6 bg-white rounded-full px-6 py-3 shadow-md">
+        <div className="inline-flex items-center gap-6 bg-white rounded-full px-6 py-3 shadow-md border border-teal-200">
           <div className="text-center">
-            <div className="text-2xl font-bold text-blue-600">
+            <div className="text-2xl font-bold text-brand-teal">
               {Object.values(playerProgress).reduce((sum, level) => sum + (level.completedGames || 0), 0)}
             </div>
             <div className="text-xs text-gray-600">Games Completed</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-cyan-600">
               {Object.values(playerProgress).reduce((sum, level) => sum + (level.perfectGames || 0), 0)}
             </div>
             <div className="text-xs text-gray-600">Perfect Games</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-orange-600">
+            <div className="text-2xl font-bold text-teal-600">
               {dailyProgress.currentStreak}
             </div>
             <div className="text-xs text-gray-600">Daily Streak</div>

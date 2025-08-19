@@ -69,7 +69,7 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
       toast({
         title: "Correct! 🎉",
         description: `You found the ${correctGroup.category} group!`,
-        className: "bg-green-100 border-green-300"
+        className: "bg-teal-100 border-teal-300"
       });
 
       if (solvedGroups.length + 1 === gameData.groups.length) {
@@ -122,17 +122,17 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
       toast({
         title: `Hint! 💡`,
         description: `"${hintWord}" belongs to the ${hintGroup.category} group!`,
-        className: "bg-blue-100 border-blue-300"
+        className: "bg-cyan-100 border-cyan-300"
       });
     }
   };
 
   const getSolvedGroupColor = (difficulty) => {
     const colors = {
-      1: "bg-green-500",
-      2: "bg-yellow-500", 
-      3: "bg-orange-500",
-      4: "bg-red-500"
+      1: "bg-teal-400",
+      2: "bg-cyan-400", 
+      3: "bg-teal-500",
+      4: "bg-cyan-500"
     };
     return colors[difficulty] || "bg-gray-500";
   };
@@ -140,7 +140,7 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
   if (gameComplete) {
     return (
       <div className="max-w-2xl mx-auto p-6 text-center">
-        <div className="bg-gradient-to-br from-green-400 to-blue-500 rounded-3xl p-8 text-white mb-6">
+        <div className="bg-gradient-to-br from-teal-400 to-cyan-500 rounded-3xl p-8 text-white mb-6">
           <CheckCircle className="w-16 h-16 mx-auto mb-4" />
           <h2 className="text-3xl font-bold mb-2">Congratulations! 🎉</h2>
           <p className="text-lg">You completed "{gameData.title}"!</p>
@@ -157,7 +157,7 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
             </div>
           ))}
         </div>
-        <Button onClick={onBackToMenu} size="lg" className="bg-purple-600 hover:bg-purple-700">
+        <Button onClick={onBackToMenu} size="lg" className="bg-teal-600 hover:bg-teal-700">
           Back to Menu
         </Button>
       </div>
@@ -168,9 +168,16 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
 
   return (
     <div className="max-w-2xl mx-auto p-6">
-      {/* Header */}
+      {/* Header with Logo */}
       <div className="text-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">{gameData.title}</h2>
+        <div className="flex items-center justify-center gap-3 mb-2">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_kidconnections/artifacts/t3eatmx3_B.png" 
+            alt="Logo" 
+            className="w-8 h-8 object-contain"
+          />
+          <h2 className="text-2xl font-bold text-brand-teal-dark">{gameData.title}</h2>
+        </div>
         <div className="flex justify-center gap-4 text-sm text-gray-600">
           <span>Mistakes: {mistakes}/4</span>
           <span>Groups Found: {solvedGroups.length}/4</span>
@@ -200,8 +207,8 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
             variant={selectedWords.includes(word) ? "default" : "outline"}
             className={`h-16 text-sm font-medium transition-all duration-200 ${
               selectedWords.includes(word) 
-                ? "bg-blue-500 hover:bg-blue-600 text-white scale-105 shadow-lg" 
-                : "bg-white hover:bg-gray-50 text-gray-800 border-2 hover:border-blue-300"
+                ? "bg-brand-teal hover:bg-teal-600 text-white scale-105 shadow-lg" 
+                : "bg-white hover:bg-teal-50 text-brand-teal-dark border-2 border-teal-200 hover:border-teal-300"
             }`}
             onClick={() => toggleWordSelection(word)}
           >
@@ -215,14 +222,14 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
         <Button 
           onClick={submitGuess}
           disabled={selectedWords.length !== 4 || mistakes >= 4}
-          className="bg-green-600 hover:bg-green-700 px-6"
+          className="bg-teal-600 hover:bg-teal-700 px-6"
         >
           Submit Guess
         </Button>
         <Button 
           onClick={() => setSelectedWords([])}
           variant="outline"
-          className="px-6"
+          className="px-6 border-teal-300 text-brand-teal hover:bg-teal-50"
         >
           Clear
         </Button>
@@ -230,7 +237,7 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
           onClick={getHint}
           disabled={hintsUsed >= 2}
           variant="outline"
-          className="px-6"
+          className="px-6 border-cyan-300 text-cyan-600 hover:bg-cyan-50"
         >
           <Lightbulb className="w-4 h-4 mr-2" />
           Hint
@@ -245,7 +252,7 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
               <div
                 key={i}
                 className={`w-3 h-3 rounded-full ${
-                  i < mistakes ? 'bg-red-500' : 'bg-gray-200'
+                  i < mistakes ? 'bg-red-500' : 'bg-teal-200'
                 }`}
               />
             ))}

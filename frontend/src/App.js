@@ -178,7 +178,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50">
       <BrowserRouter>
         <div className="container mx-auto py-8">
           {currentView === 'levels' && (

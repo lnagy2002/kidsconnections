@@ -43,6 +43,8 @@ class Database:
 
     async def get_game_by_id(self, game_id: str) -> dict:
         game = await self.games.find_one({"id": game_id})
+        if game and '_id' in game:
+            del game['_id']
         return game
 
     async def get_daily_game(self, level: str, date: str) -> dict:

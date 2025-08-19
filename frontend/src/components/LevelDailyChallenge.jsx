@@ -3,27 +3,39 @@ import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Calendar, Clock, Trophy, Flame, Star, ArrowLeft } from 'lucide-react';
-import { getLevelDailyGame, getTimeUntilNextDaily } from '../mock/dailyGameData';
+import { useDailyGame } from '../hooks/useGameData';
+import LoadingSpinner from './LoadingSpinner';
+import ErrorMessage from './ErrorMessage';
 
 const LevelDailyChallenge = ({ level, onPlayDaily, onBackToMenu, playerProgress }) => {
-  const [dailyGame, setDailyGame] = useState(null);
+  const { dailyGame, loading, error } = useDailyGame(level);
   const [timeUntilNext, setTimeUntilNext] = useState({ hours: 0, minutes: 0 });
 
   useEffect(() => {
-    // Get today's daily game for this level
-    const todaysGame = getLevelDailyGame(level);
-    setDailyGame(todaysGame);
+    // Calculate time until next daily game
+    const calculateTimeUntilNext = () => {
+      const now = new Date();
+      const tomorrow = new Date(now);
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      tomorrow.setHours(0, 0, 0, 0);
+      
+      const timeDiff = tomorrow.getTime() - now.getTime();
+      const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+      const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+      
+      return { hours, minutes };
+    };
 
     // Update countdown every minute
     const timer = setInterval(() => {
-      setTimeUntilNext(getTimeUntilNextDaily());
+      setTimeUntilNext(calculateTimeUntilNext());
     }, 60000);
 
-    // Initial time calculation
-    setTimeUntilNext(getTimeUntilNextDaily());
+    // Initial calculation
+    setTimeUntilNext(calculateTimeUntilNext());
 
     return () => clearInterval(timer);
-  }, [level]);
+  }, []);
 
   const getLevelDailyProgress = () => {
     return playerProgress.daily?.[level] || {

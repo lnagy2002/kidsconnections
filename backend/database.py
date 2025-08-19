@@ -24,6 +24,10 @@ class Database:
 
     async def get_games_by_level(self, level: str) -> list:
         games = await self.games.find({"level": level, "isDaily": False}).to_list(1000)
+        # Convert ObjectId to string for JSON serialization
+        for game in games:
+            if '_id' in game:
+                del game['_id']
         return games
 
     async def get_all_levels(self) -> dict:

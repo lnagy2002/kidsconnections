@@ -5,11 +5,12 @@ import LevelSelect from "./components/LevelSelect";
 import GameSelect from "./components/GameSelect";
 import GameBoard from "./components/GameBoard";
 import DailyChallenge from "./components/DailyChallenge";
+import LevelDailyChallenge from "./components/LevelDailyChallenge";
 import { Toaster } from "./components/ui/toaster";
 import { gameLevels } from "./mock/gameData";
 
 function App() {
-  const [currentView, setCurrentView] = useState('levels'); // 'levels', 'games', 'playing', 'daily'
+  const [currentView, setCurrentView] = useState('levels'); // 'levels', 'games', 'playing', 'daily', 'levelDaily'
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [selectedGame, setSelectedGame] = useState(null);
   const [playerProgress, setPlayerProgress] = useState({
@@ -18,12 +19,39 @@ function App() {
     hard: { completedGames: 0, perfectGames: 0, games: {} },
     youth: { completedGames: 0, perfectGames: 0, games: {} },
     daily: { 
-      completedToday: false, 
-      currentStreak: 0, 
-      longestStreak: 0, 
-      totalCompleted: 0,
-      lastCompletedDate: null,
-      games: {} 
+      // Level-specific daily progress
+      easy: {
+        completedToday: false, 
+        currentStreak: 0, 
+        longestStreak: 0, 
+        totalCompleted: 0,
+        lastCompletedDate: null,
+        games: {}
+      },
+      medium: {
+        completedToday: false, 
+        currentStreak: 0, 
+        longestStreak: 0, 
+        totalCompleted: 0,
+        lastCompletedDate: null,
+        games: {}
+      },
+      hard: {
+        completedToday: false, 
+        currentStreak: 0, 
+        longestStreak: 0, 
+        totalCompleted: 0,
+        lastCompletedDate: null,
+        games: {}
+      },
+      youth: {
+        completedToday: false, 
+        currentStreak: 0, 
+        longestStreak: 0, 
+        totalCompleted: 0,
+        lastCompletedDate: null,
+        games: {}
+      }
     }
   });
 
@@ -33,22 +61,27 @@ function App() {
     if (savedProgress) {
       const progress = JSON.parse(savedProgress);
       
-      // Check if daily progress needs to be reset (new day)
+      // Check if daily progress needs to be reset (new day) for each level
       const today = new Date().toISOString().split('T')[0];
-      if (progress.daily && progress.daily.lastCompletedDate !== today) {
-        progress.daily.completedToday = false;
-        
-        // Update streak logic - if more than 1 day gap, reset streak
-        if (progress.daily.lastCompletedDate) {
-          const lastDate = new Date(progress.daily.lastCompletedDate);
-          const todayDate = new Date(today);
-          const diffTime = Math.abs(todayDate - lastDate);
-          const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-          
-          if (diffDays > 1) {
-            progress.daily.currentStreak = 0;
+      
+      if (progress.daily) {
+        ['easy', 'medium', 'hard', 'youth'].forEach(level => {
+          if (progress.daily[level] && progress.daily[level].lastCompletedDate !== today) {
+            progress.daily[level].completedToday = false;
+            
+            // Update streak logic - if more than 1 day gap, reset streak
+            if (progress.daily[level].lastCompletedDate) {
+              const lastDate = new Date(progress.daily[level].lastCompletedDate);
+              const todayDate = new Date(today);
+              const diffTime = Math.abs(todayDate - lastDate);
+              const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+              
+              if (diffDays > 1) {
+                progress.daily[level].currentStreak = 0;
+              }
+            }
           }
-        }
+        });
       }
       
       setPlayerProgress(progress);
@@ -66,13 +99,14 @@ function App() {
     setCurrentView('games');
   };
 
+  const handleSelectLevelDaily = (levelKey) => {
+    setSelectedLevel(levelKey);
+    setCurrentView('levelDaily');
+  };
+
   const handleSelectGame = (game) => {
     setSelectedGame(game);
     setCurrentView('playing');
-  };
-
-  const handleSelectDaily = () => {
-    setCurrentView('daily');
   };
 
   const handlePlayDaily = (dailyGame) => {
@@ -87,9 +121,16 @@ function App() {
     if (selectedGame && selectedGame.id && selectedGame.id.startsWith('daily-')) {
       const today = new Date().toISOString().split('T')[0];
       
+      // Extract level from daily game ID (format: daily-{level}-{date})
+      const gameIdParts = selectedGame.id.split('-');
+      const dailyLevel = gameIdParts[1]; // easy, medium, hard, or youth
+      
       // Initialize daily progress if not exists
       if (!newProgress.daily) {
-        newProgress.daily = { 
+        newProgress.daily = {};
+      }
+      if (!newProgress.daily[dailyLevel]) {
+        newProgress.daily[dailyLevel] = { 
           completedToday: false, 
           currentStreak: 0, 
           longestStreak: 0, 
@@ -99,23 +140,23 @@ function App() {
         };
       }
       
-      // Update daily game completion
-      if (!newProgress.daily.completedToday) {
-        newProgress.daily.completedToday = true;
-        newProgress.daily.totalCompleted++;
-        newProgress.daily.lastCompletedDate = today;
+      // Update daily game completion for this level
+      if (!newProgress.daily[dailyLevel].completedToday) {
+        newProgress.daily[dailyLevel].completedToday = true;
+        newProgress.daily[dailyLevel].totalCompleted++;
+        newProgress.daily[dailyLevel].lastCompletedDate = today;
         
         // Update streak
-        newProgress.daily.currentStreak++;
-        if (newProgress.daily.currentStreak > newProgress.daily.longestStreak) {
-          newProgress.daily.longestStreak = newProgress.daily.currentStreak;
+        newProgress.daily[dailyLevel].currentStreak++;
+        if (newProgress.daily[dailyLevel].currentStreak > newProgress.daily[dailyLevel].longestStreak) {
+          newProgress.daily[dailyLevel].longestStreak = newProgress.daily[dailyLevel].currentStreak;
         }
       }
       
       // Save daily game stats
-      newProgress.daily.games[selectedGame.id] = {
+      newProgress.daily[dailyLevel].games[selectedGame.id] = {
         completed: true,
-        attempts: (newProgress.daily.games[selectedGame.id]?.attempts || 0) + 1,
+        attempts: (newProgress.daily[dailyLevel].games[selectedGame.id]?.attempts || 0) + 1,
         bestScore: {
           mistakes: gameStats.mistakes,
           hintsUsed: gameStats.hintsUsed,
@@ -161,7 +202,8 @@ function App() {
 
   const handleBackToMenu = () => {
     if (selectedGame && selectedGame.id && selectedGame.id.startsWith('daily-')) {
-      setCurrentView('daily');
+      // If it's a level-specific daily game, go back to level daily view
+      setCurrentView('levelDaily');
     } else {
       setCurrentView('games');
     }
@@ -185,7 +227,16 @@ function App() {
             <LevelSelect 
               gameLevels={gameLevels}
               onSelectLevel={handleSelectLevel}
-              onSelectDaily={handleSelectDaily}
+              onSelectLevelDaily={handleSelectLevelDaily}
+              playerProgress={playerProgress}
+            />
+          )}
+          
+          {currentView === 'levelDaily' && selectedLevel && (
+            <LevelDailyChallenge 
+              level={selectedLevel}
+              onPlayDaily={handlePlayDaily}
+              onBackToMenu={handleBackToMenuFromDaily}
               playerProgress={playerProgress}
             />
           )}

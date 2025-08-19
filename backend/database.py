@@ -56,6 +56,8 @@ class Database:
         })
         
         if daily_game:
+            if '_id' in daily_game:
+                del daily_game['_id']
             return daily_game
             
         # If no daily game exists, create one from regular games

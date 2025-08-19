@@ -144,7 +144,6 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectLevelDaily, playerProg
                     </div>
                     <Button 
                       onClick={() => onSelectLevelDaily(levelKey)}
-                      disabled={!isUnlocked}
                       className={`w-full bg-gradient-to-r ${getLevelColor(levelKey)} hover:opacity-90 text-white font-medium py-2 text-sm`}
                     >
                       {levelDailyProgress.completedToday ? 'Play Again' : 'Play Daily'}

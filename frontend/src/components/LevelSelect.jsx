@@ -90,10 +90,7 @@ const LevelSelect = ({ gameLevels, onSelectLevel, onSelectLevelDaily, playerProg
             const completed = getCompletedGames(levelKey);
             const total = getTotalGames(levelKey);
             const levelDailyProgress = getLevelDailyProgress(levelKey);
-            const isUnlocked = levelKey === 'easy' || completed > 0 || 
-              (levelKey === 'medium' && getCompletedGames('easy') > 0) ||
-              (levelKey === 'hard' && getCompletedGames('medium') > 0) ||
-              (levelKey === 'youth' && getCompletedGames('hard') > 0);
+            const isUnlocked = true; // All levels available from the start
 
             return (
               <Card 

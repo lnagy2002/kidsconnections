@@ -19,60 +19,61 @@ code {
 @layer base {
   :root {
         --background: 0 0% 100%;
-        --foreground: 195 100% 15%;
+        --foreground: 185 100% 75%;
         --card: 0 0% 100%;
         --card-foreground: 195 100% 15%;
         --popover: 0 0% 100%;
         --popover-foreground: 195 100% 15%;
-        --primary: 184 95% 45%;
-        --primary-foreground: 0 0% 98%;
-        --secondary: 195 100% 85%;
+        --primary: 185 100% 75%;
+        --primary-foreground: 195 100% 15%;
+        --secondary: 195 50% 95%;
         --secondary-foreground: 195 100% 15%;
         --muted: 195 50% 95%;
         --muted-foreground: 195 30% 45%;
-        --accent: 184 95% 45%;
-        --accent-foreground: 0 0% 98%;
+        --accent: 185 100% 75%;
+        --accent-foreground: 195 100% 15%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
-        --border: 195 50% 85%;
+        --border: 185 50% 85%;
         --input: 195 50% 85%;
-        --ring: 184 95% 45%;
-        --chart-1: 184 95% 45%;
+        --ring: 185 100% 75%;
+        --chart-1: 185 100% 75%;
         --chart-2: 195 85% 55%;
         --chart-3: 180 75% 35%;
         --chart-4: 175 80% 60%;
         --chart-5: 190 90% 50%;
         --radius: 0.75rem;
         
-        /* Custom brand colors */
-        --brand-teal: 184 95% 45%;
-        --brand-teal-light: 184 95% 65%;
-        --brand-teal-dark: 184 95% 25%;
-        --brand-cyan: 195 100% 75%;
-        --brand-mint: 175 80% 60%;
+        /* Custom brand colors - Dark theme inspired */
+        --brand-dark: 195 100% 12%;
+        --brand-navy: 195 100% 15%;
+        --brand-cyan: 185 100% 75%;
+        --brand-cyan-bright: 185 100% 85%;
+        --brand-orange: 25 100% 60%;
+        --brand-red: 0 85% 55%;
     }
     
   .dark {
-        --background: 195 100% 5%;
-        --foreground: 195 50% 95%;
-        --card: 195 100% 8%;
-        --card-foreground: 195 50% 95%;
-        --popover: 195 100% 5%;
-        --popover-foreground: 195 50% 95%;
-        --primary: 184 95% 55%;
-        --primary-foreground: 195 100% 5%;
-        --secondary: 195 50% 15%;
-        --secondary-foreground: 195 50% 95%;
-        --muted: 195 50% 15%;
-        --muted-foreground: 195 30% 65%;
-        --accent: 184 95% 55%;
-        --accent-foreground: 195 100% 5%;
+        --background: 195 100% 12%;
+        --foreground: 185 100% 85%;
+        --card: 195 100% 15%;
+        --card-foreground: 185 100% 85%;
+        --popover: 195 100% 12%;
+        --popover-foreground: 185 100% 85%;
+        --primary: 185 100% 75%;
+        --primary-foreground: 195 100% 15%;
+        --secondary: 195 50% 20%;
+        --secondary-foreground: 185 100% 85%;
+        --muted: 195 50% 20%;
+        --muted-foreground: 185 60% 65%;
+        --accent: 185 100% 75%;
+        --accent-foreground: 195 100% 15%;
         --destructive: 0 62.8% 30.6%;
         --destructive-foreground: 0 0% 98%;
-        --border: 195 50% 15%;
-        --input: 195 50% 15%;
-        --ring: 184 95% 55%;
-        --chart-1: 184 95% 55%;
+        --border: 195 50% 25%;
+        --input: 195 50% 20%;
+        --ring: 185 100% 75%;
+        --chart-1: 185 100% 75%;
         --chart-2: 195 85% 65%;
         --chart-3: 180 75% 45%;
         --chart-4: 175 80% 70%;
@@ -91,28 +92,43 @@ code {
 
 /* Custom brand utilities */
 @layer utilities {
-  .bg-brand-teal {
-    background-color: hsl(var(--brand-teal));
+  .bg-brand-dark {
+    background-color: hsl(var(--brand-dark));
   }
-  .bg-brand-teal-light {
-    background-color: hsl(var(--brand-teal-light));
-  }
-  .bg-brand-teal-dark {
-    background-color: hsl(var(--brand-teal-dark));
+  .bg-brand-navy {
+    background-color: hsl(var(--brand-navy));
   }
   .bg-brand-cyan {
     background-color: hsl(var(--brand-cyan));
   }
-  .bg-brand-mint {
-    background-color: hsl(var(--brand-mint));
+  .bg-brand-cyan-bright {
+    background-color: hsl(var(--brand-cyan-bright));
   }
-  .text-brand-teal {
-    color: hsl(var(--brand-teal));
+  .bg-brand-orange {
+    background-color: hsl(var(--brand-orange));
   }
-  .text-brand-teal-dark {
-    color: hsl(var(--brand-teal-dark));
+  .bg-brand-red {
+    background-color: hsl(var(--brand-red));
   }
-  .border-brand-teal {
-    border-color: hsl(var(--brand-teal));
+  .text-brand-dark {
+    color: hsl(var(--brand-dark));
+  }
+  .text-brand-navy {
+    color: hsl(var(--brand-navy));
+  }
+  .text-brand-cyan {
+    color: hsl(var(--brand-cyan));
+  }
+  .text-brand-cyan-bright {
+    color: hsl(var(--brand-cyan-bright));
+  }
+  .text-brand-orange {
+    color: hsl(var(--brand-orange));
+  }
+  .border-brand-cyan {
+    border-color: hsl(var(--brand-cyan));
+  }
+  .border-brand-navy {
+    border-color: hsl(var(--brand-navy));
   }
 }

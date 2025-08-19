@@ -69,7 +69,7 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
       toast({
         title: "Correct! 🎉",
         description: `You found the ${correctGroup.category} group!`,
-        className: "bg-teal-100 border-teal-300"
+        className: "bg-cyan-900 border-brand-cyan text-brand-cyan-bright"
       });
 
       if (solvedGroups.length + 1 === gameData.groups.length) {
@@ -122,44 +122,50 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
       toast({
         title: `Hint! 💡`,
         description: `"${hintWord}" belongs to the ${hintGroup.category} group!`,
-        className: "bg-cyan-100 border-cyan-300"
+        className: "bg-cyan-900 border-cyan-400 text-brand-cyan-bright"
       });
     }
   };
 
   const getSolvedGroupColor = (difficulty) => {
     const colors = {
-      1: "bg-teal-400",
-      2: "bg-cyan-400", 
-      3: "bg-teal-500",
-      4: "bg-cyan-500"
+      1: "bg-cyan-500",
+      2: "bg-blue-500", 
+      3: "bg-purple-500",
+      4: "bg-pink-500"
     };
     return colors[difficulty] || "bg-gray-500";
   };
 
   if (gameComplete) {
     return (
-      <div className="max-w-2xl mx-auto p-6 text-center">
-        <div className="bg-gradient-to-br from-teal-400 to-cyan-500 rounded-3xl p-8 text-white mb-6">
-          <CheckCircle className="w-16 h-16 mx-auto mb-4" />
-          <h2 className="text-3xl font-bold mb-2">Congratulations! 🎉</h2>
-          <p className="text-lg">You completed "{gameData.title}"!</p>
-          <div className="flex justify-center gap-4 mt-4 text-sm">
-            <span>Mistakes: {mistakes}/4</span>
-            <span>Hints Used: {hintsUsed}/2</span>
-          </div>
-        </div>
-        <div className="space-y-2 mb-6">
-          {solvedGroups.map((group, index) => (
-            <div key={index} className={`${getSolvedGroupColor(group.difficulty)} text-white p-4 rounded-xl`}>
-              <h3 className="font-bold text-lg mb-2">{group.category}</h3>
-              <p className="text-sm opacity-90">{group.words.join(", ")}</p>
+      <div className="min-h-screen bg-brand-dark text-brand-cyan-bright flex items-center justify-center">
+        <div className="max-w-2xl mx-auto p-6 text-center">
+          <div className="bg-gradient-to-br from-cyan-500 to-blue-600 rounded-3xl p-8 text-white mb-6">
+            <CheckCircle className="w-16 h-16 mx-auto mb-4" />
+            <h2 className="text-3xl font-bold mb-2">Congratulations! 🎉</h2>
+            <p className="text-lg">You completed "{gameData.title}"!</p>
+            <div className="flex justify-center gap-4 mt-4 text-sm">
+              <span>Mistakes: {mistakes}/4</span>
+              <span>Hints Used: {hintsUsed}/2</span>
             </div>
-          ))}
+          </div>
+          <div className="space-y-2 mb-6">
+            {solvedGroups.map((group, index) => (
+              <div key={index} className={`${getSolvedGroupColor(group.difficulty)} text-white p-4 rounded-xl`}>
+                <h3 className="font-bold text-lg mb-2">{group.category}</h3>
+                <p className="text-sm opacity-90">{group.words.join(", ")}</p>
+              </div>
+            ))}
+          </div>
+          <Button 
+            onClick={onBackToMenu} 
+            size="lg" 
+            className="bg-brand-cyan hover:bg-cyan-400 text-brand-navy font-bold"
+          >
+            Back to Menu
+          </Button>
         </div>
-        <Button onClick={onBackToMenu} size="lg" className="bg-teal-600 hover:bg-teal-700">
-          Back to Menu
-        </Button>
       </div>
     );
   }
@@ -167,98 +173,97 @@ const GameBoard = ({ gameData, onGameComplete, onBackToMenu }) => {
   const remainingWords = shuffledWords.filter(word => !isWordSolved(word));
 
   return (
-    <div className="max-w-2xl mx-auto p-6">
-      {/* Header with Logo */}
-      <div className="text-center mb-6">
-        <div className="flex items-center justify-center gap-3 mb-2">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_kidconnections/artifacts/t3eatmx3_B.png" 
-            alt="Logo" 
-            className="w-8 h-8 object-contain"
-          />
-          <h2 className="text-2xl font-bold text-brand-teal-dark">{gameData.title}</h2>
-        </div>
-        <div className="flex justify-center gap-4 text-sm text-gray-600">
-          <span>Mistakes: {mistakes}/4</span>
-          <span>Groups Found: {solvedGroups.length}/4</span>
-          <span>Hints: {hintsUsed}/2</span>
-        </div>
-      </div>
-
-      {/* Solved Groups */}
-      {solvedGroups.map((group, index) => (
-        <div key={index} className={`${getSolvedGroupColor(group.difficulty)} text-white p-4 rounded-xl mb-3`}>
-          <h3 className="font-bold text-center mb-2">{group.category}</h3>
-          <div className="grid grid-cols-4 gap-2">
-            {group.words.map(word => (
-              <div key={word} className="bg-white bg-opacity-20 p-2 rounded text-center text-sm font-medium">
-                {word}
-              </div>
-            ))}
+    <div className="min-h-screen bg-brand-dark text-brand-cyan-bright">
+      <div className="max-w-2xl mx-auto p-6">
+        {/* Header with Logo */}
+        <div className="text-center mb-6">
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_kidconnections/artifacts/t3eatmx3_B.png" 
+              alt="Logo" 
+              className="w-8 h-8 object-contain"
+            />
+            <h2 className="text-2xl font-bold text-brand-cyan-bright">{gameData.title}</h2>
+          </div>
+          <div className="flex justify-center gap-4 text-sm text-cyan-300">
+            <span>Mistakes: {mistakes}/4</span>
+            <span>Groups Found: {solvedGroups.length}/4</span>
+            <span>Hints: {hintsUsed}/2</span>
           </div>
         </div>
-      ))}
 
-      {/* Game Grid */}
-      <div className="grid grid-cols-4 gap-3 mb-6">
-        {remainingWords.map(word => (
-          <Button
-            key={word}
-            variant={selectedWords.includes(word) ? "default" : "outline"}
-            className={`h-16 text-sm font-medium transition-all duration-200 ${
-              selectedWords.includes(word) 
-                ? "bg-brand-teal hover:bg-teal-600 text-white scale-105 shadow-lg" 
-                : "bg-white hover:bg-teal-50 text-brand-teal-dark border-2 border-teal-200 hover:border-teal-300"
-            }`}
-            onClick={() => toggleWordSelection(word)}
-          >
-            {word}
-          </Button>
+        {/* Solved Groups */}
+        {solvedGroups.map((group, index) => (
+          <div key={index} className={`${getSolvedGroupColor(group.difficulty)} text-white p-4 rounded-xl mb-3`}>
+            <h3 className="font-bold text-center mb-2">{group.category}</h3>
+            <div className="grid grid-cols-4 gap-2">
+              {group.words.map(word => (
+                <div key={word} className="bg-white bg-opacity-20 p-2 rounded text-center text-sm font-medium">
+                  {word}
+                </div>
+              ))}
+            </div>
+          </div>
         ))}
-      </div>
 
-      {/* Controls */}
-      <div className="flex justify-center gap-3">
-        <Button 
-          onClick={submitGuess}
-          disabled={selectedWords.length !== 4 || mistakes >= 4}
-          className="bg-teal-600 hover:bg-teal-700 px-6"
-        >
-          Submit Guess
-        </Button>
-        <Button 
-          onClick={() => setSelectedWords([])}
-          variant="outline"
-          className="px-6 border-teal-300 text-brand-teal hover:bg-teal-50"
-        >
-          Clear
-        </Button>
-        <Button 
-          onClick={getHint}
-          disabled={hintsUsed >= 2}
-          variant="outline"
-          className="px-6 border-cyan-300 text-cyan-600 hover:bg-cyan-50"
-        >
-          <Lightbulb className="w-4 h-4 mr-2" />
-          Hint
-        </Button>
-      </div>
-
-      {/* Mistake indicator */}
-      {mistakes > 0 && (
-        <div className="flex justify-center mt-4">
-          <div className="flex gap-1">
-            {[...Array(4)].map((_, i) => (
-              <div
-                key={i}
-                className={`w-3 h-3 rounded-full ${
-                  i < mistakes ? 'bg-red-500' : 'bg-teal-200'
-                }`}
-              />
-            ))}
-          </div>
+        {/* Game Grid */}
+        <div className="grid grid-cols-4 gap-3 mb-6">
+          {remainingWords.map(word => (
+            <Button
+              key={word}
+              className={`h-16 text-sm font-medium transition-all duration-200 ${
+                selectedWords.includes(word) 
+                  ? "bg-brand-cyan hover:bg-cyan-400 text-brand-navy scale-105 shadow-lg shadow-cyan-500/30" 
+                  : "bg-brand-navy hover:bg-cyan-900 text-brand-cyan-bright border-2 border-brand-cyan hover:border-cyan-400"
+              }`}
+              onClick={() => toggleWordSelection(word)}
+            >
+              {word}
+            </Button>
+          ))}
         </div>
-      )}
+
+        {/* Controls */}
+        <div className="flex justify-center gap-3">
+          <Button 
+            onClick={submitGuess}
+            disabled={selectedWords.length !== 4 || mistakes >= 4}
+            className="bg-brand-cyan hover:bg-cyan-400 text-brand-navy px-6 font-bold"
+          >
+            Submit Guess
+          </Button>
+          <Button 
+            onClick={() => setSelectedWords([])}
+            className="px-6 bg-brand-navy border-brand-cyan text-brand-cyan hover:bg-cyan-900"
+          >
+            Clear
+          </Button>
+          <Button 
+            onClick={getHint}
+            disabled={hintsUsed >= 2}
+            className="px-6 bg-brand-navy border-cyan-400 text-cyan-400 hover:bg-cyan-900"
+          >
+            <Lightbulb className="w-4 h-4 mr-2" />
+            Hint
+          </Button>
+        </div>
+
+        {/* Mistake indicator */}
+        {mistakes > 0 && (
+          <div className="flex justify-center mt-4">
+            <div className="flex gap-1">
+              {[...Array(4)].map((_, i) => (
+                <div
+                  key={i}
+                  className={`w-3 h-3 rounded-full ${
+                    i < mistakes ? 'bg-brand-red' : 'bg-brand-navy'
+                  }`}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

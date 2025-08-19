@@ -178,9 +178,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50">
+    <div className="min-h-screen">
       <BrowserRouter>
-        <div className="container mx-auto py-8">
+        <div className="min-h-screen">
           {currentView === 'levels' && (
             <LevelSelect 
               gameLevels={gameLevels}

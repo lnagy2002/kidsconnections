@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08202025-E",
+    "generatedAt": "2023-10-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Cherry",
+          "Date"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Yellow",
+          "Green",
+          "Blue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Dog",
+          "Cat",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "This puzzle is designed for younger children to recognize basic categories."
+  },
+  "medium": {
+    "id": "08202025-M",
+    "generatedAt": "2023-10-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Countries",
+        "items": [
+          "Canada",
+          "Brazil",
+          "Japan",
+          "Italy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Instruments",
+        "items": [
+          "Piano",
+          "Guitar",
+          "Drums",
+          "Violin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sports",
+        "items": [
+          "Soccer",
+          "Baseball",
+          "Basketball",
+          "Tennis"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Planets",
+        "items": [
+          "Earth",
+          "Mars",
+          "Jupiter",
+          "Venus"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "This puzzle is aimed at upper elementary students, focusing on general knowledge."
+  },
+  "hard": {
+    "id": "08202025-H",
+    "generatedAt": "2023-10-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Famous Scientists",
+        "items": [
+          "Einstein",
+          "Curie",
+          "Newton",
+          "Galileo"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Literary Genres",
+        "items": [
+          "Fiction",
+          "Non-Fiction",
+          "Poetry",
+          "Drama"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mathematical Concepts",
+        "items": [
+          "Algebra",
+          "Geometry",
+          "Calculus",
+          "Statistics"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Historical Events",
+        "items": [
+          "Revolution",
+          "Renaissance",
+          "Industrial",
+          "Civil Rights"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "This puzzle is designed for middle school students, encouraging critical thinking."
+  },
+  "id": "08202025",
+  "generatedAt": "2025-08-20T23:04:57.022Z"
+}

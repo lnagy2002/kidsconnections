@@ -1,35 +1,53 @@
-name: Daily AI JSON
+name: Daily Puzzles (Pages)
 
 on:
   schedule:
-    # Runs every day at 16:00 UTC (09:00 Los Angeles during PDT)
     - cron: "0 16 * * *"
   workflow_dispatch: {}
 
 permissions:
-  contents: write  # allow committing the generated file
+  contents: write
+  pages: write         # needed for deploy
+  id-token: write      # needed for OIDC during deploy
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-
       - name: Install deps
         run: npm install
-        # falls back to npm i if no lockfile, that's fine too
-
-      - name: Generate JSON via OpenAI
+      - name: Generate puzzles
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run generate
-
-      - name: Commit & push changes
+      - name: Commit & push new data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(daily): add AI-generated JSON"
+          commit_message: "chore(daily): add puzzles JSON"
           branch: ${{ github.ref_name }}
+
+  deploy:
+    needs: generate
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs              # publish the docs/ folder
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

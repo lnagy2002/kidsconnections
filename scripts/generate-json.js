@@ -22,32 +22,30 @@ function assertEnv(name) {
 }
 
 async function generatePuzzleJSON(client) {
-  const system = `You generate daily kid-friendly "Connections"-style puzzles.
-Output strictly valid JSON that matches this schema:
+  const system = `You generate kid-friendly "Connections"-style puzzles.
+Output strictly valid JSON matching this schema:
 {
-  "id": "MMDDYYYY",
-  "generatedAt": "ISO-8601 timestamp",
-  "groups": [
-    {"name": "string", "items": ["a","b","c","d"], "difficulty": "easy|medium|hard"}
-  ],
-  "notes": "string"
+  "easy": { "id": "MMDDYYYY-E", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "easy" } ], "notes": "string" },
+  "medium": { "id": "MMDDYYYY-M", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "medium" } ], "notes": "string" },
+  "hard": { "id": "MMDDYYYY-H", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "hard" } ], "notes": "string" }
 }
-Rules: 
-- Items must be unambiguous for grades 2-5.
-- No brand names or sensitive topics.
-- Vary categories daily; avoid repeats within a week.
+
+Rules:
+- Each puzzle has 4 groups of 4 items.
+- Items must be unambiguous for the grade range.
+- No repeats across groups in the same puzzle.
+- Easy = grades 2–3, Medium = grades 4–5, Hard = grades 6+.
+- Categories must vary daily.
 Return ONLY JSON.`;
 
   const today = new Date();
   const id = mmddyyyy(today);
 
-  const user = `Create 4 groups of 4 items each for date ${id}.
-One group should be animals, one colors or shapes, the others open but kid-safe.
-Do not repeat items across groups.`;
+  const user = `Generate 3 puzzles (easy, medium, hard) for date ${id}.`;
 
   // Chat Completions style (compatible with official SDK)
   const resp = await client.chat.completions.create({
-    model: "gpt-4o-mini",
+    model: "gpt-5-nano",
     messages: [
       { role: "system", content: system },
       { role: "user", content: user }
@@ -77,7 +75,7 @@ Do not repeat items across groups.`;
   assertEnv("OPENAI_API_KEY");
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-  const outDir = path.join(process.cwd(), "data");
+  const outDir = path.join(process.cwd(), "docs", "data");
   fs.mkdirSync(outDir, { recursive: true });
 
   const stamp = mmddyyyy();

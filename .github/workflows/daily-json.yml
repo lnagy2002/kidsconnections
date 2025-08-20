@@ -1,0 +1,35 @@
+name: Daily AI JSON
+
+on:
+  schedule:
+    # Runs every day at 16:00 UTC (09:00 Los Angeles during PDT)
+    - cron: "0 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write  # allow committing the generated file
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm ci
+        # falls back to npm i if no lockfile, that's fine too
+
+      - name: Generate JSON via OpenAI
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run generate
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(daily): add AI-generated JSON"
+          branch: ${{ github.ref_name }}

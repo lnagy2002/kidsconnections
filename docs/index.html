@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Kids’ Connections — v2</title>
+  <style>
+    :root {
+      --bg:#f7f7fb; --panel:#fff; --ink:#0e364b;
+      --accent1:#2b90d9; --accent2:#22a699; --accent3:#f2b705; --accent4:#f25c54;
+    }
+    body { margin:0; font-family:Arial, sans-serif; background:var(--bg); color:var(--ink);}
+    .app { max-width:960px; margin:20px auto; background:#fff; padding:20px; border-radius:14px; }
+    h1 { margin-top:0; }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:15px;}
+    .card {
+      border:2px solid #ccc; border-radius:10px; padding:12px; text-align:center;
+      cursor:pointer; font-weight:bold; user-select:none; background:#fff;
+    }
+    .card[aria-pressed="true"] { border-color:var(--accent1); background:#eef6ff; }
+    .btn { padding:8px 14px; border-radius:8px; cursor:pointer; border:1px solid #ccc; margin:4px; }
+    .btn.primary { background:var(--ink); color:#fff; border:none; }
+    .found-row { display:flex; align-items:center; margin:6px 0; border-radius:10px; padding:6px; }
+    .found-label { font-weight:bold; margin-right:10px; padding:4px 8px; border-radius:6px; background:#ddd;}
+    .found-items { display:flex; flex:1; gap:6px;}
+    .found-item { flex:1; text-align:center; padding:6px; border-radius:6px; background:#f0f0f0;}
+    .complete-badge { margin-left:10px; font-size:12px; color:#fff; background:green; padding:2px 6px; border-radius:6px;}
+  </style>
+</head>
+<body>
+<div class="app">
+  <h1>🧠 Kids’ Connections</h1>
+  <p>Group 16 tiles into 4 sets of 4.</p>
+  <div>
+    <label>Level:
+      <select id="level">
+        <option value="easy">Easy (Grades 2–3)</option>
+        <option value="medium">Medium (Grades 3–4)</option>
+        <option value="hard">Hard (Grades 4–5)</option>
+      </select>
+    </label>
+  </div>
+  <div id="foundContainer"></div>
+  <div id="grid" class="grid"></div>
+  <div>
+    <button id="btnSubmit" class="btn primary">Submit</button>
+    <button id="btnShuffle" class="btn">Shuffle</button>
+    <button id="btnHint" class="btn">Hint</button>
+    <button id="btnReset" class="btn">Start Over</button>
+  </div>
+</div>
+
+<script>
+const PUZZLE_BANK = {
+  easy: [{
+    id:"e1",
+    groups:[
+      { name:"Animals", items:["Dog","Cat","Cow","Sheep"], color:"var(--accent1)" },
+      { name:"Colors", items:["Red","Blue","Yellow","Green"], color:"var(--accent2)" },
+      { name:"Fruits", items:["Apple","Banana","Orange","Grape"], color:"var(--accent3)" },
+      { name:"Shapes", items:["Circle","Square","Triangle","Rectangle"], color:"var(--accent4)" }
+    ]
+  }],
+  medium: [{
+    id:"m1",
+    groups:[
+      { name:"Seasons", items:["Winter","Spring","Summer","Fall"], color:"var(--accent1)" },
+      { name:"Transport", items:["Bike","Bus","Train","Car"], color:"var(--accent2)" },
+      { name:"Space", items:["Sun","Moon","Star","Planet"], color:"var(--accent3)" },
+      { name:"Clothes", items:["Sock","Shirt","Pants","Hat"], color:"var(--accent4)" }
+    ]
+  }],
+  hard: [{
+    id:"h1",
+    groups:[
+      { name:"Planets", items:["Mercury","Venus","Earth","Mars"], color:"var(--accent1)" },
+      { name:"Instruments", items:["Violin","Piano","Guitar","Drums"], color:"var(--accent2)" },
+      { name:"Big Cats", items:["Lion","Tiger","Leopard","Cheetah"], color:"var(--accent3)" },
+      { name:"Directions", items:["North","South","East","West"], color:"var(--accent4)" }
+    ]
+  }]
+};
+
+let state={level:"easy", selected:new Set(), solved:[], items:[]};
+
+function init(level){
+  state.level=level; state.solved=[]; state.selected=new Set();
+  const groups=PUZZLE_BANK[level][0].groups;
+  state.items=groups.flatMap(g=>g.items.map(t=>({text:t,group:g.name,color:g.color})));
+  state.items.sort(()=>Math.random()-0.5);
+  render();
+}
+
+function render(){
+  const grid=document.getElementById("grid");
+  grid.innerHTML="";
+  state.items.forEach(it=>{
+    if(state.solved.some(g=>g.items.includes(it.text))) return;
+    const b=document.createElement("button");
+    b.className="card";
+    b.textContent=it.text;
+    b.setAttribute("aria-pressed", state.selected.has(it.text));
+    b.onclick=()=>toggle(it.text);
+    grid.appendChild(b);
+  });
+  renderFound();
+}
+
+function renderFound(){
+  const c=document.getElementById("foundContainer");
+  c.innerHTML="";
+  state.solved.forEach(g=>{
+    const row=document.createElement("div");
+    row.className="found-row";
+    const label=document.createElement("div");
+    label.className="found-label";
+    label.style.background=g.color;
+    label.style.color="#fff";
+    label.textContent=g.groupName;
+    const badge=document.createElement("span");
+    badge.className="complete-badge";
+    badge.textContent="✓ Complete";
+    label.appendChild(badge);
+    const itemsDiv=document.createElement("div");
+    itemsDiv.className="found-items";
+    g.items.forEach(it=>{
+      const span=document.createElement("div");
+      span.className="found-item";
+      span.style.background=g.color; span.style.color="#fff";
+      span.textContent=it;
+      itemsDiv.appendChild(span);
+    });
+    row.appendChild(label); row.appendChild(itemsDiv);
+    c.appendChild(row);
+  });
+}
+
+function toggle(t){
+  if(state.selected.has(t)) state.selected.delete(t);
+  else {
+    if(state.selected.size>=4){ alert("Already 4 selected"); return; }
+    state.selected.add(t);
+  }
+  render();
+}
+
+function submit(){
+  if(state.selected.size!==4) return alert("Pick 4 tiles");
+  const chosen=Array.from(state.selected);
+  const groups=PUZZLE_BANK[state.level][0].groups;
+  for(const g of groups){
+    if(g.items.every(x=>chosen.includes(x))){
+      state.solved.push({groupName:g.name, items:g.items, color:g.color});
+      state.selected.clear();
+      render();
+      if(state.solved.length===4) alert("🎉 You solved all groups!");
+      return;
+    }
+  }
+  alert("❌ Not a group, try again!");
+  state.selected.clear();
+  render();
+}
+
+document.getElementById("btnSubmit").onclick=submit;
+document.getElementById("btnShuffle").onclick=()=>{state.items.sort(()=>Math.random()-0.5); render();};
+document.getElementById("btnReset").onclick=()=>init(state.level);
+document.getElementById("btnHint").onclick=()=>alert("Look for 4 things that belong together!");
+document.getElementById("level").onchange=(e)=>init(e.target.value);
+
+init("easy");
+</script>
+</body>
+</html>

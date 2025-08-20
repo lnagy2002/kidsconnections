@@ -6,8 +6,8 @@
   <title>Kids’ Connections — v2</title>
   <style>
     :root {
-      --bg:#0e364b; --panel:#0e364b; --ink:#a9f4f4;
-      --accent1:#f0db79; --accent2:#22a699; --accent3:#f2b705; --accent4:#f25c54;
+      --bg:#0e364b; --panel:#0e364b; --ink:#a9f4f4; --cell:#f0db79;
+      --accent1:#3b82f6; --accent2:#22a699; --accent3:#f2b705; --accent4:#f25c54;
     }
     body { margin:0; font-family:"Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; background:var(--bg); color:var(--ink);}
     .app { max-width:960px; margin:20px auto; padding:20px; border-radius:14px; }
@@ -42,7 +42,7 @@
       background-color: #a9f4f4; border-radius:10px; padding:12px; text-align:center;  height: 100px;  font-size: 16px; text-transform: uppercase;
       cursor:pointer; font-weight:bold; user-select:none; background:#fff;
     }
-    .card[aria-pressed="true"] { background:var(--accent1); }
+    .card[aria-pressed="true"] { background:var(--cell); }
     .btn { padding:8px 14px; border-radius:8px; cursor:pointer; border:1px solid #ccc; margin:10px; font-size: 16px; font-weight:300;}
     .btn.primary { background:#05a9ac; color:#000; border:none; }
     .found-row { color: #000; display:flex; align-items:center; margin:6px 0; border-radius:10px; padding:6px; height: 100px; font-size: 16px; text-transform: uppercase;}

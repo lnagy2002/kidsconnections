@@ -58,12 +58,19 @@ Return ONLY JSON.`;
 
   // Basic JSON guard: strip code fences if present
   const jsonString = text.replace(/^```json\s*|\s*```$/g, "");
+  console.log (jsonString);
   const data = JSON.parse(jsonString);
 
-  // Minimal shape check
-  if (!Array.isArray(data.groups) || data.groups.length !== 4) {
-    throw new Error("JSON validation failed: expected 4 groups.");
-  }
+  // Minimal shape check for new structure
+["easy", "medium", "hard"].forEach(level => {
+  if (
+    !data[level] ||
+    !Array.isArray(data[level].groups) ||
+    data[level].groups.length !== 4
+  ) {
+    throw new Error(`JSON validation failed: expected 4 groups in "${level}" puzzle.`);
+  }});
+
 
   data.id = id;
   data.generatedAt = today.toISOString();

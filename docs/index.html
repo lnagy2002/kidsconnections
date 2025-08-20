@@ -61,8 +61,8 @@
     <label>Pick the Right Challenge Level (by Grade)
       <select id="level">
         <option value="easy">Easy (Grades 2–3)</option>
-        <option value="medium">Medium (Grades 3–4)</option>
-        <option value="hard">Hard (Grades 4–5)</option>
+        <option value="medium">Medium (Grades 4-5)</option>
+        <option value="hard">Hard (Grades 5+)</option>
       </select>
     </label>
   </div>
@@ -79,12 +79,17 @@
   </div>
 </div>
 <script>
-  const today = new Date();
+    const today = new Date();
 
     // Format it as Month Day, Year (e.g., August 20, 2025)
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     const formattedDate = today.toLocaleDateString(undefined, options);
 
+    const mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+    const dd = String(today.getDate()).padStart(2, '0');
+    const yyyy = today.getFullYear();
+
+    const formattedFileDate = mm + dd + yyyy;
     // Insert into HTML
     document.getElementById("date").textContent = formattedDate;
 </script>
@@ -101,10 +106,10 @@ let PUZZLE_BANK={};
 
 async function loadData() {
       try {
-        const res = await fetch('https://lnagy2002.github.io/kidsconnections/08202025.json');             // <-- your JSON file
+        const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/daily-' +  formattedFileDate + ".json");             // <-- your JSON file
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         PUZZLE_BANK = await res.json();
-        init("easy");                                    // render it
+        init("easy");                               // render it
       } catch (err) {
         const c = document.getElementById('grid');
         c.innerHTML = `<p class="error">Couldn’t load data: ${err.message}</p>`;
@@ -114,9 +119,33 @@ async function loadData() {
 
 function init(level){
   state.level=level; state.solved=[]; state.selected=new Set();
-  const groups=PUZZLE_BANK[level][0].groups;
-  state.items=groups.flatMap(g=>g.items.map(t=>({text:t,group:g.name,color:g.color})));
-  state.items.sort(()=>Math.random()-0.5);
+  const groups = PUZZLE_BANK[level].groups;
+
+  // available colors
+  const colors = [
+    "var(--accent1)",
+    "var(--accent2)",
+    "var(--accent3)",
+    "var(--accent4)"
+  ];
+
+  // shuffle colors so each group gets a unique one
+  const shuffled = [...colors].sort(() => Math.random() - 0.5);
+
+  // assign each group a unique color
+  groups.forEach((g, i) => {
+    g.color = shuffled[i % shuffled.length];
+  });
+
+  state.items = groups.flatMap(g =>
+    g.items.map(t => ({
+      text: t,
+      group: g.name,
+      color: g.color
+    }))
+  );
+
+  state.items.sort(() => Math.random() - 0.5);
   render();
 }
 
@@ -178,7 +207,7 @@ function toggle(t){
 function submit(){
   if(state.selected.size!==4) return showMessage ("Try picking four tiles to make a connection!");
   const chosen=Array.from(state.selected);
-  const groups=PUZZLE_BANK[state.level][0].groups;
+  const groups=PUZZLE_BANK[state.level].groups;
   for(const g of groups){
     if(g.items.every(x=>chosen.includes(x))){
       state.solved.push({groupName:g.name, items:g.items, color:g.color});

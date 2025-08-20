@@ -29,8 +29,8 @@
 </head>
 <body>
 <div class="app">
-  <h1>🧠 Kids’ Connections</h1>
-  <p>Group 16 tiles into 4 sets of 4.</p>
+  <h1>Kids’ Connections <span id="date"></span> </h1>
+  <p>Create four groups of four!</p>
   <div>
     <label>Level:
       <select id="level">
@@ -49,7 +49,16 @@
     <button id="btnReset" class="btn">Start Over</button>
   </div>
 </div>
+<script>
+  const today = new Date();
 
+    // Format it as Month Day, Year (e.g., August 20, 2025)
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = today.toLocaleDateString(undefined, options);
+
+    // Insert into HTML
+    document.getElementById("date").textContent = formattedDate;
+</script>
 <script>
 const PUZZLE_BANK = {
   easy: [{

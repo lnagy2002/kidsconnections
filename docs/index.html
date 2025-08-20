@@ -92,43 +92,25 @@
    function showMessage  (text) {
      document.getElementById("message").style.display = "block";
      document.getElementById("message").textContent = text;
-    //  setTimeout(function() {
-    //   document.getElementById("message").style.display = "none";
-    // }, 5000);
    }
 </script>
 <script>
-const PUZZLE_BANK = {
-  easy: [{
-    id:"e1",
-    groups:[
-      { name:"Animals", items:["Dog","Cat","Cow","Sheep"], color:"var(--accent1)" },
-      { name:"Colors", items:["Red","Blue","Yellow","Green"], color:"var(--accent2)" },
-      { name:"Fruits", items:["Apple","Banana","Orange","Grape"], color:"var(--accent3)" },
-      { name:"Shapes", items:["Circle","Square","Triangle","Rectangle"], color:"var(--accent4)" }
-    ]
-  }],
-  medium: [{
-    id:"m1",
-    groups:[
-      { name:"Seasons", items:["Winter","Spring","Summer","Fall"], color:"var(--accent1)" },
-      { name:"Transport", items:["Bike","Bus","Train","Car"], color:"var(--accent2)" },
-      { name:"Space", items:["Sun","Moon","Star","Planet"], color:"var(--accent3)" },
-      { name:"Clothes", items:["Sock","Shirt","Pants","Hat"], color:"var(--accent4)" }
-    ]
-  }],
-  hard: [{
-    id:"h1",
-    groups:[
-      { name:"Planets", items:["Mercury","Venus","Earth","Mars"], color:"var(--accent1)" },
-      { name:"Instruments", items:["Violin","Piano","Guitar","Drums"], color:"var(--accent2)" },
-      { name:"Big Cats", items:["Lion","Tiger","Leopard","Cheetah"], color:"var(--accent3)" },
-      { name:"Directions", items:["North","South","East","West"], color:"var(--accent4)" }
-    ]
-  }]
-};
 
 let state={level:"easy", selected:new Set(), solved:[], items:[]};
+let PUZZLE_BANK={};
+
+async function loadData() {
+      try {
+        const res = await fetch('https://lnagy2002.github.io/kidsconnections/08202025.json');             // <-- your JSON file
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        PUZZLE_BANK = await res.json();
+        init("easy");                                    // render it
+      } catch (err) {
+        const c = document.getElementById('grid');
+        c.innerHTML = `<p class="error">Couldn’t load data: ${err.message}</p>`;
+        setTimeout(() => c.firstChild?.remove(), 5000);     // auto-hide after 5s (optional)
+      }
+    }
 
 function init(level){
   state.level=level; state.solved=[]; state.selected=new Set();
@@ -218,7 +200,7 @@ document.getElementById("btnReset").onclick=()=>init(state.level);
 document.getElementById("btnHint").onclick=()=>showMessage ("Look for 4 things that belong together!");
 document.getElementById("level").onchange=(e)=>init(e.target.value);
 
-init("easy");
+loadData();
 </script>
 </body>
 </html>

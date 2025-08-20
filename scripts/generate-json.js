@@ -45,12 +45,12 @@ Return ONLY JSON.`;
 
   // Chat Completions style (compatible with official SDK)
   const resp = await client.chat.completions.create({
-    model: "gpt-5-nano",
+    model: "gpt-4o-mini",
     messages: [
       { role: "system", content: system },
       { role: "user", content: user }
     ],
-    // temperature: 0.7
+    temperature: 0.7
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();

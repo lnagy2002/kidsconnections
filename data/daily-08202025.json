@@ -1,0 +1,47 @@
+{
+  "id": "08202025",
+  "generatedAt": "2025-08-20T22:16:11.727Z",
+  "groups": [
+    {
+      "name": "Animals",
+      "items": [
+        "Cat",
+        "Dog",
+        "Fish",
+        "Bird"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Colors",
+      "items": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Fruits",
+      "items": [
+        "Apple",
+        "Banana",
+        "Grape",
+        "Orange"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Vehicles",
+      "items": [
+        "Car",
+        "Bike",
+        "Bus",
+        "Train"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "notes": "Each group consists of four items that share a common theme."
+}

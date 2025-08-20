@@ -1,0 +1,11 @@
+{
+  "name": "daily-ai-json",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-json.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}

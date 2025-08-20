@@ -20,7 +20,7 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: npm ci
+        run: npm install
         # falls back to npm i if no lockfile, that's fine too
 
       - name: Generate JSON via OpenAI

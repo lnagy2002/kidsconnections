@@ -95,7 +95,6 @@
 </script>
 <script>
    function showMessage  (text) {
-     document.getElementById("message").style.display = "block";
      document.getElementById("message").textContent = text;
    }
 </script>
@@ -120,6 +119,7 @@ async function loadData() {
 function init(level){
   state.level=level; state.solved=[]; state.selected=new Set();
   const groups = PUZZLE_BANK[level].groups;
+  showMessage ();
 
   // available colors
   const colors = [

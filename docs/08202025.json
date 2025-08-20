@@ -1,0 +1,29 @@
+{
+  easy: [{
+    id:"e1",
+    groups:[
+      { name:"Animals", items:["Dog","Cat","Cow","Sheep"], color:"var(--accent1)" },
+      { name:"Colors", items:["Red","Blue","Yellow","Green"], color:"var(--accent2)" },
+      { name:"Fruits", items:["Apple","Banana","Orange","Grape"], color:"var(--accent3)" },
+      { name:"Shapes", items:["Circle","Square","Triangle","Rectangle"], color:"var(--accent4)" }
+    ]
+  }],
+  medium: [{
+    id:"m1",
+    groups:[
+      { name:"Seasons", items:["Winter","Spring","Summer","Fall"], color:"var(--accent1)" },
+      { name:"Transport", items:["Bike","Bus","Train","Car"], color:"var(--accent2)" },
+      { name:"Space", items:["Sun","Moon","Star","Planet"], color:"var(--accent3)" },
+      { name:"Clothes", items:["Sock","Shirt","Pants","Hat"], color:"var(--accent4)" }
+    ]
+  }],
+  hard: [{
+    id:"h1",
+    groups:[
+      { name:"Planets", items:["Mercury","Venus","Earth","Mars"], color:"var(--accent1)" },
+      { name:"Instruments", items:["Violin","Piano","Guitar","Drums"], color:"var(--accent2)" },
+      { name:"Big Cats", items:["Lion","Tiger","Leopard","Cheetah"], color:"var(--accent3)" },
+      { name:"Directions", items:["North","South","East","West"], color:"var(--accent4)" }
+    ]
+  }]
+};

@@ -21,8 +21,34 @@ function assertEnv(name) {
   }
 }
 
+// Simple validators
+const isAlpha = s => /^[A-Z]+$/.test(s);
+const hasLength = (s, n) => s.length === n;
+
+
 async function generatePuzzleJSON(client) {
+  // Ask the model to output STRICT JSON only, with lengths enforced.
+  // We use Structured Outputs to make the model follow a JSON schema. 
+  // (This is supported in the Responses API.)
+  // Docs: https://platform.openai.com/docs/guides/structured-outputs
+  const schema = {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      easy:   { type: "string", description: "ALL CAPS, exactly 4 letters, kid-friendly common word (no proper nouns or plurals)" },
+      medium: { type: "string", description: "ALL CAPS, exactly 5 letters, kid-friendly common word (no proper nouns or plurals)" },
+      hard:   { type: "string", description: "ALL CAPS, exactly 6 letters, kid-friendly common word (no proper nouns or plurals)" }
+    },
+    required: ["easy", "medium", "hard"]
+  };
+  
   const system = `You generate daily words for a kids' Wordle-style game.
+  Output strictly valid JSON matching this schema:
+{
+  "easy": { "id": "MMDDYYYY-E", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "easy" } ], "notes": "string" },
+  "medium": { "id": "MMDDYYYY-M", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "medium" } ], "notes": "string" },
+  "hard": { "id": "MMDDYYYY-H", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "hard" } ], "notes": "string" }
+}
 Rules:
 - EASY: 4-letter common word.
 - MEDIUM: 5-letter common word.
@@ -45,27 +71,26 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
       { role: "system", content: system },
       { role: "user", content: user }
     ],
+    response_format: { type: "json_schema", json_schema: { name: "DailyWords", schema } },
     reasoning_effort: "minimal", // preferred control knob
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();
   if (!text) throw new Error("Empty response from model.");
 
-  // Basic JSON guard: strip code fences if present
-  const jsonString = text.replace(/^```json\s*|\s*```$/g, "");
-  console.log (jsonString);
-  const data = JSON.parse(jsonString);
+  // Extract JSON object
+  const content = resp.output[0]?.content?.[0]?.text;
+  let data;
+  try {
+    data = JSON.parse(content);
+  } catch {
+    throw new Error("Model did not return valid JSON.");
+  }
 
-  // Minimal shape check for new structure
-["easy", "medium", "hard"].forEach(level => {
-  if (
-    !data[level] ||
-    !Array.isArray(data[level].groups) ||
-    data[level].groups.length !== 4
-  ) {
-    throw new Error(`JSON validation failed: expected 4 groups in "${level}" puzzle.`);
-  }});
-
+  // Validate lengths & characters; if invalid, throw (workflow will show logs)
+  if (!isAlpha(data.easy)   || !hasLength(data.easy, 4)) throw new Error("Invalid EASY word");
+  if (!isAlpha(data.medium) || !hasLength(data.medium, 5)) throw new Error("Invalid MEDIUM word");
+  if (!isAlpha(data.hard)   || !hasLength(data.hard, 6)) throw new Error("Invalid HARD word");
 
   data.id = id;
   data.generatedAt = today.toISOString();

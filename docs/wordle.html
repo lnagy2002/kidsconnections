@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kids' Wordle — Daily</title>
+    <style>
+         :root {
+            --bg: #0e364b;
+            --panel: #0e364b;
+            --text: #a9f4f4;
+            --muted: #f0db79;
+            --ok: #4ade80;
+            --maybe: #facc15;
+            --no: #64748b;
+            --border: #1b2659;
+            --key: #0f1736;
+            --key-hover: #141f4a;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            height: 100%
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+            margin: 0;
+            font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+
+        }
+
+        .wrap {
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 14px;
+            width: min(960px, 96vw)
+        }
+
+        .muted {
+            color: var(--muted)
+        }
+
+        .panel {
+            background-color: var(--panel);
+            text-align: center;
+        }
+        /* Minimal controls row: only Level */
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            padding: 10px 12px
+        }
+
+        label {
+            font-size: 16px;
+            /* color: var(--muted) */
+        }
+
+        .field {
+            padding: 8px 10px;
+            border-radius: 10px;
+            border: 1px solid #223064;
+            background: #0c1431;
+            color: var(--text);
+            font-size: 16px;
+        }
+
+        .board {
+            margin-top: 10px;
+            display: grid;
+            gap: 8px;
+            justify-content: center;
+            padding: 16px
+        }
+
+        .row {
+            display: flex;
+            gap: 8px
+        }
+
+        .cell {
+            width: 56px;
+            height: 56px;
+            border-radius: 10px;
+            background: #fff;
+            border: 2px solid #1a2550;
+            display: grid;
+            place-items: center;
+            font-weight: 900;
+            font-size: 26px;
+            text-transform: uppercase;
+            color: #000;
+        }
+
+        .cell.ok {
+            background: var(--ok);
+            color: #083f2b
+        }
+
+        .cell.maybe {
+            background: var(--maybe);
+            color: #4a3a00
+        }
+
+        .cell.no {
+            background: var(--no);
+            color: #0b1222
+        }
+
+        .keyboard {
+            padding-top: 50px;
+            display: grid;
+            gap: 8px
+        }
+
+        .kbrow {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 8px
+        }
+
+        .kbrow.mid {
+            grid-template-columns: 0.5fr repeat(9, 1fr) 0.5fr
+        }
+
+        .kbrow.bot {
+            grid-template-columns: 1.25fr repeat(7, 1fr) 1.25fr
+        }
+
+        .key {
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            background: var(--key);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 12px 6px;
+            display: grid;
+            place-items: center;
+            font-weight: 800;
+            font-size: 18px;
+            color: var(--text);
+            text-transform: uppercase;
+            touch-action: manipulation
+        }
+
+        .key:hover {
+            background: var(--key-hover)
+        }
+
+        .key.wide {
+            grid-column: span 1;
+            font-size: 13px;
+        }
+
+        .key.bad {
+            background: #1c253f;
+            color: #6d7aa3
+        }
+
+        .key.ok {
+            background: var(--ok);
+            color: #083f2b
+        }
+
+        .key.maybe {
+            background: var(--maybe);
+            color: #4a3a00
+        }
+
+        .key.used {
+            outline: 2px dashed #8aa0ff;
+            outline-offset: 2px;
+            opacity: .9
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 10px 12px;
+            border-top: 1px solid var(--border)
+        }
+        h1.header {
+            margin-top: 0;
+            font-size: revert;
+        }
+
+        @media (max-width: 600px) {
+            .wrap {
+                margin: 10px auto;
+                padding: 10px;
+            }
+
+            .keyboard {
+              padding-top: 10px;
+            }
+            .kbrow {
+                gap: 3px
+            }
+
+            .key {
+              min-width:30px;
+            }
+
+            .key.wide {
+              min-width: 50px;
+              font-size: 10px;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+
+            <h1 class="header">Kids' Wordle</h1>
+            <hr>
+            <section class="panel controls">
+                <!-- <label for="level">Pick the Right Challenge Level (by Grade)</label>
+                <select id="level" class="field">
+                  <option value="easy">Easy (Grades 2–3)</option>
+                  <option value="medium" selected>Medium (Grades 4-5)</option>
+                  <option value="hard">HHard (Grades 6+)</option>
+                </select> -->
+                <span id="date"></span><div id="msg" class="muted" style="margin-left:auto">Ready</div>
+            </section>
+            <hr>
+
+        <section id="game" class="panel">
+            <div id="board" class="board" aria-live="polite"></div>
+            <div class="keyboard" aria-label="On‑screen keyboard">
+                <div id="kb1" class="kbrow top"></div>
+                <div id="kb2" class="kbrow mid"></div>
+                <div id="kb3" class="kbrow bot"></div>
+            </div>
+        </section>
+    </div>
+    <script>
+        const t = new Date();
+
+        // Format it as Month Day, Year (e.g., August 20, 2025)
+        const options = {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        };
+        const formattedDate = t.toLocaleDateString(undefined, options);
+
+        const mm = String(t.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+        const dd = String(t.getDate()).padStart(2, '0');
+        const yyyy = t.getFullYear();
+
+        const formattedFileDate = mm + dd + yyyy;
+        // Insert into HTML
+        document.getElementById("date").textContent = formattedDate;
+    </script>
+    <script>
+        // ===== Daily deterministic word (by date + level) =====
+        class RNG {
+            constructor(s) {
+                this.m = 2147483647;
+                this.a = 48271;
+                this.q = (this.m / this.a) | 0;
+                this.r = this.m % this.a;
+                this.state = Math.max(1, s % this.m);
+            }
+            nextInt() {
+                const d = (this.state / this.q) | 0;
+                const rem = this.state % this.q;
+                let t = (this.a * rem) - (this.r * d);
+                if (t <= 0) t += this.m;
+                this.state = t;
+                return t;
+            }
+            next() {
+                return this.nextInt() / this.m;
+            }
+        }
+        const seed = s => {
+            let h = 5381;
+            for (let i = 0; i < s.length; i++) h = ((h << 5) + h) ^ s.charCodeAt(i);
+            h = h >>> 0;
+            return (h % 2147483646) + 1;
+        };
+        const today = () => {
+            const t = new Date();
+            return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`;
+        };
+
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name); // returns null if not found
+        }
+        // Word lists — replace with your own
+        const WORDS = {
+            easy: ["CAT", "DOG", "BEE", "MOON", "TREE", "FROG", "BIRD", "FISH", "STAR", "LION"],
+            medium: ["APPLE", "SMILE", "MUSIC", "CANDY", "HAPPY", "WATER", "HOUSE", "TRAIN"],
+            hard: ["FLOWER", "ANIMAL", "PLANET", "PUZZLE", "BRIGHT", "GARDEN", "MONKEY"]
+        };
+
+        // DOM
+        const $ = q => document.querySelector(q);
+        const boardEl = $('#board'),
+            msgEl = $('#msg');
+        const levelSel = getQueryParam ("level");
+        const kb1 = $('#kb1'),
+            kb2 = $('#kb2'),
+            kb3 = $('#kb3');
+
+        // State (6 tries like NYT)
+        let S = {
+            secret: "",
+            level: "medium",
+            len: 5,
+            row: 0,
+            col: 0,
+            max: 6,
+            grid: [],
+            done: false,
+            keyState: new Map(),
+            touched: new Set()
+        };
+
+        function pickDaily(level, d) {
+            const list = WORDS[level].filter(w => level === 'easy' ? (w.length >= 3 && w.length <= 4) : level === 'medium' ? w.length === 5 : w.length === 6);
+            const rng = new RNG(seed(`${d}|${level}`));
+            return list[Math.floor(rng.next() * list.length)];
+        }
+
+        function buildBoard(len, rows) {
+            boardEl.innerHTML = '';
+            for (let r = 0; r < rows; r++) {
+                const row = document.createElement('div');
+                row.className = 'row';
+                for (let c = 0; c < len; c++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    row.appendChild(cell);
+                }
+                boardEl.appendChild(row);
+            }
+        }
+
+        function buildKeyboard() {
+            const make = (row, keys) => {
+                row.innerHTML = '';
+                for (const k of keys) {
+                    if (k === '') {
+                        const spacer = document.createElement('div');
+                        spacer.style.visibility = 'hidden';
+                        row.appendChild(spacer);
+                        continue;
+                    }
+                    const b = document.createElement('button');
+                    b.className = 'key';
+                    b.type = 'button';
+                    b.setAttribute('aria-label', k === 'ENTER' ? 'Enter' : (k === '⌫' ? 'Delete' : `Letter ${k}`));
+                    b.textContent = k;
+                    if (k === 'ENTER') b.classList.add('wide');
+                    b.addEventListener('click', () => press(k));
+                    row.appendChild(b);
+                }
+            };
+            make(kb1, 'QWERTYUIOP'.split(''));
+            make(kb2, ['', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', '']);
+            make(kb3, ['ENTER','Z', 'X', 'C', 'V', 'B', 'N', 'M', '⌫']);
+            updateKeycaps();
+        }
+
+        // Scoring like Wordle: greens first, then yellows up to counts
+        function score(guess, ans) {
+            const res = Array(guess.length).fill('no');
+            const used = Array(ans.length).fill(false);
+            for (let i = 0; i < guess.length; i++)
+                if (guess[i] === ans[i]) {
+                    res[i] = 'ok';
+                    used[i] = true;
+                }
+            for (let i = 0; i < guess.length; i++)
+                if (res[i] === 'no') {
+                    for (let j = 0; j < ans.length; j++)
+                        if (!used[j] && guess[i] === ans[j]) {
+                            res[i] = 'maybe';
+                            used[j] = true;
+                            break;
+                        }
+                }
+            return res;
+        }
+
+        function reset() {
+            const d = today();
+            const lvl = levelSel;
+            const secret = pickDaily(lvl, d);
+            S = {
+                secret,
+                level: lvl,
+                len: secret.length,
+                row: 0,
+                col: 0,
+                max: 6,
+                grid: Array.from({
+                    length: 6
+                }, () => Array(secret.length).fill('')),
+                done: false,
+                keyState: new Map(),
+                touched: new Set()
+            };
+            buildBoard(S.len, S.max);
+            buildKeyboard();
+            msg(`Daily ${lvl} • ${S.len} letters`);
+        }
+
+        function msg(t) {
+            msgEl.textContent = t;
+        }
+
+        function markTouched(ch) {
+            if (!/^[A-Z]$/.test(ch)) return;
+            S.touched.add(ch);
+            updateKeycaps();
+        }
+
+        function place(ch) {
+            if (S.done) return;
+            if (S.col >= S.len) return;
+            S.grid[S.row][S.col] = ch;
+            const cell = boardEl.children[S.row].children[S.col];
+            cell.textContent = ch;
+            S.col++;
+            markTouched(ch);
+        }
+
+        function back() {
+            if (S.col > 0) {
+                S.col--;
+                S.grid[S.row][S.col] = '';
+                boardEl.children[S.row].children[S.col].textContent = '';
+            }
+        }
+
+        function updateKeyStateFromGuess(guess, res) {
+            for (let i = 0; i < guess.length; i++) {
+                const ch = guess[i];
+                const score = res[i];
+                const cur = S.keyState.get(ch) || 'no';
+                const prio = {
+                    no: 0,
+                    maybe: 1,
+                    ok: 2
+                };
+                if (prio[score] > prio[cur]) S.keyState.set(ch, score);
+                S.touched.add(ch);
+            }
+            updateKeycaps();
+        }
+
+        function updateKeycaps() {
+            const all = [...kb1.children, ...kb2.children, ...kb3.children];
+            for (const b of all) {
+                const k = b.textContent;
+                b.classList.remove('ok', 'maybe', 'bad', 'used');
+                if (k === 'ENTER' || k === '⌫' || k === '') continue;
+                const st = S.keyState.get(k) || null;
+                if (st === 'ok') b.classList.add('ok');
+                else if (st === 'maybe') b.classList.add('maybe');
+                else if (st === null && S.touched.has(k)) b.classList.add('used');
+                else if (st) b.classList.add('bad');
+            }
+        }
+
+        function commit() {
+            if (S.done) return;
+            const g = S.grid[S.row].join('');
+            if (g.length !== S.len) return msg(`Need ${S.len} letters`);
+            const res = score(g, S.secret);
+            const rowEl = boardEl.children[S.row];
+            for (let i = 0; i < res.length; i++) rowEl.children[i].classList.add(res[i]);
+            updateKeyStateFromGuess(g, res);
+            if (g === S.secret) {
+                S.done = true;
+                msg('🎉 You got it!');
+                return;
+            }
+            S.row++;
+            S.col = 0;
+            if (S.row >= S.max) {
+                S.done = true;
+                msg(`Out of guesses! Answer: ${S.secret}`);
+            }
+        }
+
+        function press(k) {
+            if (k === 'ENTER') return commit();
+            if (k === '⌫') return back();
+            if (/^[A-Z]$/.test(k)) return place(k);
+        }
+
+        // Physical keyboard
+        window.addEventListener('keydown', e => {
+            const k = e.key;
+            if (k === 'Backspace') {
+                e.preventDefault();
+                back();
+            } else if (k === 'Enter') {
+                commit();
+            } else if (/^[a-zA-Z]$/.test(k)) {
+                place(k.toUpperCase());
+            }
+        });
+
+        // React to level change like NYT's simple Settings
+        // levelSel.addEventListener('change', reset);
+
+        // Init
+        window.addEventListener('load', reset);
+    </script>
+</body>
+
+</html>

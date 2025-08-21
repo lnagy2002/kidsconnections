@@ -22,26 +22,21 @@ function assertEnv(name) {
 }
 
 async function generatePuzzleJSON(client) {
-  const system = `You generate kid-friendly "Connections"-style puzzles.
-Output strictly valid JSON matching this schema:
-{
-  "easy": { "id": "MMDDYYYY-E", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "easy" } ], "notes": "string" },
-  "medium": { "id": "MMDDYYYY-M", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "medium" } ], "notes": "string" },
-  "hard": { "id": "MMDDYYYY-H", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "hard" } ], "notes": "string" }
-}
-
+  const system = `You generate daily words for a kids' Wordle-style game.
 Rules:
-- Each puzzle has 4 groups of 4 items.
-- Items must be unambiguous for the grade range.
-- No repeats across groups in the same puzzle.
-- Easy = grades 2–3, Medium = grades 4–5, Hard = grades 6+.
-- Categories must vary daily.
-Return ONLY JSON.`;
+- EASY: 4-letter common word.
+- MEDIUM: 5-letter common word.
+- HARD: 6-letter common word.
+- ALL CAPS A–Z. No hyphens, accents, numbers, or punctuation.
+- No proper nouns, no brand names, no slang, no offensive terms.
+- Age-appropriate (grades 2+).
+- Output JSON ONLY per the given schema.`;
 
   const today = new Date();
   const id = mmddyyyy(today);
 
-  const user = `Generate 3 puzzles (easy, medium, hard) for date ${id}.New categories daily.`;
+  const user = `Date: ${stamp}.
+Return fresh, school-safe words that fit the lengths and are recognizable to kids.`;
 
   // Chat Completions style (compatible with official SDK)
   const resp = await client.chat.completions.create({

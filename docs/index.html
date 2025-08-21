@@ -35,15 +35,20 @@
             width: min(960px, 96vw);
         }
 
-        @media (max-width: 600px) {
-            .app {
-                margin: 10px auto;
-                padding: 10px;
-            }
+        @keyframes shake {
+          10%, 90% { transform: translate3d(-1px, 0, 0); }
+          20%, 80% { transform: translate3d(2px, 0, 0); }
+          30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+          40%, 60% { transform: translate3d(4px, 0, 0); }
+        }
+
+        .shake {
+          display: inline-block; /* so transform applies properly */
+          animation: shake 0.5s ease-in-out;
         }
 
         .section {
-            padding: 20px;
+            padding: 10px;
             text-align: center;
         }
 
@@ -141,6 +146,33 @@
             color: var(--ink);
             font-size: 16px;
         }
+
+        @media (max-width: 600px) {
+            .app {
+                margin: 10px auto;
+                padding: 10px;
+            }
+
+            .grid {
+                gap: 2px;
+                margin-top: 10px;
+            }
+
+            .card {
+                padding: 8px;
+                height: min(100px, 10vh);
+                font-size: 14px;
+            }
+
+            .found-row {
+
+                margin: 6px 0;
+                border-radius: 10px;
+                height: min(100px, 10vh);
+                text-transform: uppercase;
+            }
+        }
+
         /* .complete-badge { margin-left:10px; font-size:12px; color:#fff; background:green; padding:2px 6px; border-radius:6px;} */
     </style>
 </head>
@@ -149,7 +181,6 @@
 
     <div class="app">
         <h1>Kids’ Connections</h1>
-        <h3><span id="date"></span></h3>
         <hr>
         <section class="panel controls">
             <!-- <label>Pick the Right Challenge Level (by Grade)
@@ -159,7 +190,8 @@
                 <option value="hard">Hard (Grades 6+)</option>
               </select>
             </label> -->
-            <div id="msg" class="muted" style="margin-left:auto">Daily categories</div>
+
+            <span id="date"></span><div id="msg" class="muted" style="margin-left:auto">Daily categories</div>
         </section>
         <hr>
         <h3 class="section">Create four groups of four!</h3>
@@ -312,7 +344,7 @@
             if (state.selected.has(t)) state.selected.delete(t);
             else {
                 if (state.selected.size >= 4) {
-                    showMessage("You’ve already picked four tiles!");
+                    showMessage("4 tiles already selected");
                     return;
                 }
                 state.selected.add(t);
@@ -321,7 +353,7 @@
         }
 
         function submit() {
-            if (state.selected.size !== 4) return showMessage("Try picking four tiles to make a connection!");
+            if (state.selected.size !== 4) return showMessage("Need 4 tiles");
             const chosen = Array.from(state.selected);
             const groups = PUZZLE_BANK[state.level].groups;
             for (const g of groups) {
@@ -332,15 +364,32 @@
                         color: g.color
                     });
                     state.selected.clear();
-                    showMessage("🧩 Yes! Those tiles belong together!")
+                    // showMessage("🧩 Yes! Those tiles belong together!")
                     render();
-                    if (state.solved.length === 4) showMessage("🎉 “Puzzle Master! You matched them all!!");
+                    if (state.solved.length === 4) showMessage("🎉 You got it!");
                     return;
                 }
             }
-            showMessage("❌ Oops, those don’t fit — try again!");
+
+            shakeSelectedThenRerender();
+        }
+
+        function shakeSelectedThenRerender() {
+          const tiles = Array.from(document.querySelectorAll('.card[aria-pressed="true"]'));
+
+          // Add the shake class and clean it up when the animation ends
+          tiles.forEach(el => {
+            el.classList.add('shake');
+            const cleanup = () => el.classList.remove('shake');
+            el.addEventListener('animationend', cleanup, { once: true });   // fires when CSS animation finishes
+            el.addEventListener('animationcancel', cleanup, { once: true }); // safety if animation is aborted
+          });
+
+          // After the short animation, clear selection and re-render
+          setTimeout(() => {
             state.selected.clear();
             render();
+          }, 520);
         }
 
         document.getElementById("btnSubmit").onclick = submit;

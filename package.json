@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate": "node scripts/generate-json.js"
+    "connect": "node scripts/generate-connect-json.js",
+    "wordle": "node scripts/generate-wordle-json.js"
   },
   "dependencies": {
     "openai": "^4.0.0"

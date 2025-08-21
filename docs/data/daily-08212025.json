@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08212025-E",
+    "generatedAt": "2025-08-21T00:00:00Z",
+    "groups": [
+      {
+        "name": "Animal Friends",
+        "items": [
+          "cat",
+          "dog",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Numbers",
+        "items": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily easy category set designed for grades 2–3. Each group contains four items that are clearly distinct and kid-friendly."
+  },
+  "medium": {
+    "id": "08212025-M",
+    "generatedAt": "2025-08-21T00:00:00Z",
+    "groups": [
+      {
+        "name": "Farm Things",
+        "items": [
+          "tractor",
+          "barn",
+          "hay",
+          "pig"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Travel",
+        "items": [
+          "bicycle",
+          "bus",
+          "train",
+          "subway"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "sunny",
+          "cloudy",
+          "rainy",
+          "windy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruit Friends",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily medium category set designed for grades 4–5. Clear, distinct items with approachable vocabulary."
+  },
+  "hard": {
+    "id": "08212025-H",
+    "generatedAt": "2025-08-21T00:00:00Z",
+    "groups": [
+      {
+        "name": "Planets",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Languages",
+        "items": [
+          "English",
+          "Spanish",
+          "French",
+          "Japanese"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "piano",
+          "violin",
+          "trumpet",
+          "drums"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "blackboard",
+          "heartbeat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily hard category set designed for grades 6+. Items vary in domain and encourage connections across science, language, music, and word formation."
+  },
+  "id": "08212025",
+  "generatedAt": "2025-08-21T16:32:38.167Z"
+}

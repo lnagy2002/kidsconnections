@@ -41,16 +41,16 @@ Return ONLY JSON.`;
   const today = new Date();
   const id = mmddyyyy(today);
 
-  const user = `Generate 3 puzzles (easy, medium, hard) for date ${id}.`;
+  const user = `Generate 3 puzzles (easy, medium, hard) for date ${id}.New categories daily.`;
 
   // Chat Completions style (compatible with official SDK)
   const resp = await client.chat.completions.create({
-    model: "gpt-4o-mini",
+    model: "gpt-5-nano",
     messages: [
       { role: "system", content: system },
       { role: "user", content: user }
     ],
-    temperature: 0.7
+    reasoning_effort: "minimal", // preferred control knob
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();

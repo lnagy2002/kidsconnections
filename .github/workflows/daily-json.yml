@@ -20,15 +20,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: "20" }
+        with:
+          node-version: "20"
       - run: npm ci
       - name: Generate puzzles
-        env: { OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} }
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run generate  # writes to docs/data/*
       - name: Upload site bundle for deploy
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs        # <— directory (recommended)
+          path: ./docs
 
   deploy:
     needs: generate

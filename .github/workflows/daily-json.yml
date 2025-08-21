@@ -22,35 +22,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm ci
+      - name: Install deps
+        run: npm install
       - name: Generate puzzles
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npm run generate  # writes to docs/data/*
+        run: npm run generate
+      - name: Commit & push new data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(daily): add puzzles JSON"
+          branch: ${{ github.ref_name }}
       - name: Upload site bundle for deploy
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs
-
-  deploy:
-    needs: generate
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      # (optional) - uses: actions/checkout@v4
-      - name: Download site
-        uses: actions/download-artifact@v4
-        with:
-          name: site
-          path: docs
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

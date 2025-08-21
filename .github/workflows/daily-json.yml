@@ -2,7 +2,7 @@ name: Daily Puzzles (Pages)
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 1 * * *"   # 01:00 UTC daily
   workflow_dispatch: {}
 
 permissions:
@@ -26,10 +26,10 @@ jobs:
         env: { OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} }
         run: npm run generate  # writes to docs/data/*
       - name: Upload site bundle for deploy
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site
-          path: docs/**         # everything you plan to deploy
+          path: ./docs        # <— directory (recommended)
+
   deploy:
     needs: generate
     environment:
@@ -37,7 +37,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # (optional) - uses: actions/checkout@v4
       - name: Download site
         uses: actions/download-artifact@v4
         with:

@@ -24,23 +24,9 @@ async function main() {
   const today = new Date();
   const stamp = mmddyyyy(today);
 
-  // Ask the model to output STRICT JSON only, with lengths enforced.
-  // We use Structured Outputs to make the model follow a JSON schema. 
-  // (This is supported in the Responses API.)
-  // Docs: https://platform.openai.com/docs/guides/structured-outputs
-  const schema = {
-    type: "object",
-    additionalProperties: false,
-    properties: {
-      easy:   { type: "string", description: "ALL CAPS, exactly 4 letters, kid-friendly common word (no proper nouns or plurals)" },
-      medium: { type: "string", description: "ALL CAPS, exactly 5 letters, kid-friendly common word (no proper nouns or plurals)" },
-      hard:   { type: "string", description: "ALL CAPS, exactly 6 letters, kid-friendly common word (no proper nouns or plurals)" }
-    },
-    required: ["easy", "medium", "hard"]
-  };
-
   const system = `
-You generate daily words for a kids' Wordle-style game. Respond only with JSON in this format (no extra text, commentary, or quotes):
+You generate daily words for a kids' Wordle-style game. 
+Output strictly valid JSON matching this schema:
 {
   "easy": "WORD",
   "medium": "WORDS",
@@ -54,31 +40,31 @@ Rules:
 - ALL CAPS A–Z. No hyphens, accents, numbers, or punctuation.
 - No proper nouns, no brand names, no slang, no offensive terms.
 - Age-appropriate (grades 2+).
-- Output JSON ONLY per the given schema.`;
+- Return ONLY JSON.`;
 
   const user = `Date: ${stamp}.
 Return fresh, school-safe words that fit the lengths and are recognizable to kids.`;
 
-  // Create a response with JSON structured output
-  const resp = await client.responses.create({
-  model: "gpt-4o-mini",
-  input: [
-    { role: "system", content: system },
-    { role: "user", content: user }
-  ],
-  response_format: {
-    type: "json_schema",
-    json_schema: { name: "DailyWords", schema },
-    strict: true
-  },
-});
+  // Chat Completions style (compatible with official SDK)
+  const resp = await client.chat.completions.create({
+    model: "gpt-5-nano",
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: user }
+    ],
+    reasoning_effort: "minimal", // preferred control knob
+  });
+
+  const text = resp.choices?.[0]?.message?.content?.trim();
+  if (!text) throw new Error("Empty response from model.");
+
+  // Basic JSON guard: strip code fences if present
+  const jsonString = text.replace(/^```json\s*|\s*```$/g, "");
+  console.log (jsonString);
   
-  // Extract JSON object
-  const content = resp.output?.[0]?.content?.[0]?.text;
-  console.log (content);
   let data;
   try {
-    data = JSON.parse(content);
+    data = JSON.parse(text);
     console.log (data);
   } catch {
     throw new Error("Model did not return valid JSON.");

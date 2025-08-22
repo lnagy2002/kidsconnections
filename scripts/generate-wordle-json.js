@@ -70,10 +70,12 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
   }); // Responses API ref: https://platform.openai.com/docs/api-reference/responses
 
   // Extract JSON object
-  const content = resp.output[0]?.content?.[0]?.text;
+  const content = resp.output?.[0]?.content?.[0]?.text;
+  console.log (content);
   let data;
   try {
     data = JSON.parse(content);
+    console.log (data);
   } catch {
     throw new Error("Model did not return valid JSON.");
   }

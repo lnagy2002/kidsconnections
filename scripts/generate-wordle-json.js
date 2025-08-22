@@ -61,7 +61,7 @@ Rules:
   const today = new Date();
   const id = mmddyyyy(today);
 
-  const user = `Date: ${stamp}.
+  const user = `Date: ${id}.
 Return fresh, school-safe words that fit the lengths and are recognizable to kids.`;
 
   // Chat Completions style (compatible with official SDK)

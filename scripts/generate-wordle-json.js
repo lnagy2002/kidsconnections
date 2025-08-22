@@ -60,7 +60,12 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
       { role: "system", content: system },
       { role: "user", content: user }
     ],
-    response_format: { type: "json_schema", json_schema: { name: "DailyWords", schema } }
+    text: {
+    format: {
+      type: "json_schema",
+      json_schema: { name: "DailyWords", schema }
+    }
+  }
   }); // Responses API ref: https://platform.openai.com/docs/api-reference/responses
 
   // Extract JSON object

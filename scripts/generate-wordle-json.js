@@ -40,7 +40,13 @@ async function main() {
   };
 
   const system = `
-You generate daily words for a kids' Wordle-style game.
+You generate daily words for a kids' Wordle-style game. Respond only with JSON in this format (no extra text, commentary, or quotes):
+{
+  "easy": "WORD",
+  "medium": "WORDS",
+  "hard": "WORDSS"
+}
+
 Rules:
 - EASY: 4-letter common word.
 - MEDIUM: 5-letter common word.

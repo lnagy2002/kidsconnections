@@ -1,32 +1,29 @@
-// scripts/generate-json.js
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
+// scripts/generate-wordle-json.js
+// Generates kid-friendly daily Wordle words via OpenAI and writes docs/data/wordle-YYYYMMDD.json
+
+import fs from "node:fs";
+import path from "node:path";
 import OpenAI from "openai";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-// ---------- helpers ----------
-function mmddyyyy(d = new Date()) {
-  const mm = String(d.getMonth() + 1).padStart(2, "0");
-  const dd = String(d.getDate()).padStart(2, "0");
-  const yyyy = d.getFullYear();
-  return `${mm}${dd}${yyyy}`;
-}
-
-function assertEnv(name) {
-  if (!process.env[name]) {
-    throw new Error(`${name} missing. Add it as a GitHub Actions secret.`);
-  }
+// UTC helpers so “daily” aligns with GitHub cron (UTC)
+const pad = n => String(n).padStart(2, "0");
+function yyyymmddUTC(d = new Date()) {
+  const y = d.getUTCFullYear();
+  const m = pad(d.getUTCMonth() + 1);
+  const day = pad(d.getUTCDate());
+  return `${y}${m}${day}`;
 }
 
 // Simple validators
 const isAlpha = s => /^[A-Z]+$/.test(s);
 const hasLength = (s, n) => s.length === n;
 
+async function main() {
+  const today = new Date();
+  const stamp = mmddyyyy(today);
 
-async function generatePuzzleJSON(client) {
   // Ask the model to output STRICT JSON only, with lengths enforced.
   // We use Structured Outputs to make the model follow a JSON schema. 
   // (This is supported in the Responses API.)
@@ -41,14 +38,9 @@ async function generatePuzzleJSON(client) {
     },
     required: ["easy", "medium", "hard"]
   };
-  
-  const system = `You generate daily words for a kids' Wordle-style game.
-  Output strictly valid JSON matching this schema:
-{
-  "easy": { "id": "MMDDYYYY-E", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "easy" } ], "notes": "string" },
-  "medium": { "id": "MMDDYYYY-M", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "medium" } ], "notes": "string" },
-  "hard": { "id": "MMDDYYYY-H", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "hard" } ], "notes": "string" }
-}
+
+  const system = `
+You generate daily words for a kids' Wordle-style game.
 Rules:
 - EASY: 4-letter common word.
 - MEDIUM: 5-letter common word.
@@ -58,25 +50,18 @@ Rules:
 - Age-appropriate (grades 2+).
 - Output JSON ONLY per the given schema.`;
 
-  const today = new Date();
-  const id = mmddyyyy(today);
-
-  const user = `Date: ${id}.
+  const user = `Date: ${stamp}.
 Return fresh, school-safe words that fit the lengths and are recognizable to kids.`;
 
-  // Chat Completions style (compatible with official SDK)
-  const resp = await client.chat.completions.create({
+  // Create a response with JSON structured output
+  const resp = await client.responses.create({
     model: "gpt-5-nano",
-    messages: [
+    input: [
       { role: "system", content: system },
       { role: "user", content: user }
     ],
-    response_format: { type: "json_schema", json_schema: { name: "DailyWords", schema } },
-    reasoning_effort: "minimal", // preferred control knob
-  });
-
-  const text = resp.choices?.[0]?.message?.content?.trim();
-  if (!text) throw new Error("Empty response from model.");
+    response_format: { type: "json_schema", json_schema: { name: "DailyWords", schema } }
+  }); // Responses API ref: https://platform.openai.com/docs/api-reference/responses
 
   // Extract JSON object
   const content = resp.output[0]?.content?.[0]?.text;
@@ -92,44 +77,15 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
   if (!isAlpha(data.medium) || !hasLength(data.medium, 5)) throw new Error("Invalid MEDIUM word");
   if (!isAlpha(data.hard)   || !hasLength(data.hard, 6)) throw new Error("Invalid HARD word");
 
-  data.id = id;
-  data.generatedAt = today.toISOString();
-
-  return data;
+  // Write docs/data/daily-YYYYMMDD.json
+  const outDir  = path.join(process.cwd(), "docs", "data");
+  const outFile = path.join(outDir, `wordle-${stamp}.json`);
+  fs.mkdirSync(outDir, { recursive: true });
+  fs.writeFileSync(outFile, JSON.stringify(data, null, 2) + "\n", "utf8");
+  console.log("Wrote:", outFile, data);
 }
 
-(async () => {
-  assertEnv("OPENAI_API_KEY");
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-  const outDir = path.join(process.cwd(), "docs", "data");
-  fs.mkdirSync(outDir, { recursive: true });
-
-  const stamp = mmddyyyy();
-  const outFile = path.join(outDir, `wordle-${stamp}.json`);
-
-  // Idempotency: skip if today's file already exists
-  if (fs.existsSync(outFile)) {
-    console.log(`Already exists: ${outFile}`);
-    process.exit(0);
-  }
-
-  // Simple retry loop for transient errors
-  let lastErr;
-  for (let i = 0; i < 3; i++) {
-    try {
-      const payload = await generatePuzzleJSON(client);
-      fs.writeFileSync(outFile, JSON.stringify(payload, null, 2), "utf8");
-      console.log(`Wrote ${outFile}`);
-      process.exit(0);
-    } catch (e) {
-      lastErr = e;
-      console.warn(`Attempt ${i + 1} failed: ${e.message}`);
-      await new Promise(r => setTimeout(r, 1500 * (i + 1)));
-    }
-  }
-  throw lastErr;
-})().catch(err => {
-  console.error(err);
+main().catch(err => {
+  console.error("Generation failed:", err);
   process.exit(1);
 });

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08222025-E",
+    "generatedAt": "2025-08-22T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four items each, suitable for 2nd–3rd grade. Daily categories vary; items are common and unambiguous."
+  },
+  "medium": {
+    "id": "08222025-M",
+    "generatedAt": "2025-08-22T12:05:00Z",
+    "groups": [
+      {
+        "name": "Planet Probes",
+        "items": [
+          "Landing Gear",
+          "Rover",
+          "Orbiter",
+          "Probe Bus"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Science",
+          "Art",
+          "History"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Travel",
+        "items": [
+          "Walk",
+          "Bike",
+          "Bus",
+          "Train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors by Mix",
+        "items": [
+          "Red+Blue=Purple",
+          "Blue+Yellow=Green",
+          "Red+Yellow=Orange",
+          "White+Black=Gray"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Moderate difficulty with categories to encourage connections while staying clear for 4th–5th graders."
+  },
+  "hard": {
+    "id": "08222025-H",
+    "generatedAt": "2025-08-22T12:10:00Z",
+    "groups": [
+      {
+        "name": "Planetary Features",
+        "items": [
+          "Crater",
+          "Rift",
+          "Rings",
+          "Magnetic Field"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Trumpet",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Scientific Tools",
+        "items": [
+          "Microscope",
+          "Telescope",
+          "Thermometer",
+          "Barometer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Food Groups",
+        "items": [
+          "Grains",
+          "Proteins",
+          "Dairy",
+          "Fruits"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging connections for grades 6+. Each group contains four distinct items with clear, age-appropriate concepts."
+  },
+  "id": "08222025",
+  "generatedAt": "2025-08-22T02:25:39.509Z"
+}

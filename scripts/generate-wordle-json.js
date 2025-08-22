@@ -9,11 +9,11 @@ const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // UTC helpers so “daily” aligns with GitHub cron (UTC)
 const pad = n => String(n).padStart(2, "0");
-function yyyymmddUTC(d = new Date()) {
-  const y = d.getUTCFullYear();
-  const m = pad(d.getUTCMonth() + 1);
-  const day = pad(d.getUTCDate());
-  return `${y}${m}${day}`;
+function mmddyyyy(d = new Date()) {
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  const yyyy = d.getFullYear();
+  return `${mm}${dd}${yyyy}`;
 }
 
 // Simple validators

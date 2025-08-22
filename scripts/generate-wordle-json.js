@@ -64,7 +64,7 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
     format: {
       name: "DailyWordsOutput",
       type: "json_schema",
-      json_schema: schema
+      schema: schema
     }
   }
   }); // Responses API ref: https://platform.openai.com/docs/api-reference/responses

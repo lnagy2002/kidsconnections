@@ -55,20 +55,18 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
 
   // Create a response with JSON structured output
   const resp = await client.responses.create({
-    model: "gpt-5-nano",
-    input: [
-      { role: "system", content: system },
-      { role: "user", content: user }
-    ],
-    text: {
-    format: {
-      name: "DailyWordsOutput",
-      type: "json_schema",
-      schema: schema
-    }
-  }
-  }); // Responses API ref: https://platform.openai.com/docs/api-reference/responses
-
+  model: "gpt-4o-mini",
+  input: [
+    { role: "system", content: system },
+    { role: "user", content: user }
+  ],
+  response_format: {
+    type: "json_schema",
+    json_schema: { name: "DailyWords", schema },
+    strict: true
+  },
+});
+  
   // Extract JSON object
   const content = resp.output?.[0]?.content?.[0]?.text;
   console.log (content);

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08232025-E",
+    "generatedAt": "2025-08-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals that fly",
+        "items": [
+          "eagle",
+          "sparrow",
+          "bat",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can ride",
+        "items": [
+          "bicycle",
+          "skateboard",
+          "bus",
+          "rollercoaster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "All groups contain common, age-appropriate items for early elementary."
+  },
+  "medium": {
+    "id": "08232025-M",
+    "generatedAt": "2025-08-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "School subjects",
+        "items": [
+          "math",
+          "science",
+          "history",
+          "art"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "car",
+          "train",
+          "plane",
+          "boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Playground equipment",
+        "items": [
+          "slide",
+          "swing",
+          "see-saw",
+          "monkey bars"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common veggies",
+        "items": [
+          "carrot",
+          "broccoli",
+          "pepper",
+          "peas"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories mix everyday topics suitable for upper elementary."
+  },
+  "hard": {
+    "id": "08232025-H",
+    "generatedAt": "2025-08-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planets in our solar system",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical instruments",
+        "items": [
+          "piano",
+          "guitar",
+          "violin",
+          "drums"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with letters",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather terms",
+        "items": [
+          "sunny",
+          "rainy",
+          "cloudy",
+          "stormy"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Difficult categories chosen for older kids; all items are distinct within the puzzle."
+  },
+  "id": "08232025",
+  "generatedAt": "2025-08-23T02:20:36.362Z"
+}

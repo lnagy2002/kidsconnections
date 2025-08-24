@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08242025-E",
+    "generatedAt": "2025-08-24T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colors of the Rainbow",
+        "items": [
+          "Red",
+          "Orange",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals that meow",
+        "items": [
+          "Cat",
+          "Lion",
+          "Tiger",
+          "Leopard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "Socks",
+          "Shoes",
+          "Slippers",
+          "Boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Uses of a chair",
+        "items": [
+          "Sit",
+          "Stand",
+          "Eat",
+          "Rest"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily category mix for young readers. Each group focuses on clear, concrete concepts with minimal ambiguity."
+  },
+  "medium": {
+    "id": "08242025-M",
+    "generatedAt": "2025-08-24T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things found in a kitchen",
+        "items": [
+          "Spoon",
+          "Pan",
+          "Whisk",
+          "Bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Bus",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Places you visit in a town",
+        "items": [
+          "Library",
+          "Fire station",
+          "Bakery",
+          "Park"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Family members",
+        "items": [
+          "Mother",
+          "Father",
+          "Sister",
+          "Brother"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Balanced categories suitable for upper elementary where students can connect everyday items without confusion."
+  },
+  "hard": {
+    "id": "08242025-H",
+    "generatedAt": "2025-08-24T12:00:00Z",
+    "groups": [
+      {
+        "name": "Science tools",
+        "items": [
+          "Test tube",
+          "Beaker",
+          "Microscope",
+          "Thermometer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geography features",
+        "items": [
+          "River",
+          "Mountain",
+          "Valley",
+          "Desert"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Historical inventions",
+        "items": [
+          "Compass",
+          "Printing press",
+          "Wheel",
+          "Telephone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical notes (simple names)",
+        "items": [
+          "Do",
+          "Re",
+          "Mi",
+          "Fa"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging groups that require more knowledge or broader patterns while staying kid-friendly."
+  },
+  "id": "08242025",
+  "generatedAt": "2025-08-24T02:44:32.983Z"
+}

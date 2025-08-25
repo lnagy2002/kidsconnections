@@ -16,6 +16,19 @@ function mmddyyyy(d = new Date()) {
   return `${mm}${dd}${yyyy}`;
 }
 
+function trimTopLevel(value) {
+  if (Array.isArray(value)) {
+    return value.map(v => (typeof v === "string" ? v.trim() : v));
+  }
+  if (value && typeof value === "object") {
+    for (const k of Object.keys(value)) {
+      if (typeof value[k] === "string") value[k] = value[k].trim();
+    }
+    return value;
+  }
+  return typeof value === "string" ? value.trim() : value;
+}
+
 // Simple validators
 const isAlpha = s => /^[A-Z]+$/.test(s);
 const hasLength = (s, n) => s.length === n;
@@ -64,8 +77,9 @@ Return fresh, school-safe words that fit the lengths and are recognizable to kid
   
   let data;
   try {
-    data = JSON.parse(text);
-    console.log (data);
+    const parsed = JSON.parse(text);
+    data = trimTopLevel(parsed);   // trims only direct string values
+    console.log(data);
   } catch {
     throw new Error("Model did not return valid JSON.");
   }

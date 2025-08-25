@@ -68,10 +68,12 @@
 
         h1 {
             margin-bottom: 10px;
+            margin-top: 0px;
         }
 
         .muted {
             color: var(--muted);
+            text-align: center;
         }
 
         .grid {
@@ -228,6 +230,7 @@
         </section>
         <hr>
         <h3 class="section">Create four groups of four!</h3>
+        <div id="msg" class="muted" style="margin-left:auto">Daily categories</div>
         <div id="foundContainer"></div>
         <div id="grid" class="grid"></div>
         <div class="section">
@@ -236,7 +239,7 @@
             <!-- <button id="btnHint" class="btn">Hint</button> -->
             <button id="btnReset" class="btn">Start Over</button>
         </div>
-        <div id="msg" class="section muted" style="margin-left:auto">Daily categories</div>
+
     </div>
     <script>
         const today = new Date();
@@ -284,7 +287,6 @@
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 PUZZLE_BANK = await res.json();
                 init(level || "easy"); // render it
-                fitAllCards();
             } catch (err) {
                 const c = document.getElementById('grid');
                 c.innerHTML = `<p class="error">Couldn’t load data: ${err.message}</p>`;
@@ -340,6 +342,7 @@
                 grid.appendChild(b);
             });
             renderFound();
+            fitAllCards();
         }
 
         function renderFound() {

@@ -99,26 +99,6 @@
             text-transform: uppercase;
         }
 
-        @keyframes shake {
-            10%,
-            90% {
-                transform: translate3d(-1px, 0, 0);
-            }
-            20%,
-            80% {
-                transform: translate3d(2px, 0, 0);
-            }
-            30%,
-            50%,
-            70% {
-                transform: translate3d(-4px, 0, 0);
-            }
-            40%,
-            60% {
-                transform: translate3d(4px, 0, 0);
-            }
-        }
-
         @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.1); }
@@ -128,28 +108,6 @@
 .pulse {
   animation: pulse 0.6s ease-in-out;
 }
-
-        .shake {
-            display: inline-block;
-            /* so transform applies properly */
-            animation: shake 0.5s ease-in-out;
-        }
-
-        .found-label {
-            text-align: center;
-            font-weight: bold;
-            margin-right: 10px;
-            padding: 4px 8px;
-            border-radius: 6px;
-        }
-        /* .found-items { display:flex; flex:1; gap:6px;} */
-
-        .found-item {
-            text-align: center;
-            padding: 6px;
-            border-radius: 6px;
-            background: #f0f0f0;
-        }
 
         .title-block {
             display: flex;
@@ -200,12 +158,10 @@
         </section>
         <hr>
         <div id="msg" class="section muted" style="margin-left:auto"></div>
-        <div id="foundContainer">
-        </div>
-
-
 
         <div id="riddleCard" class="card"></div>
+        <div id="foundContainer">
+        </div>
         <div class="section">
             <button id="hintBtn"  class="btn primary">Show Hint</button>
             <button id="answerBtn"  class="btn">Show Answer</button>

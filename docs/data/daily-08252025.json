@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08252025-E",
+    "generatedAt": "2025-08-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes with Colors",
+        "items": [
+          "Red Square",
+          "Blue Circle",
+          "Green Triangle",
+          "Yellow Hexagon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals in a Farm",
+        "items": [
+          "Cow",
+          "Sheep",
+          "Horse",
+          "Pig"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Everyday Objects",
+        "items": [
+          "Chair",
+          "Table",
+          "Bed",
+          "Lamp"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Weather Clues",
+        "items": [
+          "Sunny",
+          "Cloudy",
+          "Rainy",
+          " windy"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four items each. Each item is phrased simply to be clear for 2nd–3rd graders. Daily category theme varies."
+  },
+  "medium": {
+    "id": "08252025-M",
+    "generatedAt": "2025-08-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Boat",
+          "Airplane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Instruments",
+        "items": [
+          "Piano",
+          "Guitar",
+          "Violin",
+          "Drums"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruit & Color Pairings",
+        "items": [
+          "Apple - Red",
+          "Banana - Yellow",
+          "Grape - Purple",
+          "Orange - Orange"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Jobs",
+        "items": [
+          "Teacher",
+          "Chef",
+          "Firefighter",
+          "Doctor"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Four groups of four items each. Clear everyday categories suitable for grades 4–5. Ensure no overlaps within puzzle."
+  },
+  "hard": {
+    "id": "08252025-H",
+    "generatedAt": "2025-08-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Scientific Concepts",
+        "items": [
+          "Gravity",
+          "Photosynthesis",
+          "Electric Current",
+          "Magnets"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "World Landmarks",
+        "items": [
+          "Eiffel Tower",
+          "Great Wall",
+          "Pyramids",
+          "Taj Mahal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geography Features",
+        "items": [
+          "Desert",
+          "River",
+          "Mountain",
+          "Island"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Historical Inventions",
+        "items": [
+          "Printing Press",
+          "Compass",
+          "Telephone",
+          "Light Bulb"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Four groups of four items each. Content aimed at grades 6+ with slightly more challenging connections and vocabulary."
+  },
+  "id": "08252025",
+  "generatedAt": "2025-08-25T02:40:13.365Z"
+}

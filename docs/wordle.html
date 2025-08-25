@@ -197,6 +197,12 @@
             font-size: revert;
         }
 
+        .title-block {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; /* centers both title & date */ */
+          }
+
         @media (max-width: 600px) {
             .wrap {
                 margin: 10px auto;
@@ -226,20 +232,21 @@
 
 <body>
     <div class="wrap">
-
-            <h1 class="header">Kids' Wordle</h1>
-            <hr>
-            <section class="panel controls">
-                <!-- <label for="level">Pick the Right Challenge Level (by Grade)</label>
-                <select id="level" class="field">
-                  <option value="easy">Easy (Grades 2–3)</option>
-                  <option value="medium" selected>Medium (Grades 4-5)</option>
-                  <option value="hard">HHard (Grades 6+)</option>
-                </select> -->
-                <span id="date"></span><div id="msg" class="muted" style="margin-left:auto">Ready</div>
-            </section>
-            <hr>
-
+      <section class="controls">
+        <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt=""  height="100px">
+        <div class="title-block">
+          <h1>Kids' Wordle</h1>
+          <!-- <label>Pick the Right Challenge Level (by Grade)
+            <select id="level" class="field">
+              <option value="easy">Easy (Grades 2–3)</option>
+              <option value="medium">Medium (Grades 4-5)</option>
+              <option value="hard">Hard (Grades 6+)</option>
+            </select>
+          </label> -->
+          <div id="date"></div>
+          </div>
+      </section>
+      <hr>
         <section id="game" class="panel">
             <div id="board" class="board" aria-live="polite"></div>
             <div class="keyboard" aria-label="On‑screen keyboard">
@@ -248,6 +255,7 @@
                 <div id="kb3" class="kbrow bot"></div>
             </div>
         </section>
+        <div id="msg" class="section muted" style="margin-left:auto">Ready</div>
     </div>
     <script>
         const t = new Date();
@@ -310,9 +318,7 @@
                 WORDS = await res.json();
                 reset();
             } catch (err) {
-                const c = document.getElementById('grid');
-                c.innerHTML = `<p class="error">Couldn’t load data: ${err.message}</p>`;
-                setTimeout(() => c.firstChild?.remove(), 5000); // auto-hide after 5s (optional)
+                msg (`Couldn’t load data: ${err.message}`);
             }
         }
 
@@ -327,7 +333,7 @@
         const $ = q => document.querySelector(q);
         const boardEl = $('#board'),
             msgEl = $('#msg');
-        const levelSel = getQueryParam ("level");
+        const levelSel = getQueryParam ("level") || "easy";
         const kb1 = $('#kb1'),
             kb2 = $('#kb2'),
             kb3 = $('#kb3');

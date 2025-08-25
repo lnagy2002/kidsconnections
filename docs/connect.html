@@ -48,12 +48,12 @@
         }
 
         .section {
-            padding: 10px;
+            margin-top: 15px;
             text-align: center;
         }
 
         h1 {
-            margin-top: 0;
+            margin-bottom: 10px;
         }
 
         .muted {
@@ -147,6 +147,16 @@
             font-size: 16px;
         }
 
+        .title-block {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; /* centers both title & date */ */
+          }
+
+        .center {
+          text-align: center;
+        }
+
         @media (max-width: 600px) {
             .app {
                 margin: 10px auto;
@@ -180,9 +190,13 @@
 <body>
 
     <div class="app">
-        <h1>Kids’ Connections</h1>
-        <hr>
+
+
         <section class="panel controls">
+
+          <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt=""  height="100px">
+          <div class="title-block">
+            <h1>Kids’ Connections</h1>
             <!-- <label>Pick the Right Challenge Level (by Grade)
               <select id="level" class="field">
                 <option value="easy">Easy (Grades 2–3)</option>
@@ -190,20 +204,20 @@
                 <option value="hard">Hard (Grades 6+)</option>
               </select>
             </label> -->
-
-            <span id="date"></span><div id="msg" class="muted" style="margin-left:auto">Daily categories</div>
+            <div id="date"></div>
+            </div>
         </section>
         <hr>
         <h3 class="section">Create four groups of four!</h3>
         <div id="foundContainer"></div>
         <div id="grid" class="grid"></div>
-        <div class="section" id="message"></div>
         <div class="section">
             <button id="btnSubmit" class="btn primary">Submit</button>
             <button id="btnShuffle" class="btn">Shuffle</button>
             <!-- <button id="btnHint" class="btn">Hint</button> -->
             <button id="btnReset" class="btn">Start Over</button>
         </div>
+        <div id="msg" class="section muted" style="margin-left:auto">Daily categories</div>
     </div>
     <script>
         const today = new Date();

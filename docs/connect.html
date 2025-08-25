@@ -36,15 +36,29 @@
         }
 
         @keyframes shake {
-          10%, 90% { transform: translate3d(-1px, 0, 0); }
-          20%, 80% { transform: translate3d(2px, 0, 0); }
-          30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
-          40%, 60% { transform: translate3d(4px, 0, 0); }
+            10%,
+            90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                transform: translate3d(2px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%,
+            60% {
+                transform: translate3d(4px, 0, 0);
+            }
         }
 
         .shake {
-          display: inline-block; /* so transform applies properly */
-          animation: shake 0.5s ease-in-out;
+            display: inline-block;
+            /* so transform applies properly */
+            animation: shake 0.5s ease-in-out;
         }
 
         .section {
@@ -79,6 +93,18 @@
             font-weight: bold;
             user-select: none;
             background: #fff;
+        }
+
+        .card {
+            display: flex;
+            /* center text nicely */
+            align-items: center;
+            justify-content: center;
+            line-height: 1.15;
+            overflow: hidden;
+            /* no scrollbars while shrinking */
+            /* white-space: nowrap; */
+            /* prefer shrinking over wrapping */
         }
 
         .card[aria-pressed="true"] {
@@ -150,11 +176,8 @@
         .title-block {
             display: flex;
             flex-direction: column;
-            /* align-items: center; /* centers both title & date */ */
-          }
-
-        .center {
-          text-align: center;
+            /* align-items: center; /* centers both title & date */
+            */
         }
 
         @media (max-width: 600px) {
@@ -182,7 +205,6 @@
                 text-transform: uppercase;
             }
         }
-
         /* .complete-badge { margin-left:10px; font-size:12px; color:#fff; background:green; padding:2px 6px; border-radius:6px;} */
     </style>
 </head>
@@ -190,21 +212,18 @@
 <body>
 
     <div class="app">
-
-
         <section class="panel controls">
-
-          <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt=""  height="100px">
-          <div class="title-block">
-            <h1>Kids’ Connections</h1>
-            <!-- <label>Pick the Right Challenge Level (by Grade)
+            <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt="" height="100px">
+            <div class="title-block">
+                <h1>Kids’ Connections</h1>
+                <!-- <label>Pick the Right Challenge Level (by Grade)
               <select id="level" class="field">
                 <option value="easy">Easy (Grades 2–3)</option>
                 <option value="medium">Medium (Grades 4-5)</option>
                 <option value="hard">Hard (Grades 6+)</option>
               </select>
             </label> -->
-            <div id="date"></div>
+                <div id="date"></div>
             </div>
         </section>
         <hr>
@@ -259,12 +278,13 @@
 
         async function loadData() {
             const level = getQueryParam('level');
-            console.log (level)
+            console.log(level)
             try {
                 const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/daily-' + formattedFileDate + ".json"); // <-- your JSON file
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 PUZZLE_BANK = await res.json();
                 init(level || "easy"); // render it
+                fitAllCards();
             } catch (err) {
                 const c = document.getElementById('grid');
                 c.innerHTML = `<p class="error">Couldn’t load data: ${err.message}</p>`;
@@ -389,21 +409,25 @@
         }
 
         function shakeSelectedThenRerender() {
-          const tiles = Array.from(document.querySelectorAll('.card[aria-pressed="true"]'));
+            const tiles = Array.from(document.querySelectorAll('.card[aria-pressed="true"]'));
 
-          // Add the shake class and clean it up when the animation ends
-          tiles.forEach(el => {
-            el.classList.add('shake');
-            const cleanup = () => el.classList.remove('shake');
-            el.addEventListener('animationend', cleanup, { once: true });   // fires when CSS animation finishes
-            el.addEventListener('animationcancel', cleanup, { once: true }); // safety if animation is aborted
-          });
+            // Add the shake class and clean it up when the animation ends
+            tiles.forEach(el => {
+                el.classList.add('shake');
+                const cleanup = () => el.classList.remove('shake');
+                el.addEventListener('animationend', cleanup, {
+                    once: true
+                }); // fires when CSS animation finishes
+                el.addEventListener('animationcancel', cleanup, {
+                    once: true
+                }); // safety if animation is aborted
+            });
 
-          // After the short animation, clear selection and re-render
-          setTimeout(() => {
-            state.selected.clear();
-            render();
-          }, 520);
+            // After the short animation, clear selection and re-render
+            setTimeout(() => {
+                state.selected.clear();
+                render();
+            }, 520);
         }
 
         document.getElementById("btnSubmit").onclick = submit;
@@ -414,6 +438,47 @@
         document.getElementById("btnReset").onclick = () => init(state.level);
         // document.getElementById("btnHint").onclick = () => showMessage("Look for 4 things that belong together!");
         // document.getElementById("level").onchange = (e) => init(e.target.value);
+
+        // Shrink text inside an element until it fits its box (both width & height)
+        // Respects a minimum font size so it never becomes unreadable.
+        function shrinkToFit(el, {
+            minPx = 10,
+            step = 1
+        } = {}) {
+            // Start from the computed (or explicitly set) font size each time
+            el.style.fontSize = ""; // reset before measuring
+            const computed = window.getComputedStyle(el);
+            let fontSize = parseFloat(computed.fontSize);
+
+            // Guard: if fontSize can't be parsed, fall back to 16px
+            if (!Number.isFinite(fontSize)) fontSize = 16;
+
+            // While content overflows horizontally OR vertically, shrink
+            // Note: client* excludes scrollbars; scroll* shows content size
+            // Also account for a tiny epsilon due to subpixel rounding.
+            const fits = () =>
+                el.scrollWidth <= el.clientWidth + 0.5 &&
+                el.scrollHeight <= el.clientHeight + 0.5;
+
+            // If it already fits, we're done
+            if (fits()) return;
+
+            // Try shrinking down to minPx
+            while (!fits() && fontSize > minPx) {
+                fontSize -= step;
+                el.style.fontSize = fontSize + "px";
+            }
+        }
+
+        // Apply to all visible tiles
+        function fitAllCards() {
+            const cards = document.querySelectorAll(".card");
+            cards.forEach((card) => shrinkToFit(card, {
+                minPx: 10,
+                step: 1
+            }));
+        }
+
 
         loadData();
     </script>

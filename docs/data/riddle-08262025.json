@@ -1,17 +1,17 @@
 {
   "easy": {
-    "q": "I have days and nights, but I never sleep. I tell you when to wake up and when to eat. What am I?",
-    "a": "A clock or a timer",
-    "hint": "Look for something that measures time."
+    "q": "I have a tail but I’m not a cat. I fly without wings and I glow at night. What am I?",
+    "a": "A kite with a lighted tail (or a firefly kite)",
+    "hint": "Look up and outdoors, or think of playful night glows."
   },
   "medium": {
-    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
-    "a": "Few",
-    "hint": "Think about a word whose meaning changes when you add letters."
+    "q": "I appear once in a minute, twice in a moment, but never in a thousand years. What am I?",
+    "a": "The letter 'M'",
+    "hint": "Think about letters in the phrases."
   },
   "hard": {
-    "q": "Without being alive, I can grow; without breathing, I still move; with no mouth, I can tell a tale. What am I?",
-    "a": "A shadow",
-    "hint": "It follows you and changes with light."
+    "q": "Two friends start with the same number of letters. One walks twice as fast as the other but they arrive at the same time. How is this possible?",
+    "a": "They start at different distances.",
+    "hint": "Consider speeds and starting points, not magic."
   }
 }

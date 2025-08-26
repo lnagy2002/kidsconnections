@@ -355,7 +355,7 @@
             grid: [],
             done: false,
             keyState: new Map(),
-            touched: new Set()
+            touched: new Array()
         };
 
         function pickDaily(level, d) {
@@ -441,11 +441,11 @@
                 }, () => Array(secret.length).fill('')),
                 done: false,
                 keyState: new Map(),
-                touched: new Set()
+                touched: new Array()
             };
             buildBoard(S.len, S.max);
             buildKeyboard();
-            msg(`Daily ${lvl} • ${S.len} letters`);
+            msg(`• Daily ${lvl} • ${S.len} letters`);
         }
 
         function msg(t) {
@@ -454,7 +454,7 @@
 
         function markTouched(ch) {
             if (!/^[A-Z]$/.test(ch)) return;
-            S.touched.add(ch);
+            S.touched.push(ch);
             updateKeycaps();
         }
 
@@ -471,6 +471,9 @@
         function back() {
             if (S.col > 0) {
                 S.col--;
+                //console.log (S.grid[S.row][S.col]);
+S.touched.pop();
+updateKeycaps()
                 S.grid[S.row][S.col] = '';
                 boardEl.children[S.row].children[S.col].textContent = '';
             }
@@ -487,7 +490,7 @@
                     ok: 2
                 };
                 if (prio[score] > prio[cur]) S.keyState.set(ch, score);
-                S.touched.add(ch);
+                S.touched.push(ch);
             }
             updateKeycaps();
         }
@@ -501,7 +504,7 @@
                 const st = S.keyState.get(k) || null;
                 if (st === 'ok') b.classList.add('ok');
                 else if (st === 'maybe') b.classList.add('maybe');
-                else if (st === null && S.touched.has(k)) b.classList.add('used');
+                else if (st === null && S.touched.includes(k)) b.classList.add('used');
                 else if (st) b.classList.add('bad');
             }
         }

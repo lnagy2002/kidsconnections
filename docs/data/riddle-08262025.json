@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have days and nights, but I never sleep. I tell you when to wake up and when to eat. What am I?",
+    "a": "A clock or a timer",
+    "hint": "Look for something that measures time."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about a word whose meaning changes when you add letters."
+  },
+  "hard": {
+    "q": "Without being alive, I can grow; without breathing, I still move; with no mouth, I can tell a tale. What am I?",
+    "a": "A shadow",
+    "hint": "It follows you and changes with light."
+  }
+}

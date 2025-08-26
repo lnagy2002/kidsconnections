@@ -84,7 +84,6 @@
         }
 
         .card {
-            background-color: #a9f4f4;
             border-radius: 10px;
             padding: 12px;
             text-align: center;
@@ -209,6 +208,13 @@
         }
         /* .complete-badge { margin-left:10px; font-size:12px; color:#fff; background:green; padding:2px 6px; border-radius:6px;} */
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-146830133"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-146830133'); // sends page_view automatically
+    </script>
 </head>
 
 <body>
@@ -280,17 +286,14 @@
         }
 
         async function loadData() {
-            const level = getQueryParam('level');
-            console.log(level)
+            const level = getQueryParam('level')  || 'easy';
             try {
                 const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/daily-' + formattedFileDate + ".json"); // <-- your JSON file
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 PUZZLE_BANK = await res.json();
                 init(level || "easy"); // render it
             } catch (err) {
-                const c = document.getElementById('grid');
-                c.innerHTML = `<p class="error">Couldn’t load data: ${err.message}</p>`;
-                setTimeout(() => c.firstChild?.remove(), 5000); // auto-hide after 5s (optional)
+                showMessage (`Couldn’t load data: ${err.message}`);
             }
         }
 
@@ -390,6 +393,7 @@
         }
 
         function submit() {
+            gtag('event', 'submit_clicked', { app: 'connections' });
             if (state.selected.size !== 4) return showMessage("Need 4 tiles");
             const chosen = Array.from(state.selected);
             const groups = PUZZLE_BANK[state.level].groups;
@@ -403,7 +407,10 @@
                     state.selected.clear();
                     // showMessage("🧩 Yes! Those tiles belong together!")
                     render();
-                    if (state.solved.length === 4) showMessage("🎉 You got it!");
+                    if (state.solved.length === 4) {
+                      gtag('event', 'success', { app: 'connections' });
+                      showMessage("🎉 You got it!");
+                    }
                     return;
                 }
             }

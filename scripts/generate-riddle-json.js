@@ -89,9 +89,9 @@ Return fresh, school-safe riddles.`;
   }
 
   // Validate lengths & characters; if invalid, throw (workflow will show logs)
-  if (!isAlpha(data.easy);
-  if (!isAlpha(data.medium)
-  if (!isAlpha(data.hard);
+  if (!isAlpha(data.easy)) throw new Error("Invalid easy word");
+  if (!isAlpha(data.medium)) throw new Error("Invalid medium word");
+  if (!isAlpha(data.hard)) throw new Error("Invalid medium word");
 
   // Write docs/data/daily-YYYYMMDD.json
   const outDir  = path.join(process.cwd(), "docs", "data");

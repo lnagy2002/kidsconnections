@@ -16,6 +16,23 @@ function mmddyyyy(d = new Date()) {
   return `${mm}${dd}${yyyy}`;
 }
 
+function validateShape(obj) {
+  const levels = ["easy", "medium", "hard"];
+  if (!obj || typeof obj !== "object") return false;
+  return levels.every((lvl) => {
+    const o = obj[lvl];
+    return (
+      o &&
+      typeof o.q === "string" &&
+      typeof o.a === "string" &&
+      typeof o.hint === "string" &&
+      o.q.trim() &&
+      o.a.trim() &&
+      o.hint.trim()
+    );
+  });
+}
+
 function trimTopLevel(value) {
   if (Array.isArray(value)) {
     return value.map(v => (typeof v === "string" ? v.trim() : v));
@@ -77,7 +94,6 @@ Return fresh, school-safe riddles.`;
 
   // Basic JSON guard: strip code fences if present
   const jsonString = text.replace(/^```json\s*|\s*```$/g, "");
-  console.log (jsonString);
   
   let data;
   try {
@@ -88,11 +104,11 @@ Return fresh, school-safe riddles.`;
     throw new Error("Model did not return valid JSON.");
   }
 
-  // Validate lengths & characters; if invalid, throw (workflow will show logs)
-  if (!isAlpha(data.easy)) throw new Error("Invalid easy word");
-  if (!isAlpha(data.medium)) throw new Error("Invalid medium word");
-  if (!isAlpha(data.hard)) throw new Error("Invalid medium word");
-
+  if (!validateShape(data)) {
+    console.warn("[daily-riddles] Invalid shape, will retry.");
+    continue;
+  }
+  
   // Write docs/data/daily-YYYYMMDD.json
   const outDir  = path.join(process.cwd(), "docs", "data");
   const outFile = path.join(outDir, `riddle-${stamp}.json`);

@@ -201,159 +201,22 @@
         }
 
         let RIDDLES = {
-            easy: [{
+            easy: {
+                    q: "What has to be broken before you can use it?",
+                    a: "An egg.",
+                    hint: "Breakfast item."
+                }
+            ,
+            medium: {
                     q: "What has to be broken before you can use it?",
                     a: "An egg.",
                     hint: "Breakfast item."
                 },
-                {
-                    q: "I'm tall when I'm young, and short when I'm old. What am I?",
-                    a: "A candle.",
-                    hint: "It melts."
-                },
-                {
-                    q: "What gets wetter the more it dries?",
-                    a: "A towel.",
-                    hint: "After a shower."
-                },
-                {
-                    q: "What can you catch but not throw?",
-                    a: "A cold.",
-                    hint: "Achoo!"
-                },
-                {
-                    q: "What has a neck but no head?",
-                    a: "A bottle.",
-                    hint: "Holds liquid."
-                },
-                {
-                    q: "What has keys but can't open locks?",
-                    a: "A piano.",
-                    hint: "Makes music."
-                },
-                {
-                    q: "What has four legs but can't walk?",
-                    a: "A table.",
-                    hint: "In the dining room."
-                },
-                {
-                    q: "Which month has 28 days?",
-                    a: "All of them!",
-                    hint: "Trick question."
-                },
-                {
-                    q: "What has a thumb and four fingers but isn't alive?",
-                    a: "A glove.",
-                    hint: "Winter wear."
-                },
-                {
-                    q: "Where do you find cities, streets, and parks but no people?",
-                    a: "On a map.",
-                    hint: "Paper world."
-                },
-            ],
-            medium: [{
-                    q: "I speak without a mouth and hear without ears. What am I?",
-                    a: "An echo.",
-                    hint: "Canyon shout."
-                },
-                {
-                    q: "The more you take, the more you leave behind. What am I?",
-                    a: "Footsteps.",
-                    hint: "Tracks in sand."
-                },
-                {
-                    q: "What goes up but never comes down?",
-                    a: "Your age.",
-                    hint: "Birthday truth."
-                },
-                {
-                    q: "What can travel around the world while staying in a corner?",
-                    a: "A stamp.",
-                    hint: "On an envelope."
-                },
-                {
-                    q: "What has many teeth but cannot bite?",
-                    a: "A comb.",
-                    hint: "Hair helper."
-                },
-                {
-                    q: "I'm light as a feather, yet the strongest person can't hold me for long. What am I?",
-                    a: "Your breath.",
-                    hint: "Inhale... exhale."
-                },
-                {
-                    q: "What begins with T, ends with T, and has T in it?",
-                    a: "A teapot.",
-                    hint: "Tea time!"
-                },
-                {
-                    q: "What has one eye but can't see?",
-                    a: "A needle.",
-                    hint: "Sew it up."
-                },
-                {
-                    q: "What runs but never walks, has a bed but never sleeps?",
-                    a: "A river.",
-                    hint: "Banks and currents."
-                },
-                {
-                    q: "Which building has the most stories?",
-                    a: "A library.",
-                    hint: "Shhh!"
-                },
-            ],
-            hard: [{
+            hard: {
                     q: "I have cities, but no houses; mountains, but no trees; water, but no fish. What am I?",
                     a: "A map.",
                     hint: "Flat world."
                 },
-                {
-                    q: "What disappears as soon as you say its name?",
-                    a: "Silence.",
-                    hint: "Hush."
-                },
-                {
-                    q: "The person who makes it, sells it. The person who buys it never uses it. The person who uses it never knows it. What is it?",
-                    a: "A coffin.",
-                    hint: "Somber."
-                },
-                {
-                    q: "What can fill a room but takes up no space?",
-                    a: "Light.",
-                    hint: "Flip a switch."
-                },
-                {
-                    q: "What has one head, one foot, and four legs?",
-                    a: "A bed.",
-                    hint: "Sleepy time."
-                },
-                {
-                    q: "What occurs once in a minute, twice in a moment, but never in a thousand years?",
-                    a: "The letter 'M'.",
-                    hint: "Alphabet clue."
-                },
-                {
-                    q: "Turn me on my side and I am everything. Cut me in half and I am nothing. What am I?",
-                    a: "The number 8 (infinity on its side; 0 when split).",
-                    hint: "Mathy."
-                },
-                {
-                    q: "What walks on four legs in the morning, two at noon, and three in the evening?",
-                    a: "A human (Sphinx riddle).",
-                    hint: "Ages of life."
-                },
-                {
-                    q: "You see a boat filled with people. It hasn't sunk, but when you look again you don't see a single person on the boat. Why?",
-                    a: "They are all married (no single people).",
-                    hint: "Wordplay!"
-                },
-                {
-                    q: "I have keys but no locks, space but no room. You can enter but can't go outside. What am I?",
-                    a: "A keyboard.",
-                    hint: "Typing..."
-                },
-            ],
         };
 
         function getQueryParam(name) {
@@ -364,9 +227,9 @@
         async function loadData() {
             const level = getQueryParam('level') || 'easy';
             try {
-                const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/daily-' + formattedFileDate + ".json"); // <-- your JSON file
+                const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/riddle-' + formattedFileDate + ".json"); // <-- your JSON file
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                // RIDDLES = await res.json();
+                RIDDLES = await res.json();
                 renderRiddle(level || "easy"); // render it
             } catch (err) {
                 showMessage(`Couldn’t load data: ${err.message}`);
@@ -374,7 +237,7 @@
         }
 
         function renderRiddle(level) {
-            let item = RIDDLES[level][0];
+            let item = RIDDLES[level];
             showMessage(`• Daily ${level} •`);
             $('#riddleCard').innerHTML = `
             <p>${item.q}</p>

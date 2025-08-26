@@ -89,13 +89,13 @@ Return fresh, school-safe riddles.`;
   }
 
   // Validate lengths & characters; if invalid, throw (workflow will show logs)
-  if (!isAlpha(data.easy)   || !hasLength(data.easy, 4)) throw new Error("Invalid EASY word");
-  if (!isAlpha(data.medium) || !hasLength(data.medium, 5)) throw new Error("Invalid MEDIUM word");
-  if (!isAlpha(data.hard)   || !hasLength(data.hard, 6)) throw new Error("Invalid HARD word");
+  if (!isAlpha(data.easy);
+  if (!isAlpha(data.medium)
+  if (!isAlpha(data.hard);
 
   // Write docs/data/daily-YYYYMMDD.json
   const outDir  = path.join(process.cwd(), "docs", "data");
-  const outFile = path.join(outDir, `wordle-${stamp}.json`);
+  const outFile = path.join(outDir, `riddle-${stamp}.json`);
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(outFile, JSON.stringify(data, null, 2) + "\n", "utf8");
   console.log("Wrote:", outFile, data);

@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "connect": "node scripts/generate-connect-json.js",
-    "wordle": "node scripts/generate-wordle-json.js"
+    "wordle": "node scripts/generate-wordle-json.js",
+    "riddle": "node scripts/generate-riddle-json.js"
   },
   "dependencies": {
     "openai": "^4.0.0"

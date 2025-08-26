@@ -106,7 +106,7 @@ Return fresh, school-safe riddles.`;
 
   if (!validateShape(data)) {
     console.warn("[daily-riddles] Invalid shape, will retry.");
-    continue;
+    throw new Error("Invalid json");
   }
   
   // Write docs/data/daily-YYYYMMDD.json

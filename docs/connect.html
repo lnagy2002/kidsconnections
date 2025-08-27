@@ -287,12 +287,14 @@
 
         async function loadData() {
             const level = getQueryParam('level')  || 'easy';
+            gtag('event', 'connections_load_level_'  + level, { app: 'connections' });
             try {
                 const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/daily-' + formattedFileDate + ".json"); // <-- your JSON file
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 PUZZLE_BANK = await res.json();
                 init(level || "easy"); // render it
             } catch (err) {
+                gtag('event', 'connections_failed_loading_level_'  + level, { app: 'connections' });
                 showMessage (`Couldn’t load data: ${err.message}`);
             }
         }
@@ -393,7 +395,7 @@
         }
 
         function submit() {
-            gtag('event', 'submit_clicked', { app: 'connections' });
+            gtag('event', 'connections_submit_clicked', { app: 'connections' });
             if (state.selected.size !== 4) return showMessage("Need 4 tiles");
             const chosen = Array.from(state.selected);
             const groups = PUZZLE_BANK[state.level].groups;
@@ -408,7 +410,7 @@
                     // showMessage("🧩 Yes! Those tiles belong together!")
                     render();
                     if (state.solved.length === 4) {
-                      gtag('event', 'success', { app: 'connections' });
+                      gtag('event', 'connections_resolved', { app: 'connections' });
                       showMessage("🎉 You got it!");
                     }
                     return;

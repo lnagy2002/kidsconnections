@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes, hands but no arms. What am I?",
+    "a": "A clock",
+    "hint": "Time-telling gadget with numbers"
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a tiny word that changes when you add letters"
+  },
+  "hard": {
+    "q": "A riddle: A town has 100 houses. Each house has 1 door and 1 window. If every door and window is painted the same color, how many colors are needed to paint all doors and windows if each house uses a different color for its door and its window, but adjacent houses must not share the same color? (Assume only doors and windows; ignore other surfaces.)",
+    "a": "2 colors",
+    "hint": "Think of coloring doors and windows as pairs, with a simple pattern to avoid clashes"
+  }
+}

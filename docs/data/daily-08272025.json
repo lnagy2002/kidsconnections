@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08272025-E",
+    "generatedAt": "2025-08-27T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Cherry",
+          "Grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Simple, kid-friendly categories that are easy to recognize and distinct from each other."
+  },
+  "medium": {
+    "id": "08272025-M",
+    "generatedAt": "2025-08-27T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planet Features",
+        "items": [
+          "Rings",
+          "Moons",
+          "Craters",
+          "Volcanoes"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Travel",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Train",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "Pencil",
+          "Eraser",
+          "Notebook",
+          "Ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sea Creatures",
+        "items": [
+          "Dolphin",
+          "Crab",
+          "Jellyfish",
+          "Whale"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Growers: slightly more complex groupings with everyday items kids can recall."
+  },
+  "hard": {
+    "id": "08272025-H",
+    "generatedAt": "2025-08-27T12:00:00Z",
+    "groups": [
+      {
+        "name": "Invented Tools",
+        "items": [
+          "Lantern-Device",
+          "Screw-Driverless",
+          "Magnet-Glider",
+          "Glow-Saw"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Time Concepts",
+        "items": [
+          "Moment",
+          "Hour",
+          "Season",
+          "Decade"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nature Wonders",
+        "items": [
+          "Aurora",
+          "Canyon",
+          "Volcano",
+          "Glacier"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Career Roles",
+        "items": [
+          "Astronaut",
+          "Chef",
+          "Farmer",
+          "Doctor"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging terms with mild-vocabulary variety to suit older kids."
+  },
+  "id": "08272025",
+  "generatedAt": "2025-08-27T02:21:31.187Z"
+}

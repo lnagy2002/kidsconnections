@@ -50,23 +50,21 @@
         }
 
         .card {
-            background-color: #a9f4f4;
-            border-radius: 10px;
-            padding: 12px;
-            text-align: center;
-            height: auto;
-            min-height: 50px;
-            /* optional baseline height */
-            /* Smooth expansion */
-            overflow: hidden;
-            transition: all 0.3s ease;
-            font-size: 16px;
-            text-transform: uppercase;
-            cursor: pointer;
-            font-weight: bold;
-            user-select: none;
-            margin-top: 10px;
-            color: black;
+          background-color: #a9f4f4;
+          border-radius: 10px;
+          padding: 12px;
+          text-align: center;
+          min-height: 50px;
+          height: auto;              /* card grows with content */
+          overflow: visible;         /* allow text to push size */
+          font-size: 16px;
+          text-transform: uppercase;
+          cursor: pointer;
+          font-weight: bold;
+          user-select: none;
+          margin-top: 10px;
+          color: black;
+          transition: background-color 0.3s ease; /* animate only color, not height */
         }
 
         .btn {
@@ -138,7 +136,6 @@
 
             .card {
                 padding: 8px;
-                height: min(100px, 10vh);
                 font-size: 14px;
             }
 
@@ -151,6 +148,13 @@
         }
         /* .complete-badge { margin-left:10px; font-size:12px; color:#fff; background:green; padding:2px 6px; border-radius:6px;} */
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KFSR46Z6C8'); // sends page_view automatically
+    </script>
 </head>
 
 <body>
@@ -200,24 +204,7 @@
             document.getElementById("msg").textContent = text;
         }
 
-        let RIDDLES = {
-            easy: {
-                    q: "What has to be broken before you can use it?",
-                    a: "An egg.",
-                    hint: "Breakfast item."
-                }
-            ,
-            medium: {
-                    q: "What has to be broken before you can use it?",
-                    a: "An egg.",
-                    hint: "Breakfast item."
-                },
-            hard: {
-                    q: "I have cities, but no houses; mountains, but no trees; water, but no fish. What am I?",
-                    a: "A map.",
-                    hint: "Flat world."
-                },
-        };
+        let RIDDLES = {};
 
         function getQueryParam(name) {
             const params = new URLSearchParams(window.location.search);
@@ -226,12 +213,14 @@
 
         async function loadData() {
             const level = getQueryParam('level') || 'easy';
+            gtag('event', 'riddle_load_level_'  + level, { app: 'riddle' });
             try {
                 const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/riddle-' + formattedFileDate + ".json"); // <-- your JSON file
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 RIDDLES = await res.json();
                 renderRiddle(level || "easy"); // render it
             } catch (err) {
+                gtag('event', 'riddle_failed_loading_level_'  + level, { app: 'riddle' });
                 showMessage(`Couldn’t load data: ${err.message}`);
             }
         }
@@ -249,6 +238,7 @@
           `;
 
             $('#hintBtn').addEventListener('click', function() {
+                gtag('event', 'wordle_hint_clicked', { app: 'wordle' });
                 const el = $('#hintBox');
                 el.style.display = (el.style.display === 'none') ? 'block' : 'none';
                 el.style.background = "#f0db79";
@@ -263,6 +253,7 @@
                 $('#hintBtn').textContent = (el.style.display === 'none') ? 'Show Hint' : 'Hide Hint';
             });
             $('#answerBtn').addEventListener('click', function() {
+                gtag('event', 'wordle_answer_clicked', { app: 'wordle' });
                 const el = $('#answerBox');
                 el.style.display = (el.style.display === 'none') ? 'block' : 'none';
                 el.style.background = "#f2b705";

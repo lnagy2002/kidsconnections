@@ -234,6 +234,13 @@
 
 
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KFSR46Z6C8'); // sends page_view automatically
+    </script>
 </head>
 
 <body>
@@ -317,13 +324,14 @@
 
         async function loadData() {
             const level = getQueryParam('level');
-            console.log (level)
+            gtag('event', 'wordle_load_level_'  + level, { app: 'wordle' });
             try {
                 const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/wordle-' + formattedFileDate + ".json"); // <-- your JSON file
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 WORDS = await res.json();
                 reset();
             } catch (err) {
+                gtag('event', 'wordle_failed_loading_level_'  + level, { app: 'wordle' });
                 msg (`Couldn’t load data: ${err.message}`);
             }
         }
@@ -519,6 +527,7 @@ updateKeycaps()
             updateKeyStateFromGuess(g, res);
             if (g === S.secret) {
                 S.done = true;
+                gtag('event', 'wordle_resolved', { app: 'wordle' });
                 msg('🎉 You got it!');
                 return;
             }
@@ -526,6 +535,7 @@ updateKeycaps()
             S.col = 0;
             if (S.row >= S.max) {
                 S.done = true;
+                gtag('event', 'wordle_out_of_guesses', { app: 'wordle' });
                 msg(`Out of guesses! Answer: ${S.secret}`);
             }
         }

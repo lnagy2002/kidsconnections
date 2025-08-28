@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08282025-E",
+    "generatedAt": "2025-08-28T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Numbers",
+        "items": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "A kid-friendly mix of familiar categories suitable for grades 2–3. Each group contains four distinct items with no overlaps between groups."
+  },
+  "medium": {
+    "id": "08282025-M",
+    "generatedAt": "2025-08-28T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals & Sounds",
+        "items": [
+          "Cow (Moo)",
+          "Duck (Quack)",
+          "Sheep (Baa)",
+          "Cat (Meow)"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Countries",
+        "items": [
+          "Canada",
+          "Japan",
+          "Brazil",
+          "France"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in a Kitchen",
+        "items": [
+          "Spoon",
+          "Pan",
+          "Napkin",
+          "Cup"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Bus",
+          "Plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories cover everyday topics and avoid ambiguity for 4–5 graders. No item repeats across groups."
+  },
+  "hard": {
+    "id": "08282025-H",
+    "generatedAt": "2025-08-28T12:00:00Z",
+    "groups": [
+      {
+        "name": "Science Things",
+        "items": [
+          "Magnets",
+          "Vacuum",
+          "Osmosis",
+          "Ecosystem"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Currency & Places",
+        "items": [
+          "Dollar",
+          "Euro",
+          "Yen",
+          "Peso"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planets",
+        "items": [
+          "Mercury",
+          "Earth",
+          "Jupiter",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Math Tools",
+        "items": [
+          "Ruler",
+          "Protractor",
+          "Compass",
+          "Calculator"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Higher-level terms chosen to suit 6th grade+. Items are clear and distinct, with no overlaps."
+  },
+  "id": "08282025",
+  "generatedAt": "2025-08-28T02:20:55.499Z"
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am something you wear on your feet that helps you hop and run. I have laces, and I come in many colors. What am I?",
+    "a": "Shoes",
+    "hint": "Think of footwear you tie."
+  },
+  "medium": {
+    "q": "I am a word that can mean 'a place to sit' or the action of surrounding someone with questions. I rhyme with 'present' and 'sum'. What word am I?",
+    "a": "Question",
+    "hint": "Two meanings, same word."
+  },
+  "hard": {
+    "q": "Three siblings share a treasure. One keeps it in the morning, one in the afternoon, and one in the evening. The key is that they all take turns, and the treasure is the same thing. What is it they are sharing?",
+    "a": "Time (a clock) / They share time across their day",
+    "hint": "Think about daily rhythm and equal parts."
+  }
+}

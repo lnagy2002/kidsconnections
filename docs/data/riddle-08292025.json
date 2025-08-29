@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs but I cannot walk. I can be found in a kitchen and I’m used to eat soup. What am I?",
+    "a": "A chair",
+    "hint": "You sit on me to rest."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about a small number and wordplay."
+  },
+  "hard": {
+    "q": "A bowl contains an even number of marbles. You move exactly half of them to another bowl, and then you move half of the marbles in that second bowl. After these two moves, there is one marble left in the first bowl. How many marbles were in the original bowl?",
+    "a": "Impossible to determine with given information",
+    "hint": "Track parity and remember you cannot split a marble."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08292025-E",
+    "generatedAt": "2025-08-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colors of the Rainbow",
+        "items": [
+          "Red",
+          "Orange",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals in a Farm",
+        "items": [
+          "Cow",
+          "Sheep",
+          "Pig",
+          "Horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You See in a Kitchen",
+        "items": [
+          "Fork",
+          "Plate",
+          "Cup",
+          "Spoon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Car",
+          "Bike",
+          "Bus",
+          "Plane"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups with simple, kid-friendly categories suitable for grades 2–3. No item repeats within this puzzle."
+  },
+  "medium": {
+    "id": "08292025-M",
+    "generatedAt": "2025-08-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Science",
+          "Art",
+          "Gym"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Outdoor Things",
+        "items": [
+          "Tree",
+          "Rock",
+          "Flower",
+          "Cloud"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits in a Basket",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Communication",
+        "items": [
+          "Voice",
+          "Gesture",
+          "Email",
+          "Letter"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Four groups with basic categories for grades 4–5. Items chosen to be clear and distinct."
+  },
+  "hard": {
+    "id": "08292025-H",
+    "generatedAt": "2025-08-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planet Names (excluding dwarf planets)",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Kitchen Tools (non-utility)",
+        "items": [
+          "Whisk",
+          "Spatula",
+          "Grater",
+          "Colander"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals with Born-In Methods",
+        "items": [
+          "Birds",
+          "Fish",
+          "Mammals",
+          "Reptiles"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Phenomena",
+        "items": [
+          "Rain",
+          "Snow",
+          "Thunder",
+          "Wind"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Four groups with slightly more complex concepts, suitable for grades 6+. Items are distinct and unambiguous within each puzzle."
+  },
+  "id": "08292025",
+  "generatedAt": "2025-08-29T02:21:22.673Z"
+}

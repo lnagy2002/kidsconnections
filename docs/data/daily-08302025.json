@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08302025-E",
+    "generatedAt": "2025-08-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals that hop",
+        "items": [
+          "Kangaroo",
+          "Frog",
+          "Rabbit",
+          "Wallaby"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "Hat",
+          "Helmet",
+          "Cap",
+          "Beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things found in a kitchen",
+        "items": [
+          "Pan",
+          "Spatula",
+          "Spoon",
+          "Oven"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Primary colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four kid-friendly items with clear, distinct categories suitable for early elementary."
+  },
+  "medium": {
+    "id": "08302025-M",
+    "generatedAt": "2025-08-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Train",
+          "Skateboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "Car",
+          "Cart",
+          "Tricycle",
+          "Luggage"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that young writers use",
+        "items": [
+          "Pencil",
+          "Eraser",
+          "Notebook",
+          "Crayons"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Diverse categories chosen for elementary grade 4–5, ensuring each item is distinct within the puzzle."
+  },
+  "hard": {
+    "id": "08302025-H",
+    "generatedAt": "2025-08-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "US national symbols",
+        "items": [
+          "Flag",
+          "Great Seal",
+          "National Anthem",
+          "Independence Hall"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Science tools",
+        "items": [
+          "Microscope",
+          "Thermometer",
+          "Graduated cylinder",
+          "Ruler"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Famous explorers",
+        "items": [
+          "Columbus",
+          "Magellan",
+          "Earhart",
+          "Nandu"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common processes in nature",
+        "items": [
+          "Evaporation",
+          "Condensation",
+          "Freezing",
+          "Precipitation"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging but approachable groups for grades 6+, with clear terms and non-overlapping items."
+  },
+  "id": "08302025",
+  "generatedAt": "2025-08-30T02:14:54.698Z"
+}

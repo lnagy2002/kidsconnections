@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am not a cat, yet I swing when I’m happy. What am I?",
+    "a": "A kite string",
+    "hint": "Think of something that moves when you fly it."
+  },
+  "medium": {
+    "q": "I am a 5-letter word. If you remove the first and last letter, I become something you can hear. If you remove the middle letter, I become something you can drink. What word am I?",
+    "a": "Cider",
+    "hint": "Check the clues about inside letters."
+  },
+  "hard": {
+    "q": "Two people start at the same point. One walks north, the other east. After 3 steps, they end up on the same line of x+y. If each step is the same length, who has the larger total distance from the start?",
+    "a": "They are at the same distance from the start; both have walked the same total distance.",
+    "hint": "Think about distance vs direction and step length."
+  }
+}

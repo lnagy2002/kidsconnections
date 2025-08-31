@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "08312025-E",
+    "generatedAt": "2025-08-31T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Frog"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods",
+        "items": [
+          "Apple",
+          "Bread",
+          "Carrot",
+          "Milk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four kid-friendly groups with simple, unambiguous items suitable for early elementary players."
+  },
+  "medium": {
+    "id": "08312025-M",
+    "generatedAt": "2025-08-31T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Train",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Science",
+          "Art",
+          "History"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Seasonal Activities",
+        "items": [
+          "Picnic",
+          "Camping",
+          "Skipping Rope",
+          "Bird Watching"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Weather",
+        "items": [
+          "Sunny",
+          "Cloudy",
+          "Rainy",
+          "Snowy"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Groups chosen to be clear and relatable for late elementary learners."
+  },
+  "hard": {
+    "id": "08312025-H",
+    "generatedAt": "2025-08-31T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planetary Bodies",
+        "items": [
+          "Mercury",
+          "Earth",
+          "Mars",
+          "Jupiter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Types of Cloud Cover",
+        "items": [
+          "Cumulus",
+          "Stratus",
+          "Cirrus",
+          "Nimbus"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Primary Colors (Light)",
+        "items": [
+          "Red",
+          "Green",
+          "Blue",
+          "Yellow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Instruments",
+        "items": [
+          "Piano",
+          "Guitar",
+          "Flute",
+          "Drums"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging yet age-appropriate connections for older kids. No repeats within puzzle."
+  },
+  "id": "08312025",
+  "generatedAt": "2025-08-31T22:44:43.886Z"
+}

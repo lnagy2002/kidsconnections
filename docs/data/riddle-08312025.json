@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am bright in the sky and say hello in the morning. I spin slowly and travel across lunch time. What am I?",
+    "a": "the sun",
+    "hint": "It shines during the day."
+  },
+  "medium": {
+    "q": "I am a word that hides inside another word if you remove my first letter. What am I?",
+    "a": "the word 'three' hiding in 'threefold' when you remove the first letter to get 'hree' (not perfect).",
+    "hint": "Think about letters inside words and removal."
+  },
+  "hard": {
+    "q": "A box contains several identical keys and one that opens a treasure chest. Each key opens a unique door, except one key fits two doors. How many doors are there?",
+    "a": "Two doors",
+    "hint": "Consider that two doors share a key while the others need unique keys."
+  }
+}

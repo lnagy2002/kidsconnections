@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have three eyes but cannot see. I come in a pack of four and love to be eaten with cheese. What am I?",
+    "a": "A pretzel",
+    "hint": "Think of snack shapes."
+  },
+  "medium": {
+    "q": "What starts with a twirl, ends with a sigh, and hides in plain sight when you rearrange its letters?",
+    "a": "Puzzle",
+    "hint": "An activity that makes you think."
+  },
+  "hard": {
+    "q": "A light switch has two neighbors who always tell the truth or always lie. You can ask one yes/no question to one neighbor to determine the color of the house next door. What question do you ask, and what color is the house?",
+    "a": "Ask: 'If I asked your neighbor which color the house is, what would they say?' Then take the opposite color. The house is blue.",
+    "hint": "Use a question that cancels out truth-teller/liar differences."
+  }
+}

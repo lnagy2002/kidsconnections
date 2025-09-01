@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09012025-E",
+    "generatedAt": "2025-09-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colors of the Rainbow",
+        "items": [
+          "Red",
+          "Orange",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Nursery Rhyme Characters",
+        "items": [
+          "Humpty Dumpty",
+          "Little Miss Muffet",
+          "Old King Cole",
+          "Miss Muffet?"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Weather Sightings",
+        "items": [
+          "Sun",
+          "Cloud",
+          "Rain",
+          "Wind"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Simple Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Heart"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four items each, tailored for grades 2–3 with safe, kid-friendly categories."
+  },
+  "medium": {
+    "id": "09012025-M",
+    "generatedAt": "2025-09-01T12:02:00Z",
+    "groups": [
+      {
+        "name": "Animal Homes",
+        "items": [
+          "Beehive",
+          "Nest",
+          "Burrow",
+          "Terrarium"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Science",
+          "Reading",
+          "Art"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Bus",
+          "Bicycle",
+          "Car",
+          "Train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grapes"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Four groups of four items each, designed for grades 4–5 with clear, non-ambiguous items."
+  },
+  "hard": {
+    "id": "09012025-H",
+    "generatedAt": "2025-09-01T12:04:00Z",
+    "groups": [
+      {
+        "name": "Riddles About Things",
+        "items": [
+          "Moon reflects Sunlight",
+          "Water expands when frozen",
+          "Plants turn sunlight into food",
+          "Earth is the third planet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Chemical Elements (common names)",
+        "items": [
+          "Hydrogen",
+          "Oxygen",
+          "Carbon",
+          "Iron"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Historical Figures (basic facts)",
+        "items": [
+          "Einstein",
+          "Curie",
+          "Da Vinci",
+          "Napoleon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geography Helpers",
+        "items": [
+          "Continents",
+          "Oceans",
+          "Rivers",
+          "Deserts"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Four groups of four items each, suitable for grades 6+ with slightly more challenging categories."
+  },
+  "id": "09012025",
+  "generatedAt": "2025-09-01T02:47:26.251Z"
+}

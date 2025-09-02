@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09022025-E",
+    "generatedAt": "2025-09-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animal Friends",
+        "items": [
+          "Panda",
+          "Kangaroo",
+          "Penguin",
+          "Giraffe"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit Colors",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grapes",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "Hats",
+          "Socks",
+          "Gloves",
+          "Shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Places to Play",
+        "items": [
+          "Park",
+          "Beach",
+          "Playground",
+          "Backyard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily easy puzzle with kid-friendly categories. Each group has 4 items and no overlaps with other groups in this puzzle."
+  },
+  "medium": {
+    "id": "09022025-M",
+    "generatedAt": "2025-09-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Reading",
+          "Science",
+          "Art"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Bus",
+          "Train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "Sunny",
+          "Rainy",
+          "Snowy",
+          "Windy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "Bowl",
+          "Whisk",
+          "Pan",
+          "Spatula"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily medium puzzle with varied categories. Each group contains 4 distinct items."
+  },
+  "hard": {
+    "id": "09022025-H",
+    "generatedAt": "2025-09-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "Science Topics",
+        "items": [
+          "Ecosystem",
+          "Gravity",
+          "Molecule",
+          "Energy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geography Features",
+        "items": [
+          "Mountain",
+          "Valley",
+          "Desert",
+          "Island"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Drums",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Outer Space Terms",
+        "items": [
+          "Planet",
+          "Comet",
+          "Orbit",
+          "Galaxy"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily hard puzzle with challenging terms suitable for grades 6+. Ensure no item repeats across groups in this puzzle."
+  },
+  "id": "09022025",
+  "generatedAt": "2025-09-02T02:23:44.967Z"
+}

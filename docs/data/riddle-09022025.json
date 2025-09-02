@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m not a pet, but I tell time when I swing. What am I?",
+    "a": "A clock pendulum",
+    "hint": "Think of a classic clock part that moves side to side."
+  },
+  "medium": {
+    "q": "I’m a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Three letters becomes five, and the meaning changes to less."
+  },
+  "hard": {
+    "q": "A farmer has a rectangular field. He wants to plant seeds so every row is the same length as the field’s width, but he cannot measure. How could he lay them out so that all rows fit perfectly without measuring?",
+    "a": "Use the diagonal: plant along the diagonal so each row uses the width as a guide (conceptual puzzle about matching dimensions).",
+    "hint": "Think about using the field’s dimensions to create equal rows without explicit measurement."
+  }
+}

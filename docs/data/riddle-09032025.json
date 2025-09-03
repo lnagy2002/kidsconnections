@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but I’m not a cat. I tell you numbers with a flick, and I’m found on a clock or math chart. What am I?",
+    "a": "A decimal point",
+    "hint": "It separates whole numbers from part of a whole."
+  },
+  "medium": {
+    "q": "I am a word that changes when you add letters at the start or end. If you add ‘re’ I become something you do with a door; if you add ‘un’ I mean not. What word am I?",
+    "a": "Trust",
+    "hint": "Think of a base word that can take prefixes to alter meaning."
+  },
+  "hard": {
+    "q": "Two friends start at the same time, walk in opposite directions along a straight road, and each takes exactly 3 hours. One walks 1.5 times faster than the other. Who is ahead when they’ve each walked half the distance of the starting points? (Explain briefly.)",
+    "a": "The faster friend is ahead at halfway, because they cover more distance in the same time; at half the total distance, their lead equals (speed difference) × (time).",
+    "hint": "Set speeds as v and 1.5v, total distance D. After t = (D/2)/(average speed), compare distances."
+  }
+}

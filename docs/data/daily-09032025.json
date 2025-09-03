@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09032025-E",
+    "generatedAt": "2025-09-03T00:00:00Z",
+    "groups": [
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods",
+        "items": [
+          "Apple",
+          "Bread",
+          "Cheese",
+          "Milk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Kid-friendly daily puzzle: four groups of four items each. Easy level uses familiar everyday categories."
+  },
+  "medium": {
+    "id": "09032025-M",
+    "generatedAt": "2025-09-03T00:00:00Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Cherry",
+          "Grape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Occupations",
+        "items": [
+          "Teacher",
+          "Firefighter",
+          "Chef",
+          "Doctor"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Boat",
+          "Plane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Habitats",
+        "items": [
+          "Forest",
+          "Ocean",
+          "Desert",
+          "Arctic"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses slightly broader categories suitable for grades 4–5."
+  },
+  "hard": {
+    "id": "09032025-H",
+    "generatedAt": "2025-09-03T00:00:00Z",
+    "groups": [
+      {
+        "name": "Planets",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planetary Features",
+        "items": [
+          "Rings",
+          "Craters",
+          "Atmosphere",
+          "Magnetic Field"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Science Tools",
+        "items": [
+          "Telescope",
+          "Microscope",
+          "Thermometer",
+          "Caliper"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Chemistry",
+        "items": [
+          "Hydrogen",
+          "Oxygen",
+          "Carbon",
+          "Nitrogen"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle challenges older kids with science-themed groups and precise items."
+  },
+  "id": "09032025",
+  "generatedAt": "2025-09-03T02:14:22.428Z"
+}

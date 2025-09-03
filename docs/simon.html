@@ -45,7 +45,7 @@
 
 
     .topbar{text-align: center; margin: 20px;}
-    .chip{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; color:var(--ink-dim);}
+    .chip{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; color:var(--ink);}
     .chip strong{color:var(--ink)}
 
     /* Game area */
@@ -54,10 +54,10 @@
 
     .board{display:grid; grid-template-columns:repeat(2, 1fr); grid-template-rows:repeat(2, 1fr); gap:12px; padding:16px}
     .pad{
-      position:relative; border-radius:18px; height:180px; min-height:120px; transition:transform .06s ease, box-shadow .08s ease, filter .12s ease; cursor:pointer; border:2px solid rgba(255,255,255,.08)
+      position:relative; border-radius:18px; height:180px; min-height:120px; cursor:pointer; border:2px solid rgba(255,255,255,.08)
     }
-    .pad:active{transform:scale(.98)}
-    .pad[aria-disabled="true"]{filter:saturate(.75) contrast(.8); cursor:not-allowed}
+    /* .pad:active{transform:scale(.98)} */
+    /* .pad[aria-disabled="true"]{filter:saturate(.75) contrast(.8); cursor:not-allowed} */
     .pad.green{background:linear-gradient(180deg,#38e1a2,#2db784)}
     .pad.red{background:linear-gradient(180deg,#ff8b8b,#e45f5f)}
     .pad.yellow{background:linear-gradient(180deg,#ffdf6b,#f7c81c)}
@@ -81,14 +81,44 @@
     .history th,.history td{border-bottom:1px solid rgba(255,255,255,.1); padding:8px 6px; text-align:left}
 
     /* Shake when mistake */
-    @keyframes shake{10%{transform:translateX(-4px)} 20%{transform:translateX(4px)} 30%{transform:translateX(-3px)} 40%{transform:translateX(3px)} 50%{transform:translateX(0)} }
-    .shake{animation:shake .4s}
+    @keyframes shake {
+        10%,
+        90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+        20%,
+        80% {
+            transform: translate3d(2px, 0, 0);
+        }
+        30%,
+        50%,
+        70% {
+            transform: translate3d(-4px, 0, 0);
+        }
+        40%,
+        60% {
+            transform: translate3d(4px, 0, 0);
+        }
+    }
+
+    .shake {
+        /* display: inline-block; */
+        /* so transform applies properly */
+        animation: shake 0.7s ease-in-out;
+    }
 
     @media (prefers-reduced-motion: reduce){
       .pad{transition:none}
       .pad:active{transform:none}
     }
 
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      25% { transform: scale(1.05); }
+      50% { transform: scale(0.85); }
+      75% { transform: scale(0.94); }
+    }
+    .heartbeat{animation:heartbeat .3s}
 
     .app {
         margin: 20px auto;
@@ -148,13 +178,13 @@
             </div>
         </section>
         <hr>
-        <h3 class="section">Repeat the growing pattern!</h3>
-<div id="msg" class="muted" style="margin-left:auto">Press Start for a new game</div>
+        <!-- <h3 class="section">Repeat the growing pattern!</h3> -->
+<div id="msg" class="muted" style="margin-left:auto"></div>
         <section class="topbar">
+          <div class="chip" id="stateChip">Play State: <strong  style="color: #f0db79">Press <em>Start</em></strong></div>
             <div class="chip" id="levelChip">Round: <strong>0</strong></div>
             <div class="chip" id="bestChip">Top Score: <strong>0</strong></div>
-            <div class="chip" id="livesChip">Lives: <strong>3</strong> left</div>
-            <div class="chip" id="stateChip">Play State: <strong>Ready</strong></div>
+            <div class="chip" id="livesChip">Lives: <strong style="color: #f0db79">3</strong></div>
         </section>
 
         <div class="wrap">
@@ -167,8 +197,6 @@
             </div>
           </section>
 
-
-
     </div>
     <div class="section">
       <button id="startBtn" class="btn primary">Start</button>
@@ -177,6 +205,10 @@
     <script>
         const today = new Date();
 
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name); // returns null if not found
+        }
         // Format it as Month Day, Year (e.g., August 20, 2025)
         const options = {
             year: 'numeric',
@@ -191,15 +223,11 @@
 
         const formattedFileDate = mm + dd + yyyy;
         // Insert into HTML
-        document.getElementById("date").textContent = formattedDate;
+        document.getElementById("date").textContent = "Daily " + (getQueryParam('level')  || 'easy') +  " • " + formattedDate;
     </script>
 
 
   <script>
-    function getQueryParam(name) {
-        const params = new URLSearchParams(window.location.search);
-        return params.get(name); // returns null if not found
-    }
 
   // ====== Simon Game Logic ======
   const pads = [...document.querySelectorAll('.pad')];
@@ -253,9 +281,9 @@
 
   function flashPad(idx, duration){
     const pad = pads[idx];
-    pad.classList.add('active');
+    pad.classList.add('heartbeat');
     playTone(idx, duration);
-    const t = setTimeout(()=> pad.classList.remove('active'), duration);
+    const t = setTimeout(()=> pad.classList.remove('heartbeat'), duration);
     state.timers.push(t);
   }
 
@@ -328,12 +356,12 @@
   }
 
   function pushHistory({len, result, time}){
-    if(historyBody.firstElementChild && historyBody.firstElementChild.tagName === 'TR' && historyBody.firstElementChild.children.length===1){
-      historyBody.innerHTML = '';
-    }
-    const tr = document.createElement('tr');
-    tr.innerHTML = `<td>${historyBody.children.length+1}</td><td>${len}</td><td>${result}</td><td>${time}</td>`;
-    historyBody.prepend(tr);
+    // if(historyBody.firstElementChild && historyBody.firstElementChild.tagName === 'TR' && historyBody.firstElementChild.children.length===1){
+    //   historyBody.innerHTML = '';
+    // }
+    // const tr = document.createElement('tr');
+    // tr.innerHTML = `<td>${historyBody.children.length+1}</td><td>${len}</td><td>${result}</td><td>${time}</td>`;
+    // historyBody.prepend(tr);
   }
 
   // Events

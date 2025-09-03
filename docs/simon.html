@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kids Simon Game | The Mind Bits -  Daily</title>
+  <meta name="description" content="Kid‑friendly Simon (repeat‑the‑sequence) game." />
+  <style>
+    :root{
+      --bg: #0e364b;
+      --panel: #0e364b;
+      --ink: #a9f4f4;
+      --cell: #f0db79;
+      --accent1: #3b82f6;
+      --accent2: #22a699;
+      --accent3: #f2b705;
+      --accent4: #f25c54;
+      --muted: #f0db79;
+      --border: #1b2659;
+      --key: #0f1736;
+      --key-hover: #141f4a;
+      --ink-dim:#cbe8f2;     /* dim text */
+      --accent:#a9f4f4;      /* CTA */
+      --good:#22a699;        /* success */
+      --warn:#f2b705;        /* warning */
+      --oops:#f25c54;        /* error */
+
+      /* Simon pad colors */
+      --green:#34d399;  /* emerald */
+      --red:#f87171;    /* red */
+      --yellow:#facc15; /* yellow */
+      --blue:#60a5fa;   /* blue */
+      --green-glow: 0 0 24px rgba(52,211,153,.8);
+      --red-glow:   0 0 24px rgba(248,113,113,.8);
+      --yellow-glow:0 0 24px rgba(250,204,21,.8);
+      --blue-glow:  0 0 24px rgba(96,165,250,.8);
+    }
+    body{
+      margin: 0;
+      font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+
+
+    .topbar{text-align: center; margin: 20px;}
+    .chip{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; color:var(--ink-dim);}
+    .chip strong{color:var(--ink)}
+
+    /* Game area */
+    /* .wrap{display:grid; grid-template-columns: 1.2fr .8fr; gap:16px}
+    @media (max-width: 900px){ .wrap{ grid-template-columns: 1fr; } } */
+
+    .board{display:grid; grid-template-columns:repeat(2, 1fr); grid-template-rows:repeat(2, 1fr); gap:12px; padding:16px}
+    .pad{
+      position:relative; border-radius:18px; height:180px; min-height:120px; transition:transform .06s ease, box-shadow .08s ease, filter .12s ease; cursor:pointer; border:2px solid rgba(255,255,255,.08)
+    }
+    .pad:active{transform:scale(.98)}
+    .pad[aria-disabled="true"]{filter:saturate(.75) contrast(.8); cursor:not-allowed}
+    .pad.green{background:linear-gradient(180deg,#38e1a2,#2db784)}
+    .pad.red{background:linear-gradient(180deg,#ff8b8b,#e45f5f)}
+    .pad.yellow{background:linear-gradient(180deg,#ffdf6b,#f7c81c)}
+    .pad.blue{background:linear-gradient(180deg,#79b7ff,#4a97ff)}
+    .pad.active.green{box-shadow:var(--green-glow)}
+    .pad.active.red{box-shadow:var(--red-glow)}
+    .pad.active.yellow{box-shadow:var(--yellow-glow)}
+    .pad.active.blue{box-shadow:var(--blue-glow)}
+    .padLabel{position:absolute; inset:auto 10px 10px auto; background:rgba(0,0,0,.25); color:white; padding:4px 8px; border-radius:10px; font-weight:800; font-size:.9rem}
+
+    .panel{display:grid; gap:12px; padding:16px}
+    .status{font-size:1.1rem}
+    .status .ok{color:var(--good)}
+    .status .warn{color:var(--warn)}
+    .status .oops{color:var(--oops)}
+    .meter{height:10px; background:#0d2e41; border-radius:999px; overflow:hidden; border:1px solid rgba(255,255,255,.12)}
+    .meter > div{height:100%; width:0%; background:linear-gradient(90deg, var(--accent), #7fe2e2)}
+
+    .history{font-size:.95rem}
+    .history table{width:100%; border-collapse:collapse}
+    .history th,.history td{border-bottom:1px solid rgba(255,255,255,.1); padding:8px 6px; text-align:left}
+
+    /* Shake when mistake */
+    @keyframes shake{10%{transform:translateX(-4px)} 20%{transform:translateX(4px)} 30%{transform:translateX(-3px)} 40%{transform:translateX(3px)} 50%{transform:translateX(0)} }
+    .shake{animation:shake .4s}
+
+    @media (prefers-reduced-motion: reduce){
+      .pad{transition:none}
+      .pad:active{transform:none}
+    }
+
+
+    .app {
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 14px;
+        width: min(960px, 96vw);
+    }
+
+
+    .app .controls {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        padding: 10px 12px;
+    }
+
+    .section {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .btn {
+        background: var(--key);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 12px 6px;
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--text);
+        margin: 5px;
+        width: 90px;
+    }
+
+    .btn.primary {
+        background: #05a9ac;
+        color: #000;
+        border: none;
+    }
+    .muted {
+        color: var(--muted);
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="app">
+        <section class="panel controls">
+            <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt="" height="100px">
+            <div class="title-block">
+                <h1>Kids' Simon Game</h1>
+                <div id="date"></div>
+            </div>
+        </section>
+        <hr>
+        <h3 class="section">Great for focus, memory, and listening.</h3>
+<div id="msg" class="muted" style="margin-left:auto">Repeat the growing pattern. </div>
+        <section class="topbar">
+            <div class="chip" id="levelChip">Round: <strong>0</strong></div>
+            <div class="chip" id="bestChip">Top Score: <strong>0</strong></div>
+            <div class="chip" id="livesChip">Lives: <strong>3</strong> left</div>
+            <div class="chip" id="stateChip">Play State: <strong>Ready</strong></div>
+        </section>
+
+        <div class="wrap">
+          <section class="card">
+            <div class="board" role="group" aria-label="Simon board">
+              <div class="pad green"  data-idx="0" role="button" aria-label="Green (press 1)" tabindex="0"><span class="padLabel">1</span></div>
+              <div class="pad red"    data-idx="1" role="button" aria-label="Red (press 2)" tabindex="0"><span class="padLabel">2</span></div>
+              <div class="pad yellow" data-idx="2" role="button" aria-label="Yellow (press 3)" tabindex="0"><span class="padLabel">3</span></div>
+              <div class="pad blue"   data-idx="3" role="button" aria-label="Blue (press 4)" tabindex="0"><span class="padLabel">4</span></div>
+            </div>
+          </section>
+
+
+
+    </div>
+    <div class="section">
+      <button id="startBtn" class="btn primary">Start</button>
+      <button id="muteBtn" class="btn" aria-pressed="false">Sound On</button>
+    </div>
+    <script>
+        const today = new Date();
+
+        // Format it as Month Day, Year (e.g., August 20, 2025)
+        const options = {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        };
+        const formattedDate = today.toLocaleDateString(undefined, options);
+
+        const mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+        const dd = String(today.getDate()).padStart(2, '0');
+        const yyyy = today.getFullYear();
+
+        const formattedFileDate = mm + dd + yyyy;
+        // Insert into HTML
+        document.getElementById("date").textContent = formattedDate;
+    </script>
+
+
+  <script>
+    function getQueryParam(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name); // returns null if not found
+    }
+
+  // ====== Simon Game Logic ======
+  const pads = [...document.querySelectorAll('.pad')];
+  const levelChip = document.getElementById('levelChip').querySelector('strong');
+  const bestChip  = document.getElementById('bestChip').querySelector('strong');
+  const livesChip = document.getElementById('livesChip').querySelector('strong');
+  const stateChip = document.getElementById('stateChip').querySelector('strong');
+  const statusText= document.getElementById('msg');
+  // const meterFill = document.getElementById('meterFill');
+  const historyBody = document.getElementById('historyBody');
+  const startBtn = document.getElementById('startBtn');
+  const muteBtn = document.getElementById('muteBtn');
+  const difficultySel = getQueryParam('level')  || 'easy';
+
+  let BEST = Number(localStorage.getItem('simon_best')||0); bestChip.textContent = BEST;
+
+  const SPEEDS = {
+    easy:   { tone: 550, gap: 260, inputFlash: 250, lives: 3 },
+    medium: { tone: 420, gap: 200, inputFlash: 230, lives: 2 },
+    hard:   { tone: 320, gap: 150, inputFlash: 200, lives: 1 }
+  };
+
+  const FREQS = [329.63, 261.63, 220.00, 164.81]; // green, red, yellow, blue
+  let audioCtx = null, muted = false;
+  function ensureAudio(){ if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
+  function playTone(idx, duration){ if(muted) return; ensureAudio(); const o = audioCtx.createOscillator(); const g = audioCtx.createGain();
+    o.type = 'sine'; o.frequency.value = FREQS[idx]; o.connect(g); g.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+    g.gain.setValueAtTime(0.0001, now);
+    g.gain.exponentialRampToValueAtTime(0.55, now+0.01);
+    g.gain.exponentialRampToValueAtTime(0.0001, now + duration/1000);
+    o.start(now); o.stop(now + duration/1000 + 0.02);
+  }
+
+  const state = {
+    seq: [],
+    level: 0,
+    idx: 0,
+    accepting: false,
+    lives: SPEEDS[difficultySel].lives,
+    timers: [],
+    playing: false,
+    mode: difficultySel
+  };
+
+  function clearTimers(){ while(state.timers.length){ clearTimeout(state.timers.pop()); } }
+  function setStateLabel(t){ stateChip.textContent = t; }
+  function setStatusHTML(html){ statusText.innerHTML = html; }
+  function setLives(n){ state.lives = n; livesChip.textContent = n; }
+  function setLevel(n){ state.level = n; levelChip.textContent = n; if(n>BEST){ BEST=n; bestChip.textContent = n; localStorage.setItem('simon_best', String(n)); }}
+
+  function flashPad(idx, duration){
+    const pad = pads[idx];
+    pad.classList.add('active');
+    playTone(idx, duration);
+    const t = setTimeout(()=> pad.classList.remove('active'), duration);
+    state.timers.push(t);
+  }
+
+  function setBoardDisabled(disabled){ pads.forEach(p=>p.setAttribute('aria-disabled', String(disabled))); }
+
+  function addStep(){ state.seq.push(Math.floor(Math.random()*4)); }
+
+  function playSequence(){
+    setStateLabel('Listen');
+    setBoardDisabled(true);
+    state.accepting = false; state.idx = 0;
+    // meterFill.style.width = '0%';
+    const speed = SPEEDS[state.mode];
+    let delay = 500;
+    state.seq.forEach((v,i)=>{
+      const d = speed.tone; // tone/flash duration
+      const t1 = setTimeout(()=>{
+        flashPad(v, d);
+        // meterFill.style.width = ((i+1)/state.seq.length*100).toFixed(1)+'%';
+      }, delay);
+      state.timers.push(t1);
+      delay += d + speed.gap;
+    });
+    const t2 = setTimeout(()=>{ setStateLabel('Your turn'); state.accepting = true; setBoardDisabled(false); }, delay+50);
+    state.timers.push(t2);
+  }
+
+  function startGame(){
+    clearTimers(); ensureAudio(); audioCtx.resume && audioCtx.resume();
+    state.seq = []; setLevel(0); setLives(SPEEDS[difficultySel].lives); state.mode = difficultySel; state.playing = true;
+    setStatusHTML('Memorize the pattern, then repeat it. Match all steps to level up! ✨');
+    addStep(); setLevel(1); playSequence();
+  }
+
+  function handleInput(idx){
+    if(!state.accepting) return;
+    const speed = SPEEDS[state.mode];
+    flashPad(idx, speed.inputFlash);
+    if(state.seq[state.idx] === idx){
+      state.idx++;
+      if(state.idx === state.seq.length){
+        // Level cleared
+        setLevel(state.level+1);
+        setStateLabel('Great job!');
+        setStatusHTML(`<span class="ok">Level cleared!</span> Get ready for the next pattern…`);
+        state.accepting = false; setBoardDisabled(true);
+        addStep();
+        state.timers.push(setTimeout(playSequence, 800));
+        // Save history row
+        pushHistory({len: state.seq.length, result:'✔️', time: new Date().toLocaleTimeString()});
+      }
+    }else{
+      // Wrong
+      document.querySelector('.board').classList.add('shake');
+      state.timers.push(setTimeout(()=>document.querySelector('.board').classList.remove('shake'), 450));
+      setLives(state.lives-1);
+      setStatusHTML(`<span class="oops">Oops!</span> Watch carefully, then try again.`);
+      setStateLabel('Listen');
+      state.accepting = false; setBoardDisabled(true);
+      if(state.lives>0){ state.timers.push(setTimeout(playSequence, 900)); }
+      else { gameOver(); }
+      pushHistory({len: state.seq.length, result:'❌', time:new Date().toLocaleTimeString()});
+    }
+  }
+
+  function gameOver(){
+    setStateLabel('Game over');
+    setStatusHTML(`Game over. Your best level is <strong>${BEST}</strong>. Press <em>Start</em> to try again!`);
+    state.playing = false; state.accepting = false; setBoardDisabled(true);
+  }
+
+  function pushHistory({len, result, time}){
+    if(historyBody.firstElementChild && historyBody.firstElementChild.tagName === 'TR' && historyBody.firstElementChild.children.length===1){
+      historyBody.innerHTML = '';
+    }
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${historyBody.children.length+1}</td><td>${len}</td><td>${result}</td><td>${time}</td>`;
+    historyBody.prepend(tr);
+  }
+
+  // Events
+  pads.forEach(p=>{
+    p.addEventListener('pointerdown', e=>{ if(p.getAttribute('aria-disabled')==='true') return; handleInput(Number(p.dataset.idx)); });
+    p.addEventListener('keydown', e=>{
+      if(['Enter',' '].includes(e.key)) { e.preventDefault(); if(p.getAttribute('aria-disabled')==='true') return; handleInput(Number(p.dataset.idx)); }
+    })
+  });
+  // Global keyboard shortcuts 1-4
+  window.addEventListener('keydown', e=>{
+    const map = { '1':0,'2':1,'3':2,'4':3, 'a':0,'s':1,'d':2,'f':3 };
+    if(e.key.toLowerCase() in map){ handleInput(map[e.key.toLowerCase()]); }
+  });
+
+  startBtn.addEventListener('click', startGame);
+  muteBtn.addEventListener('click', ()=>{
+    muted = !muted; muteBtn.setAttribute('aria-pressed', String(muted)); muteBtn.textContent = muted? 'Sound Off' : 'Sound On';
+  });
+  // difficultySel.addEventListener('change', ()=>{
+  //   setLives(SPEEDS[difficultySel.value].lives);
+  //   setStatusHTML(`Difficulty set to <strong>${difficultySel}</strong>.`);
+  // });
+
+  // Focus outline for keyboard users
+  document.body.addEventListener('keydown', e=>{ if(e.key==='Tab') document.body.classList.add('show-outline'); });
+  </script>
+</body>
+</html>

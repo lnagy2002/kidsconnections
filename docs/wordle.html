@@ -272,6 +272,10 @@
     </div>
     <script>
         const t = new Date();
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name); // returns null if not found
+        }
 
         // Format it as Month Day, Year (e.g., August 20, 2025)
         const options = {
@@ -287,7 +291,7 @@
 
         const formattedFileDate = mm + dd + yyyy;
         // Insert into HTML
-        document.getElementById("date").textContent = formattedDate;
+        document.getElementById("date").textContent = "Daily " + (getQueryParam('level')  || 'easy') +  " • " + formattedDate;
     </script>
     <script>
         // ===== Daily deterministic word (by date + level) =====
@@ -336,10 +340,6 @@
             }
         }
 
-        function getQueryParam(name) {
-            const params = new URLSearchParams(window.location.search);
-            return params.get(name); // returns null if not found
-        }
         // Word lists — replace with your own
         let WORDS = {};
 
@@ -453,7 +453,7 @@
             };
             buildBoard(S.len, S.max);
             buildKeyboard();
-            msg(`• Daily ${lvl} • ${S.len} letters`);
+            msg(``);
         }
 
         function msg(t) {

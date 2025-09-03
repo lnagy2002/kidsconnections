@@ -236,7 +236,7 @@
         </section>
         <hr>
         <h3 class="section">Create four groups of four!</h3>
-        <div id="msg" class="muted" style="margin-left:auto">Daily categories</div>
+        <div id="msg" class="muted" style="margin-left:auto">Categories</div>
         <div id="foundContainer"></div>
         <div id="grid" class="grid"></div>
         <div class="section">
@@ -249,6 +249,10 @@
     </div>
     <script>
         const today = new Date();
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name); // returns null if not found
+        }
 
         // Format it as Month Day, Year (e.g., August 20, 2025)
         const options = {
@@ -264,7 +268,7 @@
 
         const formattedFileDate = mm + dd + yyyy;
         // Insert into HTML
-        document.getElementById("date").textContent = formattedDate;
+        document.getElementById("date").textContent = "Daily " + (getQueryParam('level')  || 'easy') +  " • " + formattedDate;
     </script>
     <script>
         function showMessage(text) {
@@ -279,11 +283,6 @@
             items: []
         };
         let PUZZLE_BANK = {};
-
-        function getQueryParam(name) {
-            const params = new URLSearchParams(window.location.search);
-            return params.get(name); // returns null if not found
-        }
 
         async function loadData() {
             const level = getQueryParam('level')  || 'easy';
@@ -304,7 +303,7 @@
             state.solved = [];
             state.selected = new Set();
             const groups = PUZZLE_BANK[level].groups;
-            showMessage();
+            showMessage('');
 
             // available colors
             const colors = [

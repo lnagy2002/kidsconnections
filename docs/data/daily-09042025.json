@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09042025-E",
+    "generatedAt": "2025-09-04T12:00:00Z",
+    "groups": [
+      {
+        "name": "Fruit Friends",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four items each. Easy level with familiar categories for grades 2–3."
+  },
+  "medium": {
+    "id": "09042025-M",
+    "generatedAt": "2025-09-04T12:00:00Z",
+    "groups": [
+      {
+        "name": "Weather Words",
+        "items": [
+          "Sunny",
+          "Rainy",
+          "Snowy",
+          "Windy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "Bus",
+          "Bicycle",
+          "Train",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sports",
+        "items": [
+          "Soccer",
+          "Basketball",
+          "Swimming",
+          "Running"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things People Wear",
+        "items": [
+          "Hat",
+          "Glove",
+          "Scarf",
+          "Boot"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Four groups of four items each. Medium level suitable for grades 4–5."
+  },
+  "hard": {
+    "id": "09042025-H",
+    "generatedAt": "2025-09-04T12:00:00Z",
+    "groups": [
+      {
+        "name": "Science Tools",
+        "items": [
+          "Magnifier",
+          "Beaker",
+          "Thermometer",
+          "Ruler"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geography Features",
+        "items": [
+          "River",
+          "Mountain",
+          "Desert",
+          "Island"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Math Operations",
+        "items": [
+          "Addition",
+          "Subtraction",
+          "Multiplication",
+          "Division"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Trumpet",
+          "Drums"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Four groups of four items each. Hard level for grades 6 and up."
+  },
+  "id": "09042025",
+  "generatedAt": "2025-09-04T02:14:35.769Z"
+}

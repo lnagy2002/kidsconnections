@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I run but never walk. What am I?",
+    "a": "A kite",
+    "hint": "Think of something that moves in the wind and has a tail."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "The word itself is a small number, and adding two letters changes its meaning."
+  },
+  "hard": {
+    "q": "A box contains two balls. You can take out one ball at a time. Each time you take one, you replace it with a new ball with a number equal to the two balls you took so far. How many balls are in the box after n steps?",
+    "a": "There are always 2 balls in the box",
+    "hint": "Consider the rule: the box starts with two balls, and at each step you replace the drawn ball with a new one whose number equals the total drawn so far."
+  }
+}

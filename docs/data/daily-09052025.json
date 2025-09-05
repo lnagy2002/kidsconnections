@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09052025-E",
+    "generatedAt": "2025-09-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals that go 'meow' or 'woof'",
+        "items": [
+          "Cat",
+          "Dog",
+          "Puppy",
+          "Kitten"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Frozen treats",
+        "items": [
+          "Ice cream",
+          "Popsicle",
+          "Icee",
+          "Gelato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "Bike",
+          "Car",
+          "Tricycle",
+          "Skates"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common playground items",
+        "items": [
+          "Slide",
+          "Swing",
+          "Swingset",
+          "Merry-go-round"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Kid-friendly connections puzzle with four simple categories suitable for 2nd–3rd graders."
+  },
+  "medium": {
+    "id": "09052025-M",
+    "generatedAt": "2025-09-05T12:05:00Z",
+    "groups": [
+      {
+        "name": "Literary devices",
+        "items": [
+          "Alliteration",
+          "Rhythm",
+          "Onomatopoeia",
+          "Hyperbole"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Museum exhibits",
+        "items": [
+          "Dinosaur Fossil",
+          "Ancient Pottery",
+          "Moon Rock",
+          "Terracotta Warrior"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "Bus",
+          "Subway",
+          "Bicycle",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Healthy snacks",
+        "items": [
+          "Apple",
+          "Carrot sticks",
+          "Yogurt",
+          "Popcorn"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Targets 4th–5th graders with mild abstraction and cross-category thinking."
+  },
+  "hard": {
+    "id": "09052025-H",
+    "generatedAt": "2025-09-05T12:10:00Z",
+    "groups": [
+      {
+        "name": "Science topics",
+        "items": [
+          "Gravity",
+          "Energy",
+          "Ecosystem",
+          "Cell"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "World capitals (shortened)",
+        "items": [
+          "Oslo",
+          "Lima",
+          "Riga",
+          "Dili"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mathematical concepts",
+        "items": [
+          "Sum",
+          "Fraction",
+          "Prime",
+          "Angle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical terms",
+        "items": [
+          "Tempo",
+          "Chord",
+          "Pitch",
+          "Rhythm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Designed for grades 6+ with broader vocabulary and cross-topic linkage."
+  },
+  "id": "09052025",
+  "generatedAt": "2025-09-05T02:17:52.116Z"
+}

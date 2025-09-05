@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I ride on four legs in the morning and two at noon. What am I?",
+    "a": "A person (the human develops from crawling as a baby to walking on two legs)",
+    "hint": "Think about how you grow."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Play with the idea of adding letters to change meaning."
+  },
+  "hard": {
+    "q": "A box has four corners but contains no sides. Inside, a hidden rule makes two opposite pairs equal. What is the rule that keeps the pairs balanced?",
+    "a": "Opposite sides of a kite are equal and the diagonals bisect each other",
+    "hint": "Think about shapes where lines cross and halves match."
+  }
+}

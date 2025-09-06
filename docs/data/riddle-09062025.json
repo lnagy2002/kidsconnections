@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am a common Pet that rides on a leash; what am I?",
+    "a": "A dog",
+    "hint": "Think of a four-legged friend who barks."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be.",
+    "a": "Few",
+    "hint": "Add two letters to become a new word that means a small number."
+  },
+  "hard": {
+    "q": "A room has no doors or windows. Inside, five people are seated in a line, yet no one moves. How is this possible?",
+    "a": "They are in a row of seats in a theater and not required to move.",
+    "hint": "Riddles often play with the meaning of 'room' and 'line'."
+  }
+}

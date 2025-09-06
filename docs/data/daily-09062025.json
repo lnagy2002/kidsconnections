@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09062025-E",
+    "generatedAt": "2025-09-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals",
+        "items": [
+          "Frog",
+          "Duck",
+          "Rabbit",
+          "Squirrel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Oval"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Numbers",
+        "items": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four kid-friendly groups of four items each. Simple, non-ambiguous for ages 7-8."
+  },
+  "medium": {
+    "id": "09062025-M",
+    "generatedAt": "2025-09-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planets",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Homes",
+        "items": [
+          "Nest",
+          "Burrow",
+          "Den",
+          "Hive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Scooter",
+          "Bus"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Morning Activities",
+        "items": [
+          "Brush Teeth",
+          "Eat Breakfast",
+          "Pack Bag",
+          "Grab Backpack"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Balanced, clear categories for grades 4–5 with everyday concepts."
+  },
+  "hard": {
+    "id": "09062025-H",
+    "generatedAt": "2025-09-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Pioneer Inventions",
+        "items": [
+          "Printing Press",
+          "Steam Engine",
+          "Telephone",
+          "Lightbulb"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Phenomena",
+        "items": [
+          "Rainbow",
+          "Hurricane",
+          "Snowflake",
+          "Thunderstorm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Languages",
+        "items": [
+          "Spanish",
+          "Mandarin",
+          "Hindi",
+          "Arabic"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Drums",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging categories to suit grades 6+. Clear, non-ambiguous items."
+  },
+  "id": "09062025",
+  "generatedAt": "2025-09-06T02:14:08.036Z"
+}

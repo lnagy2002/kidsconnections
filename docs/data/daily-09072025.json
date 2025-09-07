@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09072025-E",
+    "generatedAt": "2025-09-07T00:00:00Z",
+    "groups": [
+      {
+        "name": "Colors of the Rainbow",
+        "items": [
+          "Red",
+          "Orange",
+          "Yellow",
+          "Blue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals Starting with A",
+        "items": [
+          "Alligator",
+          "Ant",
+          "Ape",
+          "Armadillo"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Eat for Breakfast",
+        "items": [
+          "Cereal",
+          "Eggs",
+          "Milk",
+          "Toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Car",
+          "Bike",
+          "Bus",
+          "Train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four items each, kid-friendly and non-repetitive within the puzzle."
+  },
+  "medium": {
+    "id": "09072025-M",
+    "generatedAt": "2025-09-07T00:00:00Z",
+    "groups": [
+      {
+        "name": "Planets (Solar System)",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Classroom Objects",
+        "items": [
+          "Pencil",
+          "Notebook",
+          "Ruler",
+          "Eraser"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sport Types",
+        "items": [
+          "Soccer",
+          "Basketball",
+          "Tennis",
+          "Swimming"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": " musical Instruments",
+        "items": [
+          "Piano",
+          "Guitar",
+          "Violin",
+          "Drums"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Four groups of four items each, suitable for grades 4–5 and with varied everyday themes."
+  },
+  "hard": {
+    "id": "09072025-H",
+    "generatedAt": "2025-09-07T00:00:00Z",
+    "groups": [
+      {
+        "name": "World Habitats",
+        "items": [
+          "Desert",
+          "Rainforest",
+          "Savanna",
+          "Tundra"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Simple Machines",
+        "items": [
+          "Lever",
+          "Pulley",
+          "Inclined Plane",
+          "Wedge"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Continents by Feature",
+        "items": [
+          "Africa",
+          "Asia",
+          "Europe",
+          "Australia"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mathematical Shapes",
+        "items": [
+          "Triangle",
+          "Rectangle",
+          "Hexagon",
+          "Circle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Four groups of four items each, tailored for grades 6+. Daily category variety maintained."
+  },
+  "id": "09072025",
+  "generatedAt": "2025-09-07T02:22:33.226Z"
+}

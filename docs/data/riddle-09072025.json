@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I fly without wings and I cry without eyes. What am I?",
+    "a": "A cloud",
+    "hint": "Feels light and shows rain."
+  },
+  "medium": {
+    "q": "I am a number. If you add me to myself, I become 12. If you subtract me from myself, I become 0. What number am I?",
+    "a": "6",
+    "hint": "Think half of twelve."
+  },
+  "hard": {
+    "q": "A box has four switches named North, South, East, and West. Each switch is either on or off. A secret rule says: exactly two switches are on, and they are opposite each other. How many different ways can you set the switches to satisfy the rule?",
+    "a": "2",
+    "hint": "Opposite pairs: NS or EW; both on or off counts."
+  }
+}

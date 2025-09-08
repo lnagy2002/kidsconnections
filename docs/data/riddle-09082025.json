@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes, a long tail but no mouth. What am I?",
+    "a": "A coin",
+    "hint": "Think about something you flip."
+  },
+  "medium": {
+    "q": "I grow when others take away, what am I when you remove letters from me?",
+    "a": "Hole",
+    "hint": "Removing teeth from me makes a smaller word."
+  },
+  "hard": {
+    "q": "Two people stand on opposite sides of a river with only one bridge. They must trade items but cannot cross the bridge together. How can they both end up with what they want without crossing at the same time?",
+    "a": "One crosses, then the other; they pass via the bridge at different times.",
+    "hint": "Consider the bridge as a timeline, not a single moment."
+  }
+}

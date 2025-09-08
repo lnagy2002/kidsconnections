@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09082025-E",
+    "generatedAt": "2025-09-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals by Habitat",
+        "items": [
+          "Panda",
+          "Penguin",
+          "Kangaroo",
+          "Toucan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Everyday Objects",
+        "items": [
+          "Shoe",
+          "Watch",
+          "Phone",
+          "Bottle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors in the Rainbow",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Bus",
+          "Bike",
+          "Car",
+          "Train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily fresh categories. Each group contains 4 items suitable for 2nd-3rd graders; items are distinct within this puzzle."
+  },
+  "medium": {
+    "id": "09082025-M",
+    "generatedAt": "2025-09-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Science",
+          "Art",
+          "Geography"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruit Types",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Famous Landmarks",
+        "items": [
+          "Eiffel Tower",
+          "Great Wall",
+          "Pyramids",
+          "Statue of Liberty"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Seasonal Activities",
+        "items": [
+          "Baking",
+          "Skating",
+          "Gardening",
+          "Swimming"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily fresh categories. Each group contains 4 items suitable for 4th-5th graders; items are distinct within this puzzle."
+  },
+  "hard": {
+    "id": "09082025-H",
+    "generatedAt": "2025-09-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Scientific Tools",
+        "items": [
+          "Microscope",
+          "Thermometer",
+          "Ruler",
+          "Compass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "World Cuisines",
+        "items": [
+          "Sushi",
+          "Tacos",
+          "Paella",
+          "Curry"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Physical Quantities",
+        "items": [
+          "Mass",
+          "Volume",
+          "Density",
+          "Speed"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fictional Creatures",
+        "items": [
+          "Dragon",
+          "Unicorn",
+          " phoenix",
+          "Griffin"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily fresh categories. Each group contains 4 items suitable for 6th grade and up; items are distinct within this puzzle."
+  },
+  "id": "09082025",
+  "generatedAt": "2025-09-08T02:23:59.636Z"
+}

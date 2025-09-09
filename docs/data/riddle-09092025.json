@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but am not a pet. I can glide through the air and I blink at you when I’m blown by the wind. What am I?",
+    "a": "a kite",
+    "hint": "It flies high and dances with the wind."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "Think about number and letters."
+  },
+  "hard": {
+    "q": "In a room with 3 switches and 3 lamps, you can only enter once. You may flip switches any way, then you may enter and tell which switch powers which lamp. How do you do it?",
+    "a": "Turn on switch 1 for a while, then off; turn on switch 2; then enter. The lamp that’s on is switch 2; the lamp that’s warm but off is switch 1; the remaining lamp is switch 3.",
+    "hint": "Use heat and light to match each lamp to a switch."
+  }
+}

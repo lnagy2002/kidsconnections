@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Matchstick Puzzles – 7-Segment</title>
+<style>
+  :root {
+    --ink:#0e364b;
+    --muted:#c9d6de;
+    --accent:#f25c54;
+    --ok:#2aa745;
+    --warn:#d97706;
+    --bad:#d11a2a;
+    --panel:#f7f8fa;
+  }
+  body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; margin:24px; color:#111}
+  .shell{max-width:920px;margin:auto}
+  .topbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:14px}
+  h1{font-size:20px;margin:0;color:var(--ink)}
+  .pill{background:var(--panel);border:1px solid #e1e7ec;border-radius:999px;padding:6px 10px;font-size:13px}
+  .btn{border:1px solid #cfd8df;background:#fff;border-radius:10px;padding:10px 14px;cursor:pointer}
+  .btn:disabled{opacity:.5;cursor:not-allowed}
+  .status{font-size:14px;margin-top:10px}
+  .status.ok{color:var(--ok)} .status.warn{color:var(--warn)} .status.bad{color:var(--bad)}
+  .board-wrap{border:1px solid #e6ecef;border-radius:16px;padding:16px;background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.05)}
+  svg{width:100%;height:auto;touch-action:manipulation}
+  .slot{opacity:.25}
+  .slot.locked{opacity:.15}
+  .match{fill:var(--ink)}
+  .match.carry{fill:var(--accent)}
+  .glyph-label{font-size:12px; fill:#667; user-select:none}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px}
+  .legend .pill{font-size:12px}
+  .hint{color:var(--ink);margin-top:8px;font-size:14px}
+  .meta{font-size:12px;color:#667}
+  .footer{margin-top:14px;font-size:12px;color:#667}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="topbar">
+    <h1>Matchstick Puzzles – 7-Segment</h1>
+    <span id="meta" class="pill"></span>
+    <button id="btnCheck" class="btn">Check</button>
+    <button id="btnReset" class="btn">Reset</button>
+    <button id="btnNew" class="btn">New puzzle</button>
+  </div>
+
+  <div class="board-wrap">
+    <!-- Scalable board -->
+    <svg id="board" viewBox="0 0 900 260" aria-label="Matchstick board">
+      <!-- Slots & matches will be injected -->
+    </svg>
+    <div id="hint" class="hint"></div>
+    <div id="status" class="status"></div>
+    <div class="legend">
+      <span class="pill">Tap/click a lit segment to pick it up, then tap an empty slot to drop it</span>
+      <span class="pill">Goal: Make the equation true within the allowed moves</span>
+    </div>
+  </div>
+
+  <div class="footer">Operators: change <b>+</b> ↔ <b>−</b> by moving matches in the operator area. The equals "<b>=</b>" is fixed (non-movable) so the equation stays in A op B = C form.</div>
+</div>
+
+<script>
+/* ========= 7-segment geometry & helpers ========= */
+const SEG = ['a','b','c','d','e','f','g']; // standard naming
+// canonical segments for digits 0-9 (a..g)
+const DIGIT_MAP = {
+  0:['a','b','c','d','e','f'],
+  1:['b','c'],
+  2:['a','b','d','e','g'],
+  3:['a','b','c','d','g'],
+  4:['f','g','b','c'],
+  5:['a','f','g','c','d'],
+  6:['a','f','g','e','c','d'],
+  7:['a','b','c'],
+  8:['a','b','c','d','e','f','g'],
+  9:['a','b','c','d','f','g']
+};
+// inverse: from set -> digit (we'll compare sorted keys)
+const keyFor = segs => segs.slice().sort().join('');
+const SET_TO_DIGIT = {};
+for (let d=0; d<=9; d++) SET_TO_DIGIT[keyFor(DIGIT_MAP[d])] = d;
+
+// operator area: plus uses Hmid + Vmid; minus uses Hmid only
+const OP_FOR = (bits)=> {
+  // bits is Set of strings among {'Hmid','Vmid'}
+  const h = bits.has('Hmid'), v = bits.has('Vmid');
+  if (h && v) return '+';
+  if (h && !v) return '−';
+  return '?'; // undefined symbol
+};
+
+/* ========= Board model =========
+   We build three digits (A, B, C), one operator area (OP), and a fixed equals '='
+   Each "slot" is a place a match can go.
+   Each "match" occupies exactly one slot.
+*/
+const PUZZLES = [
+  {
+    id:'P1', moves:1,
+    hint:'One move: adjust the operator or a digit.',
+    // 6 + 4 = 8  (true after change '+'→'−' giving 6−4=2, but you must also move a match to make result 2 or change digit)
+    // We’ll set initial: 6 + 4 = 8  (false). Many 1-move fixes exist (e.g., make 9 by adding one to 8? not possible with 1 move).
+    // The canonical intended: change + to − and move one segment from 8 to form 2? That's 2 moves. So better use a classic:
+    // Use: 5 + 3 = 9 (false). One move: move a match from 9 to make 8 → 5+3=8 (true).
+    A: 5, op: '+', B: 3, C: 9
+  },
+  {
+    id:'P2', moves:1,
+    hint:'Operator tweak might be enough… or alter a digit.',
+    // 7 + 1 = 2 (false). One move: move one from 7 to make 1: 1+1=2 (true).
+    A: 7, op: '+', B: 1, C: 2
+  },
+  {
+    id:'P3', moves:2,
+    hint:'Two moves allowed. You may need both a digit and the operator.',
+    // 9 − 3 = 3 (false). Two moves: 8 − 3 = 5 (true) by changing 9→8 and 3(result)→5.
+    A: 9, op: '−', B: 3, C: 3
+  },
+  {
+    id:'P4', moves:1,
+    hint:'One clever digit change fixes it.',
+    // 0 + 3 = 5 (false). One move: move a match from 0 to make 8? That adds, not move.
+    // Better: 6 + 4 = 8 (false) → one move: change 6 to 8 (add) not allowed. But move from 6 to make 5 and from 8 to 9 needs two.
+    // Use: 3 + 5 = 9 (false). One move: 9→8 to make 3+5=8 (true). (Mirror of P1, different order)
+    A: 3, op: '+', B: 5, C: 9
+  }
+];
+
+const board = {
+  slots: [],   // {id, kind:'digit'|'op'|'eq', owner, seg, x,y,w,h, rot, locked}
+  occupied: new Map(), // slotId -> true if a match is here
+  carry: null, // slotId we picked up
+  puzzle: null,
+  movesUsed: 0,
+  moveLimit: 1,
+};
+
+// Layout parameters (responsive inside viewBox 900x260)
+const DIG_W = 180, DIG_H = 220;
+const MARGIN_X = 40;
+const ORIGIN_Y = 20;
+const A_X = MARGIN_X, OP_X = A_X + DIG_W + 40, B_X = OP_X + 90, EQ_X = B_X + DIG_W + 30, C_X = EQ_X + 70;
+const THICK = 16; // match thickness
+
+// Build 7-seg slots for one digit at (x0, y0)
+function buildDigitSlots(owner, x0, y0){
+  const L = 110;   // segment length horizontal
+  const LV = 100;  // vertical length
+  const t = THICK;
+  const parts = [];
+  // a (top horiz)
+  parts.push({seg:'a', x:x0+35, y:y0+10, w:L, h:t, rot:0});
+  // b (upper-right vert)
+  parts.push({seg:'b', x:x0+35+L, y:y0+10+t, w:t, h:LV, rot:0});
+  // c (lower-right vert)
+  parts.push({seg:'c', x:x0+35+L, y:y0+10+t+LV+10, w:t, h:LV, rot:0});
+  // d (bottom horiz)
+  parts.push({seg:'d', x:x0+35, y:y0+10+t+LV+10+LV+10, w:L, h:t, rot:0});
+  // e (lower-left vert)
+  parts.push({seg:'e', x:x0+35- t, y:y0+10+t+LV+10, w:t, h:LV, rot:0});
+  // f (upper-left vert)
+  parts.push({seg:'f', x:x0+35- t, y:y0+10+t, w:t, h:LV, rot:0});
+  // g (mid horiz)
+  parts.push({seg:'g', x:x0+35, y:y0+10+t+LV+5, w:L, h:t, rot:0});
+  parts.forEach(p=>{
+    const id = `${owner}:${p.seg}`;
+    board.slots.push({id, kind:'digit', owner, seg:p.seg, ...p, locked:false});
+  });
+}
+// Build operator area slots (+ or −) centered near OP_X
+function buildOperatorSlots(){
+  // We'll provide two slots: Hmid and Vmid (to make '+' or '−')
+  const x0 = OP_X, y0 = ORIGIN_Y+40;
+  const Lh = 70, Lv = 120, t=THICK;
+  // Horizontal middle
+  board.slots.push({id:'op:Hmid', kind:'op', owner:'op', seg:'Hmid', x:x0+10, y:y0+80, w:Lh, h:t, rot:0, locked:false});
+  // Vertical middle
+  board.slots.push({id:'op:Vmid', kind:'op', owner:'op', seg:'Vmid', x:x0+45, y:y0+30, w:t, h:Lv, rot:0, locked:false});
+}
+// Build a fixed "=" sign (two locked slots)
+function buildEqualsSlots(){
+  const x0 = EQ_X, y0 = ORIGIN_Y+40;
+  const Lh = 70, t=THICK;
+  board.slots.push({id:'eq:top', kind:'eq', owner:'eq', seg:'Top', x:x0, y:y0+50, w:Lh, h:t, rot:0, locked:true});
+  board.slots.push({id:'eq:bot', kind:'eq', owner:'eq', seg:'Bot', x:x0, y:y0+110, w:Lh, h:t, rot:0, locked:true});
+}
+
+/* ========= Rendering ========= */
+const svg = document.getElementById('board');
+
+function clearSVG(){
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+}
+
+function rect(x,y,w,h, cls=''){
+  const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
+  r.setAttribute('x',x); r.setAttribute('y',y);
+  r.setAttribute('width',w); r.setAttribute('height',h);
+  r.setAttribute('rx',8); r.setAttribute('ry',8);
+  if (cls) r.setAttribute('class',cls);
+  return r;
+}
+function text(x,y,str,cls='glyph-label'){
+  const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+  t.setAttribute('x',x); t.setAttribute('y',y);
+  t.setAttribute('class',cls);
+  t.textContent = str;
+  return t;
+}
+
+function drawBoard(){
+  clearSVG();
+  // faint target slots
+  for (const s of board.slots){
+    const slot = rect(s.x, s.y, s.w, s.h, 'slot'+(s.locked?' locked':''));
+    slot.dataset.slotId = s.id;
+    svg.appendChild(slot);
+  }
+  // titles under glyphs
+  svg.appendChild(text(A_X+60, ORIGIN_Y+DIG_H+20, 'A', 'glyph-label'));
+  svg.appendChild(text(OP_X+40, ORIGIN_Y+DIG_H+20, 'op', 'glyph-label'));
+  svg.appendChild(text(B_X+60, ORIGIN_Y+DIG_H+20, 'B', 'glyph-label'));
+  svg.appendChild(text(EQ_X+25, ORIGIN_Y+DIG_H+20, '=', 'glyph-label'));
+  svg.appendChild(text(C_X+60, ORIGIN_Y+DIG_H+20, 'C', 'glyph-label'));
+
+  // draw matches for occupied slots
+  for (const [slotId, occupied] of board.occupied.entries()){
+    if (!occupied) continue;
+    const s = board.slots.find(sl=>sl.id===slotId);
+    const m = rect(s.x, s.y, s.w, s.h, 'match');
+    m.dataset.slotId = s.id;
+    svg.appendChild(m);
+  }
+
+  // interactivity
+  svg.querySelectorAll('.match').forEach(m=>m.addEventListener('click', onMatchClick));
+  svg.querySelectorAll('.slot').forEach(sl=>sl.addEventListener('click', onSlotClick));
+}
+
+function setMeta(text){ document.getElementById('meta').textContent = text; }
+function setHint(text){ document.getElementById('hint').textContent = 'Hint: ' + text; }
+function setStatus(text, level=''){
+  const el = document.getElementById('status');
+  el.textContent = text;
+  el.className = 'status '+(level||'');
+}
+
+/* ========= Game logic ========= */
+function initSlots(){
+  board.slots = [];
+  buildDigitSlots('A', A_X, ORIGIN_Y);
+  buildOperatorSlots();
+  buildDigitSlots('B', B_X, ORIGIN_Y);
+  buildEqualsSlots();
+  buildDigitSlots('C', C_X, ORIGIN_Y);
+}
+
+function occupyForDigit(owner, digit){
+  const segs = new Set(DIGIT_MAP[digit]);
+  for (const s of board.slots){
+    if (s.kind==='digit' && s.owner===owner){
+      board.occupied.set(s.id, segs.has(s.seg));
+    }
+  }
+}
+
+function occupiedSegments(owner){
+  const arr = [];
+  for (const s of board.slots){
+    if (s.kind==='digit' && s.owner===owner){
+      if (board.occupied.get(s.id)) arr.push(s.seg);
+    }
+  }
+  return arr;
+}
+function decodeDigit(owner){
+  const key = keyFor(occupiedSegments(owner));
+  return (key in SET_TO_DIGIT) ? SET_TO_DIGIT[key] : null;
+}
+
+function occupyForOperator(sym){
+  // clear operator slots then set according to symbol
+  for (const s of board.slots){
+    if (s.kind==='op'){
+      board.occupied.set(s.id, false);
+    }
+  }
+  if (sym==='+'){
+    board.occupied.set('op:Hmid', true);
+    board.occupied.set('op:Vmid', true);
+  } else if (sym==='−'){
+    board.occupied.set('op:Hmid', true);
+    // Vmid left empty
+  }
+}
+function decodeOperator(){
+  const bits = new Set();
+  if (board.occupied.get('op:Hmid')) bits.add('Hmid');
+  if (board.occupied.get('op:Vmid')) bits.add('Vmid');
+  return OP_FOR(bits);
+}
+function occupyEquals(){
+  board.occupied.set('eq:top', true);
+  board.occupied.set('eq:bot', true);
+}
+
+function setPuzzle(p){
+  board.puzzle = p;
+  board.movesUsed = 0;
+  board.moveLimit = p.moves;
+  board.carry = null;
+  // set occupancy from puzzle
+  occupyForDigit('A', p.A);
+  occupyForOperator(p.op);
+  occupyForDigit('B', p.B);
+  occupyEquals();
+  occupyForDigit('C', p.C);
+  drawBoard();
+  setMeta(`Puzzle ${p.id} • Moves used: ${board.movesUsed}/${board.moveLimit}`);
+  setHint(p.hint || '—');
+  setStatus('Make the equation true within the allowed moves.');
+}
+
+function currentEquation(){
+  const A = decodeDigit('A');
+  const B = decodeDigit('B');
+  const C = decodeDigit('C');
+  const op = decodeOperator();
+  return {A,B,op,C};
+}
+
+function isTrue(){
+  const {A,B,op,C} = currentEquation();
+  if (A==null || B==null || C==null || (op!=='+' && op!=='−')) return false;
+  const val = (op==='+') ? (A+B) : (A-B);
+  return val===C;
+}
+
+function canPick(slotId){
+  const s = board.slots.find(x=>x.id===slotId);
+  if (!s) return false;
+  if (s.locked) return false;
+  return board.occupied.get(slotId)===true;
+}
+function canDrop(slotId){
+  const s = board.slots.find(x=>x.id===slotId);
+  if (!s) return false;
+  if (s.locked) return false;
+  return board.occupied.get(slotId)!==true;
+}
+
+function onMatchClick(e){
+  const slotId = e.target.dataset.slotId;
+  if (!board.carry){
+    // pick up
+    if (canPick(slotId)){
+      board.carry = slotId;
+      board.occupied.set(slotId, false);
+      setStatus('Carrying a match. Tap an empty slot to drop it.', 'warn');
+      drawBoard();
+    }
+  } else {
+    // already carrying; ignore
+  }
+}
+function onSlotClick(e){
+  const slotId = e.target.dataset.slotId;
+  // if we clicked a filled match (handled above), this receives also—guard:
+  if (e.target.classList.contains('match')) return;
+
+  if (board.carry){
+    if (!canDrop(slotId)){
+      setStatus('That slot is not available. Try another spot.', 'bad');
+      return;
+    }
+    board.occupied.set(slotId, true);
+    board.carry = null;
+    board.movesUsed++;
+    setMeta(`Puzzle ${board.puzzle.id} • Moves used: ${board.movesUsed}/${board.moveLimit}`);
+    drawBoard();
+    // auto-check
+    if (isTrue()){
+      setStatus('✅ Correct! Equation is true.', 'ok');
+      document.getElementById('btnCheck').disabled = true;
+    } else {
+      if (board.movesUsed >= board.moveLimit){
+        setStatus('Out of moves. The equation is still false. Press Reset or try New puzzle.', 'bad');
+      } else {
+        setStatus('Not correct yet. Keep going!', 'warn');
+      }
+    }
+  } else {
+    // not carrying; if slot occupied we could also pick from slot (UX sugar)
+    if (canPick(slotId)){
+      board.carry = slotId;
+      board.occupied.set(slotId, false);
+      drawBoard();
+      setStatus('Carrying a match. Tap an empty slot to drop it.', 'warn');
+    }
+  }
+}
+
+/* ========= Controls ========= */
+document.getElementById('btnCheck').addEventListener('click', ()=>{
+  if (isTrue()){
+    setStatus('✅ Correct! Equation is true.', 'ok');
+  } else {
+    setStatus('❌ Not correct yet.', 'bad');
+  }
+});
+document.getElementById('btnReset').addEventListener('click', ()=>{
+  setPuzzle(board.puzzle);
+});
+document.getElementById('btnNew').addEventListener('click', ()=>{
+  const next = PUZZLES[Math.floor(Math.random()*PUZZLES.length)];
+  setPuzzle(next);
+  document.getElementById('btnCheck').disabled = false;
+});
+
+/* ========= Boot ========= */
+(function boot(){
+  initSlots();
+  const first = PUZZLES[0];
+  setPuzzle(first);
+})();
+</script>
+</body>
+</html>

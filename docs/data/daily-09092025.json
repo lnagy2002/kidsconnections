@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09092025-E",
+    "generatedAt": "2025-09-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals that hop",
+        "items": [
+          "Kangaroo",
+          "Frog",
+          "Rabbit",
+          "Quokka"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on hands",
+        "items": [
+          "Gloves",
+          "Mittens",
+          "Wristband",
+          "Wristwatch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes with straight sides",
+        "items": [
+          "Square",
+          "Rectangle",
+          "Triangle",
+          "Rhombus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors of the rainbow",
+        "items": [
+          "Red",
+          "Orange",
+          "Yellow",
+          "Blue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily easy set for early elementary: simple categories with familiar items."
+  },
+  "medium": {
+    "id": "09092025-M",
+    "generatedAt": "2025-09-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things in a school",
+        "items": [
+          "Pencil",
+          "Backpack",
+          "Notebook",
+          "Ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Walking",
+          "Skateboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that live in water",
+        "items": [
+          "Dolphin",
+          "Octopus",
+          "Seal",
+          "Crab"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "Spatula",
+          "Whisk",
+          "Pot",
+          "Measuring cup"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily medium set introduces slightly more categories and multi-word items."
+  },
+  "hard": {
+    "id": "09092025-H",
+    "generatedAt": "2025-09-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planets in our solar system",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Word families ( endings )",
+        "items": [
+          "-ing",
+          "-ed",
+          "-s",
+          "-er"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Trumpet",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common geometric solids",
+        "items": [
+          "Cube",
+          "Sphere",
+          "Cylinder",
+          "Cone"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily hard set challenges older elementary students with a mix of science, language, and math topics."
+  },
+  "id": "09092025",
+  "generatedAt": "2025-09-09T02:19:35.195Z"
+}

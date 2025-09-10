@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands but no arms or legs. I tell you what time it is. What am I?",
+    "a": "A clock",
+    "hint": "It tick-tocks and points to numbers."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about a tiny word that changes when you add letters."
+  },
+  "hard": {
+    "q": "Two friends start at opposite ends of a 100-step hallway. Each step, they move one step closer in alternating turns: first A, then B, and so on. Who reaches the middle first if they stop exactly on the middle step? Or can they land on it together?",
+    "a": "They reach the exact middle step together (or neither reaches it first, depending on 100 steps and turns).",
+    "hint": "Consider parity and turn order in a fixed-length path."
+  }
+}

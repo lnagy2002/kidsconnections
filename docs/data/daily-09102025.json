@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09102025-E",
+    "generatedAt": "2025-09-10T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals with spots",
+        "items": [
+          "leopard",
+          "cheetah",
+          "okapi",
+          "spotted dog"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors of the rainbow",
+        "items": [
+          "red",
+          "orange",
+          "green",
+          "blue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Kid-friendly categories; four groups with four items each. Each item is common for 2nd-3rd graders."
+  },
+  "medium": {
+    "id": "09102025-M",
+    "generatedAt": "2025-09-10T12:01:00Z",
+    "groups": [
+      {
+        "name": "Planets (simplified)",
+        "items": [
+          "Mercury",
+          "Earth",
+          "Mars",
+          "Jupiter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "spatula",
+          "measuring cup",
+          "peeler",
+          "paring knife"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical sounds",
+        "items": [
+          "drum",
+          "flute",
+          "piano",
+          "trumpet"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories need to be distinct and age-appropriate for fourth to fifth graders."
+  },
+  "hard": {
+    "id": "09102025-H",
+    "generatedAt": "2025-09-10T12:02:00Z",
+    "groups": [
+      {
+        "name": "Scientific tools",
+        "items": [
+          "microscope",
+          "beaker",
+          "thermometer",
+          "pipette"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Famous explorers",
+        "items": [
+          "Columbus",
+          "Shackleton",
+          "Nimoy",
+          "Livingstone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mathematical shapes",
+        "items": [
+          "hexagon",
+          "trapezoid",
+          "parallelogram",
+          "circle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Landforms",
+        "items": [
+          "valley",
+          "plateau",
+          "canyon",
+          "delta"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groupings target grades 6+ with more specialized terms."
+  },
+  "id": "09102025",
+  "generatedAt": "2025-09-10T16:48:52.705Z"
+}

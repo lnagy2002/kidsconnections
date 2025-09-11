@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I soar in the sky and never touch the ground. What am I?",
+    "a": "A kite",
+    "hint": "It flies with wind and has a string"
+  },
+  "medium": {
+    "q": "I go up, I go down, I stay in one place. I rhyme with ‘clock’ but I’m not a watch. What am I?",
+    "a": "A stock price on a chart",
+    "hint": "Think about numbers that move over time"
+  },
+  "hard": {
+    "q": "Two friends share a box of chocolates. Each chocolate is wrapped differently. If they split the box so that each gets the same number of whole chocolates, but one wrapper remains in the box, how is that possible?",
+    "a": "One chocolate is split into two halves, so one half goes to each friend",
+    "hint": "Consider what happens when you cut one item without changing the total count"
+  }
+}

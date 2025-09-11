@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09112025-E",
+    "generatedAt": "2025-09-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals with stripes",
+        "items": [
+          "zebra",
+          "tiger",
+          "okapi",
+          "alpaca"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "birds",
+          "kites",
+          "planes",
+          "butterflies"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors you mix with blue",
+        "items": [
+          "green",
+          "purple",
+          "cyan",
+          "teal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily themed puzzle for easy level; 4 groups with 4 items each. Items are common and age-appropriate for grades 2–3."
+  },
+  "medium": {
+    "id": "09112025-M",
+    "generatedAt": "2025-09-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes with 4 sides",
+        "items": [
+          "square",
+          "rectangle",
+          "rhombus",
+          "trapezoid"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things found in a kitchen",
+        "items": [
+          "spoon",
+          "pan",
+          "peeler",
+          "mixing bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "bus",
+          "bike",
+          "train",
+          "plane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School subjects",
+        "items": [
+          "math",
+          "science",
+          "art",
+          "history"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily themed puzzle for medium level; 4 groups with 4 items each. Suitable for grades 4–5."
+  },
+  "hard": {
+    "id": "09112025-H",
+    "generatedAt": "2025-09-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals with adaptations",
+        "items": [
+          "camel",
+          "penguin",
+          "armadillo",
+          "froghopper"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet features",
+        "items": [
+          "craters",
+          "rings",
+          "atmosphere",
+          "magnetic field"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Instruments that make music",
+        "items": [
+          "violin",
+          "drum",
+          "flute",
+          "trumpet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Energy sources",
+        "items": [
+          "solar",
+          "wind",
+          "hydro",
+          "geothermal"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily themed puzzle for hard level; 4 groups with 4 items each. Designed for grades 6+."
+  },
+  "id": "09112025",
+  "generatedAt": "2025-09-11T17:23:42.195Z"
+}

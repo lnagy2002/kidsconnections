@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have keys but cannot open locks. I tell you a tune when you press me. What am I?",
+    "a": "A piano",
+    "hint": "Black and white and make music."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about numbers and letters."
+  },
+  "hard": {
+    "q": "A box holds a secret. Inside it sits a number that doubles when you add the square of 1 and the cube of 1. What is the smallest possible number that fits this riddle?",
+    "a": "1",
+    "hint": "Consider simple powers and how they scale."
+  }
+}

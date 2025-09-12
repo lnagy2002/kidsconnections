@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09122025-E",
+    "generatedAt": "2025-09-12T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals with stripes",
+        "items": [
+          "Zebra",
+          "Tiger",
+          "Giraffe",
+          "Okapi"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "Bird",
+          "Airplane",
+          "Butterfly",
+          "Helicopter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you drink",
+        "items": [
+          "Water",
+          "Milk",
+          "Juice",
+          "Tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Color names",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily fresh theme: simple, kid-friendly associations suitable for grades 2–3."
+  },
+  "medium": {
+    "id": "09122025-M",
+    "generatedAt": "2025-09-12T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes found in school",
+        "items": [
+          "Square",
+          "Circle",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transport",
+        "items": [
+          "Bus",
+          "Bicycle",
+          "Subway",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that glow",
+        "items": [
+          "Firefly",
+          "Glowstick",
+          "Lava lamp",
+          "Neon sign"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Healthy snacks",
+        "items": [
+          "Apple",
+          "Carrot",
+          "Yogurt",
+          "Banana"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily fresh theme: slightly more category variety for grades 4–5."
+  },
+  "hard": {
+    "id": "09122025-H",
+    "generatedAt": "2025-09-12T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planetary bodies",
+        "items": [
+          "Moon",
+          "Mars",
+          "Earth",
+          "Jupiter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of weather",
+        "items": [
+          "Sunny",
+          "Rainy",
+          "Snowy",
+          "Windy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Drums",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common office supplies",
+        "items": [
+          "Pencil",
+          "Eraser",
+          "Ruler",
+          "Stapler"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily fresh theme: challenge-friendly categories for grades 6+."
+  },
+  "id": "09122025",
+  "generatedAt": "2025-09-12T02:13:51.498Z"
+}

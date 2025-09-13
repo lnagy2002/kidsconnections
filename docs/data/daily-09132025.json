@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09132025-E",
+    "generatedAt": "2025-09-13T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals in the Farm",
+        "items": [
+          "Cow",
+          "Sheep",
+          "Pig",
+          "Goat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Kitchen Tools",
+        "items": [
+          "Bowl",
+          "Spatula",
+          "Measuring Cup",
+          "Whisk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors in the Rainbow",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Brush",
+        "items": [
+          "Teeth",
+          "Hair",
+          "Furs",
+          "Nails"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily category rotation: farm animals, kitchen tools, colors, and everyday things to brush."
+  },
+  "medium": {
+    "id": "09132025-M",
+    "generatedAt": "2025-09-13T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Train",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a Plant",
+        "items": [
+          "Root",
+          "Stem",
+          "Leaf",
+          "Flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Guitar",
+          "Drums",
+          "Violin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with Edges",
+        "items": [
+          "Rectangle",
+          "Triangle",
+          "Pentagon",
+          "Hexagon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily category rotation: transportation, plant parts, instruments, and shapes."
+  },
+  "hard": {
+    "id": "09132025-H",
+    "generatedAt": "2025-09-13T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planetary Bodies",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Mars",
+          "Jupiter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Elements in the Periodic Table",
+        "items": [
+          "Hydrogen",
+          "Oxygen",
+          "Carbon",
+          "Nitrogen"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Famous Scientists",
+        "items": [
+          "Einstein",
+          "Curie",
+          "Newton",
+          "Da Vinci"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Basic Shapes in 3D",
+        "items": [
+          "Sphere",
+          "Cube",
+          "Cylinder",
+          "Cone"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily category rotation: space objects, elements, scientists, and 3D shapes."
+  },
+  "id": "09132025",
+  "generatedAt": "2025-09-13T02:08:35.315Z"
+}

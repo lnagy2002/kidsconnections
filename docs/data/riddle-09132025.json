@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I soar in the sky with a bright trail. What am I?",
+    "a": "comet",
+    "hint": "Look up at night or think of a streak in the sky."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "Think about a small number and how it changes when you add letters."
+  },
+  "hard": {
+    "q": "A box contains a prize. The box has four sides with equal area, but one side is invisible from the outside. If you can peek only by stepping through, what shape should you form to enter?",
+    "a": "circle",
+    "hint": "Consider a shape that can be traversed without corners and relates to a boundary you can cross smoothly."
+  }
+}

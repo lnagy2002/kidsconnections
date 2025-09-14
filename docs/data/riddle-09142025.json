@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but I’m not a cat. I ring but I’m not a bell. What am I?",
+    "a": "A kite",
+    "hint": "I soar in the sky with a string."
+  },
+  "medium": {
+    "q": "I start with a ring, grow a line, and end with a dot. If you count me, I’m never too late. What am I?",
+    "a": "A clock",
+    "hint": "Think about numbers and hands."
+  },
+  "hard": {
+    "q": "Two siblings share a single birthday yet celebrate on different days. They were born in different places but at the same moment. How is this possible?",
+    "a": "They were born in different time zones",
+    "hint": "Consider how time varies across maps."
+  }
+}

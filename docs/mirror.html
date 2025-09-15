@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Kids' Mirror Match</title>
+    <style>
+         :root {
+            --bg: #0e364b;
+            --panel: #0e364b;
+            --text: #a9f4f4;
+            --muted: #f0db79;
+            --ok: #4ade80;
+            --maybe: #facc15;
+            --no: #64748b;
+            --border: #1b2659;
+            --key: #0f1736;
+            --key-hover: #141f4a;
+            --ok: #4ade80;
+            --bad:#e4572e;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            height: 100%
+        }
+
+        body {
+            /* display: grid; */
+            /* place-items: center; */
+            margin: 0;
+            font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+
+
+        * {
+            box-sizing: border-box
+        }
+
+        .wrap {
+
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 14px;
+            width: min(960px, 96vw);
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            padding: 10px 12px;
+        }
+
+        .header {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 16px 18px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .12)
+        }
+
+
+        .sub {
+            font-size: 13px;
+            color: #314351
+        }
+
+        /* .controls {
+            margin-left: auto;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap
+        } */
+
+        .btn {
+            border: 0;
+            padding: 10px 14px;
+            border-radius: 12px;
+            background: #0e364b;
+            color: #fff;
+            cursor: pointer
+        }
+
+        .btn.secondary {
+            background: #314351
+        }
+
+        .card {
+            margin-top: 18px;
+            background: var(--card);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
+            padding: 16px
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px
+        }
+
+        .prompt {
+            display: grid;
+            gap: 12px;
+            grid-template-columns: 1fr minmax(260px, 340px);
+        }
+
+        .pane {
+            background: var(--muted);
+            border-radius: 16px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .pane canvas, .grid canvas {
+            background: #fff;
+            border-radius: 12px;
+            width: 100%;
+            height: auto;
+            max-height: 380px;
+            object-fit: contain
+        }
+
+        .meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap
+        }
+
+        .badge {
+            background: #eef6ff;
+            color: #0e364b;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 12px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .opt {
+            position: relative;
+            background: var(--muted);
+            border-radius: 16px;
+            padding: 10px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: transform .1s ease, box-shadow .2s ease;
+        }
+
+        .opt:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .12)
+        }
+
+        .opt.selected.correct {
+            /* outline: 5px solid var(--ok); */
+            background-color: var(--ok);
+        }
+
+        .opt.selected.wrong {
+            /* outline: 5px solid var(--bad) */
+            background-color: var(--bad);
+        }
+
+        .opt label {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: #fff;
+            border-radius: 999px;
+            font-size: 12px;
+            padding: 4px 8px
+        }
+
+        .row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px
+        }
+
+        .hint {
+            font-size: 13px;
+            color: #2f4454
+        }
+
+        .score {
+            color: #fff;
+            font-weight: 600
+        }
+
+        @media (max-width:840px) {
+            .prompt {
+                grid-template-columns: 1fr
+            }
+            .grid {
+              grid-template-columns: 1fr;
+            }
+        }
+
+        .section {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .muted {
+            color: var(--muted);
+            text-align: center;
+        }
+
+        @keyframes shake {
+            10%,
+            90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                transform: translate3d(2px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%,
+            60% {
+                transform: translate3d(4px, 0, 0);
+            }
+        }
+
+        .wrong {
+            display: inline-block;
+            /* so transform applies properly */
+            animation: shake 0.5s ease-in-out;
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KFSR46Z6C8'); // sends page_view automatically
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="controls">
+            <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt="" height="100px">
+            <div class="title-block">
+                <h1>Kids' Mirror Match</h1>
+                <!-- <label>Pick the Right Challenge Level (by Grade)
+            <select id="level" class="field">
+              <option value="easy">Easy (Grades 2–3)</option>
+              <option value="medium">Medium (Grades 4-5)</option>
+              <option value="hard">Hard (Grades 6+)</option>
+            </select>
+          </label> -->
+                <div id="date"></div>
+            </div>
+        </section>
+        <hr>
+        <h3 class="section">Pick the true horizontal mirror of the original image!</h3>
+        <!-- <div class="hint" id="feedback">Choose a level to start!</div> -->
+        <div id="feedback" class="muted" style="margin-left:auto"></div>
+        <div class="card">
+            <!-- <div class="meta">
+                <div class="badge" id="levelBadge">Level: —</div>
+                <div class="badge" id="progress">Round 0/0</div>
+                <div class="badge" id="resultBadge">—</div>
+                <div class="score" id="score">Score: 0</div>
+            </div> -->
+
+            <div class="board">
+                <div class="prompt">
+                    <div class="pane">
+                        <canvas id="original" width="520" height="360" aria-label="original image"></canvas>
+                    </div>
+                    <div class="pane">
+                        <div class="hint">
+                            Goal: choose the option that matches how this picture would look in a <b>mirror</b> (left/right flipped).<br/> Tip: look for clues like text direction, arrows, dots, off-center features.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid" id="optionsGrid"></div>
+
+                <!-- <div class="row">
+                    <button class="btn" id="nextBtn" disabled>Next</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const t = new Date();
+
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name); // returns null if not found
+        }
+
+        // Format it as Month Day, Year (e.g., August 20, 2025)
+        const options = {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        };
+        const formattedDate = t.toLocaleDateString(undefined, options);
+
+        const mm = String(t.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+        const dd = String(t.getDate()).padStart(2, '0');
+        const yyyy = t.getFullYear();
+
+        const formattedFileDate = mm + dd + yyyy;
+        // Insert into HTML
+        document.getElementById("date").textContent = "Daily " + (getQueryParam('level') || 'easy') + " • " + formattedDate;
+    </script>
+    <script>
+
+    let MIRRORS = [];
+
+    async function loadData() {
+        const level = getQueryParam('level')  || 'easy';
+        gtag('event', 'mirror_load_level_'  + level, { app: 'mirror' });
+        try {
+            const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/mirror-' + formattedFileDate + ".json"); // <-- your JSON file
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            MIRRORS = await res.json();
+            startLevel(level); // render it
+        } catch (err) {
+            gtag('event', 'mirror_failed_loading_level_'  + level, { app: 'mirror' });
+            showMessage (`Couldn’t load data: ${err.message}`);
+        }
+        startLevel(level); // render it
+    }
+
+        const $ = s => document.querySelector(s);
+        const create = (t, a = {}) => Object.assign(document.createElement(t), a);
+
+        let rounds = [];
+        let current = -1;
+        let score = 0;
+
+        function toImageBitmapCompat(dataUrl) {
+            if ('createImageBitmap' in window) {
+                return fetch(dataUrl).then(r => r.blob()).then(createImageBitmap);
+            }
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => resolve(img);
+                img.src = dataUrl;
+            });
+        }
+
+        async function drawImageFit(ctx, img, transform = {
+            flipX: false,
+            flipY: false,
+            rotate: 0
+        }) {
+            const canvas = ctx.canvas;
+            ctx.save();
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            const cw = canvas.width,
+                ch = canvas.height;
+            const iw = img.width,
+                ih = img.height;
+            const scale = Math.min(cw / iw, ch / ih);
+            const dw = iw * scale,
+                dh = ih * scale;
+            const dx = (cw - dw) / 2,
+                dy = (ch - dh) / 2;
+            ctx.translate(dx + dw / 2, dy + dh / 2);
+            if (transform.rotate) ctx.rotate(transform.rotate * Math.PI / 180);
+            ctx.scale(transform.flipX ? -1 : 1, transform.flipY ? -1 : 1);
+            ctx.drawImage(img, -dw / 2, -dh / 2, dw, dh);
+            ctx.restore();
+        }
+
+        function makeOptionCanvas(w = 400, h = 240) {
+            const c = document.createElement('canvas');
+            c.width = w;
+            c.height = h;
+            return c;
+        }
+
+        function createRound(img) {
+            const correct = {
+                flipX: true,
+                flipY: false,
+                rotate: 0,
+                label: "Mirror (horizontal)"
+            };
+            const distractors = [{
+                    flipX: false,
+                    flipY: false,
+                    rotate: 0,
+                    label: "Original"
+                },
+                {
+                    flipX: false,
+                    flipY: true,
+                    rotate: 0,
+                    label: "Vertical flip"
+                },
+                {
+                    flipX: true,
+                    flipY: false,
+                    rotate: 180,
+                    label: "Mirror + 180°"
+                },
+                {
+                    flipX: false,
+                    flipY: false,
+                    rotate: 180,
+                    label: "Rotate 180°"
+                }
+            ];
+            const options = [Object.assign({}, correct, {
+                isCorrect: true
+            })];
+            while (options.length < 4) {
+                const d = distractors[Math.floor(Math.random() * distractors.length)];
+                if (!options.some(o => o.label === d.label && o.rotate === d.rotate && o.flipX === d.flipX && o.flipY === d.flipY)) {
+                    options.push(Object.assign({}, d, {
+                        isCorrect: false
+                    }));
+                }
+            }
+            for (let i = options.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [options[i], options[j]] = [options[j], options[i]];
+            }
+            return {
+                img,
+                options
+            };
+        }
+
+        function showMessage  (text) {
+          document.getElementById('feedback').textContent = text;
+        }
+
+        async function startLevel(lvl) {
+            // document.getElementById('levelBadge').textContent = "Level: " + (lvl.charAt(0).toUpperCase() + lvl.slice(1));
+            showMessage  ("Pick the mirror image.");
+            // document.getElementById('resultBadge').textContent = "—";
+            score = 0;
+            // document.getElementById('score').textContent = "Score: 0";
+            rounds = [];
+            current = -1;
+            console.log (MIRRORS[lvl].image)
+            let pool = [MIRRORS[lvl].image];
+            console.log (pool)
+            const bitmaps = [];
+            for (const url of pool) {
+                const bmp = await toImageBitmapCompat(url);
+                bitmaps.push(bmp);
+            }
+            rounds = bitmaps.map(b => createRound(b));
+            current = 0;
+            renderRound();
+        }
+
+        async function renderRound() {
+            // const progress = document.getElementById('progress');
+            // const scoreEl = document.getElementById('score');
+            const fb = document.getElementById('feedback');
+            // const nextBtn = document.getElementById('nextBtn');
+            const grid = document.getElementById('optionsGrid');
+            // const badge = document.getElementById('resultBadge');
+
+            if (current < 0 || current >= rounds.length) return;
+            // progress.textContent = "Round " + (current + 1) + "/" + rounds.length;
+            // scoreEl.textContent = "Score: " + score;
+            // badge.textContent = "—";
+            fb.textContent = "Pick the mirror image.";
+            // nextBtn.disabled = true;
+
+            const ctx = document.getElementById('original').getContext('2d');
+            await drawImageFit(ctx, rounds[current].img, {
+                flipX: false
+            });
+
+            grid.innerHTML = "";
+            const labels = ["A", "B", "C", "D"];
+            rounds[current].options.forEach((opt, idx) => {
+                const cell = create('div', {
+                    className: 'opt',
+                    role: 'button',
+                    tabIndex: 0,
+                    'aria-label': 'Option ' + labels[idx]
+                });
+                const lab = create('label');
+                lab.textContent = labels[idx];
+                cell.appendChild(lab);
+                const c = makeOptionCanvas(400, 240);
+                cell.appendChild(c);
+                drawImageFit(c.getContext('2d'), rounds[current].img, opt);
+                cell.addEventListener('click', () => selectOption(cell, opt));
+                cell.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        selectOption(cell, opt);
+                    }
+                });
+                grid.appendChild(cell);
+            });
+        }
+
+        function selectOption(cell, opt) {
+            const grid = document.getElementById('optionsGrid');
+            Array.from(grid.children).forEach(ch => ch.classList.remove('selected', 'correct', 'wrong'));
+            cell.classList.add('selected', opt.isCorrect ? 'correct' : 'wrong');
+            const fb = document.getElementById('feedback');
+            // const badge = document.getElementById('resultBadge');
+            if (opt.isCorrect) {
+                fb.textContent = "Nice! That’s the true mirror.";
+                // badge.textContent = "Correct ✅";
+                score++;
+            } else {
+                fb.textContent = "Not quite. Look for left/right clues.";
+                // badge.textContent = "Try again ❌";
+            }
+            // document.getElementById('score').textContent = "Score: " + score;
+            // document.getElementById('nextBtn').disabled = false;
+        }
+
+        // document.getElementById('nextBtn').addEventListener('click', () => {
+        //     if (current < rounds.length - 1) {
+        //         current++;
+        //         renderRound();
+        //     } else {
+        //         document.getElementById('feedback').textContent = "All rounds done! 🎉 Choose another level.";
+        //         // document.getElementById('resultBadge').textContent = "Finished";
+        //         document.getElementById('nextBtn').disabled = true;
+        //     }
+        // });
+
+
+        // startLevel(getQueryParam('level')  || 'easy');
+        loadData ();
+    </script>
+</body>
+
+</html>

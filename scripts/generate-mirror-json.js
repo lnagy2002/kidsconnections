@@ -327,7 +327,7 @@ function genHardSVG() {
 
     await fs.mkdir(OUT_DIR, { recursive: true });
     const yyyymmdd = DATE_STR.replaceAll("-", "");
-    const outPath = path.join(OUT_DIR, `mirror-${yyyymmdd}.json`);
+    const outPath = path.join(OUT_DIR, `mirror-${ddmmyyyy}.json`);
     await fs.writeFile(outPath, JSON.stringify(result, null, 2), "utf8");
 
     console.log(`✅ Wrote ${outPath}`);

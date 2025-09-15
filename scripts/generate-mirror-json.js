@@ -27,6 +27,13 @@ const COUNTS = {
   hard: DEFAULT_COUNT_PER_LEVEL
 };
 
+function mmddyyyy(d = new Date()) {
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  const yyyy = d.getFullYear();
+  return `${mm}${dd}${yyyy}`;
+}
+
 // ------------------------ Randomness (seedable) ------------------------
 function mulberry32(a) {
   return function () {

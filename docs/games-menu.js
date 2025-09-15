@@ -41,7 +41,7 @@
     const panel = makeEl('nav',{id:'gm-panel',className:'gm-panel',ariaHidden:'true'});
     const header = makeEl('div',{className:'gm-header'});
     header.appendChild(makeEl('div',{}));
-    header.firstChild.appendChild(makeEl('p',{className:'gm-title',textContent:'Games'}));
+    header.firstChild.appendChild(makeEl('p',{className:'gm-title',textContent:'The Mind Bits Games'}));
     header.firstChild.appendChild(makeEl('p',{className:'gm-sub',textContent:'Jump to another game'}));
     const list = makeEl('ul',{id:'gm-list',className:'gm-list',role:'list'});
     const footer = makeEl('div',{className:'gm-footer',textContent:'Press Esc to close'});

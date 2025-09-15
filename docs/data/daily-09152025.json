@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09152025-E",
+    "generatedAt": "2025-09-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Food and Snacks",
+        "items": [
+          "Apple",
+          "Banana",
+          "Carrot",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Dog",
+          "Cat",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Daily fresh category mix focused on simple, kid-friendly items for grades 2–3."
+  },
+  "medium": {
+    "id": "09152025-M",
+    "generatedAt": "2025-09-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "School Supplies",
+        "items": [
+          "Pencil",
+          "Eraser",
+          "Notebook",
+          "Ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Car",
+          "Bus",
+          "Bicycle",
+          "Train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sports",
+        "items": [
+          "Soccer",
+          "Basketball",
+          "Tennis",
+          "Swimming"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "Grapes",
+          "Mango",
+          "Pineapple",
+          "Strawberry"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Daily fresh category mix designed for grades 4–5 with light connections."
+  },
+  "hard": {
+    "id": "09152025-H",
+    "generatedAt": "2025-09-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planets and Space",
+        "items": [
+          "Mercury",
+          "Earth",
+          "Mars",
+          "Jupiter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Historical Landmarks",
+        "items": [
+          "Pyramids",
+          "Great Wall",
+          "Colosseum",
+          "Taj Mahal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Drums",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sea Creatures",
+        "items": [
+          "Dolphin",
+          "Shark",
+          "Octopus",
+          "Seal"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Daily fresh category mix with slightly challenging associations for grades 6+."
+  },
+  "id": "09152025",
+  "generatedAt": "2025-09-15T01:40:27.145Z"
+}

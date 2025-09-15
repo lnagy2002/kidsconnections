@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have hands but cannot clap. I tell you when to wake up and when to eat lunch. What am I?",
+    "a": "A clock",
+    "hint": "It ticks and faces you every day."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a three-letter word that changes with more letters."
+  },
+  "hard": {
+    "q": "Two friends start at the same time from opposite ends of a straight road. They walk toward each other at different speeds and meet in the middle. After they meet, they turn around and walk back to their starts, still at their own speeds. Who covers more distance by the time they meet again at the far end?",
+    "a": "Both cover the same total distance when they reach the opposite end again, since they start simultaneously and maintain constant speeds.",
+    "hint": "Consider total journey distances and the moment they meet."
+  }
+}

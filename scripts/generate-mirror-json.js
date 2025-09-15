@@ -11,7 +11,7 @@ const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const DEFAULT_COUNT_PER_LEVEL = getArg("--count", 3, Number);
 const OUT_DIR = getArg("--outDir", "docs/data");
 const DATE_STR = getArg("--date", todayInTZ("America/Los_Angeles")); // YYYY-MM-DD
-const SIZE = getArg("--size", "768x768"); // OpenAI image size, e.g. "512x512","768x768","1024x1024"
+const SIZE = getArg("--size", "1024x1024"); // OpenAI image size, e.g. "512x512","768x768","1024x1024"
 const MODEL = getArg("--model", "gpt-image-1"); // OpenAI image model
 
 // Prompts tuned for kid-friendly, mirror-test images.

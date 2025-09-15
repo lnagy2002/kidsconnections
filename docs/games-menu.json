@@ -1,8 +1,9 @@
 {
   "games": [
-    { "title": "Kids' Mirror Match", "href": "/games/mirror-match.html", "emoji": "🪞" },
-    { "title": "Word Builder",       "href": "/games/word-builder.html", "emoji": "🔤" },
-    { "title": "Shape Dash",         "href": "/games/shape-dash.html",    "emoji": "⬛" },
-    { "title": "Math Sprint",        "href": "/games/math-sprint.html",   "emoji": "➗" }
+    { "title": "Kids' Mirror Match", "href": "mirror.html", "emoji": "🪞" },
+    { "title": "Kids' Connections",       "href": "connect.html", "emoji": "🔤" },
+    { "title": "Kids' Wordle",         "href": "wordle.html",    "emoji": "⬛" },
+    { "title": "Kids' Riddle",        "href": "riddle.html",   "emoji": "➗" },
+    { "title": "Kids' Simon Game",        "href": "simon.html",   "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/screen-shot-2025-08-21-at-12.13.25-pm.png' alt='Simon Game' style='width:20px;height:20px;'>" }
   ]
 }

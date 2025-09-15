@@ -1,0 +1,8 @@
+{
+  "games": [
+    { "title": "Kids' Mirror Match", "href": "/games/mirror-match.html", "emoji": "🪞" },
+    { "title": "Word Builder",       "href": "/games/word-builder.html", "emoji": "🔤" },
+    { "title": "Shape Dash",         "href": "/games/shape-dash.html",    "emoji": "⬛" },
+    { "title": "Math Sprint",        "href": "/games/math-sprint.html",   "emoji": "➗" }
+  ]
+}

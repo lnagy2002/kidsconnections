@@ -338,7 +338,7 @@ function genHardSVG() {
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(outFile, JSON.stringify(result, null, 2) + "\n", "utf8");
     
-    console.log(`✅ Wrote ${outPath}`);
+    console.log(`✅ Wrote ${outFile}`);
   } catch (err) {
     console.error("❌ Failed to generate daily Mirror images");
     console.error(err);

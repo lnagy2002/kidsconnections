@@ -312,7 +312,7 @@ function genHardSVG() {
 // ------------------------ Main ------------------------
 (async () => {
   try {
-    console.log(`🎨 Generating (non-AI) Mirror images for ${DATE_STR} ...`);
+    console.log(`🎨 Generating (non-AI) Mirror images`);
     const result = { easy: [], medium: [], hard: [] };
 
     const levels = /** @type {const} */ (["easy", "medium", "hard"]);

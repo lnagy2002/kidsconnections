@@ -13,7 +13,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 // ------------------------ Config & CLI ------------------------
-const DEFAULT_COUNT_PER_LEVEL = getArg("--count", 3, Number);
+const DEFAULT_COUNT_PER_LEVEL = getArg("--count", 1, Number);
 const SEED = getArg("--seed", null, (v) => Number(v));
 
 // We render square SVGs. They scale nicely in your canvas code.

@@ -1,6 +1,6 @@
 /**
  * Generates kid-friendly daily Mirror images WITHOUT external AI calls.
- * Writes: docs/data/mirror-YYYYMMDD.json
+ * Writes: docs/data/mirror-DDMMYYYY.json
  * Output format: { easy: [dataURL...], medium: [...], hard: [...] }
  *
  * Usage:

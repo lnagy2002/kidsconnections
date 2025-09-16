@@ -14,8 +14,6 @@ import path from "node:path";
 
 // ------------------------ Config & CLI ------------------------
 const DEFAULT_COUNT_PER_LEVEL = getArg("--count", 3, Number);
-const OUT_DIR = getArg("--outDir", "docs/data");
-const DATE_STR = getArg("--date", todayInTZ("America/Los_Angeles")); // YYYY-MM-DD
 const SEED = getArg("--seed", null, (v) => Number(v));
 
 // We render square SVGs. They scale nicely in your canvas code.
@@ -332,12 +330,14 @@ function genHardSVG() {
       }
     }
 
-    await fs.mkdir(OUT_DIR, { recursive: true });
     const today = new Date();
     const stamp = mmddyyyy(today);
-    const outPath = path.join(OUT_DIR, `mirror-${stamp}.json`);
-    await fs.writeFile(outPath, JSON.stringify(result, null, 2), "utf8");
 
+    const outDir  = path.join(process.cwd(), "docs", "data");
+    const outFile = path.join(outDir, `riddle-${stamp}.json`);
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(outFile, JSON.stringify(data, null, 2) + "\n", "utf8");
+    
     console.log(`✅ Wrote ${outPath}`);
   } catch (err) {
     console.error("❌ Failed to generate daily Mirror images");

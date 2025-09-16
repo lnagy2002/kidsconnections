@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09262025-E",
+    "generatedAt": "2025-09-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals starting with A",
+        "items": [
+          "Ant",
+          "Alligator",
+          "Antelope",
+          "Armadillo"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "Socks",
+          "Shoes",
+          "Sandals",
+          "Slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common classroom subjects",
+        "items": [
+          "Math",
+          "Reading",
+          "Art",
+          "Science"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors in a rainbow",
+        "items": [
+          "Red",
+          "Orange",
+          "Yellow",
+          "Green"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups of four kid-friendly items. Daily category variation."
+  },
+  "medium": {
+    "id": "09262025-M",
+    "generatedAt": "2025-09-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Vehicles with wheels",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Bus",
+          "Truck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruity snacks",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in a kitchen",
+        "items": [
+          "Cup",
+          "Plate",
+          "Spoon",
+          "Pot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "Bird",
+          "Plane",
+          "Helicopter",
+          "Kite"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Balanced mix of familiar concepts suitable for grades 4–5."
+  },
+  "hard": {
+    "id": "09262025-H",
+    "generatedAt": "2025-09-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Planets (simplified)",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Drums",
+          "Flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals with stripes",
+        "items": [
+          "Zebra",
+          "Tiger",
+          "Okapi",
+          "Mandrill"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of communication",
+        "items": [
+          "Letter",
+          "Email",
+          "Text",
+          "Gesture"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging but clear items for grades 6+. Daily category rotation."
+  },
+  "id": "09162025",
+  "generatedAt": "2025-09-16T02:15:32.714Z"
+}

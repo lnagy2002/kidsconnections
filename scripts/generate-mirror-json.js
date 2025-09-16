@@ -336,7 +336,7 @@ function genHardSVG() {
     const outDir  = path.join(process.cwd(), "docs", "data");
     const outFile = path.join(outDir, `riddle-${stamp}.json`);
     fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(outFile, JSON.stringify(data, null, 2) + "\n", "utf8");
+    fs.writeFileSync(outFile, JSON.stringify(result, null, 2) + "\n", "utf8");
     
     console.log(`✅ Wrote ${outPath}`);
   } catch (err) {

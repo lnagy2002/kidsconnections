@@ -9,7 +9,7 @@
  * No dependencies. Pure Node + inline SVG (base64).
  */
 
-import fs from "node:fs/promises";
+import fs from "node:fs";
 import path from "node:path";
 
 // ------------------------ Config & CLI ------------------------

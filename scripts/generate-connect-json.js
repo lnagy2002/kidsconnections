@@ -22,20 +22,43 @@ function assertEnv(name) {
 }
 
 async function generatePuzzleJSON(client) {
-  const system = `You generate kid-friendly "Connections"-style puzzles.
-Output strictly valid JSON matching this schema:
+  const recentJSON = JSON.stringify([], null, 2);
+  
+  const system = `
+You generate kid-friendly "Connections"-style puzzles.
+
+Input (optional):
+recent_category_names = the array below containing category names used in the past 30 days (strings). Use this to avoid repeats.
+recent_category_names = ${recentJSON}
+
+Output: strictly valid JSON matching this schema exactly:
 {
-  "easy": { "id": "MMDDYYYY-E", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "easy" } ], "notes": "string" },
+  "easy":   { "id": "MMDDYYYY-E", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "easy" } ], "notes": "string" },
   "medium": { "id": "MMDDYYYY-M", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "medium" } ], "notes": "string" },
-  "hard": { "id": "MMDDYYYY-H", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "hard" } ], "notes": "string" }
+  "hard":   { "id": "MMDDYYYY-H", "generatedAt": "ISO timestamp", "groups": [ { "name": "string", "items": ["a","b","c","d"], "difficulty": "hard" } ], "notes": "string" }
 }
 
-Rules:
-- Each puzzle has 4 groups of 4 items.
-- Items must be unambiguous for the grade range.
-- No repeats across groups in the same puzzle.
-- Easy = grades 2–3, Medium = grades 4–5, Hard = grades 6+.
-- Categories must vary daily.
+Global rules
+- Each difficulty contains exactly 4 groups of 4 items (16 items per puzzle).
+- No item repeats anywhere within the entire day’s JSON (across easy/medium/hard).
+- Category names must be unique within the day and must not repeat any in recent_category_names (hard blocklist).
+- Do not use trivial paraphrases of blocked categories (avoid reuse of the same underlying concept; treat paraphrases with ≤50% token overlap as repeats).
+- If recent_category_names is empty, still avoid repeating categories within the day.
+- Items must be kid-appropriate and unambiguous for the grade range.
+- Keep categories diverse: mix concrete themes (animals, shapes, everyday objects) with light patterning (prefix/suffix, simple word relationships). Avoid adult trivia.
+
+Difficulty targets
+- Easy (Grades 2–3): Concrete, familiar categories; single-step connections; zero ambiguity.
+- Medium (Grades 4–5): Slightly trickier; allow simple wordplay (shared prefix/suffix, compound word parts) or a clear 2-step that’s obvious once seen.
+- Hard (Grades 6+): More abstract or multi-step (metaphorical groupings, subtle patterns) but solvable without niche knowledge.
+
+“TINY BIT HARDER” requirement (still fair)
+- For Medium and Hard, include at least one near-miss temptation (e.g., two items feel related across groups) but ensure each item fits only one correct group. Use distinct, unambiguous definitions to prevent real overlap.
+- Do NOT use homophones, hidden anagrams, or adult-level trivia.
+
+Notes field
+- In each difficulty’s "notes", briefly explain each category and mention any near-miss and why it isn’t a true fit.
+
 Return ONLY JSON.`;
 
   const today = new Date();

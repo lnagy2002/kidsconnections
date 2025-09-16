@@ -2,7 +2,7 @@ name: Daily Connections Puzzles
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # 01:00 UTC daily
+    - cron: "30 0 * * *"   # 12:30 am UTC daily
   workflow_dispatch: {}
 
 permissions:

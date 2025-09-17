@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BTC Strategy — Standalone Backtester (EMA/RSI/ATR)</title>
+<style>
+  :root { --bg:#0b1220; --fg:#e8eefc; --muted:#96a0b8; --panel:#0f1830; --edge:#1b2746; --accent:#6aa1ff; --buy:#2ecc71; --sell:#e74c3c; --grid:#21314d; --ema1:#ffd166; --ema2:#ef476f; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg); color:var(--fg); }
+  header { padding:18px 20px; border-bottom:1px solid #142037; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  header h1 { font-size:20px; margin:0; }
+  .sub { color:var(--muted); font-size:12px; }
+  main { padding:18px; display:grid; gap:16px; grid-template-columns: 320px 1fr; max-width:1300px; margin:auto; }
+  @media (max-width: 980px) { main { grid-template-columns: 1fr; } }
+  .card { background:var(--panel); border:1px solid var(--edge); border-radius:14px; padding:14px; box-shadow:0 10px 24px rgba(0,0,0,.25); }
+  .controls label { display:block; font-size:12px; color:var(--muted); margin-top:10px; }
+  .controls input, .controls select, .controls button { width:100%; margin-top:6px; padding:8px 10px; border-radius:10px; border:1px solid var(--edge); background:#0b142a; color:var(--fg); }
+  .controls button { background:#132046; cursor:pointer; border-color:#1c2e5e; }
+  .controls button.primary { background:#23418c; border-color:#3158b4; }
+  .grid { display:grid; gap:12px; }
+  .kvs { display:grid; grid-template-columns: repeat(5, minmax(120px,1fr)); gap:10px; }
+  @media (max-width: 1200px) { .kvs { grid-template-columns: repeat(2, 1fr); } }
+  .kv { background:#0b142a; border:1px solid #192a52; border-radius:12px; padding:10px; }
+  .kv label { display:block; color:var(--muted); font-size:12px; margin-bottom:6px; }
+  .kv div { font-weight:600; font-size:16px; }
+  svg { width:100%; height:360px; }
+  .chart-title { color: var(--muted); font-size:13px; margin: 6px 4px 10px; }
+  .axis text { fill: var(--muted); font-size:12px; }
+  .gridlines line { stroke: var(--grid); stroke-dasharray: 2,4; }
+  .path { fill:none; stroke-width:2; }
+  .price { stroke: #cfd8ff; opacity:.8; }
+  .emaFast { stroke: var(--ema1); }
+  .emaSlow { stroke: var(--ema2); }
+  .equity { stroke: var(--accent); }
+  .trade { stroke-width:1.3; }
+  .buy { stroke: var(--buy); }
+  .sell { stroke: var(--sell); }
+  .rsiline { stroke: var(--accent); }
+  .guideline { stroke: var(--grid); stroke-dasharray:4,4; }
+  footer { padding:8px 20px 20px; color:var(--muted); text-align:center; }
+  .row { display:flex; gap:8px; }
+  .row > * { flex:1; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>BTC Strategy — Standalone Backtester</h1>
+    <div class="sub">Client-side only • Data via CoinGecko. Educational use only.</div>
+  </header>
+
+  <main>
+    <section class="card controls">
+      <div class="grid">
+        <div class="row">
+          <div>
+            <label>Data Source</label>
+            <select id="source">
+              <option value="coingecko" selected>CoinGecko (BTC/USD)</option>
+              <option value="file">Upload CSV</option>
+            </select>
+          </div>
+          <div>
+            <label>Days (CoinGecko)</label>
+            <select id="days">
+              <option>1</option>
+              <option>7</option>
+              <option selected>30</option>
+              <option>90</option>
+              <option>180</option>
+              <option>365</option>
+              <option>max</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="uploadRow" class="row" style="display:none">
+          <div>
+            <label>Upload CSV</label>
+            <input id="file" type="file" accept=".csv"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Timeframe</label>
+            <select id="timeframe">
+              <option value="1h" selected>1h</option>
+              <option value="4h">4h</option>
+              <option value="12h">12h</option>
+              <option value="1d">1d</option>
+            </select>
+          </div>
+          <div>
+            <label>Lookback Bars</label>
+            <input id="lookback" type="number" value="1000"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>EMA Fast</label>
+            <input id="emaFast" type="number" value="50"/>
+          </div>
+          <div>
+            <label>EMA Slow</label>
+            <input id="emaSlow" type="number" value="200"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>RSI Period</label>
+            <input id="rsiPeriod" type="number" value="14"/>
+          </div>
+          <div>
+            <label>RSI Long Threshold</label>
+            <input id="rsiLong" type="number" value="55"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>ATR Period</label>
+            <input id="atrPeriod" type="number" value="14"/>
+          </div>
+          <div>
+            <label>ATR Stop Multiplier</label>
+            <input id="atrStopMult" type="number" value="2.5" step="0.1"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Take Profit ATR (0=off)</label>
+            <input id="takeProfitATR" type="number" value="0" step="0.1"/>
+          </div>
+          <div>
+            <label>Start Equity ($)</label>
+            <input id="startEquity" type="number" value="20000"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Risk per Trade (%)</label>
+            <input id="riskPct" type="number" value="0.5" step="0.1"/>
+          </div>
+          <div>
+            <label>Max Position Notional ($)</label>
+            <input id="maxNotional" type="number" value="20000"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Daily Loss Limit (%)</label>
+            <input id="dailyLoss" type="number" value="3" step="0.1"/>
+          </div>
+          <div>
+            <label>Fees Roundtrip (%)</label>
+            <input id="feesPct" type="number" value="0.10" step="0.01"/>
+          </div>
+        </div>
+
+        <!-- Run/Download -->
+        <div class="row">
+          <button class="primary" id="run">Run Backtest</button>
+          <button id="dlTrades">Download trades.csv</button>
+        </div>
+
+        <!-- Live controls -->
+        <div class="row">
+          <div>
+            <label>Live Poll Seconds</label>
+            <input id="pollSeconds" type="number" value="60" min="10" step="5"/>
+          </div>
+          <div>
+            <label>&nbsp;</label>
+            <div class="row">
+              <button id="startLive" class="primary">Start Live</button>
+              <button id="stopLive">Stop Live</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="kvs" id="metrics"></div>
+      <div class="chart-title">Price with EMA overlays & trade markers</div>
+      <svg id="price"></svg>
+      <div class="chart-title">RSI</div>
+      <svg id="rsi"></svg>
+      <div class="chart-title">ATR</div>
+      <svg id="atr"></svg>
+      <div class="chart-title">Equity Curve</div>
+      <svg id="equity"></svg>
+    </section>
+  </main>
+
+  <footer>Powered by CoinGecko OHLC data • For educational use only</footer>
+
+<script>
+/* =================== Utilities =================== */
+const fmtUSD = n => "$" + (n||0).toLocaleString(undefined,{maximumFractionDigits:2});
+const toISO  = ms => new Date(ms).toISOString();
+
+/* =================== Indicators =================== */
+function ema(values, period){
+  const k = 2/(period+1); const out = new Array(values.length);
+  let prev;
+  for (let i=0;i<values.length;i++){
+    const v = values[i];
+    if (v==null || !isFinite(v)) { out[i]=undefined; continue; }
+    if (prev==null){
+      if (i < period-1) { out[i]=undefined; continue; }
+      let sum=0; for (let j=i-period+1;j<=i;j++) sum+=values[j];
+      prev = sum/period; out[i]=prev; continue;
+    }
+    prev = v*k + prev*(1-k); out[i]=prev;
+  }
+  return out;
+}
+function rsi(values, period){
+  const out = new Array(values.length); let up=0, dn=0; let prev=values[0];
+  for (let i=1;i<values.length;i++){
+    const ch = values[i]-prev; prev = values[i];
+    const gain = Math.max(0,ch), loss=Math.max(0,-ch);
+    if (i<=period){ up+=gain; dn+=loss; out[i]=undefined; continue; }
+    if (i===period+1){ up/=period; dn/=period; }
+    else { up=(up*(period-1)+gain)/period; dn=(dn*(period-1)+loss)/period; }
+    const rs = dn===0 ? 100 : up/dn; out[i] = 100 - (100/(1+rs));
+  }
+  return out;
+}
+function atr(highs,lows,closes,period){
+  const out=new Array(closes.length); let prevClose=closes[0]; const trs=[];
+  for (let i=0;i<closes.length;i++){
+    const tr = Math.max(highs[i]-lows[i], Math.abs(highs[i]-prevClose), Math.abs(lows[i]-prevClose));
+    trs.push(tr); prevClose = closes[i];
+    if (i<period){ out[i]=undefined; continue; }
+    let sum=0; for (let j=i-period+1;j<=i;j++) sum+=trs[j];
+    out[i]=sum/period;
+  }
+  return out;
+}
+
+/* =================== Charts =================== */
+function mkChart(svgId, series, yAccessor, opts={}){
+  const svg = document.getElementById(svgId);
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  if (!series || !series.length) return null;
+  const W=1100,H=360; svg.setAttribute("viewBox","0 0 "+W+" "+H); svg.setAttribute("preserveAspectRatio","none");
+  const padL=60,padR=20,padT=20,padB=40, plotW=W-padL-padR, plotH=H-padT-padB;
+  const xs = series.map(d=>+d.time);
+  const ys = series.map(yAccessor).filter(Number.isFinite);
+  if (!ys.length) return null;
+  const xMin = Math.min(...xs), xMax = Math.max(...xs);
+  const yMin = Math.min(...ys), yMax = Math.max(...ys);
+  const x = ms => padL + ((ms - xMin) / (xMax - xMin || 1)) * plotW;
+  const y = v  => padT + (1 - ((v - yMin) / (yMax - yMin || 1))) * plotH;
+
+  // gridlines
+  const grid = document.createElementNS(svg.namespaceURI,"g"); grid.setAttribute("class","gridlines");
+  for (let i=0;i<=5;i++){ const ty=padT+(i/5)*plotH; const ln=document.createElementNS(svg.namespaceURI,"line");
+    ln.setAttribute("x1",padL); ln.setAttribute("y1",ty); ln.setAttribute("x2",W-padR); ln.setAttribute("y2",ty); grid.appendChild(ln); }
+  svg.appendChild(grid);
+
+  // axes
+  const axis=document.createElementNS(svg.namespaceURI,"g"); axis.setAttribute("class","axis");
+  for (let i=0;i<=5;i++){ const ty=padT+(i/5)*plotH, val=yMax-(i/5)*(yMax-yMin);
+    const t=document.createElementNS(svg.namespaceURI,"text"); t.setAttribute("x",padL-10); t.setAttribute("y",ty+4);
+    t.setAttribute("text-anchor","end"); t.textContent = opts.fmtY ? opts.fmtY(val) : (Number.isFinite(val)? val.toFixed(2) : ""); axis.appendChild(t); }
+  const xTicks=[xMin, xMin+(xMax-xMin)/2, xMax];
+  for (const ms of xTicks){ const tx=x(ms), ty=H-padB; const tl=document.createElementNS(svg.namespaceURI,"text");
+    tl.setAttribute("x",tx); tl.setAttribute("y",ty+20); tl.setAttribute("text-anchor","middle"); tl.textContent=new Date(ms).toLocaleDateString(); axis.appendChild(tl); }
+  svg.appendChild(axis);
+  return { svg, x, y, W, H, padT, padB };
+}
+function addPath(svg, series, x, y, acc, cls){
+  const p=document.createElementNS(svg.namespaceURI,"path"); p.setAttribute("class","path "+cls);
+  let d=""; for (let i=0;i<series.length;i++){ const px=x(+series[i].time), py=y(acc(series[i])); if (!Number.isFinite(py)) continue; d += (d===""?"M":"L")+px+" "+py+" "; }
+  p.setAttribute("d", d); svg.appendChild(p);
+}
+
+/* =================== Strategy & Broker =================== */
+function signalFor(bar, P){
+  const up = bar.emaFast!=null && bar.emaSlow!=null && bar.emaFast > bar.emaSlow;
+  const momentum = bar.rsi!=null && bar.rsi >= P.rsiLong;
+  return (up && momentum) ? "LONG" : "FLAT";
+}
+class PaperBroker{
+  constructor(P){ this.P=P; this.cash=P.startEquity; this.pos=0; this.entry=null; this.trades=[]; this.e0Day=P.startEquity; this.elDay=P.startEquity; this.lastDay=null; }
+  equity(px){ return this.cash + this.pos * px; }
+  markDay(px, ms){ const day=new Date(ms).toISOString().slice(0,10); if(this.lastDay!==day){ this.e0Day=this.equity(px); this.elDay=this.equity(px); this.lastDay=day; } this.elDay=Math.min(this.elDay,this.equity(px)); }
+  ddPctToday(px){ return this.e0Day>0 ? 100*(this.e0Day - this.elDay)/this.e0Day : 0; }
+  sizeFor(px, atr){ const riskUSD=this.equity(px)*(this.P.riskPerTradePct/100); const stopDist=this.P.atrStopMult*(atr||0); if(!stopDist) return 0; let qty=riskUSD/stopDist; const cap=this.P.maxPositionNotionalUSD/px; return Math.max(0, Math.min(qty, cap)); }
+  buy(px, qty, ms, note){ if(qty<=0) return; const fee=(this.P.feesPctRoundtrip/2/100)*qty*px; const cost=qty*px+fee; if(cost>this.cash){ qty=Math.max(0,(this.cash-fee)/px); if(qty===0) return; }
+    this.cash -= qty*px + fee; this.entry = (this.pos*(this.entry??px) + qty*px)/(this.pos+qty||1); this.pos+=qty; this.trades.push({time:toISO(ms), side:"BUY", px, qty, fee, note}); }
+  sellAll(px, ms, note){ if(this.pos<=0) return; const proceeds=this.pos*px; const fee=(this.P.feesPctRoundtrip/2/100)*proceeds; this.cash += proceeds - fee; this.trades.push({time:toISO(ms), side:"SELL", px, qty:this.pos, fee, note}); this.pos=0; this.entry=null; }
+}
+function tradeStats(trades){
+  const fills=[...trades]; const rounds=[]; let entryPx=null, entryQty=0;
+  for (const t of fills){
+    if (t.side==='BUY'){ entryPx=t.px; entryQty+=t.qty; }
+    else if (t.side==='SELL' && entryPx!=null && entryQty>0){ const pnl=(t.px - entryPx)*entryQty - (t.fee||0); rounds.push({pnl}); entryPx=null; entryQty=0; }
+  }
+  const wins=rounds.filter(r=>r.pnl>0).length, losses=rounds.length-wins; const winRate = (wins+losses)? 100*wins/(wins+losses):0;
+  return { trades:fills.length, roundTrips:rounds.length, winRatePct:winRate };
+}
+function calcMetrics(equity, timeframe){
+  const cleaned = equity.filter(p=>isFinite(p.equity)); if(cleaned.length<2) return {totalReturnPct:0, sharpe:0, maxDrawdownPct:0, bars:cleaned.length, timeframe};
+  const rets=[]; for(let i=1;i<cleaned.length;i++){ const a=cleaned[i-1].equity, b=cleaned[i].equity; if(a>0 && isFinite(a) && isFinite(b)) rets.push((b-a)/a); }
+  const mean = rets.reduce((s,r)=>s+r,0)/(rets.length||1);
+  const std  = Math.sqrt(rets.reduce((s,r)=>s+(r-mean)*(r-mean),0)/(rets.length||1));
+  const perYear = {"1m":60*24*365,"5m":12*24*365,"15m":4*24*365,"1h":24*365,"4h":6*365,"12h":2*365,"1d":365}[timeframe] || 24*365;
+  const sharpe = std>0 ? (mean/std)*Math.sqrt(perYear) : 0;
+  let peak=cleaned[0].equity, maxDD=0; for(const p of cleaned){ peak=Math.max(peak,p.equity); if(peak>0) maxDD=Math.max(maxDD,(peak-p.equity)/peak); }
+  const totalReturnPct = 100*((cleaned.at(-1).equity/cleaned[0].equity)-1);
+  return { totalReturnPct, sharpe, maxDrawdownPct:100*maxDD, bars:cleaned.length, timeframe };
+}
+
+/* =================== Data =================== */
+async function fetchCoinGeckoOHLC(days){
+  const url = "https://api.coingecko.com/api/v3/coins/bitcoin/ohlc?vs_currency=usd&days="+encodeURIComponent(days);
+  const res = await fetch(url, { headers: { 'accept': 'application/json' }});
+  if(!res.ok) throw new Error('CoinGecko error '+res.status);
+  const arr = await res.json(); // [[ts, o,h,l,c], ...]
+  return arr.map(r => ({ t: r[0], o:r[1], h:r[2], l:r[3], c:r[4], v: 0 }));
+}
+function resample(candles, targetTf){
+  // simple resampler to 1h/4h/12h/1d
+  const tfMs = { '1h':3600e3, '4h':4*3600e3, '12h':12*3600e3, '1d':24*3600e3 }[targetTf] || 3600e3;
+  const out=[]; let bucket=null, end=0;
+  for(const k of candles){
+    if(!bucket){ end = Math.ceil((k.t+1)/tfMs)*tfMs; bucket={ t:end-tfMs, o:k.o, h:k.h, l:k.l, c:k.c, v:0 };
+    } else if (k.t < end){ bucket.h=Math.max(bucket.h,k.h); bucket.l=Math.min(bucket.l,k.l); bucket.c=k.c; bucket.v+=k.v; }
+    else { out.push(bucket); end += tfMs; bucket={ t:end-tfMs, o:k.o, h:k.h, l:k.l, c:k.c, v:0 }; }
+  }
+  if(bucket) out.push(bucket); return out;
+}
+
+/* =================== Rendering =================== */
+function renderMetrics(s){
+  const el=document.getElementById('metrics');
+  el.innerHTML = [
+    ['Start Equity', fmtUSD(s.startEquity)],
+    ['End Equity', fmtUSD(s.endEquity)],
+    ['Total Return', (s.totalReturnPct||0).toFixed(2)+'%'],
+    ['Sharpe (approx)', (s.sharpe||0).toFixed(2)],
+    ['Max Drawdown', (s.maxDrawdownPct||0).toFixed(2)+'%'],
+    ['Trades (fills)', s.trades||0],
+    ['Round-trips', s.roundTrips||0],
+    ['Win rate', (s.winRatePct||0).toFixed(1)+'%'],
+    ['Bars', s.bars||0],
+    ['Timeframe', s.timeframe||'']
+  ].map(([k,v])=>`<div class="kv"><label>${k}</label><div>${v}</div></div>`).join('');
+}
+function drawCharts(indicators, equity, trades){
+  // Price + EMAs + Trades
+  const priceChart = mkChart('price', indicators, d=>d.close, { fmtY:v=>"$"+v.toLocaleString(undefined,{maximumFractionDigits:0}) });
+  if (priceChart){
+    addPath(priceChart.svg, indicators, priceChart.x, priceChart.y, d=>d.close, 'price');
+    addPath(priceChart.svg, indicators, priceChart.x, priceChart.y, d=>d.emaFast, 'emaFast');
+    addPath(priceChart.svg, indicators, priceChart.x, priceChart.y, d=>d.emaSlow, 'emaSlow');
+    for (const t of trades){ const ms=Date.parse(t.time), tx=priceChart.x(ms); const ln=document.createElementNS(priceChart.svg.namespaceURI,'line');
+      ln.setAttribute('x1',tx); ln.setAttribute('x2',tx); ln.setAttribute('y1',priceChart.padT); ln.setAttribute('y2',priceChart.H-priceChart.padB);
+      ln.setAttribute('class','trade '+(t.side==='BUY'?'buy':'sell')); ln.setAttribute('opacity', t.side==='BUY'?'0.45':'0.55'); priceChart.svg.appendChild(ln); }
+  }
+  // RSI
+  const rsiChart = mkChart('rsi', indicators, d=>d.rsi||NaN, { fmtY:v=>isFinite(v)? v.toFixed(0):'' });
+  if (rsiChart){
+    addPath(rsiChart.svg, indicators, rsiChart.x, rsiChart.y, d=>d.rsi, 'rsiline');
+    for (const lvl of [30,70]){ const gl=document.createElementNS(rsiChart.svg.namespaceURI,'line');
+      gl.setAttribute('x1',60); gl.setAttribute('x2',1080); gl.setAttribute('y1',rsiChart.y(lvl)); gl.setAttribute('y2',rsiChart.y(lvl)); gl.setAttribute('class','guideline'); rsiChart.svg.appendChild(gl); }
+  }
+  // ATR
+  const atrChart = mkChart('atr', indicators, d=>d.atr||NaN, { fmtY:v=>isFinite(v)? v.toFixed(2):'' });
+  if (atrChart){
+    addPath(atrChart.svg, indicators, atrChart.x, atrChart.y, d=>d.atr, 'rsiline');
+  }
+  // Equity
+  const eqChart = mkChart('equity', equity, d=>d.equity, { fmtY:v=>"$"+v.toLocaleString(undefined,{maximumFractionDigits:0}) });
+  if (eqChart){
+    addPath(eqChart.svg, equity, eqChart.x, eqChart.y, d=>d.equity, 'equity');
+  }
+}
+
+/* =================== CSV helpers =================== */
+function toCSV(rows, headers){
+  const lines=[headers.join(',')]; for(const r of rows){ lines.push(headers.map(h=>r[h]).join(',')); } return lines.join('\n');
+}
+async function loadCsvFile(){
+  const f = document.getElementById('file').files[0]; if(!f) return [];
+  const txt = await f.text(); const lines=txt.trim().split(/\r?\n/); const hdr=lines.shift().split(',').map(h=>h.trim());
+  const idx = {time:hdr.indexOf('time'), open:hdr.indexOf('open'), high:hdr.indexOf('high'), low:hdr.indexOf('low'), close:hdr.indexOf('close'), volume:hdr.indexOf('volume')};
+  const out=[]; for(const line of lines){ const c=line.split(','); const t=Date.parse(c[idx.time]); out.push({ t, o:+c[idx.open], h:+c[idx.high], l:+c[idx.low], c:+c[idx.close], v:+c[idx.volume] }); }
+  return out;
+}
+
+/* =================== Core run() =================== */
+async function run(){
+  const P = {
+    timeframe: document.getElementById('timeframe').value,
+    lookback: +document.getElementById('lookback').value,
+    emaFast: +document.getElementById('emaFast').value,
+    emaSlow: +document.getElementById('emaSlow').value,
+    rsiPeriod: +document.getElementById('rsiPeriod').value,
+    rsiLong: +document.getElementById('rsiLong').value,
+    atrPeriod: +document.getElementById('atrPeriod').value,
+    atrStopMult: +document.getElementById('atrStopMult').value,
+    takeProfitATR: +document.getElementById('takeProfitATR').value,
+    startEquity: +document.getElementById('startEquity').value,
+    riskPerTradePct: +document.getElementById('riskPct').value,
+    maxPositionNotionalUSD: +document.getElementById('maxNotional').value,
+    dailyLossLimitPct: +document.getElementById('dailyLoss').value,
+    feesPctRoundtrip: +document.getElementById('feesPct').value
+  };
+
+  // load candles
+  let candles=[];
+  const source = document.getElementById('source').value;
+  if (source === 'coingecko'){
+    const days = document.getElementById('days').value;
+    candles = await fetchCoinGeckoOHLC(days);
+  } else {
+    candles = await loadCsvFile();
+  }
+  if(!candles.length) throw new Error('No candles');
+  candles.sort((a,b)=>a.t-b.t);
+
+  // resample + indicators
+  const bars = resample(candles, P.timeframe);
+  const closes = bars.map(b=>b.c), highs=bars.map(b=>b.h), lows=bars.map(b=>b.l);
+  const emaFast = ema(closes, P.emaFast), emaSlow = ema(closes, P.emaSlow);
+  const rsiArr  = rsi(closes, P.rsiPeriod);
+  const atrArr  = atr(highs, lows, closes, P.atrPeriod);
+  const data = bars.map((b,i)=>({ t:b.t, o:b.o, h:b.h, l:b.l, c:b.c, v:b.v, emaFast:emaFast[i], emaSlow:emaSlow[i], rsi:rsiArr[i], atr:atrArr[i] }));
+
+  // backtest
+  const broker = new PaperBroker({ ...P });
+  const equityCurve=[]; let inPos=false; let stop=null;
+  for (let i=0;i<data.length;i++){
+    const b=data[i];
+    if ([b.emaFast,b.emaSlow,b.rsi,b.atr].some(x=>x==null)) { equityCurve.push({time:b.t, equity: broker.equity(b.c)}); continue; }
+    broker.markDay(b.c, b.t);
+    if (broker.ddPctToday(b.c) >= P.dailyLossLimitPct && broker.pos>0){ broker.sellAll(b.c,b.t,'dailyLossLimit'); inPos=false; stop=null; }
+    if (inPos){
+      const hitStop = stop!=null && b.l <= stop;
+      const tpPx = P.takeProfitATR>0 ? (broker.entry + P.takeProfitATR * b.atr) : null;
+      const hitTP = tpPx && b.h >= tpPx;
+      if (hitStop){ broker.sellAll(stop,b.t,'stopHit'); inPos=false; stop=null; }
+      else if (hitTP){ broker.sellAll(tpPx,b.t,'takeProfit'); inPos=false; stop=null; }
+    }
+    const sig = signalFor(b, P);
+    if (!inPos && sig==='LONG'){
+      const qty = broker.sizeFor(b.c, b.atr); if (qty>0){ broker.buy(b.c, qty, b.t, 'enter'); inPos=true; stop=b.c - P.atrStopMult*b.atr; }
+    } else if (inPos && sig==='FLAT'){
+      broker.sellAll(b.c, b.t, 'exitSignal'); inPos=false; stop=null;
+    }
+    equityCurve.push({ time:b.t, equity: broker.equity(b.c) });
+  }
+  if (inPos) broker.sellAll(data.at(-1).c, data.at(-1).t, 'finalClose');
+  equityCurve.push({ time:data.at(-1).t, equity: broker.equity(data.at(-1).c) });
+
+  // metrics + render
+  const metrics = calcMetrics(equityCurve.map(p=>({time:p.time,equity:p.equity})), P.timeframe);
+  const tstats = tradeStats(broker.trades);
+  renderMetrics({ ...metrics, startEquity:P.startEquity, endEquity: equityCurve.at(-1).equity, ...tstats, timeframe:P.timeframe, emaFast:P.emaFast, emaSlow:P.emaSlow, rsiPeriod:P.rsiPeriod, atrPeriod:P.atrPeriod });
+
+  const indicators = data.map(d=>({ time:d.t, close:d.c, emaFast:d.emaFast, emaSlow:d.emaSlow, rsi:d.rsi, atr:d.atr }));
+  drawCharts(indicators, equityCurve, broker.trades);
+
+  // CSV download
+  const tradesCsv = toCSV(broker.trades, ["time","side","px","qty","fee","note"]);
+  const blob = new Blob([tradesCsv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const dl = document.getElementById('dlTrades'); dl.onclick = () => { const a=document.createElement('a'); a.href=url; a.download='trades.csv'; a.click(); };
+}
+
+/* =================== UI wiring =================== */
+const sourceSel = document.getElementById('source');
+sourceSel.addEventListener('change', ()=>{
+  document.getElementById('uploadRow').style.display = sourceSel.value==='file' ? 'flex' : 'none';
+});
+document.getElementById('run').addEventListener('click', async ()=>{
+  try { await run(); } catch (e) { alert(e.message || e); console.error(e); }
+});
+
+// ---- Live (auto) mode ----
+let liveTimer = null;
+async function liveTick(){ try { await run(); } catch(e){ console.error('liveTick error', e); } }
+document.getElementById('startLive').addEventListener('click', async ()=>{
+  const secs = Math.max(10, +document.getElementById('pollSeconds').value || 60);
+  if (liveTimer) { clearInterval(liveTimer); liveTimer = null; }
+  await liveTick(); liveTimer = setInterval(liveTick, secs*1000);
+});
+document.getElementById('stopLive').addEventListener('click', ()=>{ if (liveTimer) clearInterval(liveTimer); liveTimer=null; });
+</script>
+</body>
+</html>

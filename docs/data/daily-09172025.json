@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09172025-E",
+    "generatedAt": "2025-09-17T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "wagon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that rhyme with 'cat'",
+        "items": [
+          "hat",
+          "mat",
+          "bat",
+          "rat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bagel?"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "sneakers",
+          "socks",
+          "boots",
+          "flats"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each category is about concrete, familiar items for grades 2–3. Near-miss temptation: 'hat' could fit both 'things you wear on your head' and 'rhymes with cat', but in the rhyme category we avoid adding any headwear that would cause confusion with the 'things you wear on your feet' group."
+  },
+  "medium": {
+    "id": "09172025-M",
+    "generatedAt": "2025-09-17T00:00:00Z",
+    "groups": [
+      {
+        "name": "Word parts: prefixes",
+        "items": [
+          "unhappy",
+          "untangle",
+          "replay",
+          "undo"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that swim",
+        "items": [
+          "dolphin",
+          "otter",
+          "penguin",
+          "seal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "ears"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Objects found in a classroom",
+        "items": [
+          "pencil",
+          "eraser",
+          "glue",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Prefixes group uses common short prefixes and simple words. Animals that swim are straightforward. Pair items are things that typically exist in twos; singular items like 'ear' are ambiguous, so 'ears' is used to keep the count clear. Near-miss temptation: 'glove' vs 'gloves' could tempt linking to 'pairs' category, but we keep the item plural to reinforce the intended group."
+  },
+  "hard": {
+    "id": "09172025-H",
+    "generatedAt": "2025-09-17T00:00:00Z",
+    "groups": [
+      {
+        "name": "Color families with a common word tail",
+        "items": [
+          "sunset-orange",
+          "emerald-green",
+          "sky-blue",
+          "rose-red"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools that fix things",
+        "items": [
+          "hammer",
+          "wrench",
+          "screwdriver",
+          "duct-tape"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of transportation by energy",
+        "items": [
+          "bicycle (human-powered)",
+          "bus (fuel)",
+          "train (electric)",
+          "balloon (hot air)"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that protect you from rain",
+        "items": [
+          "umbrella",
+          "raincoat",
+          "hoodie",
+          "poncho"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Color-tamil group uses a common telescope-like suffix idea with a color name followed by a descriptor; near-miss temptation: 'blue' as a color with 'sky-blue' could tempt miscategory with 'colors' vs 'color families with a common word tail'. Tools that fix things are distinct from transportation energy; avoid overlap by ensuring each item’s primary role is clear. Hard puzzles may include slightly abstract phrasing but remain solvable by grade 6+ students."
+  },
+  "id": "09172025",
+  "generatedAt": "2025-09-17T02:06:57.038Z"
+}

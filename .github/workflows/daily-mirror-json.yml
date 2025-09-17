@@ -3,7 +3,7 @@ name: Daily Mirror Images
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # 01:00 UTC daily
+    - cron: "30 12 * * *"   # 01:00 UTC daily
   workflow_dispatch: {}
 
 permissions:

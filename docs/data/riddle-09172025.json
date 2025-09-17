@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am round and shiny, a tasty treat you might bake. I have holes in the middle and I’m great for a snack bake. What am I?",
+    "a": "Donut",
+    "hint": "Looks like a ring."
+  },
+  "medium": {
+    "q": "I shine without a flame, I can be a friend or a foe. The more you tell me, the bigger I grow. What am I?",
+    "a": "Gossip",
+    "hint": "Think about what people share."
+  },
+  "hard": {
+    "q": "A family of six sits in a circle. Each person tells a truth in turn, but one never lies. Who is it if the one who speaks last is the only one who can identify the liar?",
+    "a": "The Judge/Referee (the last speaker who can deduce)",
+    "hint": "Consider a setup where order reveals who is lying."
+  }
+}

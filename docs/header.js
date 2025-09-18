@@ -4,7 +4,7 @@
 
   const container = script.parentElement;
   container.innerHTML = `
-    <section class="controls">
+    <section>
       <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png" alt="" height="60px">
       <div class="title-block">
         <h2>${title}</h2>

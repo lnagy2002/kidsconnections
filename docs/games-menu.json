@@ -1,9 +1,9 @@
 {
   "games": [
-    { "title": "Kids' Mirror Match", "href": "mirror.html", "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/screen-shot-2025-09-14-at-5.58.54-pm.png' alt='Mirror Match' style='width:20px;height:20px;'>" },
-    { "title": "Kids' Connections",       "href": "connect.html", "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/screen-shot-2025-08-21-at-12.13.25-pm.png' alt='Connections' style='width:20px;height:20px;'>" },
-    { "title": "Kids' Wordle",         "href": "wordle.html",    "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/screen-shot-2025-08-21-at-12.10.54-pm.png' alt='Wordle' style='width:20px;height:20px;'>" },
-    { "title": "Kids' Riddle",        "href": "riddle.html",   "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/screen-shot-2025-08-25-at-4.58.23-pm.png' alt='Riddle' style='width:20px;height:20px;'>" },
-    { "title": "Kids' Simon Game",        "href": "simon.html",   "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/screen-shot-2025-09-02-at-5.55.24-pm.png' alt='Simon Game' style='width:20px;height:20px;'>" }
+    { "title": "Mirror Match", "href": "mirror.html", "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/screen-shot-2025-09-14-at-5.58.54-pm.png' alt='Mirror Match' style='width:20px;height:20px;'>" },
+    { "title": "Connections",       "href": "connect.html", "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/screen-shot-2025-08-21-at-12.13.25-pm.png' alt='Connections' style='width:20px;height:20px;'>" },
+    { "title": "Wordle",         "href": "wordle.html",    "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/screen-shot-2025-08-21-at-12.10.54-pm.png' alt='Wordle' style='width:20px;height:20px;'>" },
+    { "title": "Magic Square",        "href": "magicsquare.html",   "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/screen-shot-2025-09-18-at-10.39.08-am.png' alt='Magic Square' style='width:20px;height:20px;'>" },
+    { "title": "Simon Game",        "href": "simon.html",   "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/screen-shot-2025-09-02-at-5.55.24-pm.png' alt='Simon Game' style='width:20px;height:20px;'>" }
   ]
 }

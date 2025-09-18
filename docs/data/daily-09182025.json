@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09182025-E",
+    "generatedAt": "2025-09-18T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals that rhyme with color names",
+        "items": [
+          "cat",
+          "bat",
+          "rat",
+          "mat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "slip-on"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things found in a kitchen sink",
+        "items": [
+          "soap",
+          "brush",
+          "sponge",
+          "towel"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groupings with concrete, familiar items. Group 1 uses rhyme-like relation: cat/bat/rat/mat rhyme with color names (red, blue, etc.) though not perfect, they share -at endings. Near-miss: 'mat' could be considered furniture, but here it's chosen for rhyme. Group 2 are common footwear. Group 3 easy flyables. Group 4 common kitchen sink items."
+  },
+  "medium": {
+    "id": "09182025-M",
+    "generatedAt": "2025-09-18T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that form new words with 'sun' prefix",
+        "items": [
+          "sunrise",
+          "sunflower",
+          "sunset",
+          "sunbath"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a day: morning, afternoon, evening, night",
+        "items": [
+          "dawn",
+          "midday",
+          "twilight",
+          "midnight"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common playground items: see-saw, slide, swing, hoop",
+        "items": [
+          "see-saw",
+          "slide",
+          "swing",
+          "hoop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-word compound words ending with 'light'",
+        "items": [
+          "streetlight",
+          "skylight",
+          "highlight",
+          "moonlight"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay: Group 1 uses words that pair with 'sun' to form new terms. Group 2 centers on times of day with related synonyms. Group 3 lists playground equipment. Group 4 uses common compound words ending in 'light'. Near-miss: 'sunbath' could be a stretch, but is a valid compound with sun- prefix; it’s kept to fit the list."
+  },
+  "hard": {
+    "id": "09182025-H",
+    "generatedAt": "2025-09-18T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colorful emotions expressed as phrases",
+        "items": [
+          "blue mood",
+          "green with envy",
+          "red-faced",
+          "yellow bellied"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal clues that hint at sounds they make",
+        "items": [
+          "owl hoot",
+          "bee buzz",
+          "cow moo",
+          "duck quack"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Items that share a common tool used for crafts",
+        "items": [
+          "glue",
+          "glitter",
+          "scissors",
+          "ruler"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that pair with 'stick' to form common phrases",
+        "items": [
+          "lip stick",
+          "drum stick",
+          "password stick",
+          "stick figure"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard rules include more abstract connections. Group 1 uses color idioms describing emotions; near-miss would be thinking literal color names, but phrases are needed. Group 2 pairs animal sounds with their vocalizations; very direct, but ensure students map sound to animal. Group 3 centers on craft supplies typically used together. Group 4 uses phrase constructions with 'stick' where some options (like 'password stick') are not valid phrases; stick figure and drum stick are valid; others are near-misses to demonstrate why they don’t fit. Ensure kids focus on common, unambiguous phrases."
+  },
+  "id": "09182025",
+  "generatedAt": "2025-09-18T02:07:12.388Z"
+}

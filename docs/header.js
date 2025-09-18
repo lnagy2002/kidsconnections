@@ -6,7 +6,7 @@
   container.innerHTML = `
     <section>
       <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png" alt="" height="60px">
-      <div class="title-block">
+      <div>
         <h2>${title}</h2>
         <div id="date"></div>
       </div>

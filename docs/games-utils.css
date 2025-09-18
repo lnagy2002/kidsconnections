@@ -57,6 +57,12 @@ h1 {
     padding: 10px 12px;
 }
 
+.muted {
+    color: var(--muted);
+    text-align: center;
+}
+
+
 @media (max-width: 600px) {
             .main {
                 margin: 10px auto;

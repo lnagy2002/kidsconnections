@@ -7,9 +7,17 @@
   <meta name="description" content="Kid‑friendly Simon (repeat‑the‑sequence) game." />
   <style>
     :root{
-      --bg: #0e364b;
-      --panel: #0e364b;
-      --ink: #a9f4f4;
+         --bg: #0e364b;
+         --panel: #0e364b;
+         --text: #a9f4f4;
+         --ink: #a9f4f4;
+         --muted: #f0db79;
+         --maybe: #facc15;
+         --no: #64748b;
+         --border: #1b2659;
+         --ok: #4ade80;
+         --bad: #e4572e;
+
       --cell: #f0db79;
       --accent1: #3b82f6;
       --accent2: #22a699;
@@ -35,14 +43,6 @@
       --yellow-glow:0 0 24px rgba(250,204,21,.8);
       --blue-glow:  0 0 24px rgba(96,165,250,.8);
     }
-    body{
-      margin: 0;
-      font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-      background: var(--bg);
-      color: var(--ink);
-    }
-
-
 
     .topbar{text-align: center; margin: 20px;}
     .chip{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; color:var(--ink);}
@@ -120,30 +120,6 @@
     }
     .heartbeat{animation:heartbeat .3s}
 
-    .app {
-        margin: 20px auto;
-        padding: 20px;
-        border-radius: 14px;
-        width: min(1200px, 96vw);
-    }
-
-
-    .app .controls {
-        display: flex;
-        gap: 12px;
-        align-items: center;
-        padding: 10px 12px;
-    }
-
-    .section {
-        margin-top: 15px;
-        text-align: center;
-    }
-
-    h1 {
-        margin-bottom: 10px;
-        margin-top: 0px;
-    }
     .btn {
         background: var(--key);
         border: 1px solid var(--border);
@@ -166,36 +142,33 @@
         text-align: center;
     }
   </style>
-    <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer  data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-KFSR46Z6C8'); // sends page_view automatically
-    </script>
+  <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+  <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+  <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KFSR46Z6C8');
+  </script>
 </head>
+
 <body>
-  <main>
-    <div class="app">
-        <section class="panel controls">
-            <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt="" height="100px">
-            <div class="title-block">
-                <h1>Kids' Simon Game</h1>
-                <div id="date"></div>
-            </div>
-        </section>
-        <hr>
+  <div class="main">
+      <div>
+        <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Simon Game"></script>
+      </div>
         <!-- <h3 class="section">Repeat the growing pattern!</h3> -->
 <div id="msg" class="muted" style="margin-left:auto"></div>
-        <section class="topbar">
+        <section class="section">
           <div class="chip" id="stateChip">Play State: <strong  style="color: #f0db79">Press <em>Start</em></strong></div>
             <div class="chip" id="levelChip">Round: <strong>0</strong></div>
             <div class="chip" id="bestChip">Top Score: <strong>0</strong></div>
             <div class="chip" id="livesChip">Lives: <strong style="color: #f0db79">3</strong></div>
         </section>
 
-        <div class="wrap">
+        <div>
           <section class="card">
             <div class="board" role="group" aria-label="Simon board">
               <div class="pad green"  data-idx="0" role="button" aria-label="Green (press 1)" tabindex="0"><span class="padLabel">1</span></div>
@@ -210,30 +183,6 @@
       <button id="startBtn" class="btn primary">Start</button>
       <button id="muteBtn" class="btn" aria-pressed="false">Sound On</button>
     </div>
-    <script>
-        const today = new Date();
-
-        function getQueryParam(name) {
-            const params = new URLSearchParams(window.location.search);
-            return params.get(name); // returns null if not found
-        }
-        // Format it as Month Day, Year (e.g., August 20, 2025)
-        const options = {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        };
-        const formattedDate = today.toLocaleDateString(undefined, options);
-
-        const mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-based
-        const dd = String(today.getDate()).padStart(2, '0');
-        const yyyy = today.getFullYear();
-
-        const formattedFileDate = mm + dd + yyyy;
-        // Insert into HTML
-        document.getElementById("date").textContent = "Daily " + (getQueryParam('level')  || 'easy') +  " • " + formattedDate;
-    </script>
-
 
   <script>
 

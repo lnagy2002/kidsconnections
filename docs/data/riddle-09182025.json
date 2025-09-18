@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am round or oval, and I roll with a bounce. You might throw me in a game or catch me with a glove. What am I?",
+    "a": "ball",
+    "hint": "Think of something you can throw or kick."
+  },
+  "medium": {
+    "q": "I’m a word that hides another word inside me. If you take out the middle letters, you still get a word. What am I?",
+    "a": "inside",
+    "hint": "Look for a word where the core letters form a smaller word."
+  },
+  "hard": {
+    "q": "Two numbers add to a third, but neither is the difference of the other two. The three are consecutive even numbers. What are they?",
+    "a": "2, 4, 6",
+    "hint": "Think of even numbers in a row."
+  }
+}

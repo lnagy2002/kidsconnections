@@ -28,3 +28,23 @@ h2 {
 #date  {
   font-size:14px;
 }
+
+* {
+    box-sizing: border-box
+}
+
+.wrap {
+
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 14px;
+    width: min(1200px, 96vw);
+}
+
+.header-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 12px;
+}
+

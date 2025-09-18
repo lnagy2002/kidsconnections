@@ -16,12 +16,7 @@
 
   // === Date + Level Logic ===
   const t = new Date();
-
-  function getQueryParam(name) {
-    const params = new URLSearchParams(window.location.search);
-    return params.get(name); // null if not found
-  }
-
+  
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   const formattedDate = t.toLocaleDateString(undefined, options);
 

@@ -1,4 +1,3 @@
-(function(){
   const script = document.currentScript;
   const title = script.getAttribute("data-title") || "Game";
 
@@ -28,4 +27,4 @@
   const level = getQueryParam('level') || 'easy';
 
   document.getElementById("date").textContent = `Daily ${level} • ${formattedDate}`;
-})();
+

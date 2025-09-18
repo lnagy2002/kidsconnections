@@ -30,8 +30,9 @@ h1 {
     margin-top: 0px;
 }
 
-.center {
-  text-align:center;
+.section {
+    text-align: center;
+    margin: 20px;
 }
 
 #date  {

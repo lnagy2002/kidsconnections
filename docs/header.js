@@ -4,7 +4,7 @@
 
   const container = script.parentElement;
   container.innerHTML = `
-    <section>
+    <section id="header-container">
       <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png" alt="" height="60px">
       <div>
         <h2>${title}</h2>

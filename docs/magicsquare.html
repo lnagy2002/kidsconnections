@@ -299,6 +299,8 @@
             background: var(--accent);
             color: #2a556c;
             border: 2px solid var(--bg);
+            opacity: 1; /* override iOS Safari dimming */
+            -webkit-text-fill-color: #666; /* fixes iOS Safari gray text */
         }
         /* .rowSums, .colSums{
       display:flex; gap:8px; justify-content:center; margin:8px 0 0;

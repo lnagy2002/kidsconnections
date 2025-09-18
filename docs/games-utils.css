@@ -6,3 +6,25 @@ canvas.confetti {
   pointer-events: none;
   z-index: 9999;
 }
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    /* display: grid; */
+    /* place-items: center; */
+    margin: 0;
+    font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+h2 {
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+#date  {
+  font-size:14px;
+}

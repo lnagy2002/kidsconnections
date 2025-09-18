@@ -7,32 +7,25 @@
     <title>Kids’ Connections — Daily</title>
     <style>
          :root {
-            --bg: #0e364b;
-            --panel: #0e364b;
-            --ink: #a9f4f4;
-            --cell: #f0db79;
-            --accent1: #3b82f6;
-            --accent2: #22a699;
-            --accent3: #f2b705;
-            --accent4: #f25c54;
-            --muted: #f0db79;
-            --border: #1b2659;
+           --bg: #0e364b;
+           --panel: #0e364b;
+           --text: #a9f4f4;
+           --ink: #a9f4f4;
+           --muted: #f0db79;
+           --border: #1b2659;
+           --ok: #4ade80;
+           --no: #64748b;
+           --maybe: #facc15;
+           --bad: #e4572e;
+
+
+           --cell: #f0db79;
+           --accent1: #3b82f6;
+           --accent2: #22a699;
+           --accent3: #f2b705;
+           --accent4: #f25c54;
             --key: #0f1736;
             --key-hover: #141f4a;
-        }
-
-        body {
-            margin: 0;
-            font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-            background: var(--bg);
-            color: var(--ink);
-        }
-
-        .app {
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 14px;
-            width: min(1200px, 96vw);
         }
 
         @keyframes shake {
@@ -66,15 +59,6 @@
             text-align: center;
         }
 
-        h1 {
-            margin-bottom: 10px;
-            margin-top: 0px;
-        }
-
-        .muted {
-            color: var(--muted);
-            text-align: center;
-        }
 
         .grid {
             display: grid;
@@ -182,10 +166,7 @@
         }
 
         @media (max-width: 600px) {
-            .app {
-                margin: 10px auto;
-                padding: 10px;
-            }
+
 
             .grid {
                 gap: 2px;
@@ -208,34 +189,23 @@
         }
         /* .complete-badge { margin-left:10px; font-size:12px; color:#fff; background:green; padding:2px 6px; border-radius:6px;} */
     </style>
-      <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer  data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+    <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+    <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+    <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag(){ dataLayer.push(arguments); }
       gtag('js', new Date());
-      gtag('config', 'G-KFSR46Z6C8'); // sends page_view automatically
+      gtag('config', 'G-KFSR46Z6C8');
     </script>
 </head>
 
 <body>
-
-    <div class="app">
-        <section class="panel controls">
-            <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt="" height="100px">
-            <div class="title-block">
-                <h1>Kids’ Connections</h1>
-                <!-- <label>Pick the Right Challenge Level (by Grade)
-              <select id="level" class="field">
-                <option value="easy">Easy (Grades 2–3)</option>
-                <option value="medium">Medium (Grades 4-5)</option>
-                <option value="hard">Hard (Grades 6+)</option>
-              </select>
-            </label> -->
-                <div id="date"></div>
-            </div>
-        </section>
-        <hr>
+    <div class="main">
+      <div>
+        <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Mirror Match"></script>
+      </div>
         <h3 class="section">Create four groups of four!</h3>
         <div id="msg" class="muted" style="margin-left:auto">Categories</div>
         <div id="foundContainer"></div>
@@ -248,29 +218,7 @@
         </div>
 
     </div>
-    <script>
-        const today = new Date();
-        function getQueryParam(name) {
-            const params = new URLSearchParams(window.location.search);
-            return params.get(name); // returns null if not found
-        }
 
-        // Format it as Month Day, Year (e.g., August 20, 2025)
-        const options = {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        };
-        const formattedDate = today.toLocaleDateString(undefined, options);
-
-        const mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-based
-        const dd = String(today.getDate()).padStart(2, '0');
-        const yyyy = today.getFullYear();
-
-        const formattedFileDate = mm + dd + yyyy;
-        // Insert into HTML
-        document.getElementById("date").textContent = "Daily " + (getQueryParam('level')  || 'easy') +  " • " + formattedDate;
-    </script>
     <script>
         function showMessage(text) {
             document.getElementById("msg").textContent = text;

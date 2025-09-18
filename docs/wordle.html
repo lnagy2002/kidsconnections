@@ -7,52 +7,20 @@
     <title>Kids' Wordle — Daily</title>
     <style>
          :root {
-            --bg: #0e364b;
-            --panel: #0e364b;
-            --text: #a9f4f4;
-            --muted: #f0db79;
-            --ok: #4ade80;
-            --maybe: #facc15;
-            --no: #64748b;
-            --border: #1b2659;
+           --bg: #0e364b;
+           --panel: #0e364b;
+           --text: #a9f4f4;
+           --ink: #a9f4f4;
+           --muted: #f0db79;
+           --border: #1b2659;
+           --ok: #4ade80;
+           --no: #64748b;
+           --maybe: #facc15;
+           --bad: #e4572e;
+
             --key: #0f1736;
             --key-hover: #141f4a;
-        }
 
-        * {
-            box-sizing: border-box
-        }
-
-        html,
-        body {
-            height: 100%
-        }
-
-        body {
-            display: grid;
-            place-items: center;
-            margin: 0;
-            font-family: "Rubik", Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-
-        }
-
-        h1 {
-            margin-bottom: 10px;
-            margin-top: 0px;
-        }
-
-        .wrap {
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 14px;
-            width: min(1200px, 96vw)
-        }
-
-        .muted {
-            color: var(--muted);
-            text-align: center;
         }
 
         .panel {
@@ -60,13 +28,6 @@
             text-align: center;
         }
         /* Minimal controls row: only Level */
-
-        .controls {
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            padding: 10px 12px
-        }
 
         label {
             font-size: 16px;
@@ -210,11 +171,6 @@
           }
 
         @media (max-width: 600px) {
-            .wrap {
-                margin: 10px auto;
-                padding: 10px;
-            }
-
             .keyboard {
               padding-top: 10px;
             }
@@ -234,36 +190,25 @@
 
 
     </style>
-      <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer  data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-
+    <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+    <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+    <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag(){ dataLayer.push(arguments); }
       gtag('js', new Date());
-      gtag('config', 'G-KFSR46Z6C8'); // sends page_view automatically
+      gtag('config', 'G-KFSR46Z6C8');
     </script>
-</head>
+  </head>
 
-<body>
-    <div class="wrap">
-      <section class="controls">
-        <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/08/logo-round-3.png" alt=""  height="100px">
-        <div class="title-block">
-          <h1>Kids' Wordle</h1>
-          <!-- <label>Pick the Right Challenge Level (by Grade)
-            <select id="level" class="field">
-              <option value="easy">Easy (Grades 2–3)</option>
-              <option value="medium">Medium (Grades 4-5)</option>
-              <option value="hard">Hard (Grades 6+)</option>
-            </select>
-          </label> -->
-          <div id="date"></div>
-          </div>
-      </section>
-      <hr>
-      <div id="msg" class="muted" style="margin-left:auto">Ready</div>
+  <body>
+    <div class="main">
+      <div>
+        <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Wordle"></script>
+      </div>
         <section id="game" class="panel">
+            <div id="msg" class="muted" style="margin-left:auto">Ready</div>
             <div id="board" class="board" aria-live="polite"></div>
             <div class="keyboard" aria-label="On‑screen keyboard">
                 <div id="kb1" class="kbrow top"></div>
@@ -272,29 +217,7 @@
             </div>
         </section>
     </div>
-    <script>
-        const t = new Date();
-        function getQueryParam(name) {
-            const params = new URLSearchParams(window.location.search);
-            return params.get(name); // returns null if not found
-        }
 
-        // Format it as Month Day, Year (e.g., August 20, 2025)
-        const options = {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        };
-        const formattedDate = t.toLocaleDateString(undefined, options);
-
-        const mm = String(t.getMonth() + 1).padStart(2, '0'); // Months are 0-based
-        const dd = String(t.getDate()).padStart(2, '0');
-        const yyyy = t.getFullYear();
-
-        const formattedFileDate = mm + dd + yyyy;
-        // Insert into HTML
-        document.getElementById("date").textContent = "Daily " + (getQueryParam('level')  || 'easy') +  " • " + formattedDate;
-    </script>
     <script>
         // ===== Daily deterministic word (by date + level) =====
         class RNG {

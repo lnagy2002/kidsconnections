@@ -453,6 +453,7 @@ updateKeycaps()
             if (g === S.secret) {
                 S.done = true;
                 gtag('event', 'wordle_resolved', { app: 'wordle' });
+                celebrate  ();
                 msg('🎉 You got it!');
                 return;
             }

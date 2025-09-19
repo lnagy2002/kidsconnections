@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs but I never walk. I come in many shapes and you sit on me. What am I?",
+    "a": "a chair",
+    "hint": "You find me in classrooms and dining rooms."
+  },
+  "medium": {
+    "q": "I start with a letter that stands for a number. I hide a smaller word inside me that can be found in a kitchen. What word am I?",
+    "a": "s i l l y? Wait no. Try 'table' containing 'tab' and 'able'.",
+    "hint": "Think about everyday items and letters inside them."
+  },
+  "hard": {
+    "q": "A lighthouse shines at night, but only when the harbor door is closed. If two captains each tell one truth or lie, who decides the color of the light?",
+    "a": "This is a trick puzzle; there is no harbor door rule. Consider logical consistency and statements.",
+    "hint": "Focus on rules of truth-tellers and statement consistency."
+  }
+}

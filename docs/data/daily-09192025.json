@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09212025-E",
+    "generatedAt": "2025-09-19T12:00:00Z",
+    "groups": [
+      {
+        "name": "Pets We Care For",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "sofa",
+          "stool",
+          "bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Beep or Ring",
+        "items": [
+          "alarm",
+          "phone",
+          "bell",
+          "timer"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors in a Rainbow",
+        "items": [
+          "red",
+          "orange",
+          "blue",
+          "green"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: Pets You Care For (familiar animal friends), Things You Sit On (common furniture), Things That Beep or Ring (sounds with alerts), Colors in a Rainbow (basic color set). No overlaps between items."
+  },
+  "medium": {
+    "id": "09212025-M",
+    "generatedAt": "2025-09-19T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Share a Prefix",
+        "items": [
+          "unhappy",
+          "unicorn",
+          "untie",
+          "unfold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things With Wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "tricycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pairs in a Kitchen",
+        "items": [
+          "spoon",
+          "bowl",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Clues",
+        "items": [
+          "rain",
+          "sun",
+          "wind",
+          "snow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories: Prefix-sharing words (un-), Things With Wheels (various rides), Kitchenware set, Weather concepts. Near-miss temptation example: 'spoon' could seem related to 'spoon' in 'spoon and fork' but stays within kitchen items; ensure the intended grouping remains clear."
+  },
+  "hard": {
+    "id": "09212025-H",
+    "generatedAt": "2025-09-19T12:00:00Z",
+    "groups": [
+      {
+        "name": "Day and Night Motifs",
+        "items": [
+          "sunrise",
+          "moonlight",
+          "twilight",
+          "dawn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Soundless Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Helpers",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "crayon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Garden Plants",
+        "items": [
+          "rose",
+          "sunflower",
+          "daisy",
+          "lily"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories: Day/Night motifs evoke time-of-day imagery; Shapes group uses geometric terms; Small Helpers are classroom tools; Garden Plants are common flora. Near-miss temptation: 'moonlight' might feel like a time word; kept distinct via clear 'day/night' phrasing. All items are age-appropriate and unambiguous."
+  },
+  "id": "09192025",
+  "generatedAt": "2025-09-19T02:11:07.491Z"
+}

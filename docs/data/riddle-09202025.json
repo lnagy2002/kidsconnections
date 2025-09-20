@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am round and bright in the daytime sky. I follow you across a sunny lawn, but I vanish at night. What am I?",
+    "a": "The sun",
+    "hint": "It's the big ball in the sky you see all day."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a small number becoming bigger."
+  },
+  "hard": {
+    "q": "A box has two lids that cannot be opened at the same time. If you open one lid, the other stays closed. What concept is this describing?",
+    "a": "Mutually exclusive doors (or states)",
+    "hint": "Two options that cannot occur together."
+  }
+}

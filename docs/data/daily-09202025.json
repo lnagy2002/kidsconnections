@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09202025-E",
+    "generatedAt": "2025-09-20T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "bike",
+          "car",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fresh and Juicy",
+        "items": [
+          "orange",
+          "apple",
+          "grape",
+          "banana"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Your Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Parts of a House",
+        "items": [
+          "door",
+          "window",
+          "roof",
+          "chimney"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are simple, concrete, and kid-friendly. Near-miss temptation might be confusing items like 'carpet' (would fit under 'Parts of a House' but is more of a floor covering) is avoided to keep it clear."
+  },
+  "medium": {
+    "id": "09202025-M",
+    "generatedAt": "2025-09-20T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words with the Same Ending",
+        "items": [
+          "basket",
+          "pistol",
+          "lantern",
+          "kitten"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs",
+        "items": [
+          "unhappy",
+          "untidy",
+          "untold",
+          "unseen"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Clues",
+        "items": [
+          "sunflower",
+          "starfish",
+          "raincoat",
+          "butterfly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Things",
+        "items": [
+          "orange",
+          "yellow",
+          "green",
+          "purple"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Near-miss temptations: items like 'pistol' could be confused with weapon themes, but here it’s used to illustrate a suffix-like ending, not weapon use. Each item clearly fits its group by the defined rule (endings, prefixes, compounds, or color association)."
+  },
+  "hard": {
+    "id": "09202025-H",
+    "generatedAt": "2025-09-20T00:00:00Z",
+    "groups": [
+      {
+        "name": "Storybook Helpers",
+        "items": [
+          "mouse",
+          "owl",
+          "fox",
+          "frog"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound-Alike Pairs (not homophones, but share rhythm)",
+        "items": [
+          "planet",
+          "planetarium",
+          "planetary",
+          "planter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools and Their Uses",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category choices lean toward subtle patterning. Near-miss temptations include items like 'planet' vs 'planter' which are close in sound but not related in meaning; the correct connection relies on category rules (storybook helper animals, pairs, sound rhythm group, and tool usage)."
+  },
+  "id": "09202025",
+  "generatedAt": "2025-09-20T02:04:51.639Z"
+}

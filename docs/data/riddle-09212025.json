@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail, but I’m not a pet. I help you stay warm at night by lighting a lamp with a spark. What am I?",
+    "a": "Match",
+    "hint": "Think of something that lights a fire."
+  },
+  "medium": {
+    "q": "I’m a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "It's a tiny word about quantity."
+  },
+  "hard": {
+    "q": "A box has four corners, yet four people sit inside it without touching. The door is closed, yet everyone leaves once. How is this possible?",
+    "a": "They are in a classroom with a plan or a riddle; they exit after the lesson.",
+    "hint": "Consider the setting and students following an activity."
+  }
+}

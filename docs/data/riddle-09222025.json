@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands but no arms or legs. I tell you the time with just a glance. What am I?",
+    "a": "A clock",
+    "hint": "It hangs on the wall or sits on a desk."
+  },
+  "medium": {
+    "q": "I rhyme with ‘start’ and can mean a sharp edge or a clever trick. What word am I?",
+    "a": "Smart",
+    "hint": "Think of a word that can describe both a sharp edge and a clever idea."
+  },
+  "hard": {
+    "q": "You see me once in a minute, twice in a moment, but never in a thousand years. What am I?",
+    "a": "The letter M",
+    "hint": "Consider letters in the phrases they appear in."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09222025-E",
+    "generatedAt": "2025-09-22T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Stripes",
+        "items": [
+          "tiger",
+          "zebra",
+          "bathtub",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Tie",
+        "items": [
+          "shoe",
+          "aisle",
+          "bow",
+          "ribbon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow Leaves",
+        "items": [
+          "tree",
+          "flower",
+          "fern",
+          "mushroom"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Things You Read",
+        "items": [
+          "book",
+          "newspaper",
+          "magazine",
+          "poster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: (1) Stripes include animals and non-animals to prompt visual recognition; (2) Tie-related words include both objects you physically tie and common phrases; (3) Greenery theme with common plant items; (4) Reading materials that can be found in everyday life. Near-miss: 'pencil' could feel like a writing tool rather than a striped item; clarified by context in group name."
+  },
+  "medium": {
+    "id": "09222025-M",
+    "generatedAt": "2025-09-22T00:00:00Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefix Friends",
+        "items": [
+          "unhappy",
+          "redo",
+          "rewrite",
+          "untied"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pairs of Opposites",
+        "items": [
+          "hot",
+          "cold",
+          "fast",
+          "slow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Something-Related Animals",
+        "items": [
+          "ant",
+          "bee",
+          "crab",
+          "yak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "ladle",
+          "whisk",
+          "grater"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: (1) Prefix friends show simple letter-units at start; (2) Opposites are clear paired concepts; (3) Small animals that are commonly seen; (4) Kitchen tools that share everyday use. Near-miss: 'unhappy' might tempt as a mood word rather than a prefix example; but the hint lies in the 'un-' prefix."
+  },
+  "hard": {
+    "id": "09222025-H",
+    "generatedAt": "2025-09-22T00:00:00Z",
+    "groups": [
+      {
+        "name": "Signs of Weather in Words",
+        "items": [
+          "sunny",
+          "rainbow",
+          "thunder",
+          "snowflake"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a Day",
+        "items": [
+          "dawn",
+          "noon",
+          "twilight",
+          "midnight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Transport (Two-Words Thinking)",
+        "items": [
+          "bus stop",
+          "train car",
+          "airplane",
+          "subway"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with Names",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: (1) Weather-related words with clear climate cues; (2) Dayparts with distinct times of day; (3) Transport items that are commonly paired with locations or vehicles; (4) Basic shapes used together to reinforce geometry basics. Near-miss: 'train car' might feel like a vehicle part rather than a standalone item; clarified by grouping as a two-word concept."
+  },
+  "id": "09222025",
+  "generatedAt": "2025-09-22T02:17:57.705Z"
+}

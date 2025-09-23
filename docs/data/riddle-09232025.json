@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a round fruit you might share with a friend. I start with the letter A in alphabet soup. What am I?",
+    "a": "Apple",
+    "hint": "Crunchy, red or green."
+  },
+  "medium": {
+    "q": "I am a word that hides inside a longer word that means 'to move from one place to another'. Remove the first and last letter and I stay the same. What am I?",
+    "a": "Go",
+    "hint": "Short, two letters, part of a journey."
+  },
+  "hard": {
+    "q": "Two pens sit on a table. One writes in black, one in blue. If they switch places, the black pen is now on the left of the blue pen. Which side were they originally on?",
+    "a": "The left pen was on the left, the right pen on the right",
+    "hint": "Think about positions and a swap."
+  }
+}

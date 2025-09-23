@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09232025-E",
+    "generatedAt": "2025-09-23T00:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sun",
+          "cloud",
+          "rainbow",
+          "shadow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of Travel",
+        "items": [
+          "bike",
+          "bus",
+          "plane",
+          "ship"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Sounds",
+        "items": [
+          "moo",
+          "meow",
+          "woof",
+          "neigh"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups are straightforward and based on familiar, concrete ideas. Sunny Things group things seen in the sky; Modes of Travel groups common ways to get around; Animal Sounds lists common animal vocalizations; Common Shapes covers basic geometric shapes."
+  },
+  "medium": {
+    "id": "09232025-M",
+    "generatedAt": "2025-09-23T00:00:00Z",
+    "groups": [
+      {
+        "name": "Word Pairs with Shared Prefix",
+        "items": [
+          "playful",
+          "playbook",
+          "playground",
+          "playtime"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Use Words",
+        "items": [
+          "light",
+          "spot",
+          "watch",
+          "bank"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Objects",
+        "items": [
+          "bluebird",
+          "yellowknife",
+          "greenhouse",
+          "purplecone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Tools",
+        "items": [
+          "hammer",
+          "scissors",
+          "pencil",
+          "brush"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce mild wordplay and two-step ideas. Prefix group centers on the shared start 'play'. Double-Use Words rely on common single words that also serve another common meaning. Colorful Objects blend color with common nouns. Tools are everyday objects; ensure each item clearly fits only its intended group."
+  },
+  "hard": {
+    "id": "09232025-H",
+    "generatedAt": "2025-09-23T00:00:00Z",
+    "groups": [
+      {
+        "name": "Hidden Relationships in Pairs",
+        "items": [
+          "hourglass",
+          "calendar",
+          "timeline",
+          "notepad"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites with a Twist",
+        "items": [
+          "hot",
+          "cold",
+          "bright",
+          "dark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a Whole",
+        "items": [
+          "wheel",
+          "axle",
+          "brake",
+          "frame"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sequences in Nature",
+        "items": [
+          "seed",
+          "sprout",
+          "bud",
+          "flower"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups require slightly abstract connections. Hidden Relationships uses time-related items that link to measurement or record-keeping. Opposites with a Twist presents true opposites but with a simple added clue to avoid obvious duplicates. Parts of a Whole contains components that fit together. Sequences in Nature shows a natural growth progression. Near-miss temptation: items like 'clock' might seem related to time, but 'clock' would not fit cleanly with the calendar/time progression as a group; ensure each item strictly belongs to its designated group."
+  },
+  "id": "09232025",
+  "generatedAt": "2025-09-23T02:07:32.760Z"
+}

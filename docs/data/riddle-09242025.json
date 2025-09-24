@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a small creature with six legs, and I can jump. I come out when the sun is up. What am I?",
+    "a": "A bug / insect",
+    "hint": "I buzz or crawl, and I love warm days."
+  },
+  "medium": {
+    "q": "I am a word that means both a place you sleep and a color found in a rainbow. What word am I?",
+    "a": "blue (as in blue and 'blue room' not correct) ",
+    "hint": "Think of a common color that also hints at a room name."
+  },
+  "hard": {
+    "q": "A farmer has a fox, a chicken, and grain. He has a boat that can hold only himself plus one other item. He cannot leave the fox alone with the chicken, nor the chicken alone with the grain. How can he transport all three safely?",
+    "a": "Take the chicken across first, return alone, take the fox across, bring the chicken back, take the grain across, return alone, finally take the chicken across.",
+    "hint": "Move pieces so that no pair that harms each other is left alone."
+  }
+}

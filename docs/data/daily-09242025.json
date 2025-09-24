@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09242025-E",
+    "generatedAt": "2025-09-24T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Stomp On",
+        "items": [
+          "grape",
+          "banana",
+          "pumpkin",
+          "watermelon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors in the Sky",
+        "items": [
+          "blue",
+          "orange",
+          "pink",
+          "gray"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "marker"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: 1) items with wheels (concrete objects). 2) things you stomp on (fruits with different sizes). 3) colors commonly seen in the sky (simple color words). 4) everyday school supplies. Near-miss temptation: 'book' might seem like a school thing, but it's not a direct supply item in the group; it’s excluded to keep four clear items per group."
+  },
+  "medium": {
+    "id": "09242025-M",
+    "generatedAt": "2025-09-24T00:00:00Z",
+    "groups": [
+      {
+        "name": "Word Fragments: Prefixes",
+        "items": [
+          "unfair",
+          "redo",
+          "preheat",
+          "dislike"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Fly (Small Machines)",
+        "items": [
+          "kite",
+          "glider",
+          "drone",
+          "paper plane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites in Everyday Life",
+        "items": [
+          "hot",
+          "cold",
+          "happy",
+          "sad"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes in Disguise",
+        "items": [
+          "triangle",
+          "circle",
+          "square",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: 1) Prefixes that form new words when attached to root (un-, re-, pre-, dis-). Near-miss: 'together' could seem related to 'connected', but does not fit the prefix pattern. 2) Flying-related items including a simple paper craft; 3) Opposites in daily feelings; 4) Basic geometric shapes; avoid including any item that would strongly overlap with another group (e.g., 'round' vs 'circle' is avoided by keeping explicit shape names)."
+  },
+  "hard": {
+    "id": "09242025-H",
+    "generatedAt": "2025-09-24T00:00:00Z",
+    "groups": [
+      {
+        "name": "Abstract Connections: Time Words",
+        "items": [
+          "today",
+          "yesterday",
+          "tomorrow",
+          "always"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools with Multiple Uses",
+        "items": [
+          "scissors",
+          "hammer",
+          "tape",
+          "glue"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nature's Helpers",
+        "items": [
+          "sun",
+          "rain",
+          "wind",
+          "soil"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Sounds (Simple Instruments)",
+        "items": [
+          "drum",
+          "bell",
+          "xylophone",
+          "kazoo"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: 1) Time-related words that link through concept of time; avoid using 'now' or 'present' to prevent overlap with other items. 2) Multi-use tools: each item has at least two clear functions. 3) Nature helpers: elements that enable growth or weather; 4) Simple instruments that produce sound; near-miss temptation: 'whistle' could be considered a sound-maker but is not included since it’s not a stand-alone instrument here; keep four clear instrument items."
+  },
+  "id": "09242025",
+  "generatedAt": "2025-09-24T02:09:06.325Z"
+}

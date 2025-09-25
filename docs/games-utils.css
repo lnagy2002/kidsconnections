@@ -30,6 +30,24 @@ h1 {
     margin-top: 0px;
 }
 
+.btn {
+     background: var(--key);
+     border: 1px solid var(--border);
+     border-radius: 10px;
+     padding: 12px 6px;
+     font-weight: 400;
+     font-size: 16px;
+     color: var(--text);
+     margin: 5px;
+     width: auto;
+ }
+
+ .btn.primary {
+     background: #05a9ac;
+     color: #000;
+     border: none;
+ }
+
 .section {
     text-align: center;
     margin: 20px;

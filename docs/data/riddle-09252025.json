@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes. I tell you the time with a hand or two. What am I?",
+    "a": "A clock",
+    "hint": "Looks like a circle with numbers."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about a short word that changes when you add letters."
+  },
+  "hard": {
+    "q": "A box contains five red balls and five blue balls. Without looking, you must pick two balls. If at least one must be red, how many ways are there to pick two balls?",
+    "a": "9 ways",
+    "hint": "Count all pairs except the only way to pick two blues."
+  }
+}

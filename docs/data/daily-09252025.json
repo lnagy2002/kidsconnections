@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09252025-E",
+    "generatedAt": "2025-09-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "truck",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Eat for Breakfast",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "juice"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Office Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "stapler",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four concrete groups suitable for Grades 2–3. Each group contains four items that clearly belong together. Near-miss temptation: 'bus' could also go with 'plane' under 'Things that fly' in a broader transport sense, but it fits best with land transport here."
+  },
+  "medium": {
+    "id": "09252025-M",
+    "generatedAt": "2025-09-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that Start with Pre-",
+        "items": [
+          "preview",
+          "preheat",
+          "prevent",
+          "prettify"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Compound Words",
+        "items": [
+          "sunflower",
+          "basketball",
+          "bookcase",
+          "snowman"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that Go in a Kitchen",
+        "items": [
+          "spoon",
+          "pan",
+          "toaster",
+          "measuring cup"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with More than Four Sides (as common terms)",
+        "items": [
+          "pentagon",
+          "rectangle",
+          "octagon",
+          "triangle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and two-part concepts. Near-miss temptations: 'spoon' could be a kitchen item or a tool; it fits best with kitchen items. 'rectangle' might tempt as a simple shape group but 'pentagon', 'octagon', and 'triangle' form a more coherent set of polygon names; avoid overthinking the shape category by focusing on common polygon terms."
+  },
+  "hard": {
+    "id": "09252025-H",
+    "generatedAt": "2025-09-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of Communication (non-verbal cues)",
+        "items": [
+          "wave",
+          "smile",
+          "thumbs-up",
+          "blink"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that Happen in the Sky",
+        "items": [
+          "sunrise",
+          "rainbow",
+          "cloud",
+          "sunset"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Portable Devices for Learning",
+        "items": [
+          "tablet",
+          "earbuds",
+          "stylus",
+          "charger"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words Linked by a Long Vowel Sound",
+        "items": [
+          "train",
+          "trail",
+          "brain",
+          "grain"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles involve slightly more abstract groupings. Near-miss temptation: 'cloud' could be seen with weather vs sky groups; it belongs with sky imagery here for a clearer non-literal link. Each item clearly fits only one group; definitions are kept simple to stay kid-friendly."
+  },
+  "id": "09252025",
+  "generatedAt": "2025-09-25T02:10:48.103Z"
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jigsaw — Levels & JSON Image</title>
+  <style>
+
+  :root {
+    --bg: #0e364b;
+    --panel: #0e364b;
+    --text: #a9f4f4;
+    --ink: #a9f4f4;
+    --muted: #f0db79;
+    --border: #1b2659;
+    --ok: #4ade80;
+    --no: #64748b;
+    --maybe: #facc15;
+    --bad: #e4572e;
+    --key: #0f1736;
+ }
+
+
+    .grid { display: grid; gap: 6px; background: var(--key); padding: 6px; border-radius: 16px;
+      width: min(720px, 96vw); aspect-ratio: 1/1; margin: 18px auto 10px; position: relative; }
+    .cell { border-radius: 10px; background: #0f1736; outline: 2px dashed rgba(255,255,255,0.08); outline-offset: -2px; position: relative; }
+    .cell.correct { outline: 2px solid rgba(88,214,141,0.8); box-shadow: inset 0 0 0 2px rgba(88,214,141,0.4); }
+
+    .tray {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); gap: 8px; padding: 10px; border-radius: 14px;
+      background: var(--muted); box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    .piece {
+      position: relative; width: 100%; aspect-ratio: 1/1; border-radius: 10px; cursor: grab;
+      background-size: var(--bgSize) var(--bgSize); background-repeat: no-repeat; background-image: var(--img);
+      background-position: var(--bgX) var(--bgY); border: 2px solid rgba(255,255,255,0.08);
+      transition: transform 120ms ease; touch-action: none;
+    }
+    .piece:active { cursor: grabbing; transform: scale(1.04); }
+    .piece.locked { cursor: default; box-shadow: none; border-color: rgba(88,214,141,0.8); }
+
+    .status { text-align: center; margin: 12px 0 18px; font-size: 14px; opacity: 0.9; }
+    .status .pill { display: inline-block; padding: 6px 10px; background: #0c2c3e; border-radius: 999px; }
+    .status .ok { color: var(--ok); }
+
+    .footer-note { opacity: 0.7; font-size: 13px; margin-top: 10px; text-align: center; }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: #0c2c3e; padding: 2px 6px; border-radius: 6px; }
+  </style>
+  <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+  <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+  <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KFSR46Z6C8');
+  </script>
+</head>
+<body>
+  <div class="main">
+    <div>
+      <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Jigsaw Puzzle"></script>
+    </div>
+
+      <h3 class="section">Drag tiles from the tray into the grid. They snap when correct.</h3>
+      <!-- <div class="hint" id="feedback">Choose a level to start!</div> -->
+      <!-- <div id="feedback" class="muted" style="margin-left:auto"></div> -->
+
+      <section id="tray" class="tray" aria-label="Pieces tray"></section>
+      <section id="board" class="grid" aria-label="Jigsaw board"></section>
+
+    <div class="section">
+      <!-- <label>Level:
+        <select id="levelSel" title="Change difficulty">
+          <option value="easy">Easy (3×3)</option>
+          <option value="medium">Medium (4×4)</option>
+          <option value="hard">Hard (5×5)</option>
+        </select>
+      </label> -->
+      <!-- <label>Image:
+        <select id="imgSel" title="Choose picture from JSON"></select>
+      </label> -->
+      <button class="btn" id="reshuffleBtn">Reshuffle</button>
+      <button class="btn" id="returnLooseBtn" title="Send all non-locked pieces back to the tray">Return to Tray</button>
+      <!-- <a id="shareLink" href="#" title="Share this setup">Copy Link</a> -->
+    </div>
+    <!-- <p class="footer-note">Tip: Also supports numeric levels via <span class="kbd">?level=3</span>, <span class="kbd">4</span>, <span class="kbd">5</span>. If <span class="kbd">images.json</span> can’t be fetched, we’ll use the embedded sample below.</p> -->
+
+    <!-- Embedded fallback JSON (used if images.json file is missing). Customize or remove if you provide images.json alongside this file. -->
+    <script type="application/json" id="images-json">
+    {
+      "images": [
+        {"id": "mountain", "title": "Mountain Lake", "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200"},
+        {"id": "city",     "title": "City Night",   "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200"},
+        {"id": "forest",   "title": "Forest Path",  "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200"}
+      ]
+    }
+    </script>
+  </div>
+
+  <script>
+  // -----------------------
+  // Query helpers
+  // -----------------------
+  const LEVELS = { easy: 3, medium: 4, hard: 5 };
+  function getParams() {
+    const url = new URL(location.href);
+    let lvlRaw = (url.searchParams.get('level')||'easy').toLowerCase();
+    let n = LEVELS[lvlRaw] || Number(lvlRaw) || 3; // allow ?level=3
+    n = Math.min(8, Math.max(2, Math.round(n))); // clamp 2..8
+    const imgId = url.searchParams.get('img') || '';
+    return { n, lvlKey: Object.entries(LEVELS).find(([,v])=>v===n)?.[0] || String(n), imgId };
+  }
+  function setParams({lvlKey, imgId}) {
+    const url = new URL(location.href);
+    url.searchParams.set('level', lvlKey);
+    if (imgId) url.searchParams.set('img', imgId); else url.searchParams.delete('img');
+    history.replaceState({}, '', url);
+  }
+
+  // -----------------------
+  // Load images.json (with embedded fallback)
+  // -----------------------
+  async function loadImageList() {
+    try {
+      const r = await fetch('images.json', { cache: 'no-store' });
+      if (!r.ok) throw new Error('images.json missing');
+      return await r.json();
+    } catch (e) {
+      // fallback to embedded JSON
+      const txt = document.getElementById('images-json')?.textContent?.trim();
+      if (txt) {
+        try { return JSON.parse(txt); } catch {}
+      }
+      // final fallback: 1 image
+      return { images: [{ id:'fallback', title:'Fallback', src:'https://picsum.photos/1200'}] };
+    }
+  }
+
+  // -----------------------
+  // Puzzle rendering
+  // -----------------------
+  const boardEl = document.getElementById('board');
+  const trayEl  = document.getElementById('tray');
+  // const levelSel = document.getElementById('levelSel');
+  const imgSel   = document.getElementById('imgSel');
+  const reshuffleBtn = document.getElementById('reshuffleBtn');
+  const returnLooseBtn = document.getElementById('returnLooseBtn');
+  // const shareLink = document.getElementById('shareLink');
+
+  let STATE = { n: 3, tiles: [], cells: [], img: null, imgId: '' };
+
+  function gridTemplate(n) {
+    boardEl.style.setProperty('grid-template-columns', `repeat(${n}, 1fr)`);
+    boardEl.style.setProperty('grid-template-rows', `repeat(${n}, 1fr)`);
+  }
+
+  function makeCells(n) {
+    boardEl.innerHTML = '';
+    const cells = [];
+    for (let i=0;i<n*n;i++) {
+      const cell = document.createElement('div');
+      cell.className = 'cell';
+      cell.dataset.slot = i; // correct index
+      boardEl.appendChild(cell);
+      cells.push(cell);
+    }
+    return cells;
+  }
+
+  function makePieces(n, imgUrl) {
+    trayEl.innerHTML = '';
+
+    // Shuffle order for tray display
+    const order = Array.from({ length: n * n }, (_, i) => i);
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+
+    const tiles = [];
+    for (let i = 0; i < n * n; i++) {
+      const r = Math.floor(i / n);
+      const c = i % n;
+
+      // Enlarged background and positive percentage positions
+      const bgSize = `${n * 100}%`; // e.g., 300% for 3x3
+      const posX = `${(c / (n - 1)) * 100}%`;
+      const posY = `${(r / (n - 1)) * 100}%`;
+
+      const piece = document.createElement('div');
+      piece.className = 'piece';
+      piece.style.setProperty('--img', `url('${imgUrl}')`);
+      piece.style.setProperty('--bgSize', bgSize);
+      piece.style.setProperty('--bgX', posX);
+      piece.style.setProperty('--bgY', posY);
+      piece.dataset.correct = String(i);
+      piece.dataset.placed = '';
+      piece.setAttribute('aria-grabbed', 'false');
+      attachDrag(piece);
+      tiles.push(piece);
+    }
+
+    // Append in shuffled order to the tray
+    for (const idx of order) trayEl.appendChild(tiles[idx]);
+    return tiles;
+  }
+
+  function attachDrag(el) {
+    let startX=0, startY=0, origX=0, origY=0, ghost=null;
+
+    const onDown = (e)=>{
+      if (el.classList.contains('locked')) return;
+      el.setPointerCapture?.(e.pointerId);
+      el.style.transition = 'transform 60ms ease';
+      el.setAttribute('aria-grabbed','true');
+      const rect = el.getBoundingClientRect();
+      startX = e.clientX; startY = e.clientY; origX = rect.left; origY = rect.top;
+      ghost = el.cloneNode(true);
+      ghost.style.visibility = 'hidden';
+      ghost.style.pointerEvents = 'none';
+      ghost.dataset.ghost = '1';
+      el.parentElement.insertBefore(ghost, el);
+      document.body.appendChild(el);
+      el.style.position='fixed'; el.style.left=origX+'px'; el.style.top=origY+'px'; el.style.width=rect.width+'px'; el.style.height=rect.height+'px';
+      el.style.zIndex=1000;
+    };
+
+    const onMove = (e)=>{
+      if (el.getAttribute('aria-grabbed')!=='true') return;
+      const dx = e.clientX - startX; const dy = e.clientY - startY;
+      el.style.left = (origX + dx) + 'px';
+      el.style.top  = (origY + dy) + 'px';
+    };
+
+    const onUp = (e)=>{
+      if (el.getAttribute('aria-grabbed')!=='true') return;
+      el.releasePointerCapture?.(e.pointerId);
+      el.setAttribute('aria-grabbed','false');
+
+      // find nearest board cell center
+      const cell = nearestFreeCell(el);
+      if (cell) {
+        snapToCell(el, cell);
+        // remove placeholder in tray if we successfully placed on board
+        if (ghost) { try { ghost.remove(); } catch(e){} }
+      } else {
+        // return to tray in the original slot if possible
+        if (ghost && ghost.parentElement) {
+          ghost.replaceWith(el);
+        } else {
+          trayEl.appendChild(el);
+        }
+        el.style.position=''; el.style.left=''; el.style.top=''; el.style.width=''; el.style.height=''; el.style.zIndex='';
+      }
+      ghost = null;
+      checkWin();
+    };
+
+    el.addEventListener('pointerdown', onDown);
+    window.addEventListener('pointermove', onMove);
+    window.addEventListener('pointerup', onUp);
+  }
+
+  function nearestFreeCell(piece) {
+    const pcs = boardEl.querySelectorAll('.cell');
+    const pr = piece.getBoundingClientRect();
+    let best=null, bestDist=Infinity;
+    for (const c of pcs) {
+      const cr = c.getBoundingClientRect();
+      const cx = cr.left + cr.width/2; const cy = cr.top + cr.height/2;
+      const dx = (pr.left+pr.width/2) - cx; const dy = (pr.top+pr.height/2) - cy;
+      const d2 = dx*dx+dy*dy;
+      const occupied = c.querySelector('.piece');
+      if (!occupied && d2 < bestDist) { best=c; bestDist=d2; }
+    }
+    // require reasonable proximity (must overlap some area)
+    if (!best) return null;
+    const br = best.getBoundingClientRect();
+    const overlap = !(pr.right < br.left || pr.left > br.right || pr.bottom < br.top || pr.top > br.bottom);
+    return overlap ? best : null;
+  }
+
+  function snapToCell(piece, cell) {
+    // put inside cell and lock if correct
+    piece.classList.remove('locked');
+    piece.style.position=''; piece.style.left=''; piece.style.top=''; piece.style.width=''; piece.style.height=''; piece.style.zIndex='';
+    cell.appendChild(piece);
+
+    const correct = Number(piece.dataset.correct);
+    const slot = Number(cell.dataset.slot);
+    if (slot === correct) {
+      piece.classList.add('locked');
+      cell.classList.add('correct');
+      piece.dataset.placed = '1';
+    } else {
+      piece.dataset.placed = '';
+      cell.classList.remove('correct');
+    }
+  }
+
+  function checkWin() {
+    const done = boardEl.querySelectorAll('.piece.locked').length === STATE.n*STATE.n;
+    if (done) {
+      celebrate ();
+      // const msg = document.createElement('div');
+      // msg.textContent = '✨ Great job! Puzzle complete.';
+      // msg.style.position='fixed'; msg.style.inset='0'; msg.style.display='grid'; msg.style.placeItems='center';
+      // msg.style.background='rgba(0,0,0,0.6)'; msg.style.backdropFilter='blur(2px)';
+      // msg.style.fontSize='clamp(18px, 4vw, 36px)'; msg.style.fontWeight='800'; msg.style.zIndex=2000;
+      // msg.addEventListener('click', ()=> msg.remove());
+      // document.body.appendChild(msg);
+    }
+  }
+
+  function returnLoosePieces() {
+    // Clean up any invisible ghost placeholders in tray
+    trayEl.querySelectorAll('.piece[data-ghost="1"]').forEach(g => g.remove());
+    const loose = boardEl.querySelectorAll('.piece:not(.locked)');
+    loose.forEach(p => {
+      p.parentElement?.classList?.remove('correct');
+      trayEl.appendChild(p);
+      p.style.position=''; p.style.left=''; p.style.top=''; p.style.width=''; p.style.height=''; p.style.zIndex='';
+    });
+  }
+
+  function populateSelectors(images, current) {
+    // level select
+    // levelSel.value = current.lvlKey in LEVELS ? current.lvlKey : 'easy';
+
+    // image select
+    // imgSel.innerHTML = '';
+    // for (const im of images) {
+    //   const opt = document.createElement('option');
+    //   opt.value = im.id; opt.textContent = im.title || im.id;
+    //   imgSel.appendChild(opt);
+    // }
+    // const exists = images.find(i=>i.id===current.imgId);
+    // imgSel.value = exists ? current.imgId : images[0]?.id;
+  }
+
+  async function bootstrap() {
+    const { n, lvlKey, imgId } = getParams();
+    STATE.n = n;
+
+    const list = await loadImageList();
+    const images = list.images || [];
+    if (!images.length) throw new Error('No images available');
+
+    populateSelectors(images, { lvlKey, imgId });
+    const chosen = images[1];  //images.find(i=>i.id===imgSel.value) ||
+    STATE.img = chosen; STATE.imgId = chosen.id;
+
+    // setParams({ lvlKey: levelSel.value, imgId: imgSel.value });
+
+    gridTemplate(n);
+    STATE.cells = makeCells(n);
+    STATE.tiles = makePieces(n, chosen.src);
+
+    // levelSel.addEventListener('change', () => {
+    //   const key = levelSel.value; const newN = LEVELS[key] || 3;
+    //   STATE.n = newN; gridTemplate(newN); STATE.cells = makeCells(newN);
+    //   STATE.tiles = makePieces(newN, STATE.img.src);
+    //   setParams({ lvlKey: key, imgId: imgSel.value });
+    // });
+
+    // imgSel.addEventListener('change', () => {
+    //   const id = imgSel.value; const next = images.find(i=>i.id===id) || images[0];
+    //   STATE.img = next; STATE.imgId = id;
+    //   STATE.tiles = makePieces(STATE.n, next.src);
+    //   setParams({ lvlKey: levelSel.value, imgId: id });
+    // });
+
+    reshuffleBtn.addEventListener('click', () => {
+      STATE.tiles = makePieces(STATE.n, STATE.img.src);
+    });
+
+    returnLooseBtn.addEventListener('click', () => {
+      returnLoosePieces();
+    });
+
+    // shareLink.addEventListener('click', (e) => {
+    //   e.preventDefault();
+    //   const url = new URL(location.href);
+    //   navigator.clipboard?.writeText(url.toString());
+    //   shareLink.textContent = 'Link copied!';
+    //   setTimeout(()=> shareLink.textContent='Copy Link', 1200);
+    // });
+  }
+
+  bootstrap();
+  </script>
+</body>
+</html>

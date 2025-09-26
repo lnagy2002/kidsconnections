@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09262025-E",
+    "generatedAt": "2025-09-26T00:00:00.000Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sun",
+          "sunglasses",
+          "sunflower",
+          "sunrise"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Spin",
+        "items": [
+          "wheel",
+          "fan",
+          "carousel",
+          "top"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "bowl",
+          "oven",
+          "knife"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Drink",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "lemonade"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: Sunny Things (things connected to sun), Things That Spin (rotating objects), Kitchen Helpers (common kitchen items), Things You Drink (beverages). Near-miss risk: 'sun' vs 'sunrise' could hint weather but still fits Sunny Things; kept distinct to avoid overlap."
+  },
+  "medium": {
+    "id": "09262025-M",
+    "generatedAt": "2025-09-26T00:01:00.000Z",
+    "groups": [
+      {
+        "name": "Word Builders",
+        "items": [
+          "playful",
+          "careful",
+          "carefully",
+          "playground"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Pairs",
+        "items": [
+          "orange",
+          "banana",
+          "lemon",
+          "pumpkin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Growing Things",
+        "items": [
+          "sprout",
+          "bud",
+          "seedling",
+          "root"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Vehicles in Motion",
+        "items": [
+          "car",
+          "train",
+          "bus",
+          "boat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories: Word Builders uses endings that hint shared suffixes; Colorful Pairs group items by color/fruit theme with a simple link; Growing Things focuses on plant life stages; Vehicles in Motion groups common modes of transport. Near-miss: 'careful' vs 'carefully' could feel like a crash between Word Builders and Growing Things but classification relies on suffix/prefix cues here, not meaning overlap."
+  },
+  "hard": {
+    "id": "09262025-H",
+    "generatedAt": "2025-09-26T00:02:00.000Z",
+    "groups": [
+      {
+        "name": "Sound *and* Shape",
+        "items": [
+          "circle",
+          "ring",
+          "bounce",
+          "beep"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Timekeepers",
+        "items": [
+          "hour",
+          "minute",
+          "second",
+          "tick"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Smart Start",
+        "items": [
+          "keyboard",
+          "screen",
+          "mouse",
+          "power"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mini Worlds",
+        "items": [
+          "ant",
+          "bee",
+          "antelope",
+          "gnat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories: Sound & Shape uses a subtle link between auditory cue and geometric concept; Timekeepers connects units/time-related terms; Smart Start hinges on computer-related terms that start with common tech prefixes; Mini Worlds groups tiny creatures; near-miss temptation: 'ring' could be both shape and sound, but the intended fit is Shape for circle/ring and sound cue for beeps; ensure clues point to the primary relation."
+  },
+  "id": "09262025",
+  "generatedAt": "2025-09-26T02:09:59.250Z"
+}

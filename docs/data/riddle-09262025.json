@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes, a nose but no mouth. What am I?",
+    "a": "A clock",
+    "hint": "Look at the numbers on me."
+  },
+  "medium": {
+    "q": "I start with a word that means ‘to see again,’ and end with a word that means ‘to move slowly.’ What word am I?",
+    "a": "Revisit",
+    "hint": "Think about re- and slow- ideas."
+  },
+  "hard": {
+    "q": "A tailor makes three hats from a single piece of fabric. If he cuts off a corner to form a triangle, what is the smallest number of cuts needed to make all three hats perfect circles? (Think in terms of transformation, not actual sewing.)",
+    "a": "Zero; you can’t make hats from a circle fabric without folding or stitching, but if you interpret the problem as a trick, the answer is to realize circles can’t be formed from triangles without cuts; the riddle is about thinking differently.",
+    "hint": "Consider shapes and what constitutes a 'hat' shape."
+  }
+}

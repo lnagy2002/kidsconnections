@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs and a back, I help you sit. What am I?",
+    "a": "a chair",
+    "hint": "You use me at a desk."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be.",
+    "a": "few",
+    "hint": "Think about adding letters to change meaning."
+  },
+  "hard": {
+    "q": "A box has no hinges, yet it can be opened. Inside lies a secret that changes with time. What is it?",
+    "a": "a calendar",
+    "hint": "It marks days and hours, but isn't a clock."
+  }
+}

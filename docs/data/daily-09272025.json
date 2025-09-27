@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09272025-E",
+    "generatedAt": "2025-09-27T00:00:00Z",
+    "groups": [
+      {
+        "name": "Animals by Habitat",
+        "items": [
+          "Panda",
+          "Penguin",
+          "Camel",
+          "Kangaroo"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sleep With",
+        "items": [
+          "Pillow",
+          "Blanket",
+          "Sheet",
+          "Duvet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Kitchen Items",
+        "items": [
+          "Plate",
+          "Fork",
+          "Cup",
+          "Bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Float",
+        "items": [
+          "Boat",
+          "Duck",
+          "Cork",
+          "Raft"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Category explanations: (1) Animals by Habitat groups familiar animals by where they live; (2) Sleep Essentials are items used for sleeping; (3) Everyday Kitchen Items are common objects found in most kitchens; (4) Things That Float include items that commonly rise on water. Near-miss temptation: 'Duck' could fit both Animals by Habitat and Things That Float—but in this puzzle it’s clearly categorized under 'Things That Float' as a common object that floats, not a living animal. "
+  },
+  "medium": {
+    "id": "09272025-M",
+    "generatedAt": "2025-09-27T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Start with 'Sun'",
+        "items": [
+          "Sunrise",
+          "Sunflower",
+          "Sunset",
+          "Sunny"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a House",
+        "items": [
+          "Window",
+          "Door",
+          "Floor",
+          "Roof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Outdoor Things You See in a Park",
+        "items": [
+          "Bench",
+          "Fountain",
+          "Swing",
+          "Path"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Subjects",
+        "items": [
+          "Math",
+          "Science",
+          "Art",
+          "History"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Category explanations: (1) Words starting with 'Sun' show simple prefix wordplay; (2) House parts are common, single-word items; (3) Park items are typical outdoor objects you’d encounter; (4) School subjects are familiar categories. Near-miss temptation: 'Window' and 'Door' could be misread as 'parts of a house' vs 'things you can open' but here they belong to Parts of a House. Ensure kids map each item to its group by the main cue in the group name."
+  },
+  "hard": {
+    "id": "09272025-H",
+    "generatedAt": "2025-09-27T00:00:00Z",
+    "groups": [
+      {
+        "name": "Symbols of Weather",
+        "items": [
+          "Sun",
+          "Cloud",
+          "Raindrop",
+          "Bolt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Bicycle",
+          "Car",
+          "Train",
+          "Boat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Communication",
+        "items": [
+          "Letter",
+          "Phone",
+          "Handshake",
+          "Email"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "Gloves",
+          "Shoes",
+          "Socks",
+          "Earrings"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Category explanations: (1) Weather symbols are simple pictograms; (2) Transportation modes are familiar but require recognizing different vehicle types; (3) Communication methods include both physical and digital/lingual channels; (4) Things that come in pairs are items typically found as two. Near-miss temptation: 'Handshakes' could seem like a communication method or a social gesture; defined here as a communication method because it involves exchanging signals. Unique mapping kept to avoid overlap."
+  },
+  "id": "09272025",
+  "generatedAt": "2025-09-27T02:00:51.160Z"
+}

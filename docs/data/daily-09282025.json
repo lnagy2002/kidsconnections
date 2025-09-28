@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09282025-E",
+    "generatedAt": "2025-09-28T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Tails",
+        "items": [
+          "Mouse",
+          "Fox",
+          "Dog",
+          "Kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things People Carry",
+        "items": [
+          "Backpack",
+          "Wallet",
+          "Purse",
+          "Sack"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow on Trees",
+        "items": [
+          "Apple",
+          "Banana",
+          "Pear",
+          "Plum"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Beep",
+        "items": [
+          "Alarm",
+          "Phone",
+          "Car Horn",
+          "Timer"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groupings focus on concrete, familiar items. Near-miss temptation note: 'Dog' could be mistaken for a 'Pet' group, but here it fits best with 'Tails' as a physical trait."
+  },
+  "medium": {
+    "id": "09282025-M",
+    "generatedAt": "2025-09-28T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Share a Prefix",
+        "items": [
+          "Unfold",
+          "Unseen",
+          "Unite",
+          "Unwind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Compound Endings",
+        "items": [
+          "Sunflower",
+          "Starfish",
+          "Mailbox",
+          "Snowman"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes in 3D",
+        "items": [
+          "Cube",
+          "Sphere",
+          "Pyramid",
+          "Cylinder"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Objects with Similar Use",
+        "items": [
+          "Glove",
+          "Mitten",
+          "Sock",
+          "Cap"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and multi-piece connections. Near-miss temptation: 'Sunflower' and 'Starfish' look visually related to 'Sun'/'Star', but the intended link is compound endings and 3D shapes; avoid grouping purely by appearance."
+  },
+  "hard": {
+    "id": "09282025-H",
+    "generatedAt": "2025-09-28T00:00:00Z",
+    "groups": [
+      {
+        "name": "Riddles of Sound and Meaning",
+        "items": [
+          "Rocket",
+          "Locket",
+          "Ticket",
+          "Packet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Numbers in Life",
+        "items": [
+          "Sixpack",
+          "Seven Seas",
+          "Tenfold",
+          "Hundredfold"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Words That Move",
+        "items": [
+          "Pinkish",
+          "Bluish",
+          "Greenlight",
+          "Redline"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Near-Thing Pairs",
+        "items": [
+          "Key",
+          "Lock",
+          "Code",
+          "Map"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into subtle associations and multi-step thinking. Near-miss temptation: 'Sixpack' vs 'Six Seas' could tempt to group by number only, but the intended link is word formation and common phrases; ensure each item clearly fits its group concept."
+  },
+  "id": "09282025",
+  "generatedAt": "2025-09-28T02:19:09.837Z"
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am a coin you can flip in the air. What am I?",
+    "a": "A coin",
+    "hint": "Two sides, heads or tails."
+  },
+  "medium": {
+    "q": "I am a 5-letter word where remove my first letter and I become something you wear on your feet. Remove the new first letter and I become something you do with your hands. What word am I?",
+    "a": "SHOES",
+    "hint": "Think of a progression: Shoes -> Shoes without S -> hoe(s) without H?"
+  },
+  "hard": {
+    "q": "A box contains three red, three blue, and three green balls. You draw two balls without looking. What is the probability that the two balls have different colors, expressed as a fraction?",
+    "a": "2/3",
+    "hint": "Count the favorable outcomes over total outcomes; consider color matches vs. non-matches."
+  }
+}

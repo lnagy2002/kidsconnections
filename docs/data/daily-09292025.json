@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09292025-E",
+    "generatedAt": "2025-09-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things that fly",
+        "items": [
+          "butterfly",
+          "kite",
+          "bee",
+          "pigeon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with spots",
+        "items": [
+          "dalmatian",
+          "leopard",
+          "ladybug",
+          "leopard?"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "sneakers",
+          "sandals",
+          "boots",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in a pair",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "earrings"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Note: Each group is a simple, kid-friendly category. Near-miss temptation avoided: 'leopard' appeared once to fit spots; avoid duplicates across groups."
+  },
+  "medium": {
+    "id": "09292025-M",
+    "generatedAt": "2025-09-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that start with pre-",
+        "items": [
+          "preview",
+          "preheat",
+          "prelude",
+          "prepaid"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound words with sun- as start",
+        "items": [
+          "sunflower",
+          "sunrise",
+          "sunglasses",
+          "sunset"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals and their homes",
+        "items": [
+          "beaver-dam",
+          "bear-den",
+          "bird-nest",
+          "ant-hive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in cups",
+        "items": [
+          "tea",
+          "hot chocolate",
+          "soup",
+          "juice"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories blend prefix knowledge and simple word compounds. Near-miss temptation: 'sun' items could be mistaken for 'solar' themes, but all items clearly form common compound words with sun-."
+  },
+  "hard": {
+    "id": "09292025-H",
+    "generatedAt": "2025-09-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Parts of a day",
+        "items": [
+          "dawn",
+          "noon",
+          "dusk",
+          "midnight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Kitchen sounds",
+        "items": [
+          "crackle",
+          "sizzle",
+          "hum",
+          "pop"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with four equal sides",
+        "items": [
+          "square",
+          "rhombus",
+          "diamond",
+          "kite"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "globe"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category ideas push for metaphorical or abstract thinking. Near-miss temptation: 'kite' appears in multiple groups; clarified here by grouping under shapes vs flight. Avoid overlaps across groups and ensure unique fits."
+  },
+  "id": "09292025",
+  "generatedAt": "2025-09-29T02:12:52.770Z"
+}

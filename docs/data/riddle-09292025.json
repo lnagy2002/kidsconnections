@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I fly without wings and I cry without eyes. What am I?",
+    "a": "A cloud",
+    "hint": "Up in the sky, it can sprinkle or thunder."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be.",
+    "a": "Few",
+    "hint": "Think about how the count changes when you add letters."
+  },
+  "hard": {
+    "q": "In a room there are 3 switches and 3 lamps outside the room. You can flip switches any way but can only enter the room once. How can you tell which switch controls which lamp?",
+    "a": "Turn on two switches, wait, turn one off, then enter to see which lamp is off and which is on; use the heat of the bulbs for the remaining mapping.",
+    "hint": "Consider power, heat, and timing to distinguish. "
+  }
+}

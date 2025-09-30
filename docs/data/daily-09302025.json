@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "09302025-E",
+    "generatedAt": "2025-09-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Common Pets",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sleep With",
+        "items": [
+          "pillow",
+          "blanket",
+          "bed",
+          "alarm"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Nearby Places",
+        "items": [
+          "park",
+          "school",
+          "library",
+          "store"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groupings focus on familiar, everyday ideas. Near-miss temptation avoided by keeping categories distinct (pets vs. sleeping items vs. footwear vs. places)."
+  },
+  "medium": {
+    "id": "09302025-M",
+    "generatedAt": "2025-09-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefix + Base",
+        "items": [
+          "unhappy",
+          "redo",
+          "misread",
+          "untold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "sandwich",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with a Twist",
+        "items": [
+          "triangle",
+          "pentagon",
+          "rectangle",
+          "circle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that Grow",
+        "items": [
+          "moss",
+          "fern",
+          "mushroom",
+          "bamboo"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce simple word parts and compound words. Near-miss example: 'circle' could be seen as a shape or a member of 'round items' but is kept distinct as a shape term. No homophones or hidden tricks."
+  },
+  "hard": {
+    "id": "09302025-H",
+    "generatedAt": "2025-09-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Movement vs Sound",
+        "items": [
+          "leap",
+          "hiss",
+          "slide",
+          "buzz"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Items by Purpose",
+        "items": [
+          "crayon",
+          "marker",
+          "paint",
+          "pastel"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things with Similar Endings",
+        "items": [
+          "basket",
+          "mask",
+          "casket",
+          "basketball"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Edible Plant Parts",
+        "items": [
+          "carrot",
+          "celery",
+          "lettuce",
+          "radish"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use slightly abstract connections (movement vs. sound, purpose-based color items, endings). Near-miss temptation example: 'basket' could relate to both container items and 'basketball' term; clarified as separate group by intended definition. No homophones or hidden trivia."
+  },
+  "id": "09302025",
+  "generatedAt": "2025-09-30T02:07:29.047Z"
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but I’m not a animal. I help you point to things on a map. What am I?",
+    "a": "A compass needle or arrow on a map (pointer)",
+    "hint": "It helps you show direction or location."
+  },
+  "medium": {
+    "q": "I am a word that hides inside many phrases, and I can switch places with a sister word to change meaning. What word am I?",
+    "a": "But",
+    "hint": "Used to connect clauses; can also contrast ideas."
+  },
+  "hard": {
+    "q": "A librarian has three shelves labeled A, B, and C. Each shelf has a different number of books: A has 3, B has 5 more than A, and C has 2 fewer than B. How many books are on shelf C?",
+    "a": "6",
+    "hint": "Compute step by step: A=3, B=A+5, C=B-2."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10012025-E",
+    "generatedAt": "2025-10-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sun",
+          "glasses",
+          "shark",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Read",
+        "items": [
+          "book",
+          "magnet",
+          "sign",
+          "newspaper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Feet",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Category 1 groups sunny or light-related items. Category 2 lists vehicles. Category 3 includes reading-related items. Category 4 contains footwear. Near-miss temptation: paper items vs reading items—but 'magnet' is clearly not a reading item here."
+  },
+  "medium": {
+    "id": "10012025-M",
+    "generatedAt": "2025-10-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Prefixes that Move",
+        "items": [
+          "rebuild",
+          "rewrite",
+          "replay",
+          "recycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Share 'sun'",
+        "items": [
+          "sunrise",
+          "sunlight",
+          "sunken",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things Found in a Desk",
+        "items": [
+          "pencil",
+          "eraser",
+          "stapler",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with Corners",
+        "items": [
+          "triangle",
+          "square",
+          "pentagon",
+          "circle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Prefixes group: all start with 're' to hint at repetition. Sun-related group: shared word component varies meaning. Desk items: common school supplies. Shapes: geometric shapes with corners; circle is a curve, included for contrast. Near-miss temptation: 'replay' could belong to both 'prefixes' and 'things that move' if not careful; it's clearly a word with 're' prefix here."
+  },
+  "hard": {
+    "id": "10012025-H",
+    "generatedAt": "2025-10-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colorful Associations",
+        "items": [
+          "apple",
+          "pumpkin",
+          "sunset",
+          "strawberry"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Compound Creatures",
+        "items": [
+          "ladybug",
+          "dragonfly",
+          "honeybee",
+          "butterfly"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that Inhabit a Park",
+        "items": [
+          "bench",
+          "fountain",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Pairs in Puzzles",
+        "items": [
+          "lock",
+          "key",
+          "map",
+          "compass"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Colorful Associations uses objects tied to colors or warm tones; near-miss temptation could be grouping 'sunset' with colors rather than a case-specific color item, but it's a scenic object. Compound Creatures are words that combine two smaller words; ensure kids see the compound structure. Park items are physical playground elements. Common Pairs include tools used together; near-miss would be confusing 'map' with 'globe' but 'map' and 'compass' are the intended pair."
+  },
+  "id": "10012025",
+  "generatedAt": "2025-10-01T02:20:41.362Z"
+}

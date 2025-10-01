@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands but no arms or legs. I tell you when to start and stop. What am I?",
+    "a": "A clock",
+    "hint": "Look at time pieces on the wall"
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think small quantity and letter trick"
+  },
+  "hard": {
+    "q": "Turn me on my side and I will rise. Turn me over and I will fall. What am I?",
+    "a": "The hourglass",
+    "hint": "Time flow, gravity, and shape puzzle"
+  }
+}

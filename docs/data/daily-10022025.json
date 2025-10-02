@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10022025-E",
+    "generatedAt": "2025-10-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "truck",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Find in a Kitchen",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "cloud"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Melt",
+        "items": [
+          "ice",
+          "butter",
+          "chocolate",
+          "wax"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and kid-friendly. Near-miss temptation example: 'kite' could be seen as both a thing that flies and a toy; we kept 'kite' in the flying group to avoid ambiguity."
+  },
+  "medium": {
+    "id": "10022025-M",
+    "generatedAt": "2025-10-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words Ending with -er",
+        "items": [
+          "marker",
+          "letter",
+          "shaker",
+          "farmer"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Parts",
+        "items": [
+          "rainstorm",
+          "bookmark",
+          "sunrise",
+          " playground"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Come in Pairs (not all are pairs yet)",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "pants"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Shapes",
+        "items": [
+          "red square",
+          "blue circle",
+          "green triangle",
+          "yellow pentagon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Category explanations: - 'Words Ending with -er' groups items by suffix. - 'Compound Word Parts' shows common compound words. - 'Things That Come in Pairs' lists items typically used in pairs. - 'Colorful Shapes' mixes color with shape. Near-miss: 'gloves' could be mistaken for 'mittens' in some regions; kept consistent as gloves."
+  },
+  "hard": {
+    "id": "10022025-H",
+    "generatedAt": "2025-10-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of Transportation by Air/Water/Land",
+        "items": [
+          "car",
+          "boat",
+          "airplane",
+          "submarine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Things That Are Not Instruments",
+        "items": [
+          "metronome",
+          "tambourine",
+          "kazoo",
+          "xylophone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Shared Prefix 'pre-'",
+        "items": [
+          "preview",
+          "prevent",
+          "preheat",
+          "preference"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Objects Used for Cleaning",
+        "items": [
+          "broom",
+          "rag",
+          "soap",
+          "bucket"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories are more abstract. Near-miss temptation: 'car' could be in transportation and 'broom' could be cleaning; each item has a distinct primary grouping. No homophones or hidden trivia."
+  },
+  "id": "10022025",
+  "generatedAt": "2025-10-02T02:07:26.399Z"
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I glow when I fly up high in the sky at night. What am I?",
+    "a": "A kite",
+    "hint": "It shines and moves in the night sky."
+  },
+  "medium": {
+    "q": "I start with a sound of two shoes tapping, then I grow a pattern from left to right. What am I?",
+    "a": "A marching line or rhythm pattern",
+    "hint": "Think of steps and rhythm in a line."
+  },
+  "hard": {
+    "q": "Two siblings share a secret, but only one ever tells it. The other stays silent except when you press a button that changes its mind. What is it?",
+    "a": "A two-sided coin (heads/tails) in a vending machine or button-pressing device",
+    "hint": "Consider a device with two choices and a reversible outcome."
+  }
+}

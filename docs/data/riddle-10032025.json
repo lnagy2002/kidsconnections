@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs but I cannot walk. I come in many shapes and help you sit and eat. What am I?",
+    "a": "a chair",
+    "hint": "You sit on me at a table."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "Think of a small number when you add letters."
+  },
+  "hard": {
+    "q": "A box contains red balls and blue balls. Every time you reach in, you pull out two balls that are not the same color. You do this three times. After each pull, you replace the balls. How many balls could be in the box to keep this possible every time?",
+    "a": "Any number of balls greater than or equal to 2, with at least one red and one blue ball",
+    "hint": "Consider the colors and the rule about not drawing the same color twice in a row."
+  }
+}

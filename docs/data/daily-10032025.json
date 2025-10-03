@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10032025-E",
+    "generatedAt": "2025-10-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Pets by Size",
+        "items": [
+          "hamster",
+          "ferret",
+          "bunny",
+          "gerbil"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Four Legs",
+        "items": [
+          "dog",
+          "cat",
+          "horse",
+          "goat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "stool",
+          "sofa",
+          "bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Come in a Pair",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category explanations: Pets by Size groups small to medium pets; Things with Four Legs are familiar animals; Things You Sit On are common furniture; Things That Come in a Pair are items used in pairs. Near-miss temptation: 'Chairs' could be confused with furniture in the sit-on group, but 'pairs' is the clear connection for its group."
+  },
+  "medium": {
+    "id": "10032025-M",
+    "generatedAt": "2025-10-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word-building: Prefix Link",
+        "items": [
+          "unhappy",
+          "undone",
+          "rethink",
+          "rewrite"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rainbow",
+          "hurricane",
+          "snowman",
+          "sunshine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes in Disguise",
+        "items": [
+          "triangle",
+          "square",
+          "circle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "birthday",
+          "breakfast",
+          "practice",
+          "paint"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium explanations: Prefix Link items show added prefixes that create new words; Weather Words are terms you commonly hear about weather. Shapes in Disguise are basic shapes; Noun-Verb Pairs use a word that can function as both noun and verb with common phrases. Near-miss temptation: 'circle' might be mistaken for 'round' descriptor, but it's a shape name—explicitly the group here is shape names."
+  },
+  "hard": {
+    "id": "10032025-H",
+    "generatedAt": "2025-10-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things That Glow Naturally",
+        "items": [
+          "moon",
+          "star",
+          "aurora",
+          "glowworm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Quiet Activities",
+        "items": [
+          "reading",
+          "puzzle",
+          "stargazing",
+          "drawing"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools for Small Repairs",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "pliers",
+          "tape"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Movement",
+        "items": [
+          "walking",
+          "hopping",
+          "skipping",
+          "rolling"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard explanations: Glow Naturally includes celestial and bioluminescent items; Quiet Activities are calm tasks done without noise; Tools for Small Repairs are common household tools; Modes of Movement cover different ways the body moves. Near-miss temptation: 'glowworm' could be seen as 'glow' item and might tempt to group with glow-related items, but its file shows natural glow as a standalone group; ensure each item fits only its intended group."
+  },
+  "id": "10032025",
+  "generatedAt": "2025-10-03T02:06:49.921Z"
+}

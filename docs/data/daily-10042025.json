@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10042025-E",
+    "generatedAt": "2025-10-04T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "rollercoaster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cute pets",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating with hands",
+        "items": [
+          "pizza",
+          "banana",
+          "apple",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "sneakers",
+          "socks",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: (1) items that move on wheels; (2) common household pets; (3) foods often eaten with hands; (4) footwear. Near-miss temptation: 'rollercoaster' might not be seen as a 'thing with wheels' at first glance, but it does have wheels in the track system."
+  },
+  "medium": {
+    "id": "10042025-M",
+    "generatedAt": "2025-10-04T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words that end with -ing but are nouns",
+        "items": [
+          "painting",
+          "fishing",
+          "reading",
+          "baking"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "mittens",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a classroom",
+        "items": [
+          "desk",
+          "board",
+          "pencil",
+          "clock"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Little helpers in the kitchen",
+        "items": [
+          "spoon",
+          "spatula",
+          "whisk",
+          "measuring cup"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: (1) -ing nouns that are actions become objects; (2) items that usually come in a pair; (3) common classroom items; (4) basic kitchen tools. Near-miss temptation: 'clock' might be seen as part of classroom or time object; chosen as classroom item to reduce overlap with time sense."
+  },
+  "hard": {
+    "id": "10042025-H",
+    "generatedAt": "2025-10-04T00:00:00Z",
+    "groups": [
+      {
+        "name": "Colorful objects by material",
+        "items": [
+          "plastic bottle",
+          "glass bottle",
+          "wooden box",
+          "metal spoon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals by habitat",
+        "items": [
+          "polar bear",
+          "camel",
+          "penguin",
+          "otter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather and seasons",
+        "items": [
+          "rainy",
+          "sunny",
+          "snowy",
+          "windy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes in disguise",
+        "items": [
+          "triangle",
+          "square",
+          "circle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: (1) materials and containers; (2) animals by habitat clues; (3) weather descriptors; (4) basic shapes as named. Near-miss temptation: 'wooden box' might seem like 'box' in shape group, but its inclusion is driven by material distinction; ensure kids see material cue first."
+  },
+  "id": "10042025",
+  "generatedAt": "2025-10-04T01:57:31.581Z"
+}

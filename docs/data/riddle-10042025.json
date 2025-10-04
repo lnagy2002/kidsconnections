@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands but no arms or legs. What am I?",
+    "a": "A clock",
+    "hint": "Tells time with hands"
+  },
+  "medium": {
+    "q": "If you rearrange letters of 'STOPS' you get a word that means to keep going. Which word is it?",
+    "a": "POSIT",
+    "hint": "Think of a word from letters STOPS that means to keep moving forward."
+  },
+  "hard": {
+    "q": "I am a container of keys but hold no locks. I have space but no room. You can enter but not go outside. What am I?",
+    "a": "A computer keyboard",
+    "hint": "Think of a device you type on inside a desk or computer."
+  }
+}

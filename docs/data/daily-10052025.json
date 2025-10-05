@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10052025-E",
+    "generatedAt": "2025-10-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "kite",
+          "plane",
+          "bird",
+          "helicopter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Playthings you push",
+        "items": [
+          "wagon",
+          "stroller",
+          "cart",
+          "trolley"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that glow at night",
+        "items": [
+          "star",
+          "moon",
+          "firefly",
+          "lantern"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category ideas: (1) Things with wheels are vehicles that move on roads. (2) Things that fly go through the air. (3) Pushable playthings are items children often push or pull. (4) Night-glow items are objects associated with light. Near-miss temptation: 'lantern' could be indoors or outdoors; it clearly fits glow-at-night instead of a vehicle or toy group."
+  },
+  "medium": {
+    "id": "10052025-M",
+    "generatedAt": "2025-10-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that share a suffix",
+        "items": [
+          "careful",
+          "hopeful",
+          "playful",
+          "colorful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound word parts",
+        "items": [
+          "raincoat",
+          "sunflower",
+          "bookmark",
+          "footprint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you can shake",
+        "items": [
+          "alarm",
+          "maraca",
+          "sugar",
+          "pom-pom"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "glasses",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium category ideas: (1) Suffix group uses -ful endings to hint at a shared tail. Near-miss temptation: 'alarm' could fit 'things you can shake' but is better aligned with sound rather than the suffix concept. (2) Compound word parts clearly link to combined words; avoid other overlapping patterns. (3) Shaking objects is a tangible action; ensure each item is a common object that can be physically shaken. (4) Pairs group relies on items typically worn or used in pairs; some items like 'glasses' are worn on the face and are a natural pair."
+  },
+  "hard": {
+    "id": "10052025-H",
+    "generatedAt": "2025-10-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Color-name overlaps with fruit names",
+        "items": [
+          "orange",
+          "lemon",
+          "peach",
+          "berry"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words formed by adding a single letter to a base word",
+        "items": [
+          "ear",
+          "gear",
+          "bear",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Neighborhoods in a city (fictional, kid-friendly)",
+        "items": [
+          "Pineview",
+          "Maplecrest",
+          "Oak Hollow",
+          "Sunnyridge"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a plant",
+        "items": [
+          "root",
+          "stem",
+          "leaf",
+          "flower"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category ideas: (1) Color-name overlaps with fruit names requires careful mapping: orange is both a color and a fruit; ensure the solution uses color-color relation where orange clearly belongs to color group, not the fruit type. (2) Word growth by one letter is a clean, but careful, pattern; all items should be reachable by adding one letter to a base word with clear sense. (3) Fictional neighborhoods keep it safe and imaginative; ensure names are distinct. (4) Plant parts are concrete; ensure the connection to other groups isn’t stronger (e.g., leaf could plausibly be a color name in rare cases; avoid ambiguity). Near-miss temptation: 'orange' could tempt as fruit in the color group but the group is color-name overlaps with fruit, so it’s intended to be color-name linkage."
+  },
+  "id": "10052025",
+  "generatedAt": "2025-10-05T02:18:22.226Z"
+}

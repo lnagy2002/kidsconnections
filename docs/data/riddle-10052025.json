@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I can be curled or straight, and I help you draw a line. What am I?",
+    "a": "A pencil",
+    "hint": "Often used for writing and drawing."
+  },
+  "medium": {
+    "q": "I come in pairs, but I am not shoes. My letters pair up to spell a word; change one letter and I change colors. What am I?",
+    "a": "Rains/Rains? Hmm",
+    "hint": "Focus on weather and color wordplay."
+  },
+  "hard": {
+    "q": "Two friends stand on opposite ends of a bridge that only holds five people. They want to cross in groups of three or fewer, but nobody can be left behind. What arrangement lets everyone reach the other side without breaking the rule?",
+    "a": "Have one person cross alone to shuttle the others across in groups of two, ensuring each trip has ≤3 people and all are eventually on the other side.",
+    "hint": "Think steps and shuttling across a bridge with constraints."
+  }
+}

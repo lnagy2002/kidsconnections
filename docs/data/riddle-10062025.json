@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m not an animal, I’m a coin in a pocket. What am I?",
+    "a": "A penny/coin",
+    "hint": "Small metal friend you flip in games"
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a word that changes when you add letters"
+  },
+  "hard": {
+    "q": "Two people stand on opposite ends of a bridge. They move toward each other at the same speed. When they meet, who is closer to the start and finish? Explain briefly.",
+    "a": "Neither; they meet in the middle exactly.",
+    "hint": "Consider distances from each end to the meeting point"
+  }
+}

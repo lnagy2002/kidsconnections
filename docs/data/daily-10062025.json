@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10062025-E",
+    "generatedAt": "2025-10-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals you can ride",
+        "items": [
+          "horse",
+          "donkey",
+          "camel",
+          "llama"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in a set of four",
+        "items": [
+          "quill",
+          "page",
+          "leg",
+          "wing"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Family relations in a tree",
+        "items": [
+          "mother",
+          "father",
+          "brother",
+          "sister"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Food you can peel",
+        "items": [
+          "banana",
+          "orange",
+          "apple",
+          "pear"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: 1) Animals you can ride (horse, donkey, camel, llama) are all large rideable animals. 2) Four-part set items (quill, page, leg, wing) each relates to a thing that has four parts/uses in common contexts. 3) Family relations (mother, father, brother, sister) are immediate family members. 4) Peel-able foods (banana, orange, apple, pear) are common fruit items you can peel or snack with. Near-miss temptation: 'bird' could be mistaken for rideable or four-part item in another grouping, but it doesn’t fit cleanly; it has no clear single group here."
+  },
+  "medium": {
+    "id": "10062025-M",
+    "generatedAt": "2025-10-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that start and end with the same letter",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that show directions",
+        "items": [
+          "compass",
+          "map",
+          "north",
+          "east"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a sunny day",
+        "items": [
+          "sun",
+          "cloud",
+          "rain",
+          "wind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "glove",
+          "shoes",
+          "glasses",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: 1) Palindromic words (level, civic, radar, rotor) share the same start and end letters. 2) Directions-related items (compass, map, north, east) tie to navigation. 3) Weather day parts (sun, cloud, rain, wind) represent sky elements. 4) Pairs (glove, shoes, glasses, earrings) are items worn or used as a pair. Near-miss temptation: 'umbrella' could fit weather or pair concepts, but it is not in the list to keep categories distinct."
+  },
+  "hard": {
+    "id": "10062025-H",
+    "generatedAt": "2025-10-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes with straight edges",
+        "items": [
+          "square",
+          "triangle",
+          "rectangle",
+          "rhombus"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that you can press",
+        "items": [
+          "button",
+          "switch",
+          "piano",
+          "keyboard"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that come from trees",
+        "items": [
+          "paper",
+          "wood",
+          "cinnamon",
+          "sap"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words formed by joining two smaller words",
+        "items": [
+          "sunset",
+          "farmhouse",
+          "rainbow",
+          "toothbrush"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: 1) Shapes with straight edges (square, triangle, rectangle, rhombus) are all polygons with only straight sides. 2) Pressable items (button, switch, piano, keyboard) involve physical pressing or keys. 3) Tree-derived items (paper, wood, cinnamon, sap) come from trees; note that cinnamon is sourced from tree bark and may feel ambiguous, but still tree-derived in a culinary sense. 4) Compound words formed by joining two smaller words (sunset, farmhouse, rainbow, toothbrush) are clear examples of this pattern. Near-miss temptation: 'branch' could fit tree-related or shape context, but it does not align cleanly with any single group here."
+  },
+  "id": "10062025",
+  "generatedAt": "2025-10-06T02:10:37.723Z"
+}

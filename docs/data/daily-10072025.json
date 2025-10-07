@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10072025-E",
+    "generatedAt": "2025-10-07T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Stripes",
+        "items": [
+          "Zebra",
+          "Tiger",
+          "Pencil",
+          "Tennis ball"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Start with R",
+        "items": [
+          "Rabbit",
+          "Robot",
+          "Raincoat",
+          "Rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Clip On",
+        "items": [
+          "Paper",
+          "Binder",
+          "Clothes pin",
+          "Bookmark"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Find in a Desk",
+        "items": [
+          "Stapler",
+          "Glue stick",
+          "Notebook",
+          "Scissors"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category ideas: (1) Stripes: zebra and tiger are striped; pencil and tennis ball both have distinctive markings. (2) Start with R: simple initial letter. (3) Clip-on items: common items that can be clipped. (4) Desk items: common school desk objects. Near-miss temptation: 'Ruler' could fit both 'Starts with R' and 'Things in a Desk', but it is placed in the desk group to keep clear."
+  },
+  "medium": {
+    "id": "10072025-M",
+    "generatedAt": "2025-10-07T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words with the Same Ending Sound",
+        "items": [
+          "Pony",
+          "Bunny",
+          "Cookie",
+          "Zucchini"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Partners",
+        "items": [
+          "Sunflower",
+          "Cupcake",
+          "Notebook",
+          "Rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Grow on a Farm",
+        "items": [
+          "Corn",
+          "Cow",
+          "Hay",
+          "Apple tree"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes and Their Uses",
+        "items": [
+          "Triangle",
+          "Circle",
+          "Rectangle",
+          "Square"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium category ideas: (1) Similar ending sounds help spotting connections, but avoid exact rhymes beyond a single sound (pony/bunny/cookie/zucchini). (2) Compound words: recognizable parts combined to form a common item. (3) Farm items: farm-related, but keep each item distinct. (4) Shapes and uses: classic geometric names paired with common objects. Near-miss: 'Sun' could be part of 'Sunflower' or 'Sunrise' concept, but only 'Sunflower' is used to keep the fit clear."
+  },
+  "hard": {
+    "id": "10072025-H",
+    "generatedAt": "2025-10-07T12:00:00Z",
+    "groups": [
+      {
+        "name": "Mystery of Movement",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Rocket",
+          "Seasaw"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites in Pairs",
+        "items": [
+          "Hot",
+          "Cold",
+          "Big",
+          "Small"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Change Color",
+        "items": [
+          "Leaf in fall",
+          "Chameleon",
+          "Candy",
+          "Mood ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Objects with a Twist",
+        "items": [
+          "Phone",
+          "Wallet",
+          "Keys",
+          "Glasses"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category ideas: (1) Movement: items involve transport and motion; tricky because 'Seasaw' moves differently. (2) Opposites: simple pairs but ensure each item clearly belongs to one side. (3) Color-changing items: not all objects truly change color in common scenarios, to avoid ambiguity; use obvious examples. (4) Everyday with a twist: ordinary items that can be grouped by a less obvious trait (e.g., items that come in sets or are commonly carried). Near-miss temptation: 'Clock' might fit both Movement and Color Change in some views, but it is not included to maintain exclusivity."
+  },
+  "id": "10072025",
+  "generatedAt": "2025-10-07T02:08:09.320Z"
+}

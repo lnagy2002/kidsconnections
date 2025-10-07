@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have hands but cannot clap. I can tell you what time it is and where to go. What am I?",
+    "a": "A clock",
+    "hint": "Look for something that measures time."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a three-letter word that changes when you add two letters."
+  },
+  "hard": {
+    "q": "Three friends share a cake: A, B, and C. The cake has 12 slices. A takes exactly 1/3 of the slices, B takes half of the remaining, and C takes the rest. How many slices does C get?",
+    "a": "4",
+    "hint": "Compute step by step: after A, then B, then C remains."
+  }
+}

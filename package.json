@@ -6,7 +6,8 @@
     "connect": "node scripts/generate-connect-json.js",
     "wordle": "node scripts/generate-wordle-json.js",
     "riddle": "node scripts/generate-riddle-json.js",
-    "mirror": "node scripts/generate-mirror-json.js"
+    "mirror": "node scripts/generate-mirror-json.js",
+    "jigsaw": "node scripts/generate-jigsaw-json.js",
   },
   "dependencies": {
     "openai": "^4.0.0"

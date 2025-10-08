@@ -348,7 +348,7 @@
     if (!images.length) throw new Error('No images available');
 
     populateSelectors(images, { lvlKey, imgId });
-    const chosen = images[1];  //images.find(i=>i.id===imgSel.value) ||
+    const chosen = images[0];  //images.find(i=>i.id===imgSel.value) ||
     STATE.img = chosen; STATE.imgId = chosen.id;
 
     // setParams({ lvlKey: levelSel.value, imgId: imgSel.value });

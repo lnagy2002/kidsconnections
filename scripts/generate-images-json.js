@@ -13,7 +13,7 @@ import path from "node:path";
 
 // ------- Defaults (no CLI) -------
 const OUTPUT_DIR   = path.join(process.cwd(), "docs", "data");
-const IMAGE_COUNT  = 6;        // images per run
+const IMAGE_COUNT  = 1;        // images per run
 const WIDTH        = 1200;
 const HEIGHT       = 800;
 
@@ -22,7 +22,7 @@ function yyyymmdd(d = new Date()) {
   const yyyy = d.getFullYear();
   const mm = String(d.getMonth() + 1).padStart(2, "0");
   const dd = String(d.getDate()).padStart(2, "0");
-  return `${yyyy}-${mm}-${dd}`;
+  return `${yyyy}${mm}${dd}`;
 }
 function slug(s) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");

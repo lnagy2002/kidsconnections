@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jigsaw — Levels & JSON Image</title>
+  <title>Jigsaw Puzzle</title>
   <style>
 
   :root {
@@ -123,16 +123,15 @@
   // Load images.json (with embedded fallback)
   // -----------------------
   async function loadImageList() {
+    const level = getQueryParam('level')  || 'easy';
+    gtag('event', 'jigsaw_load_level_'  + level, { app: 'jigsaw' });
+
     try {
-      const r = await fetch('images.json', { cache: 'no-store' });
+      const r = await fetch('https://lnagy2002.github.io/kidsconnections/data/images-' + formattedFileDate + ".json", { cache: 'no-store' }); // <-- your JSON file
       if (!r.ok) throw new Error('images.json missing');
       return await r.json();
     } catch (e) {
-      // fallback to embedded JSON
-      const txt = document.getElementById('images-json')?.textContent?.trim();
-      if (txt) {
-        try { return JSON.parse(txt); } catch {}
-      }
+      gtag('event', 'jigsaw_failed_loading_level_'  + level, { app: 'jigsaw' });
       // final fallback: 1 image
       return { images: [{ id:'fallback', title:'Fallback', src:'https://picsum.photos/1200'}] };
     }

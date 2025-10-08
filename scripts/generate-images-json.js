@@ -58,7 +58,7 @@ function randomImageUrl(keyword, idx) {
   const seed = `${Date.now()}_${idx}_${randInt(1000, 999999)}`;
   const providers = [
     // unsplashUrl(keyword, seed),
-    loremFlickrUrl(keyword, seed),
+    // loremFlickrUrl(keyword, seed),
     picsumUrl(seed)
   ];
   return choice(providers);

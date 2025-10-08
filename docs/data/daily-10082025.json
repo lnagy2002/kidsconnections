@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10082025-E",
+    "generatedAt": "2025-10-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you read",
+        "items": [
+          "book",
+          "magazine",
+          "comic",
+          "map"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category ideas: 1) Things with wheels (common vehicles). 2) Items that typically come in pairs. 3) Objects you read. 4) Common kitchen tools. Near-miss temptation: some items like 'map' could feel like a reading item but fits better in 'Things you read'."
+  },
+  "medium": {
+    "id": "10082025-M",
+    "generatedAt": "2025-10-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words with common suffixes",
+        "items": [
+          "playful",
+          "careful",
+          "hopeful",
+          "colorful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix + object",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "snowball",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes in daily life",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "oval"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal homes",
+        "items": [
+          "nest",
+          "den",
+          "hole",
+          "burrow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium category ideas: 1) Words sharing a suffix like -ful. 2) Prefix + object forms compound words. 3) Common shapes encountered in everyday items. 4) Animal homes. Near-miss: 'round' could hint at circle, but is verbs/adjectives; better to focus on the listed nouns for recognition."
+  },
+  "hard": {
+    "id": "10082025-H",
+    "generatedAt": "2025-10-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Common tools by use",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "plier"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words formed by changing one letter",
+        "items": [
+          "jump",
+          "bump",
+          "jump",
+          "lump"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Seasonal items",
+        "items": [
+          "pumpkin",
+          "scarf",
+          "mittens",
+          "boots"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Instruments you listen to",
+        "items": [
+          "piano",
+          "violin",
+          "drums",
+          "flute"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category ideas: 1) Common hand tools for basic repair. 2) Word-change set exploring near-miss with one-letter difference; avoid true overlaps by ensuring each item fits only its group. 3) Seasonal items for fall/winter. 4) Musical instruments by sound family. Near-miss: 'drums' could be confused with 'percussion' group, but stick to specific instruments to prevent overlap."
+  },
+  "id": "10082025",
+  "generatedAt": "2025-10-08T02:56:23.422Z"
+}

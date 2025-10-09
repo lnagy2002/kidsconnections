@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10092025-E",
+    "generatedAt": "2025-10-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sun",
+          "rainbow",
+          "cloud",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bouncy Things",
+        "items": [
+          "ball",
+          "jump rope",
+          "slipper",
+          "pogo stick"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "gloves",
+          "scarf",
+          "coat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eat This",
+        "items": [
+          "apple",
+          "banana",
+          "carrot",
+          "bread"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Sunny Things: items associated with bright, daytime weather. Bouncy Things: objects that can bounce or are used for play. Things You Wear: common clothing items. Eat This: everyday edible items."
+  },
+  "medium": {
+    "id": "10092025-M",
+    "generatedAt": "2025-10-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Part Friends",
+        "items": [
+          "happy",
+          "unreal",
+          "friendly",
+          "careful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Hues",
+        "items": [
+          "crimson",
+          "emerald",
+          "azure",
+          "amber"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Household Helpers",
+        "items": [
+          "broom",
+          "mop",
+          "sponge",
+          "brush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snack Pack",
+        "items": [
+          "grape",
+          "peach",
+          "orange",
+          "plum"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Word Part Friends: items show common prefixes/suffixes or overlapping word parts. Colorful Hues: color words or color-themed items. Household Helpers: common household tools. Snack Pack: assorted fruits."
+  },
+  "hard": {
+    "id": "10092025-H",
+    "generatedAt": "2025-10-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shape Signals",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "rhombus"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tool Time",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Friends",
+        "items": [
+          "rocket",
+          "satellite",
+          "astronaut",
+          "pilot"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound Makers",
+        "items": [
+          "bell",
+          "drum",
+          "kazoo",
+          "whistle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Shape Signals groups by basic shapes and their attributes. Tool Time includes common hand tools. Space Friends contains space-themed items that are clearly tied to space exploration. Sound Makers lists everyday sound-producing objects. Near-miss: 'rocket' could tempt with 'space' but is clearly space-related; 'drum' might seem like 'instrument' but fits the sound-making category here."
+  },
+  "id": "10092025",
+  "generatedAt": "2025-10-09T02:09:15.144Z"
+}

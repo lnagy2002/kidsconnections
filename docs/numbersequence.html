@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find the Pattern</title>
+<style>
+:root {
+  --bg: #0e364b;
+  --panel: #0e364b;
+  --text: #a9f4f4;
+  --ink: #a9f4f4;
+  --muted: #f0db79;
+  --border: #1b2659;
+  --ok: #4ade80;
+  --no: #64748b;
+  --maybe: #facc15;
+  --bad: #e4572e;
+  --key: #0f1736;
+  --key-hover: #141f4a;
+  --ink-2: #143f57;
+  --accent: #f0db79;
+  --accent-2: #f0db79;
+}
+
+/* Number input boxes */
+.cell {
+  width: 64px;
+  height: 64px;
+  border: 2px solid var(--bg);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  outline: none;
+  background: white;
+  margin: 6px 6px;
+}
+.cell:disabled {
+  background: var(--accent);
+  color: #2a556c;
+  border: 2px solid var(--bg);
+  opacity: 1; /* override iOS dim */
+  -webkit-text-fill-color: #666; /* iOS Safari gray text fix */
+}
+
+
+</style>
+
+<link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+<script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+
+<!-- GA (as you had it) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-KFSR46Z6C8');
+</script>
+</head>
+<body>
+  <div class="main">
+    <div>
+      <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Number Sequence"></script>
+    </div>
+
+    <div class="section">
+      <h3>Find the pattern</h3>
+      <div id="hint" class="muted" style="margin-left:auto"></div>
+      <!-- <div class="pills">
+        <span class="pill" id="levelPill">Level: auto</span>
+        <span class="pill" id="patternPill">Pattern: —</span>
+      </div> -->
+      <div class="muted" id="result" style="margin-top:8px;"></div>
+
+
+    <div class="sequence" id="sequence"></div>
+
+    <div class="section">
+      <button class="btn" id="checkBtn">Check</button>
+      <!-- <button class="btn" id="newBtn">New</button> -->
+      <!-- <button class="btn" id="hintBtn">Hint</button> -->
+
+    </div>
+  </div>
+
+<script>
+/* ---------------- Utils ---------------- */
+const qs = new URLSearchParams(location.search);
+const rand = (a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+const cap = s => s.charAt(0).toUpperCase()+s.slice(1);
+
+function setSeqInputs(container, seq, revealCount=4){
+  container.innerHTML = seq.slice(0,6).map((n,i)=>{
+    const dis = i < revealCount ? "disabled" : "";
+    const val = i < revealCount ? n : "";
+    const id  = i===4 ? "input1" : (i===5 ? "input2" : "");
+    return `<input class="cell" type="text" inputMode="numeric" ${dis} ${id?`id="${id}"`:""} value="${val}">`;
+  }).join("");
+}
+
+/* --------------- Pattern Generators --------------- */
+// Returns { seq:[6], name, rule, difficulty }
+
+const Patterns = {
+  // Easy
+  arithmetic(){
+    const start = rand(0,15), step = rand(1,6);
+    const seq = Array.from({length:6},(_,i)=>start + i*step);
+    return {seq, name:"Arithmetic", rule:`Add ${step}`, difficulty:"easy"};
+  },
+  altPlusMinus(){
+    const start = rand(0,15), d = rand(2,6);
+    const seq = [start];
+    for(let i=1;i<6;i++) seq.push(i%2? seq[i-1]+d : seq[i-1]-d);
+    return {seq, name:"Alternating ±", rule:`+${d}, -${d} alternating`, difficulty:"easy"};
+  },
+  evensOdds(){
+    const even = Math.random()<0.5;
+    const start = even ? rand(0,10)*2 : rand(0,10)*2+1;
+    const seq = Array.from({length:6},(_,i)=>start+2*i);
+    return {seq, name: even?"Evens":"Odds", rule:`Add 2 (${even?"even":"odd"} sequence)`, difficulty:"easy"};
+  },
+  flatStep(){
+    const start = rand(0,15), step = rand(2,5);
+    const seq = Array.from({length:6},(_,i)=>start + i*step);
+    return {seq, name:"Constant Step", rule:`Increase by ${step}`, difficulty:"easy"};
+  },
+
+  // Medium
+  geometric(){
+    const start = rand(1,5), r = rand(2,3);
+    const seq = Array.from({length:6},(_,i)=> start*Math.pow(r,i));
+    return {seq, name:"Geometric", rule:`Multiply by ${r}`, difficulty:"medium"};
+  },
+  fibLike(){
+    let a = rand(1,5), b = a + rand(1,4);
+    const seq = [a,b];
+    for(let i=2;i<6;i++) seq.push(seq[i-1]+seq[i-2]);
+    return {seq, name:"Fibonacci-like", rule:"Add previous two", difficulty:"medium"};
+  },
+  increasingStep(){
+    const start = rand(0,10), base = rand(1,3);
+    const seq = [start]; let step = base;
+    for(let i=1;i<6;i++){ seq.push(seq[i-1]+step); step++; }
+    return {seq, name:"Increasing Step", rule:"+1, +2, +3, …", difficulty:"medium"};
+  },
+  triangular(){
+    const T = k=>k*(k+1)/2;
+    const startN = rand(1,3);
+    const seq = Array.from({length:6},(_,i)=>T(startN+i));
+    return {seq, name:"Triangular Numbers", rule:"n(n+1)/2", difficulty:"medium"};
+  },
+  squares(){
+    const startN = rand(1,4);
+    const seq = Array.from({length:6},(_,i)=> Math.pow(startN+i,2));
+    return {seq, name:"Perfect Squares", rule:"n² sequence", difficulty:"medium"};
+  },
+
+  // Hard
+  quadratic(){
+    const a = rand(1,2), b = rand(-3,3), c = rand(0,10);
+    const seq = Array.from({length:6},(_,i)=> a*i*i + b*i + c);
+    return {seq, name:"Quadratic", rule:`Constant 2nd difference = ${2*a}`, difficulty:"hard"};
+  },
+  altSteps(){
+    const start = rand(0,15), a = rand(2,6), b = rand(3,7);
+    const seq = [start];
+    for(let i=1;i<6;i++) seq.push(seq[i-1] + (i%2 ? a : b));
+    return {seq, name:"Alt Steps", rule:`+${a}, +${b} alternating`, difficulty:"hard"};
+  },
+  affineAlt(){
+    const start = rand(2,8), r = rand(2,3), k = rand(1,6);
+    const seq = [start];
+    for(let i=1;i<6;i++) seq.push(i%2 ? seq[i-1]*r : seq[i-1]+k);
+    return {seq, name:"Affine Alt", rule:`×${r} then +${k} repeating`, difficulty:"hard"};
+  },
+  primes(){
+    const isPrime = x => {
+      if(x<2) return false;
+      for(let d=2; d*d<=x; d++) if(x%d===0) return false;
+      return true;
+    };
+    let p = rand(2,13); while(!isPrime(p)) p++;
+    const seq=[p];
+    while(seq.length<6){ p++; while(!isPrime(p)) p++; seq.push(p); }
+    return {seq, name:"Primes", rule:"Next prime each time", difficulty:"hard"};
+  }
+};
+
+/* Pools per level */
+const Pools = {
+  easy:   ["arithmetic","altPlusMinus","evensOdds","flatStep"],
+  medium: ["geometric","fibLike","increasingStep","triangular","squares"],
+  hard:   ["quadratic","altSteps","affineAlt","primes"]
+};
+
+/* ---------------- State ---------------- */
+const seqDisplay = document.getElementById("sequence");
+const result = document.getElementById("result");
+const hintBox = document.getElementById("hint");
+// const levelPill = document.getElementById("levelPill");
+// const patternPill = document.getElementById("patternPill");
+
+const level1 = (() => {
+  const raw = (qs.get("level")||"easy").toLowerCase();
+  return ["easy","medium","hard"].includes(raw) ? raw : "easy";
+})();
+// levelPill.textContent = `Level: ${cap(level1)}`;
+
+let current = null;
+
+/* ---------------- Core ---------------- */
+function generate(){
+  const bag = Pools[level1];
+  const pick = bag[rand(0, bag.length-1)];
+  const {seq, name, rule, difficulty} = Patterns[pick]();
+
+  const norm = seq.map(x=>Math.round(x)); // keep integers
+  current = { seq: norm, name, rule, difficulty };
+
+  setSeqInputs(seqDisplay, norm, 4);
+  // patternPill.textContent = `Pattern: ${name}`;
+  result.textContent = "";
+  hintBox.textContent = "";
+}
+
+function check(){
+  const v1 = Number(document.getElementById("input1").value);
+  const v2 = Number(document.getElementById("input2").value);
+  const ok1 = current.seq[4], ok2 = current.seq[5];
+
+  if (Number.isNaN(v1) || Number.isNaN(v2)) {
+    result.textContent = "Please fill both boxes.";
+    result.style.color = "var(--bad)";
+    return;
+  }
+  if (v1 === ok1 && v2 === ok2) {
+    if (typeof celebrate === "function") celebrate(); // from your utils
+    result.textContent = "✅ You found the pattern!";
+    result.style.color = "green";
+  } else {
+    result.textContent = "❌ Not quite. Try again!";
+    result.style.color = "var(--bad)";
+  }
+}
+
+function hint(){
+  hintBox.textContent = `Hint: ${current.rule}`;
+}
+
+/* ---------------- Events ---------------- */
+document.getElementById("checkBtn").addEventListener("click", check);
+// document.getElementById("newBtn").addEventListener("click", generate);
+// document.getElementById("hintBtn").addEventListener("click", hint);
+
+document.addEventListener("keydown", (e)=>{
+  if(e.code === "Space"){
+    e.preventDefault();
+    generate();
+  }
+});
+
+/* ---------------- Init ---------------- */
+generate();
+</script>
+</body>
+</html>

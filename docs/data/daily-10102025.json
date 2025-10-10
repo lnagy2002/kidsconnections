@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10102025-E",
+    "generatedAt": "2025-10-10T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with tails",
+        "items": [
+          "monkey",
+          "cat",
+          "dog",
+          "fox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can ride",
+        "items": [
+          "bike",
+          "car",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that are yellow",
+        "items": [
+          "banana",
+          "sun",
+          "lemon",
+          "pineapple"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "glove",
+          "shoe",
+          "sock",
+          "earring"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy: simple, concrete groupings familiar to grades 2–3. Near-miss avoidance: avoid putting items like 'banana' with 'sun' for color-only grouping; all groups focus on a clear shared trait (animal feature, transportation, color, accessory/paired item)."
+  },
+  "medium": {
+    "id": "10102025-M",
+    "generatedAt": "2025-10-10T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that share a prefix",
+        "items": [
+          "unhappy",
+          "untidy",
+          "unlearn",
+          "undone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a plant",
+        "items": [
+          "root",
+          "stem",
+          "leaf",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that rhyme with 'light'",
+        "items": [
+          "kite",
+          "night",
+          "sight",
+          "might"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Job tools",
+        "items": [
+          "hammer",
+          "wrench",
+          "saw",
+          "drill"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes a light wordplay (prefix 'un-' and 'in-'), a simple biology category (plant parts), a rhyming cluster, and common tools. Near-miss temptation: 'night' could mislead as time-related, but the group is strictly a rhyme set; ensure students see the rhyme pattern, not time context."
+  },
+  "hard": {
+    "id": "10102025-H",
+    "generatedAt": "2025-10-10T12:00:00Z",
+    "groups": [
+      {
+        "name": "Abstract connections: energy types",
+        "items": [
+          "kinetic",
+          "potential",
+          "thermal",
+          "chemical"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with corner counts",
+        "items": [
+          "triangle",
+          "square",
+          "pentagon",
+          "hexagon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Systems in the body",
+        "items": [
+          "immune",
+          "circulatory",
+          "digestive",
+          "nervous"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday objects you can open",
+        "items": [
+          "door",
+          "jar",
+          "box",
+          "bottle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: more abstract or multi-step connections. Near-miss temptation example: grouping 'kinetic' with 'potential' might seem like energy terms but the intended connection is 'types of energy in physics,' not random word categories; each item clearly fits a single hard group to avoid overlap."
+  },
+  "id": "10102025",
+  "generatedAt": "2025-10-10T02:09:39.334Z"
+}

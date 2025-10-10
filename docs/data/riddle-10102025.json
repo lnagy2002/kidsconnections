@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am not a pet, but I can tell you what time it is. What am I?",
+    "a": "A clock or a clock hand",
+    "hint": "It points to hours and minutes."
+  },
+  "medium": {
+    "q": "I am a number. If you double me and then add four, you get sixteen. What number am I?",
+    "a": "6",
+    "hint": "Think backward from 16: what times 2 plus 4 gives 16?"
+  },
+  "hard": {
+    "q": "I exist only when you look for me. If you talk about me, I disappear. What am I?",
+    "a": "A secret",
+    "hint": "It’s something you can seek but mentioning it makes it vanish."
+  }
+}

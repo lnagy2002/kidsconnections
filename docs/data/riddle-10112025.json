@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have hands but no arms, I can tell a story without words, and I keep time without shoes. What am I?",
+    "a": "A clock",
+    "hint": "I blink every second."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about numbers and meanings."
+  },
+  "hard": {
+    "q": "A path has two doors and two guards. One guard always tells the truth, the other always lies. you may ask one yes/no question to determine the safe door. What question do you ask?",
+    "a": "Ask either guard: 'If I asked the other guard which door leads outside, what would they say?', then choose the opposite door.",
+    "hint": "Use double questioning to reveal the truth regardless of who you ask."
+  }
+}

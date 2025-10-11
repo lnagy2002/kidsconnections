@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10112025-E",
+    "generatedAt": "2025-10-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Bright Colors",
+        "items": [
+          "sunrise",
+          "banana",
+          "peach",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Go Up",
+        "items": [
+          "balloon",
+          "stairs",
+          "rocket",
+          "ladder"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Startups",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Helpers",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category explanations: Bright Colors groups items that are commonly associated with color or color imagery. Things That Go Up includes objects that rise or move upward. Kitchen Startups lists basic kitchen items used to start a meal. Pet Helpers contains common pets."
+  },
+  "medium": {
+    "id": "10112025-M",
+    "generatedAt": "2025-10-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Pairs with -er",
+        "items": [
+          "runner",
+          "jumper",
+          "teacher",
+          "drawer"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Word Friends",
+        "items": [
+          "peanut butter",
+          "milkshake",
+          "sunflower",
+          "butterfly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things with Shapes",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "oval"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Go Together",
+        "items": [
+          "salt",
+          "pepper",
+          "bread",
+          "butter"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium category explanations: Word Pairs with -er looks at words that form a related noun by adding -er. Double-Word Friends groups items that commonly appear as paired words in foods. Shapes is about basic geometric terms. Things That Go Together lists common food pairings or complementary items. Near-miss: 'butter' appears in two groups but belongs only to Butter-related pairing; ensure distinct fits by definition."
+  },
+  "hard": {
+    "id": "10112025-H",
+    "generatedAt": "2025-10-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animal Homes",
+        "items": [
+          "ant hill",
+          "owl tree hollow",
+          "beaver dam",
+          "bird nest"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools by Use",
+        "items": [
+          "hammer",
+          "scissors",
+          "screwdriver",
+          "wrench"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Seasonal Delights",
+        "items": [
+          "pumpkin",
+          "strawberry",
+          "cinnamon",
+          "cider"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Paths",
+        "items": [
+          "door",
+          "gate",
+          "path",
+          "bridge"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category explanations: Animal Homes groups places where animals live or create a home. Tools by Use links tools by their main function. Seasonal Delights combines items associated with fall and autumn flavors. Everyday Paths includes objects used to travel or connect places. Near-miss: 'pumpkin' could be found in Seasonal Delights but is not a separate edible item in another group; it clearly fits autumn flavors."
+  },
+  "id": "10112025",
+  "generatedAt": "2025-10-11T02:01:47.771Z"
+}

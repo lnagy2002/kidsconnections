@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10122025-E",
+    "generatedAt": "2025-10-12T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with tails",
+        "items": [
+          "monkey",
+          "cat",
+          "dog",
+          "mouse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "watch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come from trees",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "pear"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: 1) Things with tails — animals and some non-animals with tails. 2) Round objects — general shapes that are circular. 3) Headwear — items worn on the head. 4) Fruits from trees — common fruits. Near-miss temptation avoided: nothing else in the groups shares an obvious tail, circle shape, headwear, or tree fruit connection."
+  },
+  "medium": {
+    "id": "10122025-M",
+    "generatedAt": "2025-10-12T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words that end with -er",
+        "items": [
+          "paper",
+          "copper",
+          "player",
+          "teacher"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "speakers"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a computer",
+        "items": [
+          "keyboard",
+          "screen",
+          "mouse",
+          "speaker"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Places you sit",
+        "items": [
+          "desk",
+          "sofa",
+          "stool",
+          "bench"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: 1) -er ending words (note: some items like 'teacher' are not literally ending with -er in spelling, but pronounced? Here we use simple suffix recognition; near-miss temptation would be mistaking 'paper' for a person who papers, but it fits as a noun with -er ending). 2) Pairs — items commonly found as bundled pairs. 3) Computer parts — common hardware. 4) Places you sit — seating furniture. Near-miss: 'speaker' could be mistaken as a computer part; it is included in computer parts but also in pairs, so we ensure each item clearly belongs to its group."
+  },
+  "hard": {
+    "id": "10122025-H",
+    "generatedAt": "2025-10-12T00:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "bicycle",
+          "kayak",
+          "rollerblade",
+          "skateboard"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words formed by combining two smaller words",
+        "items": [
+          "sunflower",
+          "notebook",
+          "building",
+          "raincoat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things in a school",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "notebook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with equal sides",
+        "items": [
+          "square",
+          "circle",
+          "triangle",
+          "rhombus"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: 1) Transportation modes — mix of human-powered and small vehicles; near-miss temptation would be confusing a vehicle with a non-transport item like 'skate' in 'skateboard'. 2) Compound words — common two-word combos; ensure each item is a standard compound (e.g., 'sunflower', 'notebook'); near-miss: 'building' could be a verb or noun but here used as a noun compound. 3) School items — common classroom supplies; 4) Shapes with equal sides — focus on polygons with equal sides. Near-miss: 'circle' is not a polygon; it’s kept separate to avoid overlap."
+  },
+  "id": "10122025",
+  "generatedAt": "2025-10-12T02:13:23.690Z"
+}

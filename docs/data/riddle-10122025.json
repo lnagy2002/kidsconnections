@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am used to tell time or hold things; what am I?",
+    "a": "A clock hand / a clock",
+    "hint": "Think of something that points and moves when time passes."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "The word shrinks when you add letters."
+  },
+  "hard": {
+    "q": "Two siblings are born at the same moment, yet have different ages forever. How is this possible?",
+    "a": "They are born on different sides of the International Date Line (or time zones, or one is a baby born earlier in time).",
+    "hint": "Think about time zones or dates changing across places."
+  }
+}

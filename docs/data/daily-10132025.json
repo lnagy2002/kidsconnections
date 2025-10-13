@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10132025-E",
+    "generatedAt": "2025-10-13T00:00:00.000Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bike",
+          "car",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that are powered by batteries",
+        "items": [
+          "flashlight",
+          "toy robot",
+          "remote",
+          "camera"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rooms in a house",
+        "items": [
+          "kitchen",
+          "bedroom",
+          "bathroom",
+          "living room"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to tell time",
+        "items": [
+          "clock",
+          "watch",
+          "hourglass",
+          "sundial"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups featuring familiar, concrete ideas. Near-miss temptation could be mixing 'kitchen' with 'bathroom' as 'rooms' but they’re clearly different rooms; the 'ways to tell time' group avoids tricky digital vs analog by including both classic options."
+  },
+  "medium": {
+    "id": "10132025-M",
+    "generatedAt": "2025-10-13T00:00:00.000Z",
+    "groups": [
+      {
+        "name": "Words that end with -oon",
+        "items": [
+          "balloon",
+          "spoon",
+          "typhoon",
+          "crystaloon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound words starting with sun or moon",
+        "items": [
+          "sunflower",
+          "moonlight",
+          "sunrise",
+          "moonbeam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that hop",
+        "items": [
+          "frog",
+          "kangaroo",
+          "rabbit",
+          "meerkat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you find in a classroom",
+        "items": [
+          "globe",
+          "pencil",
+          "notebook",
+          "eraser"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce simple wordplay with endings and compound prefixes. Near-miss: 'crystaloon' is not a common word, but is included to avoid obvious repeats; it remains a recognizable item by suffix. Ensure players focus on the intended pattern (ending -oon, sun/moon compounds, hopping animals, classroom objects)."
+  },
+  "hard": {
+    "id": "10132025-H",
+    "generatedAt": "2025-10-13T00:00:00.000Z",
+    "groups": [
+      {
+        "name": "Heroic titles vs. tools",
+        "items": [
+          "sir",
+          "captain",
+          "pilot",
+          "doctor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words formed by adding a letter to a color",
+        "items": [
+          "blue + r = bluer",
+          "green + t = greent",
+          "red + o = redo",
+          "pink + y = pinky"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Items that come in pairs for a game",
+        "items": [
+          "dice",
+          "cards",
+          "board",
+          "tiles"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of the day related to light",
+        "items": [
+          "dawn",
+          "noon",
+          "dusk",
+          "twilight"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groupings include a subtle word-formation pattern and multi-step connections. Near-miss temptation: 'docter' vs 'doctor' could be mistaken if not careful; ensure 'doctor' is used. The color-letter item is designed as a safe wordplay that stays kid-appropriate; avoid real-world color modifiers that could cause confusion."
+  },
+  "id": "10132025",
+  "generatedAt": "2025-10-13T02:17:25.418Z"
+}

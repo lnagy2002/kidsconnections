@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I live on a page and help you write. What am I?",
+    "a": "A pencil",
+    "hint": "Used for writing, not the lead."
+  },
+  "medium": {
+    "q": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+    "a": "An echo",
+    "hint": "Sound reflecting back."
+  },
+  "hard": {
+    "q": "Place the numbers 1–9 in the boxes so that every row, column, and 3x3 square contains each digit once. What puzzle is this?",
+    "a": "A Sudoku",
+    "hint": "Think grid, digits, and logic."
+  }
+}

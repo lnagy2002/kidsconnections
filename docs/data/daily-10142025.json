@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10142025-E",
+    "generatedAt": "2025-10-14T00:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sunrise",
+          "lemonade",
+          "sunglasses",
+          "beach towel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Playful Pets",
+        "items": [
+          "dog",
+          "cat",
+          "parrot",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Helpers",
+        "items": [
+          "broom",
+          "spoon",
+          "mop",
+          "apron"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colorful Crayons",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and kid-friendly. Near-miss temptation: 'parrot' could hint at a pet, but in this set it clearly fits the animal group. Each item belongs to only one group."
+  },
+  "medium": {
+    "id": "10142025-M",
+    "generatedAt": "2025-10-14T00:00:00Z",
+    "groups": [
+      {
+        "name": "Word Steps",
+        "items": [
+          "careful",
+          "carefree",
+          "carefully",
+          "caregiver"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tiny Insects",
+        "items": [
+          "ant",
+          "bee",
+          "ladybug",
+          "firefly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Change Makers",
+        "items": [
+          "coin",
+          "ticket",
+          "stamp",
+          "badge"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Voices",
+        "items": [
+          "rain",
+          "snow",
+          "sun",
+          "wind"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Word Steps group hinges on a shared word family with a prefix/suffix idea (care-). Tiny Insects are literal. Change Makers are objects you exchange or collect. Weather Voices relates to elements you can describe. Near-miss: 'caregiver' might seem in a caregiving theme with 'care' root, but fits as a compound word in the Word Steps group."
+  },
+  "hard": {
+    "id": "10142025-H",
+    "generatedAt": "2025-10-14T00:00:00Z",
+    "groups": [
+      {
+        "name": "Silent Signals",
+        "items": [
+          "flag",
+          "smile",
+          "clock",
+          "thumbs-up"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Juggling Objects",
+        "items": [
+          "ball",
+          "bat",
+          "glove",
+          "mitt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Library of Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Meal Time Roles",
+        "items": [
+          "chef",
+          "waiter",
+          "baker",
+          "customer"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Silent Signals groups items that convey meaning or mood without words. Juggling Objects uses items used in play or sport. Library of Shapes uses geometric terms; some might think of color shapes, but focus is on the shape names. Meal Time Roles covers people at a restaurant setting. Near-miss temptation: 'clock' could belong to time-themed, but it clearly fits silent cues in that group; kept distinct to avoid overlap."
+  },
+  "id": "10142025",
+  "generatedAt": "2025-10-14T02:10:11.805Z"
+}

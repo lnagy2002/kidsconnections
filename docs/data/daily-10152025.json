@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10152025-E",
+    "generatedAt": "2025-10-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Common Classroom Objects",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Strings",
+        "items": [
+          "guitar",
+          "violin",
+          "banjo",
+          "piano"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow in Soil",
+        "items": [
+          "carrot",
+          "potato",
+          "onion",
+          "garlic"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "pie",
+          "coin",
+          "button"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: (1) Common classroom objects you might find at a desk. (2) Instruments that have strings. (3) Vegetables that grow underground. (4) Round items you can roll or eat. Near-miss temptation: 'pencil' could be mistaken for 'pen' if not careful, but a pencil is wood with graphite, while a pen is ink-based; here we use pencil to fit the 'classroom objects' theme."
+  },
+  "medium": {
+    "id": "10152025-M",
+    "generatedAt": "2025-10-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words with Common Prefixes",
+        "items": [
+          "unhappy",
+          "unknown",
+          "untold",
+          "unicycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Compounds",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "bookcase",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals by Habitat",
+        "items": [
+          "penguin",
+          "camel",
+          "parrot",
+          "otter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with Edges",
+        "items": [
+          "triangle",
+          "rectangle",
+          "square",
+          "pentagon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: (1) Prefix 'un-' indicates not or opposite. (2) Compound words formed from two independent words. (3) Animals grouped by habitat or notable features. (4) Common shapes with defined edges. Near-miss temptation: 'unicycle' could seem to fit 'Two-Part Compounds' due to two words, but it's a single-wheeled vehicle; used here to illustrate the 'un-' prefix rather than being a purely compound noun."
+  },
+  "hard": {
+    "id": "10152025-H",
+    "generatedAt": "2025-10-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Synonyms by Tone",
+        "items": [
+          "glum",
+          "merry",
+          "grim",
+          "sober"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites Pairs",
+        "items": [
+          "hot",
+          "cold",
+          "bright",
+          "dark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Number Words with Hidden Value",
+        "items": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Objects in Pairs",
+        "items": [
+          "fork",
+          "spoon",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: (1) Tone-based synonyms with clear positive/negative mood. (2) Opposites pairs commonly used together. (3) Numbers as words; look for straightforward counting. (4) Everyday paired items typically found at a table. Near-miss temptation: 'bright' could be linked to 'hot' as a temperature metaphor in some contexts, but in this set 'bright' is about light, not temperature; hence not a fit for the opposite pair group."
+  },
+  "id": "10152025",
+  "generatedAt": "2025-10-15T02:13:20.284Z"
+}

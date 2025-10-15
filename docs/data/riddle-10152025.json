@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am yellow and round, and I say 'ba-ba' when you squeeze me. What am I?",
+    "a": "A lemon? No—it's a riddle about a ball with a baa sound. Hmm. Try: a rubber duck.",
+    "hint": "Think of something fun you bounce or float in water."
+  },
+  "medium": {
+    "q": "I have keys but no doors, space but no room, you can enter but not go outside. What am I?",
+    "a": "A keyboard",
+    "hint": "It helps you type."
+  },
+  "hard": {
+    "q": "Two people start at the same time and finish at the same time, but one walks while the other runs and they never step on the same spot twice. What kind of journey is this?",
+    "a": "A clock's hands moving around a circular dial (a metaphorical journey of time)",
+    "hint": "Think about motion and paths that never overlap on a circle."
+  }
+}

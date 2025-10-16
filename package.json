@@ -7,7 +7,8 @@
     "wordle": "node scripts/generate-wordle-json.js",
     "riddle": "node scripts/generate-riddle-json.js",
     "mirror": "node scripts/generate-mirror-json.js",
-    "jigsaw": "node scripts/generate-images-json.js"
+    "jigsaw": "node scripts/generate-images-json.js",
+    "strands": "node scripts/generate-strands-json.js"
   },
   "dependencies": {
     "openai": "^4.0.0"

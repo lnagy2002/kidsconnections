@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10162025-E",
+    "generatedAt": "2025-10-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household things you use to eat",
+        "items": [
+          "plate",
+          "spoon",
+          "cup",
+          "fork"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that glow in the dark",
+        "items": [
+          "glowstick",
+          "firefly",
+          "lantern",
+          "neon sign"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in a box when you buy them",
+        "items": [
+          "puzzle",
+          "board game",
+          "teddy bear",
+          "shirt"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories use concrete, familiar items. Each group is a single clear category: 1) vehicles with wheels, 2) utensils for eating, 3) items that emit light, 4) items often sold or gifted in a box."
+  },
+  "medium": {
+    "id": "10162025-M",
+    "generatedAt": "2025-10-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that start with 'trip'",
+        "items": [
+          "triple",
+          "tricycle",
+          "tripod",
+          "triplet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-part compound words ending in -board",
+        "items": [
+          "surfboard",
+          "snowboard",
+          "keyboard",
+          "dashboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that hop",
+        "items": [
+          "kangaroo",
+          "rabbit",
+          "frog",
+          "pika"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you wear on hands",
+        "items": [
+          "gloves",
+          "mittens",
+          "fingerless gloves",
+          "arm warmers"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and two-step ideas. Near-miss temptation: 'board' words might tempt to group by 'things with a surface' but proper fit is specific to -board compounds; ensure items belong to the exact intended category."
+  },
+  "hard": {
+    "id": "10162025-H",
+    "generatedAt": "2025-10-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Concepts related to time passage",
+        "items": [
+          "yesterday",
+          "future",
+          "moment",
+          "era"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that describe temperature",
+        "items": [
+          "cool",
+          "hot",
+          "freezing",
+          "warmth"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that pair with 'stone' to form common terms",
+        "items": [
+          "cornerstone",
+          "keystone",
+          "milestone",
+          "grave stone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Items used for writing by hand (traditional)",
+        "items": [
+          "pencil",
+          "ink pen",
+          "chalk",
+          "marker"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups introduce abstract connections. Near-miss: 'grave stone' might tempt as a stone term but is not a common right-fit like the other compound terms. Ensure each item clearly fits its defined category without overlap."
+  },
+  "id": "10162025",
+  "generatedAt": "2025-10-16T02:11:59.339Z"
+}

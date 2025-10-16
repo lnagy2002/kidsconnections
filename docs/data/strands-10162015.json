@@ -1,0 +1,11 @@
+{
+  "easy": {
+    "words": ["AERIAL", "LOGIC", "MIND", "BRAIN", "SHAPE", "GRID", "TILE", "PATH"]
+  },
+  "medium": {
+    "words": ["ALGORITHM", "PUZZLE", "PATTERN", "REASON", "MEMORY", "STRATEGY", "SEARCH", "CURIOUS"]
+  },
+  "hard": {
+    "words": ["NEUROPLASTIC", "DEDUCTION", "CREATIVITY", "SEQUENCE", "SYMMETRY", "CONNECT", "OPTIMIZE", "ITERATION", "FUNCTION"]
+  }
+}

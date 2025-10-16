@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Word Search</title>
+<style>
+
+:root {
+  --bg: #0e364b;
+  --panel: #0e364b;
+  --text: #a9f4f4;
+  --ink: #a9f4f4;
+  --muted: #f0db79;
+  --border: #1b2659;
+  --ok: #4ade80;
+  --no: #64748b;
+  --maybe: #facc15;
+  --bad: #e4572e;
+  --key: #0f1736;
+}
+
+  .wrap {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    /* gap: 1rem; */
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* width: fit-content; */
+  }
+
+  /* Two columns: 70% + 30% */
+  .left {
+    /* flex: 0 0 70%; */
+    /* background: #cce5ff; */
+    padding: 1rem;
+  }
+  .right {
+    /* flex: 0 0 30%; */
+    /* background: #d4edda; */
+    padding: 1rem;
+  }
+
+  .board{
+    /* width:auto;display:grid;column-gap:0;row-gap:2px;
+    /* margin-top: 10px; */
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    user-select:none;touch-action:none;
+    cursor: pointer;
+
+  }
+  /* .cell{
+    width:38px;height:38px;display:grid;place-items:center;background:var(--tile);border-style:solid;border-color:var(--tile-edge);border-width:1px 0; /* top/bottom only to minimize horizontal spacing */
+    /* border-radius:6px;font-weight:700;letter-spacing:0
+  }  */
+
+.cell{
+  width: 50px;
+  height: 50px;
+  background: #0f4160;
+  color: #a9f4f4;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  user-select: none;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); box-shadow: 0 0 0 #e76f51; }
+  50%  { transform: scale(1.15); box-shadow: 0 0 18px #e76f51aa; }
+  100% { transform: scale(1.05); box-shadow: 0 0 10px #e76f51aa; }
+}
+
+  .cell.sel{
+    /* outline:2px solid var(--selected);background:linear-gradient(180deg,#143e58,#0b3046) */
+    background: var(--maybe);
+  color: #000;
+  /* transform: scale(1.05); */
+  /* box-shadow: 0 0 10px #e76f51aa; */
+  animation: pulse 0.4s ease;
+  }
+  .cell.found{
+    background:var(--ok)!important;color:#000;
+  }
+  .list{flex:1;min-width:260px;background:var(--key);border:1px solid var(--tile-edge);border-radius:12px;padding:12px}
+  .list h3{margin:0 0 6px;font-size:16px;color:var(--accent)}
+  ul.words{list-style:none;margin:0;padding:0;}
+  ul.words li{break-inside:avoid;margin:4px 6px;padding:4px 6px;border-radius:6px;background:#0b3347;font-weight:600}
+  ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--ok);}
+  .status{
+    font-size:14px;color:var(--muted);
+    text-align: center;
+  }
+  /* .kbd{background:#0b2f45;border:1px solid #184861;border-radius:6px;padding:2px 6px;font-weight:700} */
+  @media (max-width:700px){
+    .left,
+    .right {
+      flex: 0 0 100%;
+    }
+
+    .cell{
+      width: 40px;
+      height: 40px;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    .board{
+      gap:1px;
+    }
+}
+</style>
+<link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+<script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-KFSR46Z6C8');
+</script>
+</head>
+<body>
+<div class="main">
+  <div>
+    <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Word Search"></script>
+  </div>
+
+    <!-- <h3 class="section">Drag in a straight line to select letters. Release to check.</h3> -->
+    <div class="section">
+        <!-- <h4>Straight lines only (8 directions). Selection locks direction after the 2nd tile.</h4> -->
+        <!-- <button id="new">New Puzzle</button>
+        <button id="reveal">Reveal One</button> -->
+      </div>
+<div class="wrap">
+      <div class="container">
+        <div class="left"><div id="board" class="board"></div></div>
+        <div class="right">
+          <div class="list">
+            <h3>Find These Words</h3>
+            <ul id="wordList" class="words"></ul>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <div class="status" id="status"></div>
+  </div>
+
+<script>
+(function(){
+  // ---------- Config (levels & word banks) ----------
+  const LEVELS = {
+    easy:   { size: 8,  words: ["CODE","LOGIC","MIND","BRAIN","SHAPE","GRID","TILE","PATH"] },
+    medium: { size: 10, words: ["ALGORITHM","PUZZLE","PATTERN","REASON","MEMORY","STRATEGY","SEARCH","CURIOUS"] },
+    hard:   { size: 12, words: ["NEUROPLASTIC","DEDUCTION","CREATIVITY","SEQUENCE","SYMMETRY","CONNECT","OPTIMIZE","ITERATION","FUNCTION"] }
+  };
+
+  // 8 directions (dx,dy): N, NE, E, SE, S, SW, W, NW
+  const DIRS = [ [0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[-1,-1] ];
+
+  const elBoard = document.getElementById('board');
+  const elWordList = document.getElementById('wordList');
+  // const elLevel = document.getElementById('level');
+  const elStatus = document.getElementById('status');
+  // const btnNew = document.getElementById('new');
+  // const btnReveal = document.getElementById('reveal');
+
+  // State for the current puzzle
+  let grid = [], size = 10, placed = new Map(); // word -> array of {x,y}
+  let found = new Set();
+  let dragging = false, sel = []; // selection path of {x,y,el}
+  let lockedDir = null; // direction vector once 2nd cell chosen
+
+  function randInt(n){ return Math.floor(Math.random()*n); }
+  function inBounds(x,y){ return x>=0 && y>=0 && x<size && y<size; }
+
+  function clearStatus(msg=""){
+    elStatus.textContent = msg;
+  }
+
+  function alpha(){ return String.fromCharCode(65 + randInt(26)); }
+
+  function shuffle(arr){ for(let i=arr.length-1;i>0;i--){const j=randInt(i+1); [arr[i],arr[j]]=[arr[j],arr[i]];} return arr; }
+
+  // ---------- Grid generation ----------
+  function newEmptyGrid(n){
+    return Array.from({length:n},()=>Array(n).fill(null));
+  }
+
+  function canPlace(word, x, y, dx, dy, grid){
+    for(let i=0;i<word.length;i++){
+      const nx = x + dx*i, ny = y + dy*i;
+      if(!inBounds(nx,ny)) return false;
+      const cur = grid[ny][nx];
+      if(cur && cur !== word[i]) return false; // conflicting different letter
+    }
+    return true;
+  }
+
+  function placeWord(word, grid){
+    const attempts = size*size*4;
+    for(let a=0;a<attempts;a++){
+      const [dx,dy] = DIRS[randInt(DIRS.length)];
+      const x = randInt(size), y = randInt(size);
+      if(canPlace(word,x,y,dx,dy,grid)){
+        const coords=[];
+        for(let i=0;i<word.length;i++){
+          const nx=x+dx*i, ny=y+dy*i;
+          grid[ny][nx]=word[i];
+          coords.push({x:nx,y:ny});
+        }
+        placed.set(word, coords);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function fillBlanks(grid){
+    for(let y=0;y<size;y++){
+      for(let x=0;x<size;x++){
+        if(!grid[y][x]) grid[y][x] = alpha();
+      }
+    }
+  }
+
+  function renderBoard(){
+    elBoard.style.gridTemplateColumns = `repeat(${size}, max-content)`;
+    elBoard.innerHTML = '';
+    for(let y=0;y<size;y++){
+      for(let x=0;x<size;x++){
+        const div = document.createElement('div');
+        div.className = 'cell';
+        div.textContent = grid[y][x];
+        div.dataset.x = x;
+        div.dataset.y = y;
+        elBoard.appendChild(div);
+      }
+    }
+  }
+
+  function renderList(words){
+    elWordList.innerHTML = '';
+    for(const w of words){
+      const li = document.createElement('li');
+      li.textContent = w;
+      li.id = `word-${w}`;
+      elWordList.appendChild(li);
+    }
+  }
+
+  function markFound(word){
+    const coords = placed.get(word) || [];
+    for(const {x,y} of coords){
+      const idx = y*size + x;
+      const cell = elBoard.children[idx];
+      cell.classList.remove('sel');
+      cell.classList.add('found'); // persist green highlight
+    }
+    found.add(word);
+    const li = document.getElementById(`word-${word}`);
+    if(li) li.classList.add('found'); // cross off the list
+    clearStatus(found.size === placed.size ? '🎉 All words found!' : `Found: ${word}`);
+    if (found.size === placed.size) {
+      celebrate ();
+    }
+  }
+
+  function resetSelection(){
+    for(const s of sel){
+      if(!s.el.classList.contains('found')) s.el.classList.remove('sel');
+    }
+    sel = [];
+    lockedDir = null;
+  }
+
+  function dirFrom(a,b){
+    const dx = Math.sign(b.x - a.x);
+    const dy = Math.sign(b.y - a.y);
+    return [dx,dy];
+  }
+
+  function areNeighbors(a,b){
+    return Math.max(Math.abs(a.x-b.x), Math.abs(a.y-b.y))===1;
+  }
+
+  // Check if the selected path matches any placed word (forward or backward)
+  function checkSelection(){
+    if(sel.length<2){ resetSelection(); return; }
+    const path = sel.map(s=>grid[s.y][s.x]).join('');
+    const rpath = path.split('').reverse().join('');
+
+    // Direct coordinate match: faster and exact (ensures straight line as placed)
+    for(const [word,coords] of placed.entries()){
+      if(found.has(word)) continue;
+      const w1 = coords.map(c=>grid[c.y][c.x]).join('');
+      const w2 = w1.split('').reverse().join('');
+      const selStr = path;
+      const selRev = rpath;
+      if(selStr===w1 || selStr===w2 || selRev===w1 || selRev===w2){
+        // Confirm path covers the exact coordinates (length equal)
+        if(sel.length === coords.length){
+          markFound(word);
+          resetSelection();
+          return;
+        }
+      }
+    }
+    // No match -> clear selection
+    clearStatus('Not a word. Try again.');
+    resetSelection();
+  }
+
+  function handlePointerDown(e){
+    const target = e.target.closest('.cell');
+    if(!target || target.classList.contains('found')) return;
+    dragging = true; sel=[]; lockedDir=null; clearStatus('');
+    addToSelection(target);
+  }
+  function handlePointerMove(e){
+    if(!dragging) return;
+    const target = document.elementFromPoint(e.clientX, e.clientY)?.closest('.cell');
+    if(!target) return;
+    const last = sel[sel.length-1];
+    const nx = +target.dataset.x, ny = +target.dataset.y;
+    if(last && last.x===nx && last.y===ny) return;
+    addToSelection(target);
+  }
+  function handlePointerUp(){
+    dragging=false; checkSelection();
+  }
+
+  function addToSelection(target){
+    const x = +target.dataset.x, y = +target.dataset.y;
+    const cur = {x,y,el:target};
+    if(target.classList.contains('found')) return; // already found
+
+    if(sel.length===0){
+      sel.push(cur); target.classList.add('sel'); return;
+    }
+
+    const last = sel[sel.length-1];
+    if(!areNeighbors(last,cur)) return; // must be adjacent
+
+    // Lock direction after second tile
+    if(sel.length===1){ lockedDir = dirFrom(last,cur); }
+    else{
+      const d = dirFrom(last,cur);
+      if(d[0]!==lockedDir[0] || d[1]!==lockedDir[1]) return; // must stay straight
+    }
+
+    // Prevent backtracking within current selection
+    if(sel.some(s=>s.x===x && s.y===y)) return;
+
+    target.classList.add('sel');
+    sel.push(cur);
+  }
+
+  // ---------- Puzzle lifecycle ----------
+  function build(levelKey){
+    const {size:sz, words} = LEVELS[levelKey];
+    size = sz; placed.clear(); found.clear();
+    grid = newEmptyGrid(size);
+
+    // Place words (ensure uppercase)
+    const wordsUp = words.map(w=>w.toUpperCase());
+    const sorted = [...wordsUp].sort((a,b)=>b.length-a.length); // place longer first
+
+    let placedCount=0;
+    for(const w of sorted){
+      if(placeWord(w, grid)) placedCount++;
+    }
+    fillBlanks(grid);
+
+    renderBoard();
+    renderList(wordsUp);
+
+    // Wire events
+    elBoard.addEventListener('pointerdown', handlePointerDown);
+    window.addEventListener('pointermove', handlePointerMove);
+    window.addEventListener('pointerup', handlePointerUp);
+
+    clearStatus(`Placed ${placedCount}/${wordsUp.length} words.`);
+  }
+
+  // Reveal one not-yet-found word (helper)
+  function revealOne(){
+    const remaining = [...placed.keys()].filter(w=>!found.has(w));
+    if(!remaining.length) return;
+    const w = remaining[randInt(remaining.length)];
+    markFound(w);
+  }
+
+  // Controls
+  // elLevel.addEventListener('change', ()=> build(elLevel.value));
+  // btnNew.addEventListener('click', ()=> build(elLevel.value));
+  // btnReveal.addEventListener('click', revealOne);
+
+  // Init
+  const level = getQueryParam('level') || 'easy';
+  build(level);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have 4 legs but I do not walk. I come in a set of four and I hold things steady. What am I?",
+    "a": "A chair leg / a stool",
+    "hint": "Think of furniture that helps you sit or hold a table."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "When you add two letters to me, you get a word meaning not many."
+  },
+  "hard": {
+    "q": "A boy starts with 9 coins. He spends some, then earns the same amount back, ending with twice the amount he began. How many did he spend (and earn back) if he ends with 18 coins?",
+    "a": "9",
+    "hint": "Let the spent amount be x; after spending and then earning x, total becomes 2*(start) = 18."
+  }
+}

@@ -122,16 +122,18 @@ async function generateWithOpenAI({ date, excludeList }) {
   // If your SDK version doesn’t support response_format here, you can
   // switch to chat.completions with function-style JSON instructions.
   const resp = await client.responses.create({
-    model: MODEL,
-    temperature: TEMPERATURE,
-    top_p: TOP_P,
-    seed, // best-effort reproducibility
-    text: { format: "json" }, 
-    input: [
-      { role: "system", content: system },
-      { role: "user", content: user }
-    ]
-  });
+  model: MODEL,
+  temperature: TEMPERATURE,
+  top_p: TOP_P,
+  text: { format: "json" },
+  input: [
+    { role: "system", content: system },
+    {
+      role: "user",
+      content: `Generate today's unique word sets for ${date}. Use this date as a seed to keep results consistent for the same day.\n\n${user}`
+    }
+  ]
+});
 
   const text = resp.output_text || (resp?.output?.[0]?.content?.[0]?.text) || "";
   let json;

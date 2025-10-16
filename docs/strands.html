@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Word Search</title>
 <style>
-
 :root {
   --bg: #0e364b;
   --panel: #0e364b;
@@ -20,106 +19,64 @@
   --key: #0f1736;
 }
 
-  .wrap {
-    display: flex;
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    /* gap: 1rem; */
-    margin: 0 auto;
-    flex-wrap: wrap;
-    /* width: fit-content; */
-  }
+.wrap { display:flex; justify-content:center; }
+.container { display:flex; margin:0 auto; flex-wrap:wrap; }
+.left { padding:1rem; }
+.right { padding:1rem; }
 
-  /* Two columns: 70% + 30% */
-  .left {
-    /* flex: 0 0 70%; */
-    /* background: #cce5ff; */
-    padding: 1rem;
-  }
-  .right {
-    /* flex: 0 0 30%; */
-    /* background: #d4edda; */
-    padding: 1rem;
-  }
-
-  .board{
-    /* width:auto;display:grid;column-gap:0;row-gap:2px;
-    /* margin-top: 10px; */
-    display: grid;
-    gap: 5px;
-    justify-content: center;
-    user-select:none;touch-action:none;
-    cursor: pointer;
-
-  }
-  /* .cell{
-    width:38px;height:38px;display:grid;place-items:center;background:var(--tile);border-style:solid;border-color:var(--tile-edge);border-width:1px 0; /* top/bottom only to minimize horizontal spacing */
-    /* border-radius:6px;font-weight:700;letter-spacing:0
-  }  */
+.board{
+  display:grid;
+  gap:5px;
+  justify-content:center;
+  user-select:none; touch-action:none;
+  cursor:pointer;
+}
 
 .cell{
-  width: 50px;
-  height: 50px;
-  background: #0f4160;
-  color: #a9f4f4;
-  font-weight: 600;
-  font-size: 1.3rem;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
-  user-select: none;
+  width:50px; height:50px;
+  background:#0f4160;
+  color:#a9f4f4;
+  font-weight:600; font-size:1.3rem;
+  border-radius:12px;
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer; transition:all .15s ease;
+  box-shadow:0 1px 2px rgba(0,0,0,.3);
+  user-select:none;
 }
 
 @keyframes pulse {
-  0%   { transform: scale(1); box-shadow: 0 0 0 #e76f51; }
-  50%  { transform: scale(1.15); box-shadow: 0 0 18px #e76f51aa; }
-  100% { transform: scale(1.05); box-shadow: 0 0 10px #e76f51aa; }
+  0%   { transform:scale(1); box-shadow:0 0 0 #e76f51; }
+  50%  { transform:scale(1.15); box-shadow:0 0 18px #e76f51aa; }
+  100% { transform:scale(1.05); box-shadow:0 0 10px #e76f51aa; }
 }
 
-  .cell.sel{
-    /* outline:2px solid var(--selected);background:linear-gradient(180deg,#143e58,#0b3046) */
-    background: var(--maybe);
-  color: #000;
-  /* transform: scale(1.05); */
-  /* box-shadow: 0 0 10px #e76f51aa; */
-  animation: pulse 0.4s ease;
-  }
-  .cell.found{
-    background:var(--ok)!important;color:#000;
-  }
-  .list{flex:1;min-width:260px;background:var(--key);border:1px solid var(--tile-edge);border-radius:12px;padding:12px}
-  .list h3{margin:0 0 6px;font-size:16px;color:var(--accent)}
-  ul.words{list-style:none;margin:0;padding:0;}
-  ul.words li{break-inside:avoid;margin:4px 6px;padding:4px 6px;border-radius:6px;background:#0b3347;font-weight:600}
-  ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--ok);}
-  .status{
-    font-size:14px;color:var(--muted);
-    text-align: center;
-  }
-  /* .kbd{background:#0b2f45;border:1px solid #184861;border-radius:6px;padding:2px 6px;font-weight:700} */
-  @media (max-width:700px){
-    .left,
-    .right {
-      flex: 0 0 100%;
-    }
+.cell.sel{
+  background:var(--maybe);
+  color:#000;
+  animation:pulse .4s ease;
+}
+.cell.found{
+  background:var(--ok)!important; color:#000;
+}
+/* New: if a found tile is currently selected, keep it green but show a subtle outline/pulse */
+.cell.found.sel{
+  outline:2px solid #fff3; animation:pulse .4s ease;
+}
 
-    .cell{
-      width: 40px;
-      height: 40px;
-      font-weight: 500;
-      font-size: 1rem;
-    }
-    .board{
-      gap:1px;
-    }
+.list{flex:1;min-width:260px;background:var(--key);border:1px solid var(--tile-edge);border-radius:12px;padding:12px}
+.list h3{margin:0 0 6px;font-size:16px;color:var(--accent)}
+ul.words{list-style:none;margin:0;padding:0;}
+ul.words li{break-inside:avoid;margin:4px 6px;padding:4px 6px;border-radius:6px;background:#0b3347;font-weight:600}
+ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--ok);}
+.status{font-size:14px;color:var(--muted);text-align:center;}
+
+@media (max-width:700px){
+  .left,.right{flex:0 0 100%;}
+  .cell{width:40px; height:40px; font-weight:500; font-size:1rem;}
+  .board{gap:1px;}
 }
 </style>
+
 <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
 <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
@@ -137,26 +94,21 @@
     <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Word Search"></script>
   </div>
 
-    <!-- <h3 class="section">Drag in a straight line to select letters. Release to check.</h3> -->
-    <div class="section">
-        <!-- <h4>Straight lines only (8 directions). Selection locks direction after the 2nd tile.</h4> -->
-        <!-- <button id="new">New Puzzle</button>
-        <button id="reveal">Reveal One</button> -->
-      </div>
-<div class="wrap">
-      <div class="container">
-        <div class="left"><div id="board" class="board"></div></div>
-        <div class="right">
-          <div class="list">
-            <h3>Find These Words</h3>
-            <ul id="wordList" class="words"></ul>
-          </div>
+  <div class="section"></div>
+
+  <div class="wrap">
+    <div class="container">
+      <div class="left"><div id="board" class="board"></div></div>
+      <div class="right">
+        <div class="list">
+          <h3>Find These Words</h3>
+          <ul id="wordList" class="words"></ul>
         </div>
       </div>
-
-      </div>
-      <div class="status" id="status"></div>
+    </div>
   </div>
+  <div class="status" id="status"></div>
+</div>
 
 <script>
 (function(){
@@ -172,12 +124,8 @@
 
   const elBoard = document.getElementById('board');
   const elWordList = document.getElementById('wordList');
-  // const elLevel = document.getElementById('level');
   const elStatus = document.getElementById('status');
-  // const btnNew = document.getElementById('new');
-  // const btnReveal = document.getElementById('reveal');
 
-  // State for the current puzzle
   let grid = [], size = 10, placed = new Map(); // word -> array of {x,y}
   let found = new Set();
   let dragging = false, sel = []; // selection path of {x,y,el}
@@ -185,26 +133,19 @@
 
   function randInt(n){ return Math.floor(Math.random()*n); }
   function inBounds(x,y){ return x>=0 && y>=0 && x<size && y<size; }
-
-  function clearStatus(msg=""){
-    elStatus.textContent = msg;
-  }
-
+  function clearStatus(msg=""){ elStatus.textContent = msg; }
   function alpha(){ return String.fromCharCode(65 + randInt(26)); }
-
   function shuffle(arr){ for(let i=arr.length-1;i>0;i--){const j=randInt(i+1); [arr[i],arr[j]]=[arr[j],arr[i]];} return arr; }
 
   // ---------- Grid generation ----------
-  function newEmptyGrid(n){
-    return Array.from({length:n},()=>Array(n).fill(null));
-  }
+  function newEmptyGrid(n){ return Array.from({length:n},()=>Array(n).fill(null)); }
 
   function canPlace(word, x, y, dx, dy, grid){
     for(let i=0;i<word.length;i++){
       const nx = x + dx*i, ny = y + dy*i;
       if(!inBounds(nx,ny)) return false;
       const cur = grid[ny][nx];
-      if(cur && cur !== word[i]) return false; // conflicting different letter
+      if(cur && cur !== word[i]) return false;
     }
     return true;
   }
@@ -271,17 +212,16 @@
     }
     found.add(word);
     const li = document.getElementById(`word-${word}`);
-    if(li) li.classList.add('found'); // cross off the list
+    if(li) li.classList.add('found');
     clearStatus(found.size === placed.size ? '🎉 All words found!' : `Found: ${word}`);
     if (found.size === placed.size) {
-      celebrate ();
+      celebrate?.(); // if you have a celebrate() elsewhere
     }
   }
 
   function resetSelection(){
-    for(const s of sel){
-      if(!s.el.classList.contains('found')) s.el.classList.remove('sel');
-    }
+    // Always clear the temporary selection glow—even on found tiles
+    for(const s of sel){ s.el.classList.remove('sel'); }
     sel = [];
     lockedDir = null;
   }
@@ -302,7 +242,6 @@
     const path = sel.map(s=>grid[s.y][s.x]).join('');
     const rpath = path.split('').reverse().join('');
 
-    // Direct coordinate match: faster and exact (ensures straight line as placed)
     for(const [word,coords] of placed.entries()){
       if(found.has(word)) continue;
       const w1 = coords.map(c=>grid[c.y][c.x]).join('');
@@ -310,7 +249,6 @@
       const selStr = path;
       const selRev = rpath;
       if(selStr===w1 || selStr===w2 || selRev===w1 || selRev===w2){
-        // Confirm path covers the exact coordinates (length equal)
         if(sel.length === coords.length){
           markFound(word);
           resetSelection();
@@ -318,14 +256,14 @@
         }
       }
     }
-    // No match -> clear selection
     clearStatus('Not a word. Try again.');
     resetSelection();
   }
 
   function handlePointerDown(e){
     const target = e.target.closest('.cell');
-    if(!target || target.classList.contains('found')) return;
+    if(!target) return;
+    // Allow starting on found tiles (intersections)
     dragging = true; sel=[]; lockedDir=null; clearStatus('');
     addToSelection(target);
   }
@@ -345,7 +283,6 @@
   function addToSelection(target){
     const x = +target.dataset.x, y = +target.dataset.y;
     const cur = {x,y,el:target};
-    if(target.classList.contains('found')) return; // already found
 
     if(sel.length===0){
       sel.push(cur); target.classList.add('sel'); return;
@@ -374,39 +311,22 @@
     size = sz; placed.clear(); found.clear();
     grid = newEmptyGrid(size);
 
-    // Place words (ensure uppercase)
     const wordsUp = words.map(w=>w.toUpperCase());
-    const sorted = [...wordsUp].sort((a,b)=>b.length-a.length); // place longer first
+    const sorted = [...wordsUp].sort((a,b)=>b.length-a.length);
 
     let placedCount=0;
-    for(const w of sorted){
-      if(placeWord(w, grid)) placedCount++;
-    }
+    for(const w of sorted){ if(placeWord(w, grid)) placedCount++; }
     fillBlanks(grid);
 
     renderBoard();
     renderList(wordsUp);
 
-    // Wire events
     elBoard.addEventListener('pointerdown', handlePointerDown);
     window.addEventListener('pointermove', handlePointerMove);
     window.addEventListener('pointerup', handlePointerUp);
 
     clearStatus(`Placed ${placedCount}/${wordsUp.length} words.`);
   }
-
-  // Reveal one not-yet-found word (helper)
-  function revealOne(){
-    const remaining = [...placed.keys()].filter(w=>!found.has(w));
-    if(!remaining.length) return;
-    const w = remaining[randInt(remaining.length)];
-    markFound(w);
-  }
-
-  // Controls
-  // elLevel.addEventListener('change', ()=> build(elLevel.value));
-  // btnNew.addEventListener('click', ()=> build(elLevel.value));
-  // btnReveal.addEventListener('click', revealOne);
 
   // Init
   const level = getQueryParam('level') || 'easy';

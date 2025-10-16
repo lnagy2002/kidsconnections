@@ -1,0 +1,33 @@
+{
+  "easy": [
+    "CAT",
+    "DOG",
+    "SUN",
+    "FAN",
+    "HAT",
+    "RUN",
+    "TOP",
+    "PEN"
+  ],
+  "medium": [
+    "MYSTIC",
+    "GARDEN",
+    "CANDLE",
+    "FESTIVE",
+    "JOURNAL",
+    "PLASTIC",
+    "SPIRITS",
+    "TROPHIES"
+  ],
+  "hard": [
+    "EXEMPLARY",
+    "COMPLICATE",
+    "TRANSLATE",
+    "HARMONIOUS",
+    "SPECTACULAR",
+    "CONTRIBUTE",
+    "EXPERIMENT",
+    "INNOVATION",
+    "UNDERSTAND"
+  ]
+}

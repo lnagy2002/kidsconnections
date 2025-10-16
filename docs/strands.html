@@ -114,9 +114,15 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
 (function(){
   // ---------- Config (levels & word banks) ----------
   const LEVELS = {
-    easy:   { size: 8,  words: ["CODE","LOGIC","MIND","BRAIN","SHAPE","GRID","TILE","PATH"] },
-    medium: { size: 10, words: ["ALGORITHM","PUZZLE","PATTERN","REASON","MEMORY","STRATEGY","SEARCH","CURIOUS"] },
-    hard:   { size: 12, words: ["NEUROPLASTIC","DEDUCTION","CREATIVITY","SEQUENCE","SYMMETRY","CONNECT","OPTIMIZE","ITERATION","FUNCTION"] }
+    easy:   { words: ["AERIAL","LOGIC","MIND","BRAIN","SHAPE","GRID","TILE","PATH"] },
+    medium: { words: ["ALGORITHM","PUZZLE","PATTERN","REASON","MEMORY","STRATEGY","SEARCH","CURIOUS"] },
+    hard:   { words: ["NEUROPLASTIC","DEDUCTION","CREATIVITY","SEQUENCE","SYMMETRY","CONNECT","OPTIMIZE","ITERATION","FUNCTION"] }
+  };
+
+  const SIZES = {
+    easy:   { size: 8},
+    medium: { size: 10},
+    hard:   { size: 12}
   };
 
   // 8 directions (dx,dy): N, NE, E, SE, S, SW, W, NW
@@ -139,6 +145,25 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
 
   // ---------- Grid generation ----------
   function newEmptyGrid(n){ return Array.from({length:n},()=>Array(n).fill(null)); }
+
+
+  // -----------------------
+  // Load images.json (with embedded fallback)
+  // -----------------------
+  async function loadWordsList() {
+    const level = getQueryParam('level')  || 'easy';
+    gtag('event', 'strands_load_level_'  + level, { app: 'strands' });
+
+    try {
+      const r = await fetch('https://lnagy2002.github.io/kidsconnections/data/strands-' + formattedFileDate + ".json", { cache: 'no-store' }); // <-- your JSON file
+      if (!r.ok) throw new Error('strands.json missing');
+      return await r.json();
+    } catch (e) {
+      gtag('event', 'strands_failed_loading_level_'  + level, { app: 'strands' });
+      // final fallback: 1 image
+      return LEVELS;
+    }
+  }
 
   function canPlace(word, x, y, dx, dy, grid){
     for(let i=0;i<word.length;i++){
@@ -306,11 +331,13 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
   }
 
   // ---------- Puzzle lifecycle ----------
-  function build(levelKey){
-    const {size:sz, words} = LEVELS[levelKey];
+  async function build(levelKey){
+    const {size:sz} = SIZES[levelKey];
     size = sz; placed.clear(); found.clear();
     grid = newEmptyGrid(size);
 
+    const list = await loadWordsList();
+    const {words:words} = list[levelKey];
     const wordsUp = words.map(w=>w.toUpperCase());
     const sorted = [...wordsUp].sort((a,b)=>b.length-a.length);
 

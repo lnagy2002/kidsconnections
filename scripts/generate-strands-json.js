@@ -126,7 +126,7 @@ async function generateWithOpenAI({ date, excludeList }) {
     temperature: TEMPERATURE,
     top_p: TOP_P,
     seed, // best-effort reproducibility
-    response_format: { type: "json_object" },
+    text: { format: "json" }, 
     input: [
       { role: "system", content: system },
       { role: "user", content: user }

@@ -122,10 +122,11 @@ async function generateWithOpenAI({ date, excludeList }) {
   // If your SDK version doesn’t support response_format here, you can
   // switch to chat.completions with function-style JSON instructions.
   const resp = await client.responses.create({
+  
   model: MODEL,
   temperature: TEMPERATURE,
   top_p: TOP_P,
-  text: { format: "json" },
+  text: { format: { type: "json_object" } },
   input: [
     { role: "system", content: system },
     {

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10172025-E",
+    "generatedAt": "2025-10-17T00:00:00Z",
+    "groups": [
+      {
+        "name": "Common Pets",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "sofa",
+          "stool",
+          "bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sleep Aids",
+        "items": [
+          "pillow",
+          "blanket",
+          "alarm",
+          "sleep mask"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "knife",
+          "fork",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: each group has four familiar items. Near misses were considered (e.g., 'alarm' could be a 'sleep aid' or 'clock'), but is kept within 'Sleep Aids' as an alarm helps with waking up. The four groups are distinct: pets, seating, sleep aids, and kitchen tools."
+  },
+  "medium": {
+    "id": "10172025-M",
+    "generatedAt": "2025-10-17T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words with 'pre' Prefix",
+        "items": [
+          "preheat",
+          "preview",
+          "prepay",
+          "prevent"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a Plant",
+        "items": [
+          "root",
+          "stem",
+          "leaf",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snack Time Blends",
+        "items": [
+          "peanutbutter",
+          "applejuice",
+          "banana",
+          "carrotstick"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with Edges",
+        "items": [
+          "square",
+          "triangle",
+          "rectangle",
+          "pentagon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories balance wordplay and concrete items. Near-miss temptations: 'preheat' and 'preview' both start with 'pre' but belong to different conceptual groups; 'root' could be confused with 'stem' as plant parts, but 'root' is the only true base part. Ensure players link each item to its group by the core idea (prefix, plant part, snack concept, polygon)."
+  },
+  "hard": {
+    "id": "10172025-H",
+    "generatedAt": "2025-10-17T00:00:00Z",
+    "groups": [
+      {
+        "name": "Color-Word Pairs",
+        "items": [
+          "bluebird",
+          "greenlight",
+          "redbook",
+          "yellowcake"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools in a Toolbox",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "pliers",
+          "measuring tape"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Transportation (By Water, Air, Land)",
+        "items": [
+          "bicycle",
+          "submarine",
+          "hotairballoon",
+          "rowboat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite Pairs (Common Pairs)",
+        "items": [
+          "hot-cold",
+          "light-dark",
+          "open-closed",
+          "fast-slow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories introduce mild abstraction: color-word compounds, practical tools, broad transport modes, and common antonym pairs. Near-miss temptations include mistaking 'bluebird' as a single animal rather than a color+animal compound or confusing 'submarine' with 'boat' as generic watercraft. Each item fits only its group by the defining relationship."
+  },
+  "id": "10172025",
+  "generatedAt": "2025-10-17T02:10:51.169Z"
+}

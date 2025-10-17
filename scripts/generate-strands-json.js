@@ -180,10 +180,8 @@ async function main() {
   const payload = { date, ...datedObj };
 
   const datedPath = path.join(OUT_DIR, `strands-${date}.json`);
-  const latestPath = path.join(OUT_DIR, "latest.json");
 
   fs.writeFileSync(datedPath, JSON.stringify(datedObj, null, 2) + "\n");
-  fs.writeFileSync(latestPath, JSON.stringify(payload, null, 2) + "\n");
 
   // Update history
   saveHistory(loadHistory().raw, { easy, medium, hard });

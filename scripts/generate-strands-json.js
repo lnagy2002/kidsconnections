@@ -23,7 +23,7 @@ const TOP_P = 0.95;
 // Exclude proper nouns, hyphens, spaces, numbers, diacritics.
 // Tune lengths by difficulty.
 const RULES = {
-  easy:   { min: 3, max: 7 },
+  easy:   { min: 4, max: 7 },
   medium: { min: 6, max: 11 },
   hard:   { min: 8, max: 14 },
 };
@@ -102,7 +102,7 @@ async function generateWithOpenAI({ date, excludeList }) {
     "Rules:",
     "- Uppercase A–Z only. No spaces, hyphens, apostrophes, digits, or diacritics.",
     "- English dictionary words; no proper nouns; no trademarks.",
-    "- Obey per-level lengths: EASY 3–7, MEDIUM 6–11, HARD 8–14 letters.",
+    "- Obey per-level lengths: EASY 4–7, MEDIUM 6–11, HARD 8–14 letters.",
     "- Provide novel words not in the EXCLUSIONS list."
   ].join("\n");
 
@@ -118,6 +118,7 @@ async function generateWithOpenAI({ date, excludeList }) {
     }
   });
 
+  
   // Use the Responses API (official JS SDK) with JSON response format.
   // If your SDK version doesn’t support response_format here, you can
   // switch to chat.completions with function-style JSON instructions.
@@ -131,7 +132,10 @@ async function generateWithOpenAI({ date, excludeList }) {
     { role: "system", content: system },
     {
       role: "user",
-      content: `Generate today's unique word sets for ${date}. Use this date as a seed to keep results consistent for the same day.\n\n${user}`
+      content: `Generate today's unique word sets for ${date}. Use this date as a seed to keep results consistent for the same day. 
+      Absolutely do not include any word from the EXCLUSIONS array.
+        Input JSON (use this data as guidance):
+        ${user}`
     }
   ]
 });

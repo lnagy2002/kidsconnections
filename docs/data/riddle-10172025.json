@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail, but I’m not a kite. I hum when I’m happy and I’m always in sight. What am I?",
+    "a": "A cat",
+    "hint": "Think of something that wags when excited."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "A tiny number with three letters."
+  },
+  "hard": {
+    "q": "Two friends start at opposite ends of a road that is 1 km long. Each walks toward the center at the same speed. Where do they meet and why does the distance between them stay the same until they meet?",
+    "a": "They meet in the middle; the distance between them decreases as they approach but is always equal to the remaining distance until meeting.",
+    "hint": "Consider symmetry and relative motion on a line."
+  }
+}

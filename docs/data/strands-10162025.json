@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "CAT",
-      "DOG",
-      "SUN",
-      "FAN",
-      "HAT",
-      "RUN",
-      "TOP",
-      "PEN"
+      "BAT",
+      "RAT",
+      "WEB",
+      "MAP",
+      "JAR",
+      "MUD",
+      "LOG",
+      "HAY"
     ]
   },
   "medium": {
     "words": [
-      "MYSTIC",
-      "GARDEN",
-      "CANDLE",
-      "FESTIVE",
-      "JOURNAL",
-      "PLASTIC",
-      "SPIRITS",
-      "TROPHIES"
+      "BRIGHT",
+      "CIRCLE",
+      "FARMER",
+      "GIRAFFE",
+      "JOURNEY",
+      "LANTERN",
+      "PILLOW",
+      "SILVER"
     ]
   },
   "hard": {
     "words": [
-      "EXEMPLARY",
-      "COMPLICATE",
-      "TRANSLATE",
-      "HARMONIOUS",
-      "SPECTACULAR",
-      "CONTRIBUTE",
-      "EXPERIMENT",
-      "INNOVATION",
-      "UNDERSTAND"
+      "ADVENTURE",
+      "BACKWARDS",
+      "CONSTRUCT",
+      "ELEVATION",
+      "GRADUATION",
+      "NARRATIVE",
+      "SPECTACLE",
+      "TRIANGLE",
+      "WONDERFUL"
     ]
   }
 }

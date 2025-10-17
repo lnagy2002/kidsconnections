@@ -7,7 +7,15 @@
     "HAT",
     "RUN",
     "TOP",
-    "PEN"
+    "PEN",
+    "BAT",
+    "RAT",
+    "WEB",
+    "MAP",
+    "JAR",
+    "MUD",
+    "LOG",
+    "HAY"
   ],
   "medium": [
     "MYSTIC",
@@ -17,7 +25,15 @@
     "JOURNAL",
     "PLASTIC",
     "SPIRITS",
-    "TROPHIES"
+    "TROPHIES",
+    "BRIGHT",
+    "CIRCLE",
+    "FARMER",
+    "GIRAFFE",
+    "JOURNEY",
+    "LANTERN",
+    "PILLOW",
+    "SILVER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -28,6 +44,15 @@
     "CONTRIBUTE",
     "EXPERIMENT",
     "INNOVATION",
-    "UNDERSTAND"
+    "UNDERSTAND",
+    "ADVENTURE",
+    "BACKWARDS",
+    "CONSTRUCT",
+    "ELEVATION",
+    "GRADUATION",
+    "NARRATIVE",
+    "SPECTACLE",
+    "TRIANGLE",
+    "WONDERFUL"
   ]
 }

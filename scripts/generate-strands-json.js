@@ -171,32 +171,10 @@ async function main() {
   let candidate = await generateWithOpenAI({ date, excludeList: recentExclusions });
 
   // Post-filter to strictly enforce rules and avoid any collisions with history
-  const easy = setDiffFilter(candidate.easy.words, historySet, RULES.easy).slice(0, COUNTS.easy);
-  const medium = setDiffFilter(candidate.medium.words, historySet, RULES.medium).slice(0, COUNTS.medium);
-  const hard = setDiffFilter(candidate.hard.words, historySet, RULES.hard).slice(0, COUNTS.hard);
+  const easy = candidate.easy.words;
+  const medium = candidate.medium.words;
+  const hard = candidate.hard.words;
 
-  // If any level short, re-ask with expanded exclusions (previous + what we kept) once.
-  const needsRetry = (easy.length < COUNTS.easy) || (medium.length < COUNTS.medium) || (hard.length < COUNTS.hard);
-  if (needsRetry) {
-    const unionExclusions = Array.from(new Set([
-      ...recentExclusions,
-      ...easy, ...medium, ...hard
-    ]));
-    const cand2 = await generateWithOpenAI({ date, excludeList: unionExclusions });
-    const e2 = setDiffFilter(cand2.easy.words,   historySet, RULES.easy);
-    const m2 = setDiffFilter(cand2.medium.words, historySet, RULES.medium);
-    const h2 = setDiffFilter(cand2.hard.words,   historySet, RULES.hard);
-
-    // Fill any gaps
-    while (easy.length   < COUNTS.easy   && e2.length) easy.push(e2.shift());
-    while (medium.length < COUNTS.medium && m2.length) medium.push(m2.shift());
-    while (hard.length   < COUNTS.hard   && h2.length) hard.push(h2.shift());
-  }
-
-  // Final guard
-  if (easy.length < COUNTS.easy || medium.length < COUNTS.medium || hard.length < COUNTS.hard) {
-    throw new Error("Not enough valid unique words returned. Try loosening rules or increasing retry logic.");
-  }
 
   const datedObj = { easy: { words: easy }, medium: { words: medium }, hard: { words: hard } };
   const payload = { date, ...datedObj };

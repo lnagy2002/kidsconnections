@@ -15,7 +15,15 @@
     "JAR",
     "MUD",
     "LOG",
-    "HAY"
+    "HAY",
+    "BIRD",
+    "LAMP",
+    "COLD",
+    "WIND",
+    "FISH",
+    "MOON",
+    "WAVE",
+    "BARK"
   ],
   "medium": [
     "MYSTIC",
@@ -33,7 +41,13 @@
     "JOURNEY",
     "LANTERN",
     "PILLOW",
-    "SILVER"
+    "SILVER",
+    "BLOOMER",
+    "CROWDING",
+    "DREAMER",
+    "HORIZON",
+    "THUNDER",
+    "WATERING"
   ],
   "hard": [
     "EXEMPLARY",
@@ -53,6 +67,14 @@
     "NARRATIVE",
     "SPECTACLE",
     "TRIANGLE",
-    "WONDERFUL"
+    "WONDERFUL",
+    "CONCEIVE",
+    "FIREPLACE",
+    "GATHERING",
+    "HARMONIZE",
+    "INTERFACE",
+    "JOURNEYER",
+    "SPIRALING",
+    "TRADITION"
   ]
 }

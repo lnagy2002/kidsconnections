@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am not a cat. I help you point where to go on a map. What am I?",
+    "a": "A compass needle or pointer (arrow)",
+    "hint": "I spin to show direction."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be.",
+    "a": "Few",
+    "hint": "Think about counting letters."
+  },
+  "hard": {
+    "q": "A box holds a clock, a key, and a leaf. The box is empty but full of time, memory, and life. What am I?",
+    "a": "A book",
+    "hint": "Think of something that contains stories and pages."
+  }
+}

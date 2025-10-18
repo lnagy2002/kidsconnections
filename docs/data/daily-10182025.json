@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10182025-E",
+    "generatedAt": "2025-10-18T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "plane",
+          "bird",
+          "kite",
+          "helicopter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things found in a kitchen",
+        "items": [
+          "spoon",
+          "cup",
+          "plate",
+          "spatula"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and familiar for 2nd–3rd graders. Near-miss temptation avoided by keeping clear group boundaries: Wheels vs feet, things that move vs things that fly, and common kitchen items."
+  },
+  "medium": {
+    "id": "10182025-M",
+    "generatedAt": "2025-10-18T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words with shared beginnings",
+        "items": [
+          "unhappy",
+          "unwind",
+          "untie",
+          "unfold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pairs that form compound words when joined with 'book'",
+        "items": [
+          "note",
+          "recipe",
+          "cook",
+          "story"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with straight sides",
+        "items": [
+          "square",
+          "rectangle",
+          "triangle",
+          "pentagon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that glow in the dark",
+        "items": [
+          "glowstick",
+          "stars",
+          "firefly",
+          "neon sign"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Near-miss temptation: 'note' in the compound-with-book group could tempt as a reading item, but it's intended as a base for the 'note-book' compound. The 'shapes' group uses common 2D shapes to stay clear. Each item clearly fits only one group."
+  },
+  "hard": {
+    "id": "10182025-H",
+    "generatedAt": "2025-10-18T00:00:00Z",
+    "groups": [
+      {
+        "name": "Small helpers from the kitchen",
+        "items": [
+          "timer",
+          "towel",
+          "spoon",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "mittens"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words formed by swapping first letters",
+        "items": [
+          "pear",
+          "dear",
+          "bear",
+          "gear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Places you look up to",
+        "items": [
+          "sky",
+          "mountain",
+          "tower",
+          "cloud"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles involve more abstract patterning. Near-miss temptation: 'bear' in the last group could tempt as an animal, but the intent is linguistic letter-swap patterns with minimal overlap. Each item is clearly best suited to its assigned group."
+  },
+  "id": "10182025",
+  "generatedAt": "2025-10-18T02:05:56.097Z"
+}

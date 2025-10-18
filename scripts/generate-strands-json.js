@@ -186,7 +186,7 @@ async function main() {
   // Update history
   saveHistory(loadHistory().raw, { easy, medium, hard });
 
-  console.log(`✅ Generated:\n - ${datedPath}\n - ${latestPath}\n - updated history.json`);
+  console.log(`✅ Generated:\n - ${datedPath}\n - updated history.json`);
 }
 
 main().catch(err => {

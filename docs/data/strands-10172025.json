@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "BIRD",
+      "CUBE",
+      "MICE",
       "LAMP",
-      "COLD",
-      "WIND",
+      "FIRE",
+      "BEND",
+      "CLAY",
       "FISH",
-      "MOON",
-      "WAVE",
-      "BARK"
+      "WAVE"
     ]
   },
   "medium": {
     "words": [
-      "BLOOMER",
-      "CROWDING",
-      "FESTIVE",
+      "GLITTER",
       "JOURNEY",
-      "DREAMER",
-      "HORIZON",
-      "THUNDER",
-      "WATERING"
+      "MYSTERY",
+      "TRICKLE",
+      "SPIRITS",
+      "WILDFLOWER",
+      "PLASTIC",
+      "TRIANGLE"
     ]
   },
   "hard": {
     "words": [
-      "CONCEIVE",
-      "FIREPLACE",
-      "GATHERING",
-      "HARMONIZE",
-      "INTERFACE",
-      "JOURNEYER",
-      "SPIRALING",
-      "TRADITION",
-      "WONDERFUL"
+      "CONTRIBUTE",
+      "EXPERIMENT",
+      "INNOVATION",
+      "UNDERSTAND",
+      "ADVENTURE",
+      "BACKWARDS",
+      "COMPLICATE",
+      "HARMONIOUS",
+      "SPECTACULAR"
     ]
   }
 }

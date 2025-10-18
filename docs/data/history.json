@@ -23,7 +23,12 @@
     "FISH",
     "MOON",
     "WAVE",
-    "BARK"
+    "BARK",
+    "CUBE",
+    "MICE",
+    "FIRE",
+    "BEND",
+    "CLAY"
   ],
   "medium": [
     "MYSTIC",
@@ -47,7 +52,12 @@
     "DREAMER",
     "HORIZON",
     "THUNDER",
-    "WATERING"
+    "WATERING",
+    "GLITTER",
+    "MYSTERY",
+    "TRICKLE",
+    "WILDFLOWER",
+    "TRIANGLE"
   ],
   "hard": [
     "EXEMPLARY",

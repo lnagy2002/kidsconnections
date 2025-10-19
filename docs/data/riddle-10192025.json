@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a round fruit you might eat at lunch, with a core inside. What am I?",
+    "a": "APPLE",
+    "hint": "Starts with A and you can crunch it."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "FEW",
+    "hint": "Think of a tiny amount and a changing count."
+  },
+  "hard": {
+    "q": "A box has two lids but only one hinge. When you open it, you find ideas that can’t be spoken aloud. What is this box?",
+    "a": "MIND",
+    "hint": "Not a physical box; it holds thoughts you keep inside."
+  }
+}

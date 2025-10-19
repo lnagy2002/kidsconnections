@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10192025-E",
+    "generatedAt": "2025-10-19T00:00:00Z",
+    "groups": [
+      {
+        "name": "Animals you meet in a yard",
+        "items": [
+          "dog",
+          "cat",
+          "pig",
+          "cow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can fetch",
+        "items": [
+          "ball",
+          "stick",
+          "frisbee",
+          "glove"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common kitchen items",
+        "items": [
+          "spoon",
+          "bowl",
+          "cup",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Words that end with 'er'",
+        "items": [
+          "hiker",
+          "teacher",
+          "baker",
+          "player"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: 1) familiar animals found as pets or in yards; 2) items you might fetch for a game; 3) everyday kitchenware; 4) common words that end with -er. Near-miss temptation: 'spoon' vs 'bowl' could seem like both kitchen items but they are distinct categories."
+  },
+  "medium": {
+    "id": "10192025-M",
+    "generatedAt": "2025-10-19T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words with a shared beginning sounds",
+        "items": [
+          "tomato",
+          "tunnel",
+          "tulip",
+          "teddy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound word parts",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "ballpark",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes you can draw",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "oval"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in a school supplies kit",
+        "items": [
+          "eraser",
+          "crayon",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories: 1) group words that share the same starting sound to hint a link; 2) combine word parts to form known compound words; 3) basic shapes familiar from drawing; 4) items commonly found in a school supplies kit. Near-miss temptation: 'ballpark' could be mistaken for the sports item group, but it clearly is a compound word here."
+  },
+  "hard": {
+    "id": "10192025-H",
+    "generatedAt": "2025-10-19T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things that travel in a line and rhyme with 'line'",
+        "items": [
+          "fine",
+          "nine",
+          "pine",
+          "sign"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Categories of everyday actions",
+        "items": [
+          "eat",
+          "sleep",
+          "read",
+          "play"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Items that come in a set for a game",
+        "items": [
+          "deck",
+          "board",
+          "pieces",
+          "dice"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Natural phenomena you can see in the sky",
+        "items": [
+          "cloud",
+          "sun",
+          "moon",
+          "star"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories: 1) near-miss temptation would be 'sign' which rhymes with 'line' but 'sign' does not rhyme; the intended group is words that rhyme with 'line' but are actual words. 2) actions category is a 1-step semantic link but kept clear as separate everyday activities; 3) game set items fit together; 4) sky phenomena are broad but chosen to be distinct. Near-miss: 'sun' could be mistaken for a weather term, but it is a sky object."
+  },
+  "id": "10192025",
+  "generatedAt": "2025-10-19T02:24:16.241Z"
+}

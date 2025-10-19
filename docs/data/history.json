@@ -28,7 +28,15 @@
     "MICE",
     "FIRE",
     "BEND",
-    "CLAY"
+    "CLAY",
+    "FROG",
+    "GLOW",
+    "PICK",
+    "WISH",
+    "JUMP",
+    "CLAP",
+    "BEEP",
+    "SPIN"
   ],
   "medium": [
     "MYSTIC",
@@ -57,7 +65,13 @@
     "MYSTERY",
     "TRICKLE",
     "WILDFLOWER",
-    "TRIANGLE"
+    "TRIANGLE",
+    "GATHER",
+    "DREAMS",
+    "BRIDGE",
+    "TWILIGHT",
+    "NARRATE",
+    "WHISPER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -85,6 +99,7 @@
     "INTERFACE",
     "JOURNEYER",
     "SPIRALING",
-    "TRADITION"
+    "TRADITION",
+    "INNOVATE"
   ]
 }

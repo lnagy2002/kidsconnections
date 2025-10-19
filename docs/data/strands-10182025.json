@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FROG",
+      "GLOW",
+      "PICK",
+      "WISH",
+      "JUMP",
+      "CLAP",
+      "BEEP",
+      "SPIN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "DREAMS",
+      "BRIDGE",
+      "HORIZON",
+      "MYSTERY",
+      "TWILIGHT",
+      "NARRATE",
+      "WHISPER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "INNOVATE",
+      "COMPLICATE",
+      "EXEMPLARY",
+      "TRANSLATE",
+      "CONSTRUCT",
+      "ELEVATION",
+      "GRADUATION",
+      "SPECTACLE",
+      "WONDERFUL"
+    ]
+  }
+}

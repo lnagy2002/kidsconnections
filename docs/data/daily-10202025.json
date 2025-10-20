@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10202025-E",
+    "generatedAt": "2025-10-20T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that glow",
+        "items": [
+          "lantern",
+          "moon",
+          "sun",
+          "firefly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "spatula",
+          "whisk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "bloomers"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and kid-friendly. Near-miss temptation: items like 'train' could be seen as both transport and part of a track set; it's kept under transport-focused group to maintain clarity."
+  },
+  "medium": {
+    "id": "10202025-M",
+    "generatedAt": "2025-10-20T12:05:00Z",
+    "groups": [
+      {
+        "name": "Words that share a prefix",
+        "items": [
+          "unfold",
+          "uncle",
+          "unison",
+          "undersea"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-part compound ideas",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "bookshelf",
+          "mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal friends",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "turtle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful shapes",
+        "items": [
+          "red circle",
+          "blue square",
+          "green triangle",
+          "yellow star"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Near-miss temptation: 'unison' might seem like a musical term, but here it’s tied to the prefix 'un-' to fit the group. Avoid overthinking; focus on the shared prefix or the compound relationship. Each item clearly belongs to one group."
+  },
+  "hard": {
+    "id": "10202025-H",
+    "generatedAt": "2025-10-20T12:10:00Z",
+    "groups": [
+      {
+        "name": "Metaphorical roles",
+        "items": [
+          "bridge",
+          "anchor",
+          "pilot",
+          "shield"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Natural phenomena in order",
+        "items": [
+          "fog",
+          "rain",
+          "hail",
+          "snow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools for making things",
+        "items": [
+          "hammer",
+          "saw",
+          "glue",
+          "drill"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small household items that start with B",
+        "items": [
+          "bottle",
+          "brush",
+          "book",
+          "banana (fruit)"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Near-miss temptation: 'hammer' and 'drill' could both be tools for building; kept in separate tool-focused group to avoid overlap. Some items like 'bridge' are metaphorical (support) rather than a physical object, explained by the group name. Ensure each item clearly fits its group through definition rather than surface similarity."
+  },
+  "id": "10202025",
+  "generatedAt": "2025-10-20T02:21:18.817Z"
+}

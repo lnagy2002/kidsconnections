@@ -36,7 +36,15 @@
     "JUMP",
     "CLAP",
     "BEEP",
-    "SPIN"
+    "SPIN",
+    "BARKS",
+    "CLIPS",
+    "FLOCK",
+    "GRASP",
+    "SHINE",
+    "THUMP",
+    "VIGOR",
+    "WALTZ"
   ],
   "medium": [
     "MYSTIC",
@@ -71,7 +79,14 @@
     "BRIDGE",
     "TWILIGHT",
     "NARRATE",
-    "WHISPER"
+    "WHISPER",
+    "BALANCE",
+    "CHERISH",
+    "EXPLORE",
+    "FANTASY",
+    "GATHERED",
+    "SILENCE",
+    "TRIUMPH"
   ],
   "hard": [
     "EXEMPLARY",
@@ -100,6 +115,14 @@
     "JOURNEYER",
     "SPIRALING",
     "TRADITION",
-    "INNOVATE"
+    "INNOVATE",
+    "COMFORTING",
+    "DISCOVER",
+    "ENCOURAGE",
+    "FASCINATE",
+    "GENERATE",
+    "IMAGINARY",
+    "TRADITIONAL",
+    "WONDERMENT"
   ]
 }

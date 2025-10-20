@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKS",
+      "CLIPS",
+      "FLOCK",
+      "GRASP",
+      "SHINE",
+      "THUMP",
+      "VIGOR",
+      "WALTZ"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALANCE",
+      "CHERISH",
+      "EXPLORE",
+      "FANTASY",
+      "GATHERED",
+      "JOURNEY",
+      "SILENCE",
+      "TRIUMPH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "COMFORTING",
+      "DISCOVER",
+      "ENCOURAGE",
+      "FASCINATE",
+      "GENERATE",
+      "IMAGINARY",
+      "TRADITIONAL",
+      "WONDERMENT"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am round and I go up in the sky. I shine by day and night when I’m bright. What am I?",
+    "a": "the sun or the moon",
+    "hint": "Think about something that lights the sky."
+  },
+  "medium": {
+    "q": "I have hands but cannot clap, I never talk but I move. I can be fast or slow, depending on the beat. What am I?",
+    "a": "a clock",
+    "hint": "Look at what tells time."
+  },
+  "hard": {
+    "q": "Two siblings share a single pen. If one writes two pages and the other writes three, they finish five pages in total. How could they finish in exactly five minutes if each page takes one minute to write?",
+    "a": "They write different pages at the same time, so together they finish in five minutes.",
+    "hint": "Consider parallel work and the total time for each page."
+  }
+}

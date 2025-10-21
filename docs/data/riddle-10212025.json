@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I help you tell time every day. What am I?",
+    "a": "A clock's hand (or a clock)",
+    "hint": "I point and move to show minutes or hours."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about a small number and a common word for multiple letters."
+  },
+  "hard": {
+    "q": "A box contains red and blue marbles. Without looking, you pick one marble, and the color you choose decides the next move: red means go left, blue means go right. If you want to end up at a specific square, which marble should you aim to pick first and why?",
+    "a": "The marble that leads to the desired path; plan the route knowing red/blue moves",
+    "hint": "Think about planning a sequence of choices and how the color directs the next step."
+  }
+}

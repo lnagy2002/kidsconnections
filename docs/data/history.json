@@ -44,7 +44,9 @@
     "SHINE",
     "THUMP",
     "VIGOR",
-    "WALTZ"
+    "WALTZ",
+    "BAND",
+    "RING"
   ],
   "medium": [
     "MYSTIC",
@@ -86,7 +88,10 @@
     "FANTASY",
     "GATHERED",
     "SILENCE",
-    "TRIUMPH"
+    "TRIUMPH",
+    "FRIEND",
+    "KITCHEN",
+    "WONDER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -123,6 +128,8 @@
     "GENERATE",
     "IMAGINARY",
     "TRADITIONAL",
-    "WONDERMENT"
+    "WONDERMENT",
+    "EXPLORER",
+    "COMPLICATED"
   ]
 }

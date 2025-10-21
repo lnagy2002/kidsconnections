@@ -3,7 +3,7 @@ name: Daily Strands Words
 
 on:
   schedule:
-    - cron: "20 0 * * *"   # 01:00 UTC daily
+    - cron: "20 1 * * *"   # 01:00 UTC daily
   workflow_dispatch: {}
 
 permissions:

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BARK",
+      "COLD",
+      "WIND",
+      "HAY",
+      "BIRD",
+      "FISH",
+      "MOON"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTIVE",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS",
+      "TROPHIES",
+      "BRIGHT",
+      "CIRCLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIOUS",
+      "SPECTACULAR",
+      "CONTRIBUTE",
+      "EXPERIMENT",
+      "INNOVATION",
+      "UNDERSTAND",
+      "ADVENTURE",
+      "BACKWARDS",
+      "CONSTRUCT"
+    ]
+  }
+}

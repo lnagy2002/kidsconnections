@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10212025-E",
+    "generatedAt": "2025-10-21T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals by Habitat",
+        "items": [
+          "Penguin",
+          "Camel",
+          "Kangaroo",
+          "Dolphin"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "Bird",
+          "Plane",
+          "Helicopter",
+          "Balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "Hat",
+          "Gloves",
+          "Scarf",
+          "Socks"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Food at Breakfast",
+        "items": [
+          "Oatmeal",
+          "Pancake",
+          "Toast",
+          "Eggs"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: (1) Animals by Habitat groups animals by where they live. (2) Things That Fly lists items that move through the air. (3) Things You Wear focuses on everyday clothing. (4) Common Food at Breakfast includes familiar morning meals. Near-miss temptation: 'Bird' could seem both an animal and a thing that flies, but in this puzzle it clearly fits only in the 'Things That Fly' group as a general class."
+  },
+  "medium": {
+    "id": "10212025-M",
+    "generatedAt": "2025-10-21T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefixes to Build Words",
+        "items": [
+          "unhappy",
+          "redo",
+          "preview",
+          "rewrite"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "moonlight",
+          "sunflower",
+          "keyboard",
+          "rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes and Colors",
+        "items": [
+          "Circle",
+          "Blue",
+          "Triangle",
+          "Green"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Objects with Hidden Actions",
+        "items": [
+          "Brush",
+          "Shop",
+          "Click",
+          "Sweep"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: (1) Prefixes to Build Words uses simple word parts like un-, re-, pre- to link to the given items. (2) Two-Word Compounds pair words that commonly form a single familiar term. (3) Shapes and Colors combine visual ideas. (4) Everyday Objects with Hidden Actions maps objects to their typical action or use. Near-miss temptation: 'Brush' could be a tool or an action, but here it’s the object; the action sense is avoided to prevent overlap with the 'Hidden Actions' concept and keep a single correct fit."
+  },
+  "hard": {
+    "id": "10212025-H",
+    "generatedAt": "2025-10-21T12:00:00Z",
+    "groups": [
+      {
+        "name": "Time and Weather Analogies",
+        "items": [
+          "Storm",
+          "Clock",
+          "Sundial",
+          "Drizzle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites That Go Together",
+        "items": [
+          "Hot",
+          "Cold",
+          "Bright",
+          "Dark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Music and Movement",
+        "items": [
+          "Beat",
+          "Jump",
+          "Rhyme",
+          "Dance"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools with Multiple Uses",
+        "items": [
+          "Hammer",
+          "Scissors",
+          "Tape",
+          "Pliers"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: (1) Time and Weather Analogies links time or weather-themed words through metaphor. (2) Opposites That Go Together pairs common opposite pairs in everyday life. (3) Music and Movement connects sound-oriented terms with physical actions. (4) Tools with Multiple Uses lists practical implements that serve more than one function. Near-miss temptation: 'Beat' could be a music term or a physical action; it fits as a music term in the 'Music and Movement' group and is not used as a separate action in another group, so it remains unambiguous."
+  },
+  "id": "10212025",
+  "generatedAt": "2025-10-21T02:14:36.871Z"
+}

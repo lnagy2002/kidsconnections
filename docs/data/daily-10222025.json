@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10222025-E",
+    "generatedAt": "2025-10-22T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Fins",
+        "items": [
+          "Dolphin",
+          "Goldfish",
+          "Whale",
+          "Trout"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "Bird",
+          "Kite",
+          "Plane",
+          "Butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "Car",
+          "Bike",
+          "Truck",
+          "Skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "Fork",
+          "Spoon",
+          "Spatula",
+          "Plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category explanations: 1) Marine animals with fins. 2) Common things that can fly. 3) Vehicles with wheels. 4) Simple cooking utensils and tableware."
+  },
+  "medium": {
+    "id": "10222025-M",
+    "generatedAt": "2025-10-22T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words that Start with Sun",
+        "items": [
+          "Sunrise",
+          "Sunflower",
+          "Sunset",
+          "Sunbeam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a Plant",
+        "items": [
+          "Root",
+          "Stem",
+          "Leaf",
+          "Flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Homes",
+        "items": [
+          "Nest",
+          "Burrow",
+          "Shell",
+          "Hive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sports Equipment",
+        "items": [
+          "Ball",
+          "Racket",
+          "Helmet",
+          "Gloves"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium category explanations: 1) Phrases beginning with 'sun' forming related words. 2) Basic plant parts. 3) Animal homes. 4) General sports gear. Near-miss temptation: 'Star' could seem like 'Starfish' but is not included to keep distinct groups."
+  },
+  "hard": {
+    "id": "10222025-H",
+    "generatedAt": "2025-10-22T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things That Live in Water (Fresh or Salt)",
+        "items": [
+          "Octopus",
+          "Crab",
+          "Seahorse",
+          "Eel"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Objects with Symmetry",
+        "items": [
+          "Butterfly",
+          "Diamond",
+          "Circle",
+          "Square"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things with Stripes",
+        "items": [
+          "Tiger",
+          "Zebra",
+          "Pencil",
+          "Shelter (umbrella)"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools for Building",
+        "items": [
+          "Hammer",
+          "Screwdriver",
+          "Wrench",
+          "Nails"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard category explanations: 1) Aquatic animals with varied habitats. 2) Shapes or animals with clear symmetry. 3) Animals or objects with stripes; careful: 'Pencil' has stripes in some designs but is a tool; near-miss temptation would be 'Tiger' vs 'Zebra'—both striped but only one fits the intended grouping, so kept distinct. 4) Basic construction tools. Ensure each item clearly belongs to one group, no overlaps."
+  },
+  "id": "10222025",
+  "generatedAt": "2025-10-22T02:17:49.144Z"
+}

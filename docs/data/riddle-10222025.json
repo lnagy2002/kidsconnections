@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am a common coin in games and pretend stores. What am I?",
+    "a": "a penny",
+    "hint": "Think small and familiar change you might flip."
+  },
+  "medium": {
+    "q": "I am a word that starts with 'sun' and ends with 'day'. Remove the middle letters and I still sound the same. What word am I?",
+    "a": "Sunday",
+    "hint": "It’s a week-day that begins with sun."
+  },
+  "hard": {
+    "q": "Two siblings stand back-to-back facing opposite directions. They rotate 180 degrees together and still face away. How is this possible?",
+    "a": "They are facing opposite directions from the start and rotate in place; they never turn toward each other.",
+    "hint": "Consider orientation and turning in place."
+  }
+}

@@ -46,7 +46,11 @@
     "VIGOR",
     "WALTZ",
     "BAND",
-    "RING"
+    "RING",
+    "CAVE",
+    "FLEW",
+    "KITE",
+    "MINT"
   ],
   "medium": [
     "MYSTIC",
@@ -91,7 +95,12 @@
     "TRIUMPH",
     "FRIEND",
     "KITCHEN",
-    "WONDER"
+    "WONDER",
+    "BANANA",
+    "COMBAT",
+    "DOLPHIN",
+    "ELEVATE",
+    "HARMONY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -130,6 +139,10 @@
     "TRADITIONAL",
     "WONDERMENT",
     "EXPLORER",
-    "COMPLICATED"
+    "COMPLICATED",
+    "DREAMLIKE",
+    "EXPLORING",
+    "FANTASTIC",
+    "TRIANGULAR"
   ]
 }

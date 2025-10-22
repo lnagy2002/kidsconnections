@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "LAMP",
-      "BARK",
-      "COLD",
-      "WIND",
-      "HAY",
       "BIRD",
-      "FISH",
-      "MOON"
+      "CAVE",
+      "FLEW",
+      "GLOW",
+      "JUMP",
+      "KITE",
+      "MINT",
+      "WIND"
     ]
   },
   "medium": {
     "words": [
-      "CANDLE",
+      "BANANA",
+      "COMBAT",
+      "DOLPHIN",
+      "ELEVATE",
       "FESTIVE",
-      "JOURNAL",
-      "PLASTIC",
-      "SPIRITS",
-      "TROPHIES",
-      "BRIGHT",
-      "CIRCLE"
+      "GIRAFFE",
+      "HARMONY",
+      "JOURNEY"
     ]
   },
   "hard": {
     "words": [
-      "HARMONIOUS",
-      "SPECTACULAR",
-      "CONTRIBUTE",
-      "EXPERIMENT",
-      "INNOVATION",
-      "UNDERSTAND",
       "ADVENTURE",
       "BACKWARDS",
-      "CONSTRUCT"
+      "COMFORTING",
+      "DREAMLIKE",
+      "EXPLORING",
+      "FANTASTIC",
+      "HARMONIZE",
+      "NARRATIVE",
+      "TRIANGULAR"
     ]
   }
 }

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10232025-E",
+    "generatedAt": "2025-10-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Tails",
+        "items": [
+          "cat",
+          "monkey",
+          "dog",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things Found in a Kitchen",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes with Corners",
+        "items": [
+          "triangle",
+          "square",
+          "pentagon",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group is a simple, concrete category suitable for younger kids. Near-miss ideas were avoided: no item fits two groups. Group 1 features animals with tails; Group 2 lists footwear; Group 3 lists common kitchen utensils; Group 4 lists shapes with corners."
+  },
+  "medium": {
+    "id": "10232025-M",
+    "generatedAt": "2025-10-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words That End with -er",
+        "items": [
+          "runner",
+          "teacher",
+          "cookie",
+          "paper"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things Made of Wood",
+        "items": [
+          "spoon",
+          "cradle",
+          "block",
+          "ladder"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Pairs That Go Together (in a set)",
+        "items": [
+          "salt",
+          "pepper",
+          "sugar",
+          "butter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in a School Bag",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and two-step thinking. Near-miss hint: 'wrapper' could seem connected to 'spoon' via material, but 'spoon' is wooden here; only 'spoony' isn't a valid item, so avoid ambiguity. Each item clearly belongs to one group."
+  },
+  "hard": {
+    "id": "10232025-H",
+    "generatedAt": "2025-10-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Light and Shadow Concepts",
+        "items": [
+          "sunrise",
+          "shadow",
+          "glow",
+          "moonlight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words Built with Prefix Re-",
+        "items": [
+          "replay",
+          "rebuild",
+          "rewrite",
+          "refresh"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Riddles Without Riddles",
+        "items": [
+          "key",
+          "lock",
+          "code",
+          "puzzle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things Found in a Backyard",
+        "items": [
+          "fern",
+          "stone",
+          "birdbath",
+          "bench"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groupings involve a bit more abstract thinking. Near-miss temptation: in 'Light and Shadow Concepts', 'glow' could relate to 'sunrise' visually, but the set relies on distinct ideas. No item overlaps between groups; definitions kept clear and kid-friendly."
+  },
+  "id": "10232025",
+  "generatedAt": "2025-10-23T02:12:56.642Z"
+}

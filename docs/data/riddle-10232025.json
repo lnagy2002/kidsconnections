@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a round fruit. I can be red or green, and I grow on a tree. What am I?",
+    "a": "apple",
+    "hint": "Think of a common snack you bite into."
+  },
+  "medium": {
+    "q": "I have two colors and a number in my name. If you flip me, I rhyme with ‘own,’ and I help you tell time. What am I?",
+    "a": "clock",
+    "hint": "Look for something that sits on your wall or wrist and rings."
+  },
+  "hard": {
+    "q": "Two friends start at opposite ends of a row of coins. Each turn, they move one coin to the left or right, never skipping. They both end up with the same number of coins on their side. How is this possible?",
+    "a": "They started with an even total number of coins, and each move preserves the balance, eventually equalizing the sides.",
+    "hint": "Consider symmetry and parity of moves."
+  }
+}

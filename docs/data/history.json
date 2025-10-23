@@ -50,7 +50,12 @@
     "CAVE",
     "FLEW",
     "KITE",
-    "MINT"
+    "MINT",
+    "LIFT",
+    "MIST",
+    "CAMP",
+    "WARM",
+    "DUST"
   ],
   "medium": [
     "MYSTIC",
@@ -100,7 +105,9 @@
     "COMBAT",
     "DOLPHIN",
     "ELEVATE",
-    "HARMONY"
+    "HARMONY",
+    "BROWSER",
+    "CRYSTAL"
   ],
   "hard": [
     "EXEMPLARY",
@@ -143,6 +150,7 @@
     "DREAMLIKE",
     "EXPLORING",
     "FANTASTIC",
-    "TRIANGULAR"
+    "TRIANGULAR",
+    "FRIENDSHIP"
   ]
 }

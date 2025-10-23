@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LIFT",
+      "MIST",
+      "CAMP",
+      "WARM",
+      "BAND",
+      "FLEW",
+      "GLOW",
+      "DUST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BROWSER",
+      "JOURNAL",
+      "CRYSTAL",
+      "FESTIVE",
+      "GATHER",
+      "HARMONY",
+      "TRICKLE",
+      "WONDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLORER",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "COMFORTING",
+      "GENERATE",
+      "INNOVATION",
+      "SPECTACULAR",
+      "FRIENDSHIP",
+      "TRADITIONAL"
+    ]
+  }
+}

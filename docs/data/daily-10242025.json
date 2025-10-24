@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10242025-E",
+    "generatedAt": "2025-10-24T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals by Home",
+        "items": [
+          "dog",
+          "cat",
+          "bunny",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Fur",
+        "items": [
+          "bear",
+          "fox",
+          "mouse",
+          "panda"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Tails",
+        "items": [
+          "monkey",
+          "horse",
+          "cat",
+          "dragon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Find in a Park",
+        "items": [
+          "slide",
+          "bench",
+          "ball",
+          "tree"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category set: 1) Animals by Home groups common pets and animals. 2) Things with Fur highlights animals known for fur. 3) Things with Tails includes animals with tails; note that some items like 'cat' overlap but are placed here for clarity. 4) Park items are familiar playground or outdoor park objects. Near-miss: 'bear' could fit Animals by Home or Things with Fur; clarified by context in this puzzle."
+  },
+  "medium": {
+    "id": "10242025-M",
+    "generatedAt": "2025-10-24T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Fragments",
+        "items": [
+          "un",
+          "re",
+          "pre",
+          "mis"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs",
+        "items": [
+          "disappear",
+          "discover",
+          "disagree",
+          "discard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Morning Routines",
+        "items": [
+          "brush",
+          "shower",
+          "alarm",
+          "toast"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes in the Sky",
+        "items": [
+          "sun",
+          "moon",
+          "star",
+          "cloud"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set uses word parts and simple wordplay. 1) Word Fragments: common small morphemes that can start many words. 2) Prefix Pairs: words that start with the same prefix but form different meanings; each item clearly fits its own group. 3) Morning Routines: everyday activities; one-step connection. 4) Shapes in the Sky: familiar sky objects. Near-miss temptation: 'cloud' could be both a weather term and a shape metaphor; it clearly belongs to Shapes in the Sky here."
+  },
+  "hard": {
+    "id": "10242025-H",
+    "generatedAt": "2025-10-24T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colorful Materials",
+        "items": [
+          "glass",
+          "felt",
+          "ink",
+          "fabric"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Habitual Actions",
+        "items": [
+          "eat",
+          "sleep",
+          "read",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound Animals",
+        "items": [
+          "owl",
+          "frog",
+          "cuckoo",
+          "whale"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Objects by Size",
+        "items": [
+          "pin",
+          "bag",
+          "box",
+          "bottle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set uses more abstract groupings. 1) Colorful Materials: differentiate by material and color potential; items span solids and liquids. 2) Habitual Actions: routines connected by daily life rather than objects. 3) Sound Animals: animals named for sounds they make, a multi-step association for some (e.g., 'owl' for hooting). 4) Everyday Objects by Size: grouping by relative size. Near-miss temptation: 'glass' could be a material or a container; here it's kept as a material but note overlap with 'bottle' is avoided by focusing on size category for the group."
+  },
+  "id": "10242025",
+  "generatedAt": "2025-10-24T02:08:47.194Z"
+}

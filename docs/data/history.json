@@ -55,7 +55,11 @@
     "MIST",
     "CAMP",
     "WARM",
-    "DUST"
+    "DUST",
+    "BELL",
+    "CANE",
+    "FLEA",
+    "GOLD"
   ],
   "medium": [
     "MYSTIC",
@@ -107,7 +111,14 @@
     "ELEVATE",
     "HARMONY",
     "BROWSER",
-    "CRYSTAL"
+    "CRYSTAL",
+    "BEAUTY",
+    "FANTAS",
+    "MAGNET",
+    "SPARKLE",
+    "TIGER",
+    "VIGOROUS",
+    "WILDCAT"
   ],
   "hard": [
     "EXEMPLARY",
@@ -151,6 +162,10 @@
     "EXPLORING",
     "FANTASTIC",
     "TRIANGULAR",
-    "FRIENDSHIP"
+    "FRIENDSHIP",
+    "BRAINWAVE",
+    "CIRCULATE",
+    "GRADUATES",
+    "INSPIRING"
   ]
 }

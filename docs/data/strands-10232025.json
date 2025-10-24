@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BELL",
+      "CANE",
+      "FLEA",
+      "GOLD",
+      "JUMP",
+      "MIST",
+      "RING"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BEAUTY",
+      "FANTAS",
+      "GATHER",
+      "MAGNET",
+      "SPARKLE",
+      "TIGER",
+      "VIGOROUS",
+      "WILDCAT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "BRAINWAVE",
+      "CIRCULATE",
+      "EXPERIMENT",
+      "FIREPLACE",
+      "GRADUATES",
+      "HARMONIZE",
+      "INSPIRING",
+      "TRADITIONAL"
+    ]
+  }
+}

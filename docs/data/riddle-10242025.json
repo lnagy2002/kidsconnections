@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I can wag or curl up. What am I?",
+    "a": "A kite.",
+    "hint": "Something you fly with a string."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a small quantity."
+  },
+  "hard": {
+    "q": "A box contains 3 red balls and 2 blue balls. Without looking, you pick one ball. If you replace it, then pick again, what is the minimum number of draws to guarantee a blue ball is drawn at least once?",
+    "a": "3",
+    "hint": "Consider worst-case sequence and replacement."
+  }
+}

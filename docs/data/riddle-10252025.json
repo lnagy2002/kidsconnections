@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have keys but no locks. I have space but no room. You can enter, but you can't go outside. What am I?",
+    "a": "A keyboard",
+    "hint": "Think about computer or piano keys."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Consider how adding letters changes meaning."
+  },
+  "hard": {
+    "q": "A box contains 3 red balls and 2 blue balls. Without looking, I pick one ball. If I pick a blue ball, I win nothing; if I pick a red ball, I win twice my age. What is the minimum age to make this a favorable bet?",
+    "a": "13",
+    "hint": "Compare expected value to zero: (2*R/Total) > (B/Total). Use R=3, B=2."
+  }
+}

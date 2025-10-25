@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10252025-E",
+    "generatedAt": "2025-10-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sun",
+          "lamp",
+          "fern",
+          "beach"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "watch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "fork"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly (in Stories)",
+        "items": [
+          "dragon",
+          "kite",
+          "bird",
+          "plane"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and kid-friendly. Each group shares a simple, obvious connection: everyday items or familiar concepts. Near-miss temptation is avoided; e.g., 'dragon' clearly fits 'Things That Fly (in Stories)' rather than any other group."
+  },
+  "medium": {
+    "id": "10252025-M",
+    "generatedAt": "2025-10-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Share a Suffix",
+        "items": [
+          "marker",
+          "teacher",
+          "basket",
+          "slider"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs",
+        "items": [
+          "unhappy",
+          "untidy",
+          "redo",
+          "preview"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Word Friends",
+        "items": [
+          "rainbow",
+          "sunflower",
+          "starfish",
+          "ladybug"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Go Together Indoors",
+        "items": [
+          "pillow",
+          "blanket",
+          "bed",
+          "alarm"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Words with suffixes show a shared ending; prefixes demonstrate starting bits; some items form compound concepts (rainbow, sunflower). Near-miss temptation possibility: items like 'marker' might seem to fit both 'Words That Share a Suffix' and 'Double-Word Friends', but the intended group is clear by the root meaning and usage."
+  },
+  "hard": {
+    "id": "10252025-H",
+    "generatedAt": "2025-10-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Abstract Patterns",
+        "items": [
+          "orbit",
+          "rhythm",
+          "echo",
+          "pulse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a Story",
+        "items": [
+          "beginning",
+          "journey",
+          "climax",
+          "ending"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors by Feel",
+        "items": [
+          "crimson",
+          "jade",
+          "amber",
+          "slate"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Objects by Function",
+        "items": [
+          "container",
+          "measure",
+          "protect",
+          "store"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract Patterns uses non-literal concepts (orbit, rhythm, echo, pulse) that tie to sensing or repeating ideas. Parts of a Story follows a narrative arc. Colors by Feel maps color names to sensory impressions. Everyday Objects by Function groups items by what they do. Near-miss temptation: 'beginning' could feel like part of a story group, but the intent is to map to narrative parts as a whole; ensure solutions rely on the defined category cues rather than loose associations."
+  },
+  "id": "10252025",
+  "generatedAt": "2025-10-25T02:10:52.584Z"
+}

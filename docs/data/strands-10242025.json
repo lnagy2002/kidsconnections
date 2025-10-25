@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "FIRM",
+      "COLD",
+      "FALL",
+      "HILL",
+      "SAND",
+      "BOLT",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLANCE",
+      "SIMPLE",
+      "TROPHY",
+      "DANGLE",
+      "BRIGHT",
+      "CHANCE",
+      "FESTAL",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "SPECTACLE",
+      "TRIANGLE",
+      "CHERISHED",
+      "COMFORTED",
+      "INNOVATED",
+      "FANTASIES",
+      "BALANCING",
+      "HARMONIZE"
+    ]
+  }
+}

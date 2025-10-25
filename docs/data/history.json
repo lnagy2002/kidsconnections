@@ -59,7 +59,12 @@
     "BELL",
     "CANE",
     "FLEA",
-    "GOLD"
+    "GOLD",
+    "FIRM",
+    "FALL",
+    "HILL",
+    "SAND",
+    "BOLT"
   ],
   "medium": [
     "MYSTIC",
@@ -118,7 +123,14 @@
     "SPARKLE",
     "TIGER",
     "VIGOROUS",
-    "WILDCAT"
+    "WILDCAT",
+    "GLANCE",
+    "SIMPLE",
+    "TROPHY",
+    "DANGLE",
+    "CHANCE",
+    "FESTAL",
+    "GARNET"
   ],
   "hard": [
     "EXEMPLARY",
@@ -166,6 +178,11 @@
     "BRAINWAVE",
     "CIRCULATE",
     "GRADUATES",
-    "INSPIRING"
+    "INSPIRING",
+    "CHERISHED",
+    "COMFORTED",
+    "INNOVATED",
+    "FANTASIES",
+    "BALANCING"
   ]
 }

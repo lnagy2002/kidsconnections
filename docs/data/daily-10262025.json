@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10262025-E",
+    "generatedAt": "2025-10-26T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Paws",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Drink",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly (in the Sky)",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "sofa",
+          "bench",
+          "stool"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: concrete, familiar categories for younger beginners. Each group has four related items with clear, everyday connections."
+  },
+  "medium": {
+    "id": "10262025-M",
+    "generatedAt": "2025-10-26T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Start With 'Sun'",
+        "items": [
+          "sunrise",
+          "sunflower",
+          "sunny",
+          "sunset"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Sea Creatures",
+        "items": [
+          "starfish",
+          "jellyfish",
+          "swordfish",
+          "seahorse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That End With 'ful'",
+        "items": [
+          "colorful",
+          "careful",
+          "beautiful",
+          "hopeful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things You Carry",
+        "items": [
+          "backpack",
+          "purse",
+          "wallet",
+          "bag"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups include light wordplay (prefix/suffix) and simple two-part ideas. Near-miss temptation: 'sun' words vs 'light' words could seem related, but only the 'sun' group truly fits the given rule."
+  },
+  "hard": {
+    "id": "10262025-H",
+    "generatedAt": "2025-10-26T12:00:00Z",
+    "groups": [
+      {
+        "name": "Color + Object Pairs",
+        "items": [
+          "red apple",
+          "blue ocean",
+          "green leaf",
+          "yellow sun"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Found In a Kitchen",
+        "items": [
+          "spoon",
+          "pan",
+          "bowl",
+          "cup"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Transportation (Short Words)",
+        "items": [
+          "bus",
+          "car",
+          "train",
+          "ship"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups introduce slightly more abstract connections (color-object pairing and common kitchen items). Near-miss temptation: mixing 'gloves' with 'mittens' might seem related to pairs but the intended group is 'Things That Come in Pairs' as a category separate from individual items; ensure the items clearly fit the group rule."
+  },
+  "id": "10262025",
+  "generatedAt": "2025-10-26T02:19:53.427Z"
+}

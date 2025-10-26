@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BLOOM",
+      "FRESH",
+      "GLIDE",
+      "CLOUD",
+      "SILKY",
+      "TRICK",
+      "PLANT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "JOURNAL",
+      "GATHER",
+      "FRIENDS",
+      "SPIRIT",
+      "BALANCE",
+      "TROPHIES",
+      "FANTASY",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "INTERFACE",
+      "COMFORTING",
+      "DISCOVER",
+      "EXPLORING",
+      "GENERATE",
+      "HARMONIZE",
+      "CHERISHED",
+      "INSPIRING",
+      "TRADITIONAL"
+    ]
+  }
+}

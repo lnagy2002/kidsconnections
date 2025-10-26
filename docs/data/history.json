@@ -64,7 +64,14 @@
     "FALL",
     "HILL",
     "SAND",
-    "BOLT"
+    "BOLT",
+    "BLOOM",
+    "FRESH",
+    "GLIDE",
+    "CLOUD",
+    "SILKY",
+    "TRICK",
+    "PLANT"
   ],
   "medium": [
     "MYSTIC",
@@ -130,7 +137,9 @@
     "DANGLE",
     "CHANCE",
     "FESTAL",
-    "GARNET"
+    "GARNET",
+    "FRIENDS",
+    "SPIRIT"
   ],
   "hard": [
     "EXEMPLARY",

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am a small curved thing you can draw with a pencil. What am I?",
+    "a": "a comma",
+    "hint": "Looks like a tiny curved hook."
+  },
+  "medium": {
+    "q": "I am a five-letter word. Take away my first and last letters, and I’m still a word. Take away my middle letter too, and I’m still a word. What word am I?",
+    "a": "empty",
+    "hint": "Think of a word that becomes another word when you remove letters."
+  },
+  "hard": {
+    "q": "Two siblings have different ages, but three times the younger’s age equals twice the older’s age. If the older is 12, how old is the younger?",
+    "a": "6",
+    "hint": "Set up an equation: 3x = 2(y) with y = 12? Solve for x."
+  }
+}

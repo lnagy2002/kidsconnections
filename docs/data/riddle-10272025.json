@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am not a animal, I am a line on a map. What am I?",
+    "a": "A sail? No—a boundary line? Hmm. The riddle is tricky; let's try: \"A tail without a body is a kite's string\". But keep it simple: 'A comical tail of a coin: edge? A riddle about the word 'tail' on a kite string'",
+    "hint": "Think of something that has a tail but not a real body."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be.",
+    "a": "Few? The word 'few' has three letters; if you add two letters to form 'fewer' there are fewer items.",
+    "hint": "Play with numbers and words."
+  },
+  "hard": {
+    "q": "A room has 3 lamps: red, green, and blue. Each lamp takes turns: red shines when the door is closed; blue shines when open. If you can only open the door once, which lamp lights at that moment and why?",
+    "a": "Blue lamp lights when the door is opened; the clue ties color to state of the door.",
+    "hint": "Think about cause and effect and state changes."
+  }
+}

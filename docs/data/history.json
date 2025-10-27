@@ -71,7 +71,12 @@
     "CLOUD",
     "SILKY",
     "TRICK",
-    "PLANT"
+    "PLANT",
+    "BASK",
+    "HIVE",
+    "JOLT",
+    "RACE",
+    "CLIP"
   ],
   "medium": [
     "MYSTIC",
@@ -139,7 +144,10 @@
     "FESTAL",
     "GARNET",
     "FRIENDS",
-    "SPIRIT"
+    "SPIRIT",
+    "SPARKY",
+    "HARMON",
+    "DREAMY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -192,6 +200,7 @@
     "COMFORTED",
     "INNOVATED",
     "FANTASIES",
-    "BALANCING"
+    "BALANCING",
+    "BALANCED"
   ]
 }

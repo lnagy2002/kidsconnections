@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BASK",
+      "HIVE",
+      "MIST",
+      "WAVE",
+      "JOLT",
+      "RACE",
+      "CLIP",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "SPARKY",
+      "CANDLE",
+      "FARMER",
+      "GARDEN",
+      "HARMON",
+      "GATHER",
+      "DREAMY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLORER",
+      "TRIANGLE",
+      "NARRATIVE",
+      "BALANCED",
+      "SPIRALING",
+      "COMFORTED",
+      "FASCINATE",
+      "GENERATE",
+      "INSPIRING"
+    ]
+  }
+}

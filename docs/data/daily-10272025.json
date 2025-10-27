@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10272025-E",
+    "generatedAt": "2025-10-27T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "bus",
+          " skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Furry Friends",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "airplane",
+          "butterfly",
+          "kites"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group contains 4 concrete, kid-friendly items. Near-miss check: None of these items overlap with others. Easy categories focus on familiar everyday things."
+  },
+  "medium": {
+    "id": "10272025-M",
+    "generatedAt": "2025-10-27T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Part Families",
+        "items": [
+          "happy",
+          "unhappy",
+          "happily",
+          "happiness"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shape Family",
+        "items": [
+          "triangle",
+          "triad",
+          "tricolor",
+          "tricycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Clues",
+        "items": [
+          "redberry",
+          "bluebird",
+          "greenhorn",
+          "yellowbell"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tool Talk",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Word Part Families: items share a root or affix (happy/unhappy/happily/happiness). Shape Family uses 'tri-' connections. Color Clues uses color-forward compound terms. Tool Talk groups common hand tools. Near-miss temptation: 'triangle' vs 'triad' both start with 'tri' but 'triad' is more about a group, not a shape."
+  },
+  "hard": {
+    "id": "10272025-H",
+    "generatedAt": "2025-10-27T12:00:00Z",
+    "groups": [
+      {
+        "name": "Temporal Pairs",
+        "items": [
+          "morning",
+          "afternoon",
+          "evening",
+          "night"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound Switchers",
+        "items": [
+          "ring",
+          "clang",
+          "hiss",
+          "buzz"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Spaces",
+        "items": [
+          "nook",
+          "cranny",
+          "gap",
+          "slot"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Garden Guests",
+        "items": [
+          "snail",
+          "butterfly",
+          "ladybug",
+          "worm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Temporal Pairs: items relate to times of day; Sound Switchers: onomatopoeia-like sounds to hint at action or object. Small Spaces: synonyms for tiny or tight places. Garden Guests: common garden creatures. Near-miss temptation: 'nook' could be confused with 'cranny' as a synonym for small space, but each item is mapped to a distinct group based on its core idea."
+  },
+  "id": "10272025",
+  "generatedAt": "2025-10-27T02:25:28.977Z"
+}

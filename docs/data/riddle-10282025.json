@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes, a hand but no arms. I help you tell time. What am I?",
+    "a": "A clock",
+    "hint": "Look at something that ticks and shows hours."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer remains. What word am I?",
+    "a": "Few",
+    "hint": "Think of a short word that changes when you add letters."
+  },
+  "hard": {
+    "q": "A box holds four colors: red, blue, green, yellow. If you swap the red and blue, then swap green and yellow, what rule did you follow?",
+    "a": "Pairwise swap (color pairs)",
+    "hint": "Consider how you rearrange items in pairs."
+  }
+}

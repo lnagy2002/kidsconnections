@@ -76,7 +76,14 @@
     "HIVE",
     "JOLT",
     "RACE",
-    "CLIP"
+    "CLIP",
+    "BARKY",
+    "CURLY",
+    "FABLE",
+    "HAPPY",
+    "JOLLY",
+    "MERRY",
+    "TIGER"
   ],
   "medium": [
     "MYSTIC",
@@ -147,7 +154,10 @@
     "SPIRIT",
     "SPARKY",
     "HARMON",
-    "DREAMY"
+    "DREAMY",
+    "BUNGLE",
+    "CAVERN",
+    "SPLASHY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -201,6 +211,9 @@
     "INNOVATED",
     "FANTASIES",
     "BALANCING",
-    "BALANCED"
+    "BALANCED",
+    "ACROBAT",
+    "CHERISH",
+    "GRADUATE"
   ]
 }

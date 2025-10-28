@@ -1,0 +1,133 @@
+{
+  "easy": {
+    "id": "10282025-E",
+    "generatedAt": "2025-10-28T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Stripes",
+        "items": [
+          "tiger",
+          "zebra",
+          "bee",
+          "waffle"
+        ]
+      },
+      {
+        "name": "Things that Come in Pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ]
+      },
+      {
+        "name": "Things You See in the Sky",
+        "items": [
+          "cloud",
+          "sun",
+          "bird",
+          "kite"
+        ]
+      },
+      {
+        "name": "Things That Make Noise",
+        "items": [
+          "bell",
+          "whistle",
+          "drum",
+          "siren"
+        ]
+      }
+    ],
+    "notes": "Easy puzzle: each group has four items that share a simple theme. Near-miss temptation example: 'bee' could be mistaken with 'wasp' if included, but 'wasp' is not used to keep simple. Group themes: stripes (animals with stripes or striped items), pairs (things worn or used in couples), sky objects (observed in day sky), and sounds (objects that produce sound commonly used to signal)."
+  },
+  "medium": {
+    "id": "10282025-M",
+    "generatedAt": "2025-10-28T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words that Share a Prefix",
+        "items": [
+          "renovate",
+          "renew",
+          "replay",
+          "recycle"
+        ]
+      },
+      {
+        "name": "Compound Word Parts",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "bookcase",
+          "keyboard"
+        ]
+      },
+      {
+        "name": "Animals with Wings",
+        "items": [
+          "sparrow",
+          "owl",
+          "parrot",
+          "pelican"
+        ]
+      },
+      {
+        "name": "Tools You Use with Hands",
+        "items": [
+          "hammer",
+          "pencil",
+          "scissors",
+          "ruler"
+        ]
+      }
+    ],
+    "notes": "Medium puzzle: each group has a distinct relationship. Near-miss temptation: 'pencil' could seem like a writing tool rather than a hand tool; clarified that 'pencil' is included in the 'Tools You Use with Hands' due to its common manual use. Prefix group is about words that begin with 're-'. Prefix/compound word parts help reasoning. Ensure items clearly fit only one group."
+  },
+  "hard": {
+    "id": "10282025-H",
+    "generatedAt": "2025-10-28T00:00:00Z",
+    "groups": [
+      {
+        "name": "Color + Object Combos",
+        "items": [
+          "sunset",
+          "blueprint",
+          "greenhouse",
+          "blackboard"
+        ]
+      },
+      {
+        "name": "Syllable Counts (2-2-2-2)",
+        "items": [
+          "piano",
+          "turtle",
+          "robot",
+          "candle"
+        ]
+      },
+      {
+        "name": "Modes of Transport (Land/Water/Air)",
+        "items": [
+          "bicycle",
+          "submarine",
+          "hot air balloon",
+          "skateboard"
+        ]
+      },
+      {
+        "name": "Parts of a Plant",
+        "items": [
+          "root",
+          "stem",
+          "leaf",
+          "flower"
+        ]
+      }
+    ],
+    "notes": "Hard puzzle: more abstract groupings and two-step reasoning. Near-miss temptation: 'sunset' might be seen as time of day rather than color-object combo; clarified as color+object word pairings. Syllable-count group ensures each item has two syllables. MODE group includes items each representing a transport mode. Plant parts group is straightforward; ensure no overlap with other groups."
+  },
+  "id": "10282025",
+  "generatedAt": "2025-10-28T02:13:39.979Z"
+}

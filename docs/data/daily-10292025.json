@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10292025-E",
+    "generatedAt": "2025-10-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with holes",
+        "items": [
+          "sieve",
+          "net",
+          "colander",
+          "strainer"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cute tiny pets",
+        "items": [
+          "hamster",
+          "guinea pig",
+          "ferret",
+          "gerbil"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "spatula",
+          "whisk",
+          "ladle",
+          "tongs"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: (1) Things with holes are items used to strain or catch; (2) Cute tiny pets are common small animals kept as pets; (3) Footwear items; (4) Common kitchen tools. Near-miss temptation: 'gloves' could fit 'things you wear on hands' but is not in the list."
+  },
+  "medium": {
+    "id": "10292025-M",
+    "generatedAt": "2025-10-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word parts: endings",
+        "items": [
+          "-er",
+          "-ing",
+          "-ed",
+          "-s"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that float",
+        "items": [
+          "rocking boat",
+          "duck",
+          "balloon",
+          "raft"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common classroom supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "glue",
+          "crayon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snack-time shapes",
+        "items": [
+          "pretzel",
+          "cookie",
+          "banana",
+          "apple"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories: (1) Word parts focus on common suffixes; (2) Floating items that can stay on water; (3) School supplies; (4) Shapes/foods eaten as snacks. Near-miss temptation: 'stone' might float in some cases but is not typical for 'float' category; 'banana' could be floating in cartoons but not in reality."
+  },
+  "hard": {
+    "id": "10292025-H",
+    "generatedAt": "2025-10-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Rotating device parts",
+        "items": [
+          "knob",
+          "gear",
+          "crank",
+          "pulley"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors between red and orange",
+        "items": [
+          "scarlet",
+          "crimson",
+          "amber",
+          "tangerine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shaped things with straight edges",
+        "items": [
+          "triangle",
+          "square",
+          "rectangle",
+          "pentagon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that you heat up",
+        "items": [
+          "microwave",
+          "toaster",
+          "oven",
+          "stovetop"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories: (1) Mechanical parts involved in moving parts; (2) Color range slightly above red; (3) Simple polygons; (4) Appliances used to heat foods. Near-miss temptation: 'gear' could be seen as part of 'rotating device parts' but is a distinct fit; avoid mixing with 'engine' which would be too broad."
+  },
+  "id": "10292025",
+  "generatedAt": "2025-10-29T02:21:30.014Z"
+}

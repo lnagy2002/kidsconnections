@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I come out at night and shine with a light. What am I?",
+    "a": "A comet",
+    "hint": "Think sky sky clues"
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Sound it out or play with letters"
+  },
+  "hard": {
+    "q": "Three siblings share a pie. The first eats half, the second eats a third, the third eats a quarter. How much of the pie is left?",
+    "a": "1/60",
+    "hint": "Use common denominator to compare shares"
+  }
+}

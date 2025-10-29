@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "FABLE",
+      "HAPPY",
+      "JOLLY",
+      "MERRY",
+      "TIGER",
+      "MYSTIC"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "CANDLE",
+      "FESTIVE",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS",
+      "TROPHIES",
+      "BRIGHT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CIRCULATE",
+      "GRADUATES",
+      "INSPIRING",
+      "CHERISHED",
+      "COMFORTED",
+      "INNOVATED",
+      "FANTASIES",
+      "BALANCING",
+      "BALANCED"
+    ]
+  }
+}

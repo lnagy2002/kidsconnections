@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Digiton · Wordle‑style Numbers Game Daily</title>
+<style>
+
+:root {
+  --bg: #0e364b;
+  --panel: #0e364b;
+  --text: #a9f4f4;
+  --ink: #a9f4f4;
+  --muted: #f0db79;
+  --border: #1b2659;
+  --ok: #4ade80;
+  --no: #64748b;
+  --maybe: #facc15;
+  --bad: #e4572e;
+
+   --key: #0f1736;
+   --key-hover: #141f4a;
+
+}
+
+
+  .toggle{display:inline-flex; align-items:center; gap:6px; cursor:pointer; user-select:none;}
+  .toggle input{accent-color:var(--correct);}
+
+  #board {
+      margin-top: 10px;
+      display: grid;
+      gap: 8px;
+      justify-content: center;
+      padding: 16px
+  }
+
+  .row {
+      display: flex;
+      gap: 8px
+  }
+  .tile{
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #1a2550;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000;
+    /* width:56px; height:56px; display:grid; place-items:center;
+    border:2px solid var(--tile-edge); background:var(--tile);
+    font-weight:800; font-size:28px; text-transform:uppercase;
+    border-radius:8px; box-shadow: 0 1px 0 rgba(0,0,0,0.25) inset; */
+  }
+  .tile.filled  {
+    color: #0b1222
+  }
+  .tile.reveal{ animation:flip 260ms ease-in-out forwards; transform-origin:50% 50%; }
+  @keyframes flip{ 0%{transform:rotateX(0);} 50%{transform:rotateX(90deg);} 100%{transform:rotateX(0);} }
+  .tile.correct{ background: var(--ok);
+  color: #083f2b }
+  .tile.present{ background: var(--maybe);
+  color: #4a3a00 }
+  .tile.absent{ background: var(--no);
+  color: #0b1222}
+
+  .row.shake{ animation:shake 180ms ease-in-out 0s 2; }
+  @keyframes shake{ 0%{transform:translateX(0)} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} 100%{transform:translateX(0)} }
+
+
+  #keyboard{
+    padding-top: 50px;
+    display: grid;
+    gap: 8px;
+    justify-content: center;   /* centers the two rows */
+  }
+
+  .keyrow{
+    display: inline-grid;       /* shrink to content so centering works */
+    grid-auto-flow: column;     /* lay keys left→right */
+    grid-auto-columns: 100px;    /* each key same width */
+    gap: 8px;
+    justify-content: center;    /* keeps keys centered within the row */
+  }
+  /* #keyboard{ width:100%; display:grid; gap:8px; }
+  .keyrow{ display:grid; grid-template-columns:repeat(10,1fr); gap:8px; } */
+  .key{
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: var(--key);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 6px;
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--text);
+    text-transform: uppercase;
+    touch-action: manipulation
+   }
+  /* .key.special{ grid-column: span 5; } */
+  .key.correct{
+    /* background: var(--ok);
+    color: #083f2b  */
+  }
+  .key.present{
+    /* background: var(--maybe);
+    color: #4a3a00  */
+  }
+  .key.absent{
+      /* outline: 2px dashed #8aa0ff;
+      outline-offset: 2px;
+      opacity: .9  */
+    }
+
+    .key.wide {
+        grid-column: span 1;
+        font-size: 13px;
+    }
+
+  .status{min-height:24px; font-size:14px; opacity:0.9;}
+  .toast{ position:fixed; top:12px; left:50%; transform:translateX(-50%); background:#0f4160; border:1px solid var(--tile-edge); color:var(--ink); padding:8px 12px; border-radius:8px; box-shadow:0 8px 18px rgba(0,0,0,0.35); display:none; }
+
+  @media (max-width: 600px){
+
+    #board {
+      gap: 3px;
+    }
+    .row {
+      gap: 3px;
+    }
+    #keyboard {
+      padding-top: 10px;
+    }
+    .keyrow {
+      grid-auto-columns: 56px;
+        gap: 3px
+    }
+
+    .key {
+      min-width:30px;
+    }
+
+    .key.wide {
+      min-width: 50px;
+      font-size: 10px;
+    }
+  }
+</style>
+<link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+<script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-KFSR46Z6C8');
+</script>
+</head>
+<body>
+  <div class="main">
+    <div>
+      <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Digiton"></script>
+    </div>
+      <section id="game" class="panel">
+          <div class="status muted" id="status"></div>
+          <div id="board" aria-label="Guess board" role="grid"></div>
+          <div id="keyboard">
+            <div class="keyrow" id="row1"></div>
+            <div class="keyrow" id="row2"></div>
+          </div>
+      </section>
+  </div>
+<div class="toast" id="toast"></div>
+
+<script>
+const MODE = 'daily';
+const HARD = false;
+const LEVEL_CONFIG = {
+  easy: { digits: 4 },
+  medium: { digits: 5 },
+  hard: { digits: 6 }
+};
+
+(function(){
+  // ---------- Utilities ----------
+  const $ = sel => document.querySelector(sel);
+  const $$ = sel => Array.from(document.querySelectorAll(sel));
+  const clamp = (v,min,max)=>Math.max(min,Math.min(max,v));
+
+  function todayKey(){
+    const d = new Date();
+    // Use local date (user timezone) so "daily" feels natural
+    const yyyy = d.getFullYear();
+    const mm = String(d.getMonth()+1).padStart(2,'0');
+    const dd = String(d.getDate()).padStart(2,'0');
+    return `${yyyy}-${mm}-${dd}`;
+  }
+
+  function xorshift32(seed){
+    let x = seed|0;
+    return function(){
+      x ^= x << 13; x ^= x >>> 17; x ^= x << 5;
+      // Convert to [0,1)
+      return ((x>>>0) / 4294967296);
+    }
+  }
+
+  function seededNumber(len, seedStr){
+    const min = Math.pow(10, len-1);
+    const max = Math.pow(10, len)-1;
+    let h = 2166136261; // FNV‑1a-ish simple hash
+    for(let i=0;i<seedStr.length;i++){
+      h ^= seedStr.charCodeAt(i);
+      h = (h * 16777619) >>> 0;
+    }
+    const rand = xorshift32(h);
+    const n = Math.floor(rand() * (max - min + 1)) + min;
+    return String(n);
+  }
+
+  const COLOR_PRIORITY = { absent:0, present:1, correct:2 };
+
+  function scoreGuess(guess, target){
+    const L = guess.length;
+    const res = Array(L).fill('absent');
+    const counts = {};
+    for(let i=0;i<L;i++){
+      const t = target[i];
+      if(guess[i] === t){
+        res[i] = 'correct';
+      }else{
+        counts[t] = (counts[t]||0) + 1;
+      }
+    }
+    for(let i=0;i<L;i++){
+      if(res[i] !== 'correct'){
+        const g = guess[i];
+        if(counts[g] > 0){
+          res[i] = 'present';
+          counts[g]--;
+        }
+      }
+    }
+    return res; // array of 'correct' | 'present' | 'absent'
+  }
+
+  function showToast(msg){
+    const el = $('#toast');
+    el.textContent = msg; el.style.display='block';
+    clearTimeout(showToast.tid);
+    showToast.tid = setTimeout(()=>{ el.style.display='none'; }, 1400);
+  }
+
+  function bestKeyClass(prev, next){
+    if(!prev) return next;
+    return COLOR_PRIORITY[next] > COLOR_PRIORITY[prev] ? next : prev;
+  }
+
+  // ---------- Game State ----------
+  const state = {
+    L: 5,
+    rows: 6,
+    curRow: 0,
+    curCol: 0,
+    target: '',
+    board: [], // [{ch:'', color:''}]
+    mode: 'daily',
+    hard: false,
+    keyboard: {},
+    done: false,
+  };
+
+  function storageKey(){
+    const datePart = (state.mode === 'daily') ? todayKey() : 'random';
+    return `digitle:${datePart}:L${state.L}`;
+  }
+
+  function save(){
+    // const payload = {
+    //   L: state.L, rows: state.rows, curRow: state.curRow, curCol: state.curCol,
+    //   target: state.target, board: state.board, mode: state.mode, hard: state.hard,
+    //   keyboard: state.keyboard, done: state.done
+    // };
+    // localStorage.setItem(storageKey(), JSON.stringify(payload));
+  }
+
+  function load(){
+    // const s = localStorage.getItem(storageKey());
+    // if(!s) return false;
+    // try{
+    //   const p = JSON.parse(s);
+    //   Object.assign(state, p);
+    //   return true;
+    // }catch{ return false; }
+  }
+
+  // ---------- UI Build ----------
+  function buildBoard(){
+    const board = $('#board');
+    board.innerHTML = '';
+    board.style.gridTemplateRows = ''; board.style.gridTemplateColumns = '';
+    for(let r=0; r<state.rows; r++){
+      const row = document.createElement('div');
+      row.className = 'row';
+      row.style.gridTemplateColumns = `repeat(${state.L}, 56px)`;
+      for(let c=0; c<state.L; c++){
+        const tile = document.createElement('div');
+        tile.className = 'tile';
+        tile.id = `tile-${r}-${c}`;
+        tile.setAttribute('role','gridcell');
+        row.appendChild(tile);
+      }
+      board.appendChild(row);
+    }
+  }
+
+  function drawBoardFromState(){
+    for(let r=0; r<state.rows; r++){
+      for(let c=0; c<state.L; c++){
+        const idx = r*state.L + c;
+        const cell = state.board[idx] || { ch:'', color:'' };
+        const tile = $(`#tile-${r}-${c}`);
+        tile.textContent = cell.ch || '';
+        tile.classList.toggle('filled', !!cell.ch);
+        ['correct','present','absent'].forEach(k=>tile.classList.remove(k));
+        if(cell.color) tile.classList.add(cell.color);
+      }
+    }
+    // keyboard
+    for(const [k, v] of Object.entries(state.keyboard)){
+      const keyEl = document.querySelector(`.key[data-key="${k}"]`);
+      if(keyEl){
+        ['correct','present','absent'].forEach(x=>keyEl.classList.remove(x));
+        keyEl.classList.add(v);
+      }
+    }
+    updateStatus();
+  }
+
+  function buildKeyboard(){
+  const r1 = $('#row1');
+  const r2 = $('#row2');
+  r1.innerHTML = '';
+  r2.innerHTML = '';
+
+  // First row: 1–5 + Backspace
+  const row1 = ['1','2','3','4','5','Backspace'];
+  // Second row: 6–0 + Enter
+  const row2 = ['6','7','8','9','0','Enter'];
+
+  for (const k of row1){ r1.appendChild(makeKey(k)); }
+  for (const k of row2){ r2.appendChild(makeKey(k)); }
+
+  $$('#keyboard .key').forEach(el=>{
+    el.addEventListener('click', ()=> handleKey(el.dataset.key));
+  });
+}
+
+function makeKey(label){
+  const el = document.createElement('button');
+  el.className = 'key';
+  el.dataset.key = label;
+  el.textContent = (label === 'Backspace') ? '⌫' : (label === 'Enter' ? 'Enter' : label);
+  if (el.textContent === 'Enter') el.classList.add('wide');
+  return el;
+}
+
+  // ---------- New Game ----------
+  function newPuzzle({keepMode=false}={}){
+    const level = getQueryParam ("level") || "easy";
+    const L = LEVEL_CONFIG[level]?.digits || 5;
+    state.L = clamp(L,4,6);
+    if(!keepMode){ state.mode = MODE; }
+    state.hard = HARD;
+    state.rows = 6; state.curRow = 0; state.curCol = 0; state.done = false;
+    state.board = Array(state.rows * state.L).fill(0).map(()=>({ch:'', color:''}));
+    state.keyboard = {};
+
+    if(state.mode === 'daily'){
+      state.target = seededNumber(state.L, `${todayKey()}|L${state.L}|digitle`);
+    } else {
+      // truly random using Math.random with a quick mix
+      const min = Math.pow(10, state.L-1);
+      const max = Math.pow(10, state.L)-1;
+      state.target = String(Math.floor(Math.random() * (max-min+1)) + min);
+    }
+
+    buildBoard(); buildKeyboard(); drawBoardFromState(); save();
+  }
+
+  // ---------- Input & Rules ----------
+  function updateStatus(msg){
+    if(typeof msg === 'string'){ $('#status').textContent = msg; return; }
+    if(state.done){
+      if(state.win){ $('#status').textContent = `Nice! ${state.target}`; }
+      else { $('#status').textContent = `Answer: ${state.target}`; }
+    } else {
+      $('#status').textContent = `Guess a ${state.L}-digit number (${state.rows - state.curRow} tries left)`;
+    }
+  }
+
+  function setCell(r,c,ch){
+    const idx = r*state.L + c;
+    state.board[idx].ch = ch;
+    const t = $(`#tile-${r}-${c}`); if(t){ t.textContent = ch; t.classList.toggle('filled', !!ch); }
+  }
+
+  function getGuessString(r){
+    let s = '';
+    for(let c=0;c<state.L;c++) s += (state.board[r*state.L + c].ch || '');
+    return s;
+  }
+
+  function applyReveal(r, colors){
+    for(let c=0;c<state.L;c++){
+      const t = $(`#tile-${r}-${c}`);
+      (function(tile, color, delay){
+        setTimeout(()=>{
+          tile.classList.add('reveal');
+          setTimeout(()=>{
+            tile.classList.remove('reveal');
+            ['correct','present','absent'].forEach(k=>tile.classList.remove(k));
+            tile.classList.add(color);
+          }, 130);
+        }, delay);
+      })(t, colors[c], 140*c);
+    }
+  }
+
+  function enforceHardMode(guess){
+    if(!state.hard || state.curRow === 0) return true;
+    // Known constraints from previous rows: greens fixed, all previous yellows must appear at least once
+    const mustAt = Array(state.L).fill(null); // known digits by position
+    const mustContain = new Set();
+    for(let r=0;r<state.curRow;r++){
+      const prev = getGuessString(r);
+      const cols = state.board.slice(r*state.L, r*state.L+state.L).map(x=>x.color||'');
+      for(let i=0;i<state.L;i++){
+        if(cols[i]==='correct') mustAt[i] = prev[i];
+        if(cols[i]==='present') mustContain.add(prev[i]);
+      }
+    }
+    for(let i=0;i<state.L;i++){
+      if(mustAt[i] && guess[i] !== mustAt[i]){
+        showToast(`Hard: use ${mustAt[i]} in spot ${i+1}`); return false;
+      }
+    }
+    for(const d of mustContain){
+      if(!guess.includes(d)){ showToast(`Hard: include ${d}`); return false; }
+    }
+    return true;
+  }
+
+  function submitGuess(){
+    if(state.done) return;
+    const r = state.curRow;
+    const guess = getGuessString(r);
+    if(guess.length < state.L || /\D/.test(guess)){
+      shakeRow(r); showToast(`Enter a ${state.L}-digit number`); return;
+    }
+    if(guess[0] === '0'){
+      shakeRow(r); showToast('No leading zeros'); return;
+    }
+    if(!enforceHardMode(guess)) return;
+
+    const colors = scoreGuess(guess, state.target);
+    // paint state
+    for(let c=0;c<state.L;c++){
+      const idx = r*state.L + c;
+      state.board[idx].color = colors[c];
+      // update keyboard coloring
+      const k = guess[c];
+      state.keyboard[k] = bestKeyClass(state.keyboard[k], colors[c]);
+    }
+    applyReveal(r, colors);
+
+    if(guess === state.target){
+      state.done = true; state.win = true; updateStatus(`You got it in ${r+1}/${state.rows}!`); showToast('🎉 Correct!'); celebrate  ();
+      save();
+      return;
+    }
+
+    state.curRow++;
+    state.curCol = 0;
+    if(state.curRow >= state.rows){
+      state.done = true; state.win = false; updateStatus(`Answer: ${state.target}`); showToast('Out of tries');
+    } else {
+      updateStatus();
+    }
+    save();
+  }
+
+  function shakeRow(r){
+    const rowEl = $('#board').children[r];
+    if(!rowEl) return; rowEl.classList.add('shake');
+    setTimeout(()=>rowEl.classList.remove('shake'), 300);
+  }
+
+  function handleKey(k){
+    if(state.done){ return; }
+    if(k === 'Enter') return submitGuess();
+    if(k === 'Backspace'){
+      if(state.curCol>0){ state.curCol--; setCell(state.curRow, state.curCol, ''); save(); }
+      return;
+    }
+    if(!/^\d$/.test(k)) return;
+    if(state.curCol >= state.L) return;
+    setCell(state.curRow, state.curCol, k);
+    state.curCol++; save();
+  }
+
+  // ---------- Share ----------
+  function buildShare(){
+    let lines = [];
+    const date = (state.mode==='daily') ? todayKey() : 'Random';
+    const head = `Digitle ${state.L} · ${date} · ${state.win ? (state.curRow+0) : 'X'}/${state.rows}`;
+    lines.push(head);
+    for(let r=0;r<state.rows;r++){
+      const row = state.board.slice(r*state.L, r*state.L+state.L);
+      const anyColor = row.some(x=>x.color);
+      if(!anyColor) break;
+      let s='';
+      for(const cell of row){
+        s += cell.color==='correct' ? '🟩' : cell.color==='present' ? '🟨' : '⬛';
+      }
+      lines.push(s);
+    }
+    return lines.join('\n');
+  }
+
+  async function share(){
+    const text = buildShare();
+    try{
+      await navigator.clipboard.writeText(text);
+      showToast('Result copied to clipboard');
+    }catch{
+      showToast('Could not copy');
+    }
+  }
+
+  // ---------- Wiring ----------
+  document.addEventListener('keydown', (e)=>{
+    if(e.metaKey || e.ctrlKey || e.altKey) return;
+    let k = e.key;
+    if(k === 'Enter' || k === 'Backspace' || /\d/.test(k)){
+      e.preventDefault(); handleKey(k);
+    }
+  });
+
+  // $('#newBtn').addEventListener('click', ()=>{ newPuzzle(); });
+  // $('#shareBtn').addEventListener('click', share);
+  // $('#digitsSel').addEventListener('change', ()=>{ newPuzzle({keepMode:true}); });
+  // $('#modeSel').addEventListener('change', ()=>{ newPuzzle(); });
+  // $('#hardToggle').addEventListener('change', ()=>{ newPuzzle({keepMode:true}); });
+
+  // ---------- Init ----------
+  (function init(){
+    // Seed initial settings from controls
+    const level = getQueryParam ("level") || "easy";
+    state.L = LEVEL_CONFIG[level]?.digits || 5;
+    state.mode = MODE;
+    state.hard = HARD;
+    buildKeyboard(); buildBoard();
+
+    // Try to load existing game
+    if(load()){
+      buildBoard(); buildKeyboard(); drawBoardFromState(); updateStatus();
+    }else{
+      newPuzzle();
+    }
+  })();
+})();
+</script>
+</body>
+</html>

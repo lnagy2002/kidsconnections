@@ -4,6 +4,8 @@
 .idea/
 .vscode/
 
+**/report*
+
 # Dependencies
 node_modules/
 /node_modules
@@ -77,4 +79,4 @@ agenthub/agents/youtube/db
 .cache/
 
 # Mobile development
-android-sdk/ 
+android-sdk/

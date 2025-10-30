@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes. I tell time every day. What am I?",
+    "a": "A clock",
+    "hint": "It hangs on the wall or sits on a desk."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about counting."
+  },
+  "hard": {
+    "q": "I am always hungry, I must be fed. The finger I touch will soon turn red. What am I?",
+    "a": "Fire",
+    "hint": "It grows as you give it fuel."
+  }
+}

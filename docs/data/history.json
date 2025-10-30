@@ -84,7 +84,15 @@
     "JOLLY",
     "MERRY",
     "TIGER",
-    "MYSTIC"
+    "MYSTIC",
+    "WINDY",
+    "FROST",
+    "CLASH",
+    "FLARE",
+    "GRAND",
+    "SLEET",
+    "TWIST",
+    "BLUSH"
   ],
   "medium": [
     "MYSTIC",
@@ -158,7 +166,8 @@
     "DREAMY",
     "BUNGLE",
     "CAVERN",
-    "SPLASHY"
+    "SPLASHY",
+    "EXPLAIN"
   ],
   "hard": [
     "EXEMPLARY",
@@ -215,6 +224,7 @@
     "BALANCED",
     "ACROBAT",
     "CHERISH",
-    "GRADUATE"
+    "GRADUATE",
+    "TRANQUIL"
   ]
 }

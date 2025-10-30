@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WINDY",
+      "FROST",
+      "CLASH",
+      "FLARE",
+      "GRAND",
+      "SLEET",
+      "TWIST",
+      "BLUSH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRYSTAL",
+      "GATHER",
+      "HARMONY",
+      "TRIUMPH",
+      "EXPLAIN",
+      "NARRATE",
+      "FESTIVE",
+      "DREAMER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "ADVENTURE",
+      "CHERISHED",
+      "ENCOURAGE",
+      "FRIENDSHIP",
+      "IMAGINARY",
+      "EXPERIMENT",
+      "INNOVATION",
+      "COMPLICATE"
+    ]
+  }
+}

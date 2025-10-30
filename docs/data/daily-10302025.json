@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10302025-E",
+    "generatedAt": "2025-10-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Common Animals",
+        "items": [
+          "dog",
+          "cat",
+          "mouse",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You See in a Kitchen",
+        "items": [
+          "spoon",
+          "plate",
+          "sink",
+          "fridge"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Basic Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "book",
+          "glue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups use familiar, concrete topics with single-step connections: (1) animals, (2) kitchen objects, (3) basic shapes, (4) common school supplies. Near-miss temptation: 'cat' could be seen as a pet like 'dog', but in this puzzle Cats are grouped with other animals for clarity."
+  },
+  "medium": {
+    "id": "10302025-M",
+    "generatedAt": "2025-10-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words with -ful Suffix",
+        "items": [
+          "beautiful",
+          "joyful",
+          "helpful",
+          "careful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a Plant",
+        "items": [
+          "root",
+          "stem",
+          "leaf",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Effects",
+        "items": [
+          "rain",
+          "snow",
+          "sunshine",
+          "fog"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and two-step ideas: (Words with -ful suffix) spot that each word ends with -ful; (Parts of a Plant) relate to living things; (Things with Wheels) items with wheels; (Weather Effects) common weather-related terms. Near-miss temptation: 'sunshine' might seem like a weather effect, but 'sunshine' is a form of weather, not a separate effect like rain or snow in this set; keep groups distinct by function."
+  },
+  "hard": {
+    "id": "10302025-H",
+    "generatedAt": "2025-10-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Pair Prefixes",
+        "items": [
+          "unhappy",
+          "unknown",
+          "unfold",
+          "untie"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contrasting Roles",
+        "items": [
+          "teacher",
+          "student",
+          "doctor",
+          "nurse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Time-Related Terms",
+        "items": [
+          "morning",
+          "afternoon",
+          "evening",
+          "night"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Descriptors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups use a bit more abstract linking: (Pair Prefixes) recognize common prefixes that create new words; (Contrasting Roles) occupations with typical settings; (Time-Related Terms) parts of a day; (Color Descriptors) basic color words. Near-miss temptation: 'teacher' and 'doctor' both roles in caregiving, but here the cue is job settings rather than a direct relationship, so keep each item clearly aligned to its group by definition."
+  },
+  "id": "10302025",
+  "generatedAt": "2025-10-30T02:19:32.892Z"
+}

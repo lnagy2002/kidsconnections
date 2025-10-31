@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "10312025-E",
+    "generatedAt": "2025-10-31T12:00:00Z",
+    "groups": [
+      {
+        "name": "Bright Things",
+        "items": [
+          "sun",
+          "lamp",
+          "lightbulb",
+          "candle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "sofa",
+          "bench",
+          "stool"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Your Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "knife",
+          "fork",
+          "peeler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy category explanations: Bright Things groups common sources of light; Things You Sit On are everyday seating options; Things You Wear on Your Feet are common footwear; Kitchen Helpers lists basic utensils. Near-miss temptation avoided by keeping each item clearly in its group."
+  },
+  "medium": {
+    "id": "10312025-M",
+    "generatedAt": "2025-10-31T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Fragments",
+        "items": [
+          "play",
+          "ground",
+          "sound",
+          "outdoor"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Partners",
+        "items": [
+          "unhappy",
+          "rethink",
+          "disagree",
+          "misstep"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cute Compounds",
+        "items": [
+          "sunflower",
+          "butterfly",
+          "rainbow",
+          "footprint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Objects with Hidden Shape",
+        "items": [
+          "pillow",
+          "plate",
+          "basket",
+          "hat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium explanations: Word Fragments hints at words that can stand with others to form phrases (play-ground, sound-outdoor is a near miss but not a standard compound). Prefix Partners show common word pairs with shared prefixes that alter meaning. Cute Compounds are familiar compound words. Hidden Shape items are ordinary objects that also evoke a simple shape idea (pillow: roundish, plate: round). Near-miss temptation was avoided by ensuring no item could fit two groups convincingly; e.g., 'sunflower' is clearly a compound, not a single fragment in Word Fragments."
+  },
+  "hard": {
+    "id": "10312025-H",
+    "generatedAt": "2025-10-31T12:00:00Z",
+    "groups": [
+      {
+        "name": "Abstract Roles",
+        "items": [
+          "teacher",
+          "artist",
+          "doctor",
+          "chef"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite Pairs",
+        "items": [
+          "hot",
+          "cold",
+          "young",
+          "old"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Rhythm Makers",
+        "items": [
+          "beat",
+          "pulse",
+          "tempo",
+          "rhythm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tiny Tools",
+        "items": [
+          "stapler",
+          "eraser",
+          "glue",
+          "ruler"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard explanations: Abstract Roles groups people by professions that imply certain tasks (not literal actions). Opposite Pairs uses clear opposites for thinking; Rhythm Makers involve music-related terms. Tiny Tools lists small handy items used in desks or classrooms. Near-miss temptation avoided by ensuring similar-sounding or related terms do not cross groups (e.g., tempo vs rhythm are related but grouped together only in Rhythm Makers; no item fits another group's core idea)."
+  },
+  "id": "10312025",
+  "generatedAt": "2025-10-31T02:17:09.649Z"
+}

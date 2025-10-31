@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "BOLT",
+      "CAVE",
+      "FIRM",
+      "BAND",
+      "HIVE",
+      "KITE",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRICK",
+      "GATHER",
+      "WILLOW",
+      "BUNGLE",
+      "CANDLE",
+      "SPLASH",
+      "FESTAL",
+      "FRIEND"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIANGLE",
+      "EXPLAIN",
+      "HARMONIZE",
+      "COMFORTING",
+      "EXPLORE",
+      "INTERFACE",
+      "GENERATE",
+      "FANTASTIC",
+      "BALANCING"
+    ]
+  }
+}

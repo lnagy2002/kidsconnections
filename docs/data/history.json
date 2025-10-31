@@ -167,7 +167,10 @@
     "BUNGLE",
     "CAVERN",
     "SPLASHY",
-    "EXPLAIN"
+    "EXPLAIN",
+    "TRICK",
+    "WILLOW",
+    "SPLASH"
   ],
   "hard": [
     "EXEMPLARY",
@@ -225,6 +228,8 @@
     "ACROBAT",
     "CHERISH",
     "GRADUATE",
-    "TRANQUIL"
+    "TRANQUIL",
+    "EXPLAIN",
+    "EXPLORE"
   ]
 }

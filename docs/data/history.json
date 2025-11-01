@@ -92,7 +92,12 @@
     "GRAND",
     "SLEET",
     "TWIST",
-    "BLUSH"
+    "BLUSH",
+    "CAGE",
+    "POND",
+    "BUSH",
+    "FARM",
+    "PUSH"
   ],
   "medium": [
     "MYSTIC",
@@ -170,7 +175,10 @@
     "EXPLAIN",
     "TRICK",
     "WILLOW",
-    "SPLASH"
+    "SPLASH",
+    "CRUNCH",
+    "STORMS",
+    "TWIRLS"
   ],
   "hard": [
     "EXEMPLARY",
@@ -230,6 +238,11 @@
     "GRADUATE",
     "TRANQUIL",
     "EXPLAIN",
-    "EXPLORE"
+    "EXPLORE",
+    "ABUNDANT",
+    "COMFORTS",
+    "HARMONIC",
+    "FESTIVITY",
+    "SPIRITED"
   ]
 }

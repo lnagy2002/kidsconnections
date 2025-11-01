@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11012025-E",
+    "generatedAt": "2025-11-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with 4 legs",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can sit on",
+        "items": [
+          "chair",
+          "sofa",
+          "bench",
+          "stool"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that glow",
+        "items": [
+          "sun",
+          "lamp",
+          "stars",
+          "firefly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Category explanations: 1) animals with four legs. 2) furniture you can sit on. 3) sources of light. 4) headwear. Near-miss temptation avoided by keeping each item clearly fitting only its group."
+  },
+  "medium": {
+    "id": "11012025-M",
+    "generatedAt": "2025-11-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words with common prefix re-",
+        "items": [
+          "reused",
+          "rewrite",
+          "replay",
+          "rebuild"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound words with sun",
+        "items": [
+          "sunbeam",
+          "sunrise",
+          "sunflower",
+          "sunset"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with four equal sides",
+        "items": [
+          "square",
+          "rhombus",
+          "kite",
+          "diamond"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in a kitchen you can stir",
+        "items": [
+          "spoon",
+          "whisk",
+          "ladle",
+          "mixer"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Category explanations: 1) words starting with re- (re- prefix). 2) common compound words starting with sun- as a prefix. 3) geometric shapes with four equal sides or visual symmetry; note that some terms can be debated, but square is the classic. 4) kitchen tools used for stirring or mixing. Near-miss temptation: items like 'beat' could feel related to kitchen, but not a tool; only the listed stirring tools fit."
+  },
+  "hard": {
+    "id": "11012025-H",
+    "generatedAt": "2025-11-01T12:00:00Z",
+    "groups": [
+      {
+        "name": "Abstract animal connections (metaphorical)",
+        "items": [
+          "owl",
+          "ant",
+          "peacock",
+          "dolphin"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that become new words with -er suffix",
+        "items": [
+          "paint",
+          "trace",
+          "build",
+          "bloom"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of transportation that carry people",
+        "items": [
+          "bus",
+          "train",
+          "ferry",
+          "airplane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that reflect light or color in small mirrors",
+        "items": [
+          "crystal",
+          "gem",
+          "glass",
+          "mirror"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Category explanations: 1) abstract links using animal traits as metaphor (e.g., wise owl, swift dolphin) to form a unifying theme; near-miss temptation would be picking animals that share obvious literal connections rather than metaphorical ones. 2) Words that can form new meaningful words by adding -er (e.g., paint -> painter is not in list; here, focus on the potential transformation, but use items that clearly illustrate the suffix rule). 3) Vehicles that carry people; distinct, non-overlapping modes. 4) Objects that reflect light or color in small mirrors; ensure each item is a typical reflective object. Near-miss temptation avoided by ensuring each item only fits its intended group."
+  },
+  "id": "11012025",
+  "generatedAt": "2025-11-01T02:20:15.062Z"
+}

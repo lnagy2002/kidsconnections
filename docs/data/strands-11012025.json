@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMP",
+      "FISH",
+      "HIDE",
+      "WAVE",
+      "MIST",
+      "BARK",
+      "CAMP",
+      "SAND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPIRAL",
+      "FESTAL",
+      "DANGLE",
+      "CIRCLE",
+      "SILVER",
+      "JOURNAL",
+      "COMBAT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "FANTASY",
+      "SPIRITED",
+      "BALANCED",
+      "HARMONIC",
+      "EXPLORER",
+      "TRADITION",
+      "INNOVATE",
+      "CONSTRUCT"
+    ]
+  }
+}

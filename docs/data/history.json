@@ -97,7 +97,9 @@
     "POND",
     "BUSH",
     "FARM",
-    "PUSH"
+    "PUSH",
+    "BUMP",
+    "HIDE"
   ],
   "medium": [
     "MYSTIC",
@@ -178,7 +180,8 @@
     "SPLASH",
     "CRUNCH",
     "STORMS",
-    "TWIRLS"
+    "TWIRLS",
+    "SPIRAL"
   ],
   "hard": [
     "EXEMPLARY",
@@ -243,6 +246,8 @@
     "COMFORTS",
     "HARMONIC",
     "FESTIVITY",
-    "SPIRITED"
+    "SPIRITED",
+    "DREAMER",
+    "FANTASY"
   ]
 }

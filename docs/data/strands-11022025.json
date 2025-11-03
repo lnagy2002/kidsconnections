@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLD",
+      "COLD",
+      "FLEA",
+      "MIST",
+      "BUMP",
+      "GLOW",
+      "WARM",
+      "JUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CANDLE",
+      "JOURNAL",
+      "GATHER",
+      "BALANCE",
+      "FESTAL",
+      "HARMONY",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDSHIP",
+      "INNOVATE",
+      "EXPLORE",
+      "WONDERFUL",
+      "DISCOVER",
+      "TRANQUIL",
+      "COMFORTING",
+      "HARMONIZE",
+      "IMAGINARY"
+    ]
+  }
+}

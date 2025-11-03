@@ -99,7 +99,8 @@
     "FARM",
     "PUSH",
     "BUMP",
-    "HIDE"
+    "HIDE",
+    "BOLD"
   ],
   "medium": [
     "MYSTIC",

@@ -259,7 +259,8 @@ function buildList(container, games){
     // Play → append ?difficulty=<level>
     els.play.addEventListener('click', ()=>{
       if(!game.url) return;
-      const u = new URL(game.url, location.origin + "/kidsconnections");
+      const path = `/kidsconnections/${game.url.replace(/^\//, '')}`;
+      const u = new URL(path, location.origin);
       const sp = new URLSearchParams(u.search);
       sp.set('level', level);
       u.search = sp.toString();

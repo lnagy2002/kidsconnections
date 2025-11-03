@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m not a pet, yet I wear a coat of fur. What am I?",
+    "a": "A coin",
+    "hint": "Think about something you flip and carry in your pocket."
+  },
+  "medium": {
+    "q": "I’m a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Changing the number in the clue is key."
+  },
+  "hard": {
+    "q": "A box contains three light bulbs. Each bulb is either on or off. If you pull one switch, it toggles exactly two bulbs. How can you guarantee all three bulbs end up on with a single switch pull?",
+    "a": "Explain a sequence or logic that leads to all on using one action",
+    "hint": "Think about the parity of on/off and which bulbs you toggle."
+  }
+}

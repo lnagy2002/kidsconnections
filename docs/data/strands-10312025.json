@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "MIST",
+      "POND",
+      "FLEW",
+      "BUSH",
+      "FARM",
+      "PUSH",
+      "RACE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPLASH",
+      "CRUNCH",
+      "GARDEN",
+      "STORMS",
+      "TWIRLS",
+      "BRIGHT",
+      "FESTAL",
+      "SILVER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ABUNDANT",
+      "COMFORTS",
+      "HARMONIC",
+      "FESTIVITY",
+      "SPIRITED",
+      "TRADITION",
+      "NARRATIVE",
+      "ENCOURAGE",
+      "DREAMLIKE"
+    ]
+  }
+}

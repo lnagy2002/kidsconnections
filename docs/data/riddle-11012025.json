@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a fluffy animal that says meow and loves to nap in the sun. What am I?",
+    "a": "cat",
+    "hint": "Purrs and has whiskers."
+  },
+  "medium": {
+    "q": "I am a word that gains a new meaning if you add the same two letters to the start and end. What am I?",
+    "a": "shift",
+    "hint": "Think about moving from one side to another."
+  },
+  "hard": {
+    "q": "A box has four equal sides. Each side has a different color: red, blue, yellow, and green. A ball starts at red and moves to a neighboring color each step, never repeating a color. How many moves can it make before it must repeat or stop?",
+    "a": "4",
+    "hint": "Consider the color sequence as a loop with constraints."
+  }
+}

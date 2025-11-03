@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11102025-E",
+    "generatedAt": "2025-11-02T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with tails",
+        "items": [
+          "monkey",
+          "cat",
+          "dog",
+          "fox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can ride",
+        "items": [
+          "bike",
+          "bus",
+          "train",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that rhyme with 'hat'",
+        "items": [
+          "bat",
+          "mat",
+          "sat",
+          "pat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that are yellow",
+        "items": [
+          "banana",
+          "lemon",
+          "sun",
+          "duck"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: 1) common animals with tails; 2) everyday rideable objects; 3) word-rhyme group (rhymes with 'hat'); 4) yellow things. Near-miss temptation was 'sun' vs 'star'; they are not all yellow in some images, so kept separate as 'yellow' only."
+  },
+  "medium": {
+    "id": "11102025-M",
+    "generatedAt": "2025-11-02T00:00:00Z",
+    "groups": [
+      {
+        "name": "Animals by habitat",
+        "items": [
+          "penguin",
+          "camel",
+          "dolphin",
+          "owl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with -er meaning doer",
+        "items": [
+          "teacher",
+          "runner",
+          "writer",
+          "painter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-part compound foods",
+        "items": [
+          "popcorn",
+          "rainbow",
+          "sunflower",
+          "blueberry"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that are cold when touched",
+        "items": [
+          "ice",
+          "snow",
+          "ice cream",
+          "frost"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories: 1) animals by habitat; 2) agent nouns with -er suffix; 3) common compound words; 4) items associated with cold touch. Near-miss temptation: 'icicle' could be in cold group, but not listed; kept to items clearly cold when touched in everyday context. Ensure items fit grade-4/5 comprehension."
+  },
+  "hard": {
+    "id": "11102025-H",
+    "generatedAt": "2025-11-02T00:00:00Z",
+    "groups": [
+      {
+        "name": "Mathematical patterns (sequences)",
+        "items": [
+          "2,4,6,8",
+          "3,9,27,81",
+          "5,10,15,20",
+          "7,14,21,28"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Family relationships",
+        "items": [
+          "mother",
+          "uncle",
+          "cousin",
+          "grandpa"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Vehicles by propulsion",
+        "items": [
+          "car",
+          "bicycle",
+          "airplane",
+          "roller skates"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites paired with color",
+        "items": [
+          "hot-red",
+          "cold-blue",
+          "bright-yellow",
+          "dark-green"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories: 1) simple numeric sequences to spot pattern (even, exponent, arithmetic progression, mixed pattern); 2) family terms showing generational relations; 3) vehicles categorized by propulsion; 4) pairing of opposite states with color descriptors. Near-miss temptation: grouping 'car' with 'bicycle' as 'non-motorized', but 'car' is motorized; ensure a clear 1-2 step rule per group."
+  },
+  "id": "11022025",
+  "generatedAt": "2025-11-02T02:22:55.719Z"
+}

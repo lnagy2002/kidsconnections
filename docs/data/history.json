@@ -92,7 +92,15 @@
     "GRAND",
     "SLEET",
     "TWIST",
-    "BLUSH"
+    "BLUSH",
+    "CAGE",
+    "POND",
+    "BUSH",
+    "FARM",
+    "PUSH",
+    "BUMP",
+    "HIDE",
+    "BOLD"
   ],
   "medium": [
     "MYSTIC",
@@ -167,7 +175,14 @@
     "BUNGLE",
     "CAVERN",
     "SPLASHY",
-    "EXPLAIN"
+    "EXPLAIN",
+    "TRICK",
+    "WILLOW",
+    "SPLASH",
+    "CRUNCH",
+    "STORMS",
+    "TWIRLS",
+    "SPIRAL"
   ],
   "hard": [
     "EXEMPLARY",
@@ -225,6 +240,15 @@
     "ACROBAT",
     "CHERISH",
     "GRADUATE",
-    "TRANQUIL"
+    "TRANQUIL",
+    "EXPLAIN",
+    "EXPLORE",
+    "ABUNDANT",
+    "COMFORTS",
+    "HARMONIC",
+    "FESTIVITY",
+    "SPIRITED",
+    "DREAMER",
+    "FANTASY"
   ]
 }

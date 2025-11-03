@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands, but no arms or legs. I’m not alive, but I tell you the time. What am I?",
+    "a": "A clock",
+    "hint": "Look at where you see numbers and hands moving."
+  },
+  "medium": {
+    "q": "I’m a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about how adding letters can change meaning."
+  },
+  "hard": {
+    "q": "Two people stand on a shore with a rope between them. Each pulls with equal force, yet the rope stays still. Why?",
+    "a": "Because they pull in opposite directions with the same strength, balancing the force.",
+    "hint": "Consider vectors: directions and magnitudes."
+  }
+}

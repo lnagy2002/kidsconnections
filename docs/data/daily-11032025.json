@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11032025-E",
+    "generatedAt": "2025-11-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Common Kitchen Items",
+        "items": [
+          "cup",
+          "spoon",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Handles",
+        "items": [
+          "pan",
+          "mug",
+          "bag",
+          "brush"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "cushion"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors You See in the Rainbow",
+        "items": [
+          "red",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are simple, everyday items. Near-miss temptation: 'bag' could be mistaken for a 'purse' in some contexts, but here it’s grouped by having a handle."
+  },
+  "medium": {
+    "id": "11032025-M",
+    "generatedAt": "2025-11-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animals by Habitat (on land)",
+        "items": [
+          "fox",
+          "deer",
+          "bear",
+          "rabbit"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Start with 'Sun'",
+        "items": [
+          "sunrise",
+          "sunflower",
+          "sunset",
+          "sunbeam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pairs in Sports Equipment",
+        "items": [
+          "gloves",
+          "shoes",
+          "bat",
+          "helmet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Spin",
+        "items": [
+          "top",
+          "spinningwheel",
+          "fidget",
+          "kite"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories mix concrete ideas with light wordplay. Near-miss temptation: 'gloves' might feel related to 'shoes' as gear, but the connect is through equipment worn or used in sport; ensure each item clearly belongs to its own group. "
+  },
+  "hard": {
+    "id": "11032025-H",
+    "generatedAt": "2025-11-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "States of Water (phase changes)",
+        "items": [
+          "ice",
+          "water",
+          "steam",
+          "fog"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instrument Families",
+        "items": [
+          "drums",
+          "flute",
+          "violin",
+          "trumpet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Are Transparent",
+        "items": [
+          "glass",
+          "ice",
+          "window",
+          "water"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things Found in a Park Soundscape",
+        "items": [
+          "birdsong",
+          "fountain",
+          "breeze",
+          "squirrel"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles introduce multi-step or abstract links (phase changes, instrument families). Near-miss temptation: 'water' can be a phase change item and a transparent item; kept distinct by grouping in the 'States of Water' category. Also, 'glass' and 'window' are both transparent, but are placed in separate, clearly defined groups to avoid overlap."
+  },
+  "id": "11032025",
+  "generatedAt": "2025-11-03T02:22:37.116Z"
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs but I cannot walk. I help you sit when you eat. What am I?",
+    "a": "A chair",
+    "hint": "You sit on me at the table."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a small number and its opposite added letters."
+  },
+  "hard": {
+    "q": "Two people start at the same point. One moves 3 steps north, the other 3 steps east. Without turning, how can they end up on the same spot?",
+    "a": "They started from different times? Not enough info.",
+    "hint": "Consider different paths or meanings of 'same spot'."
+  }
+}

@@ -47,7 +47,7 @@
   .logo img{width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block;}
 
   .title{font-size:27px;font-weight:600;line-height:1.3;padding-bottom: 10px;}
-  .desc{color:var(--text);font-size:20px;max-width:420px;line-height:1.45;padding-bottom: 10px;}
+  .desc{color:var(--text);font-size:20px;max-width:420px;line-height:1.45;padding-bottom: 40px;}
 
   .body{padding:20px;display:grid;gap:18px;justify-items:center;text-align:center;}
 
@@ -252,16 +252,16 @@ function buildList(container, games){
       btn.addEventListener('click', ()=>{
         level = btn.dataset.level;
         setPressed(els.seg, level);
-        els.play.title = `Go to ${game.url}?difficulty=${level}`;
+        els.play.title = `Go to ${game.url}?level=${level}`;
       });
     });
 
     // Play → append ?difficulty=<level>
     els.play.addEventListener('click', ()=>{
       if(!game.url) return;
-      const u = new URL(game.url, location.origin);
+      const u = new URL(game.url, location.origin + "/kidsconnections");
       const sp = new URLSearchParams(u.search);
-      sp.set('difficulty', level);
+      sp.set('level', level);
       u.search = sp.toString();
       location.href = u.toString();
     });

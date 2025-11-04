@@ -115,7 +115,13 @@
   async function init(){
     if(!document.body)await new Promise(r=>addEventListener('DOMContentLoaded',r,{once:true}));
     injectDOM();wireBehavior();
-    const games=await loadConfig();fillList(games);
+    let games=await loadConfig();
+    games.unshift(
+      {"title": "Home",
+       "href": "https://themindbits.com",
+       "emoji": "<img src='	https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png' alt='The Mind Bits' style='width:20px;height:20px;'>"}
+     );
+    fillList(games);
     window.GamesMenu={set(g){fillList(g||[])},open(){document.getElementById('gm-burger')?.click()},close(){const p=document.getElementById('gm-panel');if(p?.classList.contains('gm-open'))document.getElementById('gm-burger')?.click();}};
   }
   init();

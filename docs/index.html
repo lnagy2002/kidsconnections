@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Mind Bits · Games</title>
+<style>
+:root{
+  --bg:#0e364b;
+  --panel:#0e364b;
+  --text:#0e364b;
+  --ink:#a9f4f4;
+  --muted:#e8f2cc;
+  --border:#1b2659;
+  --card-bg:#fff;
+  --ring:rgba(0,0,0,.08);
+  --radius:15px;
+  --seg-active:#111;
+}
+
+  h1{
+    color: var(--muted);
+    text-align: center;
+  }
+
+
+
+  /* Center the content and cap width */
+  .wrap {
+    padding: 50px;
+  }
+
+
+  .grid{
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr));
+  margin: 0 auto;
+  margin-top: 50px;
+  width: calc(calc(782px - 32px) + 256px);
+        max-width: calc(100% - 32px);
+}
+
+  /* Card */
+  .card {
+    --accent:#111; /* per-card accent injected via inline style */
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-rows: auto auto; /* top (logo), bottom (footer) */
+    overflow: hidden;
+    width: auto;
+    cursor: pointer;               /* show hand cursor */
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  }
+
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+
+  /* Top section: icon only, centered */
+  .card-top {
+    display: grid; place-items: center;
+    padding: 18px 16px;
+  }
+
+  .logo {
+    width: 96px; height: 96px; border-radius: 22px; overflow: hidden;
+    display: grid; place-items: center;
+  }
+  .logo img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; display: block; }
+
+  /* Bottom section: colored background from JSON */
+  .card-bottom {
+    background: var(--accent);
+    color: var(--text);
+    padding: 14px 14px 16px;
+    display: grid; gap: 10px;
+    justify-items: center; text-align: center;
+  }
+
+  .game-title {
+    font-weight: 900; font-size: 1.25rem; line-height: 1.2;
+  }
+
+  .play {
+        font-size: 1rem;
+    appearance: none; border: 0; cursor: pointer;
+    border-radius: 999px; padding: 10px 14px; font-weight: 900; letter-spacing: .2px;
+    color: var(--muted); background: var(--bg);  /* contrast on colored footer */
+  }
+  .play:active { transform: translateY(0); }
+
+  .subtle { color: var(--muted); text-align: center; }
+
+
+
+</style>
+<link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-KFSR46Z6C8');
+</script>
+</head>
+<body>
+  <main class="wrap">
+    <div class="container">
+      <h1 class="title">Daily  Brain Boost Games</h1>
+
+      <section id="grid" class="grid" aria-live="polite"></section>
+
+      <div id="loading" class="subtle">Loading games…</div>
+      <div id="error" class="subtle" hidden>Couldn’t load games. Check your <code>games.json</code> path or run a local server (instead of opening via <code>file://</code>).</div>
+    </div>
+
+  </main>
+  <div>
+    <script src="./footer.js"></script>
+  </div>
+<script>
+/** Load from external games JSON.
+ *  - default: ./games.json
+ *  - override: ?data=<url>
+ *  Supports:
+ *   { "games":[ ... ] }  or  [ ... ]
+ */
+const qs = (s, el=document)=> el.querySelector(s);
+const param = (k, fb=null)=> new URLSearchParams(location.search).get(k) ?? fb;
+const dataUrl = param('data', 'https://lnagy2002.github.io/kidsconnections/games-menu.json');
+
+const els = {
+  grid: qs('#grid'),
+  loading: qs('#loading'),
+  error: qs('#error'),
+};
+
+async function fetchGames(url){
+  const res = await fetch(url, { cache: 'no-cache' });
+  if(!res.ok) throw new Error(`HTTP ${res.status}`);
+  const raw = await res.json();
+  const list = Array.isArray(raw) ? raw : (raw.games || []);
+  return list.map(g=>({
+    id: g.id,
+    title: g.title || g.name || 'Untitled',
+    href: g.href || g.url || '#',
+    logo: g.logo || g.logoUrl || '',
+    color: g.color || '#111',
+    defaultDifficulty: (g.defaultDifficulty || 'easy').toLowerCase()
+  })).filter(g=> g.id && g.href);
+}
+
+function buildCard(game){
+  const card = document.createElement('article');
+  card.className = 'card';
+  // inject per-card accent variable
+  card.style.setProperty('--accent', game.color || '#111');
+
+  const top = document.createElement('div');
+  top.className = 'card-top';
+
+  const logo = document.createElement('div');
+  logo.className = 'logo';
+  if (game.logo){
+    const img = document.createElement('img');
+    img.src = game.logo;
+    img.alt = `${game.title} logo`;
+    img.onerror = () => {
+      logo.textContent = (game.title?.[0] || 'G').toUpperCase();
+      logo.style.background = game.color;
+      logo.style.color = '#fff';
+    };
+    logo.appendChild(img);
+  } else {
+    logo.textContent = (game.title?.[0] || 'G').toUpperCase();
+    logo.style.background = game.color;
+    logo.style.color = '#fff';
+  }
+  top.appendChild(logo);
+
+  const bottom = document.createElement('div');
+  bottom.className = 'card-bottom';
+
+  const title = document.createElement('div');
+  title.className = 'game-title';
+  title.textContent = game.title;
+
+  const btn = document.createElement('button');
+  btn.className = 'play';
+  btn.type = 'button';
+  btn.textContent = 'Play';
+
+  card.addEventListener('click', ()=>{
+    // /kidsconnections/<href>?level=<defaultDifficulty>
+    // const path = `/kidsconnections/start.html`;
+    const path = "file:///Users/luminita/_personal/git/kidsconnections/docs/start.html";
+    const u = new URL(path, location.origin);
+    const sp = new URLSearchParams(u.search);
+    sp.set('id', game.id || 'connect');
+    u.search = sp.toString();
+    location.href = u.toString();
+  });
+
+  bottom.append(title);
+  card.append(top, bottom);
+  return card;
+}
+
+(async () => {
+  try {
+    const games = await fetchGames(dataUrl);
+    els.loading.hidden = true;
+
+    if (!games.length){
+      els.error.hidden = false;
+      els.error.textContent = 'No games found in JSON.';
+      return;
+    }
+
+    const frag = document.createDocumentFragment();
+    games.forEach(g => frag.appendChild(buildCard(g)));
+    els.grid.appendChild(frag);
+  } catch (err){
+    console.error(err);
+    els.loading.hidden = true;
+    els.error.hidden = false;
+  }
+})();
+</script>
+</body>
+</html>

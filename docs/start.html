@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Game Card · Mind Bits</title>
+<title>Game Card · The Mind Bits</title>
 
 <style>
   :root{
@@ -79,9 +79,16 @@
 
 </style>
 <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-KFSR46Z6C8');
+</script>
 </head>
 <body>
-<div class="wrap">
+<main class="wrap">
   <article id="card" class="card" hidden>
     <header class="header">
       <div id="logo" class="logo" aria-hidden="true"></div>
@@ -124,6 +131,9 @@
       <div>Check your <code>games.json</code> path (and avoid opening via <code>file://</code>; use a local server).</div>
     </div>
   </div>
+</main>
+<div>
+  <script src="./footer.js"></script>
 </div>
 
 <script>
@@ -259,7 +269,10 @@ function buildList(container, games){
     // Play → append ?difficulty=<level>
     els.play.addEventListener('click', ()=>{
       if(!game.url) return;
-      const path = `/kidsconnections/${game.url.replace(/^\//, '')}`;
+      // const path = `/kidsconnections/start.html`;
+      const path = `file:///Users/luminita/_personal/git/kidsconnections/docs/${game.url.replace(/^\//, '')}`;
+
+      // const path = `/kidsconnections/${game.url.replace(/^\//, '')}`;
       const u = new URL(path, location.origin);
       const sp = new URLSearchParams(u.search);
       sp.set('level', level);
@@ -267,7 +280,7 @@ function buildList(container, games){
       location.href = u.toString();
     });
 
-    els.play.title = `Go to ${game.url}?difficulty=${level}`;
+    els.play.title = `Go to ${game.url}?level=${level}`;
 
   } catch (err) {
     console.error('Failed to load games:', err);

@@ -196,8 +196,8 @@ function buildCard(game){
 
   card.addEventListener('click', ()=>{
     // /kidsconnections/<href>?level=<defaultDifficulty>
-    // const path = `/kidsconnections/start.html`;
-    const path = "file:///Users/luminita/_personal/git/kidsconnections/docs/start.html";
+    const path = `/kidsconnections/start.html`;
+    // const path = "file:///Users/luminita/_personal/git/kidsconnections/docs/start.html";
     const u = new URL(path, location.origin);
     const sp = new URLSearchParams(u.search);
     sp.set('id', game.id || 'connect');

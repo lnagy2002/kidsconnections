@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m used to tell time and hang on a wall. What am I?",
+    "a": "A clock pendulum",
+    "hint": "Sometimes you see a swinging piece on a clock."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about a small number and adding letters changes meaning."
+  },
+  "hard": {
+    "q": "Two numbers share a secret. If you swap their digits, the two results swap roles as well. If 12 becomes 21, what property does their sum or product reveal about the numbers?",
+    "a": "The digits swapping indicates a reversible pair; the puzzle highlights symmetry in digit positions.",
+    "hint": "Consider two numbers where exchanging digits yields another valid pair; look for a condition that remains true under reversal."
+  }
+}

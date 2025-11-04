@@ -270,9 +270,9 @@ function buildList(container, games){
     els.play.addEventListener('click', ()=>{
       if(!game.url) return;
       // const path = `/kidsconnections/start.html`;
-      const path = `file:///Users/luminita/_personal/git/kidsconnections/docs/${game.url.replace(/^\//, '')}`;
+      // const path = `file:///Users/luminita/_personal/git/kidsconnections/docs/${game.url.replace(/^\//, '')}`;
 
-      // const path = `/kidsconnections/${game.url.replace(/^\//, '')}`;
+      const path = `/kidsconnections/${game.url.replace(/^\//, '')}`;
       const u = new URL(path, location.origin);
       const sp = new URLSearchParams(u.search);
       sp.set('level', level);

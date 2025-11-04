@@ -100,7 +100,13 @@
     "PUSH",
     "BUMP",
     "HIDE",
-    "BOLD"
+    "BOLD",
+    "FISHY",
+    "JUMPY",
+    "SWEEP",
+    "CLAMP",
+    "WOVEN",
+    "FLUTE"
   ],
   "medium": [
     "MYSTIC",
@@ -182,7 +188,8 @@
     "CRUNCH",
     "STORMS",
     "TWIRLS",
-    "SPIRAL"
+    "SPIRAL",
+    "TRICKY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -249,6 +256,7 @@
     "FESTIVITY",
     "SPIRITED",
     "DREAMER",
-    "FANTASY"
+    "FANTASY",
+    "TRIUMPH"
   ]
 }

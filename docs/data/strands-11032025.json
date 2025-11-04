@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISHY",
+      "BLOOM",
+      "JUMPY",
+      "SWEEP",
+      "CLAMP",
+      "WOVEN",
+      "THUMP",
+      "FLUTE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FRIEND",
+      "GATHER",
+      "TRICKY",
+      "MYSTIC",
+      "JOURNAL",
+      "SPIRITS",
+      "BRIDGE",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIUMPH",
+      "WONDERFUL",
+      "EXPLORING",
+      "INNOVATE",
+      "DISCOVER",
+      "HARMONIZE",
+      "FANTASTIC",
+      "FRIENDSHIP",
+      "BALANCING"
+    ]
+  }
+}

@@ -68,10 +68,10 @@ h1 {
 }
 
 .main {
-    /* margin: 20px auto; */
+    margin: 20px auto;
     /* padding: 20px; */
     border-radius: 14px;
-    /* width: min(1200px, 96vw); */
+    width: min(1200px, 96vw);
 }
 
 #header-container {

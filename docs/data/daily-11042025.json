@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11042025-E",
+    "generatedAt": "2025-11-04T12:00:00Z",
+    "groups": [
+      {
+        "name": "Fresh Farm Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "duck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Hollow",
+        "items": [
+          "bell",
+          "drum",
+          "gourd",
+          "tuba"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Smooth Surfaces",
+        "items": [
+          "pearl",
+          "glass",
+          "ice",
+          "soap"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: Fresh Farm Friends groups animals you might see on a farm. Things That Hollow groups objects that can produce a sound when struck or tapped (hollow items often make a sound). Smooth Surfaces groups are things that feel slick or shiny. Bright Colors lists common color words. Near-miss temptation avoided: 'Animals that fly' might tempt to group birds, but none of these items are birds."
+  },
+  "medium": {
+    "id": "11042025-M",
+    "generatedAt": "2025-11-04T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word-Steady Prefixes",
+        "items": [
+          "unhappy",
+          "unseen",
+          "untied",
+          "unfold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Faced Pairs",
+        "items": [
+          "payday",
+          "sunset",
+          "rainbow",
+          "booklet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "pan",
+          "whisk",
+          "grater"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shape Buddies",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: Prefix group shows 'un-' words. Double-Faced Pairs are compound words that feel like two concepts in one (arranged so each can pair with a missing partner). Kitchen Helpers are common utensils. Shape Buddies lists basic geometric shapes. Near-miss temptation: 'Words with two syllables' might tempt; however, the links are about prefix meaning or compound structure rather than syllable count alone."
+  },
+  "hard": {
+    "id": "11042025-H",
+    "generatedAt": "2025-11-04T12:00:00Z",
+    "groups": [
+      {
+        "name": "Time Travelers",
+        "items": [
+          "morning",
+          "afternoon",
+          "evening",
+          "night"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Soundless Things",
+        "items": [
+          "shadow",
+          "mirror",
+          "silk",
+          "paper"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tiny Builders",
+        "items": [
+          "lego",
+          "blocks",
+          "clay",
+          "popsicle sticks"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet Pals",
+        "items": [
+          "earth",
+          "mars",
+          "jupiter",
+          "saturn"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: Time Travelers groups parts of a day. Soundless Things are items associated with quiet or reflective properties rather than noise. Tiny Builders are small construction materials children use in creative play. Planet Pals lists major planets commonly known to kids. Near-miss temptation: 'Seasons' could seem related to Time Travelers but seasons are not used here; instead we focus on times of day."
+  },
+  "id": "11042025",
+  "generatedAt": "2025-11-04T02:17:19.998Z"
+}

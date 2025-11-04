@@ -1,7 +1,7 @@
-  const script = document.currentScript;
+  const scriptFooter = document.currentScript;
 
-  const container = script.parentElement;
-  container.innerHTML = `
+  const containerFooter = scriptFooter.parentElement;
+  containerFooter.innerHTML = `
   <footer class="footer">
   <img
     src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png"

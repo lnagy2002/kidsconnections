@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEND",
+      "CLIP",
+      "DUST",
+      "FARM",
+      "HIVE",
+      "JOLT",
+      "PUSH",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRUNCH",
+      "GATHER",
+      "KITCHEN",
+      "MYSTIC",
+      "NARRATE",
+      "SPARKY",
+      "TWILIGHT",
+      "WONDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "COMFORTING",
+      "DREAMLIKE",
+      "EXPLORING",
+      "FANTASTIC",
+      "HARMONIZE",
+      "INNOVATED",
+      "SPECTACULAR",
+      "TRADITIONAL"
+    ]
+  }
+}

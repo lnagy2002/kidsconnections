@@ -1,7 +1,7 @@
 /*! Games Burger Menu — right side */
 (() => {
   const CSS = `
-  .gm-burger{position:fixed;top:14px;right:14px;z-index:10000;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1px solid rgba(255,255,255,.15);background:rgba(0,0,0,.35);backdrop-filter:blur(6px);color:#fff;cursor:pointer}
+  .gm-burger{position:fixed;top:14px;right:14px;z-index:10000;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1px solid rgba(255,255,255,.15);background:#afdddd;backdrop-filter:blur(6px);color:black;cursor:pointer}
   .gm-burger:focus-visible{outline:3px solid #7dd3fc;outline-offset:2px}
   .gm-icon,.gm-icon::before,.gm-icon::after{content:"";display:block;width:22px;height:2px;background:currentColor;border-radius:2px;transition:transform .25s ease,opacity .2s ease}
   .gm-icon{position:relative}.gm-icon::before,.gm-icon::after{position:absolute;left:0}.gm-icon::before{top:-7px}.gm-icon::after{top:7px}

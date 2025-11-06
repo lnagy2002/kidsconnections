@@ -9,7 +9,7 @@
   --bg:#0e364b;
   --panel:#0e364b;
   --text:#0e364b;
-  --ink:#a9f4f4;
+  --ink:#afdddd;
   --muted:#e8f2cc;
   --border:#1b2659;
   --card-bg:#fff;
@@ -19,9 +19,10 @@
 }
 
   h1{
-    color: var(--muted);
+    color: var(--ink);
     text-align: center;
   }
+
 
   /* Center the content and cap width */
   .wrap {
@@ -94,8 +95,17 @@
   .subtle { color: var(--muted); text-align: center; }
 
 
+  
 
+  .subtitle  {
+    font-family: 'Caveat', cursive;
+    color: var(--muted);
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.75em;
+  }
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
 <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
@@ -110,7 +120,9 @@
 <body>
   <main class="wrap">
     <div class="container">
-      <h1 class="title">Daily  Brain Boost Games</h1>
+      <h1 class="title">The Mind Bits <span class="subtitle">Games</span></h1>
+      <!-- <h1  class="title">Games</h1> -->
+      <!-- <h3 class="subtitle">Unlock your child full potential with brain activities</h3> -->
 
       <section id="grid" class="grid" aria-live="polite"></section>
 

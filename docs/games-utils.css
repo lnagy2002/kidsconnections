@@ -78,7 +78,9 @@ h1 {
     display: flex;
     gap: 12px;
     align-items: center;
-    padding: 10px 30px;
+    padding: 5px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 20px;
 }
 
 .muted {
@@ -114,8 +116,9 @@ letter-spacing: 0.3px;
 }
 
 
-
-@media (max-width: 600px) {
-            .main {
-            }
-}
+  .games  {
+    /* font-family: 'Sugo Display', cursive; */
+    /* color: var(--muted); */
+    text-align: center;
+    font-size: 1.75em;
+  }

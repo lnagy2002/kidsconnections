@@ -1,13 +1,14 @@
   const script = document.currentScript;
   const title = script.getAttribute("data-title") || "Game";
+  // const image = script.getAttribute("data-image") || "https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png";
 
   const container = script.parentElement;
   container.innerHTML = `
     <section id="header-container">
-      <!-- <img src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png" alt="" height="60px"> -->
+      <!-- <img style="background: white;border-radius: 15px;" src="" alt="" height="60px"> -->
       <div>
-        <h2>${title}</h2>
-        <div id="date"></div>
+        <h1 style="color:var(--muted)">${title} <span id="date"></span></h1>
+
       </div>
     </section>
   `;
@@ -25,4 +26,4 @@
   const formattedFileDate = mm + dd + yyyy;
   const level = getQueryParam('level') || 'easy';
 
-  document.getElementById("date").textContent = `Daily ${level} • ${formattedDate}`;
+  document.getElementById("date").textContent = `${formattedDate}`;

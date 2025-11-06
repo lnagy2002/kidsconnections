@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11052025-E",
+    "generatedAt": "2025-11-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that glow",
+        "items": [
+          "stars",
+          "lamp",
+          "firefly",
+          "neon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you drink from",
+        "items": [
+          "cup",
+          "bottle",
+          "mug",
+          "glass"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals that purr",
+        "items": [
+          "cat",
+          "tiger",
+          "lion",
+          "cougar"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and familiar. Near-miss temptation avoided by ensuring each item fits only its group (e.g., stars are not lamps)."
+  },
+  "medium": {
+    "id": "11052025-M",
+    "generatedAt": "2025-11-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words ending in -er",
+        "items": [
+          "runner",
+          "teacher",
+          "water",
+          "baker"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound word parts",
+        "items": [
+          "snowball",
+          "sunflower",
+          "raincoat",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes you can draw with a compass",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "pentagon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Near-miss temptation example: 'water' could seem like a -er word at a glance, but it doesn't follow the -er suffix rule; that's why it's grouped with other everyday items rather than as a suffix word. The suffix word group is strictly -er endings that form common job or agent nouns."
+  },
+  "hard": {
+    "id": "11052025-H",
+    "generatedAt": "2025-11-05T12:00:00Z",
+    "groups": [
+      {
+        "name": "Invented rhythms from objects",
+        "items": [
+          "drumstick",
+          "chime",
+          "bellows",
+          "tambourine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that change state with heat",
+        "items": [
+          "butter",
+          "ice",
+          "butterfly",
+          "steam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that become new words when a letter is added at front",
+        "items": [
+          "rain -> drain",
+          "blue -> glue",
+          "ear -> gear",
+          "sleep -> sleet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Places you can find books",
+        "items": [
+          "library",
+          "car",
+          "bakery",
+          "park"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups push abstract thinking: 'Invented rhythms' associates objects with sounds, 'state with heat' requires basic science, and the front-letter addition is a wordplay clue. Near-miss temptation is avoided by ensuring clear boundaries (e.g., ice vs butter both relate to state but grouped distinctly)."
+  },
+  "id": "11052025",
+  "generatedAt": "2025-11-05T02:19:12.885Z"
+}

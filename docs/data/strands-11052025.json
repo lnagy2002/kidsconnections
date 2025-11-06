@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BIRD",
+      "FARM",
+      "CANE",
+      "HIVE",
+      "CAMP",
+      "BUMP",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "BALANCE",
+      "FESTAL",
+      "FESTIVE",
+      "MYSTERY",
+      "DREAMS",
+      "JOURNEY",
+      "ADVENTURE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTACLE",
+      "TRADITION",
+      "FRIENDSHIP",
+      "HARMONIZE",
+      "EXPLORING",
+      "COMPLICATED",
+      "GENERATE",
+      "INNOVATION",
+      "FANTASTIC"
+    ]
+  }
+}

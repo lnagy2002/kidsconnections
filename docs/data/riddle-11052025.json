@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands but no arms or legs. What am I?",
+    "a": "A clock",
+    "hint": "Look at time."
+  },
+  "medium": {
+    "q": "Count the days: if yesterday is 1 and today is 2, what number is tomorrow?",
+    "a": "3",
+    "hint": "Add one."
+  },
+  "hard": {
+    "q": "A box contains two red balls and three blue balls. Without looking, pick one ball. If you pick two balls at once, what is the minimum number of draws to guarantee getting at least one red ball?",
+    "a": "3",
+    "hint": "Think worst-case draws."
+  }
+}

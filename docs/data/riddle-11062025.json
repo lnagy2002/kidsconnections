@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am not a pet, yet I dwell in a pencil. What am I?",
+    "a": "Eraser",
+    "hint": "I help make marks disappear."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a word that gets smaller when you add letters."
+  },
+  "hard": {
+    "q": "A box has four corners and holds three shapes: a circle, a square, and a triangle. If you arrange them so every corner touches the edge exactly once, how many corners are used in total?",
+    "a": "8",
+    "hint": "Count distinct corners along the outer boundary."
+  }
+}

@@ -7,7 +7,7 @@
     <section id="header-container">
       <!-- <img style="background: white;border-radius: 15px;" src="" alt="" height="60px"> -->
       <div>
-        <h1 style="color:var(--muted)">${title} <span id="date"></span></h1>
+        <h1 style="color:var(--muted)">${title} <div id="date"></div></h1>
 
       </div>
     </section>

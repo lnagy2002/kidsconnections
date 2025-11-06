@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11062025-E",
+    "generatedAt": "2025-11-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with stripes",
+        "items": [
+          "tiger",
+          "zebra",
+          "tiger",
+          "zebra"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "ladle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "bee",
+          "kite",
+          "plane"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Note: Each group should include four distinct items that clearly belong together. In this diagram, ensure no duplicates (fix tiger/tiger, zebra/zebra to unique items)."
+  },
+  "medium": {
+    "id": "11062025-M",
+    "generatedAt": "2025-11-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that start with uni",
+        "items": [
+          "unison",
+          "unicorn",
+          "unify",
+          "unilateral"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-word compounds",
+        "items": [
+          "rainbow",
+          "sunshine",
+          "heartbreak",
+          "fireworks"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things with buttons",
+        "items": [
+          "controller",
+          "remote",
+          "piano",
+          "calculator"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Places you sit",
+        "items": [
+          "bench",
+          "stool",
+          "sofa",
+          "chair"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Near-miss temptation: 'unison' could seem unrelated to 'unicorn' as a creature, but both share the 'uni' prefix; however, they fit their groups clearly. Each item is a single, unambiguous match."
+  },
+  "hard": {
+    "id": "11062025-H",
+    "generatedAt": "2025-11-06T12:00:00Z",
+    "groups": [
+      {
+        "name": "Science-y tools",
+        "items": [
+          "beaker",
+          "tongs",
+          "magnifier",
+          "test tube"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Magical creatures (mythical-ish)",
+        "items": [
+          "griffin",
+          "phoenix",
+          "dragon",
+          "unicorn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with corners",
+        "items": [
+          "triangle",
+          "square",
+          "pentagon",
+          "hexagon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "bicycle",
+          "subway",
+          "skateboard",
+          "hot air balloon"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Near-miss temptation: 'dragon' could be mistaken for 'griffin' as a magical creature, but each item belongs to its own group. Also, 'triangle' and 'pentagon' could be seen as shapes with different numbers of corners; they fit only their group. Ensure no overlap across groups."
+  },
+  "id": "11062025",
+  "generatedAt": "2025-11-06T02:19:34.497Z"
+}

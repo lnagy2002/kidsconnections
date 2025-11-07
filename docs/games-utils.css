@@ -123,8 +123,18 @@ letter-spacing: 0.3px;
     font-size: 1.75em;
   }
 
+.todaymsg  {
+  color: var(--muted);
+  text-align: center;
+}
 .embedded .header-container ,  .embedded .footer-container, .embedded #gm-burger, .embedded .title{
   display:none
+}
+
+.embedded .todaymsg {
+  text-align: left;
+  font-size: 0.75rem;
+  padding-left: 20px;
 }
 
 @media (max-width: 600px) {

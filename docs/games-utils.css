@@ -88,7 +88,7 @@ h1 {
     text-align: center;
 }
 
-.footer {
+.footer-container {
   margin-top: auto;                      /* pushes footer to bottom */
   padding: 14px 0 14px;                  /* comfortable spacing */
   text-align: center;
@@ -123,7 +123,7 @@ letter-spacing: 0.3px;
     font-size: 1.75em;
   }
 
-.embedded .header-container ,  .embedded .footer, .embedded #gm-burger, .embedded .title{
+.embedded .header-container ,  .embedded .footer-container, .embedded #gm-burger, .embedded .title{
   display:none
 }
 

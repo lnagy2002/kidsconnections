@@ -127,15 +127,8 @@ letter-spacing: 0.3px;
   color: var(--muted);
   text-align: center;
 }
-.embedded .footer-container, .embedded #gm-burger, .embedded .title{
+.embedded .footer-container, .embedded #header-container, .embedded #gm-burger, .embedded main.index .title{
   display:none
-}
-
-.embedded .todaymsg {
-  text-align: left;
-  font-size: 1rem;
-    padding-left: 20px;
-    margin-bottom: 0px;
 }
 
 .embedded main.index .grid{
@@ -146,12 +139,6 @@ letter-spacing: 0.3px;
   margin: 0 auto;
 }
 
-.embedded #header-container  {
-  padding: 5px 16px;
-}
-.embedded #header-container #date  {
-  display: none;
-}
 
 @media (max-width: 600px) {
   main.index {

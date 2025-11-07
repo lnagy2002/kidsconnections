@@ -146,6 +146,9 @@ letter-spacing: 0.3px;
   margin: 0 auto;
 }
 
+.embedded #header-container  {
+  padding: 5px 10px;
+}
 .embedded #header-container #date  {
   display: none;
 }

@@ -86,9 +86,6 @@
   gtag('js', new Date());
   gtag('config', 'G-KFSR46Z6C8');
 
-  if (window.self !== window.top) {
-    document.body.classList.add('embedded');
-  }
 </script>
 </head>
 <body>
@@ -292,6 +289,10 @@ function buildList(container, games){
     els.loadError.hidden = false;
   }
 })();
+
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
 </script>
 </body>
 </html>

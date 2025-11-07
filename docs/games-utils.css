@@ -122,3 +122,16 @@ letter-spacing: 0.3px;
     text-align: center;
     font-size: 1.75em;
   }
+
+.embedded .header-container ,  .embedded .footer, .embedded #gm-burger, .embedded .title{
+  display:none
+}
+
+@media (max-width: 600px) {
+  main.index {
+    padding:0px;
+  }
+  main.index .grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}

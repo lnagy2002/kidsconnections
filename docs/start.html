@@ -85,10 +85,14 @@
   function gtag(){ dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'G-KFSR46Z6C8');
+
+  if (window.self !== window.top) {
+    document.body.classList.add('embedded');
+  }
 </script>
 </head>
 <body>
-<main class="wrap">
+<main class="start wrap">
   <article id="card" class="card" hidden>
     <header class="header">
       <div id="logo" class="logo" aria-hidden="true"></div>

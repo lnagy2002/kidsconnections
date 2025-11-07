@@ -104,10 +104,14 @@
   function gtag(){ dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'G-KFSR46Z6C8');
+
+  if (window.self !== window.top) {
+    document.body.classList.add('embedded');
+  }
 </script>
 </head>
 <body>
-  <main class="wrap">
+  <main class="index wrap">
     <div class="container">
       <h1 class="title">The Mind Bits <span class="games" style="color: var(--muted);">Games</span></h1>
       <!-- <h1  class="title">Games</h1> -->
@@ -192,7 +196,7 @@ function buildCard(game){
   bottom.className = 'card-bottom';
 
   const title = document.createElement('div');
-  title.className = 'game-title games';
+  title.className = 'game-title';
   title.textContent = game.title;
 
   const btn = document.createElement('button');

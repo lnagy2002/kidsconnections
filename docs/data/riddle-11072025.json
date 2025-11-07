@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have hands but cannot clap. I tell you when it’s time to play, and I tick-tock all day. What am I?",
+    "a": "A clock",
+    "hint": "On a wall or a desk, it helps you know the time."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of a small amount and how it changes with two letters added."
+  },
+  "hard": {
+    "q": "A box has four corners. Inside is a square. If you move one corner to the opposite side, you still have a symmetrical shape. What shape could this be describing?",
+    "a": "A kite (rhombus/diamond) with reflective symmetry",
+    "hint": "Consider a shape with equal sides and a bow-like balance along a diagonal."
+  }
+}

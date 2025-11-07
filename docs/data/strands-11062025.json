@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "BUMP",
+      "CAVE",
+      "BELL",
+      "WARM",
+      "HIVE",
+      "FIRM",
+      "GOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMS",
+      "GATHER",
+      "NARRATE",
+      "FESTAL",
+      "SPIRAL",
+      "JOURNEY",
+      "BALANCE",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "EXPLORE",
+      "TRADITION",
+      "GENERATE",
+      "COMFORTING",
+      "FRIENDSHIP",
+      "IMAGINARY",
+      "TRIANGULAR",
+      "HARMONIZE"
+    ]
+  }
+}

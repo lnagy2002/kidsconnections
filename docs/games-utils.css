@@ -127,7 +127,7 @@ letter-spacing: 0.3px;
   color: var(--muted);
   text-align: center;
 }
-.embedded .header-container ,  .embedded .footer-container, .embedded #gm-burger, .embedded .title{
+.embedded .footer-container, .embedded #gm-burger, .embedded .title{
   display:none
 }
 
@@ -140,6 +140,14 @@ letter-spacing: 0.3px;
 
 .embedded main.index .grid{
   margin-top: 30px;
+}
+
+.embedded .main {
+  margin: 0 auto;
+}
+
+.embedded #header-container #date  {
+  display: none;
 }
 
 @media (max-width: 600px) {

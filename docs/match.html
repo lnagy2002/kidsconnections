@@ -427,6 +427,9 @@ document.getElementById('btnNew').addEventListener('click', ()=>{
   const first = PUZZLES[0];
   setPuzzle(first);
 })();
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
 </script>
 </body>
 </html>

@@ -362,6 +362,9 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
   const level = getQueryParam('level') || 'easy';
   build(level);
 })();
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
 </script>
 </body>
 </html>

@@ -17,10 +17,6 @@
            --no: #64748b;
            --maybe: #facc15;
            --bad: #e4572e;
-
-
-
-
             --key: #0f1736;
             --key-hover: #141f4a;
             --ink-2: #143f57;
@@ -708,6 +704,10 @@
             start(n);
           }
         });
+
+        if (window.self !== window.top) {
+          document.body.classList.add('embedded');
+        }
     </script>
 </body>
 

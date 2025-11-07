@@ -347,6 +347,9 @@
 
   // Focus outline for keyboard users
   document.body.addEventListener('keydown', e=>{ if(e.key==='Tab') document.body.classList.add('show-outline'); });
+  if (window.self !== window.top) {
+    document.body.classList.add('embedded');
+  }
   </script>
 </body>
 </html>

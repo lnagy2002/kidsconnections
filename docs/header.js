@@ -1,6 +1,7 @@
   const script = document.currentScript;
   const title = script.getAttribute("data-title") || "Game";
   // const image = script.getAttribute("data-image") || "https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png";
+  window.parent.postMessage({ type: 'UPDATE_HEADER', title }, '*');
 
   const container = script.parentElement;
   container.innerHTML = `

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11072025-E",
+    "generatedAt": "2025-11-07T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things that go on feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright objects in the sky (during day)",
+        "items": [
+          "sun",
+          "cloud",
+          "rainbow",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common classroom supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you eat for breakfast",
+        "items": [
+          "cereal",
+          "banana",
+          "toast",
+          "egg"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: (1) items worn on feet (socks, shoes, slippers, boots); (2) day-sky items (sun, cloud, rainbow, kite) with a simple daytime theme; (3) basic school supplies; (4) common breakfast foods. Near-miss temptation: 'glue' might seem like a desk item but better fit is classroom supplies; 'crayon' would fit classroom but not used here to keep exact four."
+  },
+  "medium": {
+    "id": "11072025-M",
+    "generatedAt": "2025-11-07T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that form new words with -er",
+        "items": [
+          "painter",
+          "teacher",
+          "player",
+          "driver"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal friends with shared habitat",
+        "items": [
+          "otter",
+          "beaver",
+          "marten",
+          "weasel"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen items used for mixing",
+        "items": [
+          "whisk",
+          "spoon",
+          "spatula",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: (1) -er words that form another word with -er suffix (painter, teacher, player, driver). (2) Animals sharing habitat; avoid similar-looking but unrelated animals. (3) Pairs: items typically used in pairs. (4) Kitchen tools for mixing. Near-miss temptation: 'fork' could be in kitchen items, but it’s not in this group to keep clear four; 'ladle' would also be possible but not included to preserve uniqueness."
+  },
+  "hard": {
+    "id": "11072025-H",
+    "generatedAt": "2025-11-07T12:00:00Z",
+    "groups": [
+      {
+        "name": "Rhymes with color names",
+        "items": [
+          "orange",
+          "purple",
+          "blue",
+          "green"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that become another word when you add re-",
+        "items": [
+          "type",
+          "write",
+          "shape",
+          "think"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that travel in a straight line",
+        "items": [
+          "arrow",
+          "rail",
+          "arrow",
+          "beam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Objects found in a pencil-case that are not writing tools",
+        "items": [
+          "eraser",
+          "sharpener",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: (1) Rhymes with color names; tricky because 'orange' has few perfect rhymes but fits as a color word. (2) Words that gain new meaning with re- prefix; distinguishing true duplicates from false friends is key. (3) Straight-line travel items; ensure items clearly travel in straight lines in everyday use. (4) Non-writing tools found in pencil cases. Near-miss temptation: 'crayon' could be in pencil-case group, but 'glue' is clearly non-writing, while 'eraser' is a common non-writing tool; ensure distinct definitions prevent overlap."
+  },
+  "id": "11072025",
+  "generatedAt": "2025-11-07T02:17:22.986Z"
+}

@@ -124,6 +124,11 @@
     <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
   </div>
 <script>
+
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
+
 /** Load from external games JSON.
  *  - default: ./games.json
  *  - override: ?data=<url>

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am yellow and bright and I rise in the sky. I wake you up with warm light. What am I?",
+    "a": "the sun",
+    "hint": "You see me in the morning."
+  },
+  "medium": {
+    "q": "What word starts with a B, ends with a T, and has a lot of water inside it?",
+    "a": "boat",
+    "hint": "Think of something that floats."
+  },
+  "hard": {
+    "q": "I am an odd number. Take away a letter and I become even. What number am I?",
+    "a": "seven",
+    "hint": "Remove the middle letter to get a form of even."
+  }
+}

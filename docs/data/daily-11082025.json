@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11082025-E",
+    "generatedAt": "2025-11-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Tails",
+        "items": [
+          "Cat",
+          "Dog",
+          "Mouse",
+          "Fox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Feet",
+        "items": [
+          "Socks",
+          "Shoes",
+          "Slippers",
+          "Sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Glide",
+        "items": [
+          "Boat",
+          "Boat",
+          "Kite",
+          "Plane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Numbers in Words",
+        "items": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: 1) familiar animals with tails; 2) common footwear; 3) things that move by gliding or flying; 4) numbers written as words. Near-miss caution: 'Boat' could be mistaken with 'Sail' but 'Boat' includes the watercraft idea clearly."
+  },
+  "medium": {
+    "id": "11082025-M",
+    "generatedAt": "2025-11-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words Sharing a Suffix",
+        "items": [
+          "Careful",
+          "Playful",
+          "Hopeful",
+          "Enjoyful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Compound Start",
+        "items": [
+          "Sunflower",
+          "Rainbow",
+          "Snowball",
+          "Stonewall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with Sides",
+        "items": [
+          "Triangle",
+          "Rectangle",
+          "Square",
+          "Pentagon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rhyming Pairs",
+        "items": [
+          "Pony",
+          "Phony",
+          "Broom",
+          "Gloom"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: 1) suffix -ful words with different roots; 2) common compound words formed from two recognizable parts; 3) shapes with specific sides; 4) words that rhyme or look similar but have different meanings. Near-miss: 'Pony' and 'Phony' rhyme but are not related in meaning; they are distinct items to reduce confusion."
+  },
+  "hard": {
+    "id": "11082025-H",
+    "generatedAt": "2025-11-08T12:00:00Z",
+    "groups": [
+      {
+        "name": "Mystery Tools and Their Uses",
+        "items": [
+          "Hammer",
+          "Wrench",
+          "Saw",
+          "Pliers"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Days of the Week Hidden in Words",
+        "items": [
+          "Monsoon",
+          "Tuelette",
+          "Wedlock",
+          "Thuber"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites in Pairs",
+        "items": [
+          "Hot",
+          "Cold",
+          "Sweet",
+          "Bitter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Animals with Unique Calls",
+        "items": [
+          "Duck",
+          "Quail",
+          "Cricket",
+          "Frog"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: 1) real-world tools with obvious use; 2) words that contain a day-of-week name concept (creative embedding, not exact spelling); 3) obvious opposites; 4) animals with distinctive sounds. Near-miss: 'Cold' vs 'Hot' could be confused as a pair; they are opposites but the group is about contrasts, not individual items being directly paired within the same group."
+  },
+  "id": "11082025",
+  "generatedAt": "2025-11-08T02:10:51.083Z"
+}

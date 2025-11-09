@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11092025-E",
+    "generatedAt": "2025-11-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Buzz",
+        "items": [
+          "bee",
+          "fly",
+          "hornet",
+          "mosquito"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "sofa",
+          "stool",
+          "bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Food in a Sandwich",
+        "items": [
+          "cheese",
+          "lettuce",
+          "tomato",
+          "bacon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group is a familiar category for early elementary. Near-miss temptation: 'chair' in 'Things You Sit On' might seem related to 'sofa' or 'stool' but it clearly belongs in the seated furniture group. The groups avoid overlapping items."
+  },
+  "medium": {
+    "id": "11092025-M",
+    "generatedAt": "2025-11-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that Start with 'Sun'",
+        "items": [
+          "sunrise",
+          "sunflower",
+          "sunset",
+          "sunburn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Compound Words",
+        "items": [
+          "raincoat",
+          "sunflower",
+          "basketball",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things You Wear for Warmth",
+        "items": [
+          "scarf",
+          "gloves",
+          "jacket",
+          "sweater"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Fur or Feathers",
+        "items": [
+          "cat",
+          "duck",
+          "rabbit",
+          "goose"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Notes: 'Sunflower' appears in two groups to illustrate a near-miss temptation; ensure players pick the intended single best fit to avoid confusion. The two-part words group intentionally avoids duplicates by picking different senses (sunflower as a plant vs. a compound word)."
+  },
+  "hard": {
+    "id": "11092025-H",
+    "generatedAt": "2025-11-09T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of Transportation by Water",
+        "items": [
+          "canoe",
+          "submarine",
+          "kayak",
+          "raft"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Change Color in Sunlight",
+        "items": [
+          "candle",
+          "leaves",
+          "chameleon",
+          "ink"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools with a Sharp Edge",
+        "items": [
+          "knife",
+          "scissors",
+          "saw",
+          "razor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Earth, Air, Fire, Water (Elements in Everyday Objects)",
+        "items": [
+          "sand",
+          "cloud",
+          "spice",
+          "steam"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Notes: Hard level uses more abstract connections. Near-miss temptation: 'leaves' could fit 'changes color in sunlight' group or another plant group; explain why it belongs here due to chlorophyll breakdown and color change in autumn. Also, avoid any overlap like 'knife' appearing in another group."
+  },
+  "id": "11092025",
+  "generatedAt": "2025-11-09T02:21:46.296Z"
+}

@@ -190,7 +190,9 @@
     "TWIRLS",
     "SPIRAL",
     "TRICKY",
-    "ADVENTURE"
+    "ADVENTURE",
+    "SPARKS",
+    "PLANTS"
   ],
   "hard": [
     "EXEMPLARY",

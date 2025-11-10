@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CLAMP",
+      "DUSTY",
+      "FLAIR",
+      "GLOWY",
+      "HAPPY",
+      "LUMPY",
+      "WOVEN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CANDLE",
+      "FESTIVE",
+      "GARNISH",
+      "JOURNAL",
+      "SILENCE",
+      "SPIRITS",
+      "TWILIGHT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "COMFORTING",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "HARMONIZE",
+      "INNOVATION",
+      "SPECTACULAR",
+      "TRANSLATE",
+      "UNDERSTAND"
+    ]
+  }
+}

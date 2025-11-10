@@ -106,7 +106,11 @@
     "SWEEP",
     "CLAMP",
     "WOVEN",
-    "FLUTE"
+    "FLUTE",
+    "DUSTY",
+    "FLAIR",
+    "GLOWY",
+    "LUMPY"
   ],
   "medium": [
     "MYSTIC",
@@ -192,7 +196,9 @@
     "TRICKY",
     "ADVENTURE",
     "SPARKS",
-    "PLANTS"
+    "PLANTS",
+    "BALLOON",
+    "GARNISH"
   ],
   "hard": [
     "EXEMPLARY",

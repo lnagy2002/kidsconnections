@@ -1,0 +1,16 @@
+:root {
+  --bg: #0e364b;
+  --panel: #0e364b;
+  --text: #afdddd;
+  --ink: #afdddd;
+  --muted: #e8f2cc;
+  --border: #1b2659;
+  --ok: #4ade80;
+  --no: #64748b;
+  --maybe: #facc15;
+  --bad: #e4572e;
+
+  --key: #0f1736;
+  --key-hover: #141f4a;
+
+}

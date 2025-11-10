@@ -37,19 +37,21 @@ h1 {
 }
 
 .btn {
-     background: var(--key);
-     border: 1px solid var(--border);
-     border-radius: 10px;
-     padding: 12px 6px;
-     font-weight: 400;
-     font-size: 16px;
-     color: var(--text);
-     margin: 5px;
-     width: auto;
+  appearance: none;
+   border: 1px solid var(--text);
+   cursor: pointer;
+   border-radius: 999px;
+   padding: 12px 18px;
+   font-weight: 400;
+   letter-spacing: .3px;
+   color: var(--muted);
+   background: var(--bg);
+   width: auto;
+   font-size: 1rem;
  }
 
  .btn.primary {
-     background: #05a9ac;
+     background: var(--text);
      color: #000;
      border: none;
  }

@@ -6,24 +6,7 @@
 <title>Digiton · Wordle‑style Numbers Game Daily</title>
 <style>
 
-:root {
-  --bg: #0e364b;
-  --panel: #0e364b;
-  --text: #a9f4f4;
-  --ink: #a9f4f4;
-  --muted: #e8f2cc;
-  --border: #1b2659;
-  --ok: #4ade80;
-  --no: #64748b;
-  --maybe: #facc15;
-  --bad: #e4572e;
-
-   --key: #0f1736;
-   --key-hover: #141f4a;
-
-}
-
-
+@import url('./theme.css');
   .toggle{display:inline-flex; align-items:center; gap:6px; cursor:pointer; user-select:none;}
   .toggle input{accent-color:var(--correct);}
 
@@ -152,7 +135,7 @@
     }
   }
 </style>
-<link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+<link rel="stylesheet" href="./games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
 <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
@@ -169,7 +152,7 @@
       <script src="./header.js" data-title="Digiton"></script>
     </div>
       <section id="game" class="panel">
-          <div class="status muted" id="status"></div>
+          <h3 class="section" id="status"></h3>
           <div id="board" aria-label="Guess board" role="grid"></div>
           <div id="keyboard">
             <div class="keyrow" id="row1"></div>

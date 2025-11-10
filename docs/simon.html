@@ -6,29 +6,11 @@
   <title>Kids Simon Game | The Mind Bits -  Daily</title>
   <meta name="description" content="Kid‑friendly Simon (repeat‑the‑sequence) game." />
   <style>
+    @import url('./theme.css');
     :root{
-         --bg: #0e364b;
-         --panel: #0e364b;
-         --text: #a9f4f4;
-         --ink: #a9f4f4;
-         --muted: #f0db79;
-         --maybe: #facc15;
-         --no: #64748b;
-         --border: #1b2659;
-         --ok: #4ade80;
-         --bad: #e4572e;
 
       --cell: #f0db79;
-      --accent1: #3b82f6;
-      --accent2: #22a699;
-      --accent3: #f2b705;
-      --accent4: #f25c54;
-      --muted: #f0db79;
-      --border: #1b2659;
-      --key: #0f1736;
-      --key-hover: #141f4a;
       --ink-dim:#cbe8f2;     /* dim text */
-      --accent:#a9f4f4;      /* CTA */
       --good:#22a699;        /* success */
       --warn:#f2b705;        /* warning */
       --oops:#f25c54;        /* error */
@@ -120,29 +102,12 @@
     }
     .heartbeat{animation:heartbeat .3s}
 
-    .btn {
-        background: var(--key);
-        border: 1px solid var(--border);
-        border-radius: 10px;
-        padding: 12px 6px;
-        font-weight: 400;
-        font-size: 16px;
-        color: var(--text);
-        margin: 5px;
-        width: 90px;
-    }
-
-    .btn.primary {
-        background: #05a9ac;
-        color: #000;
-        border: none;
-    }
     .muted {
         color: var(--muted);
         text-align: center;
     }
   </style>
-  <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+  <link rel="stylesheet" href="./games-utils.css">
   <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
   <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>

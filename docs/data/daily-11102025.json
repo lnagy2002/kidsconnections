@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11102025-E",
+    "generatedAt": "2025-11-10T00:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Things",
+        "items": [
+          "sun",
+          "lamp",
+          "beach",
+          "tan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Spin",
+        "items": [
+          "fan",
+          "carousel",
+          "top",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Colors",
+        "items": [
+          "yellow",
+          "orange",
+          "pink",
+          "blue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: Sunny Things (things related to sun and warmth), Things You Wear (clothing), Things That Spin (objects that rotate), Bright Colors (common color names). Near-miss temptation: 'top' could belong to Things That Spin or Sunny Things, but here it's linked to a spinning object (top) for clarity."
+  },
+  "medium": {
+    "id": "11102025-M",
+    "generatedAt": "2025-11-10T00:00:00Z",
+    "groups": [
+      {
+        "name": "Word Partners",
+        "items": [
+          "key",
+          "board",
+          "board",
+          "hockey"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Clues",
+        "items": [
+          "butterfly",
+          "rainbow",
+          "sunflower",
+          "ladybug"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs",
+        "items": [
+          "snowball",
+          "snowman",
+          "snowflake",
+          "snowcone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposite Ends",
+        "items": [
+          "night",
+          "day",
+          "east",
+          "west"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: Word Partners (common word pairings), Compound Clues (items that are formed by combining idea parts), Prefix Pairs (words united by a shared prefix), Opposite Ends (opposites). Near-miss temptation: 'board' appears twice in the first group to hint at a pair, but only one clear grouping exists; other occurrence belongs to a different intended pair."
+  },
+  "hard": {
+    "id": "11102025-H",
+    "generatedAt": "2025-11-10T00:00:00Z",
+    "groups": [
+      {
+        "name": "Geometric Family",
+        "items": [
+          "square",
+          "circle",
+          "triangle",
+          "rhombus"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Homes",
+        "items": [
+          "beehive",
+          "den",
+          "nest",
+          "burrow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Guardians of Time",
+        "items": [
+          "clock",
+          "calendar",
+          "hourglass",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "pan",
+          "whisk",
+          "spatula"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: Geometric Family (shapes by property), Animal Homes (where animals live), Guardians of Time (time-keeping items), Kitchen Helpers (common cooking tools). Near-miss temptation: 'pan' could be kitchen or circle segment, but in this puzzle it clearly belongs to Kitchen Helpers; ensure not misclassified with a similar item 'spoon' that also fits in a non-kitchen group."
+  },
+  "id": "11102025",
+  "generatedAt": "2025-11-10T02:23:45.376Z"
+}

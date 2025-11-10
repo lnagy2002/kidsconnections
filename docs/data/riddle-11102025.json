@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am round and bright in the sky, I shine at day and bounce light on high. What am I?",
+    "a": "the sun",
+    "hint": "It's a big yellow ball we see every day."
+  },
+  "medium": {
+    "q": "I have keys but no locks. I have space but no rooms. You can enter me, but I stay still. What am I?",
+    "a": "a keyboard",
+    "hint": "Think of typing letters."
+  },
+  "hard": {
+    "q": "Two siblings share a secret: one is a keeper of time, the other a builder of steps. They meet in a place where numbers march. Where are they?",
+    "a": "on a calendar",
+    "hint": "Consider days and months as friends."
+  }
+}

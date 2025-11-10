@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "CANE",
+      "BUMP",
+      "FARM",
+      "FLEA",
+      "HIDE",
+      "CAGE",
+      "BOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKS",
+      "FESTAL",
+      "PLANTS",
+      "JOURNAL",
+      "GARDEN",
+      "SILVER",
+      "TRICKY",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "FESTIVITY",
+      "BALANCING",
+      "FRIENDSHIP",
+      "COMFORTED",
+      "GENERATE",
+      "TRIANGULAR",
+      "EXPLORING",
+      "DISCOVER"
+    ]
+  }
+}

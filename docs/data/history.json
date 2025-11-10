@@ -106,7 +106,11 @@
     "SWEEP",
     "CLAMP",
     "WOVEN",
-    "FLUTE"
+    "FLUTE",
+    "DUSTY",
+    "FLAIR",
+    "GLOWY",
+    "LUMPY"
   ],
   "medium": [
     "MYSTIC",
@@ -190,7 +194,11 @@
     "TWIRLS",
     "SPIRAL",
     "TRICKY",
-    "ADVENTURE"
+    "ADVENTURE",
+    "SPARKS",
+    "PLANTS",
+    "BALLOON",
+    "GARNISH"
   ],
   "hard": [
     "EXEMPLARY",
@@ -259,6 +267,14 @@
     "DREAMER",
     "FANTASY",
     "TRIUMPH",
-    "HARMONY"
+    "HARMONY",
+    "CAVERN",
+    "SPLASHY",
+    "WILLOW",
+    "SPLASH",
+    "CRUNCH",
+    "STORMS",
+    "TWIRLS",
+    "SPIRAL"
   ]
 }

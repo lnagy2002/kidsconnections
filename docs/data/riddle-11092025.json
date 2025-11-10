@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I start with a hop, and end with a pop. I’m worn on the feet and come in many colors. What am I?",
+    "a": "Shoe",
+    "hint": "You wear me indoors or outside."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What am I?",
+    "a": "Few",
+    "hint": "Think of a word that changes when you add letters."
+  },
+  "hard": {
+    "q": "A farmer has a bucket with water. He asks you to move it from the left side of a fence to the right side without spilling. You can only carry it once and you may cross the fence twice using one action. How can you do it?",
+    "a": "Lift the bucket over the fence in one go; move it to the other side without spilling.",
+    "hint": "Consider the meaning of 'crossing' and how you can move objects across boundaries."
+  }
+}

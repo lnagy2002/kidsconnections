@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FIRM",
+      "CLAY",
+      "BUMP",
+      "HIDE",
+      "BOLD",
+      "LAMP",
+      "CAVE",
+      "FARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GARNET",
+      "DANGLE",
+      "HARMON",
+      "SPARKY",
+      "CIRCLE",
+      "BALANCE",
+      "JOURNAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMBAT",
+      "CRYSTAL",
+      "DREAMER",
+      "FANTASY",
+      "EXPLAIN",
+      "WILLOW",
+      "SPECTACLE",
+      "INNOVATE",
+      "GENERATION"
+    ]
+  }
+}

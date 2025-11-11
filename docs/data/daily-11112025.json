@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11112025-E",
+    "generatedAt": "2025-11-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Sunny Animals",
+        "items": [
+          "cat",
+          "dog",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You See Outdoors",
+        "items": [
+          "tree",
+          "rock",
+          "grass",
+          "cloud"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Toys",
+        "items": [
+          "ball",
+          "doll",
+          "block",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Objects",
+        "items": [
+          "cup",
+          "spoon",
+          "book",
+          "lamp"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categorys explained: Sunny Animals groups familiar pets and wildlife; Outdoors lists everyday nature items; Common Toys covers playthings; Household Objects includes items found in most homes. Near-miss note avoided by not mixing animals with toys in the same category."
+  },
+  "medium": {
+    "id": "11112025-M",
+    "generatedAt": "2025-11-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Builders - Prefix Power",
+        "items": [
+          "unhappy",
+          "untidy",
+          "unseen",
+          "unfold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word Builders - Suffix Friends",
+        "items": [
+          "careful",
+          "playful",
+          "spotless",
+          "hopeful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes and Corners",
+        "items": [
+          "triangle",
+          "square",
+          "circle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Mini Machines",
+        "items": [
+          "car",
+          "train",
+          "boat",
+          "plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Prefix group uses 'un-' to create related negative forms; Suffix group uses '-ful' adjectives. Near-miss temptation: 'unfold' might seem related to 'fold' concept but belongs with prefix group as a word with 'un-'. Shapes are common but kept distinct from machines to avoid overlap."
+  },
+  "hard": {
+    "id": "11112025-H",
+    "generatedAt": "2025-11-11T12:00:00Z",
+    "groups": [
+      {
+        "name": "Hidden Helpers",
+        "items": [
+          "map",
+          "lock",
+          "key",
+          "code"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Days of the Week Rhythm",
+        "items": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Pairs",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Insects",
+        "items": [
+          "ant",
+          "bee",
+          "moth",
+          "beetle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hidden Helpers groups conceptual tools (map, lock, key, code) tied by problem-solving sense. Days of the Week are straightforward but pairings chosen to avoid obvious month or season cues. Color Pairs are basic color vocabulary; near-miss temptation could be associating colors with items, but each color stands as its own category. In Hard, all items are distinct with clear, single-category fit."
+  },
+  "id": "11112025",
+  "generatedAt": "2025-11-11T02:19:31.718Z"
+}

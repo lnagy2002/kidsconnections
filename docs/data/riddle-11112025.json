@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have keys but can’t open locks. I type words that pop up on screens. What am I?",
+    "a": "keyboard",
+    "hint": "It's something you use to write."
+  },
+  "medium": {
+    "q": "I am a pattern: 2, 4, 8, 16, ... If the rule keeps going, what is the next number?",
+    "a": "32",
+    "hint": "Double each time."
+  },
+  "hard": {
+    "q": "A box with no hinges, key, or lid, yet a golden treasure inside is hid. What is it?",
+    "a": "an egg",
+    "hint": "Think of something that holds a chick."
+  }
+}

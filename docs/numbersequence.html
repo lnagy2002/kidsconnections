@@ -52,7 +52,7 @@
 <body>
   <main class="main">
     <div>
-      <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Number Sequence"></script>
+      <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Next in Line"></script>
     </div>
 
     <div class="section">
@@ -257,6 +257,9 @@ document.addEventListener("keydown", (e)=>{
 
 /* ---------------- Init ---------------- */
 generate();
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
 </script>
 </body>
 </html>

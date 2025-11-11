@@ -28,13 +28,13 @@
 
     .topbar{text-align: center; margin: 20px;}
     .chip{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; color:var(--ink);}
-    .chip strong{color:var(--ink)}
+    .chip strong{color:var(--muted)}
 
     /* Game area */
     /* .wrap{display:grid; grid-template-columns: 1.2fr .8fr; gap:16px}
     @media (max-width: 900px){ .wrap{ grid-template-columns: 1fr; } } */
 
-    .board{display:grid; grid-template-columns:repeat(2, 1fr); grid-template-rows:repeat(2, 1fr); gap:12px; padding:16px}
+    .board{display:grid; grid-template-columns:repeat(2, 1fr); grid-template-rows:repeat(2, 1fr); gap:12px; padding:0 15px}
     .pad{
       position:relative; border-radius:18px; height:180px; min-height:120px; cursor:pointer; border:2px solid rgba(255,255,255,.08)
     }
@@ -124,16 +124,7 @@
       <div>
         <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Simon Game"></script>
       </div>
-        <!-- <h3 class="section">Repeat the growing pattern!</h3> -->
-        <div id="msg" class="muted" style="margin-left:auto"></div>
-        <section class="section">
-          <div class="chip" id="stateChip">Play State: <strong  style="color: #f0db79">Press <em>Start</em></strong></div>
-            <div class="chip" id="levelChip">Round: <strong>0</strong></div>
-            <div class="chip" id="bestChip">Top Score: <strong>0</strong></div>
-            <div class="chip" id="livesChip">Lives: <strong style="color: #f0db79">3</strong></div>
-        </section>
-
-        <div>
+        <h3 id="msg" class="section">Repeat the pattern</h3>
           <section class="card">
             <div class="board" role="group" aria-label="Simon board">
               <div class="pad green"  data-idx="0" role="button" aria-label="Green (press 1)" tabindex="0"><span class="padLabel">1</span></div>
@@ -141,8 +132,11 @@
               <div class="pad yellow" data-idx="2" role="button" aria-label="Yellow (press 3)" tabindex="0"><span class="padLabel">3</span></div>
               <div class="pad blue"   data-idx="3" role="button" aria-label="Blue (press 4)" tabindex="0"><span class="padLabel">4</span></div>
             </div>
+            <div style="text-align:center">
+            <div class="chip" id="stateChip" style="color: var(--muted)"><strong></strong></div>
+            <div class="chip" id="livesChip"><strong>3</strong> live(s) left</div>
+          </div>
           </section>
-        </div>
         <div class="section">
           <button id="startBtn" class="btn primary">Start</button>
           <button id="muteBtn" class="btn" aria-pressed="false">Sound On</button>
@@ -155,8 +149,8 @@
 
   // ====== Simon Game Logic ======
   const pads = [...document.querySelectorAll('.pad')];
-  const levelChip = document.getElementById('levelChip').querySelector('strong');
-  const bestChip  = document.getElementById('bestChip').querySelector('strong');
+  // const levelChip = document.getElementById('levelChip').querySelector('strong');
+  // const bestChip  = document.getElementById('bestChip').querySelector('strong');
   const livesChip = document.getElementById('livesChip').querySelector('strong');
   const stateChip = document.getElementById('stateChip').querySelector('strong');
   const statusText= document.getElementById('msg');
@@ -166,7 +160,8 @@
   const muteBtn = document.getElementById('muteBtn');
   const difficultySel = getQueryParam('level')  || 'easy';
 
-  let BEST = Number(localStorage.getItem('simon_best')||0); bestChip.textContent = BEST;
+  let BEST = Number(localStorage.getItem('simon_best')||0);
+  // bestChip.textContent = BEST;
 
   const SPEEDS = {
     easy:   { tone: 550, gap: 260, inputFlash: 250, lives: 3 },
@@ -201,7 +196,12 @@
   function setStateLabel(t){ stateChip.textContent = t; }
   function setStatusHTML(html){ statusText.innerHTML = html; }
   function setLives(n){ state.lives = n; livesChip.textContent = n; }
-  function setLevel(n){ state.level = n; levelChip.textContent = n; if(n>BEST){ BEST=n; bestChip.textContent = n; localStorage.setItem('simon_best', String(n)); }}
+  function setLevel(n){ state.level = n;
+    // levelChip.textContent = n;
+    if(n>BEST){
+      BEST=n;
+      // bestChip.textContent = n;
+      localStorage.setItem('simon_best', String(n)); }}
 
   function flashPad(idx, duration){
     const pad = pads[idx];
@@ -238,7 +238,7 @@
   function startGame(){
     clearTimers(); ensureAudio(); audioCtx.resume && audioCtx.resume();
     state.seq = []; setLevel(0); setLives(SPEEDS[difficultySel].lives); state.mode = difficultySel; state.playing = true;
-    setStatusHTML('Memorize the pattern, then repeat it. Match all steps to level up! ✨');
+    setStatusHTML('Repeat the pattern');
     addStep(); setLevel(1); playSequence();
   }
 

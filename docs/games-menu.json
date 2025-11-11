@@ -71,6 +71,15 @@
       "href": "digiton.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/screen-shot-2025-10-07-at-2.44.39-pm.png' alt='Digiton' style='width:20px;height:20px;'>",
       "description": "A Wordle-style numbers game where you guess the hidden number pattern."
+    },
+    {
+      "logo": "https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_38_07-pm.png",
+      "color": "#ABB2B9",
+      "id": "numberseq",
+      "title": "Next in Line",
+      "href": "numbersequence.html",
+      "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/screen-shot-2025-10-07-at-2.44.39-pm.png' alt='Digiton' style='width:20px;height:20px;'>",
+      "description": "Find the missing numbers that complete the sequence or pattern."
     }
   ]
 }

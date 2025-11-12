@@ -198,7 +198,10 @@
     "SPARKS",
     "PLANTS",
     "BALLOON",
-    "GARNISH"
+    "GARNISH",
+    "NURTURE",
+    "CLUSTER",
+    "FABLES"
   ],
   "hard": [
     "EXEMPLARY",

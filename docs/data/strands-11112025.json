@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LIFT",
+      "BEND",
+      "CAGE",
+      "HIVE",
+      "BUMP",
+      "FARM",
+      "PUSH",
+      "RACE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "NURTURE",
+      "CLUSTER",
+      "FABLES",
+      "MYSTERY",
+      "FRIENDS",
+      "SPIRITS",
+      "GARNISH",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIANGLE",
+      "HARMONIC",
+      "EXPLORER",
+      "CONSTRUCT",
+      "DISCOVER",
+      "GENERATE",
+      "FANTASTIC",
+      "IMAGINARY",
+      "BALANCED"
+    ]
+  }
+}

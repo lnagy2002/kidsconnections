@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I grow in the garden, but I am not a plant. I am something you wear on your teeth and smile. What am I?",
+    "a": "bracelet? no. teeth? glitter? munch. Wait. A 'grin'? Hmm. The riddle should be about 'braces' or 'brace'?",
+    "hint": "Think of a thing that shines when you show your teeth."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "Think about a three-letter word that, when you add two letters, becomes a word meaning 'smaller amount'."
+  },
+  "hard": {
+    "q": "A hallway has 7 doors. Each door has a number from 1 to 7. If you move exactly one step to the right from door #4, you land on a door whose number is the sum of the digits of 4. Which door do you land on?",
+    "a": "6",
+    "hint": "Consider how digits add and how you move in a line of doors."
+  }
+}

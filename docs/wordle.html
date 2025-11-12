@@ -239,7 +239,7 @@
         };
 
         async function loadData() {
-            const level = getQueryParam('level');
+            const level = getQueryParam('level') || 'easy';
             gtag('event', 'wordle_load_level_'  + level, { app: 'wordle' });
             try {
                 const res = await fetch('https://lnagy2002.github.io/kidsconnections/data/wordle-' + formattedFileDate + ".json"); // <-- your JSON file

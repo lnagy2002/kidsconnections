@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11122025-E",
+    "generatedAt": "2025-11-12T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits you peel",
+        "items": [
+          "banana",
+          "orange",
+          "pineapple",
+          "coconut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you sit on",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors often seen in nature",
+        "items": [
+          "green",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: 1) items that commonly come in pairs; 2) fruits that you peal; 3) furniture you sit on; 4) bright colors seen in nature. Near-miss temptation: 'bonnet' could be mistaken for 'hat' but not a pair item, so it’s not included."
+  },
+  "medium": {
+    "id": "11122025-M",
+    "generatedAt": "2025-11-12T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that share a common prefix",
+        "items": [
+          "replay",
+          "rewrite",
+          "replayground",
+          "react"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that light up at night",
+        "items": [
+          "lantern",
+          "firefly",
+          "neon",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-part compound words",
+        "items": [
+          "snowball",
+          "sunshine",
+          "bedtime",
+          "workshop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals in the grass",
+        "items": [
+          "rabbit",
+          "squirrel",
+          "hedgehog",
+          "mole"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: 1) prefix 're-' words that feel related; 2) things that glow at night; 3) common compound words formed by two smaller words; 4) small woodland animals. Near-miss temptation: 'sunflower' could fit both 'light up at night' and 'two-part compound' but it’s more of a plant; keep to defined items to avoid overlap."
+  },
+  "hard": {
+    "id": "11122025-H",
+    "generatedAt": "2025-11-12T12:00:00Z",
+    "groups": [
+      {
+        "name": "Abstract connections: things that travel in waves",
+        "items": [
+          "sound",
+          "light",
+          "ripple",
+          "signal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that become new words with -er suffix",
+        "items": [
+          "runner",
+          "painter",
+          "baker",
+          "reader"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes with straight edges",
+        "items": [
+          "square",
+          "rectangle",
+          "triangle",
+          "rhombus"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Objects used to measure or compare size",
+        "items": [
+          "ruler",
+          "scale",
+          "meter",
+          "yardstick"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: 1) abstract idea: travel in waves includes sound/light/signal; 2) words that become new nouns when adding -er; 3) basic geometric shapes with straight edges; 4) measuring tools. Near-miss temptation: 'gauge' could be a measuring tool but is not included to avoid overlap with 'scale' and 'meter' groups."
+  },
+  "id": "11122025",
+  "generatedAt": "2025-11-12T02:18:28.933Z"
+}

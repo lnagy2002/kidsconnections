@@ -1,3 +1,49 @@
+/* ========= “Completed today” storage helpers ========= */
+(function () {
+  const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const KEY = `mb:done:${TODAY}`;
+
+  function _readSet() {
+    try {
+      return new Set(JSON.parse(localStorage.getItem(KEY) || '[]'));
+    } catch (e) {
+      return new Set();
+    }
+  }
+
+  function _writeSet(set) {
+    try {
+      localStorage.setItem(KEY, JSON.stringify([...set]));
+    } catch (e) {
+      // ignore quota issues
+    }
+  }
+
+  function isDoneToday(id) {
+    return _readSet().has(id);
+  }
+
+  function markDoneToday(id) {
+    const s = _readSet();
+    s.add(id);
+    _writeSet(s);
+    window.dispatchEvent(new CustomEvent('mb:done-updated', { detail: { id } }));
+  }
+
+  function clearToday() {
+    localStorage.removeItem(KEY);
+    window.dispatchEvent(new Event('mb:done-updated'));
+  }
+
+  // Expose for other pages to call when a game is finished:
+  window.MindBitsProgress = {
+    isDoneToday,
+    markDoneToday,
+    clearToday,
+    getToday: () => [..._readSet()]
+  };
+})();
+
 function getQueryParam(name) {
     const params = new URLSearchParams(window.location.search);
     return params.get(name); // null if not found

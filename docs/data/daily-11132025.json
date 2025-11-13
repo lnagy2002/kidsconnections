@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11132025-E",
+    "generatedAt": "2025-11-13T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with wheels",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that glow at night",
+        "items": [
+          "stars",
+          "fireflies",
+          "lantern",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kinds of fruit",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "scissors",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups are concrete and familiar. Think about everyday categories. Near-miss example avoided by keeping each item clearly within its own group: wheels (vehicles) vs glow items vs fruits vs school supplies."
+  },
+  "medium": {
+    "id": "11132025-M",
+    "generatedAt": "2025-11-13T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that end with -ed in past tense",
+        "items": [
+          "walked",
+          "sat",
+          "jumped",
+          "built"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common compound words with sun- or moon- prefix",
+        "items": [
+          "sunflower",
+          "moonlight",
+          "sunrise",
+          "moonbeam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with sides",
+        "items": [
+          "triangle",
+          "square",
+          "rectangle",
+          "circle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you can wear on your head",
+        "items": [
+          "hat",
+          "helmet",
+          "cap",
+          "tiara"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and two-step ideas (compound words, past-tense endings). Near-miss temptation avoided by differentiating endings, compound components, and headwear items; each item clearly fits only one group."
+  },
+  "hard": {
+    "id": "11132025-H",
+    "generatedAt": "2025-11-13T12:00:00Z",
+    "groups": [
+      {
+        "name": "Pairs that rhyme with a shared last syllable",
+        "items": [
+          "baker",
+          "maker",
+          "taker",
+          "racer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words built from two smaller words stacked",
+        "items": [
+          "sunflower",
+          "notebook",
+          "raincoat",
+          "bookcase"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of transport with water elements",
+        "items": [
+          "ship",
+          "boat",
+          "kayak",
+          "submarine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a day described by light",
+        "items": [
+          "dawn",
+          "noon",
+          "twilight",
+          "dusk"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles feature slightly abstract groupings (rhyming pairs by shared last syllable, compound-word structure, time-of-day light descriptors). Near-miss temptation included with items that could seem related to two groups, but each item has a clear best fit to one group."
+  },
+  "id": "11132025",
+  "generatedAt": "2025-11-13T02:20:45.097Z"
+}

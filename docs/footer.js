@@ -4,7 +4,7 @@
   containerFooter.innerHTML = `
   <footer class="footer-container">
   <img
-    src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/09/logo-yellow.png"
+    src="https://bittobitscom.wordpress.com/wp-content/uploads/2025/11/cropped-untitled-design.png"
     alt="The Mind Bits"
     class="footer-logo"
   />

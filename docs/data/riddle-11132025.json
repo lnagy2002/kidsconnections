@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a fruit, but I’m not peeled. I’m a joke you can peel away—what am I?",
+    "a": "banana",
+    "hint": "Think of a wordplay fruit that can be peeled."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "Consider a short word that changes meaning when you add letters."
+  },
+  "hard": {
+    "q": "A photographer hides behind a mirror to take a picture of a room. If the room is empty but for one object that bends light, what could that object be to still reveal nothing in the photo?",
+    "a": "a mirror facing a blank wall",
+    "hint": "Think about how light and reflection interact in a simple setup."
+  }
+}

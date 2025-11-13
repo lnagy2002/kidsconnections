@@ -487,6 +487,7 @@ async function toImageBitmapCompat(dataUrl) {
                 fb.textContent = "Nice! That’s the true mirror.";
                 // badge.textContent = "Correct ✅";
                 celebrate ();
+                window.MindBitsProgress?.markDoneToday('mirror');
                 score++;
             } else {
                 fb.textContent = "Not quite. Look for left/right clues.";

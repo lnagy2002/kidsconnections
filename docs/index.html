@@ -18,82 +18,110 @@
   --seg-active:#111;
 }
 
-  h1{
-    color: var(--ink);
-    text-align: center;
-  }
+h1{
+  color: var(--ink);
+  text-align: center;
+}
 
+/* Center the content and cap width */
+.wrap { padding: 50px; }
 
-  /* Center the content and cap width */
-  .wrap {
-    padding: 50px;
-  }
-
-
-  .grid{
+.grid{
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr));
   margin: 0 auto;
   margin-top: 50px;
   width: calc(calc(782px - 32px) + 256px);
-        max-width: calc(100% - 32px);
+  max-width: calc(100% - 32px);
 }
 
-  /* Card */
-  .card {
-    --accent:#111; /* per-card accent injected via inline style */
-    background: var(--card-bg);
-    border-radius: var(--radius);
-    display: grid;
-    grid-template-rows: auto auto; /* top (logo), bottom (footer) */
-    overflow: hidden;
-    width: auto;
-    cursor: pointer;               /* show hand cursor */
+/* Card */
+.card {
+  --accent:#111; /* per-card accent injected via inline style */
+  position: relative;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  display: grid;
+  grid-template-rows: auto auto; /* top (logo), bottom (footer) */
+  overflow: hidden;
+  width: auto;
+  cursor: pointer;               /* show hand cursor */
   transition: transform 0.15s ease, box-shadow 0.2s ease;
-  }
+}
 
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
 
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-  }
+/* “Completed today” chip (hidden by default) */
+.badge-today{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* background: var(--ink);
+  color: #0e364b;
+  font-weight: 900;
+  font-size: .72rem;
+  padding: 4px 8px; */
+  border-radius: 999px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.15);
+  display: none;
+}
 
-  /* Top section: icon only, centered */
-  .card-top {
-    display: grid; place-items: center;
-    padding: 18px 16px;
-  }
+/* When completed today, show chip + subtle accent ring */
+.card.done-today .badge-today{ display:inline-block;
+  content: url(https://bittobitscom.wordpress.com/wp-content/uploads/2025/11/smile.png);
+    width: 50px;
+    height: auto;
+    border: 2px solid white;
+    transform: rotate(25deg);
+}
+.card.done-today .logo img {
+  /* content: url("https://bittobitscom.wordpress.com/wp-content/uploads/2025/11/untitled-design.gif"); */
+  /* content:  url("https://bittobitscom.wordpress.com/wp-content/uploads/2025/11/chatgpt-image-nov-4-2025-01_57_47-pm-1.png?w=1024"); */
+  /* box-shadow: inset 0 0 0 3px var(--ink), 0 0 0 1px rgba(0,0,0,.05); */
+}
+/* .card.done-today .card-bottom{
+  outline: 2px solid var(--ink);
+  outline-offset: -2px;
+} */
 
-  .logo {
-    width: 96px; height: 96px; border-radius: 22px; overflow: hidden;
-    display: grid; place-items: center;
-  }
-  .logo img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; display: block; }
+/* Top section: icon only, centered */
+.card-top {
+  display: grid; place-items: center;
+  padding: 18px 16px;
+}
 
-  /* Bottom section: colored background from JSON */
-  .card-bottom {
-    background: var(--accent);
-    color: var(--text);
-    padding: 14px 14px 16px;
-    display: grid; gap: 10px;
-    justify-items: center; text-align: center;
-  }
+.logo {
+  width: 96px; height: 96px; border-radius: 22px; overflow: hidden;
+  display: grid; place-items: center;
+}
+.logo img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; display: block; }
 
-  .game-title {
-    font-weight: 900; font-size: 1.25rem; line-height: 1.2;
-  }
+/* Bottom section: colored background from JSON */
+.card-bottom {
+  background: var(--accent);
+  color: var(--text);
+  padding: 14px 14px 16px;
+  display: grid; gap: 10px;
+  justify-items: center; text-align: center;
+}
 
-  .play {
-        font-size: 1rem;
-    appearance: none; border: 0; cursor: pointer;
-    border-radius: 999px; padding: 10px 14px; font-weight: 900; letter-spacing: .2px;
-    color: var(--muted); background: var(--bg);  /* contrast on colored footer */
-  }
-  .play:active { transform: translateY(0); }
+.game-title {
+  font-weight: 900; font-size: 1.25rem; line-height: 1.2;
+}
 
-  .subtle { color: var(--muted); text-align: center; }
+.play {
+  font-size: 1rem;
+  appearance: none; border: 0; cursor: pointer;
+  border-radius: 999px; padding: 10px 14px; font-weight: 900; letter-spacing: .2px;
+  color: var(--muted); background: var(--bg);  /* contrast on colored footer */
+}
+.play:active { transform: translateY(0); }
 
+.subtle { color: var(--muted); text-align: center; }
 </style>
 <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
@@ -104,7 +132,6 @@
   function gtag(){ dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'G-KFSR46Z6C8');
-
 </script>
 </head>
 <body>
@@ -117,23 +144,47 @@
       <div id="loading" class="subtle">Loading games…</div>
       <div id="error" class="subtle" hidden>Couldn’t load games. Check your <code>games.json</code> path or run a local server (instead of opening via <code>file://</code>).</div>
     </div>
-
   </main>
   <div>
     <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
   </div>
-<script>
 
+<script>
 if (window.self !== window.top) {
   document.body.classList.add('embedded');
 }
 
-/** Load from external games JSON.
- *  - default: ./games.json
- *  - override: ?data=<url>
- *  Supports:
- *   { "games":[ ... ] }  or  [ ... ]
- */
+/* ========= “Completed today” storage helpers ========= */
+(function(){
+  const TODAY = new Date().toISOString().slice(0,10); // YYYY-MM-DD
+  const KEY = `mb:done:${TODAY}`;
+
+  function _readSet(){
+    try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
+    catch(e){ return new Set(); }
+  }
+  function _writeSet(set){
+    try { localStorage.setItem(KEY, JSON.stringify([...set])); }
+    catch(e){ /* ignore quota issues */ }
+  }
+
+  function isDoneToday(id){ return _readSet().has(id); }
+  function markDoneToday(id){
+    const s = _readSet();
+    s.add(id);
+    _writeSet(s);
+    window.dispatchEvent(new CustomEvent('mb:done-updated', { detail:{ id } }));
+  }
+  function clearToday(){ localStorage.removeItem(KEY); window.dispatchEvent(new Event('mb:done-updated')); }
+
+  // Expose for other pages to call when a game is finished:
+  window.MindBitsProgress = {
+    isDoneToday, markDoneToday, clearToday,
+    getToday: () => [..._readSet()]
+  };
+})();
+
+/** Load from external games JSON. */
 const qs = (s, el=document)=> el.querySelector(s);
 const param = (k, fb=null)=> new URLSearchParams(location.search).get(k) ?? fb;
 const dataUrl = param('data', 'https://lnagy2002.github.io/kidsconnections/games-menu.json');
@@ -159,11 +210,24 @@ async function fetchGames(url){
   })).filter(g=> g.id && g.href);
 }
 
+function refreshCardState(card, game){
+  if (window.MindBitsProgress?.isDoneToday(game.id)) {
+    card.classList.add('done-today');
+  } else {
+    card.classList.remove('done-today');
+  }
+}
+
 function buildCard(game){
   const card = document.createElement('article');
   card.className = 'card';
-  // inject per-card accent variable
   card.style.setProperty('--accent', game.color || '#111');
+
+  // Today badge (shown when done-today)
+  const badge = document.createElement('span');
+  badge.className = 'badge-today';
+  badge.textContent = '✔';
+  card.appendChild(badge);
 
   const top = document.createElement('div');
   top.className = 'card-top';
@@ -179,6 +243,7 @@ function buildCard(game){
       logo.style.background = game.color;
       logo.style.color = '#fff';
     };
+    logo.loading = 'lazy';
     logo.appendChild(img);
   } else {
     logo.textContent = (game.title?.[0] || 'G').toUpperCase();
@@ -202,7 +267,6 @@ function buildCard(game){
   card.addEventListener('click', ()=>{
     // /kidsconnections/<href>?level=<defaultDifficulty>
     const path = `/kidsconnections/start.html`;
-    // const path = "file:///Users/luminita/_personal/git/kidsconnections/docs/start.html";
     const u = new URL(path, location.origin);
     const sp = new URLSearchParams(u.search);
     sp.set('id', game.id || 'connect');
@@ -212,6 +276,14 @@ function buildCard(game){
 
   bottom.append(title);
   card.append(top, bottom);
+
+  // Initialize done-today state and keep in sync
+  refreshCardState(card, game);
+  window.addEventListener('mb:done-updated', ()=> refreshCardState(card, game));
+  window.addEventListener('storage', (e)=>{
+    if (e.key && e.key.startsWith('mb:done:')) refreshCardState(card, game);
+  });
+
   return card;
 }
 

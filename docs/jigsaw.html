@@ -294,6 +294,7 @@
     const done = boardEl.querySelectorAll('.piece.locked').length === STATE.n*STATE.n;
     if (done) {
       celebrate ();
+      window.MindBitsProgress?.markDoneToday('jigsaw');
       // const msg = document.createElement('div');
       // msg.textContent = '✨ Great job! Puzzle complete.';
       // msg.style.position='fixed'; msg.style.inset='0'; msg.style.display='grid'; msg.style.placeItems='center';

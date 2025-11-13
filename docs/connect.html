@@ -329,6 +329,7 @@
                     if (state.solved.length === 4) {
                       gtag('event', 'connections_resolved', { app: 'connections' });
                       celebrate ();
+                      window.MindBitsProgress?.markDoneToday('connect');
                       showMessage("🎉 You got it!");
                     }
                     return;

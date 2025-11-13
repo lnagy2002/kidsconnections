@@ -230,7 +230,10 @@ function check(){
     return;
   }
   if (v1 === ok1 && v2 === ok2) {
-    if (typeof celebrate === "function") celebrate(); // from your utils
+    if (typeof celebrate === "function") {
+      celebrate(); // from your utils
+      window.MindBitsProgress?.markDoneToday('numberseq');
+    }
     result.textContent = "You found the pattern!";
     result.style.color = "var(--ok)";
   } else {

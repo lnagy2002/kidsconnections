@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "FARM",
+      "WIND",
+      "BUMP",
+      "BUSH",
+      "HIDE",
+      "GOLD",
+      "PUSH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAM",
+      "SPIRAL",
+      "BALANCE",
+      "GATHER",
+      "FESTAL",
+      "CHANCE",
+      "HARMONY",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIANGLE",
+      "NARRATIVE",
+      "HARMONIZE",
+      "FANTASTIC",
+      "EXPLORING",
+      "SPIRITED",
+      "GENERATE",
+      "COMFORTING",
+      "INNOVATION"
+    ]
+  }
+}

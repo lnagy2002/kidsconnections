@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BARK",
+      "COLD",
+      "FARM",
+      "CAMP",
+      "HIDE",
+      "BUMP",
+      "JUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "HARMONY",
+      "SPIRITS",
+      "SPARKLE",
+      "FESTIVE",
+      "JOURNEY",
+      "BALANCE",
+      "FANTASY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "COMFORTING",
+      "SPIRALING",
+      "INNOVATE",
+      "FRIENDSHIP",
+      "EXPLORING",
+      "GRADUATES",
+      "DREAMLIKE",
+      "GENERATE"
+    ]
+  }
+}

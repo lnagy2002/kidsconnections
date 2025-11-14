@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11142025-E",
+    "generatedAt": "2025-11-14T12:00:00Z",
+    "groups": [
+      {
+        "name": "Colors and Things",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Toys",
+        "items": [
+          "ball",
+          "kite",
+          "yo-yo",
+          "puzzle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "cat",
+          "dog",
+          "bird",
+          "frog"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are simple and concrete. Group 1 pairs common fruits with recognizable colors (red/green/yellow are common for these items in kids' contexts); Group 2 lists familiar playthings; Group 3 uses common pets and a frog; Group 4 lists basic shapes. Near-miss temptation avoided; no item overlaps between groups."
+  },
+  "medium": {
+    "id": "11142025-M",
+    "generatedAt": "2025-11-14T12:00:00Z",
+    "groups": [
+      {
+        "name": "Prefixes and Places",
+        "items": [
+          "playground",
+          "playdate",
+          "playbook",
+          "playtime"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home Objects",
+        "items": [
+          "cupboard",
+          "backpack",
+          "pillow",
+          "mug"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Food Helpers",
+        "items": [
+          "cookie",
+          "crackers",
+          "yogurt",
+          "banana-muffin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "sunny",
+          "rainy",
+          "cloudy",
+          "windy"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Category 1 hinges on the common prefix 'play-' forming a family of related words. Category 2 groups everyday household items. Category 3 contains snack/food items that share simple, familiar contexts. Category 4 lists weather descriptors. Near-miss: 'cookie' and 'crackers' could conceptually be snacks like 'yogurt', but each item clearly belongs to its own group. No homophones or hidden tricks; straightforward semantic links."
+  },
+  "hard": {
+    "id": "11142025-H",
+    "generatedAt": "2025-11-14T12:00:00Z",
+    "groups": [
+      {
+        "name": "Silent Letters",
+        "items": [
+          "knight",
+          "signal",
+          "wrinkle",
+          "ghost"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites and Pairs",
+        "items": [
+          "hot-cold",
+          "fast-slow",
+          "hard-soft",
+          "light-dark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under One Roof",
+        "items": [
+          "umbrella",
+          "lamp",
+          "carpet",
+          "curtain"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Emotions",
+        "items": [
+          "blue",
+          "green",
+          "red",
+          "yellow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Category 1 uses common words with silent letters; category 2 presents obvious word-pairs but ensure items stay as separate entries rather than merged phrases. Category 3 lists common household items; Category 4 lists basic color words tied to emotions conceptually but keep distinct from the other groups. Near-miss temptation: 'green' and 'blue' could seem related to mood, but in this puzzle they are treated as color tokens; they do not cross into emotional meanings. All items are unambiguous and age-appropriate; no overlap between groups."
+  },
+  "id": "11142025",
+  "generatedAt": "2025-11-14T02:19:04.080Z"
+}

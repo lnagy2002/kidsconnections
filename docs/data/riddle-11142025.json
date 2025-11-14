@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes. I wear a smile of numbers, and I tell you what time it is. What am I?",
+    "a": "A clock",
+    "hint": "It helps you tell hours and minutes."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer remains. What word am I?",
+    "a": "Few",
+    "hint": "Think of a small amount and how adding letters changes it."
+  },
+  "hard": {
+    "q": "A maze has exits A and B. You move one step at a time. Each turn you choose left or right, but you never repeat a corridor. Is it possible to reach an exit without retracing steps? Explain briefly.",
+    "a": "Yes, if there is a path that doesn’t require revisiting corridors; otherwise no. (Answer depends on maze layout.)",
+    "hint": "Consider graph traversal without repeating edges; think of Euler trails."
+  }
+}

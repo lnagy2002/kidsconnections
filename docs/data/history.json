@@ -110,7 +110,10 @@
     "DUSTY",
     "FLAIR",
     "GLOWY",
-    "LUMPY"
+    "LUMPY",
+    "MISTY",
+    "FLEET",
+    "CRISP"
   ],
   "medium": [
     "MYSTIC",
@@ -202,7 +205,8 @@
     "NURTURE",
     "CLUSTER",
     "FABLES",
-    "DREAM"
+    "DREAM",
+    "LANTER"
   ],
   "hard": [
     "EXEMPLARY",

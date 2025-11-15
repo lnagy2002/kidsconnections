@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "MISTY",
+      "CLAMP",
+      "FLEET",
+      "WALTZ",
+      "CRISP",
+      "TWIST",
+      "GRASP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "WILLOW",
+      "LANTER",
+      "SPIRAL",
+      "NURTURE",
+      "CANDLE",
+      "GARNISH",
+      "DREAMS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "FANTASTIC",
+      "GENERATION",
+      "DISCOVER",
+      "TRANQUIL",
+      "EXPLORE",
+      "BALANCING",
+      "COMFORTED",
+      "INNOVATED"
+    ]
+  }
+}

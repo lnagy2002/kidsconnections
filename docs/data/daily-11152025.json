@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11152025-E",
+    "generatedAt": "2025-11-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Paws",
+        "items": [
+          "cat",
+          "dog",
+          "bear",
+          "fox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sleep On",
+        "items": [
+          "bed",
+          "pillow",
+          "blanket",
+          "mattress"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Things in the Sky",
+        "items": [
+          "sun",
+          "star",
+          "moon",
+          "cloud"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Spin",
+        "items": [
+          "top",
+          "wheel",
+          "hula hoop",
+          "fan"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy: four groups with concrete, familiar topics. Group 1 (Paws) includes common animals; Group 2 features items associated with sleeping; Group 3 lists bright sky objects; Group 4 contains objects that spin. Near-miss temptation: 'bear' might feel related to 'wood', but 'wood' is not among the sets to avoid redundancy."
+  },
+  "medium": {
+    "id": "11152025-M",
+    "generatedAt": "2025-11-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Start with Pre-",
+        "items": [
+          "preview",
+          "prevent",
+          "prelude",
+          "preheat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "bookcase",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Suffix Family",
+        "items": [
+          "careful",
+          "carefree",
+          "hopeful",
+          "powerful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things Found in a Backpack",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: groups use light wordplay (prefixes, compound words, suffixes) and everyday objects. Near-miss temptation: 'notebook' and 'pencil' could seem related to writing, but 'eraser' clarifies the set, preventing overlap with 'stapler' which, while also school items, belongs in the backpack set due to typical contents."
+  },
+  "hard": {
+    "id": "11152025-H",
+    "generatedAt": "2025-11-15T12:00:00Z",
+    "groups": [
+      {
+        "name": "Processes in Four Seasons",
+        "items": [
+          "germinate",
+          "melt",
+          "evaporate",
+          "hibernate"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Movement",
+        "items": [
+          "crawl",
+          "flap",
+          "slide",
+          "glide"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors Without a Rainbow",
+        "items": [
+          "crimson",
+          "teal",
+          "amber",
+          "ivory"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Household Sound Makers",
+        "items": [
+          "doorbell",
+          "microwave",
+          "alarm",
+          "telephone ring"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: more abstract groupings and multi-step connections. Near-miss temptation: 'glide' could be mistaken for 'slide' in mobility, but 'glide' uniquely fits with 'winged' movement; doors of ambiguity avoided by keeping clear definitions. Other groups rely on common vocabulary but connect through process, movement mode, color naming, and everyday sounds."
+  },
+  "id": "11152025",
+  "generatedAt": "2025-11-15T02:15:05.038Z"
+}

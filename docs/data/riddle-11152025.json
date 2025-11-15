@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a head and a tail but no body. I am a coin. What am I?",
+    "a": "A coin",
+    "hint": "Sometimes I come in lots of different values."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": " Few",
+    "hint": "Think about counting and letters."
+  },
+  "hard": {
+    "q": "A box contains red, blue, and green balls. If you pick two balls at random, what is the minimum number of draws to be certain of getting two balls of the same color? Explain briefly.",
+    "a": "3 draws",
+    "hint": "Use the Pigeonhole Principle."
+  }
+}

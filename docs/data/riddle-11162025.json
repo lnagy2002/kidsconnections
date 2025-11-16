@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am round and bright in the sky by day, and I help you tell the time. What am I?",
+    "a": "The sun",
+    "hint": "Looks like a ball in the sky."
+  },
+  "medium": {
+    "q": "I have cities but no houses, forests but no trees, and rivers but no water. What am I?",
+    "a": "A map",
+    "hint": "Folded paper that helps you travel."
+  },
+  "hard": {
+    "q": "A word has six letters. If you take away the first and last, you still have a word. If you remove two middle letters, you still have a word. What word is it?",
+    "a": "Forest",
+    "hint": "Think of a place with trees and wildlife."
+  }
+}

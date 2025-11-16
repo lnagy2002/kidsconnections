@@ -113,7 +113,9 @@
     "LUMPY",
     "MISTY",
     "FLEET",
-    "CRISP"
+    "CRISP",
+    "SPARK",
+    "BUMPY"
   ],
   "medium": [
     "MYSTIC",
@@ -206,7 +208,8 @@
     "CLUSTER",
     "FABLES",
     "DREAM",
-    "LANTER"
+    "LANTER",
+    "ADVENT"
   ],
   "hard": [
     "EXEMPLARY",

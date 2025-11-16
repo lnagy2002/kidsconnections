@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11162025-E",
+    "generatedAt": "2025-11-16T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things that beep",
+        "items": [
+          "alarm",
+          "timer",
+          "phone",
+          "microwave"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors you can spell with a rainbow",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal home abodes",
+        "items": [
+          "nest",
+          "den",
+          "hole",
+          "burrow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "car",
+          "bike",
+          "truck",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and familiar. Each group contains 4 common items that fit the theme. Near-miss temptation avoided by ensuring each item clearly belongs to its group."
+  },
+  "medium": {
+    "id": "11162025-M",
+    "generatedAt": "2025-11-16T12:05:00Z",
+    "groups": [
+      {
+        "name": "Words that end with -er but are different kinds",
+        "items": [
+          "baker",
+          "painter",
+          "driver",
+          "player"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs or twins",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix friends",
+        "items": [
+          "unhappy",
+          "rethink",
+          "mislead",
+          "disagree"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rooms you can find at home",
+        "items": [
+          "kitchen",
+          "bedroom",
+          "bathroom",
+          "garage"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Near-miss temptations exist (e.g., 'shoes' and 'gloves' could hint at a clothing theme), but each item fits clearly in its own group. Prefix group highlights common word-building pieces without overlapping meanings across groups."
+  },
+  "hard": {
+    "id": "11162025-H",
+    "generatedAt": "2025-11-16T12:10:00Z",
+    "groups": [
+      {
+        "name": "Things that hold water",
+        "items": [
+          "bucket",
+          "bottle",
+          "tank",
+          "basin"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Symbols of celebration",
+        "items": [
+          "balloon",
+          "confetti",
+          "fireworks",
+          "candles"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a plant you see on a stem",
+        "items": [
+          "leaf",
+          "petal",
+          "bud",
+          "stem"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of motion: glide, roll, hop, leap",
+        "items": [
+          "skate",
+          "roll",
+          "jump",
+          "slide"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles introduce more abstract groupings (functions and categories). Near-miss temptations are minimized: for example, 'balloon' could be mistaken for 'leaf' in color-themed lists, but its grouping is distinct. Each item clearly fits one correct group with minimal overlap."
+  },
+  "id": "11162025",
+  "generatedAt": "2025-11-16T02:25:37.892Z"
+}

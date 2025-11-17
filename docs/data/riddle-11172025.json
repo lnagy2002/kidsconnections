@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face but no eyes. I can tell you the time, but I cannot blink. What am I?",
+    "a": "A clock",
+    "hint": "You can see me on the wall or a wrist."
+  },
+  "medium": {
+    "q": "I start with a path, end with a gate, and middle tricks make numbers relate. What am I?",
+    "a": "A sequence (pattern) puzzle",
+    "hint": "Think about how things follow a rule."
+  },
+  "hard": {
+    "q": "Two friends share a bag of marbles. Each time they split them evenly, one marble disappears. If they start with 9 marbles and repeat the process, how many times can they split evenly before a problem occurs?",
+    "a": "0 times (they cannot split 9 evenly after the first step without a marble disappearing)",
+    "hint": "Consider the parity and the rule given."
+  }
+}

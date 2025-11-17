@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11172025-E",
+    "generatedAt": "2025-11-17T12:00:00Z",
+    "groups": [
+      {
+        "name": "Bright Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fast Animals",
+        "items": [
+          "horse",
+          "cheetah",
+          "falcon",
+          "antelope"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Play Things",
+        "items": [
+          "ball",
+          "kite",
+          "yo-yo",
+          "puzzle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: Bright Colors (colors seen in a rainbow), Fast Animals (animals known for speed), Common Play Things (items kids use for fun), Kitchen Helpers (basic kitchen objects). Near-miss temptation: 'spoon' could be mistaken for 'spoon' in 'Common Play Things' due to being found in play scenes; clarified by function: utensils are kitchen items, not toys."
+  },
+  "medium": {
+    "id": "11172025-M",
+    "generatedAt": "2025-11-17T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Fragments",
+        "items": [
+          "sun",
+          "set",
+          "run",
+          "fun"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals That Fly or Swim",
+        "items": [
+          "dolphin",
+          "goose",
+          "bat",
+          "owl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Things",
+        "items": [
+          "raincoat",
+          "umbrella",
+          "snowman",
+          "hat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tools in a Box",
+        "items": [
+          "hammer",
+          "saw",
+          "pliers",
+          "tape"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: Word Fragments (short words that share endings/prefixes), Animals That Fly or Swim (two modes of movement through air or water), Weather Things (items associated with weather activity), Tools in a Box (common handyman tools). Near-miss temptation: 'sun' and 'fun' feel related by rhyme but only 'sun' is a fragment; 'fun' is included to illustrate shared suffix but shouldn't be grouped with weather items."
+  },
+  "hard": {
+    "id": "11172025-H",
+    "generatedAt": "2025-11-17T12:00:00Z",
+    "groups": [
+      {
+        "name": "Opposite Pairs",
+        "items": [
+          "hot",
+          "cold",
+          "up",
+          "down"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Tools, Big Use",
+        "items": [
+          "nail",
+          "screw",
+          "bolt",
+          "stud"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes and Sounds",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Food that Comes in Slices",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: Opposite Pairs (simple antonyms), Small Tools, Big Use (common hardware items used in crafts), Shapes and Sounds (shape names with distinct sounds when spoken), Food that Comes in Slices (fruits commonly sliced). Near-miss temptation: 'orange' could be mistaken for a color in Bright Colors, but here it’s grouped by fruit and not color to avoid overlap."
+  },
+  "id": "11172025",
+  "generatedAt": "2025-11-17T02:20:22.305Z"
+}

@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11182025-E",
+    "generatedAt": "2025-11-18T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wings",
+        "items": [
+          "sparrow",
+          "eagle",
+          "butterfly",
+          "swan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "sofa",
+          "bench",
+          "stool",
+          "chair"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Habits",
+        "items": [
+          "brush",
+          "wash",
+          "dress",
+          "eat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow from a Bulb",
+        "items": [
+          "tulip",
+          "daffodil",
+          "crocus",
+          "lily"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories: (1) Things with Wings (objects that fly or have wings). (2) Things You Sit On (furniture used for seating). (3) Morning Habits (common daily routines). (4) Things That Grow from a Bulb (plants started from bulbs). Near-miss temptation: 'flower' could fit more than one group but each item here fits a single clear category."
+  },
+  "medium": {
+    "id": "11182025-M",
+    "generatedAt": "2025-11-18T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefix Friends",
+        "items": [
+          "unfold",
+          "unseen",
+          "untied",
+          "untold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word Parts: Suffix Friends",
+        "items": [
+          "careful",
+          "hopeful",
+          "colorful",
+          "playful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Objects",
+        "items": [
+          "orange",
+          "blueberry",
+          "lime",
+          "scarlet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Pairs",
+        "items": [
+          "sunrise",
+          "rainbow",
+          "backyard",
+          "homework"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium categories: (1) Prefix 'un-' as in words meaning 'not' (unfold, unseen, untied, untold). (2) Suffix '-ful' indicating 'full of' (careful, hopeful, colorful, playful). (3) Color-related items where color is a clear cue (orange, lime, blue/blueberry, scarlet). (4) Compound words made by joining two simpler words (sunrise, rainbow, backyard, homework). Near-miss temptation: some items could fit both prefix and suffix groups if not careful, but each item belongs to the intended single group with a precise definition."
+  },
+  "hard": {
+    "id": "11182025-H",
+    "generatedAt": "2025-11-18T12:00:00Z",
+    "groups": [
+      {
+        "name": "Earth and Sky Map",
+        "items": [
+          "north",
+          "east",
+          "sun",
+          "cloud"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tiny Helpers",
+        "items": [
+          "ant",
+          "bee",
+          "worm",
+          "mole"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fastest Movers",
+        "items": [
+          "cheetah",
+          "hare",
+          "gazelle",
+          "falcon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things in a Kitchen Drawer",
+        "items": [
+          "spoon",
+          "peeler",
+          "grater",
+          "tongs"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard categories: (1) Earth and Sky Map uses concepts like directions and weather/sky elements as group cues. (2) Tiny Helpers includes small workers in nature; each is clearly linked to a planet-friendly role. (3) Fastest Movers collects fast land/air animals for a speed-theme. (4) Kitchen Drawer items are everyday tools grouped by common use. Near-miss temptation: 'spoon' could be mistaken for a cooking tool in multiple groups, but in this puzzle it clearly belongs to Kitchen Drawer tools; other items are not kitchen tools, reducing overlap. The items are kept kid-friendly and unambiguous."
+  },
+  "id": "11182025",
+  "generatedAt": "2025-11-18T02:18:29.890Z"
+}

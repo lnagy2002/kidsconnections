@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11192025-E",
+    "generatedAt": "2025-11-19T12:00:00.000Z",
+    "groups": [
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "sun"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Words that end with -y",
+        "items": [
+          "happy",
+          "party",
+          "polky",
+          "nifty"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors you can name with a Crayon",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groupings focus on concrete, familiar ideas a 2nd–3rd grader can recognize. Near-miss temptation: 'sun' could be considered 'star' in another set, but 'sun' is the special daily star of Earth and clearly round and sunny."
+  },
+  "medium": {
+    "id": "11192025-M",
+    "generatedAt": "2025-11-19T12:00:00.000Z",
+    "groups": [
+      {
+        "name": "Words sharing a prefix that means 'two'",
+        "items": [
+          "doubletake",
+          "duotone",
+          "twinsight",
+          "bilingual"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals with stripes",
+        "items": [
+          "tiger",
+          "zebra",
+          "wasp",
+          "okapi"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common kitchen items",
+        "items": [
+          "spoon",
+          "bowl",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that rhyme with 'light'",
+        "items": [
+          "bright",
+          "night",
+          "flight",
+          "might"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups mix wordplay with familiar categories. Near-miss: 'wasp' could be mistaken for 'bee' in a stripes group, but wasp has stripes too and is not a mammal; keep in mind the stripes group targets striped animals, including insects."
+  },
+  "hard": {
+    "id": "11192025-H",
+    "generatedAt": "2025-11-19T12:00:00.000Z",
+    "groups": [
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "glove",
+          "shoe",
+          "socks",
+          "ears"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors named after fruits",
+        "items": [
+          "orange",
+          "olive",
+          "berry",
+          "peach"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical terms (simple concepts)",
+        "items": [
+          "note",
+          "beat",
+          "tempo",
+          "chord"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Simple geometric shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set uses a bit more abstract grouping. Near-miss: 'olive' could be mistaken for a color only; it's also a fruit, but here it clearly labels a color name (olive) used in color group. Each item has a clear single best group to avoid overlap."
+  },
+  "id": "11192025",
+  "generatedAt": "2025-11-19T02:18:14.775Z"
+}

@@ -3,22 +3,157 @@
   "levels": {
     "easy": [
       {
-        "q": "sun : warm ::",
-        "choices": ["ice : cold", "rain : clouds", "leaf : tree", "bird : nest"],
+        "q": "sun : bright ::",
+        "choices": ["ice : cold", "tree : leaf", "bird : sky", "rain : dry"],
+        "answer": 0
+      },
+      {
+        "q": "cat : kitten ::",
+        "choices": ["dog : puppy", "cow : grass", "shoe : foot", "car : tire"],
+        "answer": 0
+      },
+      {
+        "q": "pencil : write ::",
+        "choices": ["spoon : eat", "book : sit", "hat : sleep", "brush : run"],
+        "answer": 0
+      },
+      {
+        "q": "fish : water ::",
+        "choices": ["bird : air", "tree : hand", "car : shoes", "desk : moon"],
+        "answer": 0
+      },
+      {
+        "q": "flower : petals ::",
+        "choices": ["book : pages", "dog : whiskers", "house : clouds", "food : straw"],
+        "answer": 0
+      },
+      {
+        "q": "bee : honey ::",
+        "choices": ["cow : milk", "bird : sand", "cloud : wood", "phone : grass"],
+        "answer": 0
+      },
+      {
+        "q": "foot : shoe ::",
+        "choices": ["head : hat", "tree : boat", "fish : bed", "cup : sand"],
+        "answer": 0
+      },
+      {
+        "q": "rain : umbrella ::",
+        "choices": ["sun : sunglasses", "cat : snow", "pillow : water", "air : blanket"],
+        "answer": 0
+      },
+      {
+        "q": "dog : bark ::",
+        "choices": ["cat : meow", "bike : swim", "fish : chirp", "puzzle : shout"],
+        "answer": 0
+      },
+      {
+        "q": "tree : forest ::",
+        "choices": ["star : sky", "cup : pencil", "ear : table", "shoe : ocean"],
         "answer": 0
       }
     ],
     "medium": [
       {
         "q": "chef : kitchen ::",
-        "choices": ["student : desk", "pilot : wheels", "tree : forest", "doctor : bed"],
+        "choices": ["doctor : clinic", "car : pencil", "lamp : shoe", "rain : hat"],
+        "answer": 0
+      },
+      {
+        "q": "hour : time ::",
+        "choices": ["mile : distance", "water : bright", "tree : whisper", "cat : season"],
+        "answer": 0
+      },
+      {
+        "q": "fire : heat ::",
+        "choices": ["snow : cold", "road : tall", "bird : paper", "earth : bowl"],
+        "answer": 0
+      },
+      {
+        "q": "camera : picture ::",
+        "choices": ["pencil : drawing", "shoe : running", "glass : noise", "sun : perfume"],
+        "answer": 0
+      },
+      {
+        "q": "wheel : car ::",
+        "choices": ["wing : airplane", "leaf : milk", "chair : sky", "song : paper"],
+        "answer": 0
+      },
+      {
+        "q": "seed : plant ::",
+        "choices": ["egg : bird", "paint : towel", "glass : cloud", "swing : book"],
+        "answer": 0
+      },
+      {
+        "q": "pen : ink ::",
+        "choices": ["brush : paint", "cup : cold", "tree : computer", "dust : smile"],
+        "answer": 0
+      },
+      {
+        "q": "teacher : school ::",
+        "choices": ["pilot : airplane", "dog : pencil", "fish : sand", "towel : bread"],
+        "answer": 0
+      },
+      {
+        "q": "clouds : rain ::",
+        "choices": ["oven : heat", "pencil : sky", "train : feather", "hat : thunder"],
+        "answer": 0
+      },
+      {
+        "q": "bird : nest ::",
+        "choices": ["squirrel : tree", "book : river", "rock : pencil", "paper : soup"],
         "answer": 0
       }
     ],
     "hard": [
       {
         "q": "triangle : 3 sides ::",
-        "choices": ["hexagon : 6 sides", "square : 3 sides", "circle : corners", "octagon : 5 sides"],
+        "choices": ["hexagon : 6 sides", "square : 5 sides", "circle : corners", "pentagon : 8 sides"],
+        "answer": 0
+      },
+      {
+        "q": "planet : orbit ::",
+        "choices": ["moon : rotate", "sun : freeze", "tree : explode", "cloud : melt"],
+        "answer": 0
+      },
+      {
+        "q": "anchor : ship ::",
+        "choices": ["brakes : car", "sand : clock", "wind : carpet", "glass : noise"],
+        "answer": 0
+      },
+      {
+        "q": "problem : solution ::",
+        "choices": ["question : answer", "pencil : music", "bird : audience", "window : pillow"],
+        "answer": 0
+      },
+      {
+        "q": "thermometer : temperature ::",
+        "choices": ["scale : weight", "cloud : alphabet", "shoe : rainbow", "tree : melody"],
+        "answer": 0
+      },
+      {
+        "q": "author : book ::",
+        "choices": ["composer : music", "driver : honey", "forest : laugh", "rain : bottle"],
+        "answer": 0
+      },
+      {
+        "q": "heart : pump ::",
+        "choices": ["lungs : breathe", "chair : write", "moon : bark", "river : phone"],
+        "answer": 0
+      },
+      {
+        "q": "painter : brush ::",
+        "choices": ["photographer : camera", "bird : spoon", "cat : rocket", "glass : wind"],
+        "answer": 0
+      },
+      {
+        "q": "virus : illness ::",
+        "choices": ["germ : infection", "tree : blanket", "lamp : sandwich", "shoe : thunder"],
+        "answer": 0
+      },
+      {
+        "q": "equator : earth ::",
+        "choices": ["horizon : sky", "table : whisper", "wind : triangle", "story : oven"],
         "answer": 0
       }
     ]

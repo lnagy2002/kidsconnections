@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a face and two hands but no arms or legs. What am I?",
+    "a": "A clock",
+    "hint": "Look at time on a wall or wrist."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Adding two letters makes the opposite meaning."
+  },
+  "hard": {
+    "q": "A box contains a red ball and a blue ball. You reach in and pick one at random. If you can’t see color, what is the minimum number of draws to be sure you have both colors?",
+    "a": "3",
+    "hint": "Think about worst-case sequence of picks."
+  }
+}

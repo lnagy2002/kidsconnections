@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-18",
+  "levels": {
+    "easy": [
+      {
+        "q": "sun : warm ::",
+        "choices": ["ice : cold", "rain : clouds", "leaf : tree", "bird : nest"],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "chef : kitchen ::",
+        "choices": ["student : desk", "pilot : wheels", "tree : forest", "doctor : bed"],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "triangle : 3 sides ::",
+        "choices": ["hexagon : 6 sides", "square : 3 sides", "circle : corners", "octagon : 5 sides"],
+        "answer": 0
+      }
+    ]
+  }
+}

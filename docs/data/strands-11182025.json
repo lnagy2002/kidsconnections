@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CLIP",
+      "BUMP",
+      "CURL",
+      "FLEA",
+      "HIDE",
+      "WARM",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GARNET",
+      "SPARKY",
+      "BALLOON",
+      "NURTURE",
+      "CLUSTER",
+      "DREAMY",
+      "ADVENT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTACLE",
+      "HARMONIZE",
+      "TRADITION",
+      "GENERATE",
+      "EXPLORING",
+      "COMFORTING",
+      "COMPLICATED",
+      "IMAGINARY",
+      "FRIENDSHIP"
+    ]
+  }
+}

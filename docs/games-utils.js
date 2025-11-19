@@ -27,7 +27,16 @@
     const s = _readSet();
     s.add(id);
     _writeSet(s);
-    window.dispatchEvent(new CustomEvent('mb:done-updated', { detail: { id } }));
+
+    const detail = { id };
+
+    // fire on this window
+    window.dispatchEvent(new CustomEvent('mb:done-updated', { detail }));
+
+    // ALSO tell parent (for iframe case)
+    if (window.parent && window.parent !== window) {
+      window.parent.dispatchEvent(new CustomEvent('mb:done-updated', { detail }));
+    }
   }
 
   function clearToday() {

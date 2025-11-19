@@ -1,6 +1,6 @@
 /* ========= “Completed today” storage helpers ========= */
 (function () {
-  const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const TODAY = new Date().toISOString().slice(0, 10);
   const KEY = `mb:done:${TODAY}`;
 
   function _readSet() {
@@ -14,9 +14,7 @@
   function _writeSet(set) {
     try {
       localStorage.setItem(KEY, JSON.stringify([...set]));
-    } catch (e) {
-      // ignore quota issues
-    }
+    } catch (e) {}
   }
 
   function isDoneToday(id) {
@@ -30,21 +28,23 @@
 
     const detail = { id };
 
-    // fire on this window
+    // local event (for same-window use)
     window.dispatchEvent(new CustomEvent('mb:done-updated', { detail }));
 
-    // ALSO tell parent (for iframe case)
+    // cross-origin friendly: tell parent via postMessage
     if (window.parent && window.parent !== window) {
-      window.parent.dispatchEvent(new CustomEvent('mb:done-updated', { detail }));
+      window.parent.postMessage({ type: 'mb:done-updated', id }, '*');
     }
   }
 
   function clearToday() {
     localStorage.removeItem(KEY);
     window.dispatchEvent(new Event('mb:done-updated'));
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: 'mb:done-cleared' }, '*');
+    }
   }
 
-  // Expose for other pages to call when a game is finished:
   window.MindBitsProgress = {
     isDoneToday,
     markDoneToday,

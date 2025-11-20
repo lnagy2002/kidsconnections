@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11202025-E",
+    "generatedAt": "2025-11-20T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things found in a kitchen",
+        "items": [
+          "spoon",
+          "pan",
+          "bowl",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Types of weather",
+        "items": [
+          "sunny",
+          "cloudy",
+          "rainy",
+          "snowy"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common school supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "crayon",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy: groups are concrete and familiar. Group 1: items worn or used as a pair. Group 2: objects commonly found in a kitchen. Group 3: simple weather adjectives. Group 4: everyday school supplies."
+  },
+  "medium": {
+    "id": "11202025-M",
+    "generatedAt": "2025-11-20T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words with the same ending sound",
+        "items": [
+          "river",
+          "quiver",
+          "shiver",
+          "giver"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a letter",
+        "items": [
+          "greeting",
+          "body",
+          "closing",
+          "signature"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you read or write",
+        "items": [
+          "story",
+          "letter",
+          "note",
+          "journal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Items you find on a desk",
+        "items": [
+          "lamp",
+          "stapler",
+          "notebook",
+          "calendar"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes light wordplay and two-step ideas. Near-miss temptations: e.g., 'story' and 'note' could seem related to writing; still, 'note' is a shorter form, but 'story' emphasizes longer writing. Ensure each item clearly fits only one group: endings, parts of a letter, reading/writing, or desk items."
+  },
+  "hard": {
+    "id": "11202025-H",
+    "generatedAt": "2025-11-20T12:00:00Z",
+    "groups": [
+      {
+        "name": "Modes of transportation (non-vehicles)",
+        "items": [
+          "walking",
+          "swimming",
+          "flying",
+          "skipping"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes described by number of sides",
+        "items": [
+          "triangle",
+          "quadrilateral",
+          "pentagon",
+          "hexagon"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that rhyme with 'day'",
+        "items": [
+          "play",
+          "ray",
+          "may",
+          "stay"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things you can wear on your head",
+        "items": [
+          "hat",
+          "crown",
+          "helmet",
+          "cap"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: more abstract or multi-step. Near-miss temptations included: e.g., 'day' rhymes vs. 'may' could be mistaken for a month; ensure correct rhyme relation. Some items like 'walking' and 'swimming' are actions (not vehicles) to stay within theme. Each item fits clearly in its group."
+  },
+  "id": "11202025",
+  "generatedAt": "2025-11-20T02:16:41.080Z"
+}

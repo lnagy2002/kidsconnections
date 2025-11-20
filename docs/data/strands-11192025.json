@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CUTE",
+      "GLOW",
+      "WILD",
+      "BUMP",
+      "JUMP",
+      "FIRM",
+      "HIDE",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "SPIRAL",
+      "CANDLE",
+      "CRUNCH",
+      "GARNET",
+      "TWIRLS",
+      "FLAIRY",
+      "BALLOON"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "COMFORTING",
+      "GENERATE",
+      "HARMONIZE",
+      "SPECTACLE",
+      "INNOVATION",
+      "TRANSLATE",
+      "FRIENDSHIP",
+      "GRADUATES"
+    ]
+  }
+}

@@ -119,7 +119,9 @@
     "NURSE",
     "HIVEY",
     "CAMPY",
-    "CURL"
+    "CURL",
+    "CUTE",
+    "WILD"
   ],
   "medium": [
     "MYSTIC",
@@ -213,7 +215,8 @@
     "FABLES",
     "DREAM",
     "LANTER",
-    "ADVENT"
+    "ADVENT",
+    "FLAIRY"
   ],
   "hard": [
     "EXEMPLARY",

@@ -266,6 +266,8 @@ function buildList(container, games){
     // Copy
     els.title.textContent = game.name;
     els.desc.textContent  = game.description || '';
+    window.parent.postMessage({ type: 'UPDATE_HEADER', game.name }, '*');
+
     // els.slug.textContent  = game.id;
     // els.target.textContent = game.url || '#';
 

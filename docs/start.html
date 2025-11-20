@@ -266,6 +266,7 @@ function buildList(container, games){
     // Copy
     els.title.textContent = game.name;
     els.desc.textContent  = game.description || '';
+    console.log  ("-> sending event")
     window.parent.postMessage({ type: 'UPDATE_HEADER', game.name }, '*');
 
     // els.slug.textContent  = game.id;

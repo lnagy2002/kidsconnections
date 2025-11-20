@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a round treat you can count with your fingers. What am I?",
+    "a": "ten",
+    "hint": "Think of how many fingers you have on one hand."
+  },
+  "medium": {
+    "q": "I am a word that means both a place to stay and a flavor. What word am I?",
+    "a": "suite",
+    "hint": "Sounds like a home for guests and also ends with -ite."
+  },
+  "hard": {
+    "q": "I fly without wings and cry without eyes. Wherever I go, the wind follows me. What am I?",
+    "a": "cloud",
+    "hint": "It's up in the sky and often brings rain."
+  }
+}

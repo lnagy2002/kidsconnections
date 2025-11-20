@@ -470,7 +470,7 @@ function makeKey(label){
     if(guess === state.target){
       state.done = true; state.win = true; updateStatus(`You got it in ${r+1}/${state.rows}!`); showToast('🎉 Correct!');
       celebrate  ();
-      window.MindBitsProgress?.markDoneToday('digiton');
+      window.MindBitsProgress?.markDoneToday(`digiton-${(getQueryParam("level")||"easy").toLowerCase()}`);
       save();
       return;
     }

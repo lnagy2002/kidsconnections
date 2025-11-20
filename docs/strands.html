@@ -232,7 +232,7 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
     clearStatus(found.size === placed.size ? '🎉 All words found!' : `Found: ${word}`);
     if (found.size === placed.size) {
       celebrate?.(); // if you have a celebrate() elsewhere
-      window.MindBitsProgress?.markDoneToday('wordsearch');
+      window.MindBitsProgress?.markDoneToday(`wordsearch-${(getQueryParam("level")||"easy").toLowerCase()}`);
     }
   }
 

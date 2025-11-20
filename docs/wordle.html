@@ -441,7 +441,7 @@ updateKeycaps()
                 S.done = true;
                 gtag('event', 'wordle_resolved', { app: 'wordle' });
                 celebrate  ();
-                window.MindBitsProgress?.markDoneToday('wordle');
+                window.MindBitsProgress?.markDoneToday(`wordle-${(getQueryParam("level")||"easy").toLowerCase()}`);
                 msg('🎉 You got it!');
                 return;
             }

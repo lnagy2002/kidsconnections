@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11212025-E",
+    "generatedAt": "2025-11-21T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Eat",
+        "items": [
+          "apple",
+          "banana",
+          "bread",
+          "carrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals in the Water",
+        "items": [
+          "fish",
+          "duck",
+          "whale",
+          "frog"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Things",
+        "items": [
+          "lamp",
+          "bed",
+          "chair",
+          "table"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories are concrete and familiar for grades 2–3. Each group shares a simple, visible property: wheels, edible items, aquatic/related animals, and common household furniture. No near-miss candidates here."
+  },
+  "medium": {
+    "id": "11212025-M",
+    "generatedAt": "2025-11-21T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefix Friends",
+        "items": [
+          "unhappy",
+          "untie",
+          "unicorn",
+          "undo"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Things",
+        "items": [
+          "orange",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tools that Cut",
+        "items": [
+          "scissors",
+          "knife",
+          "boxcutter",
+          "razor"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things with Stripes",
+        "items": [
+          "zebra",
+          "tiger",
+          "bee",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Prefixes group includes items sharing a common prefix 'un-'. Color group uses familiar color words. Tools group has basic cutting implements; ensure safe, kid-friendly framing (no real implements for use). Stripes group picks animals and objects with stripes. Near-miss temptation: 'scarlet' could hint at color group or 'tiger' in stripes, but 'scarlet' is not in the list; 'bee' is not striped in the exact sense used here; each item clearly belongs to one group."
+  },
+  "hard": {
+    "id": "11212025-H",
+    "generatedAt": "2025-11-21T12:00:00Z",
+    "groups": [
+      {
+        "name": "Moon Phases (Analogies)",
+        "items": [
+          "new",
+          "crescent",
+          "full",
+          "waning"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Something That Flows",
+        "items": [
+          "river",
+          "riverbank",
+          "milk",
+          "lava"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Transport (Land/Water/Air)",
+        "items": [
+          "car",
+          "boat",
+          "airplane",
+          "train"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things You Find in a Library",
+        "items": [
+          "book",
+          "magazine",
+          "dictionary",
+          "notebook"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Moon Phases: items relate to appearances over time; new/ crescent/ full/ waning. Flowing substances include natural and man-made liquids; avoid actual dangerous examples by sticking to common nouns. Transport group checks diversity across land, water, air. Library group remains clearly educational. Near-miss temptation: 'riverbank' could be mistaken for a separate group by its setting rather than the flow concept; clarify that the group is about things that flow, and 'riverbank' is not itself a flowing item, so it doesn't fit as well as 'river' or 'lava'."
+  },
+  "id": "11212025",
+  "generatedAt": "2025-11-21T02:17:13.095Z"
+}

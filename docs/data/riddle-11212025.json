@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m round and I spin, and I’m often found in a game. What am I?",
+    "a": "A kite",
+    "hint": "Think of something that flies in the wind and has a tail."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "A tiny word, and then a bigger one means less."
+  },
+  "hard": {
+    "q": "Two friends start at different points on a straight road. One walks 3 steps, then the other walks twice as many steps. They repeat forever. Who will be closer to the start after 6 steps of each?",
+    "a": "They are always the same distance from the start",
+    "hint": "Compare distances after equal numbers of turns; use symmetry and pattern."
+  }
+}

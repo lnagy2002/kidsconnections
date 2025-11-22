@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11222025-E",
+    "generatedAt": "2025-11-22T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animal Homes",
+        "items": [
+          "cave",
+          "nest",
+          "burrow",
+          "den"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tools for Writing",
+        "items": [
+          "pencil",
+          "eraser",
+          "sharpener",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Windows",
+        "items": [
+          "house",
+          "train",
+          "shop",
+          "cabin"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow on Trees",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "peach"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: 1) Animal Homes are places where animals sleep or live. 2) Writing Tools are items used together for school writing. 3) Things with Windows are places or things that have windows or involve window-like openings. 4) Fruits commonly found on trees; each item is a familiar fruit."
+  },
+  "medium": {
+    "id": "11222025-M",
+    "generatedAt": "2025-11-22T12:05:00Z",
+    "groups": [
+      {
+        "name": "Word Builders (Prefixes)",
+        "items": [
+          "unhappy",
+          "untidy",
+          "unlucky",
+          "unseen"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color by Ending",
+        "items": [
+          "bluebird",
+          "greenhouse",
+          "yellowstone",
+          "redwood"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Compounds",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "raindrop",
+          "snowball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sound-Alike Pairs (near-miss)",
+        "items": [
+          "knight",
+          "night",
+          "mail",
+          "mule"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: 1) Prefix 'un-' with adjectives; a clear single-step grouping. 2) Endings that form well-known compound words with a color or place concept. 3) Common two-word compound nouns. 4) Near-miss temptation: pairs like 'knight' and 'night' look related by sound but are not a true group since 'knight' is a different concept than 'night' in this puzzle."
+  },
+  "hard": {
+    "id": "11222025-H",
+    "generatedAt": "2025-11-22T12:10:00Z",
+    "groups": [
+      {
+        "name": "Abstract Qualities",
+        "items": [
+          "brave",
+          "silent",
+          "swift",
+          "careful"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather & Mood",
+        "items": [
+          "foggy",
+          "sunny",
+          "chilly",
+          "stormy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Everyday Motifs",
+        "items": [
+          "button",
+          "clip",
+          "string",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contrasting Opposites",
+        "items": [
+          "hot",
+          "cold",
+          "fast",
+          "slow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: 1) Abstract Qualities are traits rather than objects. 2) Weather and mood words link emotion with climate. 3) Small everyday motifs are simple items that appear in many contexts; chosen for ambiguity avoidance. 4) Contrasting opposites pair common adjectives. Near-miss caution: 'hot' and 'cold' could be tempting to pair with opposites in other groups, but here they belong to a separate 'Contrasting Opposites' group to keep clarity."
+  },
+  "id": "11222025",
+  "generatedAt": "2025-11-22T02:12:53.150Z"
+}

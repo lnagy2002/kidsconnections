@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "FABLE",
+      "GLOWY",
+      "MISTY",
+      "NURSE",
+      "HIVEY",
+      "CAMPY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "GARNISH",
+      "NURTURE",
+      "CLUSTER",
+      "FESTAL",
+      "SPARKY",
+      "DREAMY",
+      "BUNGLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "SPIRALING",
+      "TRADITION",
+      "COMPLICATE",
+      "SPECTACULAR",
+      "EXEMPLARY",
+      "GENERATE",
+      "HARMONIOUS",
+      "INNOVATION"
+    ]
+  }
+}

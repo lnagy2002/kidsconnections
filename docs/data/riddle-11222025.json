@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a hat but no head. I wear a coat but I have no body. What am I?",
+    "a": "A tree",
+    "hint": "Think of what covers a tree."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be.",
+    "a": "Few",
+    "hint": "Consider how adding letters changes the meaning."
+  },
+  "hard": {
+    "q": "A box contains four switches. Each switch is either on or off. Exactly two are on. How many different on/off patterns are possible if you require that the two-on switches are never adjacent?",
+    "a": "1",
+    "hint": "Think about positions in a line of four and which pairs are non-adjacent."
+  }
+}

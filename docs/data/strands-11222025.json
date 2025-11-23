@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BEND",
+      "FLEW",
+      "MIST",
+      "HIVE",
+      "BUMP",
+      "CAGE",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FARMER",
+      "CANDLE",
+      "PLANTS",
+      "SPIRAL",
+      "BUNGLE",
+      "CRUNCH",
+      "GARNET",
+      "NURTURE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTACLE",
+      "INNOVATE",
+      "FANTASTIC",
+      "TRADITION",
+      "HARMONIZE",
+      "EXPLORING",
+      "BALANCING",
+      "COMFORTING",
+      "GRADUATES"
+    ]
+  }
+}

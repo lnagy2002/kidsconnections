@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I swing in the air and make a breeze when you wag me. What am I?",
+    "a": "a kite",
+    "hint": "It flies and has a tail."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "Think of a small number of letters."
+  },
+  "hard": {
+    "q": "Two siblings share a candle. Each one lights it for a different reason, and the candle never ends. What idea or concept explains this puzzle?",
+    "a": "infinite loop / recursion (metaphor: shared resource that keeps going)",
+    "hint": "Consider a process that keeps repeating without stopping."
+  }
+}

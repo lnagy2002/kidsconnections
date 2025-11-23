@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11232025-E",
+    "generatedAt": "2025-11-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Paws",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Hoot",
+        "items": [
+          "owl",
+          "eagle",
+          "hawk",
+          "swan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things Found in a Kitchen",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a School",
+        "items": [
+          "pencil",
+          "eraser",
+          "book",
+          "desk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: each set shares a simple, concrete connection (paws, hoots, common kitchen items, and classroom items). No overlap between items across groups."
+  },
+  "medium": {
+    "id": "11232025-M",
+    "generatedAt": "2025-11-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Change Meaning with Prefixes",
+        "items": [
+          "unfold",
+          "redo",
+          "rethink",
+          "unpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Take -ful Suffix",
+        "items": [
+          "beautiful",
+          "colorful",
+          "playful",
+          "hopeful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Pieces",
+        "items": [
+          "sun",
+          "flower",
+          "rain",
+          "bow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites Pairs (Common Pairs)",
+        "items": [
+          "hot",
+          "cold",
+          "fast",
+          "slow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay (prefix changes, suffix adds, compound pieces, and common opposites). Near-miss temptation: some items could loosely fit two groups (e.g., 'fast' could feel like movement or opposites), but each item clearly belongs to its designated group via the primary rule."
+  },
+  "hard": {
+    "id": "11232025-H",
+    "generatedAt": "2025-11-23T12:00:00Z",
+    "groups": [
+      {
+        "name": "Seasonal Pairs",
+        "items": [
+          "snowman",
+          "pumpkin",
+          "sleigh",
+          "mitten"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools for Builders",
+        "items": [
+          "hammer",
+          "saw",
+          "drill",
+          "wrench"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things with Knobs",
+        "items": [
+          "door",
+          "radio",
+          "stove",
+          "camera"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Become Other Words When Reordered",
+        "items": [
+          "taps",
+          "pots",
+          "stop",
+          "opts"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups push abstract reasoning: seasonal items and builder tools follow concrete themes; 'knobs' is a subtle category to connect to items with knobs. The last group uses reordering to form other valid words. Near-miss: 'taps/pots/stop/opts' could seem related by letters but only 'taps'/'pots'/'stop' are real anagrams; 'opts' doesn’t form a meaningful related word in the same way—explain why it fits the intended pattern."
+  },
+  "id": "11232025",
+  "generatedAt": "2025-11-23T02:33:42.823Z"
+}

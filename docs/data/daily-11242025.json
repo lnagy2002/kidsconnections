@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11242025-E",
+    "generatedAt": "2025-11-24T00:00:00Z",
+    "groups": [
+      {
+        "name": "Bright Colors",
+        "items": [
+          "Yellow",
+          "Orange",
+          "Crimson",
+          "Magenta"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly (in the sky)",
+        "items": [
+          "Kite",
+          "Plane",
+          "Bird",
+          "Helicopter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "Spoon",
+          "Whisk",
+          "Spatula",
+          "Ladle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Strings",
+        "items": [
+          "Guitar",
+          "Violin",
+          "Banjo",
+          "Harp"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy categories use concrete, familiar ideas. Bright Colors groups common color names. Things that Fly lists common airborne objects. Kitchen Helpers are tools used in cooking. Things with Strings are instruments."
+  },
+  "medium": {
+    "id": "11242025-M",
+    "generatedAt": "2025-11-24T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words that Share a Suffix",
+        "items": [
+          "Careful",
+          "Hopeful",
+          "Hopefuls",
+          "Playful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a Day",
+        "items": [
+          "Morning",
+          "Afternoon",
+          "Evening",
+          "Night"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes with Edges",
+        "items": [
+          "Triangle",
+          "Rectangle",
+          "Square",
+          "Pentagon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things You Read",
+        "items": [
+          "Magazine",
+          "Newspaper",
+          "Comic",
+          "Storybook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay and two-step ideas. Suffix theme is based on shared endings. Parts of a Day are time concepts without tricky ordering. Shapes with Edges use common polygon names. Reading materials are everyday items."
+  },
+  "hard": {
+    "id": "11242025-H",
+    "generatedAt": "2025-11-24T00:00:00Z",
+    "groups": [
+      {
+        "name": "Animal Homes and Habitats",
+        "items": [
+          "Beaver Dam",
+          "Bird Nest",
+          "Ant Hill",
+          "Fox Den"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Grow in a Garden",
+        "items": [
+          "Carrot",
+          "Tomato",
+          "Lettuce",
+          "Beans"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound Makers",
+        "items": [
+          "Drum",
+          "Kazoo",
+          "Tambourine",
+          "Xylophone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Modes of Transportation",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Scooter",
+          "Train"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level uses more abstract groupings and some multi-step thinking. Animal Homes and Habitats links each animal group to its shelter. Garden Growers focuses on common garden produce. Sound Makers group is about instruments by producing sounds. Transportation modes are everyday travel options. Near-miss temptation: mixing 'nest' with 'den' might seem related to homes but each category uses a distinct liveable context; avoid overlap by focusing on the specific habitat term."
+  },
+  "id": "11242025",
+  "generatedAt": "2025-11-24T02:27:42.077Z"
+}

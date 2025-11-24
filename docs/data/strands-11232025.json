@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MIST",
+      "BUMP",
+      "WAVE",
+      "HIDE",
+      "GLOW",
+      "CAMP",
+      "BOLD",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPLASH",
+      "FESTAL",
+      "GARNET",
+      "CANDLE",
+      "FABLES",
+      "PLANTS",
+      "GARNISH",
+      "TWIRLS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "HARMONY",
+      "EXPLAIN",
+      "SPIRALING",
+      "SPECTACLE",
+      "BALANCING",
+      "COMFORTING",
+      "INTERFACE",
+      "GENERATE"
+    ]
+  }
+}

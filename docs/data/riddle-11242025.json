@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs but I never walk. I rhyme with 'tree' and I help you sit. What am I?",
+    "a": "Chair",
+    "hint": "Look for something you sit on."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about how adding letters changes meaning."
+  },
+  "hard": {
+    "q": "A box has two colors, inside a room with three mirrors. If you look into the first mirror, you see endless copies; into the second, you see two; into the third, you see four. How many unique images can you observe if all reflections combine? (Assume no shadows, straight lines, and each reflection doubles, then adds one).",
+    "a": "Eight",
+    "hint": "Start from one image and apply the doubling/adding pattern."
+  }
+}

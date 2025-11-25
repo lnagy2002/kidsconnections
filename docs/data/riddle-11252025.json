@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no head. I am full of numbers and I jump from one line to another. What am I?",
+    "a": "A calendar string / a row of numbers on a calendar",
+    "hint": "Look at days and dates."
+  },
+  "medium": {
+    "q": "I am a word that hides inside the phrase 'a double mirror'. Take away the double and you still have me. What word am I?",
+    "a": "I see a word 'I' inside 'double mirror'?",
+    "hint": "Think about how words can appear inside phrases."
+  },
+  "hard": {
+    "q": "Two friends start at opposite ends of a straight road. They walk toward each other and meet after exactly 10 minutes. One walks at twice the speed of the other. How long would it take for them to completely pass each other if they kept walking? ",
+    "a": "5 minutes",
+    "hint": "They meet in 10 minutes; to pass each other after starting, consider cumulative distance and speeds."
+  }
+}

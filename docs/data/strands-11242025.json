@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAMP",
+      "HIVE",
+      "LUMP",
+      "MIST",
+      "PUSH",
+      "WILD",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GARNET",
+      "TWIRLS",
+      "SPIRAL",
+      "DANGLE",
+      "CRUNCH",
+      "BALLOON",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "SPIRITED",
+      "BALANCING",
+      "BALANCED",
+      "HARMONIC",
+      "CIRCULATE",
+      "COMFORTING",
+      "GENERATE",
+      "INNOVATED"
+    ]
+  }
+}

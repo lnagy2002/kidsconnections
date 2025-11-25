@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11252025-E",
+    "generatedAt": "2025-11-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wings",
+        "items": [
+          "bird",
+          "dragonfly",
+          "butterfly",
+          "peacock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow on Trees",
+        "items": [
+          "apple",
+          "orange",
+          "banana",
+          "pear"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Bake",
+        "items": [
+          "cookie",
+          "bread",
+          "cake",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: (1) Animals with wings: recognizable flying creatures. (2) Fruits you can find on trees. (3) Baked goods commonly found in ovens. (4) Furniture you sit on. Near-miss temptation: 'chair' could be in 'things you sit on' but fits clearly as a class item; avoid reusing similar seating words in other groups."
+  },
+  "medium": {
+    "id": "11252025-M",
+    "generatedAt": "2025-11-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefix Friends",
+        "items": [
+          "unhappy",
+          "unlucky",
+          "untidy",
+          "unsafe"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Combos",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "keyboard",
+          "balloon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Clues",
+        "items": [
+          "bluebird",
+          "greenhouse",
+          "orangeade",
+          "redwood"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Homes",
+        "items": [
+          "nest",
+          "burrow",
+          "den",
+          "hole"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: (1) Prefix group uses common 'un-' words; (2) Compound words formed by joining two real words; (3) Color as a leading word in familiar phrases; (4) Animal homes. Near-miss temptation: 'bluebird' might tempt to group with colors, but it's clearly a noun with combined meaning; 'orangeade' could tempt with color 'orange' but is a drink, so kept in color clue group for its first word usage."
+  },
+  "hard": {
+    "id": "11252025-H",
+    "generatedAt": "2025-11-25T12:00:00Z",
+    "groups": [
+      {
+        "name": "Small Everyday Actions",
+        "items": [
+          "clip",
+          "clip",
+          "toss",
+          "pinch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Parts of a Clock",
+        "items": [
+          "hour",
+          "minute",
+          "second",
+          "dial"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites by Theme",
+        "items": [
+          "hot",
+          "cold",
+          "wet",
+          "dry"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes in 2D Space",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: (1) Subtlety with 'clip' duplicated here; ensure unique items per puzzle; (2) Clock parts; (3) Opposites by theme where 'wet/dry' and 'hot/cold' are pairings; (4) Basic shapes. Near-miss temptation: 'clock' terms like 'dial' could fit both 'Parts of a Clock' and 'Shapes in 2D Space' if stretched; clarified here to keep distinct categories. Ensure no item overlaps across all groups within the puzzle."
+  },
+  "id": "11252025",
+  "generatedAt": "2025-11-25T02:19:51.283Z"
+}

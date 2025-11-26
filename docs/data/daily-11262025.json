@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11262025-E",
+    "generatedAt": "2025-11-26T12:00:00Z",
+    "groups": [
+      {
+        "name": "Animal Friendship",
+        "items": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things With Wheels",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Eat",
+        "items": [
+          "apple",
+          "banana",
+          "cookie",
+          "carrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Utilities",
+        "items": [
+          "lamp",
+          "clock",
+          "toothbrush",
+          "towel"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group forms a simple, kid-friendly category. Near-miss note: in the 'Household Utilities' group, 'towel' could sometimes be found in the kitchen in some homes, but it's primarily an everyday household item like the others."
+  },
+  "medium": {
+    "id": "11262025-M",
+    "generatedAt": "2025-11-26T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Beginnings",
+        "items": [
+          "sunrise",
+          "sunflower",
+          "sunset",
+          "sunny"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a Center",
+        "items": [
+          "head",
+          "shoulder",
+          "knee",
+          "toe"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearable Bits",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "belt"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snack Time",
+        "items": [
+          "pretzel",
+          "apple",
+          "grapes",
+          "yogurt"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Word Beginnings groups items share a first-word cue (sun-). Parts of a Center use body parts. Wearable Bits are accessories you wear. Snack Time items include both standalone foods and common snacks. Near-miss: 'apple' appears in Snack Time and as a possible fruit in other groups, but here it clearly belongs to Food items."
+  },
+  "hard": {
+    "id": "11262025-H",
+    "generatedAt": "2025-11-26T12:00:00Z",
+    "groups": [
+      {
+        "name": "Rotation and Motion",
+        "items": [
+          "spin",
+          "twirl",
+          "rotate",
+          "whirl"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Relatives",
+        "items": [
+          "blueberry",
+          "bluebird",
+          "blueprint",
+          "blueberry"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound Makers",
+        "items": [
+          "whistle",
+          "bell",
+          "drum",
+          "kazoo"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Tools",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Rotation and Motion uses synonyms to hint at movement. Colorful Relatives plays with the color word 'blue' in different contexts; note that 'blueberry' and 'blueprint' share the color cue but belong to different conceptual groups, avoiding overlap. Sound Makers groups common noisemakers. Small Tools lists basic hand tools. Near-miss: 'blue' items could tempt into a 'color family' group, but here the relation is explicit in each item's common use."
+  },
+  "id": "11262025",
+  "generatedAt": "2025-11-26T02:20:40.522Z"
+}

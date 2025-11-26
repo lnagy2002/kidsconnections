@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "CANE",
+      "FLEA",
+      "BUMP",
+      "GLOW",
+      "RIDE",
+      "LUMP",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "GATHER",
+      "SPIRIT",
+      "NURTURE",
+      "CRUNCH",
+      "FESTAL",
+      "PLANTS",
+      "DANGLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIANGLE",
+      "SPECTACLE",
+      "HARMONIZE",
+      "COMFORTING",
+      "GENERATE",
+      "INNOVATE",
+      "GRADUATES",
+      "FANTASTIC",
+      "WONDERFUL"
+    ]
+  }
+}

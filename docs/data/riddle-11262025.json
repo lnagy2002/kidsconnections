@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have four legs but I never walk. I come in a chair and a stool. What am I?",
+    "a": "A chair",
+    "hint": "Look under you when you sit."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think of how adding letters changes meaning."
+  },
+  "hard": {
+    "q": "A clock and a calendar share a secret. If today is a Tuesday and next month has 31 days, what is the probability that the 15th is a Thursday? (Assume all days equally likely and ignore leap years.)",
+    "a": "1/7",
+    "hint": "Count the days of the week for the 15th across a typical month."
+  }
+}

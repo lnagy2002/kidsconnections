@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11272025-E",
+    "generatedAt": "2025-11-27T12:00:00.000Z",
+    "groups": [
+      {
+        "name": "Things with paws",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "plane",
+          "butterfly",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you drink",
+        "items": [
+          "water",
+          "milk",
+          "tea",
+          "soda"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "roller skates",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Category 1 groups animals with paws; Category 2 lists things that can fly; Category 3 lists beverages; Category 4 lists devices or objects with wheels. Near misses were considered (e.g., fish cannot fly), but all items clearly belong in their groups."
+  },
+  "medium": {
+    "id": "11272025-M",
+    "generatedAt": "2025-11-27T12:00:00.000Z",
+    "groups": [
+      {
+        "name": "Words with -er suffix that denote a job",
+        "items": [
+          "teacher",
+          "farmer",
+          "baker",
+          "driver"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shape + color pairs",
+        "items": [
+          "red square",
+          "blue circle",
+          "green triangle",
+          "yellow rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of the body you can see with eyes",
+        "items": [
+          "eye",
+          "ear",
+          "nose",
+          "mouth"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common classroom supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Category 1 uses a suffix that indicates occupation; Category 2 pairs simple shapes with colors to create a recognizably visual cue; Category 3 lists facial features; Category 4 lists everyday school supplies. Near-miss temptation: someone might think 'teacher' relates to 'notebook' due to school, but the fit is clearer in category 1 or 4 respectively."
+  },
+  "hard": {
+    "id": "11272025-H",
+    "generatedAt": "2025-11-27T12:00:00.000Z",
+    "groups": [
+      {
+        "name": "Opposites by property (hot/cold, big/small, up/down, loud/quiet)",
+        "items": [
+          "hot",
+          "cold",
+          "big",
+          "small"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common prefixes that shift meaning",
+        "items": [
+          "unhappy",
+          "redo",
+          "preheat",
+          "rewrite"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "earrings"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Simple machine helpers",
+        "items": [
+          "lever",
+          "pulley",
+          "incline plane",
+          "wheel"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Category 1 uses basic antonym-like pairs; Category 2 shows common prefixes changing meaning, which requires noticing the prefix. Category 3 lists items that are often found as pairs but are distinct objects. Category 4 introduces simple machines. Near-miss temptation: 'hot' could be seen as 'cold' in some contexts, but the contrast is clear; 'wheel' versus 'lever' might feel similar as tools, but each belongs to its own simple machine category."
+  },
+  "id": "11272025",
+  "generatedAt": "2025-11-27T02:17:31.800Z"
+}

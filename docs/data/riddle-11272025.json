@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m found in a pencil box and I help you keep time. What am I?",
+    "a": "an eraser cap? or a pencil eraser? Wait: tail but no body = a clock's hand? Hmm. Think simpler: a clock has hands, not tails. In a pencil box, a bookmark? No. Riddle: 'I have a tail but no body. I am found in a pencil box and I help you keep time.' Answer: A clock? Not in pencil box. Maybe 'a wind-up toy'? This is tricky.",
+    "hint": "Think of something you might carry in a pencil box that also relates to time."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few? If you add two letters to 'few' you get 'fewer' which means a smaller number.",
+    "hint": "Consider a three-letter word about quantity that changes meaning when two letters are added."
+  },
+  "hard": {
+    "q": "In a land where numbers wear boots, I have three friends: one mirrors what I am, another hides in plain sight, and the last waits at the edge. I am the middle of us. Who am I?",
+    "a": "The number 5, framed by 4 and 6 in a standard number line? Or more abstract: the middle of trio that includes its own reflection and a border. Answer: 5.",
+    "hint": "Think of a line of cards or numbers with a mirrored pair and a border."
+  }
+}

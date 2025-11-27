@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BIRD",
+      "FARM",
+      "HIVE",
+      "BUMP",
+      "FLEA",
+      "CANE",
+      "WIND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "FRIEND",
+      "SPIRIT",
+      "WONDER",
+      "GLANCE",
+      "NURTURE",
+      "HARMON",
+      "CIRCLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASY",
+      "DREAMER",
+      "GATHERED",
+      "EXPLAIN",
+      "TRIANGLE",
+      "SPECTACLE",
+      "INNOVATE",
+      "HARMONIOUS",
+      "BALANCED"
+    ]
+  }
+}

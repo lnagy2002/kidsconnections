@@ -218,7 +218,8 @@
     "DREAM",
     "LANTER",
     "ADVENT",
-    "FLAIRY"
+    "FLAIRY",
+    "BALLOO"
   ],
   "hard": [
     "EXEMPLARY",
@@ -298,6 +299,7 @@
     "SPIRAL",
     "COMBAT",
     "CRYSTAL",
-    "GENERATION"
+    "GENERATION",
+    "GATHERED"
   ]
 }

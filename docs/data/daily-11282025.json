@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11282025-E",
+    "generatedAt": "2025-11-28T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Tails",
+        "items": [
+          "monkey",
+          "cat",
+          "dog",
+          "fox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Bake",
+        "items": [
+          "bread",
+          "cookie",
+          "cake",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly (Non-birds)",
+        "items": [
+          "kite",
+          "plane",
+          "insect",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Your Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: 1) Things with Tails = animals that have tails. 2) Things You Can Bake = edible items that can be baked. 3) Things That Fly (Non-birds) = things that fly but are not birds. 4) Things You Wear on Your Feet = footwear. Near-miss temptation: 'plane' could feel like a 'flyer' in multiple groups, but it's best kept in its own flying item group."
+  },
+  "medium": {
+    "id": "11282025-M",
+    "generatedAt": "2025-11-28T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Fragments, Part 1",
+        "items": [
+          "sun",
+          "set",
+          "snow",
+          "seed"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Pairs",
+        "items": [
+          "redbird",
+          "blueprint",
+          "yellowstone",
+          "greenhouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Small Tools",
+        "items": [
+          "hammer",
+          "saw",
+          "ruler",
+          "drill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Room Furnishings",
+        "items": [
+          "couch",
+          "table",
+          "lamp",
+          "rug"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: 1) Word Fragments: items built from short word pieces (sun/set, snow/seed). 2) Colorful Pairs: common compound words that pair a color with another concept. 3) Small Tools: hand tools often found in a toolbox. 4) Room Furnishings: items you typically find inside a room. Near-miss temptation: 'lamp' could be mistaken with 'light' in 'Colorful Pairs' if not careful; kept distinct by established compound forms."
+  },
+  "hard": {
+    "id": "11282025-H",
+    "generatedAt": "2025-11-28T12:00:00Z",
+    "groups": [
+      {
+        "name": "Opposites in Motion",
+        "items": [
+          "stop",
+          "move",
+          "turn",
+          "pause"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tiny Creatures in Pables",
+        "items": [
+          "ant",
+          "bee",
+          "mite",
+          "wasp"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words With Shared Endings",
+        "items": [
+          "playful",
+          "careful",
+          "careful",
+          "hopeful"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Objects with Hidden Uses",
+        "items": [
+          "spoon",
+          "bucket",
+          "belt",
+          "sketchbook"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: 1) Opposites in Motion: group around actions that are antonyms or counterpoints used in motion. 2) Tiny Creatures in Pables: very small animals; ensure each fits as a standalone entry. 3) Words With Shared Endings: words ending similarly (-ful) to show pattern; careful to avoid duplicates. 4) Everyday Objects with Hidden Uses: common items that can be used in unusual ways. Near-miss temptation: 'move' in Opposites in Motion might tempt to group with 'pause' as a pair, but 'stop' and 'pause' are closer opposites; 'move' stands as a separate action here."
+  },
+  "id": "11282025",
+  "generatedAt": "2025-11-28T02:16:59.299Z"
+}

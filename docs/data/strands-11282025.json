@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "FABLE",
+      "HAPPY",
+      "MERRY",
+      "NURSE",
+      "WILD",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GARNET",
+      "SPIRIT",
+      "SPARKY",
+      "CAVERN",
+      "BUNGLE",
+      "PLANTS",
+      "ADVENT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXEMPLARY",
+      "COMPLICATE",
+      "TRANSLATE",
+      "HARMONIOUS",
+      "SPECTACULAR",
+      "CONTRIBUTE",
+      "EXPERIMENT",
+      "INNOVATION",
+      "UNDERSTAND"
+    ]
+  }
+}

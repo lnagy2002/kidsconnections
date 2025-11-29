@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a top and bottom but no legs. I am eaten or used to ride on, and I jump when jump rope is done. What am I?",
+    "a": "A rope? no. A sandwich? no. Think simple: a board? My best guess: a 'rope' or 'board'.",
+    "hint": "Think about things you can physically move or use in playgrounds."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "A tiny word about quantity, and adding letters changes it."
+  },
+  "hard": {
+    "q": "A guard keeps a room safe using a single key. The key opens many doors, yet all doors stay locked unless the guard is awake. Who is the guard and what is the key?",
+    "a": "The guard is 'sleep' and the key is 'password' or 'light'—this riddle is about staying awake to solve problems. ",
+    "hint": "Think about metaphorical guards and what 'key' could unlock ideas."
+  }
+}

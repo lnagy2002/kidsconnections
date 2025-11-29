@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11292025-E",
+    "generatedAt": "2025-11-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Fins",
+        "items": [
+          "fish",
+          "dolphin",
+          "whale",
+          "shark"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "truck",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Something You Braid",
+        "items": [
+          "hair",
+          "rope",
+          "yarn",
+          "string"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Household Lights",
+        "items": [
+          "lamp",
+          "candle",
+          "lantern",
+          "lightswitch"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups focus on concrete, familiar categories: things with fins, things with wheels, items that can be braided, and common light sources. Near-miss temptation: 'rope' could fit both 'braid' and 'things with wheels' in some minds, but it clearly belongs to braids."
+  },
+  "medium": {
+    "id": "11292025-M",
+    "generatedAt": "2025-11-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that Start with 'Sun'",
+        "items": [
+          "sunflower",
+          "sunrise",
+          "sunset",
+          "sunny"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Mergers",
+        "items": [
+          "peanut",
+          "butter",
+          "cupcake",
+          "snowman"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shape Pairs",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "oval"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "What Belongs in a Kitchen",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce light wordplay: 'sun'-prefixed words form a clear set; 'Two-Word Mergers' uses common compound words; 'Shape Pairs' uses simple geometric shapes; 'Kitchen' items are everyday objects. Near-miss temptation: 'plate' could seem to fit 'spoon' or 'cup' due to kitchen context, but only four items per group are allowed and each belongs clearly to its group."
+  },
+  "hard": {
+    "id": "11292025-H",
+    "generatedAt": "2025-11-29T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Endings with -ing",
+        "items": [
+          "playing",
+          "reading",
+          "jumping",
+          "sleeping"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite Pairs",
+        "items": [
+          "hot",
+          "cold",
+          "happy",
+          "sad"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things That Grow From Seeds",
+        "items": [
+          "rose",
+          "sunflower",
+          "pumpkin",
+          "grass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday Places to Sit",
+        "items": [
+          "bench",
+          "sofa",
+          "stool",
+          "chair"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups involve more thought: -ing verbs require recognizing -ing forms; opposite pairs rely on basic antonyms but clearly separated in meaning; seeds-to-plant progression; and common seating furniture. Near-miss temptation: 'grass' might be thought of as a seed product, but in this puzzle it belongs to 'grow from seeds' as a living plant item; ensure learners see the plant connection rather than the material."
+  },
+  "id": "11292025",
+  "generatedAt": "2025-11-29T02:17:04.495Z"
+}

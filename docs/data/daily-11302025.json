@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "11302025-E",
+    "generatedAt": "2025-11-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Friendly Farm",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "butterfly",
+          "plane",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Grow",
+        "items": [
+          "tree",
+          "flower",
+          "grains",
+          "grass"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: Friendly Farm (common farm animals), Things That Fly (objects or creatures that move through the air), Things You Wear (articles of clothing), Things That Grow (plants and plant-based items). Near-miss temptation example: 'plane' could feel like it belongs with 'Things That Fly' due to air travel, but it’s an inanimate flying object; the intended fit is the unrelated everyday items in the same group."
+  },
+  "medium": {
+    "id": "11302025-M",
+    "generatedAt": "2025-11-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Word Family - Prefix",
+        "items": [
+          "unhappy",
+          "untidy",
+          "undo",
+          "unicorn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word Family - Suffix",
+        "items": [
+          "careful",
+          "playful",
+          "hopeful",
+          "colorful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Compounds",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "keyboard",
+          "footprint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Traits",
+        "items": [
+          "giraffe",
+          "frog",
+          "otter",
+          "panda"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Categories: Prefix group uses words starting with 'un-' that change meaning; Suffix group uses '-ful' words; Two-Part Compounds are common compound terms; Animal Traits highlights animals by notable features. Near-miss temptation: 'unicorn' could be mistaken for a mythical creature rather than a word with a prefix; it fits only as a prefix-group item."
+  },
+  "hard": {
+    "id": "11302025-H",
+    "generatedAt": "2025-11-30T12:00:00Z",
+    "groups": [
+      {
+        "name": "Shapes in the Sky",
+        "items": [
+          "cloud",
+          "star",
+          "crescent",
+          "rainbow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Hints",
+        "items": [
+          "beat",
+          "note",
+          "rhythm",
+          "tune"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ways to Move",
+        "items": [
+          "crawl",
+          "crawlspace",
+          "slide",
+          "glide"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Helpers",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "scissors"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Categories: Shapes in the Sky groups items linked to celestial or atmospheric shapes; Musical Hints covers basic music words with clear links to sound; Ways to Move contrasts crawling, sliding, and gliding as modes of motion; Small Helpers lists common classroom tools. Near-miss temptation: 'pencil' might seem to fit 'Ways to Move' if thinking of 'pencil-edge' motion, but the intended fit is as a classroom helper; the link remains to tools in the 'Small Helpers' group."
+  },
+  "id": "11302025",
+  "generatedAt": "2025-11-30T02:32:25.808Z"
+}

@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a number one more than ten, and I fit on two hands. What am I?",
+    "a": "11",
+    "hint": "Think fingers and a countdown."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Remove two letters and you get a smaller amount."
+  },
+  "hard": {
+    "q": "In a line of five boxes, two are truth-tellers, two are liars, and one changes? Each box is asked once: what can be the minimum number of truth-tellers you can guarantee to identify?",
+    "a": "2",
+    "hint": "Consider a scenario where you need a sure count despite unknowns."
+  }
+}

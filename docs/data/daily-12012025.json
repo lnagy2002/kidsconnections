@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "12012025-E",
+    "generatedAt": "2025-12-01T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Wings",
+        "items": [
+          "sparrow",
+          "parrot",
+          "eagle",
+          "cardinal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Your Head",
+        "items": [
+          "hat",
+          "helmet",
+          "cap",
+          "bonnet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Lift",
+        "items": [
+          "book",
+          "balloon",
+          "apple",
+          "pillow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes with 3 Sides",
+        "items": [
+          "triangle",
+          "polygon",
+          "pyramid",
+          "cone"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Categories: Things with Wings (bird types), Headwear, Objects You Can Lift (common items), and 3-sided shapes. Near-miss temptation: 'cone' could be a 3D shape or an ice cream; it's clearly a shape here, not a food item."
+  },
+  "medium": {
+    "id": "12012025-M",
+    "generatedAt": "2025-12-01T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words That Share a Prefix",
+        "items": [
+          "unhappy",
+          "unfold",
+          "unstable",
+          "unite"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Parts",
+        "items": [
+          "sunset",
+          "raincoat",
+          "sandbox",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Move in Pairs",
+        "items": [
+          "duet",
+          "shoes",
+          "paddles",
+          "gloves"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors Named by Objects",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "banana"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Prefix group: look for the shared 'un-' prefix; Compound parts: two-word items where each part is a standalone word. Move-in-pairs: items commonly found as pairs. Colors named by objects: color words that come from everyday items (orange, lime from fruits/foods). Near-miss temptation: 'peach' could be a fruit or a color; here it is a color name derived from the fruit, which could confuse but is acceptable as color name."
+  },
+  "hard": {
+    "id": "12012025-H",
+    "generatedAt": "2025-12-01T00:00:00Z",
+    "groups": [
+      {
+        "name": "Invisible Helpers",
+        "items": [
+          "shadow",
+          "echo",
+          "memory",
+          "signal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Named After Living Things",
+        "items": [
+          "otter",
+          "ant",
+          "bee",
+          "otterfly"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools with Special Roles",
+        "items": [
+          "compass",
+          "saw",
+          "ruler",
+          "level"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Signals",
+        "items": [
+          "rain",
+          "snow",
+          "hail",
+          "sunny"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Invisible Helpers: things that represent something non-physical like sound or memory. Named After Living Things: obvious ones; include one near-miss with 'otterfly' (not a real word) to test the solver—it's there to be a tempting but incorrect option. Tools with Special Roles: common measurement or construction tools; Weather Signals: forms of weather. Near-miss temptation: 'otter' and 'ant' are real, but 'otterfly' is not a real item; avoid selecting it as valid."
+  },
+  "id": "12012025",
+  "generatedAt": "2025-12-01T02:41:49.913Z"
+}

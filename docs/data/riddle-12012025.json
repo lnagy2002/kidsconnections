@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I’m long and pointy, and I like to wag when I’m happy. What am I?",
+    "a": "a kite string / a tail",
+    "hint": "Think of something that flies with a string."
+  },
+  "medium": {
+    "q": "I’m a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "few",
+    "hint": "The word changes when you add two letters."
+  },
+  "hard": {
+    "q": "Two siblings start at the same point. One moves only north or east; the other moves only south or west. After four moves each, who is closer to the origin? Explain briefly.",
+    "a": "The one who makes opposite moves; they end up equidistant or the one with the net displacement depending on path. Hint: track coordinates.",
+    "hint": "Plot each move as a coordinate change and compare distances."
+  }
+}

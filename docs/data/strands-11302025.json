@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "BAND",
+      "RING",
+      "CAVE",
+      "FIRM",
+      "BUMP",
+      "HIDE",
+      "BOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CIRCLE",
+      "PLANTS",
+      "HARMON",
+      "DREAMY",
+      "GARNET",
+      "SPARKY",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GATHERING",
+      "UNDERSTAND",
+      "COMFORTING",
+      "FANTASTIC",
+      "BALANCED",
+      "EXPLORING",
+      "TRANSLATE",
+      "HARMONIZE",
+      "INNOVATION"
+    ]
+  }
+}

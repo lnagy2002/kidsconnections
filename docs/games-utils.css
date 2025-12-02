@@ -1,3 +1,53 @@
+.star-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity 400ms ease;
+}
+
+.star-overlay.fade-out {
+  opacity: 0;
+}
+
+/* Star style */
+.star {
+  font-size: 4rem;           /* tweak size as you like */
+  color: #facc15;            /* nice yellow; use your brand color */
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  transform: scale(0);
+  opacity: 0;
+  animation: star-pop 450ms ease-out forwards;
+}
+
+/* Slight stagger so they pop in one after another */
+.star:nth-child(2) {
+  animation-delay: 120ms;
+}
+.star:nth-child(3) {
+  animation-delay: 240ms;
+}
+
+@keyframes star-pop {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
 canvas.confetti {
   position: fixed;
   inset: 0;

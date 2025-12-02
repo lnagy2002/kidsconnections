@@ -83,8 +83,8 @@ async function callModel({ system, user }) {
       { role: "user", content: user }
     ],
     reasoning_effort: "minimal",
-    temperature: 0.9,          // a bit of randomness to avoid same favorites
-    top_p: 0.9,
+    // temperature: 0.9,          // a bit of randomness to avoid same favorites
+    // top_p: 0.9,
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();

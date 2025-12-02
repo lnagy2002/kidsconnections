@@ -60,7 +60,66 @@ function getQueryParam(name) {
 
 let didCelebrate = false;
 
-function celebrate() {
+function celebrate(level = 1) {
+    if (didCelebrate) return; // prevent double-firing
+    didCelebrate = true;
+
+    // Respect reduced-motion
+    const prefersReduce =
+        window.matchMedia &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (prefersReduce) {
+        // Gentle pulse on the card instead of animation
+        const card = document.querySelector('.card');
+        if (card) {
+            card.style.transition = 'transform 300ms ease, box-shadow 300ms ease';
+            card.style.transform = 'scale(1.02)';
+            card.style.boxShadow = '0 12px 40px rgba(20,63,87,.18)';
+            setTimeout(() => {
+                card.style.transform = '';
+                card.style.boxShadow = '';
+                didCelebrate = false;
+            }, 700);
+        } else {
+            didCelebrate = false;
+        }
+        return;
+    }
+
+    // Clamp level between 1 and 3
+    const starsCount = Math.max(1, Math.min(3, level));
+
+    // Create overlay
+    const overlay = document.createElement('div');
+    overlay.className = 'star-overlay';
+    document.body.appendChild(overlay);
+
+    // Create stars
+    for (let i = 0; i < starsCount; i++) {
+        const star = document.createElement('div');
+        star.className = 'star';
+        star.textContent = '★'; // you can swap this for an SVG if you want
+        overlay.appendChild(star);
+    }
+
+    // Auto fade out after a while
+    const DISPLAY_TIME = 1400; // ms before fading out
+
+    setTimeout(() => {
+        overlay.classList.add('fade-out');
+        overlay.addEventListener(
+            'transitionend',
+            () => {
+                overlay.remove();
+                didCelebrate = false;
+            },
+            { once: true }
+        );
+    }, DISPLAY_TIME);
+}
+
+function celebrateConfetti() {
     if (didCelebrate) return; // prevent double-firing
     didCelebrate = true;
 

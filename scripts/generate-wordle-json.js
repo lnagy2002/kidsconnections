@@ -121,17 +121,16 @@ async function main() {
 
   const baseSystem = `
 You generate daily words for a kids' Wordle-style game. 
-Output strictly valid JSON matching this schema:
+Output JSON like:
 {
-  "easy": "WORD",
-  "medium": "WORD",
-  "hard": "WORD"
+  "easy": "FOUR",
+  "medium": "FIVEY",
+  "hard": "SIMPLEX"
 }
 
-Rules:
-- EASY: 4-letter common word.
-- MEDIUM: 5-letter common word.
-- HARD: 6-letter common word.
+- "easy" must be EXACTLY 4 letters long.
+- "medium" must be EXACTLY 5 letters long.
+- "hard" must be EXACTLY 6 letters long.
 - ALL CAPS A–Z. No hyphens, accents, numbers, or punctuation.
 - No proper nouns, no brand names, no slang, no offensive terms.
 - Age-appropriate (grades 2+).

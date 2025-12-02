@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "12022025-E",
+    "generatedAt": "2025-12-02T12:00:00Z",
+    "groups": [
+      {
+        "name": "Bright Colors",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You See in a Kitchen",
+        "items": [
+          "spoon",
+          "cup",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets People Have as Toys",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "bird"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: 1) common fruits by color; 2) common kitchen items; 3) vehicles with wheels; 4) pets often kept as pets. Near-miss temptation avoided; no overlaps in items."
+  },
+  "medium": {
+    "id": "12022025-M",
+    "generatedAt": "2025-12-02T12:00:01Z",
+    "groups": [
+      {
+        "name": "Word Parts: Prefixes",
+        "items": [
+          "unhappy",
+          "rethink",
+          "dislike",
+          "preheat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Doubles in a Row",
+        "items": [
+          "together",
+          "happen",
+          "sudden",
+          "little"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Open",
+        "items": [
+          "door",
+          "jar",
+          "gate",
+          "lid"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Forest Things",
+        "items": [
+          "tree",
+          "fern",
+          "bush",
+          "moss"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups include: 1) common words with familiar prefixes; 2) words with repeated letters or syllables; 3) items that physically open; 4) simple forest-related nouns. Near-miss: 'gate' could be in 'things that open' or 'door', but 'gate' fits opening mechanism best; ensure kids see opening action as the connector."
+  },
+  "hard": {
+    "id": "12022025-H",
+    "generatedAt": "2025-12-02T12:00:02Z",
+    "groups": [
+      {
+        "name": "Contrast Pairs",
+        "items": [
+          "hot",
+          "cold",
+          "soft",
+          "hard"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Helpers",
+        "items": [
+          "eraser",
+          "pencil",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Locations in a School",
+        "items": [
+          "classroom",
+          "library",
+          "cafeteria",
+          "playground"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups feature: 1) obvious contrast pairs as a fit; 2) school-helpers with clear roles; 3) places within a school setting; 4) basic shapes. Near-miss temptation: 'oval' might seem like a 'shape' in multiple groups, but the intended connect is shape type alone; ensure emphasis on the named category."
+  },
+  "id": "12022025",
+  "generatedAt": "2025-12-02T02:22:39.962Z"
+}

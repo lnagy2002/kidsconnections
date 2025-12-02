@@ -60,10 +60,18 @@ function getQueryParam(name) {
 
 let didCelebrate = false;
 
-function celebrate(level = 1) {
+function celebrate(level = 'easy') {
     if (didCelebrate) return; // prevent double-firing
     didCelebrate = true;
 
+  const map = {
+        easy: 1,
+        medium: 2,
+        hard: 3
+    };
+
+    const starsCount = map[level] || 1; // default to 1 star
+  
     // Respect reduced-motion
     const prefersReduce =
         window.matchMedia &&
@@ -88,7 +96,7 @@ function celebrate(level = 1) {
     }
 
     // Clamp level between 1 and 3
-    const starsCount = Math.max(1, Math.min(3, level));
+    // const starsCount = Math.max(1, Math.min(3, level));
 
     // Create overlay
     const overlay = document.createElement('div');

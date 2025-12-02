@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I go up when the sun rises and come down when it sets. What am I?",
+    "a": "A shadow",
+    "hint": "It helps you see your shape on the ground."
+  },
+  "medium": {
+    "q": "I am a word of letters three; add two, and fewer there will be. What word am I?",
+    "a": "Few",
+    "hint": "Think about counting letters."
+  },
+  "hard": {
+    "q": "A box has four corners. Inside is a ball that bounces in a straight line between opposite corners but never touches the sides. What principle explains its path?",
+    "a": "Diagonal reflection (bouncing between opposite corners)",
+    "hint": "Consider how a ball can move if it travels at a 45-degree angle in a square."
+  }
+}

@@ -8,6 +8,6 @@
     alt="The Mind Bits"
     class="footer-logo"
   />
-  <div class="footer-text">©2025 The Mind Bits</div>
+  <div class="footer-text">©2025 <a href="https://bittobitscom.wordpress.com">The Mind Bits</a></div>
 </footer>
   `;

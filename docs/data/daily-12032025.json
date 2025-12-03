@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "12032025-E",
+    "generatedAt": "2025-12-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Things with the same tail",
+        "items": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes with straight sides",
+        "items": [
+          "square",
+          "triangle",
+          "rectangle",
+          "rhombus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that come in a pack",
+        "items": [
+          "pencils",
+          "puzzle",
+          "crayons",
+          "markers"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy groups: 1) items that all share a typical tail (animal theme). 2) Everyday headwear. 3) Common shapes with straight sides. 4) Things sold or used in sets. Near-miss: 'pencil', 'crayon', 'marker', 'puzzle' could be mistaken for 'kit' items, but they clearly belong to school/creative supplies here."
+  },
+  "medium": {
+    "id": "12032025-M",
+    "generatedAt": "2025-12-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Words that end with -er related to actions",
+        "items": [
+          "runner",
+          "teacher",
+          "player",
+          "keeper"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of a house you can touch",
+        "items": [
+          "door",
+          "window",
+          "floor",
+          "wall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Something you can tie",
+        "items": [
+          "shoelace",
+          "belt",
+          "rope",
+          "string"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Foods that are yellow inside",
+        "items": [
+          "banana",
+          "corn",
+          "lemon",
+          "pineapple"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups: 1) -er words indicating people who perform actions; avoid misplacing 'runners' with other occupations. 2) Common house parts. 3) Items you can tie. 4) Foods with yellow centers or exteriors. Near-miss: 'window' could be mistaken for 'pane' concept, but 'window' better fits touchable house part."
+  },
+  "hard": {
+    "id": "12032025-H",
+    "generatedAt": "2025-12-03T12:00:00Z",
+    "groups": [
+      {
+        "name": "Instruments that make sound when blown",
+        "items": [
+          "trumpet",
+          "flute",
+          "clarinet",
+          "saxophone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that grow from a seed but are eaten",
+        "items": [
+          "carrot",
+          "pea",
+          " tomato",
+          "corn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that rhyme with 'bright'",
+        "items": [
+          "light",
+          "kite",
+          "flight",
+          "night"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Clocks and timekeepers",
+        "items": [
+          "watch",
+          "calendar",
+          "hourglass",
+          "sun dial"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard groups: 1) Wind instruments. 2) Seeded edible plants. 3) Rhyming with 'bright' (simple rhyme pattern). 4) Timekeeping devices. Near-miss: 'watch' could be confused with 'clock' in other groups, but each item fits best in its own category; avoid treating 'watch' as 'clock' in another group."
+  },
+  "id": "12032025",
+  "generatedAt": "2025-12-03T02:22:30.947Z"
+}

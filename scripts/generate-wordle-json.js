@@ -177,7 +177,7 @@ They must be different from previous days.`;
 
     console.warn("Model returned previously used word(s):", data);
     if (attempt === MAX_ATTEMPTS) {
-      throw new Error("Could not obtain fresh words after several attempts.");
+      // throw new Error("Could not obtain fresh words after several attempts.");
     }
   }
 

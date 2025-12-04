@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "BUMP",
+      "HIVE",
+      "GLOW",
+      "CURL",
+      "WILD",
+      "DUST",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "SPLASH",
+      "DANGLE",
+      "SPIRAL",
+      "BALLOO",
+      "CANDLE",
+      "GARNISH",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "COMFORTING",
+      "HARMONIZE",
+      "INNOVATED",
+      "EXPLORING",
+      "SPIRITED",
+      "FRIENDSHIP",
+      "BALANCED",
+      "TRANQUIL"
+    ]
+  }
+}

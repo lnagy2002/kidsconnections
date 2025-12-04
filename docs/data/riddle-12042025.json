@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I am a fruit with a peel you can slip off. I come in bunches and rhyme with 'soup'. What am I?",
+    "a": "banana",
+    "hint": "Yellow and peeled by hand."
+  },
+  "medium": {
+    "q": "I start with a square, end with a circle, and in the middle I hide a line. What am I?",
+    "a": "a rectangle",
+    "hint": "Look for shapes in order: corners, sides, and a middle line."
+  },
+  "hard": {
+    "q": "A door has two keys, one that opens and one that locks. If you drop the locking key, can you still open the door with the other key? Why or why not?",
+    "a": "Yes, because the key that opens can still open the door; the locking key isn’t needed to open.",
+    "hint": "Think about the purpose of each key."
+  }
+}

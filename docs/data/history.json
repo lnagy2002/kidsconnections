@@ -125,7 +125,10 @@
     "RIDE",
     "LUMP",
     "HIDEY",
-    "RACEY"
+    "RACEY",
+    "MILD",
+    "NICE",
+    "HARD"
   ],
   "medium": [
     "MYSTIC",
@@ -302,6 +305,7 @@
     "COMBAT",
     "CRYSTAL",
     "GENERATION",
-    "GATHERED"
+    "GATHERED",
+    "INNOVATIVE"
   ]
 }

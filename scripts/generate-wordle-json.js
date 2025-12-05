@@ -84,7 +84,7 @@ async function callModel({ system, user }) {
     ],
     // *** CRITICAL IMPROVEMENT: Enforce JSON output format ***
     response_format: { type: "json_object" },
-    reasoning_effort: "minimal",
+    reasoning_effort: "moderate",
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();
@@ -171,6 +171,23 @@ ${recentList.join(", ")}`;
     }
 
     console.warn("Model returned previously used word(s):", data);
+    
+    // *** NEW: Update the System Prompt for the next attempt ***
+    if (attempt < MAX_ATTEMPTS) {
+        // Collect the specific offending words
+        const offending = [data.easy, data.medium, data.hard].filter(w => currentWords.has(w));
+        
+        currentSystem = baseSystem + `\n\n---
+        **CRITICAL FAILURE: The previous attempt failed because you reused the word(s) ${offending.join(", ")}.
+        For this attempt, you MUST generate three completely new words that are NOT on the avoidance list and NOT the words: ${offending.join(", ")}.
+        DOUBLE CHECK the list of used words before generating the final JSON.**`;
+        
+        // For the next check, make sure to add the failed words to the used set 
+        // temporarily, just in case the model returns the same failed words.
+        currentWords = new Set([...usedAll, ...offending]); 
+    }
+    
+    
     if (attempt === MAX_ATTEMPTS) {
       throw new Error("Could not obtain fresh words after several attempts.");
     }

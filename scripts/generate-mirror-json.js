@@ -3,10 +3,8 @@
  * Writes: docs/data/mirror-MMDDYYYY.json
  * Output format: { easy: [dataURL...], medium: [...], hard: [...] }
  *
- * Usage:
- *   node scripts/generate-mirror-json.js --count 3 --outDir docs/data --date 2025-09-15 --seed 42
- *
- * No dependencies. Pure Node + inline SVG (base64).
+ * NOTE: Images are generated with three distinct themes (Creature, Scene, Landscape)
+ * and random global mirroring for maximum visual difference.
  */
 
 import fs from "node:fs";
@@ -48,21 +46,48 @@ const choice = (arr) => arr[Math.floor(rand() * arr.length)];
 const range = (n) => Array.from({ length: n }, (_, i) => i);
 
 // ------------------------ Palettes ------------------------
+// Increased diversity and separation for different themes
 const PALETTES = [
+  // Group A (for Creature/Scene)
   ["#0aa7b1", "#f7b32b", "#f45d01", "#2d3047", "#e0fbfc"],
   ["#6dd3ce", "#c8e9a0", "#f7a278", "#a13d63", "#0b3954"],
   ["#00a6fb", "#ffd166", "#ef476f", "#06d6a0", "#26547c"],
+  // Group B (for Landscape/Skyline)
   ["#f4a261", "#2a9d8f", "#e76f51", "#264653", "#e9c46a"],
-  ["#8ecae6", "#219ebc", "#023047", "#ffb703", "#fb8500"]
+  ["#8ecae6", "#219ebc", "#023047", "#ffb703", "#fb8500"],
+  ["#581845", "#c70039", "#ff5733", "#ffc300", "#ffd700"],
 ];
 
+function getPalette(level) {
+    const allPalettes = PALETTES;
+    // Choose randomly from a different block of palettes for high-level variance
+    let start, end;
+
+    if (level === 'easy') {
+        start = 0;
+        end = 3; 
+    } else if (level === 'medium') {
+        start = 2;
+        end = 5; 
+    } else { // hard
+        start = 4;
+        end = allPalettes.length; 
+    }
+    
+    const relevantPalettes = allPalettes.slice(start, end);
+    return choice(relevantPalettes);
+}
+
 // ------------------------ SVG Helpers ------------------------
-function svgDoc(children, bg = "#ffffff") {
+// UPDATED: Added transform parameter for global rotation/mirroring
+function svgDoc(children, bg = "#ffffff", transform = "") {
   const s = CANVAS_SIZE;
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${s}" height="${s}" viewBox="0 0 ${s} ${s}">
   <rect width="${s}" height="${s}" rx="40" ry="40" fill="${bg}" />
-  ${children.join("\n")}
+  <g transform="${transform}">
+    ${children.join("\n")}
+  </g>
 </svg>`.trim();
 }
 function toDataUrl(svg) {
@@ -78,7 +103,7 @@ function polar(cx, cy, r, a) {
   return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
 }
 
-// Soft shadow filter (optional subtle depth)
+// Soft shadow filter
 function softShadowDef(id = "sh") {
   return `
   <defs>
@@ -93,15 +118,13 @@ function softShadowDef(id = "sh") {
   </defs>`;
 }
 
-// ------------------------ Generators ------------------------
+// ------------------------ Generators (Refactored) ------------------------
+
 /**
- * EASY: 1 big friendly creature/vehicle with ONE obvious one-sided feature.
- * - Centered body, looking RIGHT
- * - Asymmetry: patch/spot/star ONLY on RIGHT (or LEFT) side
- * - 3–5 bold colors
+ * THEME: Creature/Vehicle (Your original easy concept)
  */
-function genEasySVG() {
-  const pal = choice(PALETTES);
+function genThemeCreature(i, level) {
+  const pal = getPalette(level); // Use level-specific palette
   const bg = pal[4];
   const body = pal[0];
   const accent = pal[1];
@@ -115,11 +138,10 @@ function genEasySVG() {
   const bodyH = rndInt(300, 420);
   const rx = Math.min(bodyW, bodyH) / 3;
 
-  const lookingRight = true;
-  const faceX = cx + bodyW * 0.18; // rightward face
+  const faceX = cx + bodyW * 0.18; 
   const faceY = cy - bodyH * 0.08;
 
-  // One-side patch (RIGHT only)
+  // Asymmetry: One-side patch (RIGHT only, for this theme)
   const patchX = cx + bodyW * rnd(0.15, 0.28);
   const patchY = cy + bodyH * rnd(0.05, 0.22);
   const patchR = rndInt(20, 42);
@@ -127,43 +149,40 @@ function genEasySVG() {
   const finY = cy + bodyH * 0.25;
   const finW = bodyW * 0.28;
 
-  const svg = svgDoc(
-    [
-      softShadowDef(),
-      // simple background blobs
-      `<circle cx="${cx - 220}" cy="${cy - 220}" r="120" fill="${pal[3]}22"/>`,
-      `<circle cx="${cx + 240}" cy="${cy + 180}" r="140" fill="${pal[3]}22"/>`,
+  const children = [
+    softShadowDef(),
+    // simple background blobs
+    `<circle cx="${cx - 220}" cy="${cy - 220}" r="120" fill="${pal[3]}22"/>`,
+    `<circle cx="${cx + 240}" cy="${cy + 180}" r="140" fill="${pal[3]}22"/>`,
 
-      // body
-      `<rect x="${cx - bodyW / 2}" y="${cy - bodyH / 2}" width="${bodyW}" height="${bodyH}" rx="${rx}" ry="${rx}" fill="${body}" filter="url(#sh)"/>`,
+    // body
+    `<rect x="${cx - bodyW / 2}" y="${cy - bodyH / 2}" width="${bodyW}" height="${bodyH}" rx="${rx}" ry="${rx}" fill="${body}" filter="url(#sh)"/>`,
 
-      // fin/tail-ish shape on LEFT to keep it playful
-      `<path d="M ${cx - bodyW/2} ${finY}
-               q -${finW*0.6} -30, 0 -60
-               q ${finW*0.6} 30, 0 60 Z"
-            fill="${accent}" opacity="0.9"/>`,
+    // fin/tail-ish shape on LEFT
+    `<path d="M ${cx - bodyW/2} ${finY}
+             q -${finW*0.6} -30, 0 -60
+             q ${finW*0.6} 30, 0 60 Z"
+             fill="${accent}" opacity="0.9"/>`,
 
-      // face (looking right)
-      `<circle cx="${faceX}" cy="${faceY}" r="14" fill="${eye}"/>`,
-      `<circle cx="${faceX + 30}" cy="${faceY + 22}" r="10" fill="${eye}"/>`,
+    // face (looking right)
+    `<circle cx="${faceX}" cy="${faceY}" r="14" fill="${eye}"/>`,
+    `<circle cx="${faceX + 30}" cy="${faceY + 22}" r="10" fill="${eye}"/>`,
 
-      // one-side patch (RIGHT side only)
-      `<circle cx="${patchX}" cy="${patchY}" r="${patchR}" fill="${detail}" stroke="${eye}15" stroke-width="6"/>`,
+    // one-side patch (RIGHT side only)
+    `<circle cx="${patchX}" cy="${patchY}" r="${patchR}" fill="${detail}" stroke="${eye}15" stroke-width="6"/>`,
 
-      // stripe only on LEFT? (keep one real one-sided clue)
-      `<rect x="${cx - bodyW/2 + 16}" y="${cy - bodyH/2 + 24}" width="16" height="${bodyH - 48}" fill="${accent}" opacity="0.7"/>`
-    ],
-    bg
-  );
-  return svg;
+    // stripe only on LEFT
+    `<rect x="${cx - bodyW/2 + 16}" y="${cy - bodyH/2 + 24}" width="16" height="${bodyH - 48}" fill="${accent}" opacity="0.7"/>`
+  ];
+  
+  return { children, bg };
 }
 
 /**
- * MEDIUM: 2–3 objects arranged asymmetrically + character looking RIGHT.
- * - Balloons on LEFT vs. kite on RIGHT, etc.
+ * THEME: Scene (Your original medium concept)
  */
-function genMediumSVG() {
-  const pal = choice(PALETTES);
+function genThemeScene(i, level) {
+  const pal = getPalette(level);
   const bg = pal[0] + "11";
   const primary = pal[1];
   const secondary = pal[2];
@@ -174,14 +193,13 @@ function genMediumSVG() {
   const cx = s / 2;
   const ground = s * 0.78;
 
-  // Character body
   const bodyW = 220;
   const bodyH = 260;
 
   // LEFT: 3 balloons
-  const balloons = range(3).map((i) => {
+  const balloons = range(3).map((k) => {
     const bx = cx - 220 + rnd(-30, 10);
-    const by = 200 + i * rnd(60, 80);
+    const by = 200 + k * rnd(60, 80);
     const br = rnd(26, 34);
     const col = choice([primary, secondary, tertiary]);
     return `
@@ -196,118 +214,135 @@ function genMediumSVG() {
   const kite = `
     <polygon points="${kx},${ky - 30} ${kx + 30},${ky} ${kx},${ky + 30} ${kx - 30},${ky}" fill="${secondary}"/>
     ${range(6)
-      .map((i) => {
-        const [tx, ty] = polar(kx - 20 - i * 28, ky + 20 + i * 4, 0, 0);
+      .map((k) => {
+        const [tx, ty] = polar(kx - 20 - k * 28, ky + 20 + k * 4, 0, 0);
         return `<circle cx="${tx}" cy="${ty}" r="6" fill="${tertiary}"/>`;
       })
       .join("")}
     <path d="M ${kx - 30} ${ky + 10} Q ${kx - 110} ${ky + 140}, ${kx - 190} ${ky + 200}" fill="none" stroke="${tertiary}cc" stroke-width="4"/>
   `;
 
-  const svg = svgDoc(
-    [
-      softShadowDef(),
+  const children = [
+    softShadowDef(),
 
-      // Sky and ground bands
-      `<rect x="0" y="0" width="${s}" height="${s}" fill="${bg}"/>`,
-      `<rect x="0" y="${ground}" width="${s}" height="${s - ground}" fill="${pal[4]}"/>`,
+    // Sky and ground bands
+    `<rect x="0" y="0" width="${s}" height="${s}" fill="${bg}"/>`,
+    `<rect x="0" y="${ground}" width="${s}" height="${s - ground}" fill="${pal[4]}"/>`,
 
-      // Character (looking right)
-      `<rect x="${cx - bodyW / 2}" y="${ground - bodyH}" width="${bodyW}" height="${bodyH}" rx="28" fill="${primary}" filter="url(#sh)"/>`,
-      `<circle cx="${cx + 30}" cy="${ground - bodyH + 50}" r="10" fill="${eye}"/>`,
-      `<rect x="${cx - 40}" y="${ground - 120}" width="18" height="40" rx="8" fill="${secondary}" />`, // one-side pocket (LEFT only)
+    // Character (looking right)
+    `<rect x="${cx - bodyW / 2}" y="${ground - bodyH}" width="${bodyW}" height="${bodyH}" rx="28" fill="${primary}" filter="url(#sh)"/>`,
+    `<circle cx="${cx + 30}" cy="${ground - bodyH + 50}" r="10" fill="${eye}"/>`,
+    `<rect x="${cx - 40}" y="${ground - 120}" width="18" height="40" rx="8" fill="${secondary}" />`, // one-side pocket (LEFT only)
 
-      // LEFT balloons
-      ...balloons,
+    // LEFT balloons
+    ...balloons,
 
-      // RIGHT kite
-      kite
-    ],
-    "#ffffff"
-  );
-  return svg;
+    // RIGHT kite
+    kite
+  ];
+  
+  return { children, bg: "#ffffff" };
 }
 
 /**
- * HARD: playful “playground” with multiple subtle left/right-only clues.
- * - Several shapes/props scattered; a couple of one-sided pads/patches.
+ * THEME: Landscape/Skyline (New concept for maximum difference)
  */
-function genHardSVG() {
-  const pal = choice(PALETTES);
-  const bg = pal[0] + "10";
-  const main = pal[1];
-  const alt = pal[2];
-  const extra = pal[3];
-  const eye = "#0e1116";
+function genThemeLandscape(i, level) {
+    const s = CANVAS_SIZE;
+    // Introduce thematic variation: City vs. Countryside
+    const isCity = level === "hard" || rand() > 0.4; // Hard favors City, others random
+    const pal = getPalette(level);
+    const bg = pal[0] + "10";
+    const groundColor = isCity ? pal[3] : pal[2]; 
+    const accent = pal[1];
+    const detail = pal[4];
+    const groundLevel = isCity ? s * 0.8 : s * 0.7; // Lower ground for countryside
+    
+    let svgChildren = [softShadowDef()];
 
-  const s = CANVAS_SIZE;
-  const cx = s / 2;
-  const ground = s * 0.8;
+    // --- Sky Setup (Darker blue for City, lighter for Country) ---
+    const skyColor = isCity ? "#345070" : "#8ecae6";
+    svgChildren.push(`<rect x="0" y="0" width="${s}" height="${s}" fill="${skyColor}"/>`);
+    
+    // --- Ground/Foreground ---
+    svgChildren.push(`<rect x="0" y="${groundLevel}" width="${s}" height="${s - groundLevel}" fill="${groundColor}"/>`);
+    
+    // --- Randomized Elements ---
+    const elementCount = (level === "easy" ? 4 : level === "medium" ? 6 : 8);
+    const asymmetricSide = rand() > 0.5 ? "LEFT" : "RIGHT";
 
-  // scattered props (benches/blocks)
-  const props = range(6).map(() => {
-    const w = rndInt(80, 140);
-    const h = rndInt(24, 36);
-    const x = rndInt(40, s - w - 40);
-    const y = rndInt(ground - 140, ground - 40);
-    const col = choice([main, alt, extra]);
-    return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="10" fill="${col}" opacity="0.9"/>`;
-  });
+    for (let k = 0; k < elementCount; k++) {
+        const x = rndInt(50 + k * 80, 50 + k * 80 + 50); // Spread elements out
+        const w = rndInt(40, 70);
+        
+        let h, element, fill;
+        
+        if (isCity) {
+            // TALL CITY BUILDINGS
+            h = rndInt(300, 500);
+            fill = pal[4];
+            element = `<rect x="${x}" y="${groundLevel - h}" width="${w}" height="${h}" fill="${fill}" opacity="0.9" filter="url(#sh)"/>`;
+            
+            // Add many random windows
+            for(let row = 0; row < h / 50; row++) {
+                for(let col = 0; col < w / 20; col++) {
+                    const winX = x + 5 + col * 15;
+                    const winY = groundLevel - h + 10 + row * 25;
+                    element += `<rect x="${winX}" y="${winY}" width="8" height="12" fill="${accent}" opacity="0.3"/>`;
+                }
+            }
+            
+            // Subtle Asymmetry: A single red light/logo on the designated side
+            if (k === elementCount - 1) { // Apply clue to the last building
+                const lightX = asymmetricSide === "RIGHT" ? x + w - 10 : x + 10;
+                element += `<circle cx="${lightX}" cy="${groundLevel - h + 10}" r="4" fill="#ff0000"/>`;
+            }
 
-  // two “characters” facing different directions
-  const char = (x, faceRight, color) => {
-    const w = 170, h = 210;
-    const y = ground - h;
-    const eyeX = faceRight ? x + w * 0.65 : x + w * 0.35;
-    return `
-      <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="26" fill="${color}" filter="url(#sh)"/>
-      <circle cx="${eyeX}" cy="${y + 46}" r="9" fill="${eye}"/>
-    `;
-  };
-
-  // left-only kneepad on char A; right-only shoulder patch on char B
-  const charA_X = cx - 260;
-  const charB_X = cx + 80;
-
-  const leftKnee = `
-    <circle cx="${charA_X + 40}" cy="${ground - 26}" r="12" fill="${alt}" stroke="${eye}10" stroke-width="5"/>
-  `;
-  const rightShoulder = `
-    <rect x="${charB_X + 120}" y="${ground - 210 + 32}" width="22" height="28" rx="6" fill="${extra}" />
-  `;
-
-  // asym objects further: slide on LEFT, bench on RIGHT
-  const slide = `
-    <path d="M ${cx - 330} ${ground - 30} L ${cx - 210} ${ground - 170} L ${cx - 180} ${ground - 170} L ${cx - 300} ${ground - 30} Z"
-          fill="${extra}aa" />
-    <rect x="${cx - 300}" y="${ground - 30}" width="140" height="16" rx="8" fill="${extra}"/>
-  `;
-  const bench = `
-    <rect x="${cx + 220}" y="${ground - 50}" width="160" height="18" rx="9" fill="${alt}"/>
-    <rect x="${cx + 230}" y="${ground - 32}" width="12" height="26" fill="${alt}"/>
-    <rect x="${cx + 360}" y="${ground - 32}" width="12" height="26" fill="${alt}"/>
-  `;
-
-  const svg = svgDoc(
-    [
-      softShadowDef(),
-      `<rect x="0" y="0" width="${s}" height="${s}" fill="${bg}"/>`,
-      `<rect x="0" y="${ground}" width="${s}" height="${s - ground}" fill="${pal[4]}"/>`,
-
-      slide,
-      bench,
-      ...props,
-
-      char(charA_X, true, main),   // looking right
-      leftKnee,                    // LEFT-only clue
-
-      char(charB_X, false, alt),   // looking left
-      rightShoulder                // RIGHT-only clue
-    ],
-    "#ffffff"
-  );
-  return svg;
+        } else {
+            // COUNTRYSIDE HOUSES/TREES/HILLS
+            h = rndInt(80, 150);
+            fill = pal[4];
+            element = `<rect x="${x}" y="${groundLevel - h}" width="${w}" height="${h}" rx="16" fill="${fill}" opacity="0.9" filter="url(#sh)"/>`;
+            // Add a roof
+            element += `<polygon points="${x - 10},${groundLevel - h} ${x + w + 10},${groundLevel - h} ${x + w/2},${groundLevel - h - 50}" fill="${accent}"/>`;
+            
+            // Subtle Asymmetry: A single small fence on the designated side of the property
+            if (k === elementCount - 2) { 
+                const fenceX = asymmetricSide === "RIGHT" ? x + w + 5 : x - 15;
+                element += `<rect x="${fenceX}" y="${groundLevel - 30}" width="10" height="30" fill="${pal[1]}"/>`;
+            }
+        }
+        svgChildren.push(element);
+    }
+    
+    return { 
+        children: svgChildren, 
+        bg: "#ffffff" 
+    };
 }
+
+
+// --- Utility: Determine which generator to call ---
+function getGeneratorOutput(level, i) {
+    // Force Easy to always be the Creature theme for structural consistency
+    // Others randomly pick from Scene or the new Landscape theme for max diversity
+    const themes = ["Creature", "Scene", "Landscape"];
+    let theme;
+    
+    if (level === "easy") {
+        theme = "Creature"; 
+    } else {
+        theme = choice(themes.filter(t => t !== "Creature")); 
+    }
+
+    if (theme === "Creature") return genThemeCreature(i, level);
+    if (theme === "Scene") return genThemeScene(i, level);      
+    if (theme === "Landscape") return genThemeLandscape(i, level); 
+    
+    // Fallback to the original "easy" concept
+    return genThemeCreature(i, level);
+}
+
 
 // ------------------------ Main ------------------------
 (async () => {
@@ -321,11 +356,15 @@ function genHardSVG() {
       if (n <= 0) continue;
 
       for (let i = 0; i < n; i++) {
-        let svg;
-        if (level === "easy") svg = genEasySVG();
-        else if (level === "medium") svg = genMediumSVG();
-        else svg = genHardSVG();
+        const { children, bg } = getGeneratorOutput(level, i);
 
+        // *** Global Transformation for Visual Variety ***
+        const center = CANVAS_SIZE / 2;
+        // Randomly flip the image horizontally 
+        const flipX = rand() > 0.5 ? `scale(-1, 1) translate(-${CANVAS_SIZE}, 0)` : "";
+        const transform = flipX; 
+
+        const svg = svgDoc(children, bg, transform);
         result[level].push(toDataUrl(svg));
       }
     }
@@ -333,7 +372,7 @@ function genHardSVG() {
     const today = new Date();
     const stamp = mmddyyyy(today);
 
-    const outDir  = path.join(process.cwd(), "docs", "data");
+    const outDir = path.join(process.cwd(), "docs", "data");
     const outFile = path.join(outDir, `mirror-${stamp}.json`);
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(outFile, JSON.stringify(result, null, 2) + "\n", "utf8");

@@ -84,7 +84,7 @@ async function callModel({ system, user }) {
     ],
     // *** CRITICAL IMPROVEMENT: Enforce JSON output format ***
     response_format: { type: "json_object" },
-    reasoning_effort: "moderate",
+    reasoning_effort: "low",
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();

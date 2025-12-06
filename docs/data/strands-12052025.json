@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MIST",
+      "CAVE",
+      "BEND",
+      "FIRM",
+      "GLOW",
+      "WAVE",
+      "BUMP",
+      "CAGE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "MYSTIC",
+      "FESTAL",
+      "BALLOO",
+      "CANDOR",
+      "SPIRAL",
+      "CRUNCH",
+      "PLANTS",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "HARMONIZE",
+      "TRANSLATE",
+      "EXPLORING",
+      "COMPLICATE",
+      "GENERATE",
+      "FRIENDSHIP",
+      "SPIRITED",
+      "GRADUATES"
+    ]
+  }
+}

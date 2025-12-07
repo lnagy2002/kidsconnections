@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12072025-E",
+    "generatedAt": "2025-12-07T02:33:02.558Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "Apple",
+          "Rose",
+          "Stoplight",
+          "Strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Objects",
+        "items": [
+          "Ball",
+          "Coin",
+          "Moon",
+          "Plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "Cow",
+          "Sheep",
+          "Pig",
+          "Duck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things Worn on Feet",
+        "items": [
+          "Shoe",
+          "Sock",
+          "Boot",
+          "Sandal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual groups. Each group has 4 items; all items are unique."
+  },
+  "medium": {
+    "id": "12072025-M",
+    "generatedAt": "2025-12-07T02:33:02.558Z",
+    "groups": [
+      {
+        "name": "Nouns that are also Verbs",
+        "items": [
+          "Park",
+          "Jump",
+          "Box",
+          "Shout"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that take an un- prefix",
+        "items": [
+          "Lock",
+          "Tie",
+          "Fold",
+          "Twist"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water + word compounds",
+        "items": [
+          "Fall",
+          "Melon",
+          "Line",
+          "Bottle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that become -ful adjectives",
+        "items": [
+          "Hope",
+          "Care",
+          "Pain",
+          "Play"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with compound-style ideas. Some items might seem like they could fit another group, but only belong to their assigned one (cross-over temptations). An example: 'Play' could hint at a verb/noun group, yet here it belongs to the -ful adjectives group."
+  },
+  "hard": {
+    "id": "12072025-H",
+    "generatedAt": "2025-12-07T02:33:02.558Z",
+    "groups": [
+      {
+        "name": "Homographs (same spelling, different meanings)",
+        "items": [
+          "Lead",
+          "Bass",
+          "Tear",
+          "Row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Actions and Thoughts",
+        "items": [
+          "Think",
+          "Smile",
+          "Wiggle",
+          "Sing"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Position Words (inside/outside/above/below)",
+        "items": [
+          "Inside",
+          "Outside",
+          "Above",
+          "Below"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Wild Animals",
+        "items": [
+          "Fox",
+          "Bear",
+          "Wolf",
+          "Seal"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections. These groups push kids to think about multiple meanings and categories. Cross-over temptations exist here (e.g., 'Lead' can be a metal or a verb) to encourage careful reading."
+  }
+}

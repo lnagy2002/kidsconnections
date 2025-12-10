@@ -128,7 +128,13 @@
     "RACEY",
     "MILD",
     "NICE",
-    "HARD"
+    "HARD",
+    "BANDY",
+    "GRAIN",
+    "PLUMB",
+    "STORM",
+    "TREND",
+    "GLOBE"
   ],
   "medium": [
     "MYSTIC",
@@ -225,7 +231,9 @@
     "ADVENT",
     "FLAIRY",
     "BALLOO",
-    "CANDOR"
+    "CANDOR",
+    "BLOOMY",
+    "FRIENDY"
   ],
   "hard": [
     "EXEMPLARY",

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12102025-E",
+    "generatedAt": "2025-12-10T02:25:37.995Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "boat",
+          "log",
+          "duck",
+          "leaf"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh date 12102025: four easy groups with concrete, visual themes."
+  },
+  "medium": {
+    "id": "12102025-M",
+    "generatedAt": "2025-12-10T02:25:37.995Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "basketball",
+          "raincoat",
+          "keyboard",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "mug",
+          "umbrella",
+          "purse",
+          "bucket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "sofa"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "otter",
+          "koala",
+          "tiger",
+          "panda"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh date 12102025: medium-level connections with light cross-over temptations."
+  },
+  "hard": {
+    "id": "12102025-H",
+    "generatedAt": "2025-12-10T02:25:37.995Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "bear",
+          "park",
+          "light",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "dock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "piano",
+          "drum",
+          "guitar",
+          "trumpet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "meter",
+          "liter",
+          "gram",
+          "inch"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh date 12102025: four groups with abstract connections and multi-meaning words."
+  }
+}

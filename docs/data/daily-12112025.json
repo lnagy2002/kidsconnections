@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12112025-E",
+    "generatedAt": "2025-12-11T02:27:46.651Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headgear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks to Quench",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "lemonade"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle sets with concrete, visual connections for younger players."
+  },
+  "medium": {
+    "id": "12112025-M",
+    "generatedAt": "2025-12-11T02:27:46.651Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "keyboard",
+          "sandcastle",
+          "rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Multiple Meanings (Noun/Verb/Homograph)",
+        "items": [
+          "bat",
+          "seal",
+          "crane",
+          "bank"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that are also Verbs (N/V)",
+        "items": [
+          "watch",
+          "play",
+          "paint",
+          "jump"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include some cross-over temptations where words could seem to fit another group but belong to one correct set."
+  },
+  "hard": {
+    "id": "12112025-H",
+    "generatedAt": "2025-12-11T02:27:46.651Z",
+    "groups": [
+      {
+        "name": "Color-Fruit Words",
+        "items": [
+          "plum",
+          "peach",
+          "apricot",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitalization-Shifting Words",
+        "items": [
+          "Polish",
+          "March",
+          "Turkey",
+          "China"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Named Verbs",
+        "items": [
+          "bear",
+          "crab",
+          "duck",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Word Pairs",
+        "items": [
+          "fly",
+          "place",
+          "man",
+          "work"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and word-play that require thinking beyond the obvious."
+  }
+}

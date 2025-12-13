@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12132025-E",
+    "generatedAt": "2025-12-13T02:19:37.973Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Nature features",
+        "items": [
+          "tree",
+          "cloud",
+          "mountain",
+          "river"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual themes: round objects, common pets, familiar fruits, and recognizable natural features."
+  },
+  "medium": {
+    "id": "12132025-M",
+    "generatedAt": "2025-12-13T02:19:37.973Z",
+    "groups": [
+      {
+        "name": "Sun-words (forms with sun)",
+        "items": [
+          "beam",
+          "rise",
+          "set",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that form 'fire' compounds",
+        "items": [
+          "truck",
+          "alarm",
+          "fighter",
+          "place"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow-related compound words",
+        "items": [
+          "cone",
+          "angel",
+          "shoe",
+          "flake"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Playdate-style words",
+        "items": [
+          "ground",
+          "time",
+          "date",
+          "mate"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay: sun-joined words, fire-related compounds, snow terms, and play-themed phrases. There is intentional cross-over temptation (e.g., some items could fit a different group) but each item has a single intended group."
+  },
+  "hard": {
+    "id": "12132025-H",
+    "generatedAt": "2025-12-13T02:19:37.973Z",
+    "groups": [
+      {
+        "name": "Noun-verb pairs with different meanings",
+        "items": [
+          "watch",
+          "plant",
+          "drive",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "X star phrases",
+        "items": [
+          "movie",
+          "pop",
+          "sports",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name fruits",
+        "items": [
+          "lime",
+          "peach",
+          "plum",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 'un' to form opposites",
+        "items": [
+          "lock",
+          "wrap",
+          "fold",
+          "tie"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract thinking: words with multiple meanings, phrases that pair with 'star', color-name fruits, and common opposites with 'un'. Some items may seem to fit another group at first glance, but each item has a single correct grouping."
+  }
+}

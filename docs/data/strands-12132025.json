@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "LAMP",
+      "HIVE",
+      "BUMP",
+      "CAGE",
+      "POND",
+      "CAMP",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "TWILIGHT",
+      "SPIRITS",
+      "CANDLE",
+      "FRIEND",
+      "JOURNEY",
+      "SILENCE",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "HARMONY",
+      "BALANCE",
+      "COMBAT",
+      "DREAMER",
+      "SPIRALING",
+      "TRADITION",
+      "GENERATE",
+      "HARMONIZE"
+    ]
+  }
+}

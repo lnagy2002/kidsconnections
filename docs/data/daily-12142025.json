@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12142025-E",
+    "generatedAt": "2025-12-14T02:33:58.100Z",
+    "groups": [
+      {
+        "name": "Group Easy 1",
+        "items": [
+          "Ball",
+          "Coin",
+          "Clock",
+          "Cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group Easy 2",
+        "items": [
+          "Hat",
+          "Cap",
+          "Headband",
+          "Crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group Easy 3",
+        "items": [
+          "Cat",
+          "Dog",
+          "Fish",
+          "Hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group Easy 4",
+        "items": [
+          "Candy",
+          "Ice Cream",
+          "Cake",
+          "Lollipop"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level puzzle: each group shares a simple, visual connection suitable for grades 2–6."
+  },
+  "medium": {
+    "id": "12142025-M",
+    "generatedAt": "2025-12-14T02:33:58.100Z",
+    "groups": [
+      {
+        "name": "Group Medium 1",
+        "items": [
+          "Pencil",
+          "Eraser",
+          "Ruler",
+          "Marker"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group Medium 2",
+        "items": [
+          "Socks",
+          "Shoes",
+          "Gloves",
+          "Earrings"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group Medium 3",
+        "items": [
+          "Cereal",
+          "Pancake",
+          "Toast",
+          "Yogurt"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group Medium 4",
+        "items": [
+          "Speak",
+          "Sing",
+          "Whisper",
+          "Shout"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level puzzle uses simple wordplay and categories; look for items that might tempt you to fit them into another group, but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "12142025-H",
+    "generatedAt": "2025-12-14T02:33:58.100Z",
+    "groups": [
+      {
+        "name": "Group Hard 1",
+        "items": [
+          "Bow",
+          "Lead",
+          "Wind",
+          "Bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Hard 2",
+        "items": [
+          "Piano",
+          "Guitar",
+          "Drum",
+          "Violin"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Hard 3",
+        "items": [
+          "Hand",
+          "Nose",
+          "Ear",
+          "Eye"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Hard 4",
+        "items": [
+          "Rain",
+          "Snow",
+          "Fog",
+          "Hail"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level uses abstract connections and multi-meaning words; some items could seem to fit more than one group at first glance (proper choice is the one shown)."
+  }
+}

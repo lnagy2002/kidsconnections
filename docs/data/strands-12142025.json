@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAGE",
+      "CURL",
+      "FARM",
+      "HIDE",
+      "LIFT",
+      "MIST",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDOR",
+      "CRUNCH",
+      "DREAMY",
+      "GARNET",
+      "JOURNEY",
+      "NURTURE",
+      "SPLASHY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORTS",
+      "FESTIVITY",
+      "GENERATE",
+      "HARMONIC",
+      "INNOVATIVE",
+      "SPIRITED",
+      "TRANQUIL",
+      "WONDERMENT",
+      "FRIENDSHIP"
+    ]
+  }
+}

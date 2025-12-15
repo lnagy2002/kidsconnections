@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12152025-E",
+    "generatedAt": "2025-12-15T02:31:47.277Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Hydrating Drinks",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Tools & Utensils",
+        "items": [
+          "hammer",
+          "spoon",
+          "brush",
+          "scissors"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzles with clear visual groupings."
+  },
+  "medium": {
+    "id": "12152025-M",
+    "generatedAt": "2025-12-15T02:31:47.277Z",
+    "groups": [
+      {
+        "name": "Double-Letter Words",
+        "items": [
+          "book",
+          "egg",
+          "cool",
+          "tree"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "toothbrush",
+          "basketball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Bodies",
+        "items": [
+          "ocean",
+          "river",
+          "lake",
+          "stream"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "piano",
+          "guitar",
+          "drum",
+          "violin"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes cross-over temptations (e.g., 'book' could belong to a different group) to encourage careful grouping."
+  },
+  "hard": {
+    "id": "12152025-H",
+    "generatedAt": "2025-12-15T02:31:47.277Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "spring",
+          "bat",
+          "bank",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knife",
+          "hour",
+          "wrist",
+          "gnome"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "dove"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set emphasizes abstract reasoning and words with multiple meanings and pronunciations."
+  }
+}

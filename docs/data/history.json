@@ -134,7 +134,8 @@
     "PLUMB",
     "STORM",
     "TREND",
-    "GLOBE"
+    "GLOBE",
+    "VINE"
   ],
   "medium": [
     "MYSTIC",
@@ -233,7 +234,8 @@
     "BALLOO",
     "CANDOR",
     "BLOOMY",
-    "FRIENDY"
+    "FRIENDY",
+    "GRANDY"
   ],
   "hard": [
     "EXEMPLARY",

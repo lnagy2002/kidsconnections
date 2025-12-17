@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12122025-E",
+    "generatedAt": "2025-12-12T02:27:30.132Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "coin",
+          "ball",
+          "plate",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "egg",
+          "banana",
+          "toast",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a Park",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "fountain"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable Items",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "socks"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set for 12/12/2025. All items are unique across difficulty levels."
+  },
+  "medium": {
+    "id": "12122025-M",
+    "generatedAt": "2025-12-12T02:27:30.132Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunset",
+          "toothbrush",
+          "rainbow",
+          "beachball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Feelings",
+        "items": [
+          "happy",
+          "sad",
+          "calm",
+          "excited"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Pets",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with compound forms. Includes a gentle cross-over tease for items that could belong to multiple groups."
+  },
+  "hard": {
+    "id": "12122025-H",
+    "generatedAt": "2025-12-12T02:27:30.132Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns that Are Verbs",
+        "items": [
+          "watch",
+          "plant",
+          "drive",
+          "park"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Foods",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Kitchen Essentials",
+        "items": [
+          "sink",
+          "oven",
+          "fridge",
+          "spoon"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multi-meaning words. Cross-over temptations are included to challenge careful grouping."
+  }
+}

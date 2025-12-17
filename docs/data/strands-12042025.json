@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CLAY",
+      "MILD",
+      "WAVE",
+      "GLOW",
+      "BOLD",
+      "JUMP",
+      "NICE",
+      "HARD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "SPARKY",
+      "CRUNCH",
+      "GARNET",
+      "PLANTS",
+      "TWIRLS",
+      "SPIRAL",
+      "BALLOON"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "HARMONIZE",
+      "GRADUATES",
+      "COMFORTING",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "EXPLORING",
+      "DREAMLIKE",
+      "TRANQUIL"
+    ]
+  }
+}

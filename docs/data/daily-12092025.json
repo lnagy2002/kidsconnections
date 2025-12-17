@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12092025-E",
+    "generatedAt": "2025-12-09T02:23:08.589Z",
+    "groups": [
+      {
+        "name": "Red Fruits & Sweets",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "watermelon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Seating Spots",
+        "items": [
+          "chair",
+          "sofa",
+          "bench",
+          "stool"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "book",
+          "pencil",
+          "notebook",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh start for 12092025 easy puzzle: 4 concrete group themes."
+  },
+  "medium": {
+    "id": "12092025-M",
+    "generatedAt": "2025-12-09T02:23:08.589Z",
+    "groups": [
+      {
+        "name": "Compound Word Set 1",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "toothbrush",
+          "mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Set 2",
+        "items": [
+          "sunrise",
+          "firefly",
+          "snowman",
+          "laptop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Set 3",
+        "items": [
+          "cupcake",
+          "keyboard",
+          "dragonfly",
+          "airport"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Word Set 4",
+        "items": [
+          "pancake",
+          "bookcase",
+          "moonlight",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 12092025 medium puzzle: cross-item temptations weave through compound words."
+  },
+  "hard": {
+    "id": "12092025-H",
+    "generatedAt": "2025-12-09T02:23:08.589Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "watch",
+          "break",
+          "drive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body Parts Used as Verbs",
+        "items": [
+          "hand",
+          "head",
+          "eye",
+          "nose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "right",
+          "mean",
+          "fine",
+          "current"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 12092025 hard puzzle: abstract links and multi-meaning words with tricky temptations."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12082025-E",
+    "generatedAt": "2025-12-08T02:24:17.730Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "fire_truck",
+          "stop_sign"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Float on Water",
+        "items": [
+          "boat",
+          "cork",
+          "leaf",
+          "lily_pad"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Objects",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "wagon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "airplane",
+          "helicopter",
+          "butterfly",
+          "bee"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle: four concrete themes with clear, visual connections."
+  },
+  "medium": {
+    "id": "12082025-M",
+    "generatedAt": "2025-12-08T02:24:17.730Z",
+    "groups": [
+      {
+        "name": "Ice Prefix Words",
+        "items": [
+          "cream",
+          "cube",
+          "berg",
+          "skate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Prefix Words",
+        "items": [
+          "rise",
+          "beam",
+          "set",
+          "ray"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Desk Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Foods",
+        "items": [
+          "pepper",
+          "onion",
+          "lettuce",
+          "banana"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve wordplay with prefixes and simple compound ideas. Some items might seem to fit another group at first glance, but each belongs to exactly one."
+  },
+  "hard": {
+    "id": "12082025-H",
+    "generatedAt": "2025-12-08T02:24:17.730Z",
+    "groups": [
+      {
+        "name": "Opposite-Meanings Words",
+        "items": [
+          "dust",
+          "clip",
+          "sanction",
+          "left"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "box",
+          "watch",
+          "chair",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Homophones",
+        "items": [
+          "knight",
+          "sun",
+          "flower",
+          "pair"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shape Names",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "pentagon"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract language and multi-meaning words. Expect some tempting overlaps with other groups, but each item truly fits only one group."
+  }
+}

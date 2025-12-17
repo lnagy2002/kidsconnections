@@ -124,7 +124,18 @@
     "WILD",
     "RIDE",
     "LUMP",
-    "HIDEY"
+    "HIDEY",
+    "RACEY",
+    "MILD",
+    "NICE",
+    "HARD",
+    "BANDY",
+    "GRAIN",
+    "PLUMB",
+    "STORM",
+    "TREND",
+    "GLOBE",
+    "VINE"
   ],
   "medium": [
     "MYSTIC",
@@ -220,7 +231,11 @@
     "LANTER",
     "ADVENT",
     "FLAIRY",
-    "BALLOO"
+    "BALLOO",
+    "CANDOR",
+    "BLOOMY",
+    "FRIENDY",
+    "GRANDY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -301,6 +316,8 @@
     "COMBAT",
     "CRYSTAL",
     "GENERATION",
-    "GATHERED"
+    "GATHERED",
+    "INNOVATIVE",
+    "BALANCE"
   ]
 }

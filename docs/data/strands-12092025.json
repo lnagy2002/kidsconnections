@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BANDY",
+      "FLEET",
+      "GRAIN",
+      "PLUMB",
+      "STORM",
+      "TREND",
+      "WALTZ",
+      "GLOBE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOMY",
+      "CANDLE",
+      "FESTAL",
+      "MYSTIC",
+      "GATHER",
+      "TRICKY",
+      "SPLASHY",
+      "FRIENDY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "HARMONIC",
+      "SPECTACLE",
+      "TRANSLATE",
+      "EXPLORING",
+      "GENERATE",
+      "INNOVATIVE",
+      "COMFORTING",
+      "ADVENTURE"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12062025-E",
+    "generatedAt": "2025-12-06T02:16:30.114Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "fire truck",
+          "stop sign"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Objects",
+        "items": [
+          "car",
+          "bicycle",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "helmet",
+          "cap",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Essentials",
+        "items": [
+          "book",
+          "pencil",
+          "eraser",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles group familiar items by simple, visual themes like color/appearance, everyday objects, and school supplies."
+  },
+  "medium": {
+    "id": "12062025-M",
+    "generatedAt": "2025-12-06T02:16:30.114Z",
+    "groups": [
+      {
+        "name": "Animal Friends",
+        "items": [
+          "crane",
+          "turtle",
+          "parrot",
+          "koala"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tools & Machines",
+        "items": [
+          "hammer",
+          "drill",
+          "saw",
+          "wrench"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tasty Things",
+        "items": [
+          "banana",
+          "grape",
+          "peach",
+          "mango"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Actions",
+        "items": [
+          "dance",
+          "think",
+          "sleep",
+          "laugh"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix clear groupings with light wordplay and a touch of ambiguity to encourage careful pairing."
+  },
+  "hard": {
+    "id": "12062025-H",
+    "generatedAt": "2025-12-06T02:16:30.114Z",
+    "groups": [
+      {
+        "name": "Words with Homophones",
+        "items": [
+          "night",
+          "knight",
+          "sea",
+          "see"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "First-Letter Removals",
+        "items": [
+          "alone",
+          "brake",
+          "bloom",
+          "stone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Word Pairs by Anagrams",
+        "items": [
+          "listen",
+          "angel",
+          "earth",
+          "stain"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun–Verb Duos",
+        "items": [
+          "plant",
+          "watch",
+          "park",
+          "kiss"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on wordplay like homophones, letter-removal tricks, anagrams, and noun-verb versatility. Watch for subtle cross-fit temptations that seem close but are guided by the provided rule."
+  }
+}

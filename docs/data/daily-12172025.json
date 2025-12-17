@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12172025-E",
+    "generatedAt": "2025-12-17T02:22:36.698Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks & Sips",
+        "items": [
+          "water",
+          "milk",
+          "tea",
+          "orange juice"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets & Small Animals",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Legged Furniture",
+        "items": [
+          "table",
+          "chair",
+          "sofa",
+          "stool"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, friendly connections for younger players. Each group has a simple, visual link."
+  },
+  "medium": {
+    "id": "12172025-M",
+    "generatedAt": "2025-12-17T02:22:36.698Z",
+    "groups": [
+      {
+        "name": "Play Prefix",
+        "items": [
+          "ground",
+          "time",
+          "date",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball Compounds",
+        "items": [
+          "base",
+          "basket",
+          "soft",
+          "fire"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light With a Twist",
+        "items": [
+          "sun",
+          "flash",
+          "moon",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Box Suffix",
+        "items": [
+          "tool",
+          "mail",
+          "shoe",
+          "sand"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and familiar pairings. Some items could tempt you to place them in a different group, but they belong to the one that matches best."
+  },
+  "hard": {
+    "id": "12172025-H",
+    "generatedAt": "2025-12-17T02:22:36.698Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "watch",
+          "play",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes Parade",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation Shifts",
+        "items": [
+          "lead",
+          "bass",
+          "wind",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Meaning Words",
+        "items": [
+          "bank",
+          "spring",
+          "crane",
+          "bat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles encourage abstract thinking. Look for words with multiple meanings, or words that work in more than one sense."
+  }
+}

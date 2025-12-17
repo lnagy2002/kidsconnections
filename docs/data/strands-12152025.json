@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "CAGE",
+      "HIDE",
+      "FIRM",
+      "MILD",
+      "BUMP",
+      "VINE",
+      "WAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GRANDY",
+      "WILLOW",
+      "SPIRAL",
+      "FESTAL",
+      "NURTURE",
+      "GARNISH",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "SPIRITED",
+      "INNOVATE",
+      "FANTASTIC",
+      "BALANCING",
+      "EXPLORING",
+      "CIRCULATE",
+      "COMFORTED",
+      "DREAMLIKE"
+    ]
+  }
+}

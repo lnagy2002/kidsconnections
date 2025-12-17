@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12052025-E",
+    "generatedAt": "2025-12-05T02:12:42.411Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "cherry",
+          "strawberry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cozy Helpers",
+        "items": [
+          "pillow",
+          "blanket",
+          "cloud",
+          "feather"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating Essentials",
+        "items": [
+          "spoon",
+          "bowl",
+          "plate",
+          "mug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Favorites",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "pond"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual themes. Each group has 4 items that share a simple, kid-friendly category."
+  },
+  "medium": {
+    "id": "12052025-M",
+    "generatedAt": "2025-12-05T02:12:42.411Z",
+    "groups": [
+      {
+        "name": "Compound Word Friends",
+        "items": [
+          "rainbow",
+          "keyboard",
+          "bookcase",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "scarf",
+          "glove",
+          "hat",
+          "belt"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Four-Wheeled Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "truck",
+          "bike"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "peeler",
+          "grater",
+          "whisk",
+          "mixer"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve some wordplay and compound-word ideas. There are deliberate cross-over temptations to challenge solvers (e.g., items that could seem to fit other groups)."
+  },
+  "hard": {
+    "id": "12052025-H",
+    "generatedAt": "2025-12-05T02:12:42.411Z",
+    "groups": [
+      {
+        "name": "Nouns that are also Verbs",
+        "items": [
+          "play",
+          "watch",
+          "lift",
+          "turn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re-Add Prefix Words",
+        "items": [
+          "draw",
+          "paint",
+          "build",
+          "color"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits that Double as Colors",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body Parts",
+        "items": [
+          "ear",
+          "hand",
+          "knee",
+          "foot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles feature abstract connections. Some items might seem to fit other groups at first glance, but they belong to the listed theme. Cross-over temptations are intentional."
+  }
+}

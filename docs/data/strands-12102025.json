@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "COLD",
+      "FARM",
+      "HIVE",
+      "MIST",
+      "WARM",
+      "BUMP",
+      "HIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CANDLE",
+      "PLANTS",
+      "FESTAL",
+      "GARNET",
+      "SPARKY",
+      "FRIENDY",
+      "NURTURE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "HARMONIZE",
+      "COMFORTED",
+      "DREAMLIKE",
+      "INNOVATIVE",
+      "GRADUATES",
+      "SPIRALING",
+      "EXPLORING",
+      "CONSTRUCT"
+    ]
+  }
+}

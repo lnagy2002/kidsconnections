@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "HAPPY",
+      "MISTY",
+      "BUMPY",
+      "CURLY",
+      "NICE",
+      "WILD",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOMY",
+      "FESTAL",
+      "NURTURE",
+      "SPIRAL",
+      "FABLES",
+      "GARNISH",
+      "CLUSTER",
+      "SIMPLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORTS",
+      "HARMONIC",
+      "SPIRITED",
+      "GENERATE",
+      "FANTASTIC",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "BALANCING",
+      "TRANQUIL"
+    ]
+  }
+}

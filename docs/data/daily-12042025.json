@@ -1,0 +1,145 @@
+{
+  "easy": {
+    "id": "12042025-E",
+    "generatedAt": "2025-12-04T00:00:00Z",
+    "groups": [
+      {
+        "name": "Things with Fins",
+        "items": [
+          "dolphin",
+          "goldfish",
+          "shark",
+          "octopus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "bench",
+          "stool",
+          "sofa",
+          "chair"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Are Shiny",
+        "items": [
+          "coin",
+          "mirror",
+          "tinsel",
+          "pearl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a Kitchen Sink",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group contains four concrete, familiar items for grades 2–3. Near-miss temptation example: 'pearl' could be mistaken for jewelry in 'Things That Are Shiny,' but pearls are specifically a class of object rather than a generic jewel—kept as a shininess category instead."
+  },
+  "medium": {
+    "id": "12042025-M",
+    "generatedAt": "2025-12-04T00:00:00Z",
+    "groups": [
+      {
+        "name": "Words with the Same Ending",
+        "items": [
+          "basket",
+          "racket",
+          "gasket",
+          "pocket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "gloves",
+          "scissors",
+          "socks",
+          "shoes"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Friends",
+        "items": [
+          "unhappy",
+          "rethink",
+          "mislead",
+          "rewind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Toys That Move",
+        "items": [
+          "yo-yo",
+          "kite",
+          "drone",
+          "balloon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups introduce simple wordplay: endings (same suffix), pairs, and common prefixes. Near-miss: 'racket' and 'gasket' share suffix '-ket' but differ in meaning; only 'gasket' fits the intended group of items with ending 'ket' as a real word relevant in that context. All items are age-appropriate and solvable with a quick mental glance."
+  },
+  "hard": {
+    "id": "12042025-H",
+    "generatedAt": "2025-12-04T00:00:00Z",
+    "groups": [
+      {
+        "name": "Ideas About Time",
+        "items": [
+          "hourglass",
+          "calendar",
+          "watch",
+          "timeline"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors by Mood",
+        "items": [
+          "emerald",
+          "ruby",
+          "sapphire",
+          "amber"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Homes",
+        "items": [
+          "beehive",
+          "clam",
+          "nest",
+          "burrow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Small Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "marker"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles mix abstract ideas (time, mood colors) with everyday categories. Near-miss temptation: among 'Colors by Mood' items, 'amber' could be seen as a color or a mood hint; it's kept as a color-related gemstone color term. Each item clearly belongs to one group to avoid overlap, ensuring a unique fit for every item."
+  },
+  "id": "12042025",
+  "generatedAt": "2025-12-04T02:23:08.024Z"
+}

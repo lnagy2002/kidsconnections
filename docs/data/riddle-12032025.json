@@ -1,0 +1,17 @@
+{
+  "easy": {
+    "q": "I have a tail but no body. I am a little coin with a shiny face. What am I?",
+    "a": "a penny",
+    "hint": "Found in pockets and piggy banks"
+  },
+  "medium": {
+    "q": "I come in pairs but I’m not shoes. I’m sometimes loud, sometimes quiet, and a pattern you might see in a row. What am I?",
+    "a": "octaves or musical notes",
+    "hint": "Think about repetition in music or patterns"
+  },
+  "hard": {
+    "q": "Two friends start with the same word, travel through different rooms, and end with a swapped meaning. What framework lets them switch places while keeping their essence?",
+    "a": "an anagram or word transformation puzzle",
+    "hint": "Consider flipping letters or reordering to change meaning"
+  }
+}

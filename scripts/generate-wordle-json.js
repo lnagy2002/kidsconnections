@@ -34,7 +34,7 @@ function trimTopLevel(value) {
 const isAlpha = s => /^[A-Z]+$/.test(s);
 const hasLength = (s, n) => s.length === n;
 
-// ===== NEW: load previously used words =====
+// ===== load previously used words =====
 function loadUsedWords() {
   const dir = path.join(process.cwd(), "docs", "data");
   const usedAll = new Set(); // all difficulties together
@@ -74,7 +74,7 @@ function loadUsedWords() {
   return { usedAll, perSlot, recentList };
 }
 
-// ===== Call model once =====
+// ===== Call model once (UPDATED) =====
 async function callModel({ system, user }) {
   const resp = await client.chat.completions.create({
     model: "gpt-5-nano",
@@ -82,16 +82,17 @@ async function callModel({ system, user }) {
       { role: "system", content: system },
       { role: "user", content: user }
     ],
-    reasoning_effort: "minimal",
-    // temperature: 0.9,          // a bit of randomness to avoid same favorites
-    // top_p: 0.9,
+    // *** CRITICAL IMPROVEMENT: Enforce JSON output format ***
+    response_format: { type: "json_object" },
+    reasoning_effort: "low",
   });
 
   const text = resp.choices?.[0]?.message?.content?.trim();
   if (!text) throw new Error("Empty response from model.");
 
-  // Strip fences if present
-  const jsonString = text.replace(/^```json\s*|\s*```$/g, "");
+  // Since response_format is used, we no longer need to strip fences,
+  // but we still parse and check for a valid object.
+  const jsonString = text;
   console.log("Raw model JSON:", jsonString);
 
   let data;
@@ -100,7 +101,8 @@ async function callModel({ system, user }) {
     data = trimTopLevel(parsed);
   } catch {
     console.error("Model response was:", text);
-    throw new Error("Model did not return valid JSON.");
+    // If parsing fails despite response_format, the structure is wrong.
+    throw new Error("Model did not return valid JSON structure.");
   }
 
   // Normalize to uppercase (just in case)
@@ -111,7 +113,7 @@ async function callModel({ system, user }) {
   return data;
 }
 
-// ===== Main =====
+// ===== Main (UPDATED) =====
 async function main() {
   const today = new Date();
   const stamp = mmddyyyy(today);
@@ -119,34 +121,27 @@ async function main() {
   const { usedAll, recentList } = loadUsedWords();
   console.log("Total previously used words:", usedAll.size);
 
+  // *** Improved System Prompt for clarity and structure ***
   const baseSystem = `
-You generate daily words for a kids' Wordle-style game. 
-Output JSON like:
-{
-  "easy": "FOUR",
-  "medium": "FIVEY",
-  "hard": "SIMPLEX"
-}
+You are an assistant that generates daily words for a kids' Wordle-style game.
+Your output MUST be a JSON object with three keys: "easy", "medium", and "hard".
+The word rules are:
+1. "easy" must be EXACTLY 4 letters long.
+2. "medium" must be EXACTLY 5 letters long.
+3. "hard" must be EXACTLY 6 letters long.
+4. All words must be ALL CAPS A–Z. No numbers, punctuation, or special characters.
+5. Words must be school-safe and age-appropriate (grades 2+).
+6. Exclude proper nouns, brand names, slang, and offensive terms.
+Return ONLY the JSON object, like: {"easy": "FOUR", "medium": "FIVEY", "hard": "SIMPLE"}.`;
 
-- "easy" must be EXACTLY 4 letters long.
-- "medium" must be EXACTLY 5 letters long.
-- "hard" must be EXACTLY 6 letters long.
-- ALL CAPS A–Z. No hyphens, accents, numbers, or punctuation.
-- No proper nouns, no brand names, no slang, no offensive terms.
-- Age-appropriate (grades 2+).
-- Return ONLY JSON.`;
+  const system = baseSystem; // No changing rules in the System prompt
 
-  const avoidClause = recentList.length
-    ? `\nAdditional rule: Do NOT use any of these words for ANY slot: ${recentList.join(
-        ", "
-      )}.`
-    : "";
-
-  const system = baseSystem + avoidClause;
-
-  const user = `Date: ${stamp}.
-Return fresh, school-safe words that fit the lengths and are recognizable to kids.
-They must be different from previous days.`;
+  // *** Improved User Prompt with specific date and words to avoid ***
+  const user = `
+Date: ${stamp}.
+Generate three fresh words that meet all system criteria.
+Critically, these words must be DIFFERENT from the following list of previously used words: 
+${recentList.join(", ")}`;
 
   // Try a few times to get genuinely new words
   const MAX_ATTEMPTS = 4;
@@ -156,13 +151,13 @@ They must be different from previous days.`;
     console.log(`Attempt ${attempt}/${MAX_ATTEMPTS}...`);
     data = await callModel({ system, user });
 
-    // Validate basic format
-    if (!isAlpha(data.easy) || !hasLength(data.easy, 4))
-      throw new Error(`Invalid EASY word: ${data.easy}`);
-    if (!isAlpha(data.medium) || !hasLength(data.medium, 5))
-      throw new Error(`Invalid MEDIUM word: ${data.medium}`);
-    if (!isAlpha(data.hard) || !hasLength(data.hard, 6))
-      throw new Error(`Invalid HARD word: ${data.hard}`);
+    // Validate basic format (moved up for clearer error handling)
+    if (!data.easy || typeof data.easy !== 'string' || !isAlpha(data.easy) || !hasLength(data.easy, 4))
+      throw new Error(`Invalid EASY word: ${data.easy} (Must be 4 letters, A-Z)`);
+    if (!data.medium || typeof data.medium !== 'string' || !isAlpha(data.medium) || !hasLength(data.medium, 5))
+      throw new Error(`Invalid MEDIUM word: ${data.medium} (Must be 5 letters, A-Z)`);
+    if (!data.hard || typeof data.hard !== 'string' || !isAlpha(data.hard) || !hasLength(data.hard, 6))
+      throw new Error(`Invalid HARD word: ${data.hard} (Must be 6 letters, A-Z)`);
 
     // Check for repetition
     const repeats =
@@ -176,6 +171,23 @@ They must be different from previous days.`;
     }
 
     console.warn("Model returned previously used word(s):", data);
+    
+    // *** NEW: Update the System Prompt for the next attempt ***
+    if (attempt < MAX_ATTEMPTS) {
+        // Collect the specific offending words
+        const offending = [data.easy, data.medium, data.hard].filter(w => currentWords.has(w));
+        
+        currentSystem = baseSystem + `\n\n---
+        **CRITICAL FAILURE: The previous attempt failed because you reused the word(s) ${offending.join(", ")}.
+        For this attempt, you MUST generate three completely new words that are NOT on the avoidance list and NOT the words: ${offending.join(", ")}.
+        DOUBLE CHECK the list of used words before generating the final JSON.**`;
+        
+        // For the next check, make sure to add the failed words to the used set 
+        // temporarily, just in case the model returns the same failed words.
+        currentWords = new Set([...usedAll, ...offending]); 
+    }
+    
+    
     if (attempt === MAX_ATTEMPTS) {
       throw new Error("Could not obtain fresh words after several attempts.");
     }

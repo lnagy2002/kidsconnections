@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BIRD",
+      "FARM",
+      "HIVE",
+      "CAGE",
+      "FROG",
+      "BUMP",
+      "CURL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GARDEN",
+      "FESTAL",
+      "DREAMY",
+      "SPIRAL",
+      "BALLOON",
+      "CLUSTER",
+      "NURTURE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORTS",
+      "HARMONIC",
+      "EXPLORER",
+      "GENERATION",
+      "BALANCED",
+      "ACROBAT",
+      "FANTASTIC",
+      "TRADITION",
+      "FASCINATE"
+    ]
+  }
+}

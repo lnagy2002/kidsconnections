@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "CAMP",
+      "LAMP",
+      "MIST",
+      "RIDE",
+      "BUMP",
+      "HIDE",
+      "SAND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GARDEN",
+      "BRIGHT",
+      "SPIRAL",
+      "BALANCE",
+      "CANDLE",
+      "GARNISH",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "HARMONIC",
+      "SPIRITED",
+      "WONDERFUL",
+      "TRANQUIL",
+      "GENERATE",
+      "COMFORTING",
+      "FANTASTIC",
+      "INNOVATED"
+    ]
+  }
+}

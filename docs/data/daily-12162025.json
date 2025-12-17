@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12162025-E",
+    "generatedAt": "2025-12-16T02:28:10.673Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods You Might Eat",
+        "items": [
+          "apple",
+          "banana",
+          "carrot",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "pond"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with four visual themes. 16 unique items; no repeats across difficulties."
+  },
+  "medium": {
+    "id": "12162025-M",
+    "generatedAt": "2025-12-16T02:28:10.673Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunset",
+          "rainbow",
+          "bookcase",
+          "mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Actions (Words that Describe Doing)",
+        "items": [
+          "jump",
+          "laugh",
+          "watch",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size Descriptions",
+        "items": [
+          "tiny",
+          "huge",
+          "short",
+          "long"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "orange"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle blends wordplay with compound words. Some items (like rainbow and sunset) may tempt players to place them in color-themed groups, creating a tasty cross-over challenge."
+  },
+  "hard": {
+    "id": "12162025-H",
+    "generatedAt": "2025-12-16T02:28:10.673Z",
+    "groups": [
+      {
+        "name": "Silent-letter words",
+        "items": [
+          "knob",
+          "knight",
+          "gnome",
+          "ghost"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals that act as verbs",
+        "items": [
+          "bat",
+          "bear",
+          "seal",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body parts that are nouns and verbs",
+        "items": [
+          "hand",
+          "mouth",
+          "eye",
+          "lip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cardinal directions",
+        "items": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle emphasizes abstract connections and multi-meaning words. Look for cross-over temptations (e.g., bat/bear/seal can be verbs) while ensuring each item logically belongs to its own group."
+  }
+}

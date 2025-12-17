@@ -231,7 +231,7 @@ function check(){
   }
   if (v1 === ok1 && v2 === ok2) {
     if (typeof celebrate === "function") {
-      celebrate(); // from your utils
+      celebrate(qs.get("level")||"easy"); // from your utils
       window.MindBitsProgress?.markDoneToday(`numberseq-${(qs.get("level")||"easy").toLowerCase()}`);
     }
     result.textContent = "You found the pattern!";

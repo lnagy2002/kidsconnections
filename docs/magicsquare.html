@@ -676,7 +676,7 @@
 
             statusEl.className = "message ok";
             statusEl.textContent = "🎉 Magic complete! Fantastic work.";
-            celebrate();
+            celebrate(getQueryParam("level")||"easy");
             window.MindBitsProgress?.markDoneToday(`magicsquare-${(getQueryParam("level")||"easy").toLowerCase()}`);
 
         }

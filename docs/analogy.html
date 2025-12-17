@@ -3,34 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Mind Bits · Daily Analogies</title>
+<title>The Mind Bits · Daily Analogies</title>
 <style>
-:root {
-  --bg: #0e364b;
-  --panel: #0e364b;
-  --card-bg: #ffffff;
-  --text: #0e364b;
-  --ink: #a9f4f4;
-  --muted: #f0db79;
-  --border: #1b2659;
-  --ok: #4ade80;
-  --no: #e4572e;
-  --ring: rgba(0,0,0,.1);
-  --radius: 14px;
-}
-
-* { box-sizing:border-box; }
-
-body {
-  margin:0;
-  min-height:100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #174b63 0, #0e364b 40%, #071929 100%);
-  color: var(--ink);
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
-}
+@import url('./theme.css');
 
 .app {
   width:100%;
@@ -38,37 +13,10 @@ body {
   padding:20px 16px 32px;
 }
 
-.header {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:14px;
-}
-
 .brand {
   display:flex;
   align-items:center;
   gap:10px;
-}
-
-.brand-logo {
-  width:40px;
-  height:40px;
-  border-radius:50%;
-  background:var(--muted);
-  color:var(--bg);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-weight:800;
-  font-size:14px;
-  box-shadow:0 4px 10px rgba(0,0,0,.35);
-}
-
-.brand h1 {
-  margin:0;
-  font-size:20px;
-  letter-spacing:.4px;
 }
 
 .badge {
@@ -249,29 +197,22 @@ body {
   text-align:center;
 }
 </style>
+<link rel="stylesheet" href="./games-utils.css">
+<script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
+<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-KFSR46Z6C8');
+</script>
+
 </head>
 <body>
-<div class="app">
-  <div class="header">
-    <div class="brand">
-      <div class="brand-logo">MB</div>
-      <div>
-        <h1>Daily Analogies</h1>
-        <div class="badge" id="dateBadge">Loading…</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="level-toggle">
-    <button class="level-btn active" data-level="easy">
-      <span class="icon">🙂</span><span>Easy</span>
-    </button>
-    <button class="level-btn" data-level="medium">
-      <span class="icon">🧩</span><span>Medium</span>
-    </button>
-    <button class="level-btn" data-level="hard">
-      <span class="icon">🧠</span><span>Hard</span>
-    </button>
+  <main class="main">
+  <div>
+    <script src="./header.js" data-title="Word Analogies"></script>
   </div>
 
   <div class="card" id="card">
@@ -295,10 +236,10 @@ body {
     </div>
   </div>
 
-  <div class="footer">
-    New analogies daily · Mind Bits Brain Gym
+  <div>
+    <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
   </div>
-</div>
+</main>
 
 <script>
 // ---------- Seeded RNG so order is stable per day+level ----------
@@ -338,7 +279,7 @@ function shuffleSeeded(array, seedStr){
 // ---------- Game state ----------
 const DAILY_URL = "https://lnagy2002.github.io/kidsconnections/data/daily-analogies.json"; // same folder
 let data = null;
-let currentLevel = "easy";
+let currentLevel = getQueryParam ("level") || "easy";
 let questions = [];
 let index = 0;
 let score = 0;
@@ -361,11 +302,9 @@ async function loadDaily(){
     const res = await fetch(DAILY_URL + "?v=" + Date.now()); // cache-bust
     if(!res.ok) throw new Error("HTTP " + res.status);
     data = await res.json();
-    dateBadge.textContent = `Today’s set · ${data.date || "Daily"}`;
-    setLevel("easy");
+    setLevel(getQueryParam ("level") || "easy");
   } catch (err){
     console.error(err);
-    dateBadge.textContent = "Couldn’t load today’s analogies.";
     qText.textContent = "Error loading questions. Please try again later.";
   }
 }
@@ -463,12 +402,13 @@ nextBtn.addEventListener("click", () => {
   }
 });
 
-levelButtons.forEach(btn => {
-  btn.addEventListener("click", () => setLevel(btn.dataset.level));
-});
-
 // ---------- Start ----------
 loadDaily();
+
+
+if (window.self !== window.top) {
+  document.body.classList.add('embedded');
+}
 </script>
 </body>
 </html>

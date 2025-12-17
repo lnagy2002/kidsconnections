@@ -71,7 +71,7 @@ function celebrate(level = 'easy') {
     };
 
     const starsCount = map[level] || 1; // default to 1 star
-  
+
     // Respect reduced-motion
     const prefersReduce =
         window.matchMedia &&

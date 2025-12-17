@@ -293,7 +293,7 @@
   function checkWin() {
     const done = boardEl.querySelectorAll('.piece.locked').length === STATE.n*STATE.n;
     if (done) {
-      celebrate ();
+      celebrate (getQueryParam("level")||"easy");
       window.MindBitsProgress?.markDoneToday(`jigsaw-${(getQueryParam("level")||"easy").toLowerCase()}`);
 
       // const msg = document.createElement('div');

@@ -440,7 +440,7 @@ updateKeycaps()
             if (g === S.secret) {
                 S.done = true;
                 gtag('event', 'wordle_resolved', { app: 'wordle' });
-                celebrate  ();
+                celebrate  (getQueryParam("level")||"easy");
                 window.MindBitsProgress?.markDoneToday(`wordle-${(getQueryParam("level")||"easy").toLowerCase()}`);
                 msg('🎉 You got it!');
                 return;

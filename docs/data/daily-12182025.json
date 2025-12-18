@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12182025-E",
+    "generatedAt": "2025-12-18T02:23:36.631Z",
+    "groups": [
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "rubberduck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Striped and Spotted",
+        "items": [
+          "tiger",
+          "zebra",
+          "bumblebee",
+          "skunk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "chalkboard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle for 12/18/2025. Easy level with four concrete, visual themes. Each group is distinct; watch for light crossovers but items are unique across all puzzles."
+  },
+  "medium": {
+    "id": "12182025-M",
+    "generatedAt": "2025-12-18T02:23:36.631Z",
+    "groups": [
+      {
+        "name": "Rain Words",
+        "items": [
+          "coat",
+          "bow",
+          "storm",
+          "drop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Words",
+        "items": [
+          "rise",
+          "flower",
+          "block",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Star Words",
+        "items": [
+          "fish",
+          "ship",
+          "dust",
+          "light"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fast Synonyms",
+        "items": [
+          "swift",
+          "rapid",
+          "speedy",
+          "hasty"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes some crossover temptation: items could seem like they belong to another group at first glance, but each item has a single best match with its group."
+  },
+  "hard": {
+    "id": "12182025-H",
+    "generatedAt": "2025-12-18T02:23:36.631Z",
+    "groups": [
+      {
+        "name": "Add -ful suffix",
+        "items": [
+          "joy",
+          "care",
+          "hope",
+          "taste"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add un- prefix",
+        "items": [
+          "clear",
+          "certain",
+          "known",
+          "usual"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add -er suffix (agents/doers)",
+        "items": [
+          "write",
+          "build",
+          "paint",
+          "talk"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors as common nouns",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "orange"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses abstract connections and word-building patterns. Expect multi-meaning ideas and careful grouping; cross-over temptations may appear, but each item fits only its intended group."
+  }
+}

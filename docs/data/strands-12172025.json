@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CANE",
+      "BUMP",
+      "MILD",
+      "HIDE",
+      "WARM",
+      "HIVE",
+      "GLOW",
+      "CAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BAGPIPE",
+      "CANDLE",
+      "FESTAL",
+      "GARDEN",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS",
+      "WILLOW"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "CIRCULATE",
+      "FRIENDSHIP",
+      "GRADUATES",
+      "HARMONIC",
+      "IMAGINARY",
+      "TRANQUIL",
+      "GENERATE",
+      "FANTASTIC"
+    ]
+  }
+}

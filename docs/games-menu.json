@@ -80,6 +80,15 @@
       "href": "numbersequence.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/12/chatgpt-image-oct-17-2025-07_26_42-pm.png' alt='Digiton' style='width:20px;height:20px;'>",
       "description": "Find the missing numbers that complete the sequence or pattern."
+    },
+    {
+      "logo": "https://bittobitscom.wordpress.com/wp-content/uploads/2025/12/untitled-design-5.png",
+      "color": "#F5B7B1",
+      "id": "analogy",
+      "title": "Word Analogy",
+      "href": "analogy.html",
+      "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/12/untitled-design-5.png' alt='Word Analogy' style='width:20px;height:20px;'>",
+      "description": "Match word pairs with the same connection."
     }
   ]
 }

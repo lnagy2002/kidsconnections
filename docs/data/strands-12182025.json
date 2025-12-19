@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CART",
+      "WAVE",
+      "FLEW",
+      "BOLT",
+      "MIST",
+      "HIVE",
+      "BUMP",
+      "LUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPLASH",
+      "GATHER",
+      "PLANTY",
+      "CLUSTER",
+      "CANDLE",
+      "BUNGLES",
+      "TWIRLERS",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULATE",
+      "FANTASTIC",
+      "HARMONIZE",
+      "INNOVATED",
+      "GRADUATES",
+      "EXPLORING",
+      "COMFORTED",
+      "GENERATE"
+    ]
+  }
+}

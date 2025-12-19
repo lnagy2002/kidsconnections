@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12192025-E",
+    "generatedAt": "2025-12-19T02:27:01.184Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "pot",
+          "whisk",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Helpers",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Greens to Eat",
+        "items": [
+          "broccoli",
+          "cucumber",
+          "lettuce",
+          "peas"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy connections. All 16 items are unique and not reused in other levels."
+  },
+  "medium": {
+    "id": "12192025-M",
+    "generatedAt": "2025-12-19T02:27:01.184Z",
+    "groups": [
+      {
+        "name": "Two-Word Combos",
+        "items": [
+          "toothbrush",
+          "mailbox",
+          "notebook",
+          "rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "spring",
+          "park",
+          "match",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 'un' to Make Opposites",
+        "items": [
+          "able",
+          "happy",
+          "clear",
+          "usual"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rideable Things",
+        "items": [
+          "bicycle",
+          "horse",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles blend simple wordplay and compound words. Some items may tempt mis-grouping to keep a challenge."
+  },
+  "hard": {
+    "id": "12192025-H",
+    "generatedAt": "2025-12-19T02:27:01.184Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "bank",
+          "bat",
+          "light",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Hidden Sub-words",
+        "items": [
+          "pearl",
+          "spare",
+          "scare",
+          "shine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Terms",
+        "items": [
+          "note",
+          "scale",
+          "tempo",
+          "chord"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multi-meaning words. Cross-over temptations are included to challenge discerning connections."
+  }
+}

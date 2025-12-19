@@ -7,76 +7,42 @@
 <style>
 @import url('./theme.css');
 
-.app {
-  width:100%;
-  max-width:720px;
-  padding:20px 16px 32px;
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }
 
-.brand {
-  display:flex;
-  align-items:center;
-  gap:10px;
+.shake {
+    display: inline-block;
+    /* so transform applies properly */
+    animation: shake 0.5s ease-in-out;
 }
 
-.badge {
-  font-size:13px;
-  padding:4px 10px;
-  border-radius:999px;
-  background:rgba(0,0,0,.35);
-  border:1px solid rgba(255,255,255,.18);
-}
-
-.level-toggle {
-  display:inline-flex;
-  background:rgba(0,0,0,.35);
-  border-radius:999px;
-  padding:3px;
-  gap:4px;
-  margin:10px 0 16px;
-}
-
-.level-btn {
-  border:none;
-  border-radius:999px;
-  padding:6px 12px;
-  font-size:13px;
-  cursor:pointer;
-  background:transparent;
-  color:#cbeef1;
-  display:flex;
-  align-items:center;
-  gap:4px;
-  transition:.18s;
-}
-
-.level-btn span.icon {
-  font-size:15px;
-}
-
-.level-btn.active {
-  background:var(--ink);
-  color:var(--bg);
-  box-shadow:0 0 0 1px rgba(0,0,0,.1), 0 4px 10px rgba(0,0,0,.4);
-  transform:translateY(-1px);
-}
-
-.card {
-  background:var(--card-bg);
-  border-radius:var(--radius);
-  padding:18px 16px 16px;
-  box-shadow:0 12px 30px rgba(0,0,0,.3);
-  border:1px solid var(--border);
-  color:var(--text);
-}
 
 .progress-row {
   display:flex;
   justify-content:space-between;
   align-items:center;
-  font-size:13px;
+  /* font-size:16px; */
   margin-bottom:8px;
-  color:#27475a;
+  font-size: 14px;
+color: var(--muted);
+  /* color:#27475a; */
 }
 
 .progress-bar {
@@ -93,109 +59,105 @@
   inset:0;
   width:0%;
   border-radius:inherit;
-  background:linear-gradient(90deg, var(--muted), var(--ink));
+  background:var(--maybe);
   transition:width .25s ease-out;
 }
 
 .q-text {
-  font-weight:600;
-  font-size:16px;
-  margin:10px 0 12px;
+
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  height: 80px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+  background: var(--maybe);
+  display: flex;
+  /* center text nicely */
+  align-items: center;
+  justify-content: center;
+  line-height: 1.15;
+  overflow: hidden;
+  color: black;
+  margin-bottom: 30px;
 }
 
-.choices {
-  display:flex;
-  flex-direction:column;
-  gap:10px;
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+  filter: grayscale(20%);
+}
+
+.choices{
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: column;  /* fill down the rows first */
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .choice {
-  border-radius:var(--radius);
-  border:1px solid #d1dde8;
-  background:#f9fbff;
-  padding:10px 12px;
-  font-size:15px;
-  display:flex;
-  align-items:center;
-  gap:8px;
-  cursor:pointer;
-  position:relative;
-  overflow:hidden;
-  transition:transform .12s, box-shadow .15s, border-color .15s, background .15s;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    height: 80px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+    background: #fff;
 }
 
-.choice-index {
-  font-weight:700;
-  color:#64748b;
-  width:20px;
+.choice {
+    display: flex;
+    /* center text nicely */
+    align-items: center;
+    justify-content: center;
+    line-height: 1.15;
+    overflow: hidden;
+    color: black;
+    /* no scrollbars while shrinking */
+    /* white-space: nowrap; */
+    /* prefer shrinking over wrapping */
 }
 
-.choice:hover {
-  transform:translateY(-1px);
-  box-shadow:0 6px 14px rgba(15,23,42,.18);
-}
 
-.choice.correct {
-  border-color:var(--ok);
-  background:#e5f9ee;
-}
 
-.choice.wrong {
-  border-color:var(--no);
-  background:#ffe5dd;
-}
+ .choice.correct{ background: var(--ok);
+ color: #083f2b }
+
+ .choice.wrong { background: var(--no);
+ color: #0b1222}
+
 
 .choice.disable {
   pointer-events:none;
   opacity:.9;
 }
 
-.result-row {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-top:14px;
-  font-size:14px;
-}
-
-.next-btn {
-  border:none;
-  border-radius:999px;
-  padding:8px 16px;
-  background:var(--bg);
-  color:var(--ink);
-  font-size:14px;
-  cursor:pointer;
-  display:flex;
-  align-items:center;
-  gap:6px;
-  box-shadow:0 8px 18px rgba(0,0,0,.35);
-  transition:.16s;
-}
-
-.next-btn:disabled {
-  opacity:.5;
-  cursor:default;
-  box-shadow:none;
-}
-
-.next-btn:not(:disabled):hover {
-  transform:translateY(-1px);
-}
-
 .score-pill {
   padding:4px 10px;
   border-radius:999px;
-  background:#f1f5f9;
-  color:#1e293b;
+  background: var(--key);
+  border: 1px solid var(--border);
 }
 
-.footer {
-  margin-top:14px;
-  font-size:12px;
-  color:#cddbe5;
-  text-align:center;
+.score-pill.correct {
+  animation:pulse .4s ease;
 }
+
+@keyframes pulse {
+  0%   { transform:scale(1); box-shadow:0 0 0 #e76f51; }
+  50%  { transform:scale(1.15); box-shadow:0 0 18px #e76f51aa; }
+  100% { transform:scale(1.05); box-shadow:0 0 10px #e76f51aa; }
+}
+
+
 </style>
 <link rel="stylesheet" href="./games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
@@ -214,28 +176,34 @@
   <div>
     <script src="./header.js" data-title="Word Analogies"></script>
   </div>
-
-  <div class="card" id="card">
-    <div class="progress-row">
-      <div id="qCounter">Question 1 / 10</div>
-      <div class="score-pill" id="scorePill">Score: 0</div>
-    </div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div>
+<h3 class="section">Find the same word relationship</h3>
+  <div id="grid">
 
     <div class="q-text" id="qText">Loading question…</div>
 
     <div class="choices" id="choices"></div>
 
-    <div class="result-row">
-      <div id="feedback"></div>
-      <button class="next-btn" id="nextBtn" disabled>
-        Next <span>➜</span>
-      </button>
+  </div>
+  <div class="section">
+    <div class="progress-row">
+
+      <span class="score-pill" id="scorePill">Score: 0</span>
+      <span id="qCounter">1 / 10</span>
     </div>
+    <!-- <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div> -->
   </div>
 
+  <!-- <div class="section">
+    <div id="feedback"></div>
+  </div> -->
+  <div class="section">
+
+    <button class="btn primary" id="nextBtn" disabled>
+      Next
+    </button>
+  </div>
   <div>
     <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
   </div>
@@ -286,15 +254,13 @@ let score = 0;
 const QUESTIONS_PER_DAY = 10;
 
 // ---------- DOM ----------
-const dateBadge = document.getElementById("dateBadge");
 const qCounter = document.getElementById("qCounter");
 const scorePill = document.getElementById("scorePill");
-const progressFill = document.getElementById("progressFill");
+// const progressFill = document.getElementById("progressFill");
 const qText = document.getElementById("qText");
 const choicesEl = document.getElementById("choices");
-const feedbackEl = document.getElementById("feedback");
+// const feedbackEl = document.getElementById("feedback");
 const nextBtn = document.getElementById("nextBtn");
-const levelButtons = document.querySelectorAll(".level-btn");
 
 // ---------- Load JSON ----------
 async function loadDaily(){
@@ -312,9 +278,6 @@ async function loadDaily(){
 // ---------- Level handling ----------
 function setLevel(level){
   currentLevel = level;
-  levelButtons.forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.level === level);
-  });
 
   if(!data || !data.levels || !data.levels[level]){
     qText.textContent = "No questions for this level.";
@@ -333,17 +296,17 @@ function setLevel(level){
 // ---------- Render ----------
 function renderQuestion(){
   const q = questions[index];
-  qCounter.textContent = `Question ${index+1} / ${QUESTIONS_PER_DAY}`;
+  qCounter.textContent = `${index+1} / ${QUESTIONS_PER_DAY}`;
   scorePill.textContent = `Score: ${score}`;
-  progressFill.style.width = `${(index/QUESTIONS_PER_DAY)*100}%`;
-  feedbackEl.textContent = "";
+  // progressFill.style.width = `${(index/QUESTIONS_PER_DAY)*100}%`;
+  // feedbackEl.textContent = "";
   nextBtn.disabled = true;
-
+  scorePill.classList.remove ("correct");
   if(!q){
     // finished
     qText.textContent = "You’ve completed today’s analogies!";
     choicesEl.innerHTML = "";
-    feedbackEl.textContent = `Final score: ${score} / ${QUESTIONS_PER_DAY}`;
+    // feedbackEl.textContent = `Final score: ${score} / ${QUESTIONS_PER_DAY}`;
     nextBtn.disabled = true;
     return;
   }
@@ -356,10 +319,10 @@ function renderQuestion(){
     div.className = "choice";
     div.dataset.index = i;
 
-    const idxSpan = document.createElement("span");
-    idxSpan.className = "choice-index";
-    idxSpan.textContent = String.fromCharCode(65 + i) + ".";
-    div.appendChild(idxSpan);
+    // const idxSpan = document.createElement("span");
+    // idxSpan.className = "choice-index";
+    // idxSpan.textContent = String.fromCharCode(65 + i) + ".";
+    // div.appendChild(idxSpan);
 
     const textSpan = document.createElement("span");
     textSpan.textContent = choice;
@@ -378,16 +341,19 @@ function handleChoice(i, el){
   if(i === q.answer){
     el.classList.add("correct");
     score++;
-    feedbackEl.textContent = "Nice! ✅";
+    scorePill.classList.add ("correct");
+    // feedbackEl.textContent = "Correct.";
   } else {
     el.classList.add("wrong");
-    feedbackEl.textContent = "Not quite. The green one is correct.";
+    el.classList.add("shake");
+    // feedbackEl.textContent = "Not quite. The green one is correct.";
     choiceEls[q.answer].classList.add("correct");
   }
 
   scorePill.textContent = `Score: ${score}`;
   nextBtn.disabled = false;
-  progressFill.style.width = `${((index+1)/QUESTIONS_PER_DAY)*100}%`;
+
+  // progressFill.style.width = `${((index+1)/QUESTIONS_PER_DAY)*100}%`;
 }
 
 nextBtn.addEventListener("click", () => {
@@ -397,7 +363,7 @@ nextBtn.addEventListener("click", () => {
   } else {
     qText.textContent = "You’ve completed today’s analogies!";
     choicesEl.innerHTML = "";
-    feedbackEl.textContent = `Final score: ${score} / ${QUESTIONS_PER_DAY}`;
+    // feedbackEl.textContent = `Final score: ${score} / ${QUESTIONS_PER_DAY}`;
     nextBtn.disabled = true;
   }
 });

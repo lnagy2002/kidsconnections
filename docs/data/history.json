@@ -135,7 +135,8 @@
     "STORM",
     "TREND",
     "GLOBE",
-    "VINE"
+    "VINE",
+    "CART"
   ],
   "medium": [
     "MYSTIC",
@@ -235,7 +236,11 @@
     "CANDOR",
     "BLOOMY",
     "FRIENDY",
-    "GRANDY"
+    "GRANDY",
+    "BAGPIPE",
+    "PLANTY",
+    "BUNGLES",
+    "TWIRLERS"
   ],
   "hard": [
     "EXEMPLARY",

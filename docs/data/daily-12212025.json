@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12212025-E",
+    "generatedAt": "2025-12-21T02:33:50.472Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "globe",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Foods",
+        "items": [
+          "banana",
+          "corn",
+          "lemon",
+          "pineapple"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Furniture You Find in a Room",
+        "items": [
+          "table",
+          "chair",
+          "shelf",
+          "lamp"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals You See in a Zoo",
+        "items": [
+          "lion",
+          "zebra",
+          "giraffe",
+          "panda"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four concrete, visual groups focused on everyday objects and familiar items."
+  },
+  "medium": {
+    "id": "12212025-M",
+    "generatedAt": "2025-12-21T02:33:50.472Z",
+    "groups": [
+      {
+        "name": "Fire-Word Phrases",
+        "items": [
+          "alarm",
+          "truck",
+          "fighter",
+          "hydrant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Boom and Bop: Sounds",
+        "items": [
+          "buzz",
+          "bang",
+          "ding",
+          "clang"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That Go with Sun",
+        "items": [
+          "rise",
+          "set",
+          "shine",
+          "flower"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles feature wordplay and compound-phrase ideas. Some items might tempt you to place them in another group, but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "12212025-H",
+    "generatedAt": "2025-12-21T02:33:50.472Z",
+    "groups": [
+      {
+        "name": "Capitalization Cues",
+        "items": [
+          "march",
+          "polish",
+          "china",
+          "turkey"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Words",
+        "items": [
+          "olive",
+          "mint",
+          "coral",
+          "rose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Classic Elements",
+        "items": [
+          "earth",
+          "air",
+          "water",
+          "fire"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fly Word Pairs",
+        "items": [
+          "butter",
+          "dragon",
+          "house",
+          "may"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean abstract. Expect multi-meaning or cross-connection words. Cross-over temptations exist (e.g., alarm could fit sound-type groups), but each item has a single correct group."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLD",
+      "CUTE",
+      "FARM",
+      "LUMP",
+      "WILD",
+      "HIDE",
+      "CAMP",
+      "PUSH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CIRCLE",
+      "FABLES",
+      "BALLOON",
+      "NURTURE",
+      "SPIRITS",
+      "PLANTS",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "BALANCED",
+      "HARMONIC",
+      "COMFORTS",
+      "SPIRALING",
+      "GATHERING",
+      "FANTASTIC",
+      "INNOVATE",
+      "FRIENDSHIP"
+    ]
+  }
+}

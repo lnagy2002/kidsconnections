@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12232025-E",
+    "generatedAt": "2025-12-23T02:28:33.690Z",
+    "groups": [
+      {
+        "name": "Red Foods",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "watermelon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes for Beginners",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four kid-friendly groups for an easy round, focusing on concrete, visual connections."
+  },
+  "medium": {
+    "id": "12232025-M",
+    "generatedAt": "2025-12-23T02:28:33.690Z",
+    "groups": [
+      {
+        "name": "Kitchen Essentials",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "plate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "kite",
+          "plane",
+          "rocket",
+          "balloon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Planet Names",
+        "items": [
+          "mercury",
+          "earth",
+          "mars",
+          "venus"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ways to Travel",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with everyday categories; watch for cross-over temptations where items could seem to fit another group but truly belong here."
+  },
+  "hard": {
+    "id": "12232025-H",
+    "generatedAt": "2025-12-23T02:28:33.690Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations (Heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Are Also Things",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "spring",
+          "bank",
+          "bark",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Fruit Words",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles invite abstract thinking and multi-meaning words; there can be tempting overlaps, but each item belongs to exactly one group."
+  }
+}

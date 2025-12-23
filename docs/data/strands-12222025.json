@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "JUMP",
+      "WAVE",
+      "BARK",
+      "BEND",
+      "FIRM",
+      "HIDE",
+      "CURL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "FABLE",
+      "FRESH",
+      "GLOWY",
+      "JOURN",
+      "PLANT",
+      "SHINE",
+      "TWIST"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCE",
+      "CANDLE",
+      "DREAMER",
+      "FANTASY",
+      "GATHERING",
+      "HARMONY",
+      "NARRATIVE",
+      "SPIRITED",
+      "TRADITION"
+    ]
+  }
+}

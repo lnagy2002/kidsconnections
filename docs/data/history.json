@@ -241,7 +241,15 @@
     "PLANTY",
     "BUNGLES",
     "TWIRLERS",
-    "SILENT"
+    "SILENT",
+    "CRISP",
+    "FABLE",
+    "FRESH",
+    "GLOWY",
+    "JOURN",
+    "PLANT",
+    "SHINE",
+    "TWIST"
   ],
   "hard": [
     "EXEMPLARY",
@@ -324,6 +332,7 @@
     "GENERATION",
     "GATHERED",
     "INNOVATIVE",
-    "BALANCE"
+    "BALANCE",
+    "CANDLE"
   ]
 }

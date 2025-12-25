@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12252025-E",
+    "generatedAt": "2025-12-25T02:29:04.253Z",
+    "groups": [
+      {
+        "name": "Desk Drawer Essentials",
+        "items": [
+          "Pencil",
+          "Eraser",
+          "Ruler",
+          "Notebook"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cute Pets",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Helpers",
+        "items": [
+          "Watering Can",
+          "Shovel",
+          "Seeds",
+          "Soil"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 12252025 easy puzzle set for kid-friendly connections."
+  },
+  "medium": {
+    "id": "12252025-M",
+    "generatedAt": "2025-12-25T02:29:04.253Z",
+    "groups": [
+      {
+        "name": "Book Companions",
+        "items": [
+          "Case",
+          "Mark",
+          "Shelf",
+          "Store"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Space Phrases",
+        "items": [
+          "Rise",
+          "Set",
+          "Flower",
+          "Shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball Buddies",
+        "items": [
+          "Foot",
+          "Basket",
+          "Base",
+          "Snow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Green Pairs",
+        "items": [
+          "Belt",
+          "Horn",
+          "Room",
+          "Stone"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set with some tempting overlaps to spot and keep in the right group."
+  },
+  "hard": {
+    "id": "12252025-H",
+    "generatedAt": "2025-12-25T02:29:04.253Z",
+    "groups": [
+      {
+        "name": "Dual-Meaning Verbs",
+        "items": [
+          "Play",
+          "Watch",
+          "Run",
+          "Lift"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Terms",
+        "items": [
+          "Bar",
+          "Ship",
+          "Suit",
+          "Station"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ball-Word Combos",
+        "items": [
+          "Fire",
+          "Meat",
+          "Paint",
+          "Golf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Stone Pairings",
+        "items": [
+          "Corner",
+          "Gem",
+          "Flag",
+          "Lime"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set dives into abstract connections and subtle cross-group temptations."
+  }
+}

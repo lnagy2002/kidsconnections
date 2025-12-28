@@ -249,7 +249,10 @@
     "JOURN",
     "PLANT",
     "SHINE",
-    "TWIST"
+    "TWIST",
+    "GLIDER",
+    "NURSED",
+    "CLIMBER"
   ],
   "hard": [
     "EXEMPLARY",

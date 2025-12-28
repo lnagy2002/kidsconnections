@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FIRM",
+      "LAMP",
+      "WAVE",
+      "BIRD",
+      "COLD",
+      "HIVE",
+      "BEND",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLIDER",
+      "BRIGHT",
+      "FESTAL",
+      "SPARKY",
+      "NURSED",
+      "TROPHY",
+      "CLIMBER",
+      "CHANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ENCOURAGE",
+      "BALANCE",
+      "HARMONY",
+      "SPIRALING",
+      "FANTASTIC",
+      "TRIANGULAR",
+      "GENERATE",
+      "COMFORTED",
+      "EXPLORING"
+    ]
+  }
+}

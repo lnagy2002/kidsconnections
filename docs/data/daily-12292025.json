@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12292025-E",
+    "generatedAt": "2025-12-29T02:38:50.633Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "Moon",
+          "Coin",
+          "Wheel",
+          "Pizza"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Are Yellow",
+        "items": [
+          "Banana",
+          "Lemon",
+          "Sunflower",
+          "Dandelion"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "Apple",
+          "Orange",
+          "Grapes",
+          "Mango"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to Get Around",
+        "items": [
+          "Bike",
+          "Car",
+          "Scooter",
+          "Train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 12/29/2025 easy puzzle: 4 groups, each with 4 items. All items are unique within this puzzle."
+  },
+  "medium": {
+    "id": "12292025-M",
+    "generatedAt": "2025-12-29T02:38:50.633Z",
+    "groups": [
+      {
+        "name": "Weather Words",
+        "items": [
+          "Sunny",
+          "Rainy",
+          "Snowy",
+          "Windy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "Spatula",
+          "Whisk",
+          "Pot",
+          "Mug"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Pets",
+        "items": [
+          "Dog",
+          "Cat",
+          "Hamster",
+          "Parrot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Items That Come in Pairs",
+        "items": [
+          "Socks",
+          "Shoes",
+          "Gloves",
+          "Earrings"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle adds cross-over potential: some items could seem to fit another group, but each item truly belongs to only one group."
+  },
+  "hard": {
+    "id": "12292025-H",
+    "generatedAt": "2025-12-29T02:38:50.633Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning",
+        "items": [
+          "Bank",
+          "Bat",
+          "Crane",
+          "Seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs (Same Spelling)",
+        "items": [
+          "Park",
+          "Plant",
+          "Run",
+          "Match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Action Words",
+        "items": [
+          "Duck",
+          "Bear",
+          "Goose",
+          "Fox"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Classic Board Games",
+        "items": [
+          "Chess",
+          "Monopoly",
+          "Checkers",
+          "Scrabble"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses abstract connections and polysemy. Cross-over temptations are present (e.g., Crane can be a bird or a machine)."
+  }
+}

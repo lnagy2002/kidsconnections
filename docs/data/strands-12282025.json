@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BASK",
+      "CLAY",
+      "FIRM",
+      "CANE",
+      "LIFT",
+      "FLEA",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "TRICKY",
+      "PLANTS",
+      "SPIRAL",
+      "BALLOON",
+      "NURSED",
+      "SPARKY",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "HARMONIC",
+      "FANTASTIC",
+      "COMFORTS",
+      "INNOVATED",
+      "EXPLORING",
+      "COMPLICATED",
+      "GENERATE",
+      "DISCOVER"
+    ]
+  }
+}

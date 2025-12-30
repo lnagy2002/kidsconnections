@@ -252,7 +252,8 @@
     "TWIST",
     "GLIDER",
     "NURSED",
-    "CLIMBER"
+    "CLIMBER",
+    "TWIRL"
   ],
   "hard": [
     "EXEMPLARY",

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12312025-E",
+    "generatedAt": "2025-12-31T02:29:15.187Z",
+    "groups": [
+      {
+        "name": "Rideable Toys",
+        "items": [
+          "bike",
+          "scooter",
+          "skateboard",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Back-to-School Basics",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "backpack"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Essentials",
+        "items": [
+          "spoon",
+          "fork",
+          "cup",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly objects and everyday items arranged in four easy visual themes."
+  },
+  "medium": {
+    "id": "12312025-M",
+    "generatedAt": "2025-12-31T02:29:15.187Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "rainbow",
+          "sunflower",
+          "bookcase",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "paint",
+          "plant",
+          "play",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "gnome",
+          "wrist",
+          "isle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix compound words, flexible word forms, and fun letter features. There are cross-over temptations (e.g., rainbow could hint at color themes) but each item belongs to one group only."
+  },
+  "hard": {
+    "id": "12312025-H",
+    "generatedAt": "2025-12-31T02:29:15.187Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "spring",
+          "bank",
+          "note",
+          "bark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Different Pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 'un' to Form Opposites",
+        "items": [
+          "do",
+          "fold",
+          "lock",
+          "fair"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Names That Are Other Things",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy. Some words could seem to fit another group at first glance, but each item has a single, primary relation in its group."
+  }
+}

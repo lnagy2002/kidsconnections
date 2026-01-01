@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "WIND",
+      "BUMP",
+      "FARM",
+      "BOLD",
+      "CLAY",
+      "HIDE",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRICK",
+      "GHOSTS",
+      "WILLOW",
+      "HARMON",
+      "FESTAL",
+      "CANDLE",
+      "GARNET",
+      "SPIRIT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "WONDERFUL",
+      "EXPLORER",
+      "INNOVATIVE",
+      "COMFORTING",
+      "TRADITION",
+      "GENERATE",
+      "GRADUATES",
+      "CHERISHED"
+    ]
+  }
+}

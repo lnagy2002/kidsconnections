@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01022026-E",
+    "generatedAt": "2026-01-02T02:31:52.275Z",
+    "groups": [
+      {
+        "name": "Group of Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Popular Pets",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "airplane",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four kid-friendly groups with concrete, visual connections."
+  },
+  "medium": {
+    "id": "01022026-M",
+    "generatedAt": "2026-01-02T02:31:52.275Z",
+    "groups": [
+      {
+        "name": "Words that pair with Sun",
+        "items": [
+          "beam",
+          "rise",
+          "flower",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that become -er jobs",
+        "items": [
+          "paint",
+          "bake",
+          "build",
+          "teach"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "First parts of ball compounds",
+        "items": [
+          "base",
+          "basket",
+          "soft",
+          "pin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Verbs that form -ing words",
+        "items": [
+          "play",
+          "read",
+          "write",
+          "cook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use light wordplay and simple compound ideas."
+  },
+  "hard": {
+    "id": "01022026-H",
+    "generatedAt": "2026-01-02T02:31:52.275Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different sounds)",
+        "items": [
+          "wind",
+          "lead",
+          "bass",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemy: words with multiple meanings",
+        "items": [
+          "bank",
+          "spring",
+          "match",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Speedy adjectives",
+        "items": [
+          "fast",
+          "rapid",
+          "swift",
+          "speedy"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles feature abstract connections and multi-meaning words."
+  }
+}

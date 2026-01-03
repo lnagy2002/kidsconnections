@@ -255,7 +255,8 @@
     "NURSED",
     "CLIMBER",
     "TWIRL",
-    "GHOSTS"
+    "GHOSTS",
+    "GLOWING"
   ],
   "hard": [
     "EXEMPLARY",

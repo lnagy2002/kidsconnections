@@ -256,7 +256,8 @@
     "CLIMBER",
     "TWIRL",
     "GHOSTS",
-    "GLOWING"
+    "GLOWING",
+    "FLEETS"
   ],
   "hard": [
     "EXEMPLARY",

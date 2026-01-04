@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01042026-E",
+    "generatedAt": "2026-01-04T02:43:07.681Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "disc",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Red-Colored Foods",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head Accessories",
+        "items": [
+          "hat",
+          "cap",
+          "beret",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tree Fruits",
+        "items": [
+          "orange",
+          "peach",
+          "pear",
+          "plum"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level connections puzzles for 01042026. Each group shares a clear, concrete link suitable for kids in grades 2-6."
+  },
+  "medium": {
+    "id": "01042026-M",
+    "generatedAt": "2026-01-04T02:43:07.681Z",
+    "groups": [
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Phrases",
+        "items": [
+          "bus",
+          "bag",
+          "desk",
+          "subject"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words You Can Add 'Super' To",
+        "items": [
+          "man",
+          "market",
+          "hero",
+          "vision"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sky Weather Words",
+        "items": [
+          "cloud",
+          "rain",
+          "hail",
+          "fog"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level sets mix straightforward wordplay and compound-word ideas. Some items could seem to fit another group at first glance, but belong in their designated group."
+  },
+  "hard": {
+    "id": "01042026-H",
+    "generatedAt": "2026-01-04T02:43:07.681Z",
+    "groups": [
+      {
+        "name": "Words with Opposite Meanings (Contronyms)",
+        "items": [
+          "dust",
+          "clip",
+          "sanction",
+          "oversight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Basic Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Metals",
+        "items": [
+          "iron",
+          "tin",
+          "zinc",
+          "gold"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard-level puzzles emphasize abstract connections and polysemy. Each group has a distinct thread, with a few tempting overlaps to challenge careful grouping."
+  }
+}

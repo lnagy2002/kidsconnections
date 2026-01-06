@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01062026-E",
+    "generatedAt": "2026-01-06T02:31:04.665Z",
+    "groups": [
+      {
+        "name": "Round-rolling items",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "dice"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "whisk",
+          "spatula",
+          "ladle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School basics",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "backpack"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four clear, concrete connections for an easy level: items that roll, kitchen helpers, pets, and common school items."
+  },
+  "medium": {
+    "id": "01062026-M",
+    "generatedAt": "2026-01-06T02:31:04.665Z",
+    "groups": [
+      {
+        "name": "Nouns that can be verbs",
+        "items": [
+          "book",
+          "ring",
+          "chair",
+          "stone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that form -er agents",
+        "items": [
+          "make",
+          "drive",
+          "bake",
+          "write"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes that are also verbs",
+        "items": [
+          "circle",
+          "square",
+          "line",
+          "curve"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom tools",
+        "items": [
+          "ruler",
+          "glue",
+          "crayon",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve light wordplay and common compound ideas. Some items may tempt you to fit them into another group, but follow the defined rule for each group."
+  },
+  "hard": {
+    "id": "01062026-H",
+    "generatedAt": "2026-01-06T02:31:04.665Z",
+    "groups": [
+      {
+        "name": "Polysemes with multiple meanings",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronym-like tricky words (same spelling, different sounds/meanings)",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals and other things sharing a name",
+        "items": [
+          "bear",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with silent letters",
+        "items": [
+          "knight",
+          "gnome",
+          "isle",
+          "psalm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level relies on abstract connections and words with multiple meanings, including silent letters and pronunciation shifts. Some items may look like they fit other groups at first glance, but they belong in their designated group."
+  }
+}

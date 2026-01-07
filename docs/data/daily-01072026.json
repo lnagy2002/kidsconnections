@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01072026-E",
+    "generatedAt": "2026-01-07T02:31:21.723Z",
+    "groups": [
+      {
+        "name": "Roundish Objects",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tableware Basics",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Gardening Gear",
+        "items": [
+          "shovel",
+          "hose",
+          "rake",
+          "glove"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh set for 01072026. Easy puzzles use concrete, visual groupings."
+  },
+  "medium": {
+    "id": "01072026-M",
+    "generatedAt": "2026-01-07T02:31:21.723Z",
+    "groups": [
+      {
+        "name": "Compound-Word Champions",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "backpack",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add-un Prefix Clues",
+        "items": [
+          "tie",
+          "lock",
+          "fold",
+          "load"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Part Actions",
+        "items": [
+          "play",
+          "watch",
+          "bat",
+          "duck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home Items",
+        "items": [
+          "chair",
+          "lamp",
+          "table",
+          "curtain"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: some compounds and base words may seem to fit other groups but belong where shown."
+  },
+  "hard": {
+    "id": "01072026-H",
+    "generatedAt": "2026-01-07T02:31:21.723Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings",
+        "items": [
+          "date",
+          "note",
+          "case",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same Spelling, Different Pronunciation",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Compass Points",
+        "items": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Playful Puzzles",
+        "items": [
+          "frame",
+          "bark",
+          "mint",
+          "snap"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores polysemes, heteronyms, and tricky word choices; some items might tempt into other groups but are placed to challenge."
+  }
+}

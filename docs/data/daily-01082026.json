@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01082026-E",
+    "generatedAt": "2026-01-08T02:31:34.982Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "train",
+          "bicycle",
+          "boat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky objects",
+        "items": [
+          "sun",
+          "moon",
+          "cloud",
+          "star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Home furniture",
+        "items": [
+          "table",
+          "chair",
+          "bed",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Easy puzzle for 01/08/2026. All items are concrete, kid-friendly, and distinct."
+  },
+  "medium": {
+    "id": "01082026-M",
+    "generatedAt": "2026-01-08T02:31:34.982Z",
+    "groups": [
+      {
+        "name": "Fire-Word Stems",
+        "items": [
+          "fly",
+          "place",
+          "work",
+          "man"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Stems",
+        "items": [
+          "melon",
+          "proof",
+          "color",
+          "fall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Word Stems",
+        "items": [
+          "rise",
+          "set",
+          "flower",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Earth-Word Stems",
+        "items": [
+          "quake",
+          "worm",
+          "bound",
+          "ware"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with simple wordplay: groups are built from stems that pair with common prefixes to form well-known compound words."
+  },
+  "hard": {
+    "id": "01082026-H",
+    "generatedAt": "2026-01-08T02:31:34.982Z",
+    "groups": [
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "clip",
+          "sanction",
+          "weather"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "wind",
+          "read",
+          "row",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "drill",
+          "bloom",
+          "nail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "wrist",
+          "thumb",
+          "gnome"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections. Watch for cross-over temptations (e.g., some items could fit more than one group)."
+  }
+}

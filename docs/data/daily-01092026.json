@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01092026-E",
+    "generatedAt": "2026-01-09T02:31:59.491Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "moon",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "sock",
+          "boot",
+          "sandal",
+          "shoe"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Handheld Foods",
+        "items": [
+          "pizza",
+          "bread",
+          "apple",
+          "carrot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzle set for 01/09/2026. Easy level with concrete, visual themes."
+  },
+  "medium": {
+    "id": "01092026-M",
+    "generatedAt": "2026-01-09T02:31:59.491Z",
+    "groups": [
+      {
+        "name": "Fire Phrases",
+        "items": [
+          "alarm",
+          "engine",
+          "drill",
+          "fighter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Phrases",
+        "items": [
+          "hot",
+          "cold",
+          "salt",
+          "bottled"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book Companions",
+        "items": [
+          "note",
+          "text",
+          "guide",
+          "guest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "desk",
+          "pencil",
+          "eraser",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles with light wordplay and safe, familiar terms."
+  },
+  "hard": {
+    "id": "01092026-H",
+    "generatedAt": "2026-01-09T02:31:59.491Z",
+    "groups": [
+      {
+        "name": "Multi-Meaning Words",
+        "items": [
+          "seal",
+          "bat",
+          "bank",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Sound the Same But Different Spelling",
+        "items": [
+          "bass",
+          "wind",
+          "tear",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Fruits",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "knight",
+          "flower",
+          "right",
+          "sun"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and a few tempting overlaps to challenge careful grouping."
+  }
+}

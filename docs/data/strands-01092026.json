@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "DUST",
+      "BUMP",
+      "HIDE",
+      "WILD",
+      "CLAP",
+      "BEND",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKS",
+      "CLIMBS",
+      "FABLES",
+      "TRICKY",
+      "PLANTS",
+      "FESTAL",
+      "GARNET",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "SPIRITED",
+      "HARMONIC",
+      "COMFORTS",
+      "FRIENDLY",
+      "FANTASTIC",
+      "DREAMLIKE",
+      "GENERATE",
+      "EXPLORER"
+    ]
+  }
+}

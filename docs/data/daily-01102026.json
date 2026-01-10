@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01102026-E",
+    "generatedAt": "2026-01-10T02:27:16.275Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "cereal",
+          "pancake",
+          "egg",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual themes. All items are unique."
+  },
+  "medium": {
+    "id": "01102026-M",
+    "generatedAt": "2026-01-10T02:27:16.275Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "watch",
+          "drive",
+          "wave"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound-Word Pairs",
+        "items": [
+          "baseball",
+          "keyboard",
+          "sunflower",
+          "toothbrush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Airborne Items",
+        "items": [
+          "eagle",
+          "kite",
+          "plane",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "car",
+          "bus",
+          "boat",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: light wordplay and compound-word connections. Some items can tempt as fitting other groups, but belong to their designated connections."
+  },
+  "hard": {
+    "id": "01102026-H",
+    "generatedAt": "2026-01-10T02:27:16.275Z",
+    "groups": [
+      {
+        "name": "Fire Phrases",
+        "items": [
+          "fly",
+          "alarm",
+          "truck",
+          "engine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measurement Units",
+        "items": [
+          "meter",
+          "liter",
+          "gram",
+          "mile"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Prefix Opposites",
+        "items": [
+          "known",
+          "certain",
+          "fold",
+          "safe"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections with cross-temptations. Some items could seem to fit other groups, but each item only belongs to its intended group."
+  }
+}

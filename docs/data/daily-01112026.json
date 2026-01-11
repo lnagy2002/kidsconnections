@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01112026-E",
+    "generatedAt": "2026-01-11T02:42:34.095Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Friends",
+        "items": [
+          "lion",
+          "panda",
+          "giraffe",
+          "zebra"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Meal Ware",
+        "items": [
+          "plate",
+          "bowl",
+          "fork",
+          "spoon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "chalk",
+          "desk",
+          "pencil",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle set for 01112026."
+  },
+  "medium": {
+    "id": "01112026-M",
+    "generatedAt": "2026-01-11T02:42:34.095Z",
+    "groups": [
+      {
+        "name": "Compound Creations",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "raincoat",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "happy",
+          "kind",
+          "true",
+          "tidy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "knight",
+          "night",
+          "flower",
+          "flour"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Objects",
+        "items": [
+          "chair",
+          "clock",
+          "rug",
+          "mirror"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium challenge with wordplay and cross-over temptations."
+  },
+  "hard": {
+    "id": "01112026-H",
+    "generatedAt": "2026-01-11T02:42:34.095Z",
+    "groups": [
+      {
+        "name": "Opposite Meanings (special words)",
+        "items": [
+          "dust",
+          "clip",
+          "oversight",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools with More Uses",
+        "items": [
+          "saw",
+          "hammer",
+          "drill",
+          "level"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "duck",
+          "bat",
+          "cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "honor",
+          "chaos",
+          "unity",
+          "truth"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores multi-meaning words and abstract links."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01122026-E",
+    "generatedAt": "2026-01-12T02:38:04.886Z",
+    "groups": [
+      {
+        "name": "Round and bouncy things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "bubble"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinkware that Holds a Drink",
+        "items": [
+          "cup",
+          "mug",
+          "bottle",
+          "glass"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear You Wear",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly in the Sky",
+        "items": [
+          "kite",
+          "plane",
+          "helicopter",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set for 01122026. Easy level with concrete, visual themes."
+  },
+  "medium": {
+    "id": "01122026-M",
+    "generatedAt": "2026-01-12T02:38:04.886Z",
+    "groups": [
+      {
+        "name": "Sun word pairings",
+        "items": [
+          "flower",
+          "beam",
+          "rise",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball before the word 'ball' forms sports",
+        "items": [
+          "basket",
+          "foot",
+          "base",
+          "volley"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-building prefixes",
+        "items": [
+          "note",
+          "text",
+          "story",
+          "guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that follow 'rain' to form common terms",
+        "items": [
+          "bow",
+          "coat",
+          "storm",
+          "water"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh puzzle set for 01122026. Medium level with light wordplay and compound-word cues."
+  },
+  "hard": {
+    "id": "01122026-H",
+    "generatedAt": "2026-01-12T02:38:04.886Z",
+    "groups": [
+      {
+        "name": "Polysemes with multiple meanings",
+        "items": [
+          "bat",
+          "seal",
+          "rock",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're-' to form new verbs",
+        "items": [
+          "play",
+          "use",
+          "do",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name fruits",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "bass"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh puzzle set for 01122026. Hard level with abstract links and words with multiple meanings."
+  }
+}

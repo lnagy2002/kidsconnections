@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01132026-E",
+    "generatedAt": "2026-01-13T02:29:45.949Z",
+    "groups": [
+      {
+        "name": "Fruit Parade",
+        "items": [
+          "apple",
+          "orange",
+          "grape",
+          "banana"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable Items",
+        "items": [
+          "hat",
+          "sock",
+          "scarf",
+          "glove"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "cup",
+          "plate",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly connections for 01132026 (Easy)."
+  },
+  "medium": {
+    "id": "01132026-M",
+    "generatedAt": "2026-01-13T02:29:45.949Z",
+    "groups": [
+      {
+        "name": "Sun Prefix",
+        "items": [
+          "rise",
+          "flower",
+          "beam",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pre-Word Pairs",
+        "items": [
+          "view",
+          "heat",
+          "test",
+          "pare"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -ful Words",
+        "items": [
+          "color",
+          "hope",
+          "wonder",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Upward Phrases",
+        "items": [
+          "set",
+          "mix",
+          "wake",
+          "cheer"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh and kid-friendly connections for 01132026 (Medium)."
+  },
+  "hard": {
+    "id": "01132026-H",
+    "generatedAt": "2026-01-13T02:29:45.949Z",
+    "groups": [
+      {
+        "name": "Word Powers",
+        "items": [
+          "bank",
+          "bat",
+          "crane",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ice-Forms",
+        "items": [
+          "cream",
+          "cube",
+          "cap",
+          "shelf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent Letters",
+        "items": [
+          "knight",
+          "thumb",
+          "gnome",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Wild Animals",
+        "items": [
+          "fox",
+          "yak",
+          "elk",
+          "lion"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh and kid-friendly connections for 01132026 (Hard)."
+  }
+}

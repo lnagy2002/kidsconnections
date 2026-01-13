@@ -139,7 +139,8 @@
     "CART",
     "TWIRL",
     "GHOST",
-    "GROW"
+    "GROW",
+    "CAME"
   ],
   "medium": [
     "MYSTIC",
@@ -260,7 +261,12 @@
     "GHOSTS",
     "GLOWING",
     "FLEETS",
-    "CLIMBS"
+    "CLIMBS",
+    "BLASTED",
+    "FURNACE",
+    "GATHERD",
+    "SIMPLEX",
+    "WILLOWS"
   ],
   "hard": [
     "EXEMPLARY",
@@ -346,6 +352,10 @@
     "BALANCE",
     "CANDLE",
     "FRIENDLY",
-    "MAGNETIC"
+    "MAGNETIC",
+    "ACROBATICS",
+    "BALANCEDLY",
+    "CIRCULATED",
+    "TRANSLATED"
   ]
 }

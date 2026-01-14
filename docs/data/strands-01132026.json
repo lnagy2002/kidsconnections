@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "LAMP",
+      "BUMP",
+      "HIVE",
+      "WARM",
+      "BEND",
+      "HIDE",
+      "CAGE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMS",
+      "GRAINY",
+      "CANDLE",
+      "TWIRLS",
+      "PLANTS",
+      "MYSTIC",
+      "FESTAL",
+      "BALLOO"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "HARMONIC",
+      "GRADUATE",
+      "BALANCED",
+      "FRIENDLY",
+      "INNOVATE",
+      "DREAMLIKE",
+      "SPIRALING",
+      "COMFORTED"
+    ]
+  }
+}

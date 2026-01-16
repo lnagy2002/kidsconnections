@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01162026-E",
+    "generatedAt": "2026-01-16T02:32:52.853Z",
+    "groups": [
+      {
+        "name": "Headwear",
+        "items": [
+          "Hat",
+          "Cap",
+          "Beanie",
+          "Helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Marker",
+          "Crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Furniture with Legs",
+        "items": [
+          "Table",
+          "Chair",
+          "Desk",
+          "Stool"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Beginner-friendly: concrete categories that kids can easily visualize."
+  },
+  "medium": {
+    "id": "01162026-M",
+    "generatedAt": "2026-01-16T02:32:52.853Z",
+    "groups": [
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "Lock",
+          "Tie",
+          "Fold",
+          "Wrap"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Breakfast Foods",
+        "items": [
+          "Cereal",
+          "Oatmeal",
+          "Toast",
+          "Eggs"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that Come in Pairs",
+        "items": [
+          "Gloves",
+          "Socks",
+          "Earrings",
+          "Glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "Car",
+          "Bike",
+          "Bus",
+          "Plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptation: some items may seem to fit another group at first glance, but only the intended group is correct."
+  },
+  "hard": {
+    "id": "01162026-H",
+    "generatedAt": "2026-01-16T02:32:52.853Z",
+    "groups": [
+      {
+        "name": "Polysemous Animals",
+        "items": [
+          "Crane",
+          "Seal",
+          "Hawk",
+          "Bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Piano",
+          "Violin",
+          "Flute",
+          "Drum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Adverbs of Manner",
+        "items": [
+          "Quickly",
+          "Slowly",
+          "Loudly",
+          "Quietly"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Phenomena",
+        "items": [
+          "Rain",
+          "Snow",
+          "Hail",
+          "Mist"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "This puzzle uses polysemy and multiple meanings; read each item carefully to find the best fit."
+  }
+}

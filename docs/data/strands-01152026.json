@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FIRM",
+      "GLOW",
+      "BEND",
+      "CAMP",
+      "RIDE",
+      "BUMP",
+      "MIST",
+      "CAGE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "FESTAL",
+      "JOURNAL",
+      "GARNET",
+      "NURTURE",
+      "SPIRITS",
+      "CANDOR",
+      "GRANDY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIOUS",
+      "EXPLORING",
+      "FANTASTIC",
+      "DREAMLIKE",
+      "BALANCING",
+      "GRADUATES",
+      "TRANQUIL",
+      "GENERATE",
+      "COMPLICATED"
+    ]
+  }
+}

@@ -140,7 +140,9 @@
     "TWIRL",
     "GHOST",
     "GROW",
-    "CAME"
+    "CAME",
+    "CAGEY",
+    "PUSHY"
   ],
   "medium": [
     "MYSTIC",
@@ -267,7 +269,8 @@
     "GATHERD",
     "SIMPLEX",
     "WILLOWS",
-    "GRAINY"
+    "GRAINY",
+    "CRUNCHY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -357,6 +360,7 @@
     "ACROBATICS",
     "BALANCEDLY",
     "CIRCULATED",
-    "TRANSLATED"
+    "TRANSLATED",
+    "ADVENTUR"
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGEY",
+      "BLOOM",
+      "FLEET",
+      "GRAND",
+      "MISTY",
+      "SPARK",
+      "TWIRL",
+      "PUSHY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CLUSTER",
+      "FESTAL",
+      "GARNISH",
+      "CRUNCHY",
+      "SPIRITS",
+      "BUNGLES",
+      "BALLOON"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "FANTASTIC",
+      "BALANCEDLY",
+      "MAGNETIC",
+      "GRADUATES",
+      "HARMONIZE",
+      "SPIRALING",
+      "INNOVATED",
+      "COMFORTED"
+    ]
+  }
+}

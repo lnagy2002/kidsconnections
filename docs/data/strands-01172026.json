@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "FIRM",
+      "LAMP",
+      "BEND",
+      "FALL",
+      "GLOW",
+      "MIST",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "JOURNAL",
+      "GATHER",
+      "FESTIVE",
+      "FESTAL",
+      "BALANCE",
+      "PLANTS",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORTING",
+      "GRADUATE",
+      "DISCOVER",
+      "TRANSLATE",
+      "FRIENDSHIP",
+      "HARMONIOUS",
+      "INNOVATIVE",
+      "SPIRALING",
+      "WONDERMENT"
+    ]
+  }
+}

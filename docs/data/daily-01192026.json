@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01192026-E",
+    "generatedAt": "2026-01-19T02:38:41.594Z",
+    "groups": [
+      {
+        "name": "Group 1: Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2: Wheels in Motion",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3: Tree-Grown Treats",
+        "items": [
+          "peach",
+          "pear",
+          "fig",
+          "mango"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4: School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four visual themes for young builders: colors/objects you can see around you, simple wheels, tree fruit, and common classroom items."
+  },
+  "medium": {
+    "id": "01192026-M",
+    "generatedAt": "2026-01-19T02:38:41.594Z",
+    "groups": [
+      {
+        "name": "Group 1: Compound Words",
+        "items": [
+          "toothbrush",
+          "raincoat",
+          "sunflower",
+          "classroom"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2: Noun–Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "match",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3: Wild Animals (and friends)",
+        "items": [
+          "sheep",
+          "deer",
+          "fish",
+          "moose"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4: Add un- to Make Opposites (Verbs)",
+        "items": [
+          "unfold",
+          "undo",
+          "unlock",
+          "untie"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Easy-to-spot wordplay and word-formation ideas: compound words, noun–verb versatility, animal-themed sets, and common un- prefixes."
+  },
+  "hard": {
+    "id": "01192026-H",
+    "generatedAt": "2026-01-19T02:38:41.594Z",
+    "groups": [
+      {
+        "name": "Group 1: Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "bow",
+          "read",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2: Palindromes (words that read the same backward)",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3: Silent-Letter Words",
+        "items": [
+          "knight",
+          "write",
+          "gnome",
+          "isle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4: Words that Form Another Word When Reversed",
+        "items": [
+          "live",
+          "drawer",
+          "stressed",
+          "ton"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Four distinct connections with a dash of tricky twists: heteronyms, palindromes, silent letters, and reversals. Each item is unique and not shared with other groups."
+  }
+}

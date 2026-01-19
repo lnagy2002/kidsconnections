@@ -142,7 +142,10 @@
     "GROW",
     "CAME",
     "CAGEY",
-    "PUSHY"
+    "PUSHY",
+    "BLOK",
+    "PARK",
+    "SWIM"
   ],
   "medium": [
     "MYSTIC",
@@ -270,7 +273,11 @@
     "SIMPLEX",
     "WILLOWS",
     "GRAINY",
-    "CRUNCHY"
+    "CRUNCHY",
+    "CRISPED",
+    "FESTALY",
+    "MYSTIFY",
+    "TWIRLED"
   ],
   "hard": [
     "EXEMPLARY",

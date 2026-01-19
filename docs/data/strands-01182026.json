@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOK",
+      "CLIP",
+      "FLEW",
+      "GLOW",
+      "MIST",
+      "PARK",
+      "SWIM",
+      "WAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CRISPED",
+      "FESTALY",
+      "GARNISH",
+      "HARMONY",
+      "MYSTIFY",
+      "SPIRITS",
+      "TWIRLED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "BALANCED",
+      "COMFORTING",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "GENERATE",
+      "HARMONIZE",
+      "SPECTACULAR",
+      "TRANSLATED"
+    ]
+  }
+}

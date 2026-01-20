@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "DUSTY",
+      "FABLE",
+      "HAPPY",
+      "MISTY",
+      "PLUMB",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "JOURNAL",
+      "KITCHEN",
+      "NURTURE",
+      "PLANTS",
+      "SPIRITS",
+      "TWIRLED",
+      "WONDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "DREAMING",
+      "EXPLORER",
+      "FANTASTIC",
+      "GENERATE",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "SPIRALING",
+      "TRADITION"
+    ]
+  }
+}

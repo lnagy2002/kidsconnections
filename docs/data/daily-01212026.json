@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01212026-E",
+    "generatedAt": "2026-01-21T02:34:38.651Z",
+    "groups": [
+      {
+        "name": "Things That Are Soft",
+        "items": [
+          "Pillow",
+          "Sock",
+          "Teddy",
+          "Blanket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That You Can Read",
+        "items": [
+          "Book",
+          "Magazine",
+          "Comic",
+          "Newspaper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Give Light",
+        "items": [
+          "Lamp",
+          "Candle",
+          "Lantern",
+          "Lightbulb"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things Found in a Kitchen",
+        "items": [
+          "Pan",
+          "Spoon",
+          "Spatula",
+          "Whisk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzles with concrete, visual themes."
+  },
+  "medium": {
+    "id": "01212026-M",
+    "generatedAt": "2026-01-21T02:34:38.651Z",
+    "groups": [
+      {
+        "name": "Words that Pair with 'House' to Make Places",
+        "items": [
+          "Dog",
+          "Bird",
+          "Tree",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Writing Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Marker",
+          "Chalk"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That Pair with 'Fly' to Make Insects",
+        "items": [
+          "Dragon",
+          "Horse",
+          "House",
+          "May"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Morning-Eating Foods",
+        "items": [
+          "Oatmeal",
+          "Eggs",
+          "Toast",
+          "Cereal"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes light wordplay and crossover elements that tempt you to misplace items—yet each item truly fits only its intended group."
+  },
+  "hard": {
+    "id": "01212026-H",
+    "generatedAt": "2026-01-21T02:34:38.651Z",
+    "groups": [
+      {
+        "name": "Sun-Word Pairs (Things that come after 'sun')",
+        "items": [
+          "Flower",
+          "Rise",
+          "Burn",
+          "Set"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with the Same Spelling but Different Sounds",
+        "items": [
+          "Bat",
+          "Bow",
+          "Lead",
+          "Wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Descriptive Size Words",
+        "items": [
+          "Tall",
+          "Tiny",
+          "Short",
+          "Huge"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Juicy Fruits to Taste",
+        "items": [
+          "Apple",
+          "Orange",
+          "Grape",
+          "Kiwi"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections and multi-meaning ideas challenge curious minds."
+  }
+}

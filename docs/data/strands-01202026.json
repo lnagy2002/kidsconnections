@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "MISTY",
+      "NICE",
+      "WILD",
+      "FLEA",
+      "GOLD",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SIMPLE",
+      "FLEETS",
+      "NURSED",
+      "BALLOON",
+      "GARNISH",
+      "CANDLE",
+      "HARMONY",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GATHERED",
+      "SPECTACULAR",
+      "COMPLICATE",
+      "TRANSLATE",
+      "FANTASTIC",
+      "FRIENDSHIP",
+      "EXPLORING",
+      "HARMONIZE",
+      "DREAMLIKE"
+    ]
+  }
+}

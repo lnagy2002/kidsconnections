@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BIRD",
+      "WARM",
+      "FLEA",
+      "HILL",
+      "CANE",
+      "BEND",
+      "MINT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CRISP",
+      "FRESH",
+      "DREAMS",
+      "SPIRIT",
+      "BALLOO",
+      "PLANTS",
+      "TRICKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "MAGNETIC",
+      "SPECTACLE",
+      "FRIENDLY",
+      "HARMONIC",
+      "TRANQUIL",
+      "FANTASTIC",
+      "INNOVATED",
+      "BALANCING",
+      "COMFORTING"
+    ]
+  }
+}

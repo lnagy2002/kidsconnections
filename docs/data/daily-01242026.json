@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01242026-E",
+    "generatedAt": "2026-01-24T02:28:41.868Z",
+    "groups": [
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "spoon",
+          "pan",
+          "bowl",
+          "knife"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky sights",
+        "items": [
+          "sun",
+          "cloud",
+          "bird",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Friendly pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bicycle",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 01/24/2026. Visual themes: kitchen, sky, pets, and vehicles."
+  },
+  "medium": {
+    "id": "01242026-M",
+    "generatedAt": "2026-01-24T02:28:41.868Z",
+    "groups": [
+      {
+        "name": "School supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "glove",
+          "sock",
+          "shoe",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals in nature",
+        "items": [
+          "deer",
+          "frog",
+          "lion",
+          "panda"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Playground items",
+        "items": [
+          "bench",
+          "swing",
+          "fountain",
+          "slide"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with gentle wordplay and a few tempting overlaps to spot."
+  },
+  "hard": {
+    "id": "01242026-H",
+    "generatedAt": "2026-01-24T02:28:41.868Z",
+    "groups": [
+      {
+        "name": "Noun-verb twins",
+        "items": [
+          "play",
+          "cook",
+          "watch",
+          "paint"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-and-thing names",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "fox"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "knight",
+          "flower",
+          "pair",
+          "right"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Breakfast favorites",
+        "items": [
+          "egg",
+          "toast",
+          "cereal",
+          "banana"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and subtle cross-over temptations."
+  }
+}

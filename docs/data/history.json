@@ -146,7 +146,12 @@
     "BLOK",
     "PARK",
     "SWIM",
-    "CAVEY"
+    "CAVEY",
+    "CORN",
+    "FLASK",
+    "GRASS",
+    "PICKY",
+    "VINEY"
   ],
   "medium": [
     "MYSTIC",
@@ -278,7 +283,8 @@
     "CRISPED",
     "FESTALY",
     "MYSTIFY",
-    "TWIRLED"
+    "TWIRLED",
+    "TWIRLER"
   ],
   "hard": [
     "EXEMPLARY",

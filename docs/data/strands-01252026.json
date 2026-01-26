@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MEAL",
+      "COLD",
+      "WAVE",
+      "FIND",
+      "CAVE",
+      "BAND",
+      "FIRM",
+      "LAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TWIRL",
+      "FESTAL",
+      "FABLES",
+      "CANDLE",
+      "PLANTS",
+      "GARNET",
+      "FESTIVE",
+      "FROSTY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "BALANCED",
+      "SPARKLE",
+      "TRANSLATE",
+      "EXPLAIN",
+      "GATHERED",
+      "FRIENDLY",
+      "MAGNETIC",
+      "COMFORTS"
+    ]
+  }
+}

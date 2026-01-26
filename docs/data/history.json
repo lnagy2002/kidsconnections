@@ -151,7 +151,9 @@
     "FLASK",
     "GRASS",
     "PICKY",
-    "VINEY"
+    "VINEY",
+    "MEAL",
+    "FIND"
   ],
   "medium": [
     "MYSTIC",
@@ -284,7 +286,8 @@
     "FESTALY",
     "MYSTIFY",
     "TWIRLED",
-    "TWIRLER"
+    "TWIRLER",
+    "FROSTY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -376,6 +379,7 @@
     "CIRCULATED",
     "TRANSLATED",
     "ADVENTUR",
-    "DREAMING"
+    "DREAMING",
+    "SPARKLE"
   ]
 }

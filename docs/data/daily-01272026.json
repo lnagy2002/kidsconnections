@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01272026-E",
+    "generatedAt": "2026-01-27T02:39:20.973Z",
+    "groups": [
+      {
+        "name": "Bright Reds",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "chili pepper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Circle Shapes",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet-friendly Gear",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Cups & Tools",
+        "items": [
+          "cup",
+          "spoon",
+          "knife",
+          "pan"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level: four concrete themes with four familiar items each."
+  },
+  "medium": {
+    "id": "01272026-M",
+    "generatedAt": "2026-01-27T02:39:20.973Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "brush",
+          "plant",
+          "watch",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "One-word Compounds",
+        "items": [
+          "birdhouse",
+          "bookcase",
+          "flowerpot",
+          "rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add-Un Prefix Feelers",
+        "items": [
+          "do",
+          "tie",
+          "lock",
+          "fold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom Essentials",
+        "items": [
+          "chalk",
+          "pencil",
+          "eraser",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level uses wordplay and compound-type ideas. Some items may tempt toward other groups, but each item fits only one group."
+  },
+  "hard": {
+    "id": "01272026-H",
+    "generatedAt": "2026-01-27T02:39:20.973Z",
+    "groups": [
+      {
+        "name": "Same-spelling, different-pronunciation (Heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Containers",
+        "items": [
+          "jug",
+          "can",
+          "bottle",
+          "pitcher"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name Fruits",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "snow",
+          "hail",
+          "fog"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level features abstract links and multiple-meaning words. Look for cross-over temptations but groups stay distinct."
+  }
+}

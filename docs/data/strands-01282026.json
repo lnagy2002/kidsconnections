@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LIFT",
+      "CANE",
+      "BUMP",
+      "DUST",
+      "HIVE",
+      "JOLT",
+      "GOLD",
+      "FLAP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "SPARKY",
+      "JOURNAL",
+      "FESTIVE",
+      "CANDLE",
+      "WILLOW",
+      "GATHER",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "WONDERFUL",
+      "EXPLORER",
+      "TRANSLATE",
+      "COMPLICATE",
+      "FANTASTIC",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "MAGNETIC",
+      "DREAMLIKE"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01302026-E",
+    "generatedAt": "2026-01-30T03:11:14.586Z",
+    "groups": [
+      {
+        "name": "Group 1: Things that are red",
+        "items": [
+          "apple",
+          "strawberry",
+          "firetruck",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2: Things that make noise",
+        "items": [
+          "drum",
+          "whistle",
+          "xylophone",
+          "alarm"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3: Things you drink",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "lemonade"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4: Footwear you wear on your feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual groupings: red items; sounds; drinks; and things worn on feet."
+  },
+  "medium": {
+    "id": "01302026-M",
+    "generatedAt": "2026-01-30T03:11:14.586Z",
+    "groups": [
+      {
+        "name": "Group 1: Words that pair with 'book' to form common compounds",
+        "items": [
+          "case",
+          "note",
+          "worm",
+          "text"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2: Words that go with Sun to form common terms",
+        "items": [
+          "rise",
+          "beam",
+          "flower",
+          "shade"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3: Words that pair with 'water' to form compounds",
+        "items": [
+          "fall",
+          "color",
+          "melon",
+          "tight"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4: Words that form opposites with the un- prefix",
+        "items": [
+          "happy",
+          "kind",
+          "sure",
+          "cool"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve simple wordplay with compounds and prefixes. Cross-over temptations exist (words that could seem to fit other groups) but belong in their intended group."
+  },
+  "hard": {
+    "id": "01302026-H",
+    "generatedAt": "2026-01-30T03:11:14.586Z",
+    "groups": [
+      {
+        "name": "Group 1: Words that can be both a noun and a verb",
+        "items": [
+          "plant",
+          "watch",
+          "spring",
+          "light"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2: Words with multiple meanings (polysemes)",
+        "items": [
+          "bat",
+          "ring",
+          "seal",
+          "bowl"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3: Words with silent letters",
+        "items": [
+          "knight",
+          "gnome",
+          "wrist",
+          "hour"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4: Words that are both a place and a verb",
+        "items": [
+          "bank",
+          "park",
+          "court",
+          "site"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles probe abstract connections and multi-meaning words. Cross-over temptations may draw you to think a word fits a neighboring group, but it belongs to its own."
+  }
+}

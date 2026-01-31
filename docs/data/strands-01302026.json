@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "CAVE",
+      "FIRM",
+      "HIVE",
+      "MIST",
+      "PUSH",
+      "WILD",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CANDLE",
+      "FESTAL",
+      "GATHER",
+      "JOURNAL",
+      "MAGNET",
+      "SPIRITS",
+      "TWILIGHT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "DREAMLIKE",
+      "EXPLORER",
+      "FRIENDSHIP",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "TRANSLATED",
+      "WONDERFUL",
+      "SPIRALING"
+    ]
+  }
+}

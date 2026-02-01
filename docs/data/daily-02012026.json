@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02012026-E",
+    "generatedAt": "2026-02-01T03:37:01.208Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "sofa",
+          "bench",
+          "stool"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Animals",
+        "items": [
+          "lion",
+          "zebra",
+          "giraffe",
+          "panda"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set. Four groups, each with four items. Items are kid-friendly and visually approachable."
+  },
+  "medium": {
+    "id": "02012026-M",
+    "generatedAt": "2026-02-01T03:37:01.208Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "butterfly",
+          "keyboard",
+          "waterfall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits with Color Names",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Starting Compounds",
+        "items": [
+          "firefly",
+          "fireplace",
+          "firewood",
+          "firefighter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Desk Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set includes simple wordplay and compound words. Look for two-part words and familiar combos."
+  },
+  "hard": {
+    "id": "02012026-H",
+    "generatedAt": "2026-02-01T03:37:01.208Z",
+    "groups": [
+      {
+        "name": "Different Pronunciations (Same Spelling)",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "park",
+          "plant",
+          "watch",
+          "break"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Qualities",
+        "items": [
+          "truth",
+          "hope",
+          "dream",
+          "trust"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet Names",
+        "items": [
+          "earth",
+          "mars",
+          "venus",
+          "jupiter"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set features abstract connections. Some items could seem to fit other groups, but only the intended match counts."
+  }
+}

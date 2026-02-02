@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02022026-E",
+    "generatedAt": "2026-02-02T03:24:11.775Z",
+    "groups": [
+      {
+        "name": "Circular Things",
+        "items": [
+          "Coin",
+          "Button",
+          "Ring",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Home Objects",
+        "items": [
+          "Chair",
+          "Table",
+          "Lamp",
+          "Book"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Crayon",
+          "Marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Nature Features",
+        "items": [
+          "Tree",
+          "Flower",
+          "Cloud",
+          "Stone"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle prompts: identify four everyday items that share simple, visual themes."
+  },
+  "medium": {
+    "id": "02022026-M",
+    "generatedAt": "2026-02-02T03:24:11.775Z",
+    "groups": [
+      {
+        "name": "Compound Words for Kids",
+        "items": [
+          "Sunflower",
+          "Toothbrush",
+          "Notebook",
+          "Rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "Duck",
+          "Bear",
+          "Crane",
+          "Dust"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Helpers",
+        "items": [
+          "Pillow",
+          "Towel",
+          "Soap",
+          "Brush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Simple Transport",
+        "items": [
+          "Car",
+          "Bike",
+          "Boat",
+          "Bus"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay with familiar words. Some items may seem to fit another group, but belong to exactly one."
+  },
+  "hard": {
+    "id": "02022026-H",
+    "generatedAt": "2026-02-02T03:24:11.775Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning",
+        "items": [
+          "Spring",
+          "Bat",
+          "Match",
+          "Bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation Play",
+        "items": [
+          "Wind",
+          "Read",
+          "Bow",
+          "Lead"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "One-Syllable Fruits",
+        "items": [
+          "Pear",
+          "Lime",
+          "Plum",
+          "Fig"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "Oven",
+          "Mixer",
+          "Spoon",
+          "Plate"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore polysemy, pronunciation shifts, and simple contrasts."
+  }
+}

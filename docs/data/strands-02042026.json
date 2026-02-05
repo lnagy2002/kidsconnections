@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CLING",
+      "FLAIR",
+      "GRASP",
+      "JOLLY",
+      "PLUMB",
+      "SLEET",
+      "TWIRL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CANDOR",
+      "DREAMY",
+      "FESTAL",
+      "GARNISH",
+      "NURTURE",
+      "SPIRITS",
+      "WILLOWS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "COMPLICATE",
+      "DISCOVER",
+      "HARMONIZE",
+      "INNOVATE",
+      "MAGNETIC",
+      "TRANSLATED",
+      "WONDERFUL",
+      "GENERATE"
+    ]
+  }
+}

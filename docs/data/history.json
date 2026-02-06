@@ -156,7 +156,9 @@
     "FIND",
     "FLAP",
     "WILDY",
-    "CLING"
+    "CLING",
+    "FLOW",
+    "DINE"
   ],
   "medium": [
     "MYSTIC",
@@ -385,6 +387,7 @@
     "ADVENTUR",
     "DREAMING",
     "SPARKLE",
-    "FESTIVE"
+    "FESTIVE",
+    "GATHERD"
   ]
 }

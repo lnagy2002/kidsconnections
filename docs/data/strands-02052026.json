@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "FLOW",
+      "GLOW",
+      "DINE",
+      "BEEP",
+      "HIVE",
+      "LAMP",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "CANDLE",
+      "TWIRL",
+      "CRISP",
+      "SPIRAL",
+      "BALANCE",
+      "FESTAL",
+      "SPIRIT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "DREAMER",
+      "COMBAT",
+      "GATHERD",
+      "TRANSLATE",
+      "BALANCED",
+      "EXPLAIN",
+      "FESTIVITY",
+      "SPIRITED"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02072026-E",
+    "generatedAt": "2026-02-07T03:08:39.498Z",
+    "groups": [
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "eggs",
+          "cereal",
+          "toast",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bedroom Essentials",
+        "items": [
+          "bed",
+          "dresser",
+          "lamp",
+          "bookshelf"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets at Home",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 02/07/2026 easy puzzle set. All items are kid-friendly and unique."
+  },
+  "medium": {
+    "id": "02072026-M",
+    "generatedAt": "2026-02-07T03:08:39.498Z",
+    "groups": [
+      {
+        "name": "Agent -er Words",
+        "items": [
+          "runner",
+          "jumper",
+          "painter",
+          "swimmer"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "park",
+          "watch",
+          "box",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Office Supplies",
+        "items": [
+          "pen",
+          "pencil",
+          "stapler",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Travel Essentials",
+        "items": [
+          "map",
+          "suitcase",
+          "camera",
+          "passport"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles with cross-over temptations. Fresh for 02/07/2026."
+  },
+  "hard": {
+    "id": "02072026-H",
+    "generatedAt": "2026-02-07T03:08:39.498Z",
+    "groups": [
+      {
+        "name": "Polyseme Pairs",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "left"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "happy",
+          "kind",
+          "certain",
+          "sure"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "break",
+          "drive",
+          "lift",
+          "wash"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Sounds)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "row"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard connections with abstract links and pronunciation tricks. Fresh for 02/07/2026."
+  }
+}

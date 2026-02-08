@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02082026-E",
+    "generatedAt": "2026-02-08T03:42:46.269Z",
+    "groups": [
+      {
+        "name": "Group 1: Round Things in Everyday Life",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2: Tabletop Items",
+        "items": [
+          "spoon",
+          "fork",
+          "napkin",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3: Common Pets",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4: Things in a Park",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "fountain"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzles with concrete, visual themes."
+  },
+  "medium": {
+    "id": "02082026-M",
+    "generatedAt": "2026-02-08T03:42:46.269Z",
+    "groups": [
+      {
+        "name": "Group 1: -at Rhymes",
+        "items": [
+          "bat",
+          "hat",
+          "mat",
+          "rat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2: Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3: Round Fruits",
+        "items": [
+          "orange",
+          "apple",
+          "grape",
+          "melon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4: Household Helpers",
+        "items": [
+          "broom",
+          "mop",
+          "toaster",
+          "kettle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and a friendly cross-over temptation (orange is both a fruit and a color)."
+  },
+  "hard": {
+    "id": "02082026-H",
+    "generatedAt": "2026-02-08T03:42:46.269Z",
+    "groups": [
+      {
+        "name": "Group 1: Polysemes with Two Senses",
+        "items": [
+          "park",
+          "spring",
+          "bark",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2: Heteronyms (Same Spelling, Different Pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3: Words with Multiple Meanings (Other Senses)",
+        "items": [
+          "bank",
+          "scale",
+          "nail",
+          "chip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4: Musical Terms (Less Common) or Abstract Concepts",
+        "items": [
+          "tempo",
+          "pitch",
+          "note",
+          "beat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with tricky cross-overs and polysemes; each item belongs to one group, but some may look like they fit another at first glance."
+  }
+}

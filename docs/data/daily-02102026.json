@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02102026-E",
+    "generatedAt": "2026-02-10T03:38:29.757Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "sun"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet-Wear",
+        "items": [
+          "shoe",
+          "sock",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "pan",
+          "fork",
+          "knife"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle for date 02102026. Four concrete, kid-friendly categories with four items each."
+  },
+  "medium": {
+    "id": "02102026-M",
+    "generatedAt": "2026-02-10T03:38:29.757Z",
+    "groups": [
+      {
+        "name": "Fire-Word Pairs",
+        "items": [
+          "fly",
+          "work",
+          "place",
+          "man"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "fall",
+          "proof",
+          "bottle",
+          "melon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Verbs",
+        "items": [
+          "bear",
+          "duck",
+          "crane",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -er to Make a Person",
+        "items": [
+          "read",
+          "write",
+          "draw",
+          "drive"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses light wordplay with cross-over temptations; some items could seem to fit other groups but belong to their designated group."
+  },
+  "hard": {
+    "id": "02102026-H",
+    "generatedAt": "2026-02-10T03:38:29.757Z",
+    "groups": [
+      {
+        "name": "Letters by Sound",
+        "items": [
+          "jay",
+          "see",
+          "why",
+          "cue"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "sanction",
+          "left",
+          "bound"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "spring",
+          "plant",
+          "watch",
+          "box"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle features abstract connections and multi-meaning words. Includes deliberate cross-over temptations (e.g., jay could be a letter or a bird)."
+  }
+}

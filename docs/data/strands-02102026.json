@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "GLOW",
+      "BUMP",
+      "CAMP",
+      "FIRM",
+      "HIVE",
+      "LIFT",
+      "MINT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "SPARK",
+      "FABLE",
+      "TWIST",
+      "PLANT",
+      "DREAM",
+      "GATHER",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "FANTASY",
+      "SPIRITED",
+      "TRADITION",
+      "IMAGINARY",
+      "FRIENDLY",
+      "MAGNETIC",
+      "ADVENTURE",
+      "GENERATE"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02112026-E",
+    "generatedAt": "2026-02-11T03:34:46.116Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "shoe",
+          "boot",
+          "sandal",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating Tools",
+        "items": [
+          "fork",
+          "spoon",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 3 puzzles for 02112026. Easy level uses concrete, visual groupings."
+  },
+  "medium": {
+    "id": "02112026-M",
+    "generatedAt": "2026-02-11T03:34:46.116Z",
+    "groups": [
+      {
+        "name": "Time Pairings",
+        "items": [
+          "bed",
+          "play",
+          "meal",
+          "lunch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books Ending with Book",
+        "items": [
+          "notebook",
+          "cookbook",
+          "storybook",
+          "guidebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Fruits",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -er to Make Occupations",
+        "items": [
+          "send",
+          "build",
+          "walk",
+          "draw"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level includes simple wordplay and compound-word connections. Cross-over temptations included."
+  },
+  "hard": {
+    "id": "02112026-H",
+    "generatedAt": "2026-02-11T03:34:46.116Z",
+    "groups": [
+      {
+        "name": "Words with Different Pronunciations",
+        "items": [
+          "wind",
+          "lead",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same-Forward-Back Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals with Other Uses",
+        "items": [
+          "bear",
+          "crane",
+          "bat",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "dust",
+          "left",
+          "sanction",
+          "oversight"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level explores abstract connections and multi-meaning words."
+  }
+}

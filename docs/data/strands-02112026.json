@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "FISH",
+      "BEND",
+      "GLOW",
+      "HIVE",
+      "SPIN",
+      "CLIP",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "PLANTS",
+      "SPARKY",
+      "BUNGLE",
+      "GARNISH",
+      "FESTAL",
+      "NURSED",
+      "GLIDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "INNOVATE",
+      "GENERATE",
+      "CIRCULATE",
+      "BALANCING",
+      "FRIENDSHIP",
+      "TRANQUIL",
+      "COMFORTING",
+      "IMAGINARY"
+    ]
+  }
+}

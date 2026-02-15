@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02152026-E",
+    "generatedAt": "2026-02-15T03:26:35.743Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "moon",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods You Can Eat",
+        "items": [
+          "apple",
+          "bread",
+          "carrot",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head Gear",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rideable Vehicles",
+        "items": [
+          "bike",
+          "car",
+          "train",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy connections puzzle for 2nd-6th graders. Each group shares a simple theme."
+  },
+  "medium": {
+    "id": "02152026-M",
+    "generatedAt": "2026-02-15T03:26:35.743Z",
+    "groups": [
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "keyboard",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun–Verb Pairs",
+        "items": [
+          "duck",
+          "watch",
+          "brush",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "bicycle",
+          "airplane",
+          "subway",
+          "canoe"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles weave simple wordplay and everyday items; some items may tempt to fit other groups but belong to the listed theme."
+  },
+  "hard": {
+    "id": "02152026-H",
+    "generatedAt": "2026-02-15T03:26:35.743Z",
+    "groups": [
+      {
+        "name": "Words with two pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Auto-antonyms",
+        "items": [
+          "left",
+          "sanction",
+          "oversight",
+          "dust"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Verbs that Are Also Nouns",
+        "items": [
+          "beat",
+          "rock",
+          "bat",
+          "jam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color words",
+        "items": [
+          "blue",
+          "green",
+          "pink",
+          "orange"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract connections and multi-meaning words."
+  }
+}

@@ -158,7 +158,8 @@
     "WILDY",
     "CLING",
     "FLOW",
-    "DINE"
+    "DINE",
+    "CONE"
   ],
   "medium": [
     "MYSTIC",
@@ -296,7 +297,8 @@
     "DRAGON",
     "GLOBE",
     "SPARK",
-    "FLARE"
+    "FLARE",
+    "BASIC"
   ],
   "hard": [
     "EXEMPLARY",

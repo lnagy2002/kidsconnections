@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CART",
+      "BEND",
+      "FLEA",
+      "WARM",
+      "HIVE",
+      "CONE",
+      "BUMP",
+      "VINE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BASIC",
+      "JOURNAL",
+      "FESTIVE",
+      "GATHER",
+      "CRYSTAL",
+      "SPIRITS",
+      "BALANCE",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CONTRIBUTE",
+      "TRANSLATE",
+      "HARMONIOUS",
+      "COMPLICATE",
+      "EXPLORING",
+      "GENERATE",
+      "INNOVATIVE",
+      "DISCOVER",
+      "SPECTACULAR"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02162026-E",
+    "generatedAt": "2026-02-16T03:24:49.424Z",
+    "groups": [
+      {
+        "name": "Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "scarf",
+          "glove",
+          "boots"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 02/16/2026 puzzle: four easy groups with clear, kid-friendly themes."
+  },
+  "medium": {
+    "id": "02162026-M",
+    "generatedAt": "2026-02-16T03:24:49.424Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "raincoat",
+          "toothbrush",
+          "lighthouse",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "scarlet",
+          "indigo",
+          "teal",
+          "magenta"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "zebra",
+          "otter",
+          "goat",
+          "yak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Actions",
+        "items": [
+          "slice",
+          "grate",
+          "peel",
+          "boil"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with common compound words. Some items may look like they fit another group at first glance."
+  },
+  "hard": {
+    "id": "02162026-H",
+    "generatedAt": "2026-02-16T03:24:49.424Z",
+    "groups": [
+      {
+        "name": "Words with multiple pronunciations (same spelling)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with opposite meanings",
+        "items": [
+          "sanction",
+          "dust",
+          "left",
+          "oversight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that can be nouns and verbs",
+        "items": [
+          "watch",
+          "plant",
+          "break",
+          "park"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Math/Measurement terms",
+        "items": [
+          "sum",
+          "angle",
+          "ratio",
+          "mean"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles focus on abstract word relationships and polysemy. Some items might tempt you to group them elsewhere, but they belong in their assigned groups."
+  }
+}

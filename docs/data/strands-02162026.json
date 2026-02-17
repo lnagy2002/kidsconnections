@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "FIRM",
+      "BEND",
+      "CAMP",
+      "COLD",
+      "HIDE",
+      "WARM",
+      "HILL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "BRIDGE",
+      "NARRATE",
+      "SILENCE",
+      "FESTIVE",
+      "SPIRITS",
+      "CIRCLE",
+      "JOURNAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTACLE",
+      "INTERFACE",
+      "TRANSLATE",
+      "COMPLICATE",
+      "GENERATE",
+      "FRIENDSHIP",
+      "FANTASTIC",
+      "ADVENTURE",
+      "EXPLORING"
+    ]
+  }
+}

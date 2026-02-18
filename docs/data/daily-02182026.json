@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02182026-E",
+    "generatedAt": "2026-02-18T03:22:32.534Z",
+    "groups": [
+      {
+        "name": "Wheeled Transport",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Story Pages",
+        "items": [
+          "book",
+          "magazine",
+          "newspaper",
+          "comics"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzles with concrete visuals."
+  },
+  "medium": {
+    "id": "02182026-M",
+    "generatedAt": "2026-02-18T03:22:32.534Z",
+    "groups": [
+      {
+        "name": "Book Bridges",
+        "items": [
+          "case",
+          "store",
+          "mark",
+          "note"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Prefix Pairs",
+        "items": [
+          "fall",
+          "color",
+          "proof",
+          "line"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Prefix Set",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Super Prefix Set",
+        "items": [
+          "hero",
+          "market",
+          "visor",
+          "natural"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations included: items that might seem to fit other groups, but each item has a unique best match."
+  },
+  "hard": {
+    "id": "02182026-H",
+    "generatedAt": "2026-02-18T03:22:32.534Z",
+    "groups": [
+      {
+        "name": "Dual-Use Words",
+        "items": [
+          "park",
+          "watch",
+          "train",
+          "play"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes with Several Meanings",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits with Color Names",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Different Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set emphasizes polysemy and pronunciation shifts; cross-over temptations are present so there is one correct grouping per item."
+  }
+}

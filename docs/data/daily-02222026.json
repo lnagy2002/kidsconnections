@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02222026-E",
+    "generatedAt": "2026-02-22T03:21:03.220Z",
+    "groups": [
+      {
+        "name": "Bright Yellow Friends",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "pineapple"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round and Round",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks to Sip",
+        "items": [
+          "water",
+          "milk",
+          "orange juice",
+          "lemonade"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzles for 02222026."
+  },
+  "medium": {
+    "id": "02222026-M",
+    "generatedAt": "2026-02-22T03:21:03.220Z",
+    "groups": [
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "kind",
+          "safe",
+          "true",
+          "popular"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 're-' to Form New Words",
+        "items": [
+          "do",
+          "use",
+          "play",
+          "make"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book‑Link Compounds",
+        "items": [
+          "cook",
+          "note",
+          "guest",
+          "story"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board-Game Word Set",
+        "items": [
+          "risk",
+          "clue",
+          "life",
+          "sorry"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level puzzles with light wordplay and cross-over temptations."
+  },
+  "hard": {
+    "id": "02222026-H",
+    "generatedAt": "2026-02-22T03:21:03.220Z",
+    "groups": [
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "gnome",
+          "knife",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Verb-Ready Animals",
+        "items": [
+          "yak",
+          "ram",
+          "duck",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits That Are Colors",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "lime"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Harder connections with abstract or multi-meaning twists."
+  }
+}

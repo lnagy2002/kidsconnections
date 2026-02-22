@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CAMPY",
+      "FLEET",
+      "HIVEY",
+      "NICE",
+      "RIDEY",
+      "WILDY",
+      "BUMPY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALANCE",
+      "CANDLE",
+      "FESTIVE",
+      "NURTURE",
+      "SPIRITS",
+      "TRICKLE",
+      "WILLOWS",
+      "WHISPER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "CIRCULATE",
+      "DREAMLIKE",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "TRANQUIL",
+      "WONDERED",
+      "FRIENDSHIP"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02232026-E",
+    "generatedAt": "2026-02-23T03:24:42.479Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "shirt",
+          "socks",
+          "hat",
+          "gloves"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "crayon",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzles for 02/23/2026. Easy level uses concrete, visual themes."
+  },
+  "medium": {
+    "id": "02232026-M",
+    "generatedAt": "2026-02-23T03:24:42.479Z",
+    "groups": [
+      {
+        "name": "Word Hybrids",
+        "items": [
+          "notebook",
+          "toothbrush",
+          "sunflower",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "bowl",
+          "mug",
+          "plate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Earthly Animals",
+        "items": [
+          "panda",
+          "tiger",
+          "turtle",
+          "frog"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Moving Around",
+        "items": [
+          "bike",
+          "car",
+          "bus",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: introduces simple wordplay with compound words and everyday items."
+  },
+  "hard": {
+    "id": "02232026-H",
+    "generatedAt": "2026-02-23T03:24:42.479Z",
+    "groups": [
+      {
+        "name": "Multi-Meaning Terms",
+        "items": [
+          "spring",
+          "bank",
+          "match",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Backwards Pairs",
+        "items": [
+          "live",
+          "evil",
+          "drawer",
+          "reward"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Hidden Sounds",
+        "items": [
+          "knight",
+          "wrist",
+          "comb",
+          "island"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Anagram Links",
+        "items": [
+          "listen",
+          "silent",
+          "angel",
+          "glean"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and polysemes. Includes temptations of cross-group fits."
+  }
+}

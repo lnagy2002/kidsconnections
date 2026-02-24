@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CLAMP",
+      "FABLE",
+      "JOLT",
+      "MISTY",
+      "SPARK",
+      "WOVEN",
+      "HIVEY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GATHER",
+      "PLANTY",
+      "SPIRAL",
+      "NURSED",
+      "FESTAL",
+      "BUNGLE",
+      "TWIRLER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "HARMONIZE",
+      "TRANSLATE",
+      "FRIENDSHIP",
+      "COMPLICATED",
+      "EXPLORING",
+      "MAGNETIC",
+      "GRADUATES",
+      "FANTASTIC"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02242026-E",
+    "generatedAt": "2026-02-24T03:19:26.523Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "strawberry",
+          "stop sign",
+          "rose",
+          "fire truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "moon",
+          "coin",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Flyers",
+        "items": [
+          "eagle",
+          "helicopter",
+          "airplane",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Foods",
+        "items": [
+          "pancake",
+          "bread",
+          "egg",
+          "cereal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles: group the four items by obvious, visual themes. Each group has four items; items are concrete and kid-friendly."
+  },
+  "medium": {
+    "id": "02242026-M",
+    "generatedAt": "2026-02-24T03:19:26.523Z",
+    "groups": [
+      {
+        "name": "Word-Form Pairs",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "toothbrush",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "brush",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "eraser",
+          "pencil",
+          "ruler",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay with simple themes. Be mindful of items that could fit a neighboring group but only fit one group properly."
+  },
+  "hard": {
+    "id": "02242026-H",
+    "generatedAt": "2026-02-24T03:19:26.523Z",
+    "groups": [
+      {
+        "name": "Polysemy Parade",
+        "items": [
+          "bat",
+          "bank",
+          "crane",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation Shifters",
+        "items": [
+          "bow",
+          "lead",
+          "tear",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Fruit Duo",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Verb-Noun Puzzles",
+        "items": [
+          "record",
+          "conduct",
+          "object",
+          "present"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles invite abstract thinking. Consider multiple meanings and even how words can be both nouns and verbs, or change how they sound."
+  }
+}

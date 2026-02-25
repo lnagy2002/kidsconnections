@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02252026-E",
+    "generatedAt": "2026-02-25T03:20:34.859Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "sun"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals in a Zoo",
+        "items": [
+          "lion",
+          "zebra",
+          "giraffe",
+          "panda"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shoes and Socks",
+        "items": [
+          "shoes",
+          "socks",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Dessert Favorites",
+        "items": [
+          "cookie",
+          "cake",
+          "brownie",
+          "cupcake"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh date 2026 puzzle: four clear, kid-friendly groups with visually identifiable items."
+  },
+  "medium": {
+    "id": "02252026-M",
+    "generatedAt": "2026-02-25T03:20:34.859Z",
+    "groups": [
+      {
+        "name": "Compound Word Bridges",
+        "items": [
+          "sunflower",
+          "butterfly",
+          "mailbox",
+          "bluebird"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun–Verb Pairs",
+        "items": [
+          "watch",
+          "cook",
+          "book",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Agent Nouns with -er Suffix",
+        "items": [
+          "teacher",
+          "baker",
+          "farmer",
+          "seller"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Zoo Companions",
+        "items": [
+          "koala",
+          "rhino",
+          "otter",
+          "sloth"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes a cross-over temptation: some items could seem to fit another group, but belong to their defined group."
+  },
+  "hard": {
+    "id": "02252026-H",
+    "generatedAt": "2026-02-25T03:20:34.859Z",
+    "groups": [
+      {
+        "name": "Heteronym Hints",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sun-Partner Words",
+        "items": [
+          "shine",
+          "rise",
+          "beam",
+          "set"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites with Prefix Un",
+        "items": [
+          "certain",
+          "known",
+          "kind",
+          "tidy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Four-Letter Animals",
+        "items": [
+          "wolf",
+          "bear",
+          "lynx",
+          "mole"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections with a few tempting misleads. All items are kid-friendly and unique to this difficulty."
+  }
+}

@@ -160,7 +160,9 @@
     "FLOW",
     "DINE",
     "CONE",
-    "RIDEY"
+    "RIDEY",
+    "CAND",
+    "FINE"
   ],
   "medium": [
     "MYSTIC",
@@ -399,6 +401,7 @@
     "FRIENDY",
     "SILENT",
     "FRIENDS",
-    "NARRATE"
+    "NARRATE",
+    "CRUNCHY"
   ]
 }

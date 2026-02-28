@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02282026-E",
+    "generatedAt": "2026-02-28T02:42:18.262Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "cherry",
+          "strawberry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Objects",
+        "items": [
+          "pencil",
+          "book",
+          "desk",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 02/28/2026 puzzle set for kid-friendly connections."
+  },
+  "medium": {
+    "id": "02282026-M",
+    "generatedAt": "2026-02-28T02:42:18.262Z",
+    "groups": [
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "socks"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "mouse",
+          "crane",
+          "frog",
+          "panda"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tech Tools",
+        "items": [
+          "keyboard",
+          "monitor",
+          "printer",
+          "router"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits & Veggies",
+        "items": [
+          "grape",
+          "lemon",
+          "carrot",
+          "orange"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes a cross-over temptation via polysemous word 'mouse' (animal vs computer mouse) to hint at alternative interpretations."
+  },
+  "hard": {
+    "id": "02282026-H",
+    "generatedAt": "2026-02-28T02:42:18.262Z",
+    "groups": [
+      {
+        "name": "Tiny Words",
+        "items": [
+          "wee",
+          "mini",
+          "teeny",
+          "small"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Snowy Words",
+        "items": [
+          "snowball",
+          "snowman",
+          "snowstorm",
+          "snowcone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Speed Words",
+        "items": [
+          "fast",
+          "quick",
+          "rapid",
+          "slow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body Parts",
+        "items": [
+          "arm",
+          "leg",
+          "ear",
+          "eye"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set emphasizes abstract connections and a few multi-meaning terms to challenge reasoning."
+  }
+}

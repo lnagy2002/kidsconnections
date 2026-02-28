@@ -162,7 +162,8 @@
     "CONE",
     "RIDEY",
     "CAND",
-    "FINE"
+    "FINE",
+    "FLAT"
   ],
   "medium": [
     "MYSTIC",
@@ -301,7 +302,8 @@
     "GLOBE",
     "SPARK",
     "FLARE",
-    "BASIC"
+    "BASIC",
+    "GRADUATE"
   ],
   "hard": [
     "EXEMPLARY",

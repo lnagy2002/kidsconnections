@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "LAMP",
+      "FARM",
+      "BUMP",
+      "HIDE",
+      "WILD",
+      "GLOW",
+      "PUSH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "SPLASH",
+      "TWIRL",
+      "FESTAL",
+      "GRANDY",
+      "BALLOO",
+      "PLANTY",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "GATHERD",
+      "SPIRITED",
+      "FANTASY",
+      "TRANQUIL",
+      "COMFORTS",
+      "FRIENDLY",
+      "HARMONIC",
+      "INNOVATE"
+    ]
+  }
+}

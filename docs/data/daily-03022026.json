@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03022026-E",
+    "generatedAt": "2026-03-02T03:15:08.090Z",
+    "groups": [
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Things",
+        "items": [
+          "kite",
+          "bird",
+          "plane",
+          "cloud"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits & Snacks",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with clear, concrete categories suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "03022026-M",
+    "generatedAt": "2026-03-02T03:15:08.090Z",
+    "groups": [
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "knife"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "frog"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ook Family Words",
+        "items": [
+          "book",
+          "cook",
+          "look",
+          "hook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ways to Travel",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay. Some items could seem to fit other groups at first glance (e.g., book, look, hook, cook)."
+  },
+  "hard": {
+    "id": "03022026-H",
+    "generatedAt": "2026-03-02T03:15:08.090Z",
+    "groups": [
+      {
+        "name": "Polysemy Pals",
+        "items": [
+          "crane",
+          "bank",
+          "bat",
+          "scale"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns & Verbs",
+        "items": [
+          "note",
+          "turn",
+          "move",
+          "break"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Over- Prefix Tricks",
+        "items": [
+          "coat",
+          "pass",
+          "load",
+          "sleep"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water Compounds",
+        "items": [
+          "melon",
+          "fall",
+          "proof",
+          "ski"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore abstract links and wordplay. Expect cross-over temptations (e.g., note could also belong to the 'Nouns & Verbs' group)."
+  }
+}

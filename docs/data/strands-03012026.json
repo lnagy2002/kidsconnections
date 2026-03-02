@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BARK",
+      "GLOW",
+      "WIND",
+      "CAVE",
+      "FIRM",
+      "BEND",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMS",
+      "GARNET",
+      "SPIRAL",
+      "PLANTS",
+      "GATHER",
+      "SPLASH",
+      "FESTAL",
+      "BALLOON"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "FRIENDY",
+      "HARMONIC",
+      "WONDERED",
+      "DREAMLIKE",
+      "TRANQUIL",
+      "HARMONY",
+      "COMFORTS",
+      "BALANCING"
+    ]
+  }
+}

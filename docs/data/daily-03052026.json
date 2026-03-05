@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03052026-E",
+    "generatedAt": "2026-03-05T03:13:28.871Z",
+    "groups": [
+      {
+        "name": "Tasty Treats",
+        "items": [
+          "apple",
+          "bread",
+          "carrot",
+          "icecream"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Friend Pals",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Reading Materials",
+        "items": [
+          "book",
+          "magazine",
+          "notebook",
+          "puzzle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Flyers",
+        "items": [
+          "sun",
+          "cloud",
+          "kite",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 03052026. four groups, each with four kid-friendly items."
+  },
+  "medium": {
+    "id": "03052026-M",
+    "generatedAt": "2026-03-05T03:13:28.871Z",
+    "groups": [
+      {
+        "name": "Ball-Word Group",
+        "items": [
+          "base",
+          "fire",
+          "soft",
+          "snow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Paper Pairings",
+        "items": [
+          "sand",
+          "tissue",
+          "rice",
+          "toilet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board Phrases",
+        "items": [
+          "surf",
+          "key",
+          "black",
+          "bill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book Prefixes",
+        "items": [
+          "guide",
+          "story",
+          "hand",
+          "text"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium challenge with light wordplay and two-word connections. cross-over temptations kept subtle."
+  },
+  "hard": {
+    "id": "03052026-H",
+    "generatedAt": "2026-03-05T03:13:28.871Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Prefix Forms",
+        "items": [
+          "do",
+          "play",
+          "make",
+          "use"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Time Units",
+        "items": [
+          "hour",
+          "minute",
+          "second",
+          "day"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Food Words",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "lime"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and multi-meaning words. designed for imaginative connections."
+  }
+}

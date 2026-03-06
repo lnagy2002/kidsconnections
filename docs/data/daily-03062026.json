@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03062026-E",
+    "generatedAt": "2026-03-06T03:12:17.710Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "orange",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "sock",
+          "scarf",
+          "belt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Finds",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "fork"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Objects",
+        "items": [
+          "sun",
+          "moon",
+          "cloud",
+          "star"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh set of kid-friendly connections for 03062026. Easy level uses concrete, visual groupings."
+  },
+  "medium": {
+    "id": "03062026-M",
+    "generatedAt": "2026-03-06T03:12:17.710Z",
+    "groups": [
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "glue",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "bark",
+          "note",
+          "drive",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compact Foods",
+        "items": [
+          "cereal",
+          "pudding",
+          "oatmeal",
+          "pasta"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Wheeled Travel",
+        "items": [
+          "bicycle",
+          "skateboard",
+          "scooter",
+          "subway"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: simple wordplay and common compounds. Include crossover temptations while keeping each item in one group."
+  },
+  "hard": {
+    "id": "03062026-H",
+    "generatedAt": "2026-03-06T03:12:17.710Z",
+    "groups": [
+      {
+        "name": "Animal-Word Dilemmas",
+        "items": [
+          "crane",
+          "seal",
+          "bat",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Puzzles",
+        "items": [
+          "lock",
+          "tie",
+          "fold",
+          "wrap"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronym Hopscotch",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Foods",
+        "items": [
+          "peach",
+          "lime",
+          "olive",
+          "sage"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and multi-meaning words. Includes tricky items that could tempt to fit other groups but belong to their own."
+  }
+}

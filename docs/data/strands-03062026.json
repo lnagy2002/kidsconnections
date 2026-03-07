@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "FLAT",
+      "CAVE",
+      "FARM",
+      "GLOW",
+      "HIVE",
+      "CLIP",
+      "SPIN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLASTS",
+      "CANDLE",
+      "FESTAL",
+      "HARMON",
+      "MAGNET",
+      "NURSED",
+      "GARNET",
+      "SILENT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "EXPLAIN",
+      "NARRATIVE",
+      "SPIRITED",
+      "TRANQUIL",
+      "GENERATE",
+      "ADVENTUR",
+      "FRIENDLY",
+      "FANTASTIC"
+    ]
+  }
+}

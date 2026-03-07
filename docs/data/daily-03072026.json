@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03072026-E",
+    "generatedAt": "2026-03-07T03:02:04.395Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "roller skates"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things to drink",
+        "items": [
+          "water",
+          "milk",
+          "lemonade",
+          "orange juice"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "kite",
+          "balloon",
+          "paper airplane"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, concrete easy puzzle with 4 visual themes. All items are unique."
+  },
+  "medium": {
+    "id": "03072026-M",
+    "generatedAt": "2026-03-07T03:02:04.395Z",
+    "groups": [
+      {
+        "name": "Two-meaning words (noun and verb)",
+        "items": [
+          "play",
+          "drive",
+          "ring",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearable items",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Seasons",
+        "items": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "chalk"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce simple wordplay and common items. Cross-over temptations exist; e.g., 'ring' could be worn, but belongs to the polyseme group."
+  },
+  "hard": {
+    "id": "03072026-H",
+    "generatedAt": "2026-03-07T03:02:04.395Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "lead",
+          "bow",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body gestures",
+        "items": [
+          "wave",
+          "nod",
+          "clap",
+          "wink"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-letter words",
+        "items": [
+          "knight",
+          "write",
+          "island",
+          "hour"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle relies on abstract connections and multiple meanings. Look for how the words behave in different senses and spellings."
+  }
+}

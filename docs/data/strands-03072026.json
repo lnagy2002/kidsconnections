@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "BUMP",
+      "CAVE",
+      "FAME",
+      "LAMP",
+      "WARM",
+      "MIST",
+      "BEND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "TRICKY",
+      "FESTAL",
+      "BALLOON",
+      "DREAMY",
+      "SPIRAL",
+      "BUNGLES",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORTING",
+      "FRIENDSHIP",
+      "HARMONIC",
+      "ADVENTUR",
+      "EXPLORING",
+      "MAGNETIC",
+      "TRANQUIL",
+      "BALANCEDLY",
+      "TRANSLATED"
+    ]
+  }
+}

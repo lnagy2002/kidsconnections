@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVEY",
+      "BUMPY",
+      "FLEET",
+      "HAPPY",
+      "WILDY",
+      "FABLE",
+      "CAGEY",
+      "GLOBE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARNET",
+      "SPIRAL",
+      "BUNGLE",
+      "FESTAL",
+      "TRICKY",
+      "DREAMY",
+      "PLANTS",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRADITION",
+      "SPIRITED",
+      "FANTASTIC",
+      "COMPLICATE",
+      "EXPLORING",
+      "GENERATE",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "FRIENDSHIP"
+    ]
+  }
+}

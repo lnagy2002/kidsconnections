@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03092026-E",
+    "generatedAt": "2026-03-09T03:19:14.375Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Have",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "pancakes"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh kid-friendly puzzle set for 03092026. Each group contains four concrete items suitable for grades 2-6. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "03092026-M",
+    "generatedAt": "2026-03-09T03:19:14.375Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "keyboard",
+          "raincoat",
+          "sunflower",
+          "snowman"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verbs with Same Spelling",
+        "items": [
+          "play",
+          "match",
+          "watch",
+          "drill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Agent-Noun Builders",
+        "items": [
+          "baker",
+          "player",
+          "rider",
+          "teacher"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size Descriptors",
+        "items": [
+          "tiny",
+          "large",
+          "small",
+          "huge"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and familiar compound forms. Includes some items that could hint at other groups to encourage careful grouping."
+  },
+  "hard": {
+    "id": "03092026-H",
+    "generatedAt": "2026-03-09T03:19:14.375Z",
+    "groups": [
+      {
+        "name": "Polysemes (Many Meanings)",
+        "items": [
+          "seal",
+          "spring",
+          "bank",
+          "bark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciation)",
+        "items": [
+          "read",
+          "wind",
+          "lead",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Prefix-Un- Pairs",
+        "items": [
+          "do",
+          "fold",
+          "tie",
+          "lock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sounds Like Letters",
+        "items": [
+          "bee",
+          "sea",
+          "pea",
+          "cue"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and language tricks. Each item is unique and chosen to be approachable for older elementary grades while still challenging."
+  }
+}

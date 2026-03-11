@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03112026-E",
+    "generatedAt": "2026-03-11T03:09:49.725Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Fashion",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Loud Classroom Objects",
+        "items": [
+          "drums",
+          "piano",
+          "trumpet",
+          "whistle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Desk Essentials",
+        "items": [
+          "pencil",
+          "book",
+          "eraser",
+          "globe"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles: four groups of four concrete, visual connections."
+  },
+  "medium": {
+    "id": "03112026-M",
+    "generatedAt": "2026-03-11T03:09:49.725Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "keyboard",
+          "mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun/Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "plant",
+          "train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "knight",
+          "flower",
+          "sea",
+          "be"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Places",
+        "items": [
+          "library",
+          "cafeteria",
+          "playground",
+          "gym"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptations like similar-looking groups that only one item truly fits."
+  },
+  "hard": {
+    "id": "03112026-H",
+    "generatedAt": "2026-03-11T03:09:49.725Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Dual-Meaning Words",
+        "items": [
+          "bear",
+          "spring",
+          "bank",
+          "chair"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Over- Prefix Pairs",
+        "items": [
+          "look",
+          "turn",
+          "cast",
+          "hang"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Foods",
+        "items": [
+          "orange",
+          "peach",
+          "mint",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Terms",
+        "items": [
+          "note",
+          "rest",
+          "tone",
+          "sharp"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push abstract connections and multiple-meaning words."
+  }
+}

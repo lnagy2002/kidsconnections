@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03132026-E",
+    "generatedAt": "2026-03-13T03:12:57.518Z",
+    "groups": [
+      {
+        "name": "Transport modes",
+        "items": [
+          "bike",
+          "bus",
+          "car",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast foods",
+        "items": [
+          "cereal",
+          "eggs",
+          "toast",
+          "bacon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common pets",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete themes. Each group has four items."
+  },
+  "medium": {
+    "id": "03132026-M",
+    "generatedAt": "2026-03-13T03:12:57.518Z",
+    "groups": [
+      {
+        "name": "Sea life",
+        "items": [
+          "dolphin",
+          "whale",
+          "otter",
+          "crab"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sticky things",
+        "items": [
+          "glue",
+          "honey",
+          "syrup",
+          "molasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "People who perform roles",
+        "items": [
+          "teacher",
+          "baker",
+          "pilot",
+          "artist"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and overlap options. Some items (like orange) have multiple meanings to tempt misgrouping."
+  },
+  "hard": {
+    "id": "03132026-H",
+    "generatedAt": "2026-03-13T03:12:57.518Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "paint",
+          "brush",
+          "draw",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with silent letters",
+        "items": [
+          "knife",
+          "knob",
+          "wrist",
+          "isle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Reversible-word pairs",
+        "items": [
+          "drawer",
+          "stressed",
+          "pots",
+          "live"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles feature abstract connections and multi-meaning words. Some items are classic reversible-word examples to spark thinking."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "LIFT",
+      "FIRM",
+      "CANE",
+      "CAVE",
+      "BUMP",
+      "CURL",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDOR",
+      "FESTAL",
+      "NURSED",
+      "SPLASH",
+      "GRANDY",
+      "TWIRLER",
+      "BUNGLES"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "WONDERFUL",
+      "HARMONIZE",
+      "EXPLORING",
+      "TRANQUIL",
+      "FRIENDSHIP",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "BALANCEDLY"
+    ]
+  }
+}

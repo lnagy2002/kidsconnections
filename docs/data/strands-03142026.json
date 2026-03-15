@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "FABLE",
+      "HAPPY",
+      "JOLLY",
+      "MERRY",
+      "PLUMB",
+      "SWEEP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CANDOR",
+      "GARNISH",
+      "SPIRITS",
+      "TWIRLED",
+      "FESTALY",
+      "CRUNCHY",
+      "NURTURE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCING",
+      "DREAMLIKE",
+      "GATHERING",
+      "TRANSLATED",
+      "EXPLORING",
+      "MAGNETIC",
+      "INNOVATED",
+      "FRIENDSHIP",
+      "COMPLICATE"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03162026-E",
+    "generatedAt": "2026-03-16T03:42:09.223Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-Legged Friends",
+        "items": [
+          "dog",
+          "cat",
+          "bear",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Holdable Objects",
+        "items": [
+          "book",
+          "ball",
+          "pen",
+          "shoe"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 03162026 easy puzzle set. Visual, concrete themes."
+  },
+  "medium": {
+    "id": "03162026-M",
+    "generatedAt": "2026-03-16T03:42:09.223Z",
+    "groups": [
+      {
+        "name": "Long Word Combos",
+        "items": [
+          "toothbrush",
+          "basketball",
+          "raincoat",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Irregular Plurals",
+        "items": [
+          "child",
+          "mouse",
+          "person",
+          "ox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "park",
+          "light",
+          "watch",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites with un-",
+        "items": [
+          "known",
+          "seen",
+          "happy",
+          "clear"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium includes gentle wordplay and common compounds."
+  },
+  "hard": {
+    "id": "03162026-H",
+    "generatedAt": "2026-03-16T03:42:09.223Z",
+    "groups": [
+      {
+        "name": "Stone Compounds",
+        "items": [
+          "milestone",
+          "grindstone",
+          "cornerstone",
+          "gemstone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Agent-Noun Creators (-er)",
+        "items": [
+          "baker",
+          "driver",
+          "teacher",
+          "player"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "match",
+          "bark",
+          "dress",
+          "wash"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes With Distinct Senses",
+        "items": [
+          "ring",
+          "note",
+          "press",
+          "seal"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level explores abstract word senses and word-building ideas."
+  }
+}

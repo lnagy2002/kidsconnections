@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "FLEW",
+      "BUMP",
+      "LIFT",
+      "GLOW",
+      "HIDE",
+      "SAND",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "FESTAL",
+      "TWILIGHT",
+      "SPIRITS",
+      "HARMON",
+      "PLANTS",
+      "BALANCE",
+      "GARNISH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "MYSTIFY",
+      "TRANSLATE",
+      "SPECTACLE",
+      "COMFORTING",
+      "GENERATE",
+      "ADVENTURE",
+      "IMAGINARY",
+      "FANTASTIC"
+    ]
+  }
+}

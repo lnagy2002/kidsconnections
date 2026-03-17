@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03172026-E",
+    "generatedAt": "2026-03-17T03:17:47.034Z",
+    "groups": [
+      {
+        "name": "Red Objects You Recognize",
+        "items": [
+          "apple",
+          "strawberry",
+          "fire truck",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "crayon",
+          "pen",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Pals",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Supplies",
+        "items": [
+          "notebook",
+          "glue stick",
+          "ruler",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 03172026 easy puzzle set. All items are new and kid-friendly."
+  },
+  "medium": {
+    "id": "03172026-M",
+    "generatedAt": "2026-03-17T03:17:47.034Z",
+    "groups": [
+      {
+        "name": "Two-Word Compound Concepts",
+        "items": [
+          "raincoat",
+          "toothbrush",
+          "bookcase",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "match",
+          "bat",
+          "park",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Popular Team Sports",
+        "items": [
+          "baseball",
+          "basketball",
+          "football",
+          "hockey"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Scale Words",
+        "items": [
+          "big",
+          "small",
+          "tiny",
+          "huge"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 03172026 medium puzzle set. Mindful wordplay with a kid-friendly tilt."
+  },
+  "hard": {
+    "id": "03172026-H",
+    "generatedAt": "2026-03-17T03:17:47.034Z",
+    "groups": [
+      {
+        "name": "Verbs as Nouns Too",
+        "items": [
+          "play",
+          "train",
+          "rock",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sun-Word Starters",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "shine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Light-Word Roots",
+        "items": [
+          "flash",
+          "spot",
+          "moon",
+          "gas"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms in Everyday Talk",
+        "items": [
+          "dust",
+          "clip",
+          "sanction",
+          "left"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 03172026 hard puzzle set. Abstract connections with kid-friendly examples."
+  }
+}

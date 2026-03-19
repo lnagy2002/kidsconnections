@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03192026-E",
+    "generatedAt": "2026-03-19T03:25:09.615Z",
+    "groups": [
+      {
+        "name": "Shapes Parade",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Guests",
+        "items": [
+          "lion",
+          "giraffe",
+          "penguin",
+          "elephant"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Props",
+        "items": [
+          "plate",
+          "pan",
+          "spoon",
+          "spatula"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Greener Things",
+        "items": [
+          "grass",
+          "lettuce",
+          "mint",
+          "broccoli"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level Connections puzzle for 03192026. Each group has four items sharing a clear, concrete theme."
+  },
+  "medium": {
+    "id": "03192026-M",
+    "generatedAt": "2026-03-19T03:25:09.615Z",
+    "groups": [
+      {
+        "name": "House-Word Bridge",
+        "items": [
+          "tree",
+          "green",
+          "play",
+          "store"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Suffix-derivative Jobs",
+        "items": [
+          "bake",
+          "write",
+          "run",
+          "sing"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "N/V Pairs",
+        "items": [
+          "park",
+          "plant",
+          "rock",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Family",
+        "items": [
+          "fly",
+          "man",
+          "arm",
+          "work"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium-level puzzles with light wordplay and occasional tempting overlaps that have a single correct grouping."
+  },
+  "hard": {
+    "id": "03192026-H",
+    "generatedAt": "2026-03-19T03:25:09.615Z",
+    "groups": [
+      {
+        "name": "Under-words",
+        "items": [
+          "stand",
+          "water",
+          "estimate",
+          "dog"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound-alike Pairs",
+        "items": [
+          "knight",
+          "sea",
+          "bass",
+          "cell"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Rain-Word Set",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "check"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation Twists",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard-level puzzles with abstract connections and tricky word relationships suitable for older kids."
+  }
+}

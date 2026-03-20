@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CLIP",
+      "FIRM",
+      "GLOW",
+      "LIFT",
+      "MIST",
+      "WARM",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GLIDER",
+      "HARMON",
+      "PLANTS",
+      "TRICKY",
+      "JOURNAL",
+      "NURSED",
+      "SIMPLEX"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "COMFORTS",
+      "SPIRITED",
+      "FASCINATE",
+      "GENERATE",
+      "TRANQUIL",
+      "FRIENDLY",
+      "INNOVATIVE",
+      "DREAMLIKE"
+    ]
+  }
+}

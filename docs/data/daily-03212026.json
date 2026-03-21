@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03212026-E",
+    "generatedAt": "2026-03-21T03:06:29.707Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals with Stripes",
+        "items": [
+          "zebra",
+          "tiger",
+          "bee",
+          "candycane"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy connections puzzle ready for a quick solve."
+  },
+  "medium": {
+    "id": "03212026-M",
+    "generatedAt": "2026-03-21T03:06:29.707Z",
+    "groups": [
+      {
+        "name": "Sun Companions",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Waterword Partners",
+        "items": [
+          "melon",
+          "proof",
+          "fall",
+          "color"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Phrases",
+        "items": [
+          "alarm",
+          "place",
+          "fly",
+          "drill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Prefix Friends",
+        "items": [
+          "bow",
+          "coat",
+          "storm",
+          "check"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and compound-word ideas with easy-to-spot connections. Expect a few tempting misfits that only fit one group."
+  },
+  "hard": {
+    "id": "03212026-H",
+    "generatedAt": "2026-03-21T03:06:29.707Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Roles",
+        "items": [
+          "plant",
+          "spring",
+          "watch",
+          "play"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same Spelling, Different Pronunciations",
+        "items": [
+          "bass",
+          "wind",
+          "lead",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitalization Shifts",
+        "items": [
+          "march",
+          "polish",
+          "may",
+          "august"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Letters-as-Wacts",
+        "items": [
+          "see",
+          "are",
+          "you",
+          "why"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level with abstract connections and polysemy. Read into each item’s multiple meanings and how capitalization can change meaning."
+  }
+}

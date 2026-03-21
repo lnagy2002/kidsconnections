@@ -309,7 +309,10 @@
     "BASIC",
     "GRADUATE",
     "BLASTS",
-    "CRISPY"
+    "CRISPY",
+    "BAGGED",
+    "TWIRLY",
+    "BLUSHY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -413,6 +416,8 @@
     "CRUNCHY",
     "GLITTERY",
     "EXPLAINED",
-    "MYSTIFY"
+    "MYSTIFY",
+    "GLITTER",
+    "SPECTRAL"
   ]
 }

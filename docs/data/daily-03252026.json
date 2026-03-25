@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03252026-E",
+    "generatedAt": "2026-03-25T03:22:52.201Z",
+    "groups": [
+      {
+        "name": "Things you sit on",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets kept as companions",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in the kitchen",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 03252026 puzzle set. 4 groups, 4 items each. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "03252026-M",
+    "generatedAt": "2026-03-25T03:22:52.201Z",
+    "groups": [
+      {
+        "name": "Two-part words (compound forms)",
+        "items": [
+          "toothpaste",
+          "bookshelf",
+          "backpack",
+          "sunlight"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School supplies",
+        "items": [
+          "eraser",
+          "notebook",
+          "ruler",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Yellow things",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "butter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things you ride or move on",
+        "items": [
+          "car",
+          "bike",
+          "scooter",
+          "skateboard"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set includes occasional cross-over temptations (e.g., sunlight could seem part of 'Yellow things')."
+  },
+  "hard": {
+    "id": "03252026-H",
+    "generatedAt": "2026-03-25T03:22:52.201Z",
+    "groups": [
+      {
+        "name": "Words that act as both a noun and a verb",
+        "items": [
+          "park",
+          "match",
+          "plant",
+          "light"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Units of measurement",
+        "items": [
+          "meter",
+          "gram",
+          "inch",
+          "liter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Places in a town",
+        "items": [
+          "store",
+          "library",
+          "bakery",
+          "hospital"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Farm animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections. Cross-over temptations exist (e.g., 'park' could fit as a place or a verb)."
+  }
+}

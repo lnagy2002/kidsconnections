@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03262026-E",
+    "generatedAt": "2026-03-26T03:35:47.845Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Hopping Animals",
+        "items": [
+          "frog",
+          "rabbit",
+          "kangaroo",
+          "wallaby"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy connections using concrete visual themes."
+  },
+  "medium": {
+    "id": "03262026-M",
+    "generatedAt": "2026-03-26T03:35:47.845Z",
+    "groups": [
+      {
+        "name": "Sun-Compound Bases",
+        "items": [
+          "flower",
+          "shine",
+          "rise",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Compound Bases",
+        "items": [
+          "melon",
+          "fall",
+          "bottle",
+          "proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemes (Noun/Verb/More)",
+        "items": [
+          "bark",
+          "park",
+          "watch",
+          "rock"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "orange"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: some words could seem to fit another group, but each item truly belongs to its listed group."
+  },
+  "hard": {
+    "id": "03262026-H",
+    "generatedAt": "2026-03-26T03:35:47.845Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Multi-Meaning Words (different domains)",
+        "items": [
+          "current",
+          "bank",
+          "crane",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Irregular Plurals",
+        "items": [
+          "man",
+          "mouse",
+          "tooth",
+          "foot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores abstract language ideas. Some items may tug at multiple connections, but each item has a single correct group."
+  }
+}

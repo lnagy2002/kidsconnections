@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAMP",
+      "FIRM",
+      "HIVE",
+      "LIFT",
+      "MIST",
+      "WILD",
+      "CAGE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "GARDEN",
+      "FESTAL",
+      "SPIRITS",
+      "TROPHY",
+      "SIMPLE",
+      "GARNISH",
+      "DREAMS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "ADVENTURE",
+      "FRIENDLY",
+      "SPIRALING",
+      "BALANCING",
+      "GENERATE",
+      "COMFORTING",
+      "FANTASTIC",
+      "INNOVATIVE"
+    ]
+  }
+}

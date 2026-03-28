@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FARM",
+      "BUMP",
+      "HIDE",
+      "CAGE",
+      "LUMP",
+      "CURL",
+      "BAND",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "PLANTS",
+      "DREAMY",
+      "CRUNCH",
+      "FESTAL",
+      "SPARKY",
+      "GLIDER",
+      "TWIRLS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "FANTASTIC",
+      "GRADUATES",
+      "HARMONIOUS",
+      "SPECTACULAR",
+      "INNOVATION",
+      "COMPLICATED",
+      "GENERATE",
+      "TRANSLATE"
+    ]
+  }
+}

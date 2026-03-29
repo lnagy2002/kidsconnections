@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FLEW",
+      "CANE",
+      "BUMP",
+      "GLOW",
+      "FIRM",
+      "LAMP",
+      "COLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "FESTIVE",
+      "FESTALY",
+      "GARNISH",
+      "CANDOR",
+      "SPARKLE",
+      "WILLOW",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "NARRATIVE",
+      "TRANSLATE",
+      "FANTASTIC",
+      "HARMONIOUS",
+      "COMFORTING",
+      "GENERATE",
+      "DISCOVER",
+      "FRIENDSHIP"
+    ]
+  }
+}

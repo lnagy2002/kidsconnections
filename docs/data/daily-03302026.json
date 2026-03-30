@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03302026-E",
+    "generatedAt": "2026-03-30T03:46:42.302Z",
+    "groups": [
+      {
+        "name": "Circular Items",
+        "items": [
+          "coin",
+          "button",
+          "wheel",
+          "drum"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Lovely Animals",
+        "items": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "gloves",
+          "scarf",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "mixer",
+          "spoon",
+          "bowl",
+          "pan"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual categories. Each group has four items that fit a simple theme."
+  },
+  "medium": {
+    "id": "03302026-M",
+    "generatedAt": "2026-03-30T03:46:42.302Z",
+    "groups": [
+      {
+        "name": "Word Jobs",
+        "items": [
+          "bake",
+          "write",
+          "paint",
+          "teach"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball-Word Combos",
+        "items": [
+          "base",
+          "meat",
+          "snow",
+          "basket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Phrases",
+        "items": [
+          "bottle",
+          "proof",
+          "cycle",
+          "gate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Measurement Units",
+        "items": [
+          "inch",
+          "foot",
+          "yard",
+          "mile"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and simple word pairings. Some items could seem to belong to another group at first glance."
+  },
+  "hard": {
+    "id": "03302026-H",
+    "generatedAt": "2026-03-30T03:46:42.302Z",
+    "groups": [
+      {
+        "name": "Un- Prefix Set",
+        "items": [
+          "known",
+          "pleasant",
+          "lucky",
+          "certain"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Book Companions",
+        "items": [
+          "guide",
+          "guest",
+          "field",
+          "check"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Prefix Verbs",
+        "items": [
+          "play",
+          "do",
+          "build",
+          "use"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Related Objects",
+        "items": [
+          "alarm",
+          "fly",
+          "engine",
+          "truck"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles mix prefix-based wordplay and common compound words. Look for words that form new ones with prefixes or common suffixes. Some items may seem like they fit another group at a glance, but each item belongs to exactly one correct group."
+  }
+}

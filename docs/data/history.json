@@ -167,7 +167,8 @@
     "FAME",
     "WAVEY",
     "CLIMB",
-    "CLEAN"
+    "CLEAN",
+    "PLAY"
   ],
   "medium": [
     "MYSTIC",
@@ -313,7 +314,10 @@
     "BAGGED",
     "TWIRLY",
     "BLUSHY",
-    "CANOPY"
+    "CANOPY",
+    "BAGGAGE",
+    "FLIGHT",
+    "HEALTHY"
   ],
   "hard": [
     "EXEMPLARY",

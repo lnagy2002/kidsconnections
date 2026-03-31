@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03312026-E",
+    "generatedAt": "2026-03-31T03:37:37.456Z",
+    "groups": [
+      {
+        "name": "Feetwear Fun",
+        "items": [
+          "SOCKS",
+          "SHOES",
+          "SANDALS",
+          "BOOTS"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that are yellow",
+        "items": [
+          "BANANA",
+          "LEMON",
+          "SUN",
+          "MUSTARD"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that roll",
+        "items": [
+          "CAR",
+          "DICE",
+          "WHEEL",
+          "BALL"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets at home",
+        "items": [
+          "DOG",
+          "CAT",
+          "FISH",
+          "BIRD"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 03312026."
+  },
+  "medium": {
+    "id": "03312026-M",
+    "generatedAt": "2026-03-31T03:37:37.456Z",
+    "groups": [
+      {
+        "name": "Add -er to make a person",
+        "items": [
+          "RUN",
+          "WALK",
+          "SING",
+          "READ"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book pairings",
+        "items": [
+          "NOTE",
+          "COOK",
+          "STORY",
+          "TEXT"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Under- prefix works",
+        "items": [
+          "STAND",
+          "TAKE",
+          "LINE",
+          "MINE"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-related words",
+        "items": [
+          "FALL",
+          "MELON",
+          "COLOR",
+          "PARK"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle set for 03312026."
+  },
+  "hard": {
+    "id": "03312026-H",
+    "generatedAt": "2026-03-31T03:37:37.456Z",
+    "groups": [
+      {
+        "name": "Words with two pronunciations",
+        "items": [
+          "WIND",
+          "LEAD",
+          "BOW",
+          "LIVE"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mirror-forms (palindromic roots)",
+        "items": [
+          "LEVEL",
+          "MADAM",
+          "CIVIC",
+          "RADAR"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite meanings depending on context",
+        "items": [
+          "SANCTION",
+          "DUST",
+          "SEAL",
+          "OVERLOOK"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Make a job from a verb",
+        "items": [
+          "TEACH",
+          "BAKE",
+          "DRIVE",
+          "WRITE"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle set for 03312026."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04012026-E",
+    "generatedAt": "2026-04-01T03:49:33.193Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "tomato",
+          "strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "wheel",
+          "bicycle",
+          "car",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Feet",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets People Have",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 04012026 easy puzzle set with concrete categories."
+  },
+  "medium": {
+    "id": "04012026-M",
+    "generatedAt": "2026-04-01T03:49:33.193Z",
+    "groups": [
+      {
+        "name": "Fused Word Compounds",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "basketball",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "spring",
+          "bank",
+          "light",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Also Do Things",
+        "items": [
+          "run",
+          "plant",
+          "fish",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes You Can Draw",
+        "items": [
+          "circle",
+          "cube",
+          "cone",
+          "pyramid"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes cross-over temptations; some words can seem to fit more than one group."
+  },
+  "hard": {
+    "id": "04012026-H",
+    "generatedAt": "2026-04-01T03:49:33.193Z",
+    "groups": [
+      {
+        "name": "Same Spelling, Different Sayings",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Move It!",
+        "items": [
+          "glide",
+          "sprint",
+          "dash",
+          "skip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Trees of the Forest",
+        "items": [
+          "oak",
+          "pine",
+          "elm",
+          "birch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Notes, Tempo, Beat, and Chord",
+        "items": [
+          "note",
+          "tempo",
+          "beat",
+          "chord"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set features abstract links and heteronyms; some items may tempt misplacement to other groups."
+  }
+}

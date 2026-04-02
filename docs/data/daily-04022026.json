@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04022026-E",
+    "generatedAt": "2026-04-02T03:31:03.733Z",
+    "groups": [
+      {
+        "name": "Things you ride",
+        "items": [
+          "bike",
+          "skateboard",
+          "scooter",
+          "tricycle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright yellow foods",
+        "items": [
+          "banana",
+          "lemon",
+          "pineapple",
+          "corn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Instruments to play",
+        "items": [
+          "drum",
+          "piano",
+          "guitar",
+          "flute"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set for 04022026."
+  },
+  "medium": {
+    "id": "04022026-M",
+    "generatedAt": "2026-04-02T03:31:03.733Z",
+    "groups": [
+      {
+        "name": "Storm compounds",
+        "items": [
+          "sand",
+          "snow",
+          "rain",
+          "hail"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-word pairings",
+        "items": [
+          "note",
+          "story",
+          "work",
+          "text"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "House partners",
+        "items": [
+          "play",
+          "tree",
+          "farm",
+          "green"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits that are colors",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Slightly trickier wordplay with cross-over temptations."
+  },
+  "hard": {
+    "id": "04022026-H",
+    "generatedAt": "2026-04-02T03:31:03.733Z",
+    "groups": [
+      {
+        "name": "Words with multiple pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-prefix pairings",
+        "items": [
+          "alarm",
+          "fighter",
+          "truck",
+          "camp"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Star-prefix compounds",
+        "items": [
+          "fish",
+          "ship",
+          "light",
+          "dust"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Rain-prefix words",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "water"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections and polysemes challenge."
+  }
+}

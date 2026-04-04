@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BEND",
+      "FIRM",
+      "GLOW",
+      "CAMP",
+      "HIDE",
+      "BUMP",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "NURSED",
+      "HARMON",
+      "TRICKY",
+      "CANDLE",
+      "SPIRAL",
+      "GARNET",
+      "PLANTS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULATE",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "GENERATION",
+      "HARMONIC",
+      "INNOVATIVE",
+      "ACROBATICS",
+      "SPIRITED"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04052026-E",
+    "generatedAt": "2026-04-05T03:42:06.192Z",
+    "groups": [
+      {
+        "name": "Things That Are Red",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "radish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Vehicles",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks to Sip",
+        "items": [
+          "water",
+          "milk",
+          "juice",
+          "lemonade"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle: four concrete groups with familiar items."
+  },
+  "medium": {
+    "id": "04052026-M",
+    "generatedAt": "2026-04-05T03:42:06.192Z",
+    "groups": [
+      {
+        "name": "Two-Word Compound Forms",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "keyboard",
+          "firefly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather and Sky",
+        "items": [
+          "cloud",
+          "rain",
+          "snow",
+          "wind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun and Verb Pairs (Same Spelling)",
+        "items": [
+          "watch",
+          "plant",
+          "chair",
+          "drive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Agent-Noun Forms with -er",
+        "items": [
+          "paint",
+          "write",
+          "build",
+          "cook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include light cross-over temptations: some words could seem to fit other groups but belong to the listed themes."
+  },
+  "hard": {
+    "id": "04052026-H",
+    "generatedAt": "2026-04-05T03:42:06.192Z",
+    "groups": [
+      {
+        "name": "Polysemes with Multiple Meanings",
+        "items": [
+          "bat",
+          "lead",
+          "bank",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "read",
+          "bow",
+          "tear",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geometry Terms",
+        "items": [
+          "circle",
+          "angle",
+          "line",
+          "area"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs (Common Bases)",
+        "items": [
+          "check",
+          "mark",
+          "note",
+          "vote"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multi-meaning words. Some items may tempt to fit other groups, but each item belongs to exactly one group."
+  }
+}

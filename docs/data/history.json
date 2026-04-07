@@ -170,7 +170,9 @@
     "CLEAN",
     "PLAY",
     "CLOVE",
-    "TIDE"
+    "TIDE",
+    "FUME",
+    "WAND"
   ],
   "medium": [
     "MYSTIC",
@@ -319,7 +321,8 @@
     "CANOPY",
     "BAGGAGE",
     "FLIGHT",
-    "HEALTHY"
+    "HEALTHY",
+    "CLIMB"
   ],
   "hard": [
     "EXEMPLARY",

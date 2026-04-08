@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04082026-E",
+    "generatedAt": "2026-04-08T03:38:17.777Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen and Tableware",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "swing",
+          "slide"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 4x4 easy puzzle sets with concrete, kid-friendly themes."
+  },
+  "medium": {
+    "id": "04082026-M",
+    "generatedAt": "2026-04-08T03:38:17.777Z",
+    "groups": [
+      {
+        "name": "Book-Group Words",
+        "items": [
+          "notebook",
+          "cookbook",
+          "textbook",
+          "bookmark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball-Plus Words",
+        "items": [
+          "fire",
+          "snow",
+          "meat",
+          "basket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Subjects",
+        "items": [
+          "math",
+          "science",
+          "art",
+          "history"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shape Names",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and compound-word connections. Some groups may tempt you to fit items elsewhere, but each item belongs to one group."
+  },
+  "hard": {
+    "id": "04082026-H",
+    "generatedAt": "2026-04-08T03:38:17.777Z",
+    "groups": [
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "read",
+          "lead",
+          "wind",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sun-Forming Phrases",
+        "items": [
+          "bath",
+          "tan",
+          "light",
+          "flower"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "sanction",
+          "dust",
+          "left",
+          "clip"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push toward abstract links and polysemes. Look for words that secretly fit only one group, even if they seem ready for another."
+  }
+}

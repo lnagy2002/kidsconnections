@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04092026-E",
+    "generatedAt": "2026-04-09T03:33:54.807Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "stop sign",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "goldfish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "school bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Simple, bright categories designed for young learners."
+  },
+  "medium": {
+    "id": "04092026-M",
+    "generatedAt": "2026-04-09T03:33:54.807Z",
+    "groups": [
+      {
+        "name": "Jobs formed with -er",
+        "items": [
+          "teach",
+          "paint",
+          "draw",
+          "code"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "happy",
+          "certain",
+          "clear",
+          "fair"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board Compounds",
+        "items": [
+          "snow",
+          "key",
+          "surf",
+          "black"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Actions",
+        "items": [
+          "sit",
+          "eat",
+          "drink",
+          "sleep"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations: some words could seem to fit other groups, but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "04092026-H",
+    "generatedAt": "2026-04-09T03:33:54.807Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "bank",
+          "spring",
+          "note",
+          "train"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color+Fruit Names",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under-Word Pairs",
+        "items": [
+          "stand",
+          "ground",
+          "wear",
+          "water"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Terms",
+        "items": [
+          "tone",
+          "scale",
+          "beat",
+          "chord"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections require careful thinking about multiple meanings and word roles."
+  }
+}

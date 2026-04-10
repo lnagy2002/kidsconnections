@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04102026-E",
+    "generatedAt": "2026-04-10T03:46:13.548Z",
+    "groups": [
+      {
+        "name": "Round-Shaped Objects",
+        "items": [
+          "apple",
+          "coin",
+          "ball",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Yellow Foods",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "butter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things People Wear",
+        "items": [
+          "hat",
+          "shirt",
+          "gloves",
+          "socks"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Items in a Classroom",
+        "items": [
+          "desk",
+          "chalk",
+          "board",
+          "map"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with four concrete themes."
+  },
+  "medium": {
+    "id": "04102026-M",
+    "generatedAt": "2026-04-10T03:46:13.548Z",
+    "groups": [
+      {
+        "name": "Fire-Word Phrases",
+        "items": [
+          "fly",
+          "truck",
+          "place",
+          "works"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Phrases",
+        "items": [
+          "fall",
+          "bottle",
+          "park",
+          "color"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Simple Verbs as Nouns/Verbs",
+        "items": [
+          "paint",
+          "drive",
+          "cook",
+          "read"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Food Friends",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use light wordplay with easy compounds; some items may tempt you to place them elsewhere, but each belongs to its own group."
+  },
+  "hard": {
+    "id": "04102026-H",
+    "generatedAt": "2026-04-10T03:46:13.548Z",
+    "groups": [
+      {
+        "name": "Star-Pair Words",
+        "items": [
+          "fish",
+          "ship",
+          "light",
+          "dust"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Pairs",
+        "items": [
+          "like",
+          "tie",
+          "fold",
+          "lock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Tool Ambiguities",
+        "items": [
+          "crane",
+          "bat",
+          "mouse",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound-Linked Phrases",
+        "items": [
+          "wave",
+          "track",
+          "mind",
+          "barrier"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on abstract connections and multi-meaning words; watch for tempting misfits that belong to another group."
+  }
+}

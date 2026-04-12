@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMP",
+      "WILD",
+      "LIFT",
+      "FIRM",
+      "COLD",
+      "HIDE",
+      "MIST",
+      "GLOW"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARNET",
+      "PLANTS",
+      "FESTAL",
+      "BALLOO",
+      "SPIRAL",
+      "HARMON",
+      "TWIRLS",
+      "SPLASH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "EXPLORING",
+      "INNOVATIVE",
+      "TRIANGULAR",
+      "FANTASTIC",
+      "MAGNETIC",
+      "COMFORTING",
+      "GENERATE",
+      "BALANCING"
+    ]
+  }
+}

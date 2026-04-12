@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04122026-E",
+    "generatedAt": "2026-04-12T03:50:15.107Z",
+    "groups": [
+      {
+        "name": "Red things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "stop sign"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Skyward things",
+        "items": [
+          "sun",
+          "cloud",
+          "airplane",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast favorites",
+        "items": [
+          "oatmeal",
+          "pancake",
+          "cereal",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "sock",
+          "shoe",
+          "sandal",
+          "boot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzles with concrete, visual themes."
+  },
+  "medium": {
+    "id": "04122026-M",
+    "generatedAt": "2026-04-12T03:50:15.107Z",
+    "groups": [
+      {
+        "name": "Words that form -house compounds",
+        "items": [
+          "tree",
+          "farm",
+          "play",
+          "ice"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with light",
+        "items": [
+          "moon",
+          "gas",
+          "star",
+          "flash"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words you can prefix with 'pre-'",
+        "items": [
+          "view",
+          "heat",
+          "test",
+          "school"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with board",
+        "items": [
+          "bread",
+          "snow",
+          "surf",
+          "black"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level includes simple wordplay and common compound words."
+  },
+  "hard": {
+    "id": "04122026-H",
+    "generatedAt": "2026-04-12T03:50:15.107Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "plant",
+          "bark",
+          "watch",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals that are also common nouns",
+        "items": [
+          "seal",
+          "bat",
+          "bear",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water-related word pairs",
+        "items": [
+          "park",
+          "bottle",
+          "slide",
+          "closet"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and multi-meaning words."
+  }
+}

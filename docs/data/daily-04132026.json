@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04132026-E",
+    "generatedAt": "2026-04-13T03:57:54.899Z",
+    "groups": [
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes You See",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Friendly Critters",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzle sets. Each group has 4 items. All items are unique across this puzzle set."
+  },
+  "medium": {
+    "id": "04132026-M",
+    "generatedAt": "2026-04-13T03:57:54.899Z",
+    "groups": [
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "usual",
+          "kind",
+          "happy",
+          "tidy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Music Terms",
+        "items": [
+          "note",
+          "scale",
+          "beat",
+          "tempo"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snowy Compounds",
+        "items": [
+          "ball",
+          "flake",
+          "man",
+          "storm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Clothing Basics",
+        "items": [
+          "hat",
+          "sock",
+          "scarf",
+          "glove"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level includes some cross-over temptations (words that might seem to fit another group) to challenge your grouping instincts."
+  },
+  "hard": {
+    "id": "04132026-H",
+    "generatedAt": "2026-04-13T03:57:54.899Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "watch",
+          "duck",
+          "play",
+          "light"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sky Weather Phrases",
+        "items": [
+          "rain",
+          "snow",
+          "hail",
+          "fog"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ball Pair Formers",
+        "items": [
+          "basket",
+          "base",
+          "meat",
+          "fire"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level emphasizes abstract connections and polysemy. Some words function in multiple senses, adding a playful challenge."
+  }
+}

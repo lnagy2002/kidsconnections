@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04142026-E",
+    "generatedAt": "2026-04-14T03:48:31.616Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "sock",
+          "shoe",
+          "slipper",
+          "boot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "chalk",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet Treats",
+        "items": [
+          "candy",
+          "cookie",
+          "cake",
+          "ice cream"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 04142026: four simple connections with concrete, visual themes."
+  },
+  "medium": {
+    "id": "04142026-M",
+    "generatedAt": "2026-04-14T03:48:31.616Z",
+    "groups": [
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bike",
+          "ship",
+          "train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs (same spelling)",
+        "items": [
+          "park",
+          "jump",
+          "ring",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Fruits (color names that are fruits)",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Household Items",
+        "items": [
+          "chair",
+          "desk",
+          "lamp",
+          "rug"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: several items can fit more than one group, but only belong to their listed category."
+  },
+  "hard": {
+    "id": "04142026-H",
+    "generatedAt": "2026-04-14T03:48:31.616Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add -er Suffix (agents/doers)",
+        "items": [
+          "cook",
+          "write",
+          "paint",
+          "run"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "hail",
+          "snow",
+          "sleet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Opposites (adjectives)",
+        "items": [
+          "happy",
+          "kind",
+          "fair",
+          "usual"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores words with multiple meanings, suffix tricks, weather terms, and opposites with an 'un' twist."
+  }
+}

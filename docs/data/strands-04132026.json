@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "BUMP",
+      "DINE",
+      "MIST",
+      "HIDE",
+      "FIRM",
+      "GLOW",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CLIMBS",
+      "SPIRAL",
+      "PLANTS",
+      "DREAMY",
+      "FESTAL",
+      "BALLOO",
+      "CRUNCHY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "GLITTERY",
+      "DREAMLIKE",
+      "INNOVATED",
+      "HARMONIZE",
+      "BALANCING",
+      "WONDERMENT",
+      "COMFORTING",
+      "TRANSLATED"
+    ]
+  }
+}

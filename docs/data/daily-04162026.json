@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04162026-E",
+    "generatedAt": "2026-04-16T03:52:55.005Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head-Worn Items",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cute Animals",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "parakeet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits for Snacks",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy round of four simple visual themes. Each group contains four concrete, kid-friendly items."
+  },
+  "medium": {
+    "id": "04162026-M",
+    "generatedAt": "2026-04-16T03:52:55.005Z",
+    "groups": [
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "notebook",
+          "keyboard",
+          "raincoat",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun/Verb Words",
+        "items": [
+          "park",
+          "plant",
+          "note",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words for Speed",
+        "items": [
+          "rapid",
+          "swift",
+          "brisk",
+          "speedy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ambiguous Uses",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and double-use words. Some items might look like they fit another group at first glance."
+  },
+  "hard": {
+    "id": "04162026-H",
+    "generatedAt": "2026-04-16T03:52:55.005Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-Meaning Objects",
+        "items": [
+          "bank",
+          "spring",
+          "rock",
+          "port"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Size Descriptors",
+        "items": [
+          "tiny",
+          "huge",
+          "short",
+          "long"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract links and multi-meaning words. Watch for cross-over items that could seem to belong elsewhere but truly fit only one group."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04192026-E",
+    "generatedAt": "2026-04-19T03:54:08.387Z",
+    "groups": [
+      {
+        "name": "Shapes You Know",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Finds",
+        "items": [
+          "carrot",
+          "lettuce",
+          "tomato",
+          "pumpkin"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "In the Classroom",
+        "items": [
+          "desk",
+          "pencil",
+          "book",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "shoe",
+          "sock",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 4x4 easy puzzle with concrete, kid-friendly categories. Each group has four items."
+  },
+  "medium": {
+    "id": "04192026-M",
+    "generatedAt": "2026-04-19T03:54:08.387Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "keyboard",
+          "backpack",
+          "dragonfly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Verbs",
+        "items": [
+          "duck",
+          "bear",
+          "crane",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things You Ride",
+        "items": [
+          "bike",
+          "car",
+          "horse",
+          "skateboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Flying Things",
+        "items": [
+          "bee",
+          "bird",
+          "kite",
+          "plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: e.g., dragonfly is a compound word but also a flying creature. Each group has four items."
+  },
+  "hard": {
+    "id": "04192026-H",
+    "generatedAt": "2026-04-19T03:54:08.387Z",
+    "groups": [
+      {
+        "name": "Polysemous Words",
+        "items": [
+          "spring",
+          "plant",
+          "pool",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites by Prefix",
+        "items": [
+          "happy",
+          "possible",
+          "likely",
+          "polite"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent Letter Tales",
+        "items": [
+          "knight",
+          "write",
+          "isle",
+          "honest"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "eraser",
+          "crayon",
+          "marker",
+          "highlighter"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle emphasizes abstract connections and multiple meanings. Some items may tempt up-for-grabs from other groups to heighten the challenge."
+  }
+}

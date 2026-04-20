@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FIRM",
+      "LIFT",
+      "CANE",
+      "CAMP",
+      "BUMP",
+      "BELL",
+      "HIDE",
+      "COLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GARNET",
+      "GLOWER",
+      "NURSED",
+      "BUNGLE",
+      "SPIRAL",
+      "FESTIV",
+      "TWIRLY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "MAGNETIC",
+      "HARMONIC",
+      "SPIRITED",
+      "GLITTERY",
+      "BALANCED",
+      "FESTIVITY",
+      "FRIENDLY",
+      "DREAMING",
+      "COMFORTS"
+    ]
+  }
+}

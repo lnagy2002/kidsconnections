@@ -331,7 +331,9 @@
     "BAGGAGE",
     "FLIGHT",
     "HEALTHY",
-    "CLIMB"
+    "CLIMB",
+    "GLOWER",
+    "FESTIV"
   ],
   "hard": [
     "EXEMPLARY",

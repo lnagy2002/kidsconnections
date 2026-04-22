@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "FLEW",
+      "GLOW",
+      "MIST",
+      "RIDE",
+      "PLAY",
+      "WILD",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "DREAM",
+      "FABLE",
+      "HARMON",
+      "GATHER",
+      "SPIRIT",
+      "TWIRL",
+      "BALANC"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "FESTIVITY",
+      "DREAMLIKE",
+      "TRIANGULAR",
+      "COMFORTED",
+      "GENERATION",
+      "HARMONIC",
+      "MAGNETIC",
+      "TRANSLATED"
+    ]
+  }
+}

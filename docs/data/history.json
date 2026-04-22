@@ -333,7 +333,8 @@
     "HEALTHY",
     "CLIMB",
     "GLOWER",
-    "FESTIV"
+    "FESTIV",
+    "BALANC"
   ],
   "hard": [
     "EXEMPLARY",

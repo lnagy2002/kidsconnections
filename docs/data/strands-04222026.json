@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "SPAR",
+      "CURL",
+      "BEND",
+      "CLIP",
+      "FIRM",
+      "WARM",
+      "BOLT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "CRISP",
+      "FESTAL",
+      "DREAMY",
+      "SPIRAL",
+      "TWIRLY",
+      "GARNET",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "DREAMLIKE",
+      "HARMONIC",
+      "FRIENDLY",
+      "TRANSLATE",
+      "MAGNETIC",
+      "SPIRITED",
+      "GENERATE",
+      "INNOVATED"
+    ]
+  }
+}

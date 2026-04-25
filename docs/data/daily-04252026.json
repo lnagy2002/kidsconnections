@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04252026-E",
+    "generatedAt": "2026-04-25T03:39:07.436Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "cherry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Items",
+        "items": [
+          "ball",
+          "coin",
+          "orange",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Set",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Staples",
+        "items": [
+          "bowl",
+          "plate",
+          "cup",
+          "fork"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set with concrete, visual themes suitable for kids in grades 2-6."
+  },
+  "medium": {
+    "id": "04252026-M",
+    "generatedAt": "2026-04-25T03:39:07.436Z",
+    "groups": [
+      {
+        "name": "Friendly Animals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Learning Tools",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "bus",
+          "train",
+          "bike",
+          "plane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Electrical Helpers",
+        "items": [
+          "lamp",
+          "toaster",
+          "computer",
+          "phone"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with simple wordplay and cross-over temptations (items that could seem to fit another theme but belong to one)."
+  },
+  "hard": {
+    "id": "04252026-H",
+    "generatedAt": "2026-04-25T03:39:07.436Z",
+    "groups": [
+      {
+        "name": "Animal Verbs",
+        "items": [
+          "bear",
+          "duck",
+          "bat",
+          "swallow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "ring",
+          "spring",
+          "tie",
+          "dock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit with Dual Meaning",
+        "items": [
+          "date",
+          "fig",
+          "plum",
+          "peach"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools & Actions",
+        "items": [
+          "saw",
+          "drill",
+          "punch",
+          "wrench"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set uses abstract connections and polysemy. Includes cross-over temptations to guide careful reasoning."
+  }
+}

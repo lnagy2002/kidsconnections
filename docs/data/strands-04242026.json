@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "FLEET",
+      "JOLT",
+      "CAVEY",
+      "SPARK",
+      "FLAIR",
+      "SPLAT",
+      "HIVEY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "BRIGHT",
+      "SPLASH",
+      "FESTAL",
+      "CLUSTER",
+      "FABLES",
+      "DREAMY",
+      "TWIRLER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "HARMONIZE",
+      "GENERATE",
+      "COMFORTING",
+      "TRANSLATED",
+      "FASCINATE",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "INNOVATIVE"
+    ]
+  }
+}

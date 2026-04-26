@@ -336,7 +336,9 @@
     "CLIMB",
     "GLOWER",
     "FESTIV",
-    "BALANC"
+    "BALANC",
+    "BASKET",
+    "DUSTY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -443,6 +445,7 @@
     "MYSTIFY",
     "GLITTER",
     "SPECTRAL",
-    "FESTIVAL"
+    "FESTIVAL",
+    "CARNIVAL"
   ]
 }

@@ -183,7 +183,9 @@
     "FLIP",
     "GARD",
     "SPAR",
-    "SPLAT"
+    "SPLAT",
+    "BUNG",
+    "FEST"
   ],
   "medium": [
     "MYSTIC",
@@ -338,7 +340,8 @@
     "FESTIV",
     "BALANC",
     "BASKET",
-    "DUSTY"
+    "DUSTY",
+    "GHOSTY"
   ],
   "hard": [
     "EXEMPLARY",

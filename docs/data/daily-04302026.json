@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04302026-E",
+    "generatedAt": "2026-04-30T04:10:24.946Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Vehicles",
+        "items": [
+          "car",
+          "bike",
+          "truck",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy: concrete, visual connections with familiar, kid-friendly items. Each group has a clear, everyday theme."
+  },
+  "medium": {
+    "id": "04302026-M",
+    "generatedAt": "2026-04-30T04:10:24.946Z",
+    "groups": [
+      {
+        "name": "Sun-prefix words",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Moon-prefix words",
+        "items": [
+          "stone",
+          "light",
+          "walk",
+          "dance"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-prefix words",
+        "items": [
+          "fly",
+          "work",
+          "place",
+          "man"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-prefix words",
+        "items": [
+          "fall",
+          "proof",
+          "bed",
+          "line"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: simple wordplay with prefixes that form common compound words (sun-, moon-, fire-, water-). Some items may tempt you to think of alternative prefixes."
+  },
+  "hard": {
+    "id": "04302026-H",
+    "generatedAt": "2026-04-30T04:10:24.946Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "play",
+          "watch",
+          "plant",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Multisense/heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet names",
+        "items": [
+          "mercury",
+          "venus",
+          "earth",
+          "mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather words",
+        "items": [
+          "rain",
+          "snow",
+          "hail",
+          "fog"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and words with multiple meanings. Some items may look like they fit another group at first glance (a deliberate cross-over challenge)."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05012026-E",
+    "generatedAt": "2026-05-01T04:35:11.486Z",
+    "groups": [
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "cereal",
+          "eggs",
+          "toast",
+          "pancake"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle sets with four groups of four items each."
+  },
+  "medium": {
+    "id": "05012026-M",
+    "generatedAt": "2026-05-01T04:35:11.486Z",
+    "groups": [
+      {
+        "name": "Compound-Word Family",
+        "items": [
+          "mailbox",
+          "homework",
+          "greenhouse",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that Are Verbs (N/V)",
+        "items": [
+          "park",
+          "train",
+          "wind",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Fruit Duo",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "hail",
+          "snow",
+          "fog"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and familiar compound words; some items may tempt crossing to another group, but stay in their assigned set."
+  },
+  "hard": {
+    "id": "05012026-H",
+    "generatedAt": "2026-05-01T04:35:11.486Z",
+    "groups": [
+      {
+        "name": "Onomatopoeia",
+        "items": [
+          "buzz",
+          "clang",
+          "bang",
+          "splash"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sports Gear",
+        "items": [
+          "ball",
+          "glove",
+          "racket",
+          "net"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body-Action Words",
+        "items": [
+          "snap",
+          "nod",
+          "wiggle",
+          "stomp"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Qualities",
+        "items": [
+          "justice",
+          "honor",
+          "bravery",
+          "curiosity"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract links and multi-meaning words; there can be tempting misfits, but each item fits only one group."
+  }
+}

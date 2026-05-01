@@ -186,7 +186,8 @@
     "SPLAT",
     "BUNG",
     "FEST",
-    "HARDY"
+    "HARDY",
+    "GRAD"
   ],
   "medium": [
     "MYSTIC",
@@ -342,7 +343,8 @@
     "BALANC",
     "BASKET",
     "DUSTY",
-    "GHOSTY"
+    "GHOSTY",
+    "BALLET"
   ],
   "hard": [
     "EXEMPLARY",

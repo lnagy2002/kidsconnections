@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKS",
+      "CLIPS",
+      "FLOCK",
+      "GRASP",
+      "SHINE",
+      "THUMP",
+      "VIGOR",
+      "WALTZ"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "CAVERN",
+      "SPLASHY",
+      "EXPLAIN",
+      "WILLOW",
+      "SPLASH",
+      "CRUNCH",
+      "STORMS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TWIRLED",
+      "TWIRLER",
+      "FROSTY",
+      "DRAGON",
+      "BASIC",
+      "GRADUATE",
+      "BLASTS",
+      "CRISPY",
+      "BAGGED"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CAVEY",
+      "LAMPY",
+      "FLEA",
+      "GLOWY",
+      "NICE",
+      "HARDY",
+      "VINEY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PLUMB",
+      "SPIRAL",
+      "CANDLE",
+      "FESTAL",
+      "DREAMY",
+      "BALLOON",
+      "SPARKY",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVITY",
+      "TRANQUIL",
+      "ACROBATICS",
+      "CARNIVAL",
+      "MAGNETIC",
+      "SPIRITED",
+      "WONDERFUL",
+      "FRIENDLY",
+      "GRADUATION"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BARK",
+      "COLD",
+      "HILL",
+      "FIRM",
+      "BEND",
+      "FLEA",
+      "FARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "HARMON",
+      "GARDEN",
+      "PLANTS",
+      "FESTAL",
+      "TWIRLS",
+      "DREAMY",
+      "BALLOO",
+      "BUNGLES"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "FESTIVITY",
+      "SPECTACLE",
+      "CARNIVAL",
+      "TRADITION",
+      "WONDERFUL",
+      "FRIENDSHIP",
+      "INNOVATIVE",
+      "MAGNETIC"
+    ]
+  }
+}

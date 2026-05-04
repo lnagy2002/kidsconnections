@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05042026-E",
+    "generatedAt": "2026-05-04T04:26:47.121Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "cherry",
+          "strawberry",
+          "raspberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "crayon",
+          "marker",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Storybook Animals",
+        "items": [
+          "fox",
+          "bear",
+          "lion",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "kite",
+          "balloon",
+          "airplane",
+          "dragonfly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four concrete themes—colors, writing tools, animals from stories, and things that fly."
+  },
+  "medium": {
+    "id": "05042026-M",
+    "generatedAt": "2026-05-04T04:26:47.121Z",
+    "groups": [
+      {
+        "name": "Compound Pairs",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "raincoat",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "eraser",
+          "sharpener",
+          "ruler",
+          "compass"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Backpack Essentials",
+        "items": [
+          "notebook",
+          "map",
+          "calculator",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle: mix of compound words, common school items, backpack essentials, and travel modes. Some items might tempt you to fit them into another group, but they belong in their designated group."
+  },
+  "hard": {
+    "id": "05042026-H",
+    "generatedAt": "2026-05-04T04:26:47.121Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "spring",
+          "bank",
+          "note",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Word Mix",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "coral"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Verbs That Are Nouns",
+        "items": [
+          "watch",
+          "play",
+          "cut",
+          "drive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle: abstract connections and multiple-meaning words. Expect some items to seem like they could fit another group, but they belong to exactly one."
+  }
+}

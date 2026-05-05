@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CLIM",
+      "FIRM",
+      "BUMP",
+      "WILD",
+      "HUGE",
+      "TIDE",
+      "MIST",
+      "VINE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOMY",
+      "FESTAL",
+      "SPIRAL",
+      "GARNET",
+      "CANDOR",
+      "BALLOO",
+      "FESTIV",
+      "TWIRLED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "MYSTIFY",
+      "ADVENTUR",
+      "SPIRITED",
+      "BALANCED",
+      "FASCINATE",
+      "DREAMLIKE",
+      "GENERATE",
+      "COMFORTING",
+      "INNOVATIVE"
+    ]
+  }
+}

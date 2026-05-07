@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05072026-E",
+    "generatedAt": "2026-05-07T04:11:30.321Z",
+    "groups": [
+      {
+        "name": "Backpack Basics",
+        "items": [
+          "Notebook",
+          "Pencil",
+          "Eraser",
+          "Lunchbox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Frog"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Weather & Gear",
+        "items": [
+          "Sun",
+          "Cloud",
+          "Raincoat",
+          "Umbrella"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yummy Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set for 05/07/2026. Easy level focuses on concrete, visual categories."
+  },
+  "medium": {
+    "id": "05072026-M",
+    "generatedAt": "2026-05-07T04:11:30.321Z",
+    "groups": [
+      {
+        "name": "Compound Creations",
+        "items": [
+          "Dragonfly",
+          "Bookshelf",
+          "Raindrop",
+          "Moonlight"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "Bat",
+          "Bank",
+          "Match",
+          "Spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nature & Space",
+        "items": [
+          "Star",
+          "Moon",
+          "Wind",
+          "River"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "Spoon",
+          "Plate",
+          "Cup",
+          "Fork"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set introduces compound words and polysemous terms with gentle cross-over challenges."
+  },
+  "hard": {
+    "id": "05072026-H",
+    "generatedAt": "2026-05-07T04:11:30.321Z",
+    "groups": [
+      {
+        "name": "Polyseme Pairs",
+        "items": [
+          "Bark",
+          "Crane",
+          "Ring",
+          "Seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "Park",
+          "Brush",
+          "Plant",
+          "Nail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms in Disguise",
+        "items": [
+          "Lead",
+          "Bow",
+          "Bass",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Meanings",
+        "items": [
+          "Fair",
+          "Light",
+          "Right",
+          "Space"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set emphasizes abstract connections and multiple meanings. Cross-over temptations are present to challenge careful grouping."
+  }
+}

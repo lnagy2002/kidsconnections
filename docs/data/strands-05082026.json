@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLD",
+      "FLEW",
+      "CAVE",
+      "BUMP",
+      "HIVE",
+      "GLOW",
+      "WAND",
+      "CAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAM",
+      "SPARK",
+      "GATHER",
+      "CRISP",
+      "FABLES",
+      "BALLOO",
+      "FESTAL",
+      "TWIRLED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "BALANCED",
+      "FRIENDLY",
+      "EXPLORER",
+      "INNOVATIVE",
+      "ADVENTURE",
+      "SPECTACULAR",
+      "TRANSLATED",
+      "CARNIVAL"
+    ]
+  }
+}

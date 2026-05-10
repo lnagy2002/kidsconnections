@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05102026-E",
+    "generatedAt": "2026-05-10T04:30:29.591Z",
+    "groups": [
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "hen"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Objects",
+        "items": [
+          "sun",
+          "cloud",
+          "moon",
+          "star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of Travel",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Lunchbox Staples",
+        "items": [
+          "sandwich",
+          "apple",
+          "yogurt",
+          "juice"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh connections puzzle for May 10, 2026."
+  },
+  "medium": {
+    "id": "05102026-M",
+    "generatedAt": "2026-05-10T04:30:29.591Z",
+    "groups": [
+      {
+        "name": "Double-Word Combos",
+        "items": [
+          "snowflake",
+          "lighthouse",
+          "waterfall",
+          "cupcake"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Mix",
+        "items": [
+          "record",
+          "play",
+          "drink",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Jobs and Roles",
+        "items": [
+          "baker",
+          "teacher",
+          "driver",
+          "painter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Terms",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "thunder"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles with some tempting misdirections."
+  },
+  "hard": {
+    "id": "05102026-H",
+    "generatedAt": "2026-05-10T04:30:29.591Z",
+    "groups": [
+      {
+        "name": "Same Spelling, Different Sounds",
+        "items": [
+          "lead",
+          "bass",
+          "bow",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent Letters Club",
+        "items": [
+          "knight",
+          "write",
+          "ghost",
+          "half"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "sanction",
+          "dust",
+          "seed",
+          "weather"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Do Actions",
+        "items": [
+          "bear",
+          "seal",
+          "wolf",
+          "crane"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles with tricky word-play and cross-over temptations."
+  }
+}

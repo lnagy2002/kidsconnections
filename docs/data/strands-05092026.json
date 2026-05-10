@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAMP",
+      "FIRM",
+      "JOLT",
+      "MIST",
+      "RIDE",
+      "WILD",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "DREAMS",
+      "FESTAL",
+      "GATHER",
+      "MYSTIC",
+      "PLANTS",
+      "SPARKY",
+      "TWIRLS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CARNIVAL",
+      "DREAMING",
+      "FANTASTIC",
+      "GRADUATE",
+      "HARMONIC",
+      "INNOVATE",
+      "MAGNETIC",
+      "SPIRITED"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05122026-E",
+    "generatedAt": "2026-05-12T04:12:52.575Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "Apple",
+          "Strawberry",
+          "Cherry",
+          "Tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "Pencil",
+          "Marker",
+          "Pen",
+          "Chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Floating on Water",
+        "items": [
+          "Boat",
+          "Buoy",
+          "Duck",
+          "Iceberg"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "Pancake",
+          "Toast",
+          "Cereal",
+          "Oatmeal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four concrete, visual groups suitable for early-grade players."
+  },
+  "medium": {
+    "id": "05122026-M",
+    "generatedAt": "2026-05-12T04:12:52.575Z",
+    "groups": [
+      {
+        "name": "Sun-formed Words",
+        "items": [
+          "Flower",
+          "Rise",
+          "Set",
+          "Beam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Baseball Word Family",
+        "items": [
+          "Base",
+          "Basket",
+          "Soft",
+          "Hard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Pair with 'Fly'",
+        "items": [
+          "Dragon",
+          "Butter",
+          "May",
+          "Fire"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Phrases",
+        "items": [
+          "Coat",
+          "Storm",
+          "Bow",
+          "Water"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use light wordplay and compound ideas. Cross-over temptation exists (items could seem to fit other groups) but each item truly belongs to its listed group."
+  },
+  "hard": {
+    "id": "05122026-H",
+    "generatedAt": "2026-05-12T04:12:52.575Z",
+    "groups": [
+      {
+        "name": "Two-Meaning Words",
+        "items": [
+          "Bat",
+          "Spring",
+          "Match",
+          "Seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "Knife",
+          "Knight",
+          "Knob",
+          "Knock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "Run",
+          "Park",
+          "Turn",
+          "Lie"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "Time",
+          "Space",
+          "Light",
+          "Shadow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean toward abstract connections and polysemy. Some items may tempt gamers to fit them into another group, but they belong where listed."
+  }
+}

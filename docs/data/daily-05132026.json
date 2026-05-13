@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05132026-E",
+    "generatedAt": "2026-05-13T04:30:22.998Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Items",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "mug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Are Yellow",
+        "items": [
+          "banana",
+          "lemon",
+          "pineapple",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rhyme Time",
+        "items": [
+          "hat",
+          "bat",
+          "mat",
+          "rat"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle with four clear, concrete themes. All items are distinct and kid-friendly."
+  },
+  "medium": {
+    "id": "05132026-M",
+    "generatedAt": "2026-05-13T04:30:22.998Z",
+    "groups": [
+      {
+        "name": "Water Word Partners",
+        "items": [
+          "fall",
+          "park",
+          "proof",
+          "melon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snowy Compounds",
+        "items": [
+          "flake",
+          "storm",
+          "man",
+          "plow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Green Prefix",
+        "items": [
+          "house",
+          "belt",
+          "bean",
+          "light"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Paper-Word Friends",
+        "items": [
+          "weight",
+          "clip",
+          "back",
+          "boy"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay with common prefixes. Cross-over temptations exist: several items could plausibly fit a different, but unintended, grouping (e.g., greenhouse/green light, water-based terms, paper-related terms), yet each item belongs to exactly the intended group."
+  },
+  "hard": {
+    "id": "05132026-H",
+    "generatedAt": "2026-05-13T04:30:22.998Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings (Polysemes)",
+        "items": [
+          "spring",
+          "bank",
+          "crane",
+          "drum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Foods That Are Also Colors",
+        "items": [
+          "olive",
+          "peach",
+          "sage",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measurement Units",
+        "items": [
+          "foot",
+          "yard",
+          "pint",
+          "ounce"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sweet Prefix Phrases",
+        "items": [
+          "potato",
+          "tooth",
+          "talk",
+          "pea"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract connections and polysemes. Cross-over temptations exist: items like 'spring' (season vs coil) and 'pea' (vegetable vs color associations) could seem to fit other themes, but are grouped in the intended category."
+  }
+}

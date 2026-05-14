@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FIRM",
+      "BUMP",
+      "CANE",
+      "COLD",
+      "PARK",
+      "GLOW",
+      "BEND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "FESTAL",
+      "GATHER",
+      "CANDLE",
+      "DREAMY",
+      "SPIRAL",
+      "FLAIRY",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GATHERED",
+      "FESTIVITY",
+      "INNOVATIVE",
+      "TRANSLATED",
+      "MAGNETIC",
+      "FRIENDLY",
+      "SPIRITED",
+      "HARMONIC"
+    ]
+  }
+}

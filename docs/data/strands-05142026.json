@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOB",
+      "MASH",
+      "FUSE",
+      "RIDE",
+      "BUMP",
+      "JUMP",
+      "GLOW",
+      "CLIP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "FLAKE",
+      "FABLES",
+      "SPLASH",
+      "TWIRL",
+      "TRICKY",
+      "CLIMBS",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GATHERED",
+      "FANTASTIC",
+      "SPIRITED",
+      "HARMONIC",
+      "CIRCULATE",
+      "TRANQUIL",
+      "EXPLORING",
+      "FRIENDLY"
+    ]
+  }
+}

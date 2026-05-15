@@ -189,7 +189,9 @@
     "HARDY",
     "GRAD",
     "CLIM",
-    "HUGE"
+    "HUGE",
+    "MASH",
+    "FUSE"
   ],
   "medium": [
     "MYSTIC",
@@ -349,7 +351,8 @@
     "BALLET",
     "PLUMB",
     "FLEET",
-    "SPLAT"
+    "SPLAT",
+    "FLAKE"
   ],
   "hard": [
     "EXEMPLARY",

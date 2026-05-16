@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05162026-E",
+    "generatedAt": "2026-05-16T04:09:43.077Z",
+    "groups": [
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "sun",
+          "lemon",
+          "corn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "cereal",
+          "pancake",
+          "egg",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets and Small Animals",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle for 05162026."
+  },
+  "medium": {
+    "id": "05162026-M",
+    "generatedAt": "2026-05-16T04:09:43.077Z",
+    "groups": [
+      {
+        "name": "Sports that End with 'ball'",
+        "items": [
+          "baseball",
+          "basketball",
+          "football",
+          "volleyball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Compound Words",
+        "items": [
+          "rainbow",
+          "toothbrush",
+          "mailbox",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "plant",
+          "ring",
+          "watch",
+          "spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Name Foods",
+        "items": [
+          "orange",
+          "salmon",
+          "peach",
+          "olive"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle for 05162026."
+  },
+  "hard": {
+    "id": "05162026-H",
+    "generatedAt": "2026-05-16T04:09:43.077Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "lead",
+          "bow",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that Pair with 'fire' to form new words",
+        "items": [
+          "work",
+          "place",
+          "fly",
+          "cracker"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water-Word Complements",
+        "items": [
+          "melon",
+          "fall",
+          "proof",
+          "front"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle for 05162026."
+  }
+}

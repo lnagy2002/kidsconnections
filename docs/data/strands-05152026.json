@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MIST",
+      "CAMP",
+      "WARM",
+      "CAVE",
+      "BUMP",
+      "HIDE",
+      "BOLD",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "JOURNAL",
+      "GARDEN",
+      "FABLES",
+      "FESTIV",
+      "SIMPLEX",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "GENERATE",
+      "SPIRITED",
+      "MAGNETIC",
+      "HARMONIC",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "WONDERED",
+      "FRIENDSHIP"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05172026-E",
+    "generatedAt": "2026-05-17T04:38:07.892Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "firetruck",
+          "cardinal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet Treats",
+        "items": [
+          "honey",
+          "cookie",
+          "cake",
+          "ice cream"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "kite",
+          "plane",
+          "balloon",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Fun",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 05172026 easy set with concrete, visual connections. Each group has four items, no repeats across sections."
+  },
+  "medium": {
+    "id": "05172026-M",
+    "generatedAt": "2026-05-17T04:38:07.892Z",
+    "groups": [
+      {
+        "name": "Sun-Partner Words",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home-Compound Partners",
+        "items": [
+          "work",
+          "page",
+          "stead",
+          "grown"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain-Word Compounds",
+        "items": [
+          "bow",
+          "coat",
+          "fall",
+          "forest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light-Word Compounds",
+        "items": [
+          "spot",
+          "day",
+          "moon",
+          "star"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles weave simple word-building connections. Some items could tempt you to fit them in other groups, but each item belongs to exactly one defined theme."
+  },
+  "hard": {
+    "id": "05172026-H",
+    "generatedAt": "2026-05-17T04:38:07.892Z",
+    "groups": [
+      {
+        "name": "Polysemous Power Words",
+        "items": [
+          "bank",
+          "note",
+          "spring",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals and Other Meanings",
+        "items": [
+          "bat",
+          "crane",
+          "mouse",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Phrasal-Verb Up",
+        "items": [
+          "wake",
+          "hold",
+          "break",
+          "pull"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Terms as Everyday Words",
+        "items": [
+          "chord",
+          "melody",
+          "tempo",
+          "rhythm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract or multi-meaning connections. Expect some items to tempt you toward other groups, but each belongs only to its intended theme."
+  }
+}

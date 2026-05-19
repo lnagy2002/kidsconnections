@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "BUMP",
+      "MIST",
+      "HIVE",
+      "GARD",
+      "CLIP",
+      "BASH",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FRIEND",
+      "SPARKY",
+      "TRICKY",
+      "BALLOO",
+      "CANDLE",
+      "GATHER",
+      "PLANTS",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDSHIP",
+      "HARMONIZE",
+      "DREAMLIKE",
+      "SPIRALING",
+      "FANTASTIC",
+      "EXPLORING",
+      "ADVENTURE",
+      "TRANQUIL",
+      "BALANCING"
+    ]
+  }
+}

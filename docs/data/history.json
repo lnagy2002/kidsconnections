@@ -191,7 +191,8 @@
     "CLIM",
     "HUGE",
     "MASH",
-    "FUSE"
+    "FUSE",
+    "BASH"
   ],
   "medium": [
     "MYSTIC",

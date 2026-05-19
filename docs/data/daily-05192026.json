@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05192026-E",
+    "generatedAt": "2026-05-19T04:41:21.003Z",
+    "groups": [
+      {
+        "name": "Things That Are Circular",
+        "items": [
+          "Coin",
+          "Moon",
+          "Ball",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Portable Everyday Objects",
+        "items": [
+          "Pen",
+          "Book",
+          "Cup",
+          "Phone"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Clothing for Head and Hands",
+        "items": [
+          "Hat",
+          "Socks",
+          "Glove",
+          "Scarf"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Schoolroom Tools",
+        "items": [
+          "Desk",
+          "Chalk",
+          "Eraser",
+          "Pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 05192026 easy puzzle: four visual/concrete groups with four items each."
+  },
+  "medium": {
+    "id": "05192026-M",
+    "generatedAt": "2026-05-19T04:41:21.003Z",
+    "groups": [
+      {
+        "name": "Two-Word Compound Examples",
+        "items": [
+          "Bookcase",
+          "Sunflower",
+          "Raincoat",
+          "Greenhouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "Record",
+          "Order",
+          "Watch",
+          "Hook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "Knight",
+          "Gnome",
+          "Knife",
+          "Wrist"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Foods That Double as Colors",
+        "items": [
+          "Orange",
+          "Peach",
+          "Olive",
+          "Lemon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes cross-over temptations (compound words, verbs-as-nouns, silent letters, and color-name foods) with four groups."
+  },
+  "hard": {
+    "id": "05192026-H",
+    "generatedAt": "2026-05-19T04:41:21.003Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning",
+        "items": [
+          "Bat",
+          "Crane",
+          "Bank",
+          "Pound"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms: Same Spelling, Different Pronunciation",
+        "items": [
+          "Tear",
+          "Row",
+          "Bow",
+          "Minute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Terms",
+        "items": [
+          "Orbit",
+          "Eclipse",
+          "Comet",
+          "Asteroid"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitalization Shifts Change Meaning",
+        "items": [
+          "March",
+          "Polish",
+          "August",
+          "Herb"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle features abstract linkages and multiple-meaning ideas. Includes cross-over temptations to spot the right grouping."
+  }
+}

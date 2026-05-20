@@ -192,7 +192,8 @@
     "HUGE",
     "MASH",
     "FUSE",
-    "BASH"
+    "BASH",
+    "FLAME"
   ],
   "medium": [
     "MYSTIC",

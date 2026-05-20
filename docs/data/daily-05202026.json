@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05202026-E",
+    "generatedAt": "2026-05-20T04:45:21.600Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "button",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet-Friendly Wear",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Pairings",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Guests",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "hen"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Solve each group by finding the shared, kid-friendly theme that links the four items."
+  },
+  "medium": {
+    "id": "05202026-M",
+    "generatedAt": "2026-05-20T04:45:21.600Z",
+    "groups": [
+      {
+        "name": "Ice-Cream Helpers",
+        "items": [
+          "cream",
+          "cube",
+          "pick",
+          "scoop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Pairs",
+        "items": [
+          "do",
+          "fold",
+          "happy",
+          "kind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Verbs That Can Be Nouns",
+        "items": [
+          "play",
+          "run",
+          "watch",
+          "lift"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruit-Color Words",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "In each group, look for a simple pattern or wordplay that links the four items. Some items might seem like they could fit another group at first glance, but they belong to this group."
+  },
+  "hard": {
+    "id": "05202026-H",
+    "generatedAt": "2026-05-20T04:45:21.600Z",
+    "groups": [
+      {
+        "name": "Words with Hidden Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Meaning Toys",
+        "items": [
+          "park",
+          "match",
+          "train",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitalization Shifts",
+        "items": [
+          "march",
+          "august",
+          "polish",
+          "turkey"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Prefix Builders",
+        "items": [
+          "paint",
+          "spell",
+          "write",
+          "read"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles involve deeper word relationships: different pronunciations, multiple meanings, capitalization-based shifts, and prefix tricks. Some items may tempt you to group them elsewhere, but they belong in their assigned group."
+  }
+}

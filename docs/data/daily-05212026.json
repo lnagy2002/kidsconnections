@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05212026-E",
+    "generatedAt": "2026-05-21T04:51:54.326Z",
+    "groups": [
+      {
+        "name": "Backpack Essentials",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "cereal",
+          "yogurt",
+          "banana",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Outdoor Playground Features",
+        "items": [
+          "swing",
+          "slide",
+          "bench",
+          "tree"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles on Roads",
+        "items": [
+          "car",
+          "bus",
+          "truck",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with clear visual themes."
+  },
+  "medium": {
+    "id": "05212026-M",
+    "generatedAt": "2026-05-21T04:51:54.326Z",
+    "groups": [
+      {
+        "name": "Two-Word Combos",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "bookshelf",
+          "raindrop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "run",
+          "rock",
+          "plant",
+          "bear"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Clothing Staples",
+        "items": [
+          "scarf",
+          "hat",
+          "glove",
+          "sock"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and double meanings."
+  },
+  "hard": {
+    "id": "05212026-H",
+    "generatedAt": "2026-05-21T04:51:54.326Z",
+    "groups": [
+      {
+        "name": "Capitalization Shifts",
+        "items": [
+          "march",
+          "polish",
+          "china",
+          "turkey"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals that are also Tools/Objects",
+        "items": [
+          "crane",
+          "bat",
+          "mouse",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Word Compounds (Two Root Words)",
+        "items": [
+          "bookcase",
+          "toothpaste",
+          "flowerpot",
+          "sunrise"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that Pair with Fire",
+        "items": [
+          "fly",
+          "work",
+          "place",
+          "man"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract word connections and some tricky cross-overs."
+  }
+}

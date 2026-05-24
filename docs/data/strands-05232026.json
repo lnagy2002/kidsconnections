@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "JUMPY",
+      "FLEET",
+      "WILDY",
+      "HUSHY",
+      "CURLY",
+      "BUMPY",
+      "FABLE",
+      "CAMPY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPIRAL",
+      "FESTAL",
+      "CRUNCH",
+      "TWIRLS",
+      "BALLOO",
+      "FANTAS",
+      "MYSTIC"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "HARMONY",
+      "FASCINATE",
+      "SPECTACLE",
+      "TRANSLATE",
+      "ADVENTURE",
+      "GENERATE",
+      "MAGNETIC",
+      "FRIENDLY"
+    ]
+  }
+}

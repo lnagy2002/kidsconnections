@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05252026-E",
+    "generatedAt": "2026-05-25T05:03:15.542Z",
+    "groups": [
+      {
+        "name": "Park Finds",
+        "items": [
+          "bench",
+          "tree",
+          "duck",
+          "swing"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Bits",
+        "items": [
+          "toast",
+          "eggs",
+          "banana",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle set for 05252026."
+  },
+  "medium": {
+    "id": "05252026-M",
+    "generatedAt": "2026-05-25T05:03:15.542Z",
+    "groups": [
+      {
+        "name": "Compound Words Parade",
+        "items": [
+          "sunrise",
+          "notebook",
+          "footstep",
+          "mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wear It",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "boots"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "otter",
+          "panda",
+          "lemur",
+          "koala"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Space Bits",
+        "items": [
+          "comet",
+          "orbit",
+          "planet",
+          "asteroid"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles blend simple wordplay with familiar items."
+  },
+  "hard": {
+    "id": "05252026-H",
+    "generatedAt": "2026-05-25T05:03:15.542Z",
+    "groups": [
+      {
+        "name": "Polysemy Pairs",
+        "items": [
+          "bank",
+          "bat",
+          "crane",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Do Both",
+        "items": [
+          "brush",
+          "draw",
+          "jump",
+          "turn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "lead",
+          "bass",
+          "close",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite-Meaning Words",
+        "items": [
+          "dust",
+          "left",
+          "sanction",
+          "clip"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging set with abstract connections and tricky word puzzles."
+  }
+}

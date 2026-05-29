@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "FIRM",
+      "BUMP",
+      "HIDE",
+      "FLEA",
+      "GOLD",
+      "FALL",
+      "CAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FRIEND",
+      "DREAMS",
+      "TROPHY",
+      "BALLOON",
+      "SPIRITS",
+      "GATHER",
+      "PLANTS",
+      "TRICKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GRADUATE",
+      "FESTIVAL",
+      "ADVENTURE",
+      "CARNIVAL",
+      "HARMONIZE",
+      "EXPLORING",
+      "TRANSLATE",
+      "IMAGINARY"
+    ]
+  }
+}

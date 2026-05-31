@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMPY",
+      "HAPPY",
+      "FLEET",
+      "FABLE",
+      "CLASH",
+      "CLEAN",
+      "CURLY",
+      "FLAIR"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPIRAL",
+      "GATHER",
+      "CANDLE",
+      "JOURNAL",
+      "FESTIVE",
+      "THUNDER",
+      "MYSTERY",
+      "TRICKLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "BALANCED",
+      "FESTIVITY",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "TRANSLATED",
+      "COMPLICATED",
+      "WONDERMENT"
+    ]
+  }
+}

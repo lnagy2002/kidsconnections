@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06012026-E",
+    "generatedAt": "2026-06-01T05:24:31.348Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-Legged Furniture",
+        "items": [
+          "chair",
+          "table",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "backpack"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors You See",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group is a Connections-style puzzle. Find the common link that ties the four items in each group."
+  },
+  "medium": {
+    "id": "06012026-M",
+    "generatedAt": "2026-06-01T05:24:31.348Z",
+    "groups": [
+      {
+        "name": "Common Compound Words",
+        "items": [
+          "toothbrush",
+          "sunflower",
+          "rainbow",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites with Un-",
+        "items": [
+          "tidy",
+          "kind",
+          "happy",
+          "cool"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Pairs",
+        "items": [
+          "work",
+          "fighter",
+          "place",
+          "fly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Descriptive Adjectives",
+        "items": [
+          "tiny",
+          "wide",
+          "oval",
+          "flat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use some wordplay. Watch for items that could seem to fit another group, but only belong to their intended link."
+  },
+  "hard": {
+    "id": "06012026-H",
+    "generatedAt": "2026-06-01T05:24:31.348Z",
+    "groups": [
+      {
+        "name": "Multi-Meaning Words",
+        "items": [
+          "spring",
+          "match",
+          "bank",
+          "light"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "lead",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Follow-with-Up Phrases",
+        "items": [
+          "give",
+          "show",
+          "grow",
+          "break"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Super- Prefix Pairs",
+        "items": [
+          "hero",
+          "market",
+          "man",
+          "star"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract connections and tricky word properties. There should be clear, but challenging, paths to the link."
+  }
+}

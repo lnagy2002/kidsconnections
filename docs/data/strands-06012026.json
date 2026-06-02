@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAVE",
+      "FIRM",
+      "GLOW",
+      "HIVE",
+      "MIST",
+      "CLIP",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "SPIRAL",
+      "TWILIGHT",
+      "GARNISH",
+      "BALANCE",
+      "NURTURE",
+      "TRICKLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "MAGNETIC",
+      "HARMONIC",
+      "GENERATION",
+      "INNOVATIVE",
+      "DREAMLIKE",
+      "CIRCULATE",
+      "COMFORTED",
+      "SPECTACULAR"
+    ]
+  }
+}

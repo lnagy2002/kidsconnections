@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAND",
+      "DINE",
+      "HIVE",
+      "JOLT",
+      "LIFT",
+      "MILD",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALCONY",
+      "CANDLE",
+      "FESTIVE",
+      "GATHER",
+      "HARMONY",
+      "MAGNET",
+      "SILVER",
+      "TWILIGHT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "BALANCED",
+      "CIRCULATE",
+      "FANTASTIC",
+      "HARMONIOUS",
+      "IMAGINARY",
+      "TRANSLATED",
+      "UNDERSTAND",
+      "WONDERFUL"
+    ]
+  }
+}

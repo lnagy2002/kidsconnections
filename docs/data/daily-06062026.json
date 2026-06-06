@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06062026-E",
+    "generatedAt": "2026-06-06T04:35:57.085Z",
+    "groups": [
+      {
+        "name": "Fruit Friends",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Pals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rideable Vehicles",
+        "items": [
+          "bike",
+          "car",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy groups with concrete, visual themes."
+  },
+  "medium": {
+    "id": "06062026-M",
+    "generatedAt": "2026-06-06T04:35:57.085Z",
+    "groups": [
+      {
+        "name": "Un- Prefix Pairs",
+        "items": [
+          "do",
+          "lock",
+          "wrap",
+          "fold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Puzzles",
+        "items": [
+          "board",
+          "watch",
+          "plant",
+          "slide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Compound Words",
+        "items": [
+          "sunrise",
+          "bookcase",
+          "snowball",
+          "toothpaste"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rooms in a Home",
+        "items": [
+          "kitchen",
+          "bedroom",
+          "bathroom",
+          "garage"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay with familiar word forms; watch for tempting misfits."
+  },
+  "hard": {
+    "id": "06062026-H",
+    "generatedAt": "2026-06-06T04:35:57.085Z",
+    "groups": [
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs (Different Meanings)",
+        "items": [
+          "book",
+          "call",
+          "record",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words Read the Same Backwards",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Edible Actions",
+        "items": [
+          "jam",
+          "beat",
+          "mint",
+          "salt"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract links and potential crossovers; surface fits may tempt but only one group is correct."
+  }
+}

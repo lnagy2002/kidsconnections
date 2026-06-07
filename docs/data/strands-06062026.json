@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "BOLT",
+      "FLEA",
+      "MINT",
+      "GOLD",
+      "BUMP",
+      "HIVE",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FROSTY",
+      "SPARKY",
+      "CRISP",
+      "PLANTS",
+      "BUNGLE",
+      "TWIRL",
+      "SPLASH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "FRIENDLY",
+      "HARMONIC",
+      "DREAMLIKE",
+      "EXPLORING",
+      "GENERATION",
+      "MAGNETIC",
+      "TRADITION",
+      "BALANCED"
+    ]
+  }
+}

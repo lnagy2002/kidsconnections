@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKS",
+      "FLEET",
+      "GRAND",
+      "HAPPY",
+      "MISTY",
+      "RIDEY",
+      "SPLAT",
+      "WILDY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLES",
+      "CLUSTER",
+      "DREAMY",
+      "FESTIVE",
+      "GARNISH",
+      "LANTERN",
+      "NURTURE",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "CARNIVAL",
+      "COMFORTS",
+      "FRIENDLY",
+      "HARMONIC",
+      "INNOVATED",
+      "TRANSLATED",
+      "WONDERFUL",
+      "GLITTERY"
+    ]
+  }
+}

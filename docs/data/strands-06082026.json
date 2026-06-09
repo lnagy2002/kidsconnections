@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "BUMP",
+      "FLEW",
+      "HIVE",
+      "LIFT",
+      "MIST",
+      "CURL",
+      "DINE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "SPIRAL",
+      "DREAMS",
+      "GATHER",
+      "BALANCE",
+      "NURSED",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "SPECTACLE",
+      "TRANSLATE",
+      "WONDERFUL",
+      "COMFORTING",
+      "FANTASTIC",
+      "GENERATE",
+      "INNOVATION",
+      "FRIENDSHIP"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06092026-E",
+    "generatedAt": "2026-06-09T04:44:26.821Z",
+    "groups": [
+      {
+        "name": "Four-wheeled rides",
+        "items": [
+          "car",
+          "van",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School supplies",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common pets",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen basics",
+        "items": [
+          "spoon",
+          "plate",
+          "mug",
+          "pan"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle sets for 06092026."
+  },
+  "medium": {
+    "id": "06092026-M",
+    "generatedAt": "2026-06-09T04:44:26.821Z",
+    "groups": [
+      {
+        "name": "Compound Word Examples",
+        "items": [
+          "bookcase",
+          "rainbow",
+          "sunflower",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words formed with 'super-'",
+        "items": [
+          "market",
+          "star",
+          "hero",
+          "power"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 're-' to verbs",
+        "items": [
+          "do",
+          "write",
+          "make",
+          "try"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow-themed word pairs",
+        "items": [
+          "ball",
+          "flake",
+          "man",
+          "plow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use wordplay and simple prefixes."
+  },
+  "hard": {
+    "id": "06092026-H",
+    "generatedAt": "2026-06-09T04:44:26.821Z",
+    "groups": [
+      {
+        "name": "Words with multiple meanings",
+        "items": [
+          "bank",
+          "light",
+          "spring",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal names that are also everyday words",
+        "items": [
+          "bat",
+          "crow",
+          "bear",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same-spelling words with different sounds",
+        "items": [
+          "wind",
+          "lead",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Remove first letter to form another word",
+        "items": [
+          "plane",
+          "stick",
+          "stone",
+          "bright"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard sets push abstract connections and tricky wordplay."
+  }
+}

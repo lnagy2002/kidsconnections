@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BLOP",
+      "DART",
+      "FLEW",
+      "CUBE",
+      "FLAP",
+      "GLOW",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TWIRL",
+      "GARDEN",
+      "CRISP",
+      "FLAUNT",
+      "BUNGLE",
+      "PLANTS",
+      "SPIRAL",
+      "JOURNAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "BALANCED",
+      "SPIRITED",
+      "DREAMING",
+      "HARMONIC",
+      "WONDERED",
+      "GENERATE",
+      "FANTASTIC",
+      "EXPLORING"
+    ]
+  }
+}

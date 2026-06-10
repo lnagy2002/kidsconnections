@@ -195,7 +195,9 @@
     "BASH",
     "FLAME",
     "HUSHY",
-    "MUSHY"
+    "MUSHY",
+    "BLOP",
+    "DART"
   ],
   "medium": [
     "MYSTIC",
@@ -359,7 +361,8 @@
     "FLAKE",
     "BLOOM",
     "CARNIVAL",
-    "BALCONY"
+    "BALCONY",
+    "FLAUNT"
   ],
   "hard": [
     "EXEMPLARY",

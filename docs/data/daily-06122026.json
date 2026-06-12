@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06122026-E",
+    "generatedAt": "2026-06-12T05:13:04.834Z",
+    "groups": [
+      {
+        "name": "Footwear Fun",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Water Walkers",
+        "items": [
+          "boat",
+          "duck",
+          "log",
+          "ball"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-Leg Friends",
+        "items": [
+          "dog",
+          "cat",
+          "horse",
+          "goat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rideable Rascals",
+        "items": [
+          "bike",
+          "car",
+          "train",
+          "bus"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzles for date 06122026. Each group shares a clear, visual connection."
+  },
+  "medium": {
+    "id": "06122026-M",
+    "generatedAt": "2026-06-12T05:13:04.834Z",
+    "groups": [
+      {
+        "name": "Jobs Across the Day",
+        "items": [
+          "teacher",
+          "farmer",
+          "chef",
+          "nurse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "plane",
+          "kite",
+          "balloon",
+          "eagle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits and Veggies",
+        "items": [
+          "apple",
+          "carrot",
+          "grape",
+          "strawberry"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "knife",
+          "bowl",
+          "pot"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles feature light wordplay and familiar concepts. Some items might tempt you to fit them elsewhere, but each belongs to one group."
+  },
+  "hard": {
+    "id": "06122026-H",
+    "generatedAt": "2026-06-12T05:13:04.834Z",
+    "groups": [
+      {
+        "name": "Contronyms in Daily Words",
+        "items": [
+          "dust",
+          "left",
+          "bolt",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "run",
+          "dance",
+          "jump",
+          "cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're' to Make New Words",
+        "items": [
+          "do",
+          "think",
+          "write",
+          "build"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Size Descriptors",
+        "items": [
+          "tiny",
+          "small",
+          "large",
+          "huge"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push abstract thinking. Includes cross-over temptations when grouping, but each word fits only one group."
+  }
+}

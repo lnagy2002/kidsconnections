@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAVE",
+      "FAME",
+      "GLOW",
+      "JOLT",
+      "LAMP",
+      "MIST",
+      "WAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GARNET",
+      "JOURNAL",
+      "MAGNET",
+      "PLANTS",
+      "SILVER",
+      "TWIRLS",
+      "WILLOW"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "BALANCED",
+      "CARNIVAL",
+      "COMFORTING",
+      "FESTIVITY",
+      "HARMONIZE",
+      "INNOVATION",
+      "TRANSLATE",
+      "WONDERMENT"
+    ]
+  }
+}

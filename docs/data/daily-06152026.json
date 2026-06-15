@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06152026-E",
+    "generatedAt": "2026-06-15T05:35:57.110Z",
+    "groups": [
+      {
+        "name": "Zoo Friends",
+        "items": [
+          "lion",
+          "penguin",
+          "giraffe",
+          "monkey"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "cup",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "sun",
+          "rain",
+          "snow",
+          "wind"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level connections: each group has 4 items with a clear, concrete link; no repeated items."
+  },
+  "medium": {
+    "id": "06152026-M",
+    "generatedAt": "2026-06-15T05:35:57.110Z",
+    "groups": [
+      {
+        "name": "Compound Word Set",
+        "items": [
+          "basketball",
+          "sunflower",
+          "blueprint",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sounds and Noises",
+        "items": [
+          "buzz",
+          "clang",
+          "beep",
+          "whirr"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Move and Talk",
+        "items": [
+          "park",
+          "race",
+          "joke",
+          "phone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Name Foods",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "lime"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium connections with some cross-over temptations: e.g., raincoat (compound) might hint at clothing; blueprint might hint at color-related 'blue' though it's a compound word."
+  },
+  "hard": {
+    "id": "06152026-H",
+    "generatedAt": "2026-06-15T05:35:57.110Z",
+    "groups": [
+      {
+        "name": "Word Pairs with Many Readings",
+        "items": [
+          "lead",
+          "bow",
+          "tear",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Verb-Objects",
+        "items": [
+          "bear",
+          "duck",
+          "slug",
+          "snake"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Time Keeps Ticking",
+        "items": [
+          "second",
+          "minute",
+          "hour",
+          "day"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-Word Compounds",
+        "items": [
+          "waterfall",
+          "bookcase",
+          "lighthouse",
+          "snowball"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard connections with abstract links. Some items have multiple readings or roles (polysemy/heteronyms) and might tempt players to group differently; stay focused on the chosen connections."
+  }
+}

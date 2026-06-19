@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06192026-E",
+    "generatedAt": "2026-06-19T05:32:52.299Z",
+    "groups": [
+      {
+        "name": "Discs and Orbs",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Collection",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "headband"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Culinary Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "dish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farmyard Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group has a clear, visual connection suitable for younger puzzlers."
+  },
+  "medium": {
+    "id": "06192026-M",
+    "generatedAt": "2026-06-19T05:32:52.299Z",
+    "groups": [
+      {
+        "name": "Playful Prefixes",
+        "items": [
+          "ground",
+          "time",
+          "book",
+          "mate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home Associations",
+        "items": [
+          "town",
+          "owner",
+          "land",
+          "coming"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Ready Pairs",
+        "items": [
+          "alarm",
+          "truck",
+          "fighter",
+          "escape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Card Companions",
+        "items": [
+          "credit",
+          "post",
+          "score",
+          "index"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "There are tempting overlaps in clues; each item belongs to one group, with a single correct association per group."
+  },
+  "hard": {
+    "id": "06192026-H",
+    "generatedAt": "2026-06-19T05:32:52.299Z",
+    "groups": [
+      {
+        "name": "Words with Two Senses",
+        "items": [
+          "bat",
+          "spring",
+          "bank",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophone Pairs",
+        "items": [
+          "knight",
+          "flower",
+          "sea",
+          "sun"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Masters",
+        "items": [
+          "lock",
+          "wind",
+          "cover",
+          "fold"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "fall",
+          "melon",
+          "proof",
+          "front"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard clues rely on abstract connections and wordplay; some items may look like they fit other groups at first glance."
+  }
+}

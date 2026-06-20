@@ -197,7 +197,11 @@
     "HUSHY",
     "MUSHY",
     "BLOP",
-    "DART"
+    "DART",
+    "LIME",
+    "TRAY",
+    "BOWL",
+    "FOND"
   ],
   "medium": [
     "MYSTIC",
@@ -363,7 +367,11 @@
     "CARNIVAL",
     "BALCONY",
     "FLAUNT",
-    "WONDERY"
+    "WONDERY",
+    "GRAVEL",
+    "FOLKED",
+    "THRIVE",
+    "WISTFUL"
   ],
   "hard": [
     "EXEMPLARY",
@@ -481,6 +489,9 @@
     "BLASTS",
     "CRISPY",
     "BAGGED",
-    "MYSTERY"
+    "MYSTERY",
+    "FLICKER",
+    "GRADIENT",
+    "JOURNEY"
   ]
 }

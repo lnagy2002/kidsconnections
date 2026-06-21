@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06212026-E",
+    "generatedAt": "2026-06-21T05:24:17.372Z",
+    "groups": [
+      {
+        "name": "Things you wear",
+        "items": [
+          "hat",
+          "sock",
+          "glove",
+          "scarf"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that grow",
+        "items": [
+          "plant",
+          "tree",
+          "carrot",
+          "corn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a classroom",
+        "items": [
+          "chalk",
+          "desk",
+          "book",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual categories suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "06212026-M",
+    "generatedAt": "2026-06-21T05:24:17.372Z",
+    "groups": [
+      {
+        "name": "Lights up the night",
+        "items": [
+          "moon",
+          "sun",
+          "star",
+          "lamp"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book companions",
+        "items": [
+          "note",
+          "text",
+          "story",
+          "work"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Occupation builders (-er)",
+        "items": [
+          "bake",
+          "paint",
+          "drive",
+          "write"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals in a zoo",
+        "items": [
+          "lion",
+          "tiger",
+          "panda",
+          "zebra"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix light-wordplay, simple word-formation, and friendly animal themes."
+  },
+  "hard": {
+    "id": "06212026-H",
+    "generatedAt": "2026-06-21T05:24:17.372Z",
+    "groups": [
+      {
+        "name": "Words with two pronunciations (heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that are also foods",
+        "items": [
+          "orange",
+          "olive",
+          "plum",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns that are also verbs (same spelling)",
+        "items": [
+          "play",
+          "watch",
+          "shop",
+          "dance"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract concepts",
+        "items": [
+          "truth",
+          "hope",
+          "pride",
+          "justice"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy for older kids."
+  }
+}

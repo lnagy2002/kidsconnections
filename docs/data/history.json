@@ -201,7 +201,11 @@
     "LIME",
     "TRAY",
     "BOWL",
-    "FOND"
+    "FOND",
+    "BENDY",
+    "FLEEK",
+    "TRAWL",
+    "LIFTY"
   ],
   "medium": [
     "MYSTIC",
@@ -372,7 +376,8 @@
     "FOLKED",
     "THRIVE",
     "WISTFUL",
-    "FLICKER"
+    "FLICKER",
+    "GHOSTLY"
   ],
   "hard": [
     "EXEMPLARY",

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06232026-E",
+    "generatedAt": "2026-06-23T04:39:53.361Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Eats",
+        "items": [
+          "egg",
+          "toast",
+          "cereal",
+          "milk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals on a Farm",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Items",
+        "items": [
+          "tree",
+          "bench",
+          "swing",
+          "slide"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 06232026."
+  },
+  "medium": {
+    "id": "06232026-M",
+    "generatedAt": "2026-06-23T04:39:53.361Z",
+    "groups": [
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "rainbow",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemous Words",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "letter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Relatives",
+        "items": [
+          "bark",
+          "ring",
+          "park",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "plant",
+          "watch",
+          "paint",
+          "cook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles with cross-over temptations built in."
+  },
+  "hard": {
+    "id": "06232026-H",
+    "generatedAt": "2026-06-23T04:39:53.361Z",
+    "groups": [
+      {
+        "name": "Symmetrical Words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same Spelling, Different Sounds",
+        "items": [
+          "lead",
+          "bass",
+          "tear",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Hidden Letters",
+        "items": [
+          "knight",
+          "write",
+          "knob",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Word Double-Ups",
+        "items": [
+          "orange",
+          "peach",
+          "sage",
+          "turquoise"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set featuring abstract links and multi-meaning word twists."
+  }
+}

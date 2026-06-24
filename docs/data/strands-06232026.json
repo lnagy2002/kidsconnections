@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "HIVE",
+      "CAVE",
+      "FLAT",
+      "FAME",
+      "BUMP",
+      "MIST",
+      "CANE",
+      "CAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TWIRL",
+      "GLOWING",
+      "FESTAL",
+      "SPIRAL",
+      "CRISPED",
+      "BUNGLES",
+      "JOURNAL",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADIENT",
+      "HARMONIC",
+      "SPECTRAL",
+      "TRANSLATE",
+      "ACROBATICS",
+      "BALANCEDLY",
+      "FRIENDSHIP",
+      "GENERATE",
+      "COMFORTED"
+    ]
+  }
+}

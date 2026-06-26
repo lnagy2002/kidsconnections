@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06262026-E",
+    "generatedAt": "2026-06-26T04:48:55.701Z",
+    "groups": [
+      {
+        "name": "Group A",
+        "items": [
+          "slide",
+          "swing",
+          "seesaw",
+          "sandbox"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group B",
+        "items": [
+          "chair",
+          "table",
+          "lamp",
+          "rug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group C",
+        "items": [
+          "dog",
+          "bird",
+          "cat",
+          "squirrel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group D",
+        "items": [
+          "apple",
+          "banana",
+          "carrot",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzles for date 06262026. Each group contains four items; items are unique across all groups."
+  },
+  "medium": {
+    "id": "06262026-M",
+    "generatedAt": "2026-06-26T04:48:55.701Z",
+    "groups": [
+      {
+        "name": "Group A",
+        "items": [
+          "sunflower",
+          "mailbox",
+          "bookshelf",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group B",
+        "items": [
+          "otter",
+          "zebra",
+          "iguana",
+          "yak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group C",
+        "items": [
+          "sunny",
+          "rainy",
+          "windy",
+          "cloudy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group D",
+        "items": [
+          "plate",
+          "spoon",
+          "cup",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: compound words, animals, weather descriptors, and kitchen items."
+  },
+  "hard": {
+    "id": "06262026-H",
+    "generatedAt": "2026-06-26T04:48:55.701Z",
+    "groups": [
+      {
+        "name": "Group A",
+        "items": [
+          "spring",
+          "bat",
+          "chip",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group B",
+        "items": [
+          "crane",
+          "seal",
+          "mouse",
+          "ram"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group C",
+        "items": [
+          "dust",
+          "plant",
+          "match",
+          "train"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group D",
+        "items": [
+          "wind",
+          "bow",
+          "lead",
+          "tear"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle exploring polysemy, homonyms, and pronunciations. Includes cross-over temptations."
+  }
+}

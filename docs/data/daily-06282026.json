@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06282026-E",
+    "generatedAt": "2026-06-28T04:59:24.693Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen items",
+        "items": [
+          "spoon",
+          "bowl",
+          "knife",
+          "fork"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets you know",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Simple action words",
+        "items": [
+          "run",
+          "jump",
+          "swim",
+          "crawl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle for date 06282026. All items are unique within this puzzle."
+  },
+  "medium": {
+    "id": "06282026-M",
+    "generatedAt": "2026-06-28T04:59:24.693Z",
+    "groups": [
+      {
+        "name": "Words that pair with sun to form common words",
+        "items": [
+          "flower",
+          "rise",
+          "glasses",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that form phrases with 'hand' in front",
+        "items": [
+          "shake",
+          "print",
+          "stand",
+          "made"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemous words (multiple meanings)",
+        "items": [
+          "bat",
+          "chip",
+          "spring",
+          "note"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Commonly used tools (hand tools)",
+        "items": [
+          "hammer",
+          "saw",
+          "wrench",
+          "drill"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle introduces light wordplay and cross-over temptations."
+  },
+  "hard": {
+    "id": "06282026-H",
+    "generatedAt": "2026-06-28T04:59:24.693Z",
+    "groups": [
+      {
+        "name": "Polysemes with multiple meanings",
+        "items": [
+          "plant",
+          "rock",
+          "watch",
+          "level"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "bow",
+          "dove",
+          "row",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Jobs people have",
+        "items": [
+          "pilot",
+          "miner",
+          "nurse",
+          "chef"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Compound words",
+        "items": [
+          "sunset",
+          "bookcase",
+          "toothbrush",
+          "raincoat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract links and tricky word forms."
+  }
+}

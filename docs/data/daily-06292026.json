@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06292026-E",
+    "generatedAt": "2026-06-29T05:11:16.365Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "drum",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals You Know",
+        "items": [
+          "cat",
+          "dog",
+          "rabbit",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a Park",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four kid-friendly easy groups with clear visual or everyday themes. Each item is unique across all groups."
+  },
+  "medium": {
+    "id": "06292026-M",
+    "generatedAt": "2026-06-29T05:11:16.365Z",
+    "groups": [
+      {
+        "name": "Sun-Compound Words",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That Pair with Ball to Name Sports",
+        "items": [
+          "base",
+          "basket",
+          "soft",
+          "foot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Re-",
+        "items": [
+          "play",
+          "do",
+          "use",
+          "act"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tree Varieties",
+        "items": [
+          "oak",
+          "palm",
+          "elm",
+          "birch"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles feature simple wordplay and small cross-over temptations (e.g., items that could spark other group ideas but belong in only one group)."
+  },
+  "hard": {
+    "id": "06292026-H",
+    "generatedAt": "2026-06-29T05:11:16.365Z",
+    "groups": [
+      {
+        "name": "Polysemes with Big Differences",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "lead"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Are Verbs",
+        "items": [
+          "bear",
+          "seal",
+          "wolf",
+          "fox"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Pairs",
+        "items": [
+          "clear",
+          "sure",
+          "fold",
+          "tidy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "fall",
+          "watch",
+          "sound",
+          "drive"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract connections and multi-meaning words. Expect tempting misfits that only fit one group."
+  }
+}

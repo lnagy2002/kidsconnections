@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MEAL",
+      "FIND",
+      "TIDE",
+      "CANE",
+      "FUME",
+      "CLIM",
+      "HIDE",
+      "DUST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "GATHER",
+      "FESTAL",
+      "SPIRAL",
+      "CANDLE",
+      "HARMON",
+      "BALANCE",
+      "FESTIV"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "SPIRITED",
+      "FANTASTIC",
+      "GENERATION",
+      "ADVENTUR",
+      "TRADITION",
+      "EXPLORING",
+      "COMFORTED",
+      "HARMONIC"
+    ]
+  }
+}

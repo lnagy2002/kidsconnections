@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "FLEW",
+      "CLAP",
+      "HIDE",
+      "MIST",
+      "WIND",
+      "JUMP",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FARMER",
+      "SILVER",
+      "WILLOW",
+      "CANDLE",
+      "PLANTS",
+      "DREAMY",
+      "SPARKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDS",
+      "BALANCE",
+      "COMFORT",
+      "FANTASY",
+      "HARMONY",
+      "GLITTERY",
+      "WONDERED",
+      "SPIRITED",
+      "TRANQUIL"
+    ]
+  }
+}

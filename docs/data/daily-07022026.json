@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07022026-E",
+    "generatedAt": "2026-07-02T04:38:40.086Z",
+    "groups": [
+      {
+        "name": "Round Things You Carry",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating-and-Drinking Tools",
+        "items": [
+          "spoon",
+          "fork",
+          "cup",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Drink",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh kid-friendly Connections puzzles for an easy level. Groups are concrete and visually clear."
+  },
+  "medium": {
+    "id": "07022026-M",
+    "generatedAt": "2026-07-02T04:38:40.086Z",
+    "groups": [
+      {
+        "name": "Add 'un' to make opposites",
+        "items": [
+          "likely",
+          "fold",
+          "wrap",
+          "tie"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-Word Pairs",
+        "items": [
+          "case",
+          "worm",
+          "mark",
+          "end"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 're-' to make new words",
+        "items": [
+          "do",
+          "act",
+          "use",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "cook",
+          "brush",
+          "watch",
+          "chair"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with light compound-word ideas. Some items could seem to fit another group (cross-over temptation), but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "07022026-H",
+    "generatedAt": "2026-07-02T04:38:40.086Z",
+    "groups": [
+      {
+        "name": "Words with many meanings",
+        "items": [
+          "bat",
+          "seal",
+          "spring",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two pronunciations (heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop the first letter to form a new word",
+        "items": [
+          "scent",
+          "knight",
+          "ghost",
+          "twine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful foods",
+        "items": [
+          "orange",
+          "salmon",
+          "lime",
+          "peach"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on abstract connections and word quirks. Expect some tempting cross-overs (e.g., watch could fit more than one group) to challenge visibility rules."
+  }
+}

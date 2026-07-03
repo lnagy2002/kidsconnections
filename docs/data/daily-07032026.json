@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07032026-E",
+    "generatedAt": "2026-07-03T04:24:48.424Z",
+    "groups": [
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sink Helpers",
+        "items": [
+          "soap",
+          "sponge",
+          "faucet",
+          "brush"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 07032026 easy puzzle set. 4 groups, 4 items each."
+  },
+  "medium": {
+    "id": "07032026-M",
+    "generatedAt": "2026-07-03T04:24:48.424Z",
+    "groups": [
+      {
+        "name": "Opposites with Un",
+        "items": [
+          "happy",
+          "cool",
+          "safe",
+          "tidy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "ring",
+          "note",
+          "pause",
+          "dream"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Careers",
+        "items": [
+          "baker",
+          "teacher",
+          "driver",
+          "pilot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Park Time Favorites",
+        "items": [
+          "bench",
+          "swing",
+          "slide",
+          "fountain"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 07032026 medium puzzle set. 4 groups, 4 items each. Some items might tempt to fit other groups, but belong to their correct group."
+  },
+  "hard": {
+    "id": "07032026-H",
+    "generatedAt": "2026-07-03T04:24:48.424Z",
+    "groups": [
+      {
+        "name": "Two Pronunciations, Same Spelling",
+        "items": [
+          "wind",
+          "lead",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Backward-Forward Reads",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Way Words",
+        "items": [
+          "dust",
+          "clip",
+          "bolt",
+          "trim"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit Colors",
+        "items": [
+          "orange",
+          "olive",
+          "plum",
+          "peach"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 07032026 hard puzzle set. 4 groups, 4 items each. Includes some tricky cross-checks to spot the intended group."
+  }
+}

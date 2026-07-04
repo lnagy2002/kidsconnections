@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07042026-E",
+    "generatedAt": "2026-07-04T04:11:24.296Z",
+    "groups": [
+      {
+        "name": "Bright Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Grow",
+        "items": [
+          "carrot",
+          "apple",
+          "lettuce",
+          "strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals That Move",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Objects You Use",
+        "items": [
+          "cup",
+          "book",
+          "pencil",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Freshly crafted for 07042026. Four groups of four items each; all items are kid-friendly."
+  },
+  "medium": {
+    "id": "07042026-M",
+    "generatedAt": "2026-07-04T04:11:24.296Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "raincoat",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Versus-Verb Pairs",
+        "items": [
+          "watch",
+          "break",
+          "play",
+          "jump"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "monkey",
+          "panda",
+          "tiger",
+          "koala"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "pan",
+          "bowl",
+          "pot",
+          "grater"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses wordplay and simple compound words with a gentle cross-over temptation."
+  },
+  "hard": {
+    "id": "07042026-H",
+    "generatedAt": "2026-07-04T04:11:24.296Z",
+    "groups": [
+      {
+        "name": "Polysemes and Multiple Meanings",
+        "items": [
+          "spring",
+          "bat",
+          "bank",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Silent Letters",
+        "items": [
+          "knight",
+          "write",
+          "gnome",
+          "lamb"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Fruit Words",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Are Verbs (Same Spelling)",
+        "items": [
+          "park",
+          "match",
+          "record",
+          "seal"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle invites abstract connections and polysemy; watch for cross-over temptations like 'bank' or 'seal'."
+  }
+}

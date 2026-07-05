@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07052026-E",
+    "generatedAt": "2026-07-05T04:38:39.663Z",
+    "groups": [
+      {
+        "name": "Footwear Basics",
+        "items": [
+          "shoe",
+          "sock",
+          "boot",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "pan",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Pals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections puzzles for 07/05/2026. Easy themes are concrete and visual."
+  },
+  "medium": {
+    "id": "07052026-M",
+    "generatedAt": "2026-07-05T04:38:39.663Z",
+    "groups": [
+      {
+        "name": "Rain Compounds",
+        "items": [
+          "coat",
+          "drop",
+          "bow",
+          "forest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "eraser",
+          "ruler",
+          "chalk",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Play Prefix Pairs",
+        "items": [
+          "ground",
+          "time",
+          "book",
+          "wright"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Prefix Pairs",
+        "items": [
+          "fall",
+          "melon",
+          "bed",
+          "color"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptations; some items might look like they belong to another group but belong here."
+  },
+  "hard": {
+    "id": "07052026-H",
+    "generatedAt": "2026-07-05T04:38:39.663Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Duos",
+        "items": [
+          "match",
+          "spring",
+          "plant",
+          "trip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same Spelling, Different Sounds",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sun-Word Compounds",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "shine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Fruit Names",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles involve abstract connections and multiple meanings; cross-over temptations are present."
+  }
+}

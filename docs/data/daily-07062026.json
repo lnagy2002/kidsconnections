@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07062026-E",
+    "generatedAt": "2026-07-06T04:50:22.113Z",
+    "groups": [
+      {
+        "name": "Ties that bind",
+        "items": [
+          "SHOELACE",
+          "ROPE",
+          "RIBBON",
+          "STRING"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "BIRD",
+          "AIRPLANE",
+          "KITE",
+          "BUTTERFLY"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "HAT",
+          "CAP",
+          "HELMET",
+          "TIARA"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables for the body",
+        "items": [
+          "GLOVES",
+          "SHOES",
+          "SOCKS",
+          "EARRINGS"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy set for 07062026; concrete visual themes designed for kids in grades 2-6."
+  },
+  "medium": {
+    "id": "07062026-M",
+    "generatedAt": "2026-07-06T04:50:22.113Z",
+    "groups": [
+      {
+        "name": "Compound words",
+        "items": [
+          "RAINCOAT",
+          "BOOKCASE",
+          "SUNFLOWER",
+          "TOOTHPASTE"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun- word builders",
+        "items": [
+          "RISE",
+          "BURN",
+          "SCREEN",
+          "SHINE"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tree-themed word pairs",
+        "items": [
+          "APPLE",
+          "ORANGE",
+          "PEAR",
+          "PEACH"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Letters that sound like words",
+        "items": [
+          "BEE",
+          "SEA",
+          "ARE",
+          "WHY"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set focuses on simple wordplay and cross-group temptations."
+  },
+  "hard": {
+    "id": "07062026-H",
+    "generatedAt": "2026-07-06T04:50:22.113Z",
+    "groups": [
+      {
+        "name": "Double-action words",
+        "items": [
+          "BARK",
+          "PUNCH",
+          "PARK",
+          "BOX"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "SANCTION",
+          "OVERSIGHT",
+          "LEFT",
+          "BOUND"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "LEAD",
+          "WIND",
+          "BOW",
+          "READ"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "LEVEL",
+          "RADAR",
+          "CIVIC",
+          "ROTOR"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set explores multi-meaning words and tricky wordplay."
+  }
+}

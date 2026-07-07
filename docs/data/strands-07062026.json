@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LEAF",
+      "CROW",
+      "JUMP",
+      "GLOW",
+      "BLOW",
+      "COLD",
+      "MIST",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FRESH",
+      "SPIRAL",
+      "BRIDGE",
+      "FABLES",
+      "TWILIGHT",
+      "BALANCE",
+      "CHERISH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "WONDERFUL",
+      "EXPLORING",
+      "FANTASTIC",
+      "GRADUATION",
+      "HARMONIZE",
+      "COMFORTING",
+      "TRANSLATED",
+      "INNOVATIVE",
+      "SPECTACULAR"
+    ]
+  }
+}

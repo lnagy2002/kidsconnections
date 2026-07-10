@@ -209,7 +209,8 @@
     "LEAF",
     "CROW",
     "BLOW",
-    "MESH"
+    "MESH",
+    "SPOT"
   ],
   "medium": [
     "MYSTIC",
@@ -383,7 +384,8 @@
     "FLICKER",
     "GHOSTLY",
     "GLOBEY",
-    "BALCON"
+    "BALCON",
+    "CIRCLES"
   ],
   "hard": [
     "EXEMPLARY",
@@ -506,6 +508,7 @@
     "GRADIENT",
     "JOURNEY",
     "COMFORT",
-    "WONDERY"
+    "WONDERY",
+    "GENERATED"
   ]
 }

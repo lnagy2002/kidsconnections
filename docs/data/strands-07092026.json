@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "SPOT",
+      "GLOW",
+      "FISH",
+      "BARK",
+      "CAMP",
+      "HIDE",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMS",
+      "FESTIVE",
+      "GATHER",
+      "CRISPED",
+      "BALANCE",
+      "SPIRIT",
+      "CIRCLES",
+      "FANTASY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIANGLE",
+      "SPECTACLE",
+      "HARMONIZE",
+      "GENERATED",
+      "EXPLORING",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "CONSTRUCT",
+      "ADVENTUR"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07112026-E",
+    "generatedAt": "2026-07-11T03:50:50.359Z",
+    "groups": [
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "duck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Eat",
+        "items": [
+          "apple",
+          "carrot",
+          "bread",
+          "cheese"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things With Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "roller skates"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Simple Sound Makers",
+        "items": [
+          "bell",
+          "drum",
+          "whistle",
+          "piano"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Easy puzzle: 4 groups, 16 items, kid-friendly."
+  },
+  "medium": {
+    "id": "07112026-M",
+    "generatedAt": "2026-07-11T03:50:50.359Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "toothbrush",
+          "raincoat",
+          "lunchbox",
+          "basketball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal-Verbs",
+        "items": [
+          "bear",
+          "seal",
+          "crane",
+          "fish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "hail"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fix-It Tools",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh Medium puzzle: 4 groups with cross-over hints tempting but each item fits only one group."
+  },
+  "hard": {
+    "id": "07112026-H",
+    "generatedAt": "2026-07-11T03:50:50.359Z",
+    "groups": [
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "row",
+          "bass",
+          "dove",
+          "lead"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "With-Un Prefix Opposites",
+        "items": [
+          "done",
+          "certain",
+          "kind",
+          "clear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "watch",
+          "play",
+          "jump",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "hope",
+          "trust",
+          "patience",
+          "joy"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh Hard puzzle: 4 groups exploring tricky language features like heteronyms and polysemy."
+  }
+}

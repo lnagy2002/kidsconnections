@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07122026-E",
+    "generatedAt": "2026-07-12T04:05:58.739Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Birds that Fly",
+        "items": [
+          "eagle",
+          "sparrow",
+          "parrot",
+          "owl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "fork",
+          "spoon",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Juicy Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 07122026. Each group has a concrete, visual connection suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "07122026-M",
+    "generatedAt": "2026-07-12T04:05:58.739Z",
+    "groups": [
+      {
+        "name": "Super-Word Starters",
+        "items": [
+          "man",
+          "star",
+          "market",
+          "hero"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "desk",
+          "book",
+          "clock",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 're' to Make New Words",
+        "items": [
+          "do",
+          "write",
+          "act",
+          "try"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "kind",
+          "lucky",
+          "happy",
+          "clear"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with cross-over temptations: items could seem to fit more than one group, but each item belongs to exactly one connection."
+  },
+  "hard": {
+    "id": "07122026-H",
+    "generatedAt": "2026-07-12T04:05:58.739Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "bat",
+          "spring",
+          "match",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "kayak",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "knee",
+          "gnome",
+          "psalm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "blue",
+          "green",
+          "brown",
+          "pink"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections. Each group hides a distinct pattern, with deliberate temptations to misplace items into the wrong group."
+  }
+}

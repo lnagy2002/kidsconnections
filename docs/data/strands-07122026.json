@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CANE",
+      "TIDE",
+      "FUME",
+      "BUMP",
+      "WILD",
+      "DINE",
+      "CORN",
+      "FINE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "GARNET",
+      "FESTAL",
+      "BALANC",
+      "CANDLE",
+      "SPIRAL",
+      "NURSED",
+      "FLIGHT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "WONDERFUL",
+      "GATHERING",
+      "EXPLORING",
+      "COMFORTED",
+      "HARMONIC",
+      "TRADITION",
+      "GENERATED",
+      "FANTASTIC",
+      "BALANCEDLY"
+    ]
+  }
+}

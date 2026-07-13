@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07132026-E",
+    "generatedAt": "2026-07-13T04:08:17.928Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Feet",
+        "items": [
+          "sock",
+          "shoe",
+          "sandal",
+          "boot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh date 07132026 puzzle: four easy groups with concrete, kid-friendly connections."
+  },
+  "medium": {
+    "id": "07132026-M",
+    "generatedAt": "2026-07-13T04:08:17.928Z",
+    "groups": [
+      {
+        "name": "Sun-Pair Words",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Prefix Pairs",
+        "items": [
+          "fall",
+          "color",
+          "proof",
+          "slide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Star-Prefix Pairs",
+        "items": [
+          "fish",
+          "light",
+          "ship",
+          "dust"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Versus-Verb Words",
+        "items": [
+          "play",
+          "watch",
+          "cook",
+          "plant"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay with prefixes and compound forms. Expect a few tempting misfits that only fit one group."
+  },
+  "hard": {
+    "id": "07132026-H",
+    "generatedAt": "2026-07-13T04:08:17.928Z",
+    "groups": [
+      {
+        "name": "Light Compounds",
+        "items": [
+          "spot",
+          "moon",
+          "sun",
+          "star"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Storm Compounds",
+        "items": [
+          "brain",
+          "sand",
+          "rain",
+          "thunder"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "First-Letter Removals",
+        "items": [
+          "stone",
+          "pride",
+          "glow",
+          "crime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Irregular Plurals",
+        "items": [
+          "man",
+          "goose",
+          "mouse",
+          "tooth"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract connections: word-building with light or storm, or irregular plural rules. Look closely to find the hidden links."
+  }
+}

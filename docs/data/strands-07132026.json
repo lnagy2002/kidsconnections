@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CAGEY",
+      "FLEET",
+      "GLIDE",
+      "HAPPY",
+      "MINTY",
+      "SPARK",
+      "TWIRL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CRUNCH",
+      "GATHER",
+      "JOURNAL",
+      "MYSTIC",
+      "SILENT",
+      "TWILIGHT",
+      "WONDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "EXPLAINED",
+      "FRIENDLY",
+      "HARMONIC",
+      "INNOVATE",
+      "MAGNETIC",
+      "SPECTACLE",
+      "TRANSLATED",
+      "WONDERFUL"
+    ]
+  }
+}

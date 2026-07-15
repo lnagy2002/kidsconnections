@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07152026-E",
+    "generatedAt": "2026-07-15T03:43:57.529Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Jumping Animals",
+        "items": [
+          "frog",
+          "rabbit",
+          "kangaroo",
+          "hare"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Floating Objects",
+        "items": [
+          "boat",
+          "balloon",
+          "leaf",
+          "log"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rolling Things",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "wagon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Concrete, visual categories for younger puzzlers."
+  },
+  "medium": {
+    "id": "07152026-M",
+    "generatedAt": "2026-07-15T03:43:57.529Z",
+    "groups": [
+      {
+        "name": "Compound-Word Companions",
+        "items": [
+          "rainbow",
+          "sunflower",
+          "keyboard",
+          "footprint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Holdables",
+        "items": [
+          "pencil",
+          "book",
+          "mug",
+          "umbrella"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Playground Actions",
+        "items": [
+          "swing",
+          "slide",
+          "jump",
+          "climb"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "cat",
+          "dog",
+          "owl",
+          "fox"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay, everyday objects, and friendly animals."
+  },
+  "hard": {
+    "id": "07152026-H",
+    "generatedAt": "2026-07-15T03:43:57.529Z",
+    "groups": [
+      {
+        "name": "Multiple-Meaning Words 1",
+        "items": [
+          "ring",
+          "crane",
+          "dock",
+          "bark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Fruit Friends",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "read",
+          "wind",
+          "lead",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Body Parts Doing Things",
+        "items": [
+          "hand",
+          "eye",
+          "mouth",
+          "foot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multiple meanings."
+  }
+}

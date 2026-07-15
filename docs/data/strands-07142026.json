@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BLOB",
+      "FARM",
+      "CAMP",
+      "MIST",
+      "HIDE",
+      "COLD",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CRISP",
+      "DREAMS",
+      "GHOSTS",
+      "BALLET",
+      "TWIRL",
+      "FESTAL",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "BALANCED",
+      "SPIRITED",
+      "GENERATION",
+      "EXPLORING",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "WONDERFUL",
+      "INNOVATED"
+    ]
+  }
+}

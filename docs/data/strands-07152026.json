@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "CLIP",
+      "DUST",
+      "FLEA",
+      "GLOW",
+      "HIVE",
+      "MIST",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CHERRY",
+      "FABLES",
+      "GARDEN",
+      "JOURNAL",
+      "LANTERN",
+      "MYSTIC",
+      "PLANTS",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CARNIVAL",
+      "DREAMING",
+      "FANTASTIC",
+      "HARMONIC",
+      "INNOVATE",
+      "SPIRITED",
+      "TRANQUIL",
+      "WONDERED"
+    ]
+  }
+}

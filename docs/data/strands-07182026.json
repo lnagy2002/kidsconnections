@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "COLD",
+      "WIND",
+      "HIDE",
+      "FARM",
+      "BUMP",
+      "BASH",
+      "CANE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "FESTIV",
+      "PLANTS",
+      "NURSED",
+      "BALANC",
+      "CAVERN",
+      "MYSTIFY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "ACROBATICS",
+      "GRADUATES",
+      "BALANCEDLY",
+      "SPIRITED",
+      "INNOVATIVE",
+      "EXPLORING",
+      "GENERATED",
+      "FRIENDSHIP"
+    ]
+  }
+}

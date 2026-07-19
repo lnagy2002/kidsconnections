@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07192026-E",
+    "generatedAt": "2026-07-19T04:02:49.575Z",
+    "groups": [
+      {
+        "name": "Circles on Earth",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to Travel",
+        "items": [
+          "bike",
+          "bus",
+          "car",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 07192026 easy puzzle with four clear, kid-friendly groups."
+  },
+  "medium": {
+    "id": "07192026-M",
+    "generatedAt": "2026-07-19T04:02:49.575Z",
+    "groups": [
+      {
+        "name": "Sky Things",
+        "items": [
+          "cloud",
+          "star",
+          "comet",
+          "rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "duck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Music Makers",
+        "items": [
+          "guitar",
+          "drum",
+          "piano",
+          "violin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rideables on Land",
+        "items": [
+          "bicycle",
+          "skateboard",
+          "scooter",
+          "rollerblades"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 07192026 medium puzzle with four groups featuring simple wordplay and categories."
+  },
+  "hard": {
+    "id": "07192026-H",
+    "generatedAt": "2026-07-19T04:02:49.575Z",
+    "groups": [
+      {
+        "name": "Double-Use Words",
+        "items": [
+          "spring",
+          "watch",
+          "rock",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Prefix Fun",
+        "items": [
+          "do",
+          "turn",
+          "play",
+          "act"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Context Friends",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors That Are Objects",
+        "items": [
+          "rose",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 07192026 hard puzzle with abstract connections and cross-word ideas suitable for older kids."
+  }
+}

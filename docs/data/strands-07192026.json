@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LIFT",
+      "BAND",
+      "FIRM",
+      "CANE",
+      "BOLT",
+      "FALL",
+      "BUSH",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRICKY",
+      "SPIRIT",
+      "SPARKY",
+      "HARMON",
+      "FESTAL",
+      "GLIDER",
+      "PLANTS",
+      "CANDOR"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GATHERED",
+      "BALANCED",
+      "FANTASIES",
+      "GRADUATES",
+      "HARMONIZE",
+      "INNOVATED",
+      "FRIENDSHIP",
+      "COMFORTING",
+      "TRANSLATED"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07202026-E",
+    "generatedAt": "2026-07-20T04:12:49.748Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Produce",
+        "items": [
+          "carrot",
+          "tomato",
+          "corn",
+          "onion"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "pancake",
+          "egg",
+          "cereal",
+          "toast"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle groups. Each group has four concrete items."
+  },
+  "medium": {
+    "id": "07202026-M",
+    "generatedAt": "2026-07-20T04:12:49.748Z",
+    "groups": [
+      {
+        "name": "Ball-Partner Words",
+        "items": [
+          "snow",
+          "basket",
+          "foot",
+          "base"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-Forming Words",
+        "items": [
+          "note",
+          "guide",
+          "text",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Related Words",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Yard-Word Compounds",
+        "items": [
+          "back",
+          "front",
+          "grave",
+          "barn"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve simple word-formation tricks. Some items might tempt you to think they belong to another group, but they belong here."
+  },
+  "hard": {
+    "id": "07202026-H",
+    "generatedAt": "2026-07-20T04:12:49.748Z",
+    "groups": [
+      {
+        "name": "Polysemous Words",
+        "items": [
+          "ring",
+          "bank",
+          "spring",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Use Pairs",
+        "items": [
+          "bear",
+          "crane",
+          "seal",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sports Equipment",
+        "items": [
+          "glove",
+          "net",
+          "pad",
+          "skate"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multiple meanings. Some words have more than one common interpretation, which can be tempting to misplace."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MIST",
+      "CANE",
+      "FIRM",
+      "BUMP",
+      "FLEA",
+      "WIND",
+      "HIDE",
+      "COLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FROSTY",
+      "PLANTS",
+      "DREAMY",
+      "BALANCE",
+      "FLIGHT",
+      "SPIRITS",
+      "TRICKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASY",
+      "MAGNETIC",
+      "SPIRALING",
+      "WONDERFUL",
+      "DREAMLIKE",
+      "EXPLORING",
+      "COMFORTED",
+      "CHERISHED",
+      "GRADIENT"
+    ]
+  }
+}

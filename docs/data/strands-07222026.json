@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "BARK",
+      "LIFT",
+      "FAME",
+      "HIVE",
+      "MINT",
+      "BUMP",
+      "FOND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CANDLE",
+      "FESTAL",
+      "FLAUNT",
+      "LANTERN",
+      "SPIRAL",
+      "PLANTS",
+      "THUNDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "FANTASTIC",
+      "GRADUATE",
+      "SPIRITED",
+      "HARMONIC",
+      "TRANQUIL",
+      "ADVENTURE",
+      "GENERATE",
+      "CIRCULATE"
+    ]
+  }
+}

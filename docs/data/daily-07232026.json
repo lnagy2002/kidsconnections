@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07232026-E",
+    "generatedAt": "2026-07-23T03:53:35.531Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "cherry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Float",
+        "items": [
+          "boat",
+          "balloon",
+          "cork",
+          "log"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "pot",
+          "pan"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four visual themes with concrete items."
+  },
+  "medium": {
+    "id": "07232026-M",
+    "generatedAt": "2026-07-23T03:53:35.531Z",
+    "groups": [
+      {
+        "name": "Add -er to form agents",
+        "items": [
+          "paint",
+          "build",
+          "teach",
+          "read"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Followers of Sun",
+        "items": [
+          "rise",
+          "flower",
+          "screen",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Back-Word Compounds",
+        "items": [
+          "pack",
+          "yard",
+          "story",
+          "hand"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain- prefixed words",
+        "items": [
+          "bow",
+          "coat",
+          "check",
+          "forest"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle: wordplay where items form common compounds with simple prefixes or suffixes."
+  },
+  "hard": {
+    "id": "07232026-H",
+    "generatedAt": "2026-07-23T03:53:35.531Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Duo Words",
+        "items": [
+          "plant",
+          "watch",
+          "park",
+          "sound"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (Opposite Meanings)",
+        "items": [
+          "dust",
+          "oversight",
+          "sanction",
+          "left"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Different Pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measurement Units",
+        "items": [
+          "mile",
+          "inch",
+          "foot",
+          "liter"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle: tricky word connections and pronunciation shifts."
+  }
+}

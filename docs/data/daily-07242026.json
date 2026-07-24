@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07242026-E",
+    "generatedAt": "2026-07-24T03:52:31.987Z",
+    "groups": [
+      {
+        "name": "Color Splash",
+        "items": [
+          "red",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wiggly Things",
+        "items": [
+          "worm",
+          "snake",
+          "slime",
+          "eel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "truck",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "chicken",
+          "pig"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy set designed for ages 7–11. Four groups of four concrete items."
+  },
+  "medium": {
+    "id": "07242026-M",
+    "generatedAt": "2026-07-24T03:52:31.987Z",
+    "groups": [
+      {
+        "name": "Ball Companions",
+        "items": [
+          "base",
+          "basket",
+          "soft",
+          "hard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Time Teammates",
+        "items": [
+          "meal",
+          "bed",
+          "play",
+          "lunch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light Pairs",
+        "items": [
+          "sun",
+          "moon",
+          "star",
+          "fire"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books and More",
+        "items": [
+          "note",
+          "story",
+          "text",
+          "cook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set with cross-over wordplay: items form familiar compound phrases with a common partner (ball, time, light, book)."
+  },
+  "hard": {
+    "id": "07242026-H",
+    "generatedAt": "2026-07-24T03:52:31.987Z",
+    "groups": [
+      {
+        "name": "Ambidextrous Words",
+        "items": [
+          "bat",
+          "spring",
+          "watch",
+          "park"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Fruit Hybrids",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Double Duty",
+        "items": [
+          "box",
+          "rock",
+          "run",
+          "wave"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals with Double Roles",
+        "items": [
+          "bear",
+          "crane",
+          "seal",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set with abstract connections and polysemes. Cross-over temptations included (e.g., ball, time, light, book)."
+  }
+}

@@ -210,7 +210,8 @@
     "CROW",
     "BLOW",
     "MESH",
-    "SPOT"
+    "SPOT",
+    "PLUM"
   ],
   "medium": [
     "MYSTIC",
@@ -386,7 +387,8 @@
     "GLOBEY",
     "BALCON",
     "CIRCLES",
-    "CHERRY"
+    "CHERRY",
+    "FLAIR"
   ],
   "hard": [
     "EXEMPLARY",
@@ -510,6 +512,7 @@
     "JOURNEY",
     "COMFORT",
     "WONDERY",
-    "GENERATED"
+    "GENERATED",
+    "DREAMY"
   ]
 }

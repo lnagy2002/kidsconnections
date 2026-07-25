@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMP",
+      "CAGE",
+      "MASH",
+      "FIRM",
+      "MILD",
+      "HIDE",
+      "WILD",
+      "BOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "BRIDGE",
+      "CLIMBER",
+      "DREAMS",
+      "SPIRAL",
+      "TROPHY",
+      "BALANCE",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "HARMONIZE",
+      "EXPLORING",
+      "TRANSLATE",
+      "GENERATE",
+      "FRIENDSHIP",
+      "IMAGINARY",
+      "SPECTACULAR",
+      "INNOVATIVE"
+    ]
+  }
+}

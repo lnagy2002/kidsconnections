@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07252026-E",
+    "generatedAt": "2026-07-25T03:47:46.460Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Ride (Non-motorized)",
+        "items": [
+          "bike",
+          "scooter",
+          "skateboard",
+          "roller skates"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Have",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a Classroom",
+        "items": [
+          "desk",
+          "chair",
+          "book",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, visual categories suitable for ages 7-11. Examples include fruits, non-motorized rides, common pets, and classroom items."
+  },
+  "medium": {
+    "id": "07252026-M",
+    "generatedAt": "2026-07-25T03:47:46.460Z",
+    "groups": [
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "run",
+          "jump",
+          "read",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal-Verbs",
+        "items": [
+          "duck",
+          "bear",
+          "crane",
+          "seal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather-Related Adjectives",
+        "items": [
+          "sunny",
+          "windy",
+          "rainy",
+          "cloudy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Foods You Can Eat",
+        "items": [
+          "bread",
+          "cookie",
+          "pasta",
+          "rice"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce simple wordplay and overlap. A few items could plausibly fit into another group (for example, bread could be seen as a food and as a cooking term), which creates a tempting cross-over to spot."
+  },
+  "hard": {
+    "id": "07252026-H",
+    "generatedAt": "2026-07-25T03:47:46.460Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "live",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Agent-Noun from Base Verb (+er)",
+        "items": [
+          "build",
+          "paint",
+          "write",
+          "draw"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Prefix re- for Again",
+        "items": [
+          "do",
+          "use",
+          "cycle",
+          "act"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Types of Stone",
+        "items": [
+          "granite",
+          "limestone",
+          "sandstone",
+          "marble"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard connections lean toward abstract wordplay. Some items could plausibly fit more than one group (for example, lead as a verb vs as a metal; bread as a cooking term), which encourages careful grouping."
+  }
+}

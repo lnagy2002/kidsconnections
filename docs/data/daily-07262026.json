@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07262026-E",
+    "generatedAt": "2026-07-26T04:05:09.354Z",
+    "groups": [
+      {
+        "name": "Blue Things",
+        "items": [
+          "sky",
+          "ocean",
+          "blueberry",
+          "jeans"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "eagle",
+          "butterfly",
+          "bat",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Wear",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly: 4 visual themes with 4 items each; 16 unique items."
+  },
+  "medium": {
+    "id": "07262026-M",
+    "generatedAt": "2026-07-26T04:05:09.354Z",
+    "groups": [
+      {
+        "name": "Light Companions",
+        "items": [
+          "sun",
+          "moon",
+          "flash",
+          "spot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "do",
+          "tie",
+          "fold",
+          "pack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Pairs",
+        "items": [
+          "bow",
+          "coat",
+          "water",
+          "fall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -er to Make Doers",
+        "items": [
+          "bake",
+          "build",
+          "draw",
+          "write"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Tricky medium: cross-over temptations present; items cleanly fit only one group."
+  },
+  "hard": {
+    "id": "07262026-H",
+    "generatedAt": "2026-07-26T04:05:09.354Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "spring",
+          "jam",
+          "crane",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add Re- Prefix",
+        "items": [
+          "play",
+          "make",
+          "start",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Home-Word Friends",
+        "items": [
+          "brew",
+          "body",
+          "coming",
+          "page"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Word Friends",
+        "items": [
+          "alarm",
+          "fighter",
+          "proof",
+          "truck"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle emphasizes abstract connections and multi-meaning words; items are distinct and challenging."
+  }
+}

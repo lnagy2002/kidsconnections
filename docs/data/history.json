@@ -211,7 +211,9 @@
     "BLOW",
     "MESH",
     "SPOT",
-    "PLUM"
+    "PLUM",
+    "CLUMP",
+    "GUSTY"
   ],
   "medium": [
     "MYSTIC",

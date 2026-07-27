@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07272026-E",
+    "generatedAt": "2026-07-27T04:12:17.197Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "Hat",
+          "Shoes",
+          "Jacket",
+          "Ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "Bench",
+          "Tree",
+          "Slide",
+          "Swing"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "Pan",
+          "Pot",
+          "Cup",
+          "Spoon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": ""
+  },
+  "medium": {
+    "id": "07272026-M",
+    "generatedAt": "2026-07-27T04:12:17.197Z",
+    "groups": [
+      {
+        "name": "Rain Pairs",
+        "items": [
+          "Bow",
+          "Coat",
+          "Fall",
+          "Storm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow Pairs",
+        "items": [
+          "Flake",
+          "Cone",
+          "Man",
+          "Ball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Pairs",
+        "items": [
+          "Fly",
+          "Wall",
+          "Place",
+          "Work"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sound Words",
+        "items": [
+          "Pop",
+          "Buzz",
+          "Bang",
+          "Boom"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": ""
+  },
+  "hard": {
+    "id": "07272026-H",
+    "generatedAt": "2026-07-27T04:12:17.197Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "Lead",
+          "Wind",
+          "Read",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Object Names",
+        "items": [
+          "Crane",
+          "Bat",
+          "Seal",
+          "Fox"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Units of Measure",
+        "items": [
+          "Meter",
+          "Gram",
+          "Liter",
+          "Watt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "Park",
+          "Sink",
+          "Dress",
+          "Train"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": ""
+  }
+}

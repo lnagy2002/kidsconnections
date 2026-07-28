@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07282026-E",
+    "generatedAt": "2026-07-28T03:45:50.416Z",
+    "groups": [
+      {
+        "name": "Circle Circle Club",
+        "items": [
+          "Ball",
+          "Coin",
+          "Pie",
+          "Ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Red Treats and Colors",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headgear Parade",
+        "items": [
+          "Hat",
+          "Cap",
+          "Beanie",
+          "Helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "Cereal",
+          "Toast",
+          "Egg",
+          "Pancake"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle set for 07/28/2026."
+  },
+  "medium": {
+    "id": "07282026-M",
+    "generatedAt": "2026-07-28T03:45:50.416Z",
+    "groups": [
+      {
+        "name": "Sun-Word Bridges",
+        "items": [
+          "beam",
+          "flower",
+          "set",
+          "screen"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Compounds",
+        "items": [
+          "fly",
+          "wood",
+          "place",
+          "man"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "fall",
+          "bottle",
+          "park",
+          "line"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain-Word Family",
+        "items": [
+          "storm",
+          "forest",
+          "coat",
+          "check"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple word-formation themes with a touch of crossover."
+  },
+  "hard": {
+    "id": "07282026-H",
+    "generatedAt": "2026-07-28T03:45:50.416Z",
+    "groups": [
+      {
+        "name": "Double-Meaning Verbs (Polysemes)",
+        "items": [
+          "plant",
+          "crane",
+          "drone",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Turn into Verbs",
+        "items": [
+          "seal",
+          "drill",
+          "board",
+          "nail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two Pronunciations (Same Spelling)",
+        "items": [
+          "lead",
+          "bow",
+          "read",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Super-Word Starters",
+        "items": [
+          "hero",
+          "human",
+          "power",
+          "market"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push toward polysemy, verb-noun transitions, and pronunciation shifts."
+  }
+}

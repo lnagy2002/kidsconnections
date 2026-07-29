@@ -213,7 +213,9 @@
     "SPOT",
     "PLUM",
     "CLUMP",
-    "GUSTY"
+    "GUSTY",
+    "LOVE",
+    "RIPE"
   ],
   "medium": [
     "MYSTIC",

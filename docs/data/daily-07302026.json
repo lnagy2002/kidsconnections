@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07302026-E",
+    "generatedAt": "2026-07-30T03:40:26.501Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Handles",
+        "items": [
+          "mug",
+          "bucket",
+          "pan",
+          "scissors"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzles: concrete, visual groups for quick connections."
+  },
+  "medium": {
+    "id": "07302026-M",
+    "generatedAt": "2026-07-30T03:40:26.501Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "watch",
+          "break",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Un-",
+        "items": [
+          "kind",
+          "safe",
+          "clear",
+          "certain"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "drum",
+          "flute",
+          "guitar",
+          "violin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Re- forms",
+        "items": [
+          "cycle",
+          "act",
+          "write",
+          "do"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and simple prefixes/suffixes with a few tempting overlaps to test careful sorting."
+  },
+  "hard": {
+    "id": "07302026-H",
+    "generatedAt": "2026-07-30T03:40:26.501Z",
+    "groups": [
+      {
+        "name": "Contronyms (Same Word, Opposite Meanings)",
+        "items": [
+          "dust",
+          "clip",
+          "sanction",
+          "left"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "rock",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Word Foods",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Names",
+        "items": [
+          "otter",
+          "yak",
+          "moose",
+          "lynx"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on abstract links and polysemy. Look for words with surprising twists or multiple roles."
+  }
+}

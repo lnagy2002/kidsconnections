@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "WALTZ",
+      "FABLE",
+      "GRASP",
+      "SHINE",
+      "HIVEY",
+      "MISTY",
+      "PLUMB"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CAVERN",
+      "DREAMS",
+      "GATHER",
+      "FESTAL",
+      "SPIRITS",
+      "GLOBEY",
+      "HARMON",
+      "BALLOO"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORT",
+      "INNOVATE",
+      "GENERATE",
+      "FRIENDLY",
+      "HARMONIC",
+      "TRANSLATE",
+      "EXPLORING",
+      "DREAMLIKE",
+      "SPECTACLE"
+    ]
+  }
+}

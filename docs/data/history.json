@@ -215,7 +215,9 @@
     "CLUMP",
     "GUSTY",
     "LOVE",
-    "RIPE"
+    "RIPE",
+    "CLAPS",
+    "SWIRL"
   ],
   "medium": [
     "MYSTIC",

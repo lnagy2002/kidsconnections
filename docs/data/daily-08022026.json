@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08022026-E",
+    "generatedAt": "2026-08-02T04:03:06.911Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "sun"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Blue Hues",
+        "items": [
+          "sky",
+          "ocean",
+          "blueberry",
+          "bluebird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits You Can Eat",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Friends",
+        "items": [
+          "lion",
+          "penguin",
+          "giraffe",
+          "panda"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set for 8/2/2026."
+  },
+  "medium": {
+    "id": "08022026-M",
+    "generatedAt": "2026-08-02T04:03:06.911Z",
+    "groups": [
+      {
+        "name": "Words that Become -er Nouns",
+        "items": [
+          "paint",
+          "build",
+          "draw",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That Take -y to Describe",
+        "items": [
+          "rain",
+          "cloud",
+          "wind",
+          "snow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal-Word Group",
+        "items": [
+          "bear",
+          "eel",
+          "crane",
+          "whale"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Pair with 'Super' to Form Common Terms",
+        "items": [
+          "hero",
+          "market",
+          "star",
+          "power"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and a couple near-miss items for cross-over temptation."
+  },
+  "hard": {
+    "id": "08022026-H",
+    "generatedAt": "2026-08-02T04:03:06.911Z",
+    "groups": [
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "bat",
+          "match",
+          "spring",
+          "park"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're' Prefix Words",
+        "items": [
+          "write",
+          "read",
+          "shape",
+          "code"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones Orbit",
+        "items": [
+          "knight",
+          "sea",
+          "flour",
+          "rose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract links and small traps to tease careful players."
+  }
+}

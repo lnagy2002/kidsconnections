@@ -220,7 +220,8 @@
     "SWIRL",
     "LIMP",
     "MASHY",
-    "CANDY"
+    "CANDY",
+    "FLEX"
   ],
   "medium": [
     "MYSTIC",
@@ -397,7 +398,8 @@
     "BALCON",
     "CIRCLES",
     "CHERRY",
-    "FLAIR"
+    "FLAIR",
+    "FLOATY"
   ],
   "hard": [
     "EXEMPLARY",

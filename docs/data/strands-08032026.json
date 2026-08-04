@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMP",
+      "FLEX",
+      "GLOW",
+      "SPIN",
+      "CURL",
+      "RIDE",
+      "LAMP",
+      "FISH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "BALLOON",
+      "FLOATY",
+      "SPIRAL",
+      "FESTAL",
+      "TRICKY",
+      "GARNISH",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GLITTERY",
+      "HARMONIC",
+      "FANTASTIC",
+      "GENERATE",
+      "NARRATIVE",
+      "SPECTACLE",
+      "INNOVATE",
+      "FRIENDLY"
+    ]
+  }
+}

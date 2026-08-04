@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08042026-E",
+    "generatedAt": "2026-08-04T03:47:15.755Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "orb"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable Items",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yummy Edibles",
+        "items": [
+          "apple",
+          "banana",
+          "carrot",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set for 08/04/2026. Easy level focuses on concrete, visual categories."
+  },
+  "medium": {
+    "id": "08042026-M",
+    "generatedAt": "2026-08-04T03:47:15.755Z",
+    "groups": [
+      {
+        "name": "Rhymes with cat",
+        "items": [
+          "bat",
+          "mat",
+          "pat",
+          "rat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-Word Compounds",
+        "items": [
+          "note",
+          "story",
+          "text",
+          "check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tasty Edibles",
+        "items": [
+          "grape",
+          "mango",
+          "peach",
+          "pear"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of Transport",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include some cross-over temptations (e.g., rhyming words that could conceivably fit other small themes)."
+  },
+  "hard": {
+    "id": "08042026-H",
+    "generatedAt": "2026-08-04T03:47:15.755Z",
+    "groups": [
+      {
+        "name": "Polysemes (multiple meanings)",
+        "items": [
+          "bank",
+          "spring",
+          "plant",
+          "dust"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "read",
+          "lead",
+          "wind",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Friends",
+        "items": [
+          "knight",
+          "knife",
+          "wrist",
+          "gnome"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name words that are other things",
+        "items": [
+          "orange",
+          "olive",
+          "rose",
+          "gold"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract connections and wordplay; watch for tricky meanings and spellings."
+  }
+}

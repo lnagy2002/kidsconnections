@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "RACE",
+      "HIVE",
+      "FARM",
+      "BEND",
+      "CAVE",
+      "MIST",
+      "CART"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLIDER",
+      "FLEETS",
+      "CANDLE",
+      "DREAMS",
+      "FESTAL",
+      "TWIRLS",
+      "BALLOON",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "ADVENTUR",
+      "HARMONIC",
+      "GENERATE",
+      "SPECTACLE",
+      "FANTASTIC",
+      "COMFORTED",
+      "EXPLORING",
+      "FRIENDSHIP"
+    ]
+  }
+}

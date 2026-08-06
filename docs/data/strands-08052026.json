@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOP",
+      "CUBE",
+      "FLEW",
+      "MASH",
+      "WAVE",
+      "BUMP",
+      "HIVE",
+      "CAND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CLIMB",
+      "GARDEN",
+      "FESTAL",
+      "SPIRAL",
+      "TWIRL",
+      "BALANCE",
+      "FANTAS",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASTIC",
+      "ADVENTURE",
+      "CIRCULATE",
+      "GRADIENT",
+      "INNOVATE",
+      "MAGNETIC",
+      "HARMONIC",
+      "TRANSLATED",
+      "COMFORTED"
+    ]
+  }
+}

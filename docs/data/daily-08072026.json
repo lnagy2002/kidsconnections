@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08072026-E",
+    "generatedAt": "2026-08-07T03:26:53.267Z",
+    "groups": [
+      {
+        "name": "Pets and Pals",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "What You Wear",
+        "items": [
+          "hat",
+          "glove",
+          "shoe",
+          "scarf"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in the Kitchen",
+        "items": [
+          "pan",
+          "cup",
+          "spoon",
+          "pot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Essentials",
+        "items": [
+          "desk",
+          "chalk",
+          "book",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 08072026 easy puzzle with everyday objects."
+  },
+  "medium": {
+    "id": "08072026-M",
+    "generatedAt": "2026-08-07T03:26:53.267Z",
+    "groups": [
+      {
+        "name": "Sun-Word Builders",
+        "items": [
+          "flower",
+          "rise",
+          "glasses",
+          "shade"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain-Word Builders",
+        "items": [
+          "bow",
+          "coat",
+          "storm",
+          "fall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Star-Word Builders",
+        "items": [
+          "fish",
+          "light",
+          "dust",
+          "ship"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Day-Word Builders",
+        "items": [
+          "dream",
+          "care",
+          "break",
+          "trip"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses word-pair clues where stems combine with a common anchor (sun, rain, star, day) to make real words."
+  },
+  "hard": {
+    "id": "08072026-H",
+    "generatedAt": "2026-08-07T03:26:53.267Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite-Meanings Palooza",
+        "items": [
+          "left",
+          "weather",
+          "fast",
+          "strike"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Do Other Things",
+        "items": [
+          "bear",
+          "seal",
+          "crane",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Bright Hues",
+        "items": [
+          "orange",
+          "pink",
+          "blue",
+          "green"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores tricky language: multiple pronunciations, contronyms, and words that are also animals."
+  }
+}

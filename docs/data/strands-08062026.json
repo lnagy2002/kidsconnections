@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FIRM",
+      "BOLD",
+      "HIVE",
+      "CAGE",
+      "FINE",
+      "COLD",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "MYSTIC",
+      "CLIMBS",
+      "WILLOW",
+      "SPIRAL",
+      "BALANCE",
+      "TRICKY",
+      "FESTAL",
+      "GATHER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "FESTIVAL",
+      "SPIRITED",
+      "GENERATE",
+      "CIRCULATE",
+      "INNOVATE",
+      "FRIENDLY",
+      "ADVENTURE",
+      "TRANQUIL"
+    ]
+  }
+}

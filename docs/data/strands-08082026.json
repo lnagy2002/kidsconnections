@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "CAVE",
+      "FARM",
+      "HIVE",
+      "MIST",
+      "PLAY",
+      "WIND",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BAGGAGE",
+      "CANDLE",
+      "DREAMY",
+      "GARDEN",
+      "HARMONY",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULAR",
+      "COMFORT",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "GENERATED",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "SPIRITED"
+    ]
+  }
+}

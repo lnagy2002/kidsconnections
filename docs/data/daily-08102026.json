@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08102026-E",
+    "generatedAt": "2026-08-10T02:41:42.104Z",
+    "groups": [
+      {
+        "name": "Circle Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Seating Items",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating Tools & Tableware",
+        "items": [
+          "fork",
+          "spoon",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Night Lights",
+        "items": [
+          "lamp",
+          "lantern",
+          "candle",
+          "flashlight"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections puzzles for 08-10-2026. Each group has four items with a shared, concrete theme."
+  },
+  "medium": {
+    "id": "08102026-M",
+    "generatedAt": "2026-08-10T02:41:42.104Z",
+    "groups": [
+      {
+        "name": "Words that pair with board",
+        "items": [
+          "chalk",
+          "surf",
+          "white",
+          "black"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with light",
+        "items": [
+          "day",
+          "spot",
+          "sun",
+          "flash"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with book",
+        "items": [
+          "note",
+          "mark",
+          "cook",
+          "case"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with water",
+        "items": [
+          "fall",
+          "bottle",
+          "line",
+          "melon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay with common compounds. Some items might tempt you to fit them into another group, but each item belongs in exactly one."
+  },
+  "hard": {
+    "id": "08102026-H",
+    "generatedAt": "2026-08-10T02:41:42.104Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "plant",
+          "bear",
+          "match",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that go with the sun to make new words",
+        "items": [
+          "flower",
+          "beam",
+          "rise",
+          "set"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add-un prefix forms",
+        "items": [
+          "do",
+          "tie",
+          "lock",
+          "cover"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Month names",
+        "items": [
+          "April",
+          "May",
+          "June",
+          "July"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract connections and multiple meanings. Some items may look like they fit a different group but only fit this one."
+  }
+}

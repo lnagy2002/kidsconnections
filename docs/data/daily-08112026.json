@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08112026-E",
+    "generatedAt": "2026-08-11T02:33:56.856Z",
+    "groups": [
+      {
+        "name": "Spoon-Worthy Foods",
+        "items": [
+          "soup",
+          "yogurt",
+          "cereal",
+          "pudding"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Sit-Ons",
+        "items": [
+          "bench",
+          "swing",
+          "rock",
+          "log"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Orange-Hued Foods",
+        "items": [
+          "carrot",
+          "pumpkin",
+          "mango",
+          "apricot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Desk Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "book",
+          "glue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 08112026 easy puzzle. 4 visual groups with concrete items. Fun, kid-friendly categories."
+  },
+  "medium": {
+    "id": "08112026-M",
+    "generatedAt": "2026-08-11T02:33:56.856Z",
+    "groups": [
+      {
+        "name": "Rhymes With Hat",
+        "items": [
+          "cat",
+          "hat",
+          "bat",
+          "mat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "sock",
+          "glove",
+          "shoe",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Noun–Verb Pairs",
+        "items": [
+          "run",
+          "play",
+          "cook",
+          "shop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: items like 'mat' could seem to fit the 'Park Sit-Ons' group, and 'play' could belong to other groups, but each item truly fits only one group."
+  },
+  "hard": {
+    "id": "08112026-H",
+    "generatedAt": "2026-08-11T02:33:56.856Z",
+    "groups": [
+      {
+        "name": "Words with Many Senses",
+        "items": [
+          "bank",
+          "ring",
+          "spring",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Word Pairs",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Daylight Compounds",
+        "items": [
+          "beam",
+          "rise",
+          "set",
+          "ray"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Move-It Group",
+        "items": [
+          "slide",
+          "crawl",
+          "glide",
+          "roll"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores polysemy, color-name words, and motion terms. Cross-over temptations exist (e.g., 'beam' could be linked to light or movement), but each item belongs to exactly one hard group."
+  }
+}

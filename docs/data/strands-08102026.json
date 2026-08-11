@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FLEW",
+      "WAVE",
+      "BUMP",
+      "CLAY",
+      "DUST",
+      "FLIP",
+      "HIDE",
+      "CUBE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FESTAL",
+      "BALLOO",
+      "WILLOW",
+      "MYSTIC",
+      "JOURNAL",
+      "SPIRITS",
+      "TRICKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORT",
+      "BALANCED",
+      "FANTASTIC",
+      "HARMONIC",
+      "FRIENDLY",
+      "GENERATE",
+      "SPIRITED",
+      "GRADIENT",
+      "TRANSLATE"
+    ]
+  }
+}

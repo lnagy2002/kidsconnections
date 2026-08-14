@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08142026-E",
+    "generatedAt": "2026-08-14T03:05:35.746Z",
+    "groups": [
+      {
+        "name": "Circles in Daily Life",
+        "items": [
+          "coin",
+          "plate",
+          "clock",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Favorites",
+        "items": [
+          "hat",
+          "cap",
+          "beret",
+          "headband"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pairs You Often See",
+        "items": [
+          "shoes",
+          "gloves",
+          "socks",
+          "glasses"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle set with four concrete, kid-friendly themes. Each group has four items. Fresh content."
+  },
+  "medium": {
+    "id": "08142026-M",
+    "generatedAt": "2026-08-14T03:05:35.746Z",
+    "groups": [
+      {
+        "name": "Hand-Word Connections",
+        "items": [
+          "book",
+          "shake",
+          "print",
+          "stand"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Daily Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Twin Words",
+        "items": [
+          "watch",
+          "plant",
+          "play",
+          "rise"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes to Name",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set mixes simple wordplay and compound-word ideas. Includes subtle cross-over temptations to test careful grouping."
+  },
+  "hard": {
+    "id": "08142026-H",
+    "generatedAt": "2026-08-14T03:05:35.746Z",
+    "groups": [
+      {
+        "name": "Four Words That Double as Animals or Tools",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under- Prefix Pairs",
+        "items": [
+          "ground",
+          "water",
+          "coat",
+          "estimate"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms Parade",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors as Everyday Nouns",
+        "items": [
+          "gray",
+          "pink",
+          "blue",
+          "brown"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set features abstract connections and polysemy. Includes deliberate cross-over temptations to ensure only the intended grouping fits."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08152026-E",
+    "generatedAt": "2026-08-15T01:55:44.239Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "coin",
+          "button",
+          "wheel",
+          "ball"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "cereal",
+          "pancake",
+          "toast",
+          "eggs"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Must-Haves",
+        "items": [
+          "chalk",
+          "desk",
+          "map",
+          "globe"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Parade",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four kid-friendly groups with concrete, visual themes suitable for ages 7-11."
+  },
+  "medium": {
+    "id": "08152026-M",
+    "generatedAt": "2026-08-15T01:55:44.239Z",
+    "groups": [
+      {
+        "name": "Play-Preceded Words",
+        "items": [
+          "ground",
+          "date",
+          "time",
+          "back"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Formed Words",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "shade"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Partners",
+        "items": [
+          "bottle",
+          "fall",
+          "proof",
+          "mark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board-Forming Words",
+        "items": [
+          "snow",
+          "surf",
+          "black",
+          "key"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple word-building ideas with a light 'temptation' to stray into other themes."
+  },
+  "hard": {
+    "id": "08152026-H",
+    "generatedAt": "2026-08-15T01:55:44.239Z",
+    "groups": [
+      {
+        "name": "Words with Two Meanings (Polysemes)",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Exact Anagrams",
+        "items": [
+          "star",
+          "arts",
+          "rats",
+          "tars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (Opposite Meanings)",
+        "items": [
+          "left",
+          "dust",
+          "clip",
+          "weather"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Word Phrases",
+        "items": [
+          "alarm",
+          "fighter",
+          "drill",
+          "escape"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles mix abstract connections and language quirks to challenge curious minds."
+  }
+}

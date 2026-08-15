@@ -399,7 +399,8 @@
     "CIRCLES",
     "CHERRY",
     "FLAIR",
-    "FLOATY"
+    "FLOATY",
+    "BALANCED"
   ],
   "hard": [
     "EXEMPLARY",

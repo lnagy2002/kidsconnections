@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08172026-E",
+    "generatedAt": "2026-08-17T02:02:09.235Z",
+    "groups": [
+      {
+        "name": "Round objects",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "pizza"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear for feet",
+        "items": [
+          "socks",
+          "shoes",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinking containers",
+        "items": [
+          "cup",
+          "mug",
+          "glass",
+          "bottle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Carrying items with handles",
+        "items": [
+          "bucket",
+          "bag",
+          "purse",
+          "tote"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual groupings. All items are kid-friendly."
+  },
+  "medium": {
+    "id": "08172026-M",
+    "generatedAt": "2026-08-17T02:02:09.235Z",
+    "groups": [
+      {
+        "name": "Sun-words that form compound words with 'sun'",
+        "items": [
+          "flower",
+          "burn",
+          "rise",
+          "block"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with -proof",
+        "items": [
+          "water",
+          "bullet",
+          "sound",
+          "fire"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that go with 'home' to make common words",
+        "items": [
+          "school",
+          "sick",
+          "page",
+          "coming"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'post' to form common terms",
+        "items": [
+          "card",
+          "it",
+          "man",
+          "office"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve simple wordplay and compound-word thinking. Some items might seem to fit another group, but only one group is correct per item."
+  },
+  "hard": {
+    "id": "08172026-H",
+    "generatedAt": "2026-08-17T02:02:09.235Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs (common verb-noun pairs)",
+        "items": [
+          "plant",
+          "watch",
+          "brush",
+          "drive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits that double as color names",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that can follow 'rain' to make common phrases",
+        "items": [
+          "coat",
+          "bow",
+          "check",
+          "storm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that can follow 'book' to form common terms",
+        "items": [
+          "worm",
+          "case",
+          "club",
+          "store"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections and multi-meaning word use. Expect some words that could tempt you to group with another clue, but only the intended connection is correct."
+  }
+}

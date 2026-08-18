@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08182026-E",
+    "generatedAt": "2026-08-18T01:56:51.492Z",
+    "groups": [
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "orange",
+          "grape",
+          "strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level uses concrete, visible categories (things kids see/own)."
+  },
+  "medium": {
+    "id": "08182026-M",
+    "generatedAt": "2026-08-18T01:56:51.492Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "bookshelf",
+          "rainbow",
+          "lighthouse",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "bank",
+          "spring",
+          "jam",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "note",
+          "park",
+          "hike",
+          "swing"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Foods That Are Colors",
+        "items": [
+          "tomato",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level adds light wordplay. Some items might seem to fit another group at first glance, but each item belongs to exactly one correct group."
+  },
+  "hard": {
+    "id": "08182026-H",
+    "generatedAt": "2026-08-18T01:56:51.492Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitalization Shifts",
+        "items": [
+          "march",
+          "polish",
+          "turkey",
+          "china"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words Reversed to New Words",
+        "items": [
+          "stressed",
+          "drawer",
+          "live",
+          "part"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level features abstract connections and multi-meaning items. Some items could tempt you to fit them in another group, but only the listed group is correct."
+  }
+}

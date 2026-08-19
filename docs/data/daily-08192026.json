@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08192026-E",
+    "generatedAt": "2026-08-19T01:59:13.888Z",
+    "groups": [
+      {
+        "name": "Rideables in a park",
+        "items": [
+          "bike",
+          "scooter",
+          "wagon",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pairs that come in sets",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "mittens"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you find in a classroom",
+        "items": [
+          "desk",
+          "chair",
+          "pencil",
+          "book"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow foods",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "corn"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Simple, concrete themes. Easy level groups should feel obvious and visual."
+  },
+  "medium": {
+    "id": "08192026-M",
+    "generatedAt": "2026-08-19T01:59:13.888Z",
+    "groups": [
+      {
+        "name": "Ball-word compounds",
+        "items": [
+          "snowball",
+          "eyeball",
+          "meatball",
+          "basketball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that are also verbs (same spelling)",
+        "items": [
+          "plant",
+          "watch",
+          "paint",
+          "lift"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 'un' to form opposites",
+        "items": [
+          "happy",
+          "tidy",
+          "kind",
+          "sure"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors that stand alone as words",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations may hint at other groups (e.g., ball words could look like sports terms), but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "08192026-H",
+    "generatedAt": "2026-08-19T01:59:13.888Z",
+    "groups": [
+      {
+        "name": "Words with multiple meanings (polysemes)",
+        "items": [
+          "bank",
+          "spring",
+          "bear",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Dis- prefix forms (opposites)",
+        "items": [
+          "appear",
+          "connect",
+          "obey",
+          "agree"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits that are also color names",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "plum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard-level connections include tricky polysemes and heteronyms. Some items might resemble other groups at first glance, but they belong here."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "WIND",
+      "BUMP",
+      "COLD",
+      "HIDE",
+      "FIRM",
+      "MIST",
+      "BEND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "JOURNAL",
+      "PLANTS",
+      "SPIRITS",
+      "TROPHY",
+      "BALANCE",
+      "FRIEND"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "ADVENTUR",
+      "HARMONIC",
+      "FESTIVITY",
+      "GENERATE",
+      "INNOVATIVE",
+      "COMFORTED",
+      "TRANSLATE",
+      "GRADUATES"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MINT",
+      "CAVE",
+      "FLEW",
+      "BUMP",
+      "GARD",
+      "SPAR",
+      "DINE",
+      "CONE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRICK",
+      "FABLE",
+      "BUNGLE",
+      "FESTAL",
+      "CRUNCH",
+      "WILLOW",
+      "PLANTS",
+      "CAVERN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "SPIRITED",
+      "FANTASTIC",
+      "GENERATION",
+      "INNOVATED",
+      "EXPLORING",
+      "WONDERFUL",
+      "IMAGINARY",
+      "TRANSLATED"
+    ]
+  }
+}

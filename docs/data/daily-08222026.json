@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08222026-E",
+    "generatedAt": "2026-08-22T01:56:46.749Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "Apple",
+          "Strawberry",
+          "Cherry",
+          "Rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Know",
+        "items": [
+          "Dog",
+          "Cat",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "Pancake",
+          "Cereal",
+          "Toast",
+          "Egg"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Things",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Skateboard",
+          "Bus"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly Connections-style puzzles for 08222026."
+  },
+  "medium": {
+    "id": "08222026-M",
+    "generatedAt": "2026-08-22T01:56:46.749Z",
+    "groups": [
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "Sunflower",
+          "Rainbow",
+          "Lighthouse",
+          "Keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sea-Word Pairs",
+        "items": [
+          "Horse",
+          "Weed",
+          "Shore",
+          "Plane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -un Opposites",
+        "items": [
+          "Happy",
+          "Usual",
+          "Clear",
+          "Fit"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Agent-Nouns with -er",
+        "items": [
+          "Build",
+          "Drive",
+          "Teach",
+          "Paint"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium challenge with cross-over temptations to spot the correct group."
+  },
+  "hard": {
+    "id": "08222026-H",
+    "generatedAt": "2026-08-22T01:56:46.749Z",
+    "groups": [
+      {
+        "name": "Polysemes (multiple meanings)",
+        "items": [
+          "Bat",
+          "Crane",
+          "Seal",
+          "Spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "Bow",
+          "Wind",
+          "Read",
+          "Dove"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-words that are also nouns",
+        "items": [
+          "Ivory",
+          "Azure",
+          "Olive",
+          "Coral"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Remove first letter to form a new word",
+        "items": [
+          "Brave",
+          "Globe",
+          "Crate",
+          "Swing"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set with abstract links and subtle crossovers."
+  }
+}

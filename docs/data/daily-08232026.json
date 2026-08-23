@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08232026-E",
+    "generatedAt": "2026-08-23T02:08:30.125Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "bunny"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "crayon",
+          "pen",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh kid-friendly puzzle: 4 groups of 4 items each. Easy level uses concrete, visual themes."
+  },
+  "medium": {
+    "id": "08232026-M",
+    "generatedAt": "2026-08-23T02:08:30.125Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "backpack",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Words",
+        "items": [
+          "ring",
+          "wash",
+          "cook",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Silent-Letter Starters",
+        "items": [
+          "gnome",
+          "knight",
+          "knife",
+          "hour"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two Pronunciations (Heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "row"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and compound words; some items may tempt you to reclassify."
+  },
+  "hard": {
+    "id": "08232026-H",
+    "generatedAt": "2026-08-23T02:08:30.125Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "sea",
+          "pear",
+          "sun",
+          "flower"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Onomatopoeia",
+        "items": [
+          "buzz",
+          "bang",
+          "clang",
+          "hiss"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "snow",
+          "hail",
+          "fog"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections. Look for words with more than one meaning, sound-alikes, or sound effects."
+  }
+}

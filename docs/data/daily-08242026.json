@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08242026-E",
+    "generatedAt": "2026-08-24T02:06:44.160Z",
+    "groups": [
+      {
+        "name": "Sky Sights",
+        "items": [
+          "Sun",
+          "Moon",
+          "Stars",
+          "Cloud"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Fruits",
+        "items": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "Dog",
+          "Cat",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks to Quench",
+        "items": [
+          "Water",
+          "Milk",
+          "Juice",
+          "Tea"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four groups of four concrete items. Each group hints at a simple, visual pattern (things you can see or do)."
+  },
+  "medium": {
+    "id": "08242026-M",
+    "generatedAt": "2026-08-24T02:06:44.160Z",
+    "groups": [
+      {
+        "name": "Book Compounds",
+        "items": [
+          "Note",
+          "Story",
+          "Text",
+          "Cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball Compounds",
+        "items": [
+          "Foot",
+          "Base",
+          "Basket",
+          "Soft"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "House-Word Suffix",
+        "items": [
+          "Farm",
+          "Tree",
+          "Play",
+          "Glass"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Yard Compounds",
+        "items": [
+          "Back",
+          "Grave",
+          "Barn",
+          "Court"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle adds simple wordplay with compound words. Some items might tempt you to fit them elsewhere, but each item has a unique partner word."
+  },
+  "hard": {
+    "id": "08242026-H",
+    "generatedAt": "2026-08-24T02:06:44.160Z",
+    "groups": [
+      {
+        "name": "Words with multiple pronunciations (heteronyms)",
+        "items": [
+          "Lead",
+          "Wind",
+          "Bow",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun/Verb Dyads",
+        "items": [
+          "Park",
+          "Dust",
+          "Paint",
+          "Drive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Size Descriptions",
+        "items": [
+          "Tiny",
+          "Huge",
+          "Wide",
+          "Narrow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals that Are Also Objects",
+        "items": [
+          "Crane",
+          "Seal",
+          "Bat",
+          "Rook"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses abstract connections: polysemy, word functions, and fun double meanings to challenge thinking."
+  }
+}

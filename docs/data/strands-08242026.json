@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "FIRM",
+      "MASH",
+      "CANE",
+      "BUMP",
+      "CURL",
+      "LIFT",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CLIMAX",
+      "FOLKLORE",
+      "DREAMER",
+      "SILENCE",
+      "GATHER",
+      "BALANCE",
+      "FESTIVE",
+      "MAGNETS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "FESTIVITY",
+      "ADVENTURE",
+      "FRIENDLY",
+      "GENERATE",
+      "INNOVATIVE",
+      "COMFORTED",
+      "DREAMLIKE",
+      "MAGNETIC"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08272026-E",
+    "generatedAt": "2026-08-27T10:06:57.209Z",
+    "groups": [
+      {
+        "name": "Sky Things",
+        "items": [
+          "Sun",
+          "Cloud",
+          "Bird",
+          "Moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yummy Foods",
+        "items": [
+          "Apple",
+          "Bread",
+          "Carrot",
+          "Cheese"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rideables",
+        "items": [
+          "Car",
+          "Bike",
+          "Bus",
+          "Train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Playground Items",
+        "items": [
+          "Bench",
+          "Swing",
+          "Slide",
+          "Tree"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 08272026."
+  },
+  "medium": {
+    "id": "08272026-M",
+    "generatedAt": "2026-08-27T10:06:57.209Z",
+    "groups": [
+      {
+        "name": "Compound Word Stars",
+        "items": [
+          "Notebook",
+          "Sunflower",
+          "Basketball",
+          "Mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "Pencil",
+          "Crayon",
+          "Marker",
+          "Ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "Rain",
+          "Leaf",
+          "Branch",
+          "Stone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal-Word Pairs",
+        "items": [
+          "Bear",
+          "Crane",
+          "Duck",
+          "Bat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle set for 08272026."
+  },
+  "hard": {
+    "id": "08272026-H",
+    "generatedAt": "2026-08-27T10:06:57.209Z",
+    "groups": [
+      {
+        "name": "Ambiguous Terms",
+        "items": [
+          "Spring",
+          "Bank",
+          "Seal",
+          "Point"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "Plant",
+          "Park",
+          "Ring",
+          "Brush"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Different Pronunciations",
+        "items": [
+          "Lead",
+          "Bow",
+          "Tear",
+          "Read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Turn into -ful Adjectives",
+        "items": [
+          "Care",
+          "Hope",
+          "Play",
+          "Help"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle set for 08272026."
+  }
+}

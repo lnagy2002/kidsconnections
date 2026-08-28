@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "BUMP",
+      "MIST",
+      "CAVE",
+      "FARM",
+      "JOLT",
+      "HIDE",
+      "SPOT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DRUMS",
+      "SPLASH",
+      "GRAINS",
+      "TRICKS",
+      "PLANTS",
+      "CANDLE",
+      "FESTAL",
+      "FROSTY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCE",
+      "CIRCLES",
+      "FANTASY",
+      "HARMONIC",
+      "TRADITION",
+      "GENERATE",
+      "EXPLORING",
+      "DREAMLIKE",
+      "COMFORTED"
+    ]
+  }
+}

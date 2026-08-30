@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "HIVE",
-      "FLEA",
-      "GUST",
-      "FIRM",
-      "BUMP",
-      "CURL",
-      "BOLD",
-      "DINE"
+      "BARKY",
+      "FLEET",
+      "SPARK",
+      "CLAMP",
+      "FABLE",
+      "GUSTY",
+      "GRASP",
+      "PLUMB"
     ]
   },
   "medium": {
     "words": [
-      "FABLES",
-      "FESTAL",
-      "DREAMY",
+      "BUNGLE",
+      "JOURNAL",
+      "FESTIVE",
+      "CANDLE",
+      "SPIRITS",
       "GATHER",
-      "TRICKY",
-      "PLANTS",
-      "BALLOO",
-      "CARNIVAL"
+      "FLOATY",
+      "BALANCE"
     ]
   },
   "hard": {
     "words": [
-      "GRADIENT",
-      "TRANSLATE",
-      "MAGNETIC",
-      "CIRCULATE",
-      "DREAMLIKE",
-      "FANTASTIC",
-      "HARMONIZE",
+      "CARNIVAL",
+      "CHERISHED",
       "FRIENDSHIP",
-      "COMFORTING"
+      "HARMONIZE",
+      "INNOVATIVE",
+      "TRANSLATED",
+      "EXPLORING",
+      "SPECTACULAR",
+      "GRADIENT"
     ]
   }
 }

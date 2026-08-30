@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08302026-E",
+    "generatedAt": "2026-08-30T05:38:53.472Z",
+    "groups": [
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that are green",
+        "items": [
+          "leaf",
+          "frog",
+          "grass",
+          "pea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear you wear on the head",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in the kitchen",
+        "items": [
+          "spoon",
+          "pan",
+          "spatula",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 08302026-E Easy puzzle: 4 groups of 4. All items unique across puzzles."
+  },
+  "medium": {
+    "id": "08302026-M",
+    "generatedAt": "2026-08-30T05:38:53.472Z",
+    "groups": [
+      {
+        "name": "Word combos formed from two smaller words",
+        "items": [
+          "sunrise",
+          "rainbow",
+          "bookcase",
+          "toothpaste"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with two unrelated meanings",
+        "items": [
+          "spring",
+          "bank",
+          "pool",
+          "note"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that can be both a noun and a verb",
+        "items": [
+          "play",
+          "watch",
+          "light",
+          "brush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color words used as common terms",
+        "items": [
+          "orange",
+          "sage",
+          "amber",
+          "coral"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes cross-over temptations: some words could fit multiple groups, but each item belongs to one correct group."
+  },
+  "hard": {
+    "id": "08302026-H",
+    "generatedAt": "2026-08-30T05:38:53.472Z",
+    "groups": [
+      {
+        "name": "Words with tricky pronunciations (same spelling, different sounds)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that form new words when prefixed with re-",
+        "items": [
+          "read",
+          "cycle",
+          "cover",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (same spelling, opposite meanings)",
+        "items": [
+          "dust",
+          "clip",
+          "oversight",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Math terms that show up in everyday speech",
+        "items": [
+          "mean",
+          "mode",
+          "range",
+          "sum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle challenges abstract thinking; some items may tempt you to place them in the wrong group."
+  }
+}

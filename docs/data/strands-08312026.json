@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "HIVE",
-      "CUBE",
-      "BUMP",
-      "FIRM",
-      "CLIP",
-      "BAND",
+      "BEEP",
+      "CAVE",
+      "FLEW",
+      "HARD",
+      "MILD",
       "MIST",
-      "FLEA"
+      "RIDE",
+      "WILD"
     ]
   },
   "medium": {
     "words": [
-      "GATHER",
-      "JOURNAL",
-      "FARMER",
-      "HARMONY",
+      "BALLOO",
       "CANDLE",
-      "SPIRITS",
-      "MAGNET",
-      "SIMPLEX"
+      "DREAMY",
+      "FESTAL",
+      "GATHER",
+      "HARMON",
+      "JOURNEY",
+      "SPARKY"
     ]
   },
   "hard": {
     "words": [
+      "ACROBAT",
       "BALANCED",
-      "FESTIVITY",
-      "FRIENDLY",
-      "GRADUATES",
+      "GENERATE",
+      "INNOVATE",
+      "MAGNETIC",
+      "SPECTRAL",
       "TRANSLATE",
-      "COMPLICATE",
-      "SPIRALING",
-      "HARMONIZE",
-      "INNOVATIVE"
+      "WONDERED",
+      "FRIENDLY"
     ]
   }
 }

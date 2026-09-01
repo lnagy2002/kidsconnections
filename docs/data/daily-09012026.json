@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09012026-E",
+    "generatedAt": "2026-09-01T05:27:17.033Z",
+    "groups": [
+      {
+        "name": "Four-letter animals",
+        "items": [
+          "lion",
+          "bear",
+          "frog",
+          "toad"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Face parts",
+        "items": [
+          "eye",
+          "ear",
+          "nose",
+          "lip"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles focus on concrete, visual categories. Fresh and kid-friendly."
+  },
+  "medium": {
+    "id": "09012026-M",
+    "generatedAt": "2026-09-01T05:27:17.033Z",
+    "groups": [
+      {
+        "name": "Book Enders",
+        "items": [
+          "cook",
+          "note",
+          "story",
+          "guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-word Builders",
+        "items": [
+          "rise",
+          "set",
+          "flower",
+          "beam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fast as can be",
+        "items": [
+          "fast",
+          "rapid",
+          "swift",
+          "quick"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wheels on the Move",
+        "items": [
+          "car",
+          "boat",
+          "plane",
+          "bike"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: cross-over temptations exist (some items could seem to fit another group), but each item belongs to one precise category."
+  },
+  "hard": {
+    "id": "09012026-H",
+    "generatedAt": "2026-09-01T05:27:17.033Z",
+    "groups": [
+      {
+        "name": "Two-meaning verbs and nouns",
+        "items": [
+          "play",
+          "watch",
+          "board",
+          "drive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Up with words",
+        "items": [
+          "wake",
+          "build",
+          "hold",
+          "cheer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Everyday polysemes",
+        "items": [
+          "rock",
+          "spring",
+          "jar",
+          "match"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy. Watch for cross-over temptations: some words could belong to more than one potential theme, but each is placed in exactly one."
+  }
+}

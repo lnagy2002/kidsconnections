@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09022026-E",
+    "generatedAt": "2026-09-02T04:53:44.404Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "Ball",
+          "Moon",
+          "Coin",
+          "Pizza"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "Hat",
+          "Cap",
+          "Beanie",
+          "Fedora"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Plants and produce",
+        "items": [
+          "Apple",
+          "Tomato",
+          "Carrot",
+          "Strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a classroom",
+        "items": [
+          "Pencil",
+          "Chalk",
+          "Book",
+          "Ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 09/02/2026."
+  },
+  "medium": {
+    "id": "09022026-M",
+    "generatedAt": "2026-09-02T04:53:44.404Z",
+    "groups": [
+      {
+        "name": "Un- prefix words",
+        "items": [
+          "Tie",
+          "Pack",
+          "Wrap",
+          "Fold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Letter-homophones",
+        "items": [
+          "Sea",
+          "Bee",
+          "Are",
+          "Why"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball-words",
+        "items": [
+          "Snow",
+          "Meat",
+          "Eye",
+          "Basket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with light wordplay and common phrases."
+  },
+  "hard": {
+    "id": "09022026-H",
+    "generatedAt": "2026-09-02T04:53:44.404Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "Jump",
+          "Plant",
+          "Watch",
+          "Rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Compound words from two parts",
+        "items": [
+          "Sunflower",
+          "Bookcase",
+          "Rainbow",
+          "Greenhouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Bat",
+          "Bear",
+          "Fox",
+          "Lion"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and cross-over temptations."
+  }
+}

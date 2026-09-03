@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CLAMP",
+      "FLEET",
+      "GUSTY",
+      "MISTY",
+      "PLUMB",
+      "SWIRL",
+      "TRICK"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMY",
+      "FESTAL",
+      "GRANDY",
+      "HARMON",
+      "NURSED",
+      "SIMPLEX",
+      "TWIRLED",
+      "WILLOWS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "COMFORTS",
+      "CIRCULATE",
+      "GENERATED",
+      "INNOVATIVE",
+      "SPECTRAL",
+      "TRANSLATED",
+      "FRIENDSHIP",
+      "HARMONIC"
+    ]
+  }
+}

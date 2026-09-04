@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "MISTY",
+      "CAMPY",
+      "FLEET",
+      "FLAIR",
+      "GUSTY",
+      "FLEEK",
+      "CLEAN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPIRAL",
+      "GATHER",
+      "NURTURE",
+      "PLANTS",
+      "FESTAL",
+      "BALANC",
+      "FESTIV",
+      "CIRCLES"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRICKLE",
+      "EXPLAIN",
+      "GRADIENT",
+      "COMFORTS",
+      "HARMONIC",
+      "FANTASTIC",
+      "WONDERED",
+      "CIRCULATE",
+      "TRANQUIL"
+    ]
+  }
+}

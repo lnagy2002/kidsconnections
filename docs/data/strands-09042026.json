@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BLOW",
+      "FARM",
+      "CAVE",
+      "SPOT",
+      "HIVE",
+      "RIDE",
+      "GOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "PLANTS",
+      "TWIRLS",
+      "DREAMS",
+      "SPARKY",
+      "FABLES",
+      "BALLOO",
+      "FLAIRY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "ADVENTUR",
+      "FANTASTIC",
+      "HARMONIC",
+      "MAGNETIC",
+      "TRANSLATE",
+      "GENERATED",
+      "CIRCULATE",
+      "COMFORTED"
+    ]
+  }
+}

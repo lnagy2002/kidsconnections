@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BASK",
+      "CLAY",
+      "FIRM",
+      "GUST",
+      "LIMP",
+      "MASH",
+      "SPAR",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLET",
+      "CANDLE",
+      "FANTAS",
+      "FLAUNT",
+      "GARDEN",
+      "HARMON",
+      "PLANTS",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "BALANCED",
+      "CIRCULAR",
+      "GENERATE",
+      "HARMONIC",
+      "INNOVATE",
+      "SPIRITED",
+      "TRANQUIL",
+      "WONDERED"
+    ]
+  }
+}

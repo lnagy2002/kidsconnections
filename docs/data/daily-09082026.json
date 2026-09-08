@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09082026-E",
+    "generatedAt": "2026-09-08T04:59:40.502Z",
+    "groups": [
+      {
+        "name": "Shapes to spot",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear basics",
+        "items": [
+          "Shoes",
+          "Socks",
+          "Slippers",
+          "Boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Night-time glow",
+        "items": [
+          "Moon",
+          "Stars",
+          "Firefly",
+          "Lantern"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Simple rides",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Bus",
+          "Train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual categories. All items are unique across the set."
+  },
+  "medium": {
+    "id": "09082026-M",
+    "generatedAt": "2026-09-08T04:59:40.502Z",
+    "groups": [
+      {
+        "name": "Compound words",
+        "items": [
+          "Rainbow",
+          "Keyboard",
+          "Backpack",
+          "Sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ambiguous words (nouns/verbs)",
+        "items": [
+          "Bat",
+          "Duck",
+          "Spring",
+          "Plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites with un- (base word)",
+        "items": [
+          "Happy",
+          "Known",
+          "Lucky",
+          "Done"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals you might see in the wild",
+        "items": [
+          "Elephant",
+          "Giraffe",
+          "Kangaroo",
+          "Penguin"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptations: Bat and Duck could be mistaken for animals (in the wild group) but belong to the word-meaning/compound word groups."
+  },
+  "hard": {
+    "id": "09082026-H",
+    "generatedAt": "2026-09-08T04:59:40.502Z",
+    "groups": [
+      {
+        "name": "Nouns and verbs that double as other parts of speech",
+        "items": [
+          "Paint",
+          "Shop",
+          "Draw",
+          "Hammer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with silent letters",
+        "items": [
+          "Knight",
+          "Wrist",
+          "Island",
+          "Gnome"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that are also common words",
+        "items": [
+          "Orange",
+          "Lime",
+          "Peach",
+          "Violet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones (sound-alike words)",
+        "items": [
+          "Right",
+          "Sea",
+          "Sun",
+          "Mail"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles focus on abstract connections and multiple meanings. Some items may resemble other groups, but belong to their own."
+  }
+}

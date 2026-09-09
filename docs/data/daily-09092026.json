@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09092026-E",
+    "generatedAt": "2026-09-09T04:59:15.172Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pencils & Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "sharpener"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables for Feet",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Bites",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections puzzle set for 09092026. Easy groups focus on concrete, visible themes to help young solvers spot connections quickly."
+  },
+  "medium": {
+    "id": "09092026-M",
+    "generatedAt": "2026-09-09T04:59:15.172Z",
+    "groups": [
+      {
+        "name": "Careers People Have",
+        "items": [
+          "teacher",
+          "chef",
+          "pilot",
+          "doctor"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Written Tools",
+        "items": [
+          "pen",
+          "marker",
+          "crayon",
+          "highlighter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snack Time",
+        "items": [
+          "cookie",
+          "pretzel",
+          "popcorn",
+          "granola"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Four Flying Birds",
+        "items": [
+          "eagle",
+          "sparrow",
+          "parrot",
+          "owl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay. Cross-over temptations exist (e.g., granola can be seen as breakfast too). Fresh for 09092026."
+  },
+  "hard": {
+    "id": "09092026-H",
+    "generatedAt": "2026-09-09T04:59:15.172Z",
+    "groups": [
+      {
+        "name": "Words with Two Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "ring",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that Are Foods",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Different Pronunciations",
+        "items": [
+          "wind",
+          "bow",
+          "lead",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measuring Devices",
+        "items": [
+          "meter",
+          "gauge",
+          "scale",
+          "thermometer"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract links and clear cross-over temptations (e.g., orange as color/food, wind/bow/lead/tear as heteronyms). Fresh for 09092026."
+  }
+}

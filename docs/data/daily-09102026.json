@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09102026-E",
+    "generatedAt": "2026-09-10T05:02:14.906Z",
+    "groups": [
+      {
+        "name": "Circles in Play",
+        "items": [
+          "ball",
+          "coin",
+          "donut",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Fun",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit Friends",
+        "items": [
+          "apple",
+          "grape",
+          "pear",
+          "melon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Helpers",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 2026 puzzle set: four easy groups with concrete, kid-friendly connections."
+  },
+  "medium": {
+    "id": "09102026-M",
+    "generatedAt": "2026-09-10T05:02:14.906Z",
+    "groups": [
+      {
+        "name": "Rain Compounds",
+        "items": [
+          "coat",
+          "bow",
+          "drop",
+          "forest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "happy",
+          "kind",
+          "certain",
+          "usual"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Pair Phrases",
+        "items": [
+          "alarm",
+          "place",
+          "engine",
+          "drill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classical Elements",
+        "items": [
+          "water",
+          "air",
+          "earth",
+          "wind"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level connections with a few tempting overlaps to test pattern recognition."
+  },
+  "hard": {
+    "id": "09102026-H",
+    "generatedAt": "2026-09-10T05:02:14.906Z",
+    "groups": [
+      {
+        "name": "Polysemous Pairs",
+        "items": [
+          "spring",
+          "bat",
+          "bank",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Out Prefix Set",
+        "items": [
+          "break",
+          "cast",
+          "fit",
+          "look"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Duo",
+        "items": [
+          "train",
+          "ring",
+          "play",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Prefix Set",
+        "items": [
+          "do",
+          "act",
+          "build",
+          "use"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level with multi-meaning words and prefix-based twists to challenge flexible thinking."
+  }
+}

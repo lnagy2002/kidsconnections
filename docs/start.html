@@ -26,10 +26,10 @@
 
   .card{
     width: min(500px, 85vw);
-    border-radius:var(--radius);
-    /* box-shadow:0 1px 0 var(--ring),0 8px 30px rgba(0,0,0,.06); */
-    overflow:hidden;
-    /* border:1px solid rgba(0,0,0,.06); */
+    transform: translateZ(0);   /* force a stable GPU layer so WebKit repaints the whole card */
+    isolation: isolate;
+    border-radius: var(--radius);
+    overflow: hidden;
   }
 
   /* ===== Header centered layout ===== */

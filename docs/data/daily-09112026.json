@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09112026-E",
+    "generatedAt": "2026-09-11T04:59:08.638Z",
+    "groups": [
+      {
+        "name": "Circular objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable basics",
+        "items": [
+          "hat",
+          "scarf",
+          "belt",
+          "gloves"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "plate",
+          "cup",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Skyward sights",
+        "items": [
+          "sun",
+          "cloud",
+          "bird",
+          "plane"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 09112026."
+  },
+  "medium": {
+    "id": "09112026-M",
+    "generatedAt": "2026-09-11T04:59:08.638Z",
+    "groups": [
+      {
+        "name": "Fire-related phrases",
+        "items": [
+          "alarm",
+          "exit",
+          "extinguisher",
+          "drill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water pairings",
+        "items": [
+          "bottle",
+          "park",
+          "slide",
+          "fall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shaped figures",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Farm animals",
+        "items": [
+          "sheep",
+          "goat",
+          "pig",
+          "cow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle set for 09112026."
+  },
+  "hard": {
+    "id": "09112026-H",
+    "generatedAt": "2026-09-11T04:59:08.638Z",
+    "groups": [
+      {
+        "name": "Words with multiple pronunciations",
+        "items": [
+          "bow",
+          "lead",
+          "wind",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "sanction",
+          "dust",
+          "left",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-letter words",
+        "items": [
+          "knight",
+          "wrist",
+          "knife",
+          "gnome"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Super-prefix companions",
+        "items": [
+          "market",
+          "hero",
+          "star",
+          "visor"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle set for 09112026."
+  }
+}

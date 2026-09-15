@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09152026-E",
+    "generatedAt": "2026-09-15T05:08:05.433Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "coin",
+          "button",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits You Can Eat",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections puzzle for 9/15/2026. Easy level uses concrete, visual groupings."
+  },
+  "medium": {
+    "id": "09152026-M",
+    "generatedAt": "2026-09-15T05:08:05.433Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "toothbrush",
+          "raincoat",
+          "snowman",
+          "basketball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "play",
+          "run",
+          "watch",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Pairings",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "beam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Zoo Animals",
+        "items": [
+          "lion",
+          "panda",
+          "giraffe",
+          "zebra"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle introduces wordplay. Some items might tempt players to fit other groups, but each item belongs to its listed group."
+  },
+  "hard": {
+    "id": "09152026-H",
+    "generatedAt": "2026-09-15T05:08:05.433Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add un- Opposites",
+        "items": [
+          "tie",
+          "lock",
+          "fold",
+          "do"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Object Double-Uses",
+        "items": [
+          "seal",
+          "duck",
+          "crane",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Word Phrases",
+        "items": [
+          "fly",
+          "work",
+          "place",
+          "man"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle leans on abstract word connections and polysemy. Look for words with more than one meaning; some items may resemble others but only fit their true group."
+  }
+}

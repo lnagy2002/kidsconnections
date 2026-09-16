@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "WIND",
+      "BEND",
+      "HIDE",
+      "CAMP",
+      "MIST",
+      "GOLD",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GATHER",
+      "PLANTS",
+      "HARMON",
+      "NURSED",
+      "BALLOO",
+      "SILENT",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "MAGNETS",
+      "BALANCED",
+      "FANTASTIC",
+      "CIRCULAR",
+      "GRADIENT",
+      "SPIRITED",
+      "WONDERED",
+      "FESTIVITY",
+      "ACROBATICS"
+    ]
+  }
+}

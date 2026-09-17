@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "BOLT",
+      "JUMP",
+      "CLIM",
+      "DINE",
+      "CANE",
+      "BAND",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "MYSTIC",
+      "TRICKY",
+      "SPARKY",
+      "BALCON",
+      "JOURNAL",
+      "FABLES",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "BALANCED",
+      "GATHERED",
+      "NARRATIVE",
+      "EXPLORING",
+      "COMFORTED",
+      "CHERISHED",
+      "GRADUATES",
+      "MAGNETIC"
+    ]
+  }
+}

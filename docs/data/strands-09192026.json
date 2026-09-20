@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "HILL",
+      "FIRM",
+      "BUMP",
+      "CLAY",
+      "MIST",
+      "CANE",
+      "HIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "FARMER",
+      "SPIRAL",
+      "CANDLE",
+      "PLANTS",
+      "FESTAL",
+      "NURSED",
+      "TRICKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDSHIP",
+      "HARMONIZE",
+      "SPIRITED",
+      "INNOVATE",
+      "CIRCULATE",
+      "FESTIVITY",
+      "DREAMLIKE",
+      "BALANCED",
+      "COMFORTING"
+    ]
+  }
+}

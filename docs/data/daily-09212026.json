@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09212026-E",
+    "generatedAt": "2026-09-21T05:16:09.796Z",
+    "groups": [
+      {
+        "name": "Un- Prefix Words",
+        "items": [
+          "usual",
+          "certain",
+          "tidy",
+          "seen"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Re- Prefix Words",
+        "items": [
+          "do",
+          "play",
+          "use",
+          "make"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Book-Word Pairs",
+        "items": [
+          "note",
+          "guide",
+          "text",
+          "check"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Companions",
+        "items": [
+          "dog",
+          "cat",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzle set for 09212026. Easy group focuses on prefix tricks and simple word connections."
+  },
+  "medium": {
+    "id": "09212026-M",
+    "generatedAt": "2026-09-21T05:16:09.796Z",
+    "groups": [
+      {
+        "name": "Agent-Nouns with -er",
+        "items": [
+          "speak",
+          "write",
+          "code",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Re- prefix words",
+        "items": [
+          "order",
+          "cycle",
+          "solve",
+          "plan"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pre- prefix words",
+        "items": [
+          "view",
+          "pare",
+          "heat",
+          "test"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Over- prefix words",
+        "items": [
+          "see",
+          "flow",
+          "turn",
+          "load"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set uses word-building with common prefixes and simple patterns to tempt with cross-overs."
+  },
+  "hard": {
+    "id": "09212026-H",
+    "generatedAt": "2026-09-21T05:16:09.796Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs with Same Pronunciation",
+        "items": [
+          "box",
+          "plant",
+          "slide",
+          "cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Different Pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Foods",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores pronunciation shifts and playful word forms. Look for subtle clues, with some tempting misdirections."
+  }
+}

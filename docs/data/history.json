@@ -223,7 +223,8 @@
     "CANDY",
     "FLEX",
     "MYSTY",
-    "GUST"
+    "GUST",
+    "FLECK"
   ],
   "medium": [
     "MYSTIC",
@@ -413,7 +414,9 @@
     "TRICKS",
     "GLIDE",
     "NURSE",
-    "SPIRALS"
+    "SPIRALS",
+    "BASKETS",
+    "FARMING"
   ],
   "hard": [
     "EXEMPLARY",

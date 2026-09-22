@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09222026-E",
+    "generatedAt": "2026-09-22T05:14:40.406Z",
+    "groups": [
+      {
+        "name": "Sunny picks",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "goldfish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head coverings",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky travelers",
+        "items": [
+          "bird",
+          "airplane",
+          "helicopter",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cooking tools",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "spatula"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Kid-friendly Connections puzzles at easy level with concrete, visual themes."
+  },
+  "medium": {
+    "id": "09222026-M",
+    "generatedAt": "2026-09-22T05:14:40.406Z",
+    "groups": [
+      {
+        "name": "Ball-builders",
+        "items": [
+          "basket",
+          "meat",
+          "fire",
+          "eye"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water pairers",
+        "items": [
+          "fall",
+          "melon",
+          "proof",
+          "color"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books companions",
+        "items": [
+          "note",
+          "mark",
+          "case",
+          "worm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-prefix words",
+        "items": [
+          "rise",
+          "flower",
+          "burn",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include simple wordplay with common compound words; some items may seem to fit another group but belong to one."
+  },
+  "hard": {
+    "id": "09222026-H",
+    "generatedAt": "2026-09-22T05:14:40.406Z",
+    "groups": [
+      {
+        "name": "Anagrams in action",
+        "items": [
+          "listen",
+          "silent",
+          "enlist",
+          "tinsel"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-one-letter words",
+        "items": [
+          "scare",
+          "flame",
+          "blade",
+          "smart"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms mix",
+        "items": [
+          "wind",
+          "lead",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-verb pair words",
+        "items": [
+          "play",
+          "park",
+          "paint",
+          "watch"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and multi-meaning words; includes tricky cross-overs to challenge reasoning."
+  }
+}

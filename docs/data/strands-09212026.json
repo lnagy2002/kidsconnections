@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BIRD",
+      "HIDE",
+      "CAVE",
+      "GLOW",
+      "FARM",
+      "MIST",
+      "WIND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAM",
+      "FESTAL",
+      "GATHER",
+      "FABLES",
+      "SPIRAL",
+      "BALCON",
+      "GLIDER",
+      "JOURNAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "BALANCED",
+      "HARMONIC",
+      "TRANSLATE",
+      "FANTASTIC",
+      "SPIRITED",
+      "FRIENDLY",
+      "GENERATE",
+      "COMFORTED"
+    ]
+  }
+}

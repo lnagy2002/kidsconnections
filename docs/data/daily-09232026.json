@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09232026-E",
+    "generatedAt": "2026-09-23T04:59:06.869Z",
+    "groups": [
+      {
+        "name": "Kitchen Items",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "napkin"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Play Items",
+        "items": [
+          "tree",
+          "slide",
+          "bench",
+          "swing"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Reading & Maps",
+        "items": [
+          "book",
+          "magazine",
+          "notebook",
+          "map"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 09232026 easy puzzle set with concrete, visual themes."
+  },
+  "medium": {
+    "id": "09232026-M",
+    "generatedAt": "2026-09-23T04:59:06.869Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunlight",
+          "bookshelf",
+          "playground",
+          "bedtime"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather-Ready Wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "jacket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "glue",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 09232026 medium puzzle set with light wordplay and simple word forms."
+  },
+  "hard": {
+    "id": "09232026-H",
+    "generatedAt": "2026-09-23T04:59:06.869Z",
+    "groups": [
+      {
+        "name": "Polyseme Puzzles",
+        "items": [
+          "spring",
+          "bank",
+          "bat",
+          "coach"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Also Verbs",
+        "items": [
+          "chair",
+          "plant",
+          "match",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same spelling, different pronunciation)",
+        "items": [
+          "wind",
+          "read",
+          "lead",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Letter-Name Homophones",
+        "items": [
+          "bee",
+          "jay",
+          "cue",
+          "why"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 09232026 hard puzzle set exploring multi-meaning words and tricky wordplay."
+  }
+}

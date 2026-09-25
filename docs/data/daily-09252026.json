@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09252026-E",
+    "generatedAt": "2026-09-25T05:12:21.226Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "bat",
+          "bee",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "In the Classroom",
+        "items": [
+          "pencil",
+          "eraser",
+          "chalk",
+          "desk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Picks",
+        "items": [
+          "cereal",
+          "eggs",
+          "toast",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly groups for 9/25/2026. Easy puzzle uses concrete, visual themes."
+  },
+  "medium": {
+    "id": "09252026-M",
+    "generatedAt": "2026-09-25T05:12:21.226Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "mailbox",
+          "rainbow",
+          "lighthouse",
+          "teacup"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that Double as Verbs",
+        "items": [
+          "watch",
+          "park",
+          "brush",
+          "bow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Lunchbox Favorites",
+        "items": [
+          "banana",
+          "sandwich",
+          "carrot",
+          "cookie"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Tasks",
+        "items": [
+          "learn",
+          "study",
+          "attend",
+          "write"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptation: some items could seem to belong to other groups (e.g., 'watch' could be a timepiece or a verb)."
+  },
+  "hard": {
+    "id": "09252026-H",
+    "generatedAt": "2026-09-25T05:12:21.226Z",
+    "groups": [
+      {
+        "name": "Polysemes (multiple meanings)",
+        "items": [
+          "bank",
+          "spring",
+          "seal",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "read",
+          "lead",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes Parade",
+        "items": [
+          "triangle",
+          "circle",
+          "square",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Words",
+        "items": [
+          "planet",
+          "comet",
+          "asteroid",
+          "rocket"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores tricky language like polysemes and heteronyms. Some words could tempt you to think they belong to another hard group."
+  }
+}

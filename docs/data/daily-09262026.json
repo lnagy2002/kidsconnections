@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09262026-E",
+    "generatedAt": "2026-09-26T05:17:05.471Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "firetruck",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "airplane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "sun",
+          "rain",
+          "wind",
+          "snow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 09262026 easy puzzle set. Four groups of four kid-friendly items. Each item appears only once across all puzzles."
+  },
+  "medium": {
+    "id": "09262026-M",
+    "generatedAt": "2026-09-26T05:17:05.471Z",
+    "groups": [
+      {
+        "name": "Book Compounds",
+        "items": [
+          "notebook",
+          "textbook",
+          "bookmark",
+          "cookbook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal-Verbs",
+        "items": [
+          "crane",
+          "seal",
+          "bat",
+          "crow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "shoes",
+          "socks",
+          "hat",
+          "gloves"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "do",
+          "tie",
+          "lock",
+          "dress"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 09262026 medium puzzle set. Includes cross-over temptations: some items could seem to fit other groups (e.g., 'dress' as clothing), but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "09262026-H",
+    "generatedAt": "2026-09-26T05:17:05.471Z",
+    "groups": [
+      {
+        "name": "Polysemes (Noun & Verb)",
+        "items": [
+          "spring",
+          "match",
+          "plant",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit-Colored Words",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Agent-Noun by -er",
+        "items": [
+          "bake",
+          "paint",
+          "write",
+          "drive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "bow",
+          "read",
+          "tear",
+          "lead"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 09262026 hard puzzle set. Four groups of four items with abstract connections. Includes cross-over temptations to keep strong reasoning needed."
+  }
+}

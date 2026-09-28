@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09282026-E",
+    "generatedAt": "2026-09-28T05:42:03.858Z",
+    "groups": [
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "bowl",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in the Sky",
+        "items": [
+          "plane",
+          "bird",
+          "kite",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Nature Elements",
+        "items": [
+          "sun",
+          "cloud",
+          "tree",
+          "grass"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 09282026 puzzle set. Easy level uses concrete, visual groupings with 4 items each."
+  },
+  "medium": {
+    "id": "09282026-M",
+    "generatedAt": "2026-09-28T05:42:03.858Z",
+    "groups": [
+      {
+        "name": "Water Prefix Friends",
+        "items": [
+          "bottle",
+          "fall",
+          "melon",
+          "mark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Prefix Friends",
+        "items": [
+          "rise",
+          "beam",
+          "flower",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Prefix Friends",
+        "items": [
+          "coat",
+          "storm",
+          "forest",
+          "check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Star Prefix Friends",
+        "items": [
+          "fish",
+          "ship",
+          "light",
+          "fruit"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level adds simple wordplay with common prefix compounds. Some items might tempt guesses from other groups, but each item fits a single group."
+  },
+  "hard": {
+    "id": "09282026-H",
+    "generatedAt": "2026-09-28T05:42:03.858Z",
+    "groups": [
+      {
+        "name": "Pronunciation Pals",
+        "items": [
+          "lead",
+          "bass",
+          "wind",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Mix",
+        "items": [
+          "duck",
+          "trip",
+          "swing",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Word Pairs",
+        "items": [
+          "act",
+          "build",
+          "cycle",
+          "use"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level invites abstract connections and multi-meaning words while keeping everything kid-friendly."
+  }
+}

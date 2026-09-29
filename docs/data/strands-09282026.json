@@ -2,38 +2,38 @@
   "easy": {
     "words": [
       "BARKY",
-      "JUMPY",
-      "CRISP",
-      "SPARK",
-      "CANDY",
+      "WILDY",
+      "MASHY",
+      "CLAPS",
       "FLEET",
-      "NICEY",
-      "CLIMB"
+      "MISTY",
+      "JUMPY",
+      "CANDY"
     ]
   },
   "medium": {
     "words": [
-      "GATHER",
-      "FRIEND",
-      "BALANCE",
-      "SPIRITS",
-      "GLOWING",
-      "MYSTIFY",
-      "DREAMY",
-      "FESTIVE"
+      "FESTAL",
+      "GARNET",
+      "FABLES",
+      "PLANTS",
+      "NURSED",
+      "FROSTY",
+      "TWIRLED",
+      "CAVERN"
     ]
   },
   "hard": {
     "words": [
-      "ADVENTURE",
+      "FANTASY",
+      "HARMONIC",
+      "SPIRITED",
+      "BALANCED",
       "GENERATE",
-      "TRADITION",
-      "HARMONIZE",
-      "FANTASTIC",
-      "COMFORTING",
-      "FRIENDSHIP",
-      "INNOVATIVE",
-      "TRANSLATED"
+      "FESTIVITY",
+      "ACROBATICS",
+      "TRANSLATE",
+      "COMFORTED"
     ]
   }
 }

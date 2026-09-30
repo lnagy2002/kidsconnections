@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09302026-E",
+    "generatedAt": "2026-09-30T05:48:51.703Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "pencil",
+          "book",
+          "eraser",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "cup",
+          "plate",
+          "chair",
+          "lamp"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle with four concrete, visual themes: fruits, animals, school items, and common objects."
+  },
+  "medium": {
+    "id": "09302026-M",
+    "generatedAt": "2026-09-30T05:48:51.703Z",
+    "groups": [
+      {
+        "name": "Group A",
+        "items": [
+          "butterfly",
+          "sunflower",
+          "rainbow",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group B",
+        "items": [
+          "play",
+          "watch",
+          "brush",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group C",
+        "items": [
+          "wood",
+          "metal",
+          "glass",
+          "plastic"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group D",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "boots"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses wordplay and compound words. Some items may tempt you to fit them into another group, but they belong to their listed theme."
+  },
+  "hard": {
+    "id": "09302026-H",
+    "generatedAt": "2026-09-30T05:48:51.703Z",
+    "groups": [
+      {
+        "name": "Group X",
+        "items": [
+          "bark",
+          "bat",
+          "spring",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Y",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Z",
+        "items": [
+          "dust",
+          "left",
+          "clip",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group W",
+        "items": [
+          "knight",
+          "gnome",
+          "isle",
+          "write"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores polysemy, heteronyms, contronyms, and silent-letter words. Each item has multiple meanings or tricky pronunciations; there are cross-over temptations to distract you from the correct grouping."
+  }
+}

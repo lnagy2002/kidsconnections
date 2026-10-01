@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "GLOW",
+      "FIRM",
+      "BEND",
+      "JUMP",
+      "MIST",
+      "BOLT",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "HARMON",
+      "FESTAL",
+      "CRUNCH",
+      "GATHER",
+      "BALANC",
+      "PLANTS",
+      "NURSED",
+      "FLEETS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "TRANQUIL",
+      "EXPLORING",
+      "BALANCEDLY",
+      "COMFORTED",
+      "GRADUATES",
+      "GENERATED",
+      "ADVENTUR",
+      "FRIENDLY"
+    ]
+  }
+}

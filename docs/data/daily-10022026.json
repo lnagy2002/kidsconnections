@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10022026-E",
+    "generatedAt": "2026-10-02T05:59:04.231Z",
+    "groups": [
+      {
+        "name": "Yellow things",
+        "items": [
+          "Banana",
+          "Lemon",
+          "Sun",
+          "Corn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "Hat",
+          "Cap",
+          "Beret",
+          "Headband"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "Car",
+          "Bicycle",
+          "Bus",
+          "Skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets you might keep",
+        "items": [
+          "Dog",
+          "Cat",
+          "Hamster",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four concrete, visual groups. Each group shares a simple, kid-friendly connection."
+  },
+  "medium": {
+    "id": "10022026-M",
+    "generatedAt": "2026-10-02T05:59:04.231Z",
+    "groups": [
+      {
+        "name": "Words that pair with rain to form phrases",
+        "items": [
+          "Bow",
+          "Coat",
+          "Forest",
+          "Check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that come after sun to make new words",
+        "items": [
+          "Rise",
+          "Flower",
+          "Beam",
+          "Shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that can also be verbs",
+        "items": [
+          "Park",
+          "Wave",
+          "Light",
+          "Match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common compound words you see every day",
+        "items": [
+          "Lighthouse",
+          "Bedroom",
+          "Bookshelf",
+          "Mailbox"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: Some items might seem like they fit more than one group, but each item has a single best grouping. Look for how they form phrases or compound terms."
+  },
+  "hard": {
+    "id": "10022026-H",
+    "generatedAt": "2026-10-02T05:59:04.231Z",
+    "groups": [
+      {
+        "name": "Same-spelling words with different sounds",
+        "items": [
+          "Lead",
+          "Wind",
+          "Read",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things that are both nouns and verbs",
+        "items": [
+          "Hammer",
+          "Nail",
+          "Note",
+          "Scratch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that are foods",
+        "items": [
+          "Orange",
+          "Olive",
+          "Peach",
+          "Lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that reverse to form other words",
+        "items": [
+          "Live",
+          "Tide",
+          "Draw",
+          "Stop"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: Abstract connections and multi-meaning words. Some items may tempt you to group them elsewhere—stick to the strongest, sole connection for each item."
+  }
+}

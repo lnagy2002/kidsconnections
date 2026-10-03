@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "BARKY",
-      "FLAME",
-      "CAVEY",
-      "MASHY",
-      "CLAMP",
-      "SPARK",
-      "HIVEY",
-      "FLECK"
+      "BIRD",
+      "CAVE",
+      "FIRM",
+      "MIST",
+      "LAMP",
+      "BUMP",
+      "RIDE",
+      "LIFT"
     ]
   },
   "medium": {
     "words": [
-      "BUNGLES",
-      "HARMONY",
+      "CRISP",
+      "FLEET",
+      "GUSTY",
+      "PLUMB",
       "CANDLE",
-      "FESTIVE",
-      "GRANITE",
-      "SPIRITS",
-      "FOLKED",
-      "DREAMY"
+      "SHRUNK",
+      "FLAREY",
+      "CLIMBS"
     ]
   },
   "hard": {
     "words": [
-      "GLITTERY",
-      "MAGNETIC",
-      "BRAINWAVE",
-      "INSPIRING",
-      "TRANQUIL",
-      "FRIENDLY",
-      "FANTASTIC",
-      "EXPLORING",
-      "GENERATE"
+      "FRIENDS",
+      "CARNIVAL",
+      "GRADIENT",
+      "HARMONY",
+      "ADVENTURE",
+      "SPIRITED",
+      "BALANCED",
+      "WONDERFUL",
+      "GRADUATES"
     ]
   }
 }

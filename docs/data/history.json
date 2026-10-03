@@ -420,7 +420,9 @@
     "FARMING",
     "CLOVER",
     "GUSTY",
-    "GRANITE"
+    "GRANITE",
+    "SHRUNK",
+    "FLAREY"
   ],
   "hard": [
     "EXEMPLARY",

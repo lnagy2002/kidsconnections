@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAVE",
+      "PEAR",
+      "BOLT",
+      "HIVE",
+      "WISP",
+      "FLAP",
+      "CLIP",
+      "LAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLOBE",
+      "SPLAT",
+      "FABLE",
+      "TWIRL",
+      "CANDLE",
+      "JOURNAL",
+      "NURSED",
+      "BALLOON"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "FANTASTIC",
+      "ADVENTURE",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "TRANSLATED",
+      "COMFORTING",
+      "GENERATED"
+    ]
+  }
+}

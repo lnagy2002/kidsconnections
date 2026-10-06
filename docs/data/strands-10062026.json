@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "FIRM",
+      "BUMP",
+      "DINE",
+      "GARD",
+      "COLD",
+      "MIST",
+      "LIMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "FESTAL",
+      "GRANDE",
+      "PILLOW",
+      "CAVERN",
+      "SPLASH",
+      "TWIRLY",
+      "FLEETS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "CIRCULAR",
+      "GRADIENT",
+      "HARMONIC",
+      "EXPLORER",
+      "MAGNETIC",
+      "TRANSLATE",
+      "GENERATED",
+      "WONDERFUL"
+    ]
+  }
+}

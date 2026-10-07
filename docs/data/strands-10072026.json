@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WINDY",
+      "BLOOM",
+      "FLEET",
+      "CANDY",
+      "CLEAN",
+      "HAPPY",
+      "FABLE",
+      "PLUMB"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPIRAL",
+      "FARMER",
+      "DREAMS",
+      "BALANCE",
+      "CIRCLE",
+      "FESTIVE",
+      "WONDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "FRIENDLY",
+      "MAGNETIC",
+      "SPECTACULAR",
+      "ADVENTURE",
+      "HARMONIOUS",
+      "TRANSLATED",
+      "GENERATED",
+      "COMFORTING"
+    ]
+  }
+}

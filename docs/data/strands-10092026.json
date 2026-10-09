@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "BARK",
+      "WAVE",
+      "HIDE",
+      "FARM",
+      "JUMP",
+      "MIST",
+      "FLEX"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKS",
+      "GATHER",
+      "FESTAL",
+      "BALLOO",
+      "CANDLE",
+      "PLANTS",
+      "MAGNET",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "WONDERFUL",
+      "FRIENDSHIP",
+      "SPIRITED",
+      "HARMONIZE",
+      "FANTASTIC",
+      "GENERATED",
+      "EXPLORING",
+      "TRANSLATED",
+      "COMFORTING"
+    ]
+  }
+}

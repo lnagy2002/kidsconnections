@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CART",
+      "GLOW",
+      "HUSH",
+      "PUSH",
+      "BUMP",
+      "FLEX",
+      "DINE",
+      "CAND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FARMER",
+      "GATHER",
+      "SPARKY",
+      "FESTAL",
+      "CANDLE",
+      "BALLOON",
+      "PLANTS",
+      "WILLOW"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GATHERED",
+      "FESTIVITY",
+      "BALANCED",
+      "FANTASTIC",
+      "HARMONIZE",
+      "SPIRITED",
+      "GRADIENT",
+      "COMFORTED",
+      "TRANQUIL"
+    ]
+  }
+}

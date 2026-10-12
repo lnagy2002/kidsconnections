@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "JUMP",
+      "FIRM",
+      "HIVE",
+      "CANE",
+      "FRESH",
+      "CAMP",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GARNET",
+      "BALLOO",
+      "FABLES",
+      "CANDOR",
+      "FLAIRY",
+      "NURSED",
+      "TWIRLER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPARKLE",
+      "FESTIVITY",
+      "GRADIENT",
+      "INNOVATE",
+      "FRIENDLY",
+      "HARMONIC",
+      "WONDERFUL",
+      "TRANSLATE",
+      "ACROBATICS"
+    ]
+  }
+}

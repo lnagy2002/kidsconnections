@@ -8,174 +8,214 @@
     <style>
          @import url('./theme.css');
 
-#original {
-   background: var(--text);
-}
-        .header {
-            background: var(--card);
-            border-radius: 20px;
-            padding: 16px 18px;
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, .12)
-        }
-
-
-        .sub {
-            font-size: 13px;
-            color: #314351
-        }
-
-        /* .controls {
-            margin-left: auto;
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap
-        } */
-
-        .btn {
-            border: 0;
-            padding: 10px 14px;
-            border-radius: 12px;
-            background: #0e364b;
-            color: #fff;
-            cursor: pointer
-        }
-
-        .btn.secondary {
-            background: #314351
-        }
-
-        .card {
-            margin-top: 18px;
-            background: var(--card);
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
-            padding: 16px
-        }
-
-        .board {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 16px
-        }
-
-        .prompt {
-            display: grid;
-            gap: 12px;
-            grid-template-columns: 1fr minmax(260px, 340px);
-        }
-
-        .pane {
-            background: var(--muted);
-            border-radius: 16px;
-            padding: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center
-        }
-
-        .pane canvas, .grid canvas {
-            background: #fff;
-            border-radius: 12px;
-            width: 100%;
-            height: auto;
-            max-height: 380px;
-            object-fit: contain
-        }
-
-        .meta {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            flex-wrap: wrap
-        }
-
-        .badge {
-            background: #eef6ff;
-            color: #0e364b;
-            padding: 6px 10px;
-            border-radius: 999px;
-            font-size: 12px
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-        }
-
-        .opt {
-            position: relative;
-            background: var(--muted);
-            border-radius: 16px;
-            padding: 10px;
-            cursor: pointer;
-            overflow: hidden;
-            transition: transform .1s ease, box-shadow .2s ease;
-        }
-
-        .opt:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, .12)
-        }
-
-        .opt.selected.correct {
-            /* outline: 5px solid var(--ok); */
-            background-color: var(--ok);
-        }
-
-        .opt.selected.wrong {
-            /* outline: 5px solid var(--bad) */
-            background-color: var(--bad);
-        }
-
-        .opt label {
-            position: absolute;
-            top: 8px;
-            left: 8px;
-            background: #fff;
-            border-radius: 999px;
-            font-size: 12px;
-            padding: 4px 8px
-        }
-
-        .row {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 10px
-        }
-
-        .hint {
-            font-size: 13px;
-            color: #2f4454
-        }
-
-        .score {
-            color: #fff;
-            font-weight: 600
-        }
-
-        @media (max-width:840px) {
-            .prompt {
-                grid-template-columns: 1fr
-            }
-            .grid {
-              grid-template-columns: 1fr;
-            }
-        }
-
         .section {
             margin-top: 15px;
             text-align: center;
         }
 
-        .muted {
+        .prompt-title {
+            margin: 16px 0 6px;
+            text-align: center;
+            color: #8be3e3;
+            font-size: 1.6rem;
+        }
+
+        .hint-line {
+            margin: 0 0 6px;
+            padding: 0 16px;
+            text-align: center;
+            color: var(--muted);
+        }
+
+        .help {
+            width: 26px;
+            height: 26px;
+            margin-left: 8px;
+            border-radius: 50%;
+            border: 2px solid currentColor;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            font-size: 15px;
+            font-weight: 800;
+            line-height: 1;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        .tip {
+            max-width: 560px;
+            margin: 0 auto 8px;
+            padding: 10px 16px;
+            border-radius: 14px;
+            background: #2b4a5e;
             color: var(--muted);
             text-align: center;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: minmax(0, 2fr) auto minmax(0, 3fr);
+            gap: 20px;
+            max-width: 900px;
+            margin: 16px auto;
+            align-items: stretch;
+        }
+
+        /* Original picture in a yellow frame */
+        .orig-frame {
+            background: #f9e27d;
+            border-radius: 20px;
+            padding: 0 12px 12px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .orig-label {
+            text-align: center;
+            font-weight: 800;
+            letter-spacing: .06em;
+            color: #0e364b;
+            padding: 8px 0 6px;
+        }
+
+        .orig-frame canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: auto 0;
+            border-radius: 14px;
+        }
+
+        /* Mirror picture between the original and the options */
+        .mirror-note {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            width: 96px;
+            text-align: center;
+        }
+
+        .mirror-arrow {
+            color: #8be3e3;
+            font-size: 32px;
+            line-height: 1;
+        }
+
+        .mirror-caption {
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        /* Answer options */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .opt {
+            position: relative;
+            display: grid;
+            place-items: center;
+            padding: 12px;
+            border-radius: 16px;
+            background: #fbfaf0;
+            cursor: pointer;
+            transition: transform .1s ease, box-shadow .2s ease, background-color .2s ease;
+        }
+
+        .opt:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .25);
+        }
+
+        .opt canvas {
+            display: block;
+            width: min(62%, 190px);
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .opt .tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: #a8e6e6;
+            color: #0e364b;
+            font-weight: 900;
+        }
+
+        .opt.selected.correct {
+            background-color: var(--ok);
+        }
+
+        .opt.selected.wrong {
+            background-color: var(--bad);
+            animation: shake 0.5s ease-in-out;
+        }
+
+        /* Feedback after picking an option */
+        #feedback:not(:empty) {
+            width: fit-content;
+            max-width: 100%;
+            box-sizing: border-box;
+            margin: 8px auto 0;
+            padding: 12px 28px;
+            border-radius: 14px;
+            background: #2b4a5e;
+            font-size: 19px;
+            text-align: center;
+        }
+
+        #feedback.good {
+            color: var(--ok);
+        }
+
+        #feedback.bad {
+            color: #f4917b;
+        }
+
+        .mob-only {
+            display: none;
+        }
+
+        @media (max-width: 840px) {
+            .desk-only {
+                display: none;
+            }
+
+            .mob-only {
+                display: revert;
+            }
+
+            .board {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+
+            .orig-frame {
+                justify-self: center;
+                width: 100%;
+                max-width: 330px;
+                box-sizing: border-box;
+            }
+
+            .board .section {
+                margin: 4px 0 0;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         @keyframes shake {
@@ -197,12 +237,6 @@
                 transform: translate3d(4px, 0, 0);
             }
         }
-
-        .wrong {
-            display: inline-block;
-            /* so transform applies properly */
-            animation: shake 0.5s ease-in-out;
-        }
     </style>
     <link rel="stylesheet" href="./games-utils.css">
     <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
@@ -222,36 +256,38 @@
         <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Mirror Match"></script>
       </div>
 
-        <h3 class="section">Pick the true horizontal mirror of the original image</h3>
-        <!-- <div class="hint" id="feedback">Choose a level to start!</div> -->
-        <div id="feedback" class="muted" style="margin-left:auto"></div>
-        <div class="card">
-            <!-- <div class="meta">
-                <div class="badge" id="levelBadge">Level: —</div>
-                <div class="badge" id="progress">Round 0/0</div>
-                <div class="badge" id="resultBadge">—</div>
-                <div class="score" id="score">Score: 0</div>
-            </div> -->
-
-            <div class="board">
-                <div class="prompt">
-                    <div class="pane">
-                        <canvas id="original" width="520" height="360" aria-label="original image"></canvas>
-                    </div>
-                    <div class="pane">
-                        <div class="hint">
-                            Goal: choose the option that matches how this picture would look in a <b>mirror</b> (left/right flipped).<br/> Tip: look for clues like text direction, arrows, dots, off-center features.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="grid" id="optionsGrid"></div>
-
-                <!-- <div class="row">
-                    <button class="btn" id="nextBtn" disabled>Next</button>
-                </div> -->
-            </div>
+        <h2 class="prompt-title">Find the mirror match!</h2>
+        <p class="hint-line">
+            Look carefully! In a mirror, left and right switch sides.
+            <button type="button" class="help" id="helpBtn" aria-expanded="false" aria-controls="tip" title="More tips">?</button>
+        </p>
+        <div id="tip" class="tip" hidden>
+            Look for clues like dots, arrows, and things that are off-center. Check which side they end up on.
         </div>
+
+        <div class="board">
+            <div class="orig-frame">
+                <div class="orig-label">ORIGINAL</div>
+                <canvas id="original" width="600" height="600" aria-label="original image"></canvas>
+            </div>
+            <div class="mirror-note desk-only" aria-hidden="true">
+                <svg viewBox="0 0 60 96" width="54" height="86">
+                    <defs>
+                        <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="#d9f4ff" />
+                            <stop offset="1" stop-color="#7cc8ec" />
+                        </linearGradient>
+                    </defs>
+                    <ellipse cx="30" cy="48" rx="26" ry="44" fill="url(#glass)" stroke="#f9e27d" stroke-width="5" />
+                    <path d="M18 30 L32 16 M17 44 L38 22" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8" />
+                </svg>
+                <div class="mirror-arrow">&rarr;</div>
+                <div class="mirror-caption">A mirror flips left and right.</div>
+            </div>
+            <h3 class="section mob-only">Which one is flipped?</h3>
+            <div class="grid" id="optionsGrid"></div>
+        </div>
+        <div id="feedback" role="status"></div>
     </main>
 
     <div>
@@ -273,7 +309,6 @@
             gtag('event', 'mirror_failed_loading_level_'  + level, { app: 'mirror' });
             showMessage (`Couldn’t load data: ${err.message}`);
         }
-        startLevel(level); // render it
     }
 
         const $ = s => document.querySelector(s);
@@ -346,7 +381,7 @@ async function toImageBitmapCompat(dataUrl) {
             ctx.restore();
         }
 
-        function makeOptionCanvas(w = 400, h = 240) {
+        function makeOptionCanvas(w = 400, h = 400) {
             const c = document.createElement('canvas');
             c.width = w;
             c.height = h;
@@ -406,13 +441,15 @@ async function toImageBitmapCompat(dataUrl) {
             };
         }
 
-        function showMessage  (text) {
-          document.getElementById('feedback').textContent = text;
+        function showMessage  (text, tone = '') {
+          const fb = document.getElementById('feedback');
+          fb.textContent = text;
+          fb.className = tone;
         }
 
         async function startLevel(lvl) {
             // document.getElementById('levelBadge').textContent = "Level: " + (lvl.charAt(0).toUpperCase() + lvl.slice(1));
-            showMessage  ("Pick the mirror image.");
+            showMessage  ("");
             // document.getElementById('resultBadge').textContent = "—";
             score = 0;
             // document.getElementById('score').textContent = "Score: 0";
@@ -434,7 +471,6 @@ async function toImageBitmapCompat(dataUrl) {
         async function renderRound() {
             // const progress = document.getElementById('progress');
             // const scoreEl = document.getElementById('score');
-            const fb = document.getElementById('feedback');
             // const nextBtn = document.getElementById('nextBtn');
             const grid = document.getElementById('optionsGrid');
             // const badge = document.getElementById('resultBadge');
@@ -443,7 +479,7 @@ async function toImageBitmapCompat(dataUrl) {
             // progress.textContent = "Round " + (current + 1) + "/" + rounds.length;
             // scoreEl.textContent = "Score: " + score;
             // badge.textContent = "—";
-            fb.textContent = "Pick the mirror image.";
+            showMessage("");
             // nextBtn.disabled = true;
 
             const ctx = document.getElementById('original').getContext('2d');
@@ -460,10 +496,10 @@ async function toImageBitmapCompat(dataUrl) {
                     tabIndex: 0,
                     'aria-label': 'Option ' + labels[idx]
                 });
-                const lab = create('label');
-                lab.textContent = labels[idx];
-                cell.appendChild(lab);
-                const c = makeOptionCanvas(400, 240);
+                const tag = create('span', { className: 'tag' });
+                tag.textContent = labels[idx];
+                cell.appendChild(tag);
+                const c = makeOptionCanvas();
                 cell.appendChild(c);
                 drawImageFit(c.getContext('2d'), rounds[current].img, opt);
                 cell.addEventListener('click', () => selectOption(cell, opt));
@@ -480,18 +516,18 @@ async function toImageBitmapCompat(dataUrl) {
         function selectOption(cell, opt) {
             const grid = document.getElementById('optionsGrid');
             Array.from(grid.children).forEach(ch => ch.classList.remove('selected', 'correct', 'wrong'));
+            void cell.offsetWidth; // restart the shake when the same wrong option is tapped again
             cell.classList.add('selected', opt.isCorrect ? 'correct' : 'wrong');
-            const fb = document.getElementById('feedback');
             // const badge = document.getElementById('resultBadge');
             if (opt.isCorrect) {
-                fb.textContent = "Nice! That’s the true mirror.";
+                showMessage("Nice! That’s the true mirror.", 'good');
                 // badge.textContent = "Correct ✅";
                 celebrate ();
                 window.MindBitsProgress?.markDoneToday(`mirror-${(getQueryParam("level")||"easy").toLowerCase()}`);
 
                 score++;
             } else {
-                fb.textContent = "Not quite. Look for left/right clues.";
+                showMessage("Not quite. Look for left/right clues.", 'bad');
                 // badge.textContent = "Try again ❌";
             }
             // document.getElementById('score').textContent = "Score: " + score;
@@ -509,6 +545,12 @@ async function toImageBitmapCompat(dataUrl) {
         //     }
         // });
 
+
+        document.getElementById('helpBtn').addEventListener('click', (e) => {
+            const tip = document.getElementById('tip');
+            tip.hidden = !tip.hidden;
+            e.currentTarget.setAttribute('aria-expanded', String(!tip.hidden));
+        });
 
         // startLevel(getQueryParam('level')  || 'easy');
         loadData ();

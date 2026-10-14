@@ -193,6 +193,48 @@
             margin: 16px auto 8px;
         }
 
+        .pool {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            max-width: 360px;
+            margin: 12px auto 0;
+        }
+
+        .pool-num {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            display: grid;
+            place-items: center;
+            background: #93b5bd;
+            color: #0e2a3b;
+            font-size: 20px;
+            font-weight: 800;
+            font-family: inherit;
+            border: 0;
+            padding: 0;
+            cursor: pointer;
+            touch-action: manipulation;
+            transition: opacity .15s ease, transform .15s ease;
+        }
+
+        .pool-num:hover:not(:disabled) {
+            transform: translateY(-2px);
+            background: #a9c8cf;
+        }
+
+        .pool-num.used {
+            opacity: .25;
+            transform: scale(.9);
+            cursor: default;
+        }
+
+        .cell.selected {
+            border-color: #7fd6c2;
+        }
+
         .cell {
             width: 64px;
             height: 64px;
@@ -226,8 +268,49 @@
             color: var(--ok)
         }
 
+        #target {
+            display: block;
+            margin-top: 8px;
+        }
+
+        .target-badge {
+            display: inline-block;
+            min-width: 1.6em;
+            padding: 4px 18px;
+            border-radius: 14px;
+            background: #0a2433;
+            border: 3px solid #7fd6c2;
+            color: var(--ok);
+            font-size: 2.25rem;
+            font-weight: 900;
+            line-height: 1.15;
+            text-align: center;
+            vertical-align: middle;
+            box-shadow: 0 0 10px rgba(127, 214, 194, .25);
+        }
+
         .bad {
-            color: #b33a33
+            color: #ff9a85
+        }
+
+        /* Status / error messages: shown as a box so they stand out on the dark background */
+        #status:not(:empty),
+        #message:not(:empty) {
+            box-sizing: border-box;
+            width: fit-content;
+            max-width: 100%;
+            margin: 16px auto 0;
+            padding: 12px 28px;
+            border-radius: 14px;
+            background: #2b4a5e;
+            font-size: 19px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        #status.bad:not(:empty),
+        #message.bad:not(:empty) {
+            color: #f4917b;
         }
 
 
@@ -250,10 +333,11 @@
         <div>
           <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Magic Squares"></script>
         </div>
-        <h3 class="section">Make all lines add up to target number <span id="target" style="font-size: 1.75rem; font-weight:900"></span></h3>
+        <h3 class="section" style="font-weight:normal">Fill the blanks so every <b>row</b>, <b>column</b>, and <b>diagonal adds up to</b>:<span id="target"></span></h3>
         <div class="card">
 
             <div id="board" class="board"></div>
+            <div id="pool" class="pool" aria-label="Numbers to place"></div>
 
             <!-- <div class="rowSums" id="rowSums"></div>
       <div class="colSums" id="colSums"></div> -->
@@ -381,6 +465,7 @@
         const statusEl = document.getElementById("status");
         const targetEl = document.getElementById("target");
         const messageEl = document.getElementById("message");
+        const poolEl = document.getElementById("pool");
 
         let current = {
             n: 3,
@@ -409,7 +494,7 @@
             statusEl.textContent = "";
 
             const M = (n * (n * n + 1)) / 2; // magic constant
-            targetEl.innerHTML = `<span class="ok">${M}</span>`;
+            targetEl.innerHTML = `<span class="target-badge">${M}</span>`;
 
             for (let r = 0; r < n; r++) {
                 for (let c = 0; c < n; c++) {
@@ -432,6 +517,7 @@
                             if (cell.value) validateCell(cell);
                             checkProgress();
                         });
+                        cell.addEventListener("focus", () => selectCell(cell));
                         cell.addEventListener("blur", () => {
                             if (cell.value) validateCell(cell);
                             checkProgress();
@@ -439,6 +525,19 @@
                     }
                     boardEl.appendChild(cell);
                 }
+            }
+            // Numbers still to place: everything 1..n² that isn't already given
+            const givens = new Set(puz.givens.flat().filter(v => v != null));
+            poolEl.innerHTML = "";
+            for (let v = 1; v <= n * n; v++) {
+                if (givens.has(v)) continue;
+                const chip = document.createElement("button");
+                chip.type = "button";
+                chip.className = "pool-num";
+                chip.dataset.value = v;
+                chip.textContent = v;
+                chip.addEventListener("click", () => placeFromPool(v));
+                poolEl.appendChild(chip);
             }
             // for(let i=0;i<n;i++){
             //   const span = document.createElement("div"); span.textContent = `Row ${i+1}: —`;
@@ -448,7 +547,33 @@
             //   const span = document.createElement("div"); span.textContent = `Col ${i+1}: —`;
             //   colSumsEl.appendChild(span);
             // }
+            selectCell(editableCells().find(c => !c.value) || null);
             checkProgress();
+        }
+
+        /** ---------- Number row: tap a number to place it in the selected box ---------- */
+        let selectedCell = null;
+
+        function editableCells() {
+            return Array.from(boardEl.querySelectorAll(".cell:not(:disabled)"));
+        }
+
+        function selectCell(cell) {
+            if (selectedCell) selectedCell.classList.remove("selected");
+            selectedCell = cell;
+            if (cell) cell.classList.add("selected");
+        }
+
+        function placeFromPool(v) {
+            const cells = editableCells();
+            const target = cells.includes(selectedCell) ? selectedCell : cells.find(c => !c.value);
+            if (!target) return;
+            target.value = String(v);
+            target.dispatchEvent(new Event("input"));
+            // Move on to the next empty box (wrapping around) so kids can keep tapping
+            const i = cells.indexOf(target);
+            const next = [...cells.slice(i + 1), ...cells.slice(0, i)].find(c => !c.value);
+            selectCell(next || target);
         }
 
         function gridFromInputs() {
@@ -466,7 +591,6 @@
             return grid;
         }
 
-        const n = current.n;
         /** ---------- Shake + clear helper ---------- */
 
         function shakeAndClearRangeOrUnique(cell) {
@@ -475,7 +599,7 @@
             // force reflow to restart animation
             void cell.offsetWidth;
             cell.classList.add("shake");
-            messageEl.innerHTML = "Numbers must be 1.." + (n * n) + " with no repeats.";
+            messageEl.innerHTML = "Numbers must be 1.." + (current.n * current.n) + " with no repeats.";
             // setTimeout(()=>{ cell.classList.remove("shake1"); }, 1024);
         }
 
@@ -601,6 +725,14 @@
             const M = (n * (n * n + 1)) / 2;
             const grid = gridFromInputs();
 
+            // Fade numbers already placed on the board; restore them when cleared
+            const placed = new Set(grid.flat());
+            for (const chip of poolEl.children) {
+                const used = placed.has(+chip.dataset.value);
+                chip.classList.toggle("used", used);
+                chip.disabled = used;
+            }
+
             // for(let r=0;r<n;r++){
             //   const s = grid[r].reduce((a,b)=>a+b,0);
             //   rowSumsEl.children[r].textContent = `Row ${r+1}: ${s}`;
@@ -634,7 +766,7 @@
 
             if (!allFilled) {
                 statusEl.className = "message";
-                statusEl.innerHTML = "Fill the blanks so every line sums to target sum.";
+                statusEl.textContent = "";
                 return;
             }
 

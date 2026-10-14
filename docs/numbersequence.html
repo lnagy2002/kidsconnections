@@ -25,6 +25,22 @@
   background: white;
   margin: 6px 6px;
 }
+/* After Check: same green / red as Magic Square */
+.cell.right {
+  background: var(--ok);
+  color: #083f2b;
+  border-color: var(--ok);
+}
+.cell.wrong {
+  background: var(--bad);
+  color: #fff;
+  border-color: var(--bad);
+  animation: shake .4s ease-in-out;
+}
+@keyframes shake {
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
 .cell:disabled {
   background: var(--accent);
   color: #2a556c;
@@ -81,7 +97,26 @@
 <script>
 /* ---------------- Utils ---------------- */
 const qs = new URLSearchParams(location.search);
-const rand = (a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+
+// Daily puzzle: the random numbers are seeded by today's date and the level,
+// so everyone gets the same sequence today and a reload doesn't change it.
+function mulberry32(a){
+  return function(){
+    let t = (a += 0x6D2B79F5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function dailySeed(level){
+  const d = new Date();
+  const key = `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}-${level}`;
+  let h = 2166136261;
+  for (let i = 0; i < key.length; i++) h = Math.imul(h ^ key.charCodeAt(i), 16777619);
+  return h >>> 0;
+}
+let random = Math.random;
+const rand = (a,b)=>Math.floor(random()*(b-a+1))+a;
 const cap = s => s.charAt(0).toUpperCase()+s.slice(1);
 
 function setSeqInputs(container, seq, revealCount=4){
@@ -101,73 +136,73 @@ const Patterns = {
   arithmetic(){
     const start = rand(0,15), step = rand(1,6);
     const seq = Array.from({length:6},(_,i)=>start + i*step);
-    return {seq, name:"Arithmetic", rule:`Add ${step}`, difficulty:"easy"};
+    return {seq, name:"Arithmetic", rule:`Add ${step} each time`, difficulty:"easy"};
   },
   altPlusMinus(){
     const start = rand(0,15), d = rand(2,6);
     const seq = [start];
     for(let i=1;i<6;i++) seq.push(i%2? seq[i-1]+d : seq[i-1]-d);
-    return {seq, name:"Alternating ±", rule:`+${d}, -${d} alternating`, difficulty:"easy"};
+    return {seq, name:"Alternating ±", rule:`Add ${d}, then take away ${d}, again and again`, difficulty:"easy"};
   },
   evensOdds(){
-    const even = Math.random()<0.5;
+    const even = random()<0.5;
     const start = even ? rand(0,10)*2 : rand(0,10)*2+1;
     const seq = Array.from({length:6},(_,i)=>start+2*i);
-    return {seq, name: even?"Evens":"Odds", rule:`Add 2 (${even?"even":"odd"} sequence)`, difficulty:"easy"};
+    return {seq, name: even?"Evens":"Odds", rule:`Add 2 each time (${even?"even":"odd"} numbers)`, difficulty:"easy"};
   },
   flatStep(){
     const start = rand(0,15), step = rand(2,5);
     const seq = Array.from({length:6},(_,i)=>start + i*step);
-    return {seq, name:"Constant Step", rule:`Increase by ${step}`, difficulty:"easy"};
+    return {seq, name:"Constant Step", rule:`Add ${step} each time`, difficulty:"easy"};
   },
 
   // Medium
   geometric(){
     const start = rand(1,5), r = rand(2,3);
     const seq = Array.from({length:6},(_,i)=> start*Math.pow(r,i));
-    return {seq, name:"Geometric", rule:`Multiply by ${r}`, difficulty:"medium"};
+    return {seq, name:"Geometric", rule:`Multiply by ${r} each time`, difficulty:"medium"};
   },
   fibLike(){
     let a = rand(1,5), b = a + rand(1,4);
     const seq = [a,b];
     for(let i=2;i<6;i++) seq.push(seq[i-1]+seq[i-2]);
-    return {seq, name:"Fibonacci-like", rule:"Add previous two", difficulty:"medium"};
+    return {seq, name:"Fibonacci-like", rule:"Add the two numbers before it", difficulty:"medium"};
   },
   increasingStep(){
     const start = rand(0,10), base = rand(1,3);
     const seq = [start]; let step = base;
     for(let i=1;i<6;i++){ seq.push(seq[i-1]+step); step++; }
-    return {seq, name:"Increasing Step", rule:"+1, +2, +3, …", difficulty:"medium"};
+    return {seq, name:"Increasing Step", rule:"The jump gets 1 bigger each time", difficulty:"medium"};
   },
   triangular(){
     const T = k=>k*(k+1)/2;
     const startN = rand(1,3);
     const seq = Array.from({length:6},(_,i)=>T(startN+i));
-    return {seq, name:"Triangular Numbers", rule:"n(n+1)/2", difficulty:"medium"};
+    return {seq, name:"Triangular Numbers", rule:"The jump gets 1 bigger each time", difficulty:"medium"};
   },
   squares(){
     const startN = rand(1,4);
     const seq = Array.from({length:6},(_,i)=> Math.pow(startN+i,2));
-    return {seq, name:"Perfect Squares", rule:"n² sequence", difficulty:"medium"};
+    return {seq, name:"Perfect Squares", rule:"Each number is a number times itself (2×2, 3×3, 4×4…)", difficulty:"medium"};
   },
 
   // Hard
   quadratic(){
     const a = rand(1,2), b = rand(-3,3), c = rand(0,10);
     const seq = Array.from({length:6},(_,i)=> a*i*i + b*i + c);
-    return {seq, name:"Quadratic", rule:`Constant 2nd difference = ${2*a}`, difficulty:"hard"};
+    return {seq, name:"Quadratic", rule:`Look at the jumps: they grow by ${2*a} each time`, difficulty:"hard"};
   },
   altSteps(){
     const start = rand(0,15), a = rand(2,6), b = rand(3,7);
     const seq = [start];
     for(let i=1;i<6;i++) seq.push(seq[i-1] + (i%2 ? a : b));
-    return {seq, name:"Alt Steps", rule:`+${a}, +${b} alternating`, difficulty:"hard"};
+    return {seq, name:"Alt Steps", rule:`Add ${a}, then add ${b}, again and again`, difficulty:"hard"};
   },
   affineAlt(){
     const start = rand(2,8), r = rand(2,3), k = rand(1,6);
     const seq = [start];
     for(let i=1;i<6;i++) seq.push(i%2 ? seq[i-1]*r : seq[i-1]+k);
-    return {seq, name:"Affine Alt", rule:`×${r} then +${k} repeating`, difficulty:"hard"};
+    return {seq, name:"Affine Alt", rule:`Multiply by ${r}, then add ${k}, again and again`, difficulty:"hard"};
   },
   primes(){
     const isPrime = x => {
@@ -178,7 +213,7 @@ const Patterns = {
     let p = rand(2,13); while(!isPrime(p)) p++;
     const seq=[p];
     while(seq.length<6){ p++; while(!isPrime(p)) p++; seq.push(p); }
-    return {seq, name:"Primes", rule:"Next prime each time", difficulty:"hard"};
+    return {seq, name:"Primes", rule:"Prime numbers: they can only be divided by 1 and themselves", difficulty:"hard"};
   }
 };
 
@@ -206,29 +241,51 @@ let current = null;
 
 /* ---------------- Core ---------------- */
 function generate(){
+  random = mulberry32(dailySeed(level1));
   const bag = Pools[level1];
-  const pick = bag[rand(0, bag.length-1)];
-  const {seq, name, rule, difficulty} = Patterns[pick]();
+  // Phone number pads have no minus key, so re-roll any sequence with a negative number
+  let pattern;
+  for (let tries = 0; tries < 50; tries++) {
+    pattern = Patterns[bag[rand(0, bag.length-1)]]();
+    if (pattern.seq.every(x => x >= 0)) break;
+  }
+  if (pattern.seq.some(x => x < 0)) pattern = Patterns.arithmetic();
+  const {seq, name, rule, difficulty} = pattern;
 
   const norm = seq.map(x=>Math.round(x)); // keep integers
   current = { seq: norm, name, rule, difficulty };
 
   setSeqInputs(seqDisplay, norm, 4);
+  // typing again clears the green/red from the last check
+  for (const id of ["input1", "input2"]) {
+    const el = document.getElementById(id);
+    el.addEventListener("input", () => el.classList.remove("right", "wrong"));
+  }
   // patternPill.textContent = `Pattern: ${name}`;
   result.textContent = "";
   hintBox.textContent = "";
 }
 
 function check(){
-  const v1 = Number(document.getElementById("input1").value);
-  const v2 = Number(document.getElementById("input2").value);
+  const in1 = document.getElementById("input1"), in2 = document.getElementById("input2");
+  const raw1 = in1.value.trim(), raw2 = in2.value.trim();
   const ok1 = current.seq[4], ok2 = current.seq[5];
 
-  if (Number.isNaN(v1) || Number.isNaN(v2)) {
+  // An empty box used to count as 0; ask for both numbers instead
+  if (raw1 === "" || raw2 === "" || Number.isNaN(Number(raw1)) || Number.isNaN(Number(raw2))) {
     result.textContent = "Please fill both boxes.";
     result.style.color = "var(--bad)";
     return;
   }
+  const v1 = Number(raw1), v2 = Number(raw2);
+
+  // Color each box: green when it fits the pattern, red when it doesn't
+  for (const [el, good] of [[in1, v1 === ok1], [in2, v2 === ok2]]) {
+    el.classList.remove("right", "wrong");
+    void el.offsetWidth; // restart the shake
+    el.classList.add(good ? "right" : "wrong");
+  }
+
   if (v1 === ok1 && v2 === ok2) {
     if (typeof celebrate === "function") {
       celebrate(qs.get("level")||"easy"); // from your utils
@@ -250,13 +307,6 @@ function hint(){
 document.getElementById("checkBtn").addEventListener("click", check);
 // document.getElementById("newBtn").addEventListener("click", generate);
 // document.getElementById("hintBtn").addEventListener("click", hint);
-
-document.addEventListener("keydown", (e)=>{
-  if(e.code === "Space"){
-    e.preventDefault();
-    generate();
-  }
-});
 
 /* ---------------- Init ---------------- */
 generate();

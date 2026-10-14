@@ -1,19 +1,18 @@
-// scripts/generate-daily-words.mjs
+// scripts/generate-strands-json.js
 // Node 20+, ESM. Requires OPENAI_API_KEY in repo secrets.
 // Outputs:
-//   - docs/data/levels-YYYYMMDD.json
-//   - docs/data/latest.json  (includes the date + levels)
-//   - docs/data/history.json (rolling history to reduce repeats)
+//   - docs/data/strands-MMDDYYYY.json (named by the UTC date, like the Wordle file)
+//   - docs/data/history.json (every word used so far; never reused)
 
 import fs from "node:fs";
 import path from "node:path";
 import OpenAI from "openai";
 
 // ---------- Config ----------
-const TZ = process.env.TZ || "America/Los_Angeles";
 const OUT_DIR = path.join("docs", "data");
 const HISTORY_FILE = path.join(OUT_DIR, "history.json");
 const COUNTS = { easy: 8, medium: 8, hard: 9 };
+const LEVELS = ["easy", "medium", "hard"];
 
 // Model + sampling. (Keep these stable for reproducibility.)
 const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
@@ -21,18 +20,24 @@ const TEMPERATURE = 0.6;
 const TOP_P = 0.95;
 
 // Exclude proper nouns, hyphens, spaces, numbers, diacritics.
-// Tune lengths by difficulty.
+// Max lengths match the game's grids (8x8, 10x10, 12x12) so every word fits.
 const RULES = {
   easy:   { min: 4, max: 7 },
-  medium: { min: 6, max: 11 },
-  hard:   { min: 8, max: 14 },
+  medium: { min: 6, max: 10 },
+  hard:   { min: 8, max: 12 },
 };
 
+// Ask again (excluding everything rejected so far) until each level has enough fresh words
+const MAX_ATTEMPTS = 5;
+// A level with fewer words than this fails the run, so the game falls back to yesterday's words
+const MIN_WORDS = 6;
+
+// UTC date, so the run right after midnight UTC writes today's file (not yesterday's)
 function todayStr() {
-  const now = new Date(new Date().toLocaleString("en-US", { timeZone: TZ }));
-  const y = now.getFullYear();
-  const m = String(now.getMonth() + 1).padStart(2, "0");
-  const d = String(now.getDate()).padStart(2, "0");
+  const now = new Date();
+  const y = now.getUTCFullYear();
+  const m = String(now.getUTCMonth() + 1).padStart(2, "0");
+  const d = String(now.getUTCDate()).padStart(2, "0");
   return `${m}${d}${y}`;
 }
 
@@ -92,18 +97,15 @@ function setDiffFilter(arr, excludeSet, bounds) {
 async function generateWithOpenAI({ date, excludeList }) {
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-  // We’ll pass a seed equal to YYYYMMDD for “best-effort” repeatability.
-  // Determinism is not guaranteed across backend updates (see notes).
-  const seed = Number(date);
-
   const system = [
     "You generate daily English word lists for a word-puzzle game.",
     "Return STRICT JSON ONLY. No backticks, no comments.",
     "Rules:",
     "- Uppercase A–Z only. No spaces, hyphens, apostrophes, digits, or diacritics.",
-    "- English dictionary words; no proper nouns; no trademarks.",
-    "- Obey per-level lengths: EASY 4–7, MEDIUM 6–11, HARD 8–14 letters.",
-    "- Provide novel words not in the EXCLUSIONS list."
+    "- Common English words that children aged 7–12 know; no proper nouns, trademarks, slang, or made-up words.",
+    "- School-safe and age-appropriate.",
+    "- Obey per-level lengths: EASY 4–7, MEDIUM 6–10, HARD 8–12 letters.",
+    "- Every word must be new: never use a word from the EXCLUSIONS list."
   ].join("\n");
 
   const user = JSON.stringify({
@@ -132,7 +134,7 @@ async function generateWithOpenAI({ date, excludeList }) {
     { role: "system", content: system },
     {
       role: "user",
-      content: `Generate today's unique word sets for ${date}. Use this date as a seed to keep results consistent for the same day. 
+      content: `Generate today's unique word sets for ${date}.
       Absolutely do not include any word from the EXCLUSIONS array.
         Input JSON (use this data as guidance):
         ${user}`
@@ -162,22 +164,39 @@ async function main() {
   ensureDir(OUT_DIR);
   const { raw: historyRaw, set: historySet } = loadHistory();
 
-  // We’ll ask the model while showing a (bounded) exclusions list to avoid repeats.
-  // To keep prompts compact, only include the most recent N used words.
-  const RECENT_LIMIT = 600; // tune as you like
-  const recentExclusions = Array.from(historySet).slice(-RECENT_LIMIT);
+  // Every word ever used (all levels) is excluded, and checked again in code below,
+  // because the model does not always follow the exclusion list.
+  const accepted = { easy: [], medium: [], hard: [] };
+  const rejected = new Set();
 
-  // First attempt
-  let candidate = await generateWithOpenAI({ date, excludeList: recentExclusions });
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    const missing = LEVELS.filter(l => accepted[l].length < COUNTS[l]);
+    if (!missing.length) break;
 
-  // Post-filter to strictly enforce rules and avoid any collisions with history
-  const easy = candidate.easy.words;
-  const medium = candidate.medium.words;
-  const hard = candidate.hard.words;
+    const used = new Set([...historySet, ...LEVELS.flatMap(l => accepted[l])]);
+    const candidate = await generateWithOpenAI({ date, excludeList: [...used, ...rejected] });
 
+    for (const level of missing) {
+      const raw = (candidate[level].words || []).map(w => String(w || "").trim().toUpperCase());
+      const fresh = setDiffFilter(raw, used, RULES[level]);
+      raw.filter(w => !fresh.includes(w)).forEach(w => rejected.add(w));
+      for (const w of fresh) {
+        if (accepted[level].length >= COUNTS[level]) break;
+        accepted[level].push(w);
+        used.add(w);
+      }
+    }
+    console.log(`Attempt ${attempt}: easy ${accepted.easy.length}/${COUNTS.easy}, medium ${accepted.medium.length}/${COUNTS.medium}, hard ${accepted.hard.length}/${COUNTS.hard} (rejected so far: ${rejected.size})`);
+  }
+
+  const short = LEVELS.filter(l => accepted[l].length < MIN_WORDS);
+  if (short.length) {
+    throw new Error(`Not enough new valid words for: ${short.join(", ")}`);
+  }
+
+  const { easy, medium, hard } = accepted;
 
   const datedObj = { easy: { words: easy }, medium: { words: medium }, hard: { words: hard } };
-  const payload = { date, ...datedObj };
 
   const datedPath = path.join(OUT_DIR, `strands-${date}.json`);
 

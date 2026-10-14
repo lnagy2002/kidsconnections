@@ -51,17 +51,33 @@
   outline:2px solid #fff3; animation:pulse .4s ease;
 }
 
-.list{flex:1;min-width:260px;background:var(--key);border:1px solid var(--tile-edge);border-radius:12px;padding:12px}
-.list h3{margin:0 0 6px;font-size:16px;color:var(--accent)}
-ul.words{list-style:none;margin:0;padding:0;}
-ul.words li{break-inside:avoid;margin:4px 6px;padding:4px 6px;border-radius:6px;background:#0b3347;font-weight:600}
-ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--ok);}
-.status{font-size:14px;color:var(--muted);text-align:center;}
+.list{flex:1;min-width:260px;background:#0b1f40;border-radius:14px;padding:14px}
+.list-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 10px}
+.list h3{margin:0;font-size:17px;font-weight:600;color:#e8f2f2}
+.list .count{color:var(--muted);font-size:16px}
+ul.words{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+ul.words li{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;background:#0f3550;color:#e8f2f2;font-weight:700;letter-spacing:.02em}
+ul.words li.found{background:rgba(74,222,128,.22);color:var(--ok)}
+ul.words li.found .w{text-decoration:line-through}
+ul.words li.found::before{
+  content:"✓";flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;
+  background:var(--ok);color:#0b2a1e;font-size:14px;font-weight:900
+}
+/* Messages: same soft box as the other games */
+.status:not(:empty){
+  width:fit-content;max-width:calc(100% - 32px);box-sizing:border-box;
+  margin:8px auto 18px;padding:10px 24px;border-radius:14px;
+  background:#2b4a5e;font-size:17px;text-align:center;color:var(--muted)
+}
+.status.good{color:var(--ok)}
+.status.bad{color:#f4917b}
 
 @media (max-width:700px){
   .left,.right{flex:0 0 100%;}
   .cell{width:40px; height:40px; font-weight:500; font-size:1rem;}
   .board{gap:1px;}
+  ul.words{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .status:not(:empty){margin:10px auto 0}
 }
 </style>
 
@@ -86,16 +102,15 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
 
   <div class="wrap">
     <div class="container">
-      <div class="left"><div id="board" class="board"></div></div>
+      <div class="left"><div id="board" class="board"></div><div class="status" id="status" role="status"></div></div>
       <div class="right">
         <div class="list">
-          <h3>Find These Words</h3>
+          <div class="list-head"><h3>Find These Words</h3><span class="count" id="wordCount"></span></div>
           <ul id="wordList" class="words"></ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="status" id="status"></div>
 </main>
 <div>
   <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
@@ -116,8 +131,15 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
     hard:   { size: 12}
   };
 
-  // 8 directions (dx,dy): N, NE, E, SE, S, SW, W, NW
-  const DIRS = [ [0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[-1,-1] ];
+  // Directions words can run in (dx,dy). Easy reads normally (across, down),
+  // medium adds diagonals, hard adds every backwards direction too.
+  const E=[1,0], S=[0,1], SE=[1,1], NE=[1,-1], W=[-1,0], N=[0,-1], NW=[-1,-1], SW=[-1,1];
+  const LEVEL_DIRS = {
+    easy:   [E, S],
+    medium: [E, S, SE, NE],
+    hard:   [E, S, SE, NE, W, N, NW, SW]
+  };
+  let DIRS = LEVEL_DIRS.easy;
 
   const elBoard = document.getElementById('board');
   const elWordList = document.getElementById('wordList');
@@ -130,7 +152,8 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
 
   function randInt(n){ return Math.floor(Math.random()*n); }
   function inBounds(x,y){ return x>=0 && y>=0 && x<size && y<size; }
-  function clearStatus(msg=""){ elStatus.textContent = msg; }
+  function clearStatus(msg="", tone=""){ elStatus.textContent = msg; elStatus.className = 'status' + (tone ? ' ' + tone : ''); }
+  function updateCount(){ document.getElementById('wordCount').textContent = `${found.size} of ${placed.size}`; }
   function alpha(){ return String.fromCharCode(65 + randInt(26)); }
   function shuffle(arr){ for(let i=arr.length-1;i>0;i--){const j=randInt(i+1); [arr[i],arr[j]]=[arr[j],arr[i]];} return arr; }
 
@@ -139,21 +162,27 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
 
 
   // -----------------------
-  // Load images.json (with embedded fallback)
+  // Load today's words; if that file isn't there yet, use yesterday's
   // -----------------------
+  function fileDate(daysAgo){
+    const d = new Date();
+    d.setDate(d.getDate() - daysAgo);
+    return String(d.getMonth()+1).padStart(2,'0') + String(d.getDate()).padStart(2,'0') + d.getFullYear();
+  }
+
   async function loadWordsList() {
     const level = getQueryParam('level')  || 'easy';
     gtag('event', 'strands_load_level_'  + level, { app: 'strands' });
 
-    try {
-      const r = await fetch('https://lnagy2002.github.io/kidsconnections/data/strands-' + formattedFileDate + ".json", { cache: 'no-store' }); // <-- your JSON file
-      if (!r.ok) throw new Error('strands.json missing');
-      return await r.json();
-    } catch (e) {
-      gtag('event', 'strands_failed_loading_level_'  + level, { app: 'strands' });
-      // final fallback: 1 image
-      return LEVELS;
+    for (const daysAgo of [0, 1]) {
+      try {
+        const r = await fetch('https://lnagy2002.github.io/kidsconnections/data/strands-' + fileDate(daysAgo) + ".json", { cache: 'no-store' });
+        if (r.ok) return await r.json();
+      } catch (e) { /* try the next day */ }
     }
+    gtag('event', 'strands_failed_loading_level_'  + level, { app: 'strands' });
+    // last resort: the built-in list
+    return LEVELS;
   }
 
   function canPlace(word, x, y, dx, dy, grid){
@@ -166,11 +195,11 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
     return true;
   }
 
+  // Try every start square and direction in random order, so a word only fails if it truly can't fit
   function placeWord(word, grid){
-    const attempts = size*size*4;
-    for(let a=0;a<attempts;a++){
-      const [dx,dy] = DIRS[randInt(DIRS.length)];
-      const x = randInt(size), y = randInt(size);
+    const options = [];
+    for(let y=0;y<size;y++) for(let x=0;x<size;x++) for(const d of DIRS) options.push([x,y,d]);
+    for(const [x,y,[dx,dy]] of shuffle(options)){
       if(canPlace(word,x,y,dx,dy,grid)){
         const coords=[];
         for(let i=0;i<word.length;i++){
@@ -212,7 +241,10 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
     elWordList.innerHTML = '';
     for(const w of words){
       const li = document.createElement('li');
-      li.textContent = w;
+      const span = document.createElement('span');
+      span.className = 'w';
+      span.textContent = w;
+      li.appendChild(span);
       li.id = `word-${w}`;
       elWordList.appendChild(li);
     }
@@ -229,7 +261,8 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
     found.add(word);
     const li = document.getElementById(`word-${word}`);
     if(li) li.classList.add('found');
-    clearStatus(found.size === placed.size ? '🎉 All words found!' : `Found: ${word}`);
+    updateCount();
+    clearStatus(found.size === placed.size ? '🎉 All words found!' : `Found: ${word}`, 'good');
     if (found.size === placed.size) {
       celebrate?.(getQueryParam("level")||"easy"); // if you have a celebrate() elsewhere
       window.MindBitsProgress?.markDoneToday(`wordsearch-${(getQueryParam("level")||"easy").toLowerCase()}`);
@@ -273,7 +306,7 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
         }
       }
     }
-    clearStatus('Not a word. Try again.');
+    clearStatus('Not quite! Try another word.', 'bad');
     resetSelection();
   }
 
@@ -326,6 +359,7 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
   async function build(levelKey){
     const {size:sz} = SIZES[levelKey];
     size = sz; placed.clear(); found.clear();
+    DIRS = LEVEL_DIRS[levelKey] || LEVEL_DIRS.easy;
     grid = newEmptyGrid(size);
 
     const list = await loadWordsList();
@@ -338,13 +372,16 @@ ul.words li.found{background:var(--no);text-decoration:line-through;color:var(--
     fillBlanks(grid);
 
     renderBoard();
-    renderList(wordsUp);
+    // Only list words that fit on the board, so the puzzle can always be finished
+    renderList(wordsUp.filter(w => placed.has(w)));
+    updateCount();
 
     elBoard.addEventListener('pointerdown', handlePointerDown);
     window.addEventListener('pointermove', handlePointerMove);
     window.addEventListener('pointerup', handlePointerUp);
 
-    clearStatus(`Placed ${placedCount}/${wordsUp.length} words.`);
+    if (placedCount < wordsUp.length) console.warn(`Placed ${placedCount}/${wordsUp.length} words.`);
+    clearStatus('');
   }
 
   // Init

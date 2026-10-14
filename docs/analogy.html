@@ -245,7 +245,8 @@ function shuffleSeeded(array, seedStr){
 }
 
 // ---------- Game state ----------
-const DAILY_URL = "https://lnagy2002.github.io/kidsconnections/data/daily-analogies.json"; // same folder
+const DATA_URL = "https://lnagy2002.github.io/kidsconnections/data/";
+const STATIC_URL = DATA_URL + "daily-analogies.json"; // old fixed set, only used if no daily file exists
 let data = null;
 let currentLevel = getQueryParam ("level") || "easy";
 let questions = [];
@@ -262,17 +263,35 @@ const choicesEl = document.getElementById("choices");
 // const feedbackEl = document.getElementById("feedback");
 const nextBtn = document.getElementById("nextBtn");
 
-// ---------- Load JSON ----------
-async function loadDaily(){
+// ---------- Load JSON: today's file, else yesterday's, else the old fixed set ----------
+function fileDate(daysAgo){
+  const d = new Date();
+  d.setDate(d.getDate() - daysAgo);
+  return String(d.getMonth()+1).padStart(2,'0') + String(d.getDate()).padStart(2,'0') + d.getFullYear();
+}
+
+async function fetchJson(url){
   try {
-    const res = await fetch(DAILY_URL + "?v=" + Date.now()); // cache-bust
-    if(!res.ok) throw new Error("HTTP " + res.status);
-    data = await res.json();
-    setLevel(getQueryParam ("level") || "easy");
-  } catch (err){
-    console.error(err);
+    const res = await fetch(url + "?v=" + Date.now()); // cache-bust
+    return res.ok ? await res.json() : null;
+  } catch { return null; }
+}
+
+async function loadDaily(){
+  data = await fetchJson(DATA_URL + "analogy-" + fileDate(0) + ".json")
+      || await fetchJson(DATA_URL + "analogy-" + fileDate(1) + ".json")
+      || await fetchJson(STATIC_URL);
+  if (!data) {
     qText.textContent = "Error loading questions. Please try again later.";
+    return;
   }
+  setLevel(getQueryParam ("level") || "easy");
+}
+
+// Shuffle the 4 choices (same order for everyone today) and keep track of the right one
+function shuffleChoices(q, seedStr){
+  const order = shuffleSeeded([0, 1, 2, 3].slice(0, q.choices.length), seedStr);
+  return { ...q, choices: order.map(i => q.choices[i]), answer: order.indexOf(q.answer) };
 }
 
 // ---------- Level handling ----------
@@ -285,8 +304,10 @@ function setLevel(level){
   }
 
   const base = data.levels[level];
-  const todayStr = new Date().toISOString().slice(0,10);
-  questions = shuffleSeeded(base, todayStr + "-" + level).slice(0, QUESTIONS_PER_DAY);
+  const todayStr = fileDate(0);
+  questions = shuffleSeeded(base, todayStr + "-" + level)
+    .slice(0, QUESTIONS_PER_DAY)
+    .map((q, i) => shuffleChoices(q, `${todayStr}-${level}-${i}`));
 
   index = 0;
   score = 0;
@@ -296,7 +317,7 @@ function setLevel(level){
 // ---------- Render ----------
 function renderQuestion(){
   const q = questions[index];
-  qCounter.textContent = `${index+1} / ${QUESTIONS_PER_DAY}`;
+  qCounter.textContent = `${Math.min(index+1, questions.length)} / ${questions.length}`;
   scorePill.textContent = `Score: ${score}`;
   // progressFill.style.width = `${(index/QUESTIONS_PER_DAY)*100}%`;
   // feedbackEl.textContent = "";
@@ -357,7 +378,7 @@ function handleChoice(i, el){
 }
 
 nextBtn.addEventListener("click", () => {
-  if(index < QUESTIONS_PER_DAY - 1){
+  if(index < questions.length - 1){
     index++;
     renderQuestion();
   } else {

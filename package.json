@@ -8,7 +8,8 @@
     "riddle": "node scripts/generate-riddle-json.js",
     "mirror": "node scripts/generate-mirror-json.js",
     "jigsaw": "node scripts/generate-images-json.js",
-    "strands": "node scripts/generate-strands-json.js"
+    "strands": "node scripts/generate-strands-json.js",
+    "analogy": "node scripts/generate-analogy-json.js"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",

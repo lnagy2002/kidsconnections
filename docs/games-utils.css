@@ -111,6 +111,55 @@ h1 {
     margin: 20px;
 }
 
+/* Message box under the game (hints, right/wrong, win), the same in every game */
+.game-message:empty { display: none; }
+.game-message {
+    width: fit-content;
+    max-width: calc(100% - 32px);
+    margin: 12px auto;
+    padding: 10px 24px;
+    border-radius: 14px;
+    background: #2b4a5e;
+    color: var(--muted);
+    font-size: 18px;
+    line-height: 1.35;
+    text-align: center;
+}
+.game-message.good { color: var(--ok); }
+.game-message.bad { color: #f4917b; }
+
+/* One shake for every "not quite" moment */
+@keyframes shake {
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+/* Top instruction line, the same in every game */
+.game-title {
+    margin: 16px auto 10px;
+    padding: 0 16px;
+    text-align: center;
+    color: #8be3e3;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* Optional smaller line right under it */
+.game-subtitle {
+    margin: -4px auto 10px;
+    padding: 0 16px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .game-title { font-size: 20px; }
+    .game-subtitle { font-size: 14px; }
+}
+
 #date  {
   font-size:14px;
 }

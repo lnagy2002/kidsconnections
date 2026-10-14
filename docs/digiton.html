@@ -51,8 +51,7 @@
   .tile.absent{ background: var(--no);
   color: #0b1222}
 
-  .row.shake{ animation:shake 180ms ease-in-out 0s 2; }
-  @keyframes shake{ 0%{transform:translateX(0)} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} 100%{transform:translateX(0)} }
+  .row.shake{ animation: shake .45s ease-in-out; }
 
 
   #keyboard{
@@ -117,7 +116,6 @@
     }
 
   .status{min-height:24px; font-size:14px; opacity:0.9;}
-  .toast{ position:fixed; top:12px; left:50%; transform:translateX(-50%); background:#0f4160; border:1px solid var(--tile-edge); color:var(--ink); padding:8px 12px; border-radius:8px; box-shadow:0 8px 18px rgba(0,0,0,0.35); display:none; }
 
   @media (max-width: 600px){
 
@@ -148,7 +146,7 @@
 </style>
 <link rel="stylesheet" href="./games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+<script src="./games-utils.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -163,14 +161,14 @@
       <script src="./header.js" data-title="Numbit"></script>
     </div>
       <section id="game" class="panel">
-          <h3 class="section" id="status"></h3>
+          <h2 class="game-title" id="status"></h2>
+          <div id="message" class="game-message" role="status"></div>
           <div id="board" aria-label="Guess board" role="grid"></div>
           <div id="keyboard">
             <div class="keyrow" id="row1"></div>
             <div class="keyrow" id="row2"></div>
           </div>
       </section>
-      <div class="toast" id="toast"></div>
   </main>
 
   <div>
@@ -248,12 +246,21 @@ const LEVEL_CONFIG = {
     return res; // array of 'correct' | 'present' | 'absent'
   }
 
-  function showToast(msg){
-    const el = $('#toast');
-    el.textContent = msg; el.style.display='block';
-    clearTimeout(showToast.tid);
-    showToast.tid = setTimeout(()=>{ el.style.display='none'; }, 1400);
+  function setMessage(text, tone = ''){
+    const el = $('#message');
+    el.textContent = text;
+    el.className = 'game-message' + (tone ? ' ' + tone : '');
   }
+
+  // Short-lived hint in the message box; the previous message comes back afterwards
+  function showToast(msg, tone = 'bad'){
+    const el = $('#message');
+    if (!showToast.tid) showToast.prev = { text: el.textContent, cls: el.className };
+    setMessage(msg, tone);
+    clearTimeout(showToast.tid);
+    showToast.tid = setTimeout(()=>{ el.textContent = showToast.prev.text; el.className = showToast.prev.cls; showToast.tid = null; }, 1400);
+  }
+
 
   function bestKeyClass(prev, next){
     if(!prev) return next;
@@ -396,13 +403,15 @@ function makeKey(label){
   }
 
   // ---------- Input & Rules ----------
-  function updateStatus(msg){
-    if(typeof msg === 'string'){ $('#status').textContent = msg; return; }
+  // The title always shows the goal; results go in the message box
+  function updateStatus(msg, tone = ''){
+    $('#status').textContent = `Guess a ${state.L}-digit number`;
+    if(typeof msg === 'string'){ setMessage(msg, tone); return; }
     if(state.done){
-      if(state.win){ $('#status').textContent = `Nice! ${state.target}`; }
-      else { $('#status').textContent = `Answer: ${state.target}`; }
+      if(state.win){ setMessage(`Nice! ${state.target}`, 'good'); }
+      else { setMessage(`Good try! The number was ${state.target}`); }
     } else {
-      $('#status').textContent = `Guess a ${state.L}-digit number`;
+      setMessage('');
     }
   }
 
@@ -483,9 +492,9 @@ function makeKey(label){
     drawKeyboardFromState();
 
     if(guess === state.target){
-      state.done = true; state.win = true; updateStatus(`Brilliant! You got it in ${r+1} ${r === 0 ? 'try' : 'tries'}!`); showToast('🎉 Correct!');
+      state.done = true; state.win = true; updateStatus(`🎉 Brilliant! You got it in ${r+1} ${r === 0 ? 'try' : 'tries'}!`, 'good');
       celebrate  (getQueryParam("level")||"easy");
-      window.MindBitsProgress?.markDoneToday(`digiton-${(getQueryParam("level")||"easy").toLowerCase()}`);
+      window.MindBitsProgress?.markGameDone('digiton');
       save();
       return;
     }
@@ -493,7 +502,7 @@ function makeKey(label){
     state.curRow++;
     state.curCol = 0;
     if(state.curRow >= state.rows){
-      state.done = true; state.win = false; updateStatus(`Answer: ${state.target}`); showToast('Out of tries');
+      state.done = true; state.win = false; updateStatus(`Good try! The number was ${state.target}`);
     } else {
       updateStatus();
     }

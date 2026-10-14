@@ -63,30 +63,11 @@
     .history th,.history td{border-bottom:1px solid rgba(255,255,255,.1); padding:8px 6px; text-align:left}
 
     /* Shake when mistake */
-    @keyframes shake {
-        10%,
-        90% {
-            transform: translate3d(-1px, 0, 0);
-        }
-        20%,
-        80% {
-            transform: translate3d(2px, 0, 0);
-        }
-        30%,
-        50%,
-        70% {
-            transform: translate3d(-4px, 0, 0);
-        }
-        40%,
-        60% {
-            transform: translate3d(4px, 0, 0);
-        }
-    }
 
     .shake {
         /* display: inline-block; */
         /* so transform applies properly */
-        animation: shake 0.7s ease-in-out;
+        animation: shake .45s ease-in-out;
     }
 
     @media (prefers-reduced-motion: reduce){
@@ -109,7 +90,7 @@
   </style>
   <link rel="stylesheet" href="./games-utils.css">
   <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-  <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+  <script src="./games-utils.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -124,7 +105,7 @@
       <div>
         <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Simon Game"></script>
       </div>
-        <h3 id="msg" class="section">Repeat the pattern</h3>
+        <h2 id="msg" class="game-title">Repeat the pattern</h2>
           <section class="card">
             <div class="board" role="group" aria-label="Simon board">
               <div class="pad green"  data-idx="0" role="button" aria-label="Green (press 1)" tabindex="0"><span class="padLabel">1</span></div>
@@ -137,6 +118,7 @@
             <div class="chip" id="livesChip"><strong>3</strong> live(s) left</div>
           </div>
           </section>
+        <div id="simonMsg" class="game-message" role="status"></div>
         <div class="section">
           <button id="startBtn" class="btn primary">Start</button>
           <button id="muteBtn" class="btn" aria-pressed="false">Sound On</button>
@@ -153,7 +135,9 @@
   // const bestChip  = document.getElementById('bestChip').querySelector('strong');
   const livesChip = document.getElementById('livesChip').querySelector('strong');
   const stateChip = document.getElementById('stateChip').querySelector('strong');
-  const statusText= document.getElementById('msg');
+  const statusText= document.getElementById('simonMsg');
+  // Remember this many in a row to finish today's game
+  const GOAL = { easy: 5, medium: 7, hard: 9 };
   // const meterFill = document.getElementById('meterFill');
   const historyBody = document.getElementById('historyBody');
   const startBtn = document.getElementById('startBtn');
@@ -194,7 +178,7 @@
 
   function clearTimers(){ while(state.timers.length){ clearTimeout(state.timers.pop()); } }
   function setStateLabel(t){ stateChip.textContent = t; }
-  function setStatusHTML(html){ statusText.innerHTML = html; }
+  function setMessage(text, tone = ''){ statusText.textContent = text; statusText.className = 'game-message' + (tone ? ' ' + tone : ''); }
   function setLives(n){ state.lives = n; livesChip.textContent = n; }
   function setLevel(n){ state.level = n;
     // levelChip.textContent = n;
@@ -238,7 +222,7 @@
   function startGame(){
     clearTimers(); ensureAudio(); audioCtx.resume && audioCtx.resume();
     state.seq = []; setLevel(0); setLives(SPEEDS[difficultySel].lives); state.mode = difficultySel; state.playing = true;
-    setStatusHTML('Repeat the pattern');
+    setMessage(`Remember ${GOAL[state.mode]} in a row to finish today's game!`);
     addStep(); setLevel(1); playSequence();
   }
 
@@ -252,7 +236,13 @@
         // Level cleared
         setLevel(state.level+1);
         setStateLabel('Great job!');
-        setStatusHTML(`<span class="ok">Level cleared!</span> Get ready for the next pattern…`);
+        if(state.seq.length === GOAL[state.mode]){
+          celebrate(state.mode);
+          window.MindBitsProgress?.markGameDone('simon');
+          setMessage(`🎉 You remembered ${state.seq.length} in a row! Keep going…`, 'good');
+        } else {
+          setMessage('Level cleared! Get ready for the next pattern…', 'good');
+        }
         state.accepting = false; setBoardDisabled(true);
         addStep();
         state.timers.push(setTimeout(playSequence, 800));
@@ -264,7 +254,7 @@
       document.querySelector('.board').classList.add('shake');
       state.timers.push(setTimeout(()=>document.querySelector('.board').classList.remove('shake'), 450));
       setLives(state.lives-1);
-      setStatusHTML(`<span class="oops">Oops!</span> Watch carefully, then try again.`);
+      setMessage('Oops! Watch carefully, then try again.', 'bad');
       setStateLabel('Listen');
       state.accepting = false; setBoardDisabled(true);
       if(state.lives>0){ state.timers.push(setTimeout(playSequence, 900)); }
@@ -275,7 +265,7 @@
 
   function gameOver(){
     setStateLabel('Game over');
-    setStatusHTML(`Game over. Your best level is <strong>${BEST}</strong>. Press <em>Start</em> to try again!`);
+    setMessage(`Game over. Your best level is ${BEST}. Press Start to try again!`);
     state.playing = false; state.accepting = false; setBoardDisabled(true);
   }
 

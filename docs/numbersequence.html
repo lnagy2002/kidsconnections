@@ -35,11 +35,7 @@
   background: var(--bad);
   color: #fff;
   border-color: var(--bad);
-  animation: shake .4s ease-in-out;
-}
-@keyframes shake {
-  20%, 60% { transform: translateX(-5px); }
-  40%, 80% { transform: translateX(5px); }
+  animation: shake .45s ease-in-out;
 }
 .cell:disabled {
   background: var(--accent);
@@ -54,7 +50,7 @@
 
 <link rel="stylesheet" href="./games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+<script src="./games-utils.js"></script>
 
 <!-- GA (as you had it) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
@@ -72,13 +68,13 @@
     </div>
 
     <div class="section">
-      <h3>Find the pattern</h3>
+      <h2 class="game-title">Find the pattern</h2>
       <div id="hint" class="muted" style="margin-left:auto"></div>
       <!-- <div class="pills">
         <span class="pill" id="levelPill">Level: auto</span>
         <span class="pill" id="patternPill">Pattern: —</span>
       </div> -->
-      <div class="muted" id="result" style="margin-top:8px;"></div>
+      <div class="game-message" id="result" role="status"></div>
 
 
     <div class="sequence" id="sequence"></div>
@@ -274,7 +270,7 @@ function check(){
   // An empty box used to count as 0; ask for both numbers instead
   if (raw1 === "" || raw2 === "" || Number.isNaN(Number(raw1)) || Number.isNaN(Number(raw2))) {
     result.textContent = "Please fill both boxes.";
-    result.style.color = "var(--bad)";
+    result.className = "game-message bad";
     return;
   }
   const v1 = Number(raw1), v2 = Number(raw2);
@@ -289,13 +285,13 @@ function check(){
   if (v1 === ok1 && v2 === ok2) {
     if (typeof celebrate === "function") {
       celebrate(qs.get("level")||"easy"); // from your utils
-      window.MindBitsProgress?.markDoneToday(`numberseq-${(qs.get("level")||"easy").toLowerCase()}`);
+      window.MindBitsProgress?.markGameDone('numberseq');
     }
-    result.textContent = "You found the pattern!";
-    result.style.color = "var(--ok)";
+    result.textContent = "🎉 You found the pattern!";
+    result.className = "game-message good";
   } else {
     result.textContent = "Not quite. Try again!";
-    result.style.color = "var(--bad)";
+    result.className = "game-message bad";
   }
 }
 

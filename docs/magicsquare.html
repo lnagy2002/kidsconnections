@@ -140,31 +140,9 @@
         }
         /* Shake animation for incorrect entries */
 
-        @keyframes shake {
-            10%,
-            90% {
-                transform: translateX(-2px);
-            }
-            20%,
-            80% {
-                transform: translateX(4px);
-            }
-            30%,
-            50%,
-            70% {
-                transform: translateX(-6px);
-            }
-            40%,
-            60% {
-                transform: translateX(6px);
-            }
-            100% {
-                transform: translateX(0);
-            }
-        }
 
         .shake {
-            /* animation: shake 300ms ease; */
+            animation: shake .45s ease-in-out;
             background: var(--bad) !important;
         }
 
@@ -293,31 +271,12 @@
             color: #ff9a85
         }
 
-        /* Status / error messages: shown as a box so they stand out on the dark background */
-        #status:not(:empty),
-        #message:not(:empty) {
-            box-sizing: border-box;
-            width: fit-content;
-            max-width: 100%;
-            margin: 16px auto 0;
-            padding: 12px 28px;
-            border-radius: 14px;
-            background: #2b4a5e;
-            font-size: 19px;
-            font-weight: 500;
-            text-align: center;
-        }
-
-        #status.bad:not(:empty),
-        #message.bad:not(:empty) {
-            color: #f4917b;
-        }
 
 
     </style>
-    <link rel="stylesheet" href="https://lnagy2002.github.io/kidsconnections/games-utils.css">
+    <link rel="stylesheet" href="./games-utils.css">
     <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-    <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+    <script src="./games-utils.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -333,7 +292,7 @@
         <div>
           <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Magic Squares"></script>
         </div>
-        <h3 class="section" style="font-weight:normal">Fill the blanks so every <b>row</b>, <b>column</b>, and <b>diagonal adds up to</b>:<span id="target"></span></h3>
+        <h2 class="game-title">Fill the blanks so every row, column, and diagonal adds up to:<span id="target"></span></h2>
         <div class="card">
 
             <div id="board" class="board"></div>
@@ -341,9 +300,9 @@
 
             <!-- <div class="rowSums" id="rowSums"></div>
       <div class="colSums" id="colSums"></div> -->
-            <div id="status" class="muted" style="margin-top: 20px"></div>
+            <div id="status" class="game-message" role="status"></div>
 
-            <h4 id="message" class="bad" style="margin-left:auto"></h4>
+            <div id="message" class="game-message bad" role="status"></div>
         </div>
     </main>
     <div>
@@ -607,10 +566,10 @@
         function shakeAndClearSum(cell) {
             // force reflow to restart animation
             console.log ("--> sum is incorect")
-            cell.classList.remove("shake2"); // restart animation if already set
+            cell.classList.remove("shake"); // restart animation if already set
             void cell.offsetWidth;
-            cell.classList.add("shake2");
-            setTimeout(()=>{ cell.classList.remove("shake2"); }, 320);
+            cell.classList.add("shake");
+            setTimeout(()=>{ cell.classList.remove("shake"); }, 450);
         }
 
         /** ---------- Cell validation (per-entry) ---------- */
@@ -765,13 +724,13 @@
             }
 
             if (!allFilled) {
-                statusEl.className = "message";
+                statusEl.className = "game-message";
                 statusEl.textContent = "";
                 return;
             }
 
             if (!validRange || !uniqueOK) {
-                // statusEl.className = "message bad";
+                // statusEl.className = "game-message bad";
                 // statusEl.textContent = "Numbers must be 1.." + (n * n) + " with no repeats.";
                 return;
             }
@@ -779,7 +738,7 @@
             for (let r = 0; r < n; r++) {
                 const s = grid[r].reduce((a, b) => a + b, 0);
                 if (s !== M) {
-                    statusEl.className = "message bad";
+                    statusEl.className = "game-message bad";
                     statusEl.textContent = "Not quite—some rows don’t match the target yet.";
                     return;
                 }
@@ -788,7 +747,7 @@
                 let s = 0;
                 for (let r = 0; r < n; r++) s += grid[r][c];
                 if (s !== M) {
-                    statusEl.className = "message bad";
+                    statusEl.className = "game-message bad";
                     statusEl.textContent = "Keep going—some columns don’t match the target yet.";
                     return;
                 }
@@ -800,16 +759,16 @@
                 d2 += grid[i][n - 1 - i];
             }
             if (d1 !== M || d2 !== M) {
-                statusEl.className = "message bad";
+                statusEl.className = "game-message bad";
                 statusEl.textContent = "Almost—check the diagonals.";
                 return;
             }
 
 
-            statusEl.className = "message ok";
+            statusEl.className = "game-message good";
             statusEl.textContent = "🎉 Magic complete! Fantastic work.";
             celebrate(getQueryParam("level")||"easy");
-            window.MindBitsProgress?.markDoneToday(`magicsquare-${(getQueryParam("level")||"easy").toLowerCase()}`);
+            window.MindBitsProgress?.markGameDone('magicsquare');
 
         }
 

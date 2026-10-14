@@ -1,6 +1,8 @@
 /* ========= “Completed today” storage helpers ========= */
 (function () {
-  const TODAY = new Date().toISOString().slice(0, 10);
+  // The player's own calendar day (not UTC), so "today" doesn't roll over in the afternoon
+  const now = new Date();
+  const TODAY = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
   const KEY = `mb:done:${TODAY}`;
 
   function _readSet() {
@@ -17,8 +19,19 @@
     } catch (e) {}
   }
 
+  // Games save "<game>-<level>" (e.g. "connect-easy"); the home page asks for "<game>",
+  // so a game counts as done today when any of its levels is done.
   function isDoneToday(id) {
-    return _readSet().has(id);
+    const s = _readSet();
+    if (s.has(id)) return true;
+    for (const done of s) if (done.startsWith(id + '-')) return true;
+    return false;
+  }
+
+  // Mark the current game + level (from ?level=) as done today
+  function markGameDone(gameId) {
+    const level = (new URLSearchParams(location.search).get('level') || 'easy').toLowerCase();
+    markDoneToday(`${gameId}-${level}`);
   }
 
   function markDoneToday(id) {
@@ -48,6 +61,7 @@
   window.MindBitsProgress = {
     isDoneToday,
     markDoneToday,
+    markGameDone,
     clearToday,
     getToday: () => [..._readSet()]
   };

@@ -21,8 +21,6 @@
       padding: 0 16px;
     }
 
-    .title-main { margin: 18px 0 4px; text-align: center; color: #8be3e3; font-size: 1.9rem; }
-    .subtitle { margin: 0 0 6px; padding: 0 16px; text-align: center; color: var(--muted); }
 
     .grid {
       display: grid; gap: 4px; background: #0b1f40; padding: 8px; border-radius: 20px;
@@ -82,20 +80,10 @@
     .piece.wrong { animation: shake .45s ease-in-out; border-color: var(--bad); }
     .placeholder { visibility: hidden; }
 
-    @keyframes shake {
-      20%, 60% { transform: translateX(-5px); }
-      40%, 80% { transform: translateX(5px); }
-    }
 
     .actions { display: flex; gap: 10px; flex-wrap: wrap; }
     .actions .btn:disabled { opacity: .45; cursor: default; }
 
-    #message:not(:empty) {
-      width: fit-content; max-width: calc(100% - 32px); box-sizing: border-box;
-      margin: 8px auto 18px; padding: 12px 28px; border-radius: 14px;
-      background: #2b4a5e; font-size: 19px; text-align: center;
-    }
-    #message.good { color: var(--ok); }
 
     @media (max-width: 840px) {
       .play {
@@ -105,8 +93,6 @@
         gap: 12px;
       }
       .side { max-height: none; width: var(--board); }
-      .title-main { margin: 10px 0 2px; font-size: 1.5rem; }
-      .subtitle { font-size: 14px; }
       .preview { width: 60px; border-radius: 8px; }
       .preview-wrap { padding: 4px; border-radius: 12px; }
       .preview-wrap figcaption { display: none; }
@@ -126,7 +112,7 @@
   </style>
   <link rel="stylesheet" href="./games-utils.css">
   <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-  <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+  <script src="./games-utils.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -141,8 +127,8 @@
       <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Jigsaw Puzzle"></script>
     </div>
 
-    <h2 class="title-main">Build the picture</h2>
-    <p class="subtitle">Drag a piece into its matching spot. On a phone, tap a piece, then tap its spot.</p>
+    <h2 class="game-title">Build the picture</h2>
+    <p class="game-subtitle">Drag a piece into its matching spot. On a phone, tap a piece, then tap its spot.</p>
 
     <div class="play" id="play">
       <section id="board" class="grid" aria-label="Jigsaw board"></section>
@@ -161,7 +147,7 @@
         </div>
       </aside>
     </div>
-    <div id="message" role="status"></div>
+    <div id="message" class="game-message" role="status"></div>
   </main>
   <div>
     <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
@@ -248,7 +234,7 @@
     STATE.selected = null;
     STATE.done = false;
     messageEl.textContent = '';
-    messageEl.className = '';
+    messageEl.className = 'game-message';
 
     boardEl.innerHTML = '';
     boardEl.style.gridTemplateColumns = `repeat(${n}, 1fr)`;
@@ -460,10 +446,10 @@
     const done = boardEl.querySelectorAll('.piece.locked').length === STATE.n * STATE.n;
     if (done) {
       STATE.done = true;
-      messageEl.className = 'good';
+      messageEl.className = 'game-message good';
       messageEl.textContent = '🎉 Great job! You finished the puzzle!';
       celebrate (getQueryParam("level")||"easy");
-      window.MindBitsProgress?.markDoneToday(`jigsaw-${(getQueryParam("level")||"easy").toLowerCase()}`);
+      window.MindBitsProgress?.markGameDone('jigsaw');
     }
   }
 

@@ -16,30 +16,11 @@
            --accent4: #85C1E9;
         }
 
-        @keyframes shake {
-            10%,
-            90% {
-                transform: translate3d(-1px, 0, 0);
-            }
-            20%,
-            80% {
-                transform: translate3d(2px, 0, 0);
-            }
-            30%,
-            50%,
-            70% {
-                transform: translate3d(-4px, 0, 0);
-            }
-            40%,
-            60% {
-                transform: translate3d(4px, 0, 0);
-            }
-        }
 
         .shake {
             display: inline-block;
             /* so transform applies properly */
-            animation: shake 0.5s ease-in-out;
+            animation: shake .45s ease-in-out;
         }
 
         .grid {
@@ -157,7 +138,7 @@
     </style>
     <link rel="stylesheet" href="./games-utils.css">
     <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-    <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+    <script src="./games-utils.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -172,8 +153,8 @@
       <div>
         <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Connections"></script>
       </div>
-        <h3 class="section">Create four groups of four</h3>
-        <div id="msg" class="muted" style="margin-left:auto">Categories</div>
+        <h2 class="game-title">Create four groups of four</h2>
+        <div id="msg" class="game-message" role="status"></div>
         <div id="foundContainer"></div>
         <div id="grid" class="grid"></div>
         <div class="section">
@@ -189,8 +170,10 @@
     </div>
 
     <script>
-        function showMessage(text) {
-            document.getElementById("msg").textContent = text;
+        function showMessage(text, tone = "") {
+            const el = document.getElementById("msg");
+            el.textContent = text;
+            el.className = "game-message" + (tone ? " " + tone : "");
         }
     </script>
     <script>
@@ -212,7 +195,7 @@
                 init(level || "easy"); // render it
             } catch (err) {
                 gtag('event', 'connections_failed_loading_level_'  + level, { app: 'connections' });
-                showMessage (`Couldn’t load data: ${err.message}`);
+                showMessage (`Couldn’t load data: ${err.message}`, "bad");
             }
         }
 
@@ -303,7 +286,7 @@
             if (state.selected.has(t)) state.selected.delete(t);
             else {
                 if (state.selected.size >= 4) {
-                    showMessage("4 tiles already selected");
+                    showMessage("4 tiles already selected", "bad");
                     return;
                 }
                 state.selected.add(t);
@@ -313,7 +296,7 @@
 
         function submit() {
             gtag('event', 'connections_submit_clicked', { app: 'connections' });
-            if (state.selected.size !== 4) return showMessage("Need 4 tiles");
+            if (state.selected.size !== 4) return showMessage("Pick 4 tiles first", "bad");
             const chosen = Array.from(state.selected);
             const groups = PUZZLE_BANK[state.level].groups;
             for (const g of groups) {
@@ -329,13 +312,16 @@
                     if (state.solved.length === 4) {
                       gtag('event', 'connections_resolved', { app: 'connections' });
                       celebrate (getQueryParam("level")||"easy");
-                      window.MindBitsProgress?.markDoneToday(`connect-${(getQueryParam("level")||"easy").toLowerCase()}`);
-                      showMessage("🎉 You got it!");
+                      window.MindBitsProgress?.markGameDone("connect");
+                      showMessage("🎉 You got it!", "good");
+                    } else {
+                      showMessage("Yes! Those belong together.", "good");
                     }
                     return;
                 }
             }
 
+            showMessage("Not quite! Try another group.", "bad");
             shakeSelectedThenRerender();
         }
 

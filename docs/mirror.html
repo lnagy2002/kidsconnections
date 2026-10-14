@@ -13,20 +13,6 @@
             text-align: center;
         }
 
-        .prompt-title {
-            margin: 16px 0 6px;
-            text-align: center;
-            color: #8be3e3;
-            font-size: 1.6rem;
-        }
-
-        .hint-line {
-            margin: 0 0 6px;
-            padding: 0 16px;
-            text-align: center;
-            color: var(--muted);
-        }
-
         .help {
             width: 26px;
             height: 26px;
@@ -160,28 +146,7 @@
 
         .opt.selected.wrong {
             background-color: var(--bad);
-            animation: shake 0.5s ease-in-out;
-        }
-
-        /* Feedback after picking an option */
-        #feedback:not(:empty) {
-            width: fit-content;
-            max-width: 100%;
-            box-sizing: border-box;
-            margin: 8px auto 0;
-            padding: 12px 28px;
-            border-radius: 14px;
-            background: #2b4a5e;
-            font-size: 19px;
-            text-align: center;
-        }
-
-        #feedback.good {
-            color: var(--ok);
-        }
-
-        #feedback.bad {
-            color: #f4917b;
+            animation: shake .45s ease-in-out;
         }
 
         .mob-only {
@@ -218,29 +183,10 @@
             }
         }
 
-        @keyframes shake {
-            10%,
-            90% {
-                transform: translate3d(-1px, 0, 0);
-            }
-            20%,
-            80% {
-                transform: translate3d(2px, 0, 0);
-            }
-            30%,
-            50%,
-            70% {
-                transform: translate3d(-4px, 0, 0);
-            }
-            40%,
-            60% {
-                transform: translate3d(4px, 0, 0);
-            }
-        }
     </style>
     <link rel="stylesheet" href="./games-utils.css">
     <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-    <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+    <script src="./games-utils.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -256,8 +202,8 @@
         <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Mirror Match"></script>
       </div>
 
-        <h2 class="prompt-title">Find the mirror match!</h2>
-        <p class="hint-line">
+        <h2 class="game-title">Find the mirror match!</h2>
+        <p class="game-subtitle">
             Look carefully! In a mirror, left and right switch sides.
             <button type="button" class="help" id="helpBtn" aria-expanded="false" aria-controls="tip" title="More tips">?</button>
         </p>
@@ -287,7 +233,7 @@
             <h3 class="section mob-only">Which one is flipped?</h3>
             <div class="grid" id="optionsGrid"></div>
         </div>
-        <div id="feedback" role="status"></div>
+        <div id="feedback" class="game-message" role="status"></div>
     </main>
 
     <div>
@@ -433,7 +379,7 @@ async function toImageBitmapCompat(dataUrl) {
         function showMessage  (text, tone = '') {
           const fb = document.getElementById('feedback');
           fb.textContent = text;
-          fb.className = tone;
+          fb.className = 'game-message' + (tone ? ' ' + tone : '');
         }
 
         async function startLevel(lvl) {
@@ -512,7 +458,7 @@ async function toImageBitmapCompat(dataUrl) {
                 showMessage("Nice! That’s the true mirror.", 'good');
                 // badge.textContent = "Correct ✅";
                 celebrate ();
-                window.MindBitsProgress?.markDoneToday(`mirror-${(getQueryParam("level")||"easy").toLowerCase()}`);
+                window.MindBitsProgress?.markGameDone('mirror');
 
                 score++;
             } else {

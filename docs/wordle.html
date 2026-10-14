@@ -225,7 +225,7 @@
     </style>
     <link rel="stylesheet" href="./games-utils.css">
     <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-    <script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+    <script src="./games-utils.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -240,8 +240,9 @@
       <div>
         <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Wordbit"></script>
       </div>
+        <h2 class="game-title" id="wordleTitle">Guess the hidden word</h2>
         <section id="game" class="panel">
-            <div id="msg" class="muted" style="margin-left:auto">Ready</div>
+            <div id="msg" class="game-message" role="status"></div>
             <div id="board" class="board" aria-live="polite"></div>
             <div id="wordDef" class="word-def" hidden>
                 <div class="def-head">
@@ -419,6 +420,7 @@
             };
             buildBoard(S.len, S.max);
             buildKeyboard();
+            document.getElementById('wordleTitle').textContent = `Guess the ${S.len}-letter word`;
             msg(``);
             $('#wordDef').hidden = true;
         }
@@ -440,8 +442,9 @@
             box.hidden = false;
         }
 
-        function msg(t) {
+        function msg(t, tone = '') {
             msgEl.textContent = t;
+            msgEl.className = 'game-message' + (tone ? ' ' + tone : '');
         }
 
         function place(ch) {
@@ -493,7 +496,7 @@
         function commit() {
             if (S.done) return;
             const g = S.grid[S.row].join('');
-            if (g.length !== S.len) return msg(`Need ${S.len} letters`);
+            if (g.length !== S.len) return msg(`Need ${S.len} letters`, 'bad');
             const res = score(g, S.secret);
             const rowEl = boardEl.children[S.row];
             for (let i = 0; i < res.length; i++) rowEl.children[i].classList.add(res[i]);
@@ -502,8 +505,8 @@
                 S.done = true;
                 gtag('event', 'wordle_resolved', { app: 'wordle' });
                 celebrate  (getQueryParam("level")||"easy");
-                window.MindBitsProgress?.markDoneToday(`wordle-${(getQueryParam("level")||"easy").toLowerCase()}`);
-                msg('🎉 You got it!');
+                window.MindBitsProgress?.markGameDone('wordle');
+                msg('🎉 You got it!', 'good');
                 showDefinition();
                 return;
             }

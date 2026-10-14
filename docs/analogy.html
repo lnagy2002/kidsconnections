@@ -7,30 +7,11 @@
 <style>
 @import url('./theme.css');
 
-@keyframes shake {
-    10%,
-    90% {
-        transform: translate3d(-1px, 0, 0);
-    }
-    20%,
-    80% {
-        transform: translate3d(2px, 0, 0);
-    }
-    30%,
-    50%,
-    70% {
-        transform: translate3d(-4px, 0, 0);
-    }
-    40%,
-    60% {
-        transform: translate3d(4px, 0, 0);
-    }
-}
 
 .shake {
     display: inline-block;
     /* so transform applies properly */
-    animation: shake 0.5s ease-in-out;
+    animation: shake .45s ease-in-out;
 }
 
 
@@ -63,27 +44,42 @@ color: var(--muted);
   transition:width .25s ease-out;
 }
 
-.q-text {
+#grid { max-width: 900px; margin: 0 auto; padding: 0 16px; }
 
-  border-radius: 10px;
-  padding: 12px;
-  text-align: center;
-  height: 80px;
-  font-size: 16px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: bold;
-  user-select: none;
-  background: var(--maybe);
-  display: flex;
-  /* center text nicely */
-  align-items: center;
-  justify-content: center;
-  line-height: 1.15;
-  overflow: hidden;
-  color: black;
-  margin-bottom: 30px;
+.help {
+  width: 28px; height: 28px; margin-left: 10px; border-radius: 50%;
+  border: 2px solid currentColor; background: transparent; color: inherit;
+  font: inherit; font-size: 15px; font-weight: 800; line-height: 1; vertical-align: middle; cursor: pointer;
 }
+.tip {
+  max-width: 620px; margin: 0 auto 14px; padding: 10px 16px; border-radius: 14px;
+  background: #2b4a5e; color: var(--muted); text-align: center;
+}
+
+/* Question card: SUN -> BRIGHT over ? -> ? */
+.q-text {
+  border-radius: 18px;
+  padding: 18px 16px;
+  background: #f9d95c;
+  color: #0e364b;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  user-select: none;
+  margin-bottom: 18px;
+}
+.q-pair {
+  display: inline-flex; align-items: center; gap: 28px;
+  font-size: clamp(22px, 4vw, 32px); line-height: 1.1;
+  padding: 0 20px 10px; border-bottom: 3px solid #0e364b;
+}
+.q-blank { display: flex; justify-content: center; align-items: center; gap: 28px; margin-top: 12px; }
+.q-slot {
+  min-width: 80px; padding: 4px 12px; border-radius: 10px;
+  background: #fbe9a3; font-size: clamp(18px, 3.2vw, 24px); line-height: 1.2;
+}
+.q-blank .arrow { font-size: clamp(18px, 3.2vw, 24px); }
+.q-slot.filled { background: var(--ok); color: #083f2b; }
 
 .btn:disabled {
   opacity: 0.45;
@@ -101,44 +97,54 @@ color: var(--muted);
 }
 
 .choice {
-    border-radius: 10px;
-    padding: 12px;
-    text-align: center;
-    height: 80px;
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 64px;
+    padding: 8px 20px;
+    border-radius: 14px;
+    border: none;
+    background: #fbfdfd;
+    color: #0e364b;
+    font-size: 20px;
+    font-weight: 800;
     text-transform: uppercase;
     cursor: pointer;
-    font-weight: bold;
     user-select: none;
-    background: #fff;
-}
-
-.choice {
-    display: flex;
-    /* center text nicely */
-    align-items: center;
-    justify-content: center;
     line-height: 1.15;
-    overflow: hidden;
-    color: black;
-    /* no scrollbars while shrinking */
-    /* white-space: nowrap; */
-    /* prefer shrinking over wrapping */
+    box-sizing: border-box;
+    transition: transform .1s ease, box-shadow .2s ease;
 }
+.choice:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.2); }
+.choice .letter {
+    flex: none; width: 44px; height: 44px; border-radius: 50%;
+    display: grid; place-items: center;
+    background: #8be3e3; color: #0e364b; font-size: 22px;
+}
+.choice .arrow, .q-text .arrow { font-weight: 700; }
 
 
 
- .choice.correct{ background: var(--ok);
- color: #083f2b }
+ .choice.correct{ background: var(--ok); color: #083f2b }
+ .choice.correct .letter { background: #fff; }
 
- .choice.wrong { background: var(--no);
- color: #0b1222}
+ .choice.wrong { background: var(--bad); color: #fff }
+ .choice.wrong .letter { background: #fff; color: #0e364b; }
 
 
 .choice.disable {
   pointer-events:none;
   opacity:.9;
 }
+
+/* Score left, Next in the middle, counter right */
+.bottom-row {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+  max-width: 900px; margin: 18px auto 0; padding: 0 16px; box-sizing: border-box;
+  color: var(--muted);
+}
+.bottom-row .score-pill { justify-self: start; }
+.bottom-row #qCounter { justify-self: end; }
 
 .score-pill {
   padding:4px 10px;
@@ -161,7 +167,7 @@ color: var(--muted);
 </style>
 <link rel="stylesheet" href="./games-utils.css">
 <script src="https://lnagy2002.github.io/kidsconnections/games-menu.js" defer data-menu="https://lnagy2002.github.io/kidsconnections/games-menu.json"></script>
-<script src="https://lnagy2002.github.io/kidsconnections/games-utils.js"></script>
+<script src="./games-utils.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFSR46Z6C8"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -176,33 +182,22 @@ color: var(--muted);
   <div>
     <script src="./header.js" data-title="Word Analogies"></script>
   </div>
-<h3 class="section">Find the same word relationship</h3>
+<h2 class="game-title">Choose the pair that matches the relationship.<button type="button" class="help" id="helpBtn" aria-expanded="false" aria-controls="tip" title="How to play">?</button></h2>
+  <div id="tip" class="tip" hidden>
+    Look at how the first two words go together. Then pick the pair that goes together <b>the same way</b>.
+  </div>
   <div id="grid">
 
     <div class="q-text" id="qText">Loading question…</div>
 
     <div class="choices" id="choices"></div>
+    <div id="message" class="game-message" role="status"></div>
 
   </div>
-  <div class="section">
-    <div class="progress-row">
-
-      <span class="score-pill" id="scorePill">Score: 0</span>
-      <span id="qCounter">1 / 10</span>
-    </div>
-    <!-- <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div> -->
-  </div>
-
-  <!-- <div class="section">
-    <div id="feedback"></div>
-  </div> -->
-  <div class="section">
-
-    <button class="btn primary" id="nextBtn" disabled>
-      Next
-    </button>
+  <div class="bottom-row">
+    <span class="score-pill" id="scorePill">Score: 0</span>
+    <button class="btn primary" id="nextBtn" disabled>Next</button>
+    <span id="qCounter">1 / 10</span>
   </div>
   <div>
     <script src="https://lnagy2002.github.io/kidsconnections/footer.js"></script>
@@ -332,7 +327,7 @@ function renderQuestion(){
     return;
   }
 
-  qText.textContent = q.q;
+  renderQuestionCard(q);
   choicesEl.innerHTML = "";
 
   q.choices.forEach((choice, i) => {
@@ -340,18 +335,54 @@ function renderQuestion(){
     div.className = "choice";
     div.dataset.index = i;
 
-    // const idxSpan = document.createElement("span");
-    // idxSpan.className = "choice-index";
-    // idxSpan.textContent = String.fromCharCode(65 + i) + ".";
-    // div.appendChild(idxSpan);
+    const idxSpan = document.createElement("span");
+    idxSpan.className = "letter";
+    idxSpan.textContent = String.fromCharCode(65 + i);
+    div.appendChild(idxSpan);
 
-    const textSpan = document.createElement("span");
-    textSpan.textContent = choice;
-    div.appendChild(textSpan);
+    div.appendChild(pairEl(splitPair(choice)));
 
     div.addEventListener("click", () => handleChoice(i, div));
     choicesEl.appendChild(div);
   });
+}
+
+// "sun : bright ::" -> ["sun", "bright"]
+function splitPair(text){
+  const parts = String(text).replace(/\s*::\s*$/, "").split(":").map(s => s.trim());
+  return [parts[0] || "", parts.slice(1).join(":") || ""];
+}
+
+function el(tag, className, text){
+  const e = document.createElement(tag);
+  if (className) e.className = className;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function pairEl([a, b], className = ""){
+  const wrap = el("span", className);
+  wrap.append(el("span", "", a), el("span", "arrow", " → "), el("span", "", b));
+  return wrap;
+}
+
+// Yellow card: the question pair, a line, then "? -> ?" waiting for the answer
+function renderQuestionCard(q){
+  qText.innerHTML = "";
+  const top = el("div", "q-pair");
+  const [a, b] = splitPair(q.q);
+  top.append(el("span", "", a), el("span", "arrow", "→"), el("span", "", b));
+  const blank = el("div", "q-blank");
+  blank.append(el("span", "q-slot", "?"), el("span", "arrow", "→"), el("span", "q-slot", "?"));
+  qText.append(top, blank);
+}
+
+// After answering, show the right pair in the "? -> ?" boxes
+function revealAnswer(q){
+  const [c, d] = splitPair(q.choices[q.answer]);
+  const slots = qText.querySelectorAll(".q-slot");
+  slots[0].textContent = c; slots[1].textContent = d;
+  slots.forEach(s => s.classList.add("filled"));
 }
 
 function handleChoice(i, el){
@@ -372,6 +403,7 @@ function handleChoice(i, el){
   }
 
   scorePill.textContent = `Score: ${score}`;
+  revealAnswer(q);
   nextBtn.disabled = false;
 
   // progressFill.style.width = `${((index+1)/QUESTIONS_PER_DAY)*100}%`;
@@ -384,10 +416,26 @@ nextBtn.addEventListener("click", () => {
   } else {
     qText.textContent = "You’ve completed today’s analogies!";
     choicesEl.innerHTML = "";
+    finishGame();
     // feedbackEl.textContent = `Final score: ${score} / ${QUESTIONS_PER_DAY}`;
     nextBtn.disabled = true;
   }
 });
+
+document.getElementById("helpBtn").addEventListener("click", (e) => {
+  const tip = document.getElementById("tip");
+  tip.hidden = !tip.hidden;
+  e.currentTarget.setAttribute("aria-expanded", String(!tip.hidden));
+});
+
+// End of today's questions: celebrate and mark the game done
+function finishGame(){
+  const msgEl = document.getElementById("message");
+  msgEl.textContent = `🎉 All done! You got ${score} of ${questions.length} right.`;
+  msgEl.className = "game-message good";
+  celebrate(currentLevel);
+  window.MindBitsProgress?.markGameDone("analogy");
+}
 
 // ---------- Start ----------
 loadDaily();

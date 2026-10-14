@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03242026-E",
+    "generatedAt": "2026-03-24T03:18:37.359Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "bus",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Food You Eat with a Spoon",
+        "items": [
+          "soup",
+          "yogurt",
+          "pudding",
+          "applesauce"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Essentials",
+        "items": [
+          "desk",
+          "chalk",
+          "ruler",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle. 4 groups of 4 items, all concrete and visual."
+  },
+  "medium": {
+    "id": "03242026-M",
+    "generatedAt": "2026-03-24T03:18:37.359Z",
+    "groups": [
+      {
+        "name": "Ball-Word Family",
+        "items": [
+          "basket",
+          "foot",
+          "base",
+          "soft"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Box-Word Family",
+        "items": [
+          "tool",
+          "lunch",
+          "match",
+          "shoe"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Re- Prefix",
+        "items": [
+          "do",
+          "act",
+          "play",
+          "view"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with -ful Suffix",
+        "items": [
+          "care",
+          "hope",
+          "joy",
+          "grace"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with simple wordplay and compound words. Some items might seem to fit another group, but belong only to their own group."
+  },
+  "hard": {
+    "id": "03242026-H",
+    "generatedAt": "2026-03-24T03:18:37.359Z",
+    "groups": [
+      {
+        "name": "Nouns that are also Verbs",
+        "items": [
+          "brush",
+          "park",
+          "light",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "seal",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Food Words",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and polysemy. Some items may look like they fit other groups at first glance."
+  }
+}

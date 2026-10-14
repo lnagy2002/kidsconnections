@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRDY",
+      "CAMPY",
+      "HAPPY",
+      "LAMPY",
+      "MINTY",
+      "PUSHY",
+      "SANDY",
+      "WILDY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "CLUSTER",
+      "DANGLE",
+      "FESTAL",
+      "GARNISH",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "CRYSTAL",
+      "EXPLORER",
+      "GENERATE",
+      "HARMONIZE",
+      "IMAGINARY",
+      "MAGNETIC",
+      "SPECTACULAR",
+      "TRANSLATE"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08062026-E",
+    "generatedAt": "2026-08-06T03:48:34.004Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "Moon",
+          "Coin",
+          "Ball",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Marker",
+          "Chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "Cat",
+          "Dog",
+          "Fish",
+          "Hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits You Can Eat",
+        "items": [
+          "Apple",
+          "Banana",
+          "Strawberry",
+          "Grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzles for 2nd-6th grade. Easy level emphasizes concrete, recognizable groupings."
+  },
+  "medium": {
+    "id": "08062026-M",
+    "generatedAt": "2026-08-06T03:48:34.004Z",
+    "groups": [
+      {
+        "name": "Words That Pair With House",
+        "items": [
+          "Tree",
+          "Doll",
+          "Green",
+          "Play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That Pair With Book",
+        "items": [
+          "Note",
+          "Text",
+          "Story",
+          "Guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "Fall",
+          "Melon",
+          "Slide",
+          "Proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That Pair With Ball",
+        "items": [
+          "Base",
+          "Basket",
+          "Soft",
+          "Paint"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle adds light wordplay and cross-over temptations. For example, 'Play' also hints at 'playbook' in the book-pair group."
+  },
+  "hard": {
+    "id": "08062026-H",
+    "generatedAt": "2026-08-06T03:48:34.004Z",
+    "groups": [
+      {
+        "name": "Nouns You Can Also Verb",
+        "items": [
+          "Dock",
+          "Crane",
+          "Bolt",
+          "Nail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciation)",
+        "items": [
+          "Bow",
+          "Lead",
+          "Wind",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 'un' to Form Opposites",
+        "items": [
+          "Certain",
+          "Usual",
+          "Happy",
+          "Fair"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're' to Create New Words",
+        "items": [
+          "Make",
+          "Use",
+          "Write",
+          "Do"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses abstract wordplay and polysemy. Look for words that shift meaning with pronunciations or prefix changes."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02212026-E",
+    "generatedAt": "2026-02-21T03:07:11.245Z",
+    "groups": [
+      {
+        "name": "Circle Club",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bike Brigade",
+        "items": [
+          "bike",
+          "skateboard",
+          "scooter",
+          "wagon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Helpers",
+        "items": [
+          "carrot",
+          "tomato",
+          "lettuce",
+          "potato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Family Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 02212026."
+  },
+  "medium": {
+    "id": "02212026-M",
+    "generatedAt": "2026-02-21T03:07:11.245Z",
+    "groups": [
+      {
+        "name": "Short-word rhymes",
+        "items": [
+          "ran",
+          "pan",
+          "man",
+          "can"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Word Friends",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Compounds",
+        "items": [
+          "melon",
+          "fall",
+          "proof",
+          "bottle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle set for 02212026."
+  },
+  "hard": {
+    "id": "02212026-H",
+    "generatedAt": "2026-02-21T03:07:11.245Z",
+    "groups": [
+      {
+        "name": "Many-meaning Movers",
+        "items": [
+          "park",
+          "paint",
+          "plant",
+          "dream"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Word Switchers (Anagrams)",
+        "items": [
+          "listen",
+          "silent",
+          "enlist",
+          "tinsel"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Names that Double as Nouns",
+        "items": [
+          "lime",
+          "blue",
+          "brown",
+          "navy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "First-Letter Lift",
+        "items": [
+          "plane",
+          "stone",
+          "glow",
+          "prune"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle set for 02212026."
+  }
+}

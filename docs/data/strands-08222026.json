@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "BUMP",
+      "LAMP",
+      "PUSH",
+      "BARK",
+      "WIND",
+      "JUMP",
+      "FARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTIVE",
+      "SPIRIT",
+      "GATHER",
+      "FRIEND",
+      "BALANCE",
+      "SIMPLE",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "EXPLORING",
+      "GENERATE",
+      "MAGNETIC",
+      "TRANSLATE",
+      "CIRCULATE",
+      "INNOVATE",
+      "FRIENDSHIP",
+      "COMPLICATE"
+    ]
+  }
+}

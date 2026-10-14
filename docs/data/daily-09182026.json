@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09182026-E",
+    "generatedAt": "2026-09-18T04:59:49.756Z",
+    "groups": [
+      {
+        "name": "Sky Treasures",
+        "items": [
+          "sun",
+          "cloud",
+          "moon",
+          "star"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways People Travel",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "train"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "socks"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning List of Eats",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "milk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 09/18/2026 puzzles. Easy level uses concrete, visual themes."
+  },
+  "medium": {
+    "id": "09182026-M",
+    "generatedAt": "2026-09-18T04:59:49.756Z",
+    "groups": [
+      {
+        "name": "Sun-Linked Words",
+        "items": [
+          "beam",
+          "flower",
+          "screen",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-Linked Clues",
+        "items": [
+          "note",
+          "text",
+          "guide",
+          "hand"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Furry Friends",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "pig"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Meal-Time Dishes",
+        "items": [
+          "sushi",
+          "noodles",
+          "rice",
+          "dumpling"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and compound associations; cross-over temptations exist."
+  },
+  "hard": {
+    "id": "09182026-H",
+    "generatedAt": "2026-09-18T04:59:49.756Z",
+    "groups": [
+      {
+        "name": "Polyseme Group",
+        "items": [
+          "bat",
+          "spring",
+          "bank",
+          "bowl"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronym Crew",
+        "items": [
+          "dust",
+          "clip",
+          "bolt",
+          "seed"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophone Helpers",
+        "items": [
+          "knight",
+          "mail",
+          "sea",
+          "plain"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Word Club",
+        "items": [
+          "orange",
+          "lemon",
+          "plum",
+          "peach"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean toward abstract connections with polysemes, contronyms, homophones, and color-fruit words."
+  }
+}

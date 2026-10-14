@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLD",
+      "CANE",
+      "DUST",
+      "HIVE",
+      "JOLT",
+      "LUMP",
+      "MIST",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDLE",
+      "FARMER",
+      "GARNET",
+      "PLANTS",
+      "SIMPLE",
+      "TWIRL",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "BALANCED",
+      "COMFORTS",
+      "HARMONIC",
+      "INNOVATE",
+      "SPECTACULAR",
+      "TRANQUIL",
+      "UNDERSTAND",
+      "WONDERFUL"
+    ]
+  }
+}

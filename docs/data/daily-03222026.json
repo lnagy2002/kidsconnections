@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03222026-E",
+    "generatedAt": "2026-03-22T03:24:41.589Z",
+    "groups": [
+      {
+        "name": "Bright red things",
+        "items": [
+          "apple",
+          "strawberry",
+          "red balloon",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that can fly",
+        "items": [
+          "bird",
+          "airplane",
+          "helicopter",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom basics",
+        "items": [
+          "chalk",
+          "eraser",
+          "desk",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy Connections puzzle for 03222026. Four groups of four items each, with clear visual or everyday links."
+  },
+  "medium": {
+    "id": "03222026-M",
+    "generatedAt": "2026-03-22T03:24:41.589Z",
+    "groups": [
+      {
+        "name": "Rain prefixes",
+        "items": [
+          "coat",
+          "forest",
+          "check",
+          "bow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow terms",
+        "items": [
+          "ball",
+          "man",
+          "cone",
+          "flake"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Black-prefix words",
+        "items": [
+          "list",
+          "board",
+          "mail",
+          "out"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire safety words",
+        "items": [
+          "alarm",
+          "drill",
+          "escape",
+          "extinguisher"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with some cross-over temptation. Each group links to a common prefix (rain, snow, black, fire) and everyday compounds."
+  },
+  "hard": {
+    "id": "03222026-H",
+    "generatedAt": "2026-03-22T03:24:41.589Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "run",
+          "park",
+          "jump",
+          "sail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "lead",
+          "record",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that gain new meaning with prefixes",
+        "items": [
+          "known",
+          "fair",
+          "wise",
+          "used"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that become adjectives with -less suffix",
+        "items": [
+          "care",
+          "hope",
+          "fear",
+          "taste"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and wordplay. Some items may seem to fit another group at first glance (cross-over temptation), but each item has a unique, correct grouping."
+  }
+}

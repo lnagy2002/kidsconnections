@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "GLOW",
+      "BUMP",
+      "RIDE",
+      "LAMP",
+      "FIRM",
+      "CANE",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PLANT",
+      "FABLE",
+      "BUNGLE",
+      "FESTAL",
+      "GARNET",
+      "SPIRAL",
+      "NURSED",
+      "FROSTY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GRADUATE",
+      "HARMONIC",
+      "TRANQUIL",
+      "FANTASTIC",
+      "COMFORTED",
+      "BALANCING",
+      "ACROBATICS",
+      "TRANSLATED"
+    ]
+  }
+}

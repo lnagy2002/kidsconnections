@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08202026-E",
+    "generatedAt": "2026-08-20T01:57:48.810Z",
+    "groups": [
+      {
+        "name": "Round Shapes",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Classics",
+        "items": [
+          "pancake",
+          "cereal",
+          "egg",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "hen",
+          "sheep"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to Get Around",
+        "items": [
+          "bike",
+          "car",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle set with four kid-friendly visual themes."
+  },
+  "medium": {
+    "id": "08202026-M",
+    "generatedAt": "2026-08-20T01:57:48.810Z",
+    "groups": [
+      {
+        "name": "Book Endings",
+        "items": [
+          "cook",
+          "note",
+          "guide",
+          "story"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball Pairings",
+        "items": [
+          "base",
+          "basket",
+          "fire",
+          "meat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light Pairings",
+        "items": [
+          "sun",
+          "spot",
+          "star",
+          "gas"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board Pairings",
+        "items": [
+          "snow",
+          "surf",
+          "skate",
+          "white"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and common compound-word ideas; some items may tempt to fit other groups but belong to exactly one."
+  },
+  "hard": {
+    "id": "08202026-H",
+    "generatedAt": "2026-08-20T01:57:48.810Z",
+    "groups": [
+      {
+        "name": "Animals and Objects",
+        "items": [
+          "bat",
+          "crane",
+          "bear",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns with Dual Uses",
+        "items": [
+          "table",
+          "book",
+          "plant",
+          "fish"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "circle",
+          "triangle",
+          "square",
+          "oval"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on abstract connections and multiple meanings; items are chosen to prompt careful grouping."
+  }
+}

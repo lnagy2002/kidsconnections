@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07012026-E",
+    "generatedAt": "2026-07-01T05:04:46.890Z",
+    "groups": [
+      {
+        "name": "Round Things Parade",
+        "items": [
+          "ball",
+          "coin",
+          "pizza",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headgear Choices",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Two-Pair Wearables",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "glasses"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Peelable Fruits",
+        "items": [
+          "banana",
+          "orange",
+          "apple",
+          "pear"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles group four concrete ideas: round items, headgear, items worn in pairs, and peelable fruits."
+  },
+  "medium": {
+    "id": "07012026-M",
+    "generatedAt": "2026-07-01T05:04:46.890Z",
+    "groups": [
+      {
+        "name": "Sun Words",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix",
+        "items": [
+          "happy",
+          "likely",
+          "kind",
+          "certain"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Phrases",
+        "items": [
+          "alarm",
+          "place",
+          "truck",
+          "fighter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tableware Essentials",
+        "items": [
+          "plate",
+          "cup",
+          "fork",
+          "napkin"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay with compound forms: items that pair with 'sun', add 'un' to form opposites, phrases with 'fire', and common table items. Cross-over temptations appear where items could seem to fit another group (e.g., 'flower' could seem garden-related)."
+  },
+  "hard": {
+    "id": "07012026-H",
+    "generatedAt": "2026-07-01T05:04:46.890Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings",
+        "items": [
+          "bank",
+          "crane",
+          "spring",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Prefix Re- Magic",
+        "items": [
+          "act",
+          "move",
+          "solve",
+          "build"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under- Prefix Set",
+        "items": [
+          "ground",
+          "shirt",
+          "water",
+          "cover"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Edible Animals",
+        "items": [
+          "crab",
+          "duck",
+          "turkey",
+          "fish"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on polysemy and prefixes. 'Bank', 'crane', 'spring', 'note' all have multiple unrelated meanings; 'act','move','solve','build' form new words with 're'; 'ground','shirt','water','cover' pair with 'under' to make common words; and 'crab','duck','turkey','fish' are animals you can eat. Temptations to reclassify items exist but each item belongs to its proper group."
+  }
+}

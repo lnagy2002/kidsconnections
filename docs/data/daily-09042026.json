@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09042026-E",
+    "generatedAt": "2026-09-04T05:01:28.221Z",
+    "groups": [
+      {
+        "name": "Color Splash",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Pets",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit Friends",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "pear"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Gear",
+        "items": [
+          "boot",
+          "sock",
+          "shoe",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh for 09042026. Four easy groups with concrete, visual themes."
+  },
+  "medium": {
+    "id": "09042026-M",
+    "generatedAt": "2026-09-04T05:01:28.221Z",
+    "groups": [
+      {
+        "name": "Super Prefix",
+        "items": [
+          "man",
+          "market",
+          "hero",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "bed",
+          "bottle",
+          "fall",
+          "park"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Stone-Words",
+        "items": [
+          "gem",
+          "mile",
+          "tomb",
+          "core"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cardinal Directions",
+        "items": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with simple wordplay and cross-over temptations. Each group has a clear linking idea."
+  },
+  "hard": {
+    "id": "09042026-H",
+    "generatedAt": "2026-09-04T05:01:28.221Z",
+    "groups": [
+      {
+        "name": "Add 're' Prefix",
+        "items": [
+          "act",
+          "play",
+          "order",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "bow",
+          "lead",
+          "wind",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes Parade",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Books That Build",
+        "items": [
+          "note",
+          "text",
+          "story",
+          "cook"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and polysemy. Ensure each item belongs to only one group."
+  }
+}

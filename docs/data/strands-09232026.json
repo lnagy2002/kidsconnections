@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "VINE",
+      "LAMP",
+      "HIVE",
+      "BAND",
+      "FIRM",
+      "MIST",
+      "COLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FESTAL",
+      "BALLOO",
+      "JOURN",
+      "FLIGHT",
+      "BLOOMY",
+      "CANDLE",
+      "GHOSTY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "DREAMING",
+      "GRADIENT",
+      "FESTIVITY",
+      "HARMONIC",
+      "TRANSLATE",
+      "CIRCULAR",
+      "EXPLAINED",
+      "COMFORTED"
+    ]
+  }
+}

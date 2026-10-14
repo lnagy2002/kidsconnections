@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LOVE",
+      "GLOW",
+      "BOLD",
+      "RIPE",
+      "FLEA",
+      "MIST",
+      "HIVE",
+      "CANE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "FESTAL",
+      "DANGLE",
+      "SPARKY",
+      "NURSED",
+      "TWIRLS",
+      "FLAIRY",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "GRADUATE",
+      "HARMONIC",
+      "BALANCED",
+      "CIRCULAR",
+      "INNOVATE",
+      "SPIRITED",
+      "TRANSLATE",
+      "ADVENTURE"
+    ]
+  }
+}

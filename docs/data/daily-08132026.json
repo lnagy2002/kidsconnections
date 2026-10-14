@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08132026-E",
+    "generatedAt": "2026-08-13T03:06:53.407Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bike",
+          "skateboard",
+          "stroller"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Snacks",
+        "items": [
+          "apple",
+          "carrot",
+          "cookie",
+          "pretzel"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with four visual groups."
+  },
+  "medium": {
+    "id": "08132026-M",
+    "generatedAt": "2026-08-13T03:06:53.407Z",
+    "groups": [
+      {
+        "name": "Sun-Word Compounds",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain-Word Compounds",
+        "items": [
+          "coat",
+          "bow",
+          "forest",
+          "storm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Compounds",
+        "items": [
+          "engine",
+          "alarm",
+          "fighter",
+          "truck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sea-Word Compounds",
+        "items": [
+          "horse",
+          "otter",
+          "weed",
+          "shell"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium challenge: four sets of words that pair with a common prefix to make familiar compounds."
+  },
+  "hard": {
+    "id": "08132026-H",
+    "generatedAt": "2026-08-13T03:06:53.407Z",
+    "groups": [
+      {
+        "name": "Body Parts Used as Verbs",
+        "items": [
+          "hand",
+          "eye",
+          "lip",
+          "head"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits that Are Colors",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "rock",
+          "bat",
+          "watch",
+          "book"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "time",
+          "hope",
+          "truth",
+          "dream"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and multi-meaning words; items are chosen to avoid overlaps with easier sets."
+  }
+}

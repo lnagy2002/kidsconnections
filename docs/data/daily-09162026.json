@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09162026-E",
+    "generatedAt": "2026-09-16T05:03:53.630Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sunny Yellow Items",
+        "items": [
+          "banana",
+          "lemon",
+          "sun",
+          "corn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets and Pals",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 9/16/2026 easy puzzle set. Four groups with concrete visual themes: round objects, yellow items, classroom tools, and common pets."
+  },
+  "medium": {
+    "id": "09162026-M",
+    "generatedAt": "2026-09-16T05:03:53.630Z",
+    "groups": [
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "rainbow",
+          "sandwich",
+          "toothbrush",
+          "snowball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Verbs",
+        "items": [
+          "tie",
+          "wrap",
+          "fold",
+          "cover"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Basic Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "run",
+          "jump",
+          "fly",
+          "swim"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with cross-over temptations: some words could seem to fit other groups (e.g., tie or run as actions), but each item belongs to its assigned group."
+  },
+  "hard": {
+    "id": "09162026-H",
+    "generatedAt": "2026-09-16T05:03:53.630Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings",
+        "items": [
+          "play",
+          "bat",
+          "spring",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit-Color Pairings",
+        "items": [
+          "orange",
+          "plum",
+          "peach",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Different Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "time",
+          "hope",
+          "idea",
+          "dream"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set explores abstract connections and multi-meaning words. Some items could tempt you to sort by color or sound alone, but the intended group relies on deeper meanings."
+  }
+}

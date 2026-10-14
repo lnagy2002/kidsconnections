@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05182026-E",
+    "generatedAt": "2026-05-18T04:49:28.011Z",
+    "groups": [
+      {
+        "name": "Things You Use at School",
+        "items": [
+          "Pencil",
+          "Notebook",
+          "Eraser",
+          "Backpack"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in the Kitchen Corner",
+        "items": [
+          "Pan",
+          "Spatula",
+          "Milk",
+          "Spoon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farmyard Friends",
+        "items": [
+          "Cow",
+          "Sheep",
+          "Chick",
+          "Pig"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tools You Find in a Workshop",
+        "items": [
+          "Hammer",
+          "Scissors",
+          "Ruler",
+          "Glue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four simple, concrete groups: school items, kitchen items, farm animals, and handy tools. Each group uses everyday objects kids recognize visually or by use."
+  },
+  "medium": {
+    "id": "05182026-M",
+    "generatedAt": "2026-05-18T04:49:28.011Z",
+    "groups": [
+      {
+        "name": "Rain Prefix Words",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Prefix Words",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow Prefix Words",
+        "items": [
+          "man",
+          "flake",
+          "ball",
+          "plow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Prefix Words",
+        "items": [
+          "alarm",
+          "escape",
+          "work",
+          "station"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Each group pairs second parts with a common prefix (rain-, sun-, snow-, fire-) to form familiar compound words (rainbow, rainforest; sunflower, sunrise; snowball, snowman; fire alarm, fire station). Cross-over temptation note: some items could look like they belong in another prefix group, but the intended grouping uses the second-part word with its specific prefix."
+  },
+  "hard": {
+    "id": "05182026-H",
+    "generatedAt": "2026-05-18T04:49:28.011Z",
+    "groups": [
+      {
+        "name": "Everyday Polysemes (Nouns and Verbs)",
+        "items": [
+          "plant",
+          "watch",
+          "spring",
+          "bark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Foods That Double as Colors",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Read the Same Backward",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Musical Terms that Are Everyday Words",
+        "items": [
+          "note",
+          "rest",
+          "tone",
+          "scale"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract connections and multi-meaning words. Group 1 highlights everyday words that act as both noun and verb; Group 2 uses color-name fruits; Group 3 features true palindromes; Group 4 uses musical terms that are also common words. Cross-over temptation exists: several items could plausibly fit more than one group (for example, 'note' can be a musical term or a thing you jot down), but each item has a single best fit in its assigned group."
+  }
+}

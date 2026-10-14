@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02262026-E",
+    "generatedAt": "2026-02-26T03:16:21.384Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Classroom Items",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "bee"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy Connections puzzle: 4 groups of 4 items each."
+  },
+  "medium": {
+    "id": "02262026-M",
+    "generatedAt": "2026-02-26T03:16:21.384Z",
+    "groups": [
+      {
+        "name": "Words that are also verbs",
+        "items": [
+          "play",
+          "read",
+          "draw",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size descriptors (adjectives)",
+        "items": [
+          "tiny",
+          "huge",
+          "short",
+          "long"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "glove",
+          "sock",
+          "shoe",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen items used for eating or cooking",
+        "items": [
+          "spoon",
+          "pan",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: some items may seem to fit other groups."
+  },
+  "hard": {
+    "id": "02262026-H",
+    "generatedAt": "2026-02-26T03:16:21.384Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs (double-duty words)",
+        "items": [
+          "water",
+          "dance",
+          "lift",
+          "record"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with two pronunciations (homographs/heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-phrase partners",
+        "items": [
+          "fly",
+          "place",
+          "works",
+          "proof"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet names (cosmic group)",
+        "items": [
+          "earth",
+          "mars",
+          "venus",
+          "neptune"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract and multi-meaning connections."
+  }
+}

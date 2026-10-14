@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04292026-E",
+    "generatedAt": "2026-04-29T04:08:45.909Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "butterfly",
+          "kite",
+          "airplane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable Accessories",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "belt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "coin",
+          "ball",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle set. Four groups of four concrete items."
+  },
+  "medium": {
+    "id": "04292026-M",
+    "generatedAt": "2026-04-29T04:08:45.909Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunrise",
+          "notebook",
+          "raincoat",
+          "basketball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that are Verbs",
+        "items": [
+          "bottle",
+          "brush",
+          "box",
+          "train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "banana",
+          "grape",
+          "orange",
+          "watermelon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "knife",
+          "cup",
+          "plate"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with gentle wordplay and cross-over temptations (e.g., 'play' could seem like a fit elsewhere)."
+  },
+  "hard": {
+    "id": "04292026-H",
+    "generatedAt": "2026-04-29T04:08:45.909Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "wind",
+          "lead",
+          "tear",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with 're' Prefix",
+        "items": [
+          "play",
+          "write",
+          "make",
+          "paint"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals that are Also Other Things",
+        "items": [
+          "bear",
+          "bat",
+          "crane",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "gnome",
+          "island",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and multi-meaning words. Includes tricky cross-over temptations."
+  }
+}

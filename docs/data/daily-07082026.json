@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07082026-E",
+    "generatedAt": "2026-07-08T03:53:40.388Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "Ball",
+          "Coin",
+          "Moon",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You See in a Park",
+        "items": [
+          "Swing",
+          "Slide",
+          "Tree",
+          "Bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Finger Foods",
+        "items": [
+          "Apple",
+          "Bread",
+          "Carrot",
+          "Pizza"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four easy groups with concrete, visual themes: round things, park features, common animals, and foods you can eat with your hands."
+  },
+  "medium": {
+    "id": "07082026-M",
+    "generatedAt": "2026-07-08T03:53:40.388Z",
+    "groups": [
+      {
+        "name": "Stick-Word Compounds",
+        "items": [
+          "Lip",
+          "Drum",
+          "Candle",
+          "Match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Pairs",
+        "items": [
+          "Fly",
+          "Truck",
+          "Works",
+          "Place"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Dual-use Words",
+        "items": [
+          "Run",
+          "Jump",
+          "Play",
+          "Watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "Happy",
+          "Kind",
+          "Fair",
+          "Known"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and compound ideas. Some items could seem to fit another group, but each belongs to exactly one."
+  },
+  "hard": {
+    "id": "07082026-H",
+    "generatedAt": "2026-07-08T03:53:40.388Z",
+    "groups": [
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "Lead",
+          "Wind",
+          "Bow",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Metal Elements",
+        "items": [
+          "Tin",
+          "Iron",
+          "Gold",
+          "Nickel"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Foods & Flowers",
+        "items": [
+          "Orange",
+          "Plum",
+          "Olive",
+          "Rose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "Level",
+          "Civic",
+          "Madam",
+          "Radar"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract or tricky connections: heteronyms, elements, color-name words with extra meanings, and palindromes."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "SLEET",
+      "FABLE",
+      "GRASP",
+      "HIVEY",
+      "CRISP",
+      "SPARK",
+      "PLUMB",
+      "TWIRL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CLUSTER",
+      "FESTIVE",
+      "BALANCE",
+      "GARNISH",
+      "HARMONY",
+      "NARRATE",
+      "GATHERED",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANSLATE",
+      "INNOVATION",
+      "COMPLICATE",
+      "HARMONIOUS",
+      "EXPERIMENT",
+      "SPECTACULAR",
+      "ADVENTURE",
+      "GENERATE",
+      "FRIENDSHIP"
+    ]
+  }
+}

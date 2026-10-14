@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAND",
+      "MILD",
+      "PARK",
+      "FINE",
+      "HIVE",
+      "BUMP",
+      "LUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "SPARKY",
+      "TWIRLS",
+      "NURSED",
+      "FESTAL",
+      "CAVERN",
+      "PLANTS",
+      "BALLOO"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CRUNCHY",
+      "GRADUATE",
+      "SPIRITED",
+      "BALANCED",
+      "FANTASTIC",
+      "INNOVATE",
+      "ADVENTUR",
+      "HARMONIC",
+      "EXPLORER"
+    ]
+  }
+}

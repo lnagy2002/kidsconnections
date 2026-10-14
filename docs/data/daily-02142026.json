@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02142026-E",
+    "generatedAt": "2026-02-14T03:12:40.440Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a Classroom",
+        "items": [
+          "desk",
+          "chair",
+          "pencil",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "eggs",
+          "cereal",
+          "toast",
+          "pancake"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set for 02142026."
+  },
+  "medium": {
+    "id": "02142026-M",
+    "generatedAt": "2026-02-14T03:12:40.440Z",
+    "groups": [
+      {
+        "name": "Rain-Word Partners",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "drop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Star Words",
+        "items": [
+          "board",
+          "ship",
+          "light",
+          "dust"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Blue-Blue Words",
+        "items": [
+          "bird",
+          "print",
+          "moon",
+          "berry"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sea-Whisperers",
+        "items": [
+          "horse",
+          "weed",
+          "shell",
+          "lion"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set with cross-over temptations."
+  },
+  "hard": {
+    "id": "02142026-H",
+    "generatedAt": "2026-02-14T03:12:40.440Z",
+    "groups": [
+      {
+        "name": "Opposites by Prefix",
+        "items": [
+          "happy",
+          "kind",
+          "fair",
+          "able"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Duo",
+        "items": [
+          "play",
+          "match",
+          "bat",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronym Helpers",
+        "items": [
+          "wind",
+          "read",
+          "lead",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit Colors",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set exploring multi-meaning words and tricky wordplay."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMP",
+      "HIDE",
+      "MASH",
+      "CAND",
+      "SPAR",
+      "LIMP",
+      "GUST",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPIRAL",
+      "BALANCE",
+      "FESTIVE",
+      "PLANTS",
+      "DREAMY",
+      "CIRCLES",
+      "MAGNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "INNOVATE",
+      "COMFORTS",
+      "TRANSLATE",
+      "FANTASTIC",
+      "WONDERFUL",
+      "FRIENDSHIP",
+      "GENERATE",
+      "SPIRITED"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05092026-E",
+    "generatedAt": "2026-05-09T04:02:12.848Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "tomato",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Light Bringers",
+        "items": [
+          "lamp",
+          "candle",
+          "flashlight",
+          "sun"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Spoon-Style Foods",
+        "items": [
+          "soup",
+          "yogurt",
+          "pudding",
+          "cereal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzle set for May 9, 2026."
+  },
+  "medium": {
+    "id": "05092026-M",
+    "generatedAt": "2026-05-09T04:02:12.848Z",
+    "groups": [
+      {
+        "name": "Common Measurements",
+        "items": [
+          "inch",
+          "foot",
+          "yard",
+          "mile"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sound-Alike Pairs",
+        "items": [
+          "knight",
+          "night",
+          "flower",
+          "flour"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Boosters",
+        "items": [
+          "lucky",
+          "fair",
+          "kind",
+          "tidy"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Word Pairings",
+        "items": [
+          "work",
+          "place",
+          "man",
+          "fly"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with gentle cross-over temptations."
+  },
+  "hard": {
+    "id": "05092026-H",
+    "generatedAt": "2026-05-09T04:02:12.848Z",
+    "groups": [
+      {
+        "name": "Board Word Friends",
+        "items": [
+          "snow",
+          "black",
+          "surf",
+          "white"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Out- Prefix Word Builders",
+        "items": [
+          "take",
+          "set",
+          "fit",
+          "line"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Star-Word Pairings",
+        "items": [
+          "rock",
+          "movie",
+          "super",
+          "fish"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Directional Words",
+        "items": [
+          "left",
+          "right",
+          "up",
+          "down"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles encourage abstract connections with a few tempting misfits."
+  }
+}

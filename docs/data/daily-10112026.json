@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10112026-E",
+    "generatedAt": "2026-10-11T06:10:00.935Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Things",
+        "items": [
+          "sun",
+          "cloud",
+          "moon",
+          "plane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "cereal",
+          "toast",
+          "eggs",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual themes kids can picture in their daily life."
+  },
+  "medium": {
+    "id": "10112026-M",
+    "generatedAt": "2026-10-11T06:10:00.935Z",
+    "groups": [
+      {
+        "name": "House Compounds",
+        "items": [
+          "tree",
+          "dog",
+          "bird",
+          "farm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books That Pair With 'Book'",
+        "items": [
+          "story",
+          "note",
+          "check",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board Word Families",
+        "items": [
+          "surf",
+          "black",
+          "snow",
+          "key"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words That End With 'Light'",
+        "items": [
+          "high",
+          "spot",
+          "candle",
+          "fire"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and common compound-word patterns."
+  },
+  "hard": {
+    "id": "10112026-H",
+    "generatedAt": "2026-10-11T06:10:00.935Z",
+    "groups": [
+      {
+        "name": "Polyseme Pairs",
+        "items": [
+          "bank",
+          "date",
+          "match",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "wind",
+          "lead",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Word Dualities",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "silver"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "park",
+          "paint",
+          "play",
+          "train"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract word-links, polysemy, and words with multiple meanings."
+  }
+}

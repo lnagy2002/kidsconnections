@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07292026-E",
+    "generatedAt": "2026-07-29T03:48:40.456Z",
+    "groups": [
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Red Foods",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Friends",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level: four simple everyday groupings."
+  },
+  "medium": {
+    "id": "07292026-M",
+    "generatedAt": "2026-07-29T03:48:40.456Z",
+    "groups": [
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Basics",
+        "items": [
+          "notebook",
+          "pencil",
+          "eraser",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom Objects",
+        "items": [
+          "chalkboard",
+          "globe",
+          "desk",
+          "chair"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "teacher",
+          "student",
+          "principal",
+          "librarian"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level: simple wordplay and common school-themed terms."
+  },
+  "hard": {
+    "id": "07292026-H",
+    "generatedAt": "2026-07-29T03:48:40.456Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "jam",
+          "port"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Objects",
+        "items": [
+          "sun",
+          "moon",
+          "star",
+          "planet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "lock",
+          "tie",
+          "fold",
+          "wrap"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verbs that Are Both",
+        "items": [
+          "play",
+          "watch",
+          "note",
+          "race"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level: abstract connections and polysemes; cross-over temptations may challenge grouping."
+  }
+}

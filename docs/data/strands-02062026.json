@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FLEW",
+      "HILL",
+      "BUMP",
+      "WARM",
+      "FIRM",
+      "FRESH",
+      "CAMP",
+      "BOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "SPIRIT",
+      "CANDLE",
+      "GATHER",
+      "GLOBE",
+      "TWIRL",
+      "PLANTS",
+      "CIRCLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "FANTASTIC",
+      "HARMONIZE",
+      "SPIRALING",
+      "GENERATE",
+      "FRIENDSHIP",
+      "MAGNETIC",
+      "INNOVATIVE",
+      "TRANSLATED"
+    ]
+  }
+}

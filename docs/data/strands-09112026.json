@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CUTE",
+      "BASH",
+      "FLEA",
+      "MIST",
+      "HIVE",
+      "LIFT",
+      "JUMP",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "MYSTIC",
+      "TWIRLS",
+      "SPARKY",
+      "GATHER",
+      "BALANCE",
+      "DREAMY",
+      "CARNIVAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRIANGLE",
+      "FESTIVAL",
+      "HARMONIC",
+      "GENERATE",
+      "EXPLORING",
+      "UNDERSTAND",
+      "TRANSLATED",
+      "INNOVATIVE",
+      "COMFORTING"
+    ]
+  }
+}

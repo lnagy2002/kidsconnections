@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "HIVE",
+      "CAMP",
+      "BUMP",
+      "LIFT",
+      "CURL",
+      "WILD",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "GATHER",
+      "SPIRIT",
+      "CIRCLE",
+      "FESTAL",
+      "DREAMY",
+      "BALANCE",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "COMFORTS",
+      "HARMONIC",
+      "EXPLORING",
+      "FANTASTIC",
+      "TRANQUIL",
+      "GENERATE",
+      "INNOVATION",
+      "FRIENDSHIP"
+    ]
+  }
+}

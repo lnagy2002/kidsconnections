@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08312026-E",
+    "generatedAt": "2026-08-31T05:54:23.181Z",
+    "groups": [
+      {
+        "name": "Globe-like objects",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rideable items",
+        "items": [
+          "bike",
+          "scooter",
+          "skateboard",
+          "tricycle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits you can eat fresh",
+        "items": [
+          "apple",
+          "grape",
+          "banana",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Loud sound makers",
+        "items": [
+          "bell",
+          "drum",
+          "whistle",
+          "horn"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with four visual themes."
+  },
+  "medium": {
+    "id": "08312026-M",
+    "generatedAt": "2026-08-31T05:54:23.181Z",
+    "groups": [
+      {
+        "name": "Pairs that come in twos",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sea creatures",
+        "items": [
+          "whale",
+          "dolphin",
+          "octopus",
+          "seal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School writing tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "crayon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather words",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "hail"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and sometimes items that could seem to fit another group, but belong to one correct group."
+  },
+  "hard": {
+    "id": "08312026-H",
+    "generatedAt": "2026-08-31T05:54:23.181Z",
+    "groups": [
+      {
+        "name": "Polysemes with multiple meanings",
+        "items": [
+          "bat",
+          "bank",
+          "crane",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-verb crossover words",
+        "items": [
+          "drive",
+          "plant",
+          "paint",
+          "cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals with versatile habitats",
+        "items": [
+          "otter",
+          "fox",
+          "koala",
+          "panda"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-letter words",
+        "items": [
+          "knight",
+          "gnome",
+          "isle",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract links and language quirks; some items may tempt you to place them in a different group."
+  }
+}

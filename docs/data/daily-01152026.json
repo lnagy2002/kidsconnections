@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01152026-E",
+    "generatedAt": "2026-01-15T02:31:29.513Z",
+    "groups": [
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "shirt",
+          "socks",
+          "gloves"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "banana",
+          "apple",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 01/15/2026. 4 groups of 4 concrete connections, kid-friendly."
+  },
+  "medium": {
+    "id": "01152026-M",
+    "generatedAt": "2026-01-15T02:31:29.513Z",
+    "groups": [
+      {
+        "name": "Words that Go with Fire",
+        "items": [
+          "alarm",
+          "truck",
+          "hydrant",
+          "proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Go with Water",
+        "items": [
+          "bottle",
+          "fall",
+          "melon",
+          "color"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Go with Sun",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that Go with Rain",
+        "items": [
+          "bow",
+          "coat",
+          "dance",
+          "check"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle set for 01/15/2026. Each group forms a simple, kid-friendly cross-link (fire, water, sun, rain)."
+  },
+  "hard": {
+    "id": "01152026-H",
+    "generatedAt": "2026-01-15T02:31:29.513Z",
+    "groups": [
+      {
+        "name": "Polysemes (Two Meanings)",
+        "items": [
+          "right",
+          "bear",
+          "spring",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Back-Word Combinations",
+        "items": [
+          "story",
+          "pack",
+          "fire",
+          "flip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add -er to Form Agents",
+        "items": [
+          "teach",
+          "write",
+          "build",
+          "draw"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather-Related Words",
+        "items": [
+          "rain",
+          "wind",
+          "snow",
+          "hail"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle set for 01/15/2026. Includes trickier, more abstract connections and cross-over temptations."
+  }
+}

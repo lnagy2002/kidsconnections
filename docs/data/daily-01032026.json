@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01032026-E",
+    "generatedAt": "2026-01-03T02:24:43.281Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "fire truck",
+          "stop sign"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets People Keep",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-Wheeled Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "van",
+          "jeep"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Back to Class Tools",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh start: easy puzzle set for 01032026. Each group shares a simple, visible connection."
+  },
+  "medium": {
+    "id": "01032026-M",
+    "generatedAt": "2026-01-03T02:24:43.281Z",
+    "groups": [
+      {
+        "name": "Nouns and Verbs (Dual-Use Words)",
+        "items": [
+          "play",
+          "rock",
+          "brush",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Food Words",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size Words",
+        "items": [
+          "tiny",
+          "huge",
+          "giant",
+          "mini"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Motion Verbs",
+        "items": [
+          "run",
+          "jump",
+          "sit",
+          "walk"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptation: some items might seem to belong elsewhere, but they fit their group."
+  },
+  "hard": {
+    "id": "01032026-H",
+    "generatedAt": "2026-01-03T02:24:43.281Z",
+    "groups": [
+      {
+        "name": "Words with Double Identities",
+        "items": [
+          "bat",
+          "spring",
+          "crane",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation-Alternating Words",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite-Meaning Words",
+        "items": [
+          "dust",
+          "left",
+          "seed",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "More Double-Identity Words",
+        "items": [
+          "tear",
+          "bow",
+          "read",
+          "wound"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore words with multiple meanings and pronunciations, challenging kids to spot the right connections."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08292026-E",
+    "generatedAt": "2026-08-29T07:15:32.071Z",
+    "groups": [
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "sun"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear you wear on your feet",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinkable refreshments",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals many kids know as pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzles for 08/29/2026."
+  },
+  "medium": {
+    "id": "08292026-M",
+    "generatedAt": "2026-08-29T07:15:32.071Z",
+    "groups": [
+      {
+        "name": "Colors that double as foods",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Door-words: terms that follow 'door' to make common items",
+        "items": [
+          "bell",
+          "knob",
+          "mat",
+          "stop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemous words (two or more meanings)",
+        "items": [
+          "bank",
+          "note",
+          "rock",
+          "spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that are also common words",
+        "items": [
+          "seal",
+          "crane",
+          "duck",
+          "bear"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with gentle cross-over temptations."
+  },
+  "hard": {
+    "id": "08292026-H",
+    "generatedAt": "2026-08-29T07:15:32.071Z",
+    "groups": [
+      {
+        "name": "Light-words: pair with 'light'",
+        "items": [
+          "moon",
+          "flash",
+          "gas",
+          "star"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "House-words: pair with 'house' to form compounds",
+        "items": [
+          "tree",
+          "farm",
+          "green",
+          "store"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- prefix makes a new word",
+        "items": [
+          "true",
+          "happy",
+          "clear",
+          "tidy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ball-prepended sports names",
+        "items": [
+          "soft",
+          "base",
+          "basket",
+          "foot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle featuring abstract links and multi-meaning words."
+  }
+}

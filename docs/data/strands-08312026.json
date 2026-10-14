@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAVE",
+      "FLEW",
+      "HARD",
+      "MILD",
+      "MIST",
+      "RIDE",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDLE",
+      "DREAMY",
+      "FESTAL",
+      "GATHER",
+      "HARMON",
+      "JOURNEY",
+      "SPARKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "BALANCED",
+      "GENERATE",
+      "INNOVATE",
+      "MAGNETIC",
+      "SPECTRAL",
+      "TRANSLATE",
+      "WONDERED",
+      "FRIENDLY"
+    ]
+  }
+}

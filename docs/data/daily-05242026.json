@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05242026-E",
+    "generatedAt": "2026-05-24T04:46:38.059Z",
+    "groups": [
+      {
+        "name": "Orb-ables",
+        "items": [
+          "ball",
+          "coin",
+          "apple",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Flight-ables",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "scarf",
+          "glove",
+          "shirt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sunny Snacks",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "egg"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level: concrete, visual categories with simple clues."
+  },
+  "medium": {
+    "id": "05242026-M",
+    "generatedAt": "2026-05-24T04:46:38.059Z",
+    "groups": [
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "desk"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Soft Comforts",
+        "items": [
+          "cushion",
+          "pillow",
+          "blanket",
+          "plush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "hen",
+          "sheep"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tiny Toys",
+        "items": [
+          "doll",
+          "lego",
+          "puzzle",
+          "yo-yo"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level: simple wordplay and light cross-over temptations."
+  },
+  "hard": {
+    "id": "05242026-H",
+    "generatedAt": "2026-05-24T04:46:38.059Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings",
+        "items": [
+          "bank",
+          "bat",
+          "ring",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nature Features",
+        "items": [
+          "valley",
+          "canyon",
+          "oasis",
+          "glacier"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Items in Pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "earrings"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Linked Terms",
+        "items": [
+          "fighter",
+          "pit",
+          "flame",
+          "alarm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level: abstract connections and polysemous words; look for deeper links."
+  }
+}

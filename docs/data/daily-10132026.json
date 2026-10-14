@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10132026-E",
+    "generatedAt": "2026-10-13T06:57:55.280Z",
+    "groups": [
+      {
+        "name": "Footwear Parade",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Harvest",
+        "items": [
+          "carrot",
+          "lettuce",
+          "peas",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Quenching Drinks",
+        "items": [
+          "water",
+          "milk",
+          "orange juice",
+          "lemonade"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farmyard Pals",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "pig"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzles with concrete, visual themes."
+  },
+  "medium": {
+    "id": "10132026-M",
+    "generatedAt": "2026-10-13T06:57:55.280Z",
+    "groups": [
+      {
+        "name": "Two-Word Treats",
+        "items": [
+          "peanut butter",
+          "ice cream",
+          "hot dog",
+          "apple pie"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things You Hold",
+        "items": [
+          "pencil",
+          "book",
+          "ball",
+          "glue stick"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rideable Toys",
+        "items": [
+          "bicycle",
+          "scooter",
+          "skateboard",
+          "roller skates"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sweet Snacks",
+        "items": [
+          "honey",
+          "maple candy",
+          "marshmallow",
+          "gummy bears"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include light wordplay and compound-phrase items; some items might tempt quick reclassification but belong to their designated group."
+  },
+  "hard": {
+    "id": "10132026-H",
+    "generatedAt": "2026-10-13T06:57:55.280Z",
+    "groups": [
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "watch",
+          "jump",
+          "play",
+          "cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Agents with -er",
+        "items": [
+          "build",
+          "read",
+          "teach",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes with Many Meanings",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Irregular Plurals",
+        "items": [
+          "mouse",
+          "person",
+          "child",
+          "goose"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and multi-meaning words; includes tempting overlaps to challenge careful grouping."
+  }
+}

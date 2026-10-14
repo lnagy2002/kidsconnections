@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08122026-E",
+    "generatedAt": "2026-08-12T03:03:40.732Z",
+    "groups": [
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "pizza"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen tools and utensils",
+        "items": [
+          "spoon",
+          "pan",
+          "fork",
+          "knife"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-legged animals",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "frog"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual categories. Each group has 4 items."
+  },
+  "medium": {
+    "id": "08122026-M",
+    "generatedAt": "2026-08-12T03:03:40.732Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "play",
+          "cook",
+          "brush",
+          "wave"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pets you might have at home",
+        "items": [
+          "parrot",
+          "hamster",
+          "rabbit",
+          "guinea pig"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Writing tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "chalk"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and familiar items. Watch for cross-over ideas that might tempt you to swap groups."
+  },
+  "hard": {
+    "id": "08122026-H",
+    "generatedAt": "2026-08-12T03:03:40.732Z",
+    "groups": [
+      {
+        "name": "Words with two pronunciations (heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound effects (onomatopoeia)",
+        "items": [
+          "clang",
+          "buzz",
+          "hiss",
+          "pop"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic words",
+        "items": [
+          "level",
+          "civic",
+          "rotor",
+          "radar"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "otter",
+          "yak",
+          "lynx",
+          "vole"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles demand abstract connections. Some words may seem to fit other groups at first glance."
+  }
+}

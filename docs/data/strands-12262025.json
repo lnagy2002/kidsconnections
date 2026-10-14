@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "FISH",
+      "LAMP",
+      "BEND",
+      "WARM",
+      "HILL",
+      "COLD",
+      "DUST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKS",
+      "CANDLE",
+      "GARNET",
+      "PLANTS",
+      "BALLOON",
+      "TWIRLERS",
+      "BUNGLES",
+      "CAVERN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTACLE",
+      "HARMONIZE",
+      "COMFORTING",
+      "EXPLORING",
+      "GENERATE",
+      "TRANQUIL",
+      "INNOVATE",
+      "FRIENDSHIP",
+      "FANTASTIC"
+    ]
+  }
+}

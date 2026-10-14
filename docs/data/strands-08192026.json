@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CAGEY",
+      "FLEEK",
+      "GLIDE",
+      "MUSHY",
+      "NURSE",
+      "TWIRL",
+      "WILDY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOMY",
+      "CANDOR",
+      "DREAMY",
+      "FABLES",
+      "GARNISH",
+      "JOURNEY",
+      "MYSTIFY",
+      "SPLASHY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "BALANCED",
+      "CIRCULAR",
+      "COMFORTS",
+      "FESTIVITY",
+      "GENERATED",
+      "INNOVATED",
+      "SPECTACLE",
+      "WONDERFUL"
+    ]
+  }
+}

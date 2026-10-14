@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06032026-E",
+    "generatedAt": "2026-06-03T05:24:49.402Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks",
+        "items": [
+          "juice",
+          "water",
+          "milk",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 06032026 easy puzzle with four simple connections."
+  },
+  "medium": {
+    "id": "06032026-M",
+    "generatedAt": "2026-06-03T05:24:49.402Z",
+    "groups": [
+      {
+        "name": "Animals That Act as Verbs",
+        "items": [
+          "bat",
+          "crane",
+          "duck",
+          "bear"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colorful Fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Companions",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "wind",
+          "park",
+          "lead",
+          "rock"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and cross-over hints."
+  },
+  "hard": {
+    "id": "06032026-H",
+    "generatedAt": "2026-06-03T05:24:49.402Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "bass",
+          "bow",
+          "tear",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Read the Same Backward",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "clear",
+          "true",
+          "tidy",
+          "usual"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and tricky word forms."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "RACE",
+      "BUMP",
+      "CAVE",
+      "CLIP",
+      "DUST",
+      "HIVE",
+      "FIRM",
+      "BELL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPIRAL",
+      "TWILIGHT",
+      "GARDEN",
+      "SILVER",
+      "FESTIVE",
+      "BRIDGE",
+      "CIRCLE",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "DISCOVER",
+      "HARMONIZE",
+      "GENERATION",
+      "FRIENDSHIP",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "TRANQUIL",
+      "EXPLORING"
+    ]
+  }
+}

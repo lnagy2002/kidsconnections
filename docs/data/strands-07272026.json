@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "BLOW",
+      "HIDE",
+      "FIRM",
+      "GLOW",
+      "MIST",
+      "WIND",
+      "BEND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CANDLE",
+      "FESTAL",
+      "HARMON",
+      "TRICKY",
+      "FESTIV",
+      "BALANC",
+      "GATHER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "FANTASTIC",
+      "INNOVATE",
+      "SPECTACLE",
+      "TRANSLATED",
+      "COMFORTED",
+      "DREAMLIKE",
+      "HARMONIC",
+      "GENERATED"
+    ]
+  }
+}

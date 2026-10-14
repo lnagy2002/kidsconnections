@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04042026-E",
+    "generatedAt": "2026-04-04T03:20:43.969Z",
+    "groups": [
+      {
+        "name": "Red foods you can eat",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear you wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "beret",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Measuring tools and time keepers",
+        "items": [
+          "ruler",
+          "scale",
+          "clock",
+          "thermometer"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm animals you might see on a farm",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "goat"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle. Each group has 4 items. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "04042026-M",
+    "generatedAt": "2026-04-04T03:20:43.969Z",
+    "groups": [
+      {
+        "name": "Animals from around the world",
+        "items": [
+          "otter",
+          "eagle",
+          "panda",
+          "koala"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors that are also fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "apricot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ways to travel",
+        "items": [
+          "train",
+          "bus",
+          "car",
+          "bike"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in space",
+        "items": [
+          "planet",
+          "star",
+          "comet",
+          "asteroid"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations: some items could belong to other group ideas, but fit uniquely here."
+  },
+  "hard": {
+    "id": "04042026-H",
+    "generatedAt": "2026-04-04T03:20:43.969Z",
+    "groups": [
+      {
+        "name": "Same-spelling words with two meanings",
+        "items": [
+          "lead",
+          "bank",
+          "spring",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound effects",
+        "items": [
+          "buzz",
+          "snap",
+          "boom",
+          "hiss"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with quiet letters",
+        "items": [
+          "knight",
+          "island",
+          "gnome",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-word compounds",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "bookcase",
+          "spaceship"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and word quirks. Each group has 4 items; no item repeats elsewhere."
+  }
+}

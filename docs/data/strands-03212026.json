@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUSH",
+      "BUMP",
+      "CANE",
+      "COLD",
+      "FIRM",
+      "GLOW",
+      "HIVE",
+      "LUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOMY",
+      "CANOPY",
+      "DANGLE",
+      "FABLES",
+      "GLIDER",
+      "HARMON",
+      "JOURNAL",
+      "PLANTS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULATE",
+      "FESTIVITY",
+      "GATHERING",
+      "HARMONIC",
+      "INNOVATIVE",
+      "TRANSLATED",
+      "WONDERFUL",
+      "FRIENDSHIP"
+    ]
+  }
+}

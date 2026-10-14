@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05152026-E",
+    "generatedAt": "2026-05-15T04:33:53.342Z",
+    "groups": [
+      {
+        "name": "Fruits for snacking",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a classroom",
+        "items": [
+          "desk",
+          "pencil",
+          "eraser",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast-time foods",
+        "items": [
+          "cereal",
+          "toast",
+          "egg",
+          "pancake"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections puzzle for date 05152026. Easy level with concrete, visual groups."
+  },
+  "medium": {
+    "id": "05152026-M",
+    "generatedAt": "2026-05-15T04:33:53.342Z",
+    "groups": [
+      {
+        "name": "Words that pair with 'time'",
+        "items": [
+          "bed",
+          "free",
+          "long",
+          "spare"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that go with 'book' to form compounds",
+        "items": [
+          "note",
+          "text",
+          "story",
+          "guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'ball' to form common compounds",
+        "items": [
+          "foot",
+          "snow",
+          "base",
+          "basket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of transportation",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptations; some words could seem to fit another group but belong to their own."
+  },
+  "hard": {
+    "id": "05152026-H",
+    "generatedAt": "2026-05-15T04:33:53.342Z",
+    "groups": [
+      {
+        "name": "Noun-verb pairs with the same spelling",
+        "items": [
+          "duck",
+          "play",
+          "watch",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words you can add 're' to and get a new word",
+        "items": [
+          "do",
+          "act",
+          "turn",
+          "build"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under- prefixed words that form new words",
+        "items": [
+          "stand",
+          "ground",
+          "take",
+          "wear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Other common transport words",
+        "items": [
+          "truck",
+          "ship",
+          "plane",
+          "scooter"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle connections test abstract thinking and polysemy; watch for cross-over temptations and ensure one correct grouping."
+  }
+}

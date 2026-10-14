@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CLIP",
+      "BUMP",
+      "FEST",
+      "LIMP",
+      "MASH",
+      "POND",
+      "DART",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKS",
+      "FABLES",
+      "CANDLE",
+      "BUNGLE",
+      "FARMER",
+      "GATHER",
+      "NURSED",
+      "JOURN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTRAL",
+      "FESTIVAL",
+      "CIRCULAR",
+      "GRADIENT",
+      "TRANQUIL",
+      "FRIENDLY",
+      "HARMONIC",
+      "INNOVATE",
+      "CIRCULATE"
+    ]
+  }
+}

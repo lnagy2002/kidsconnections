@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "CAVE",
+      "FLEW",
+      "GUST",
+      "HIVE",
+      "MIST",
+      "PLAY",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDLE",
+      "FESTAL",
+      "GARNET",
+      "PLANTS",
+      "SPIRAL",
+      "TWIRL",
+      "WONDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCING",
+      "CIRCULATE",
+      "DREAMLIKE",
+      "ENCOURAGE",
+      "GENERATED",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "SPIRITED"
+    ]
+  }
+}

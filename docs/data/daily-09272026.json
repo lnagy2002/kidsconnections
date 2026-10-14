@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09272026-E",
+    "generatedAt": "2026-09-27T05:33:59.064Z",
+    "groups": [
+      {
+        "name": "Round Explorers",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "marble"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Helpers",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Airy Things",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit Snacks",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "pear"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzles for 09/27/2026. Four simple, visual groups for easy level."
+  },
+  "medium": {
+    "id": "09272026-M",
+    "generatedAt": "2026-09-27T05:33:59.064Z",
+    "groups": [
+      {
+        "name": "Compound Word Crew",
+        "items": [
+          "rainbow",
+          "sunflower",
+          "bookshelf",
+          "greenhouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Can Be Verbs",
+        "items": [
+          "play",
+          "watch",
+          "train",
+          "garden"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals That Are Verbs",
+        "items": [
+          "crane",
+          "seal",
+          "bat",
+          "duck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "gnome",
+          "island",
+          "hour"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh puzzles for 09/27/2026. Medium level uses wordplay and compound words with a few tempting misfits."
+  },
+  "hard": {
+    "id": "09272026-H",
+    "generatedAt": "2026-09-27T05:33:59.064Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes Parade",
+        "items": [
+          "bank",
+          "cell",
+          "spring",
+          "date"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "drive",
+          "file",
+          "press",
+          "shoot"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add Un/Re Prefix",
+        "items": [
+          "do",
+          "use",
+          "send",
+          "tell"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh puzzles for 09/27/2026. Hard level emphasizes abstract links and word versatility; some items may tempt you to fit them a different group."
+  }
+}

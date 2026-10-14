@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10122026-E",
+    "generatedAt": "2026-10-12T06:17:59.394Z",
+    "groups": [
+      {
+        "name": "Circle Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "canary"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Objects",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Items",
+        "items": [
+          "bench",
+          "swing",
+          "slide",
+          "fountain"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual groups. Each group has four items that clearly share a simple theme."
+  },
+  "medium": {
+    "id": "10122026-M",
+    "generatedAt": "2026-10-12T06:17:59.394Z",
+    "groups": [
+      {
+        "name": "Words That Are Both Noun and Verb",
+        "items": [
+          "run",
+          "watch",
+          "play",
+          "bark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Word Pairings",
+        "items": [
+          "beam",
+          "rise",
+          "flower",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Items That Come in Pairs",
+        "items": [
+          "socks",
+          "gloves",
+          "shoes",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites with UN Prefix",
+        "items": [
+          "happy",
+          "kind",
+          "fair",
+          "sure"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use light wordplay: some items can fit more than one idea, but only one group is correct."
+  },
+  "hard": {
+    "id": "10122026-H",
+    "generatedAt": "2026-10-12T06:17:59.394Z",
+    "groups": [
+      {
+        "name": "Polysemes with Many Meanings",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Double as Other Things",
+        "items": [
+          "seal",
+          "crane",
+          "bear",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Names That Mean More",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "rose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Jobs That End in -er",
+        "items": [
+          "baker",
+          "teacher",
+          "painter",
+          "driver"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract links and wordplay. Some items might seem to fit another group at first glance; only the intended group is correct."
+  }
+}

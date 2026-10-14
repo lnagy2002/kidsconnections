@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CLAP",
+      "BEND",
+      "CURL",
+      "FLEA",
+      "FIRM",
+      "WARM",
+      "LIFT",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CLIMB",
+      "SPLASH",
+      "FABLES",
+      "SPIRIT",
+      "GATHER",
+      "FESTAL",
+      "BALANCE",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "FANTASTIC",
+      "EXPLORER",
+      "GENERATION",
+      "SPIRITED",
+      "MAGNETIC",
+      "TRANSLATED",
+      "DREAMLIKE",
+      "FRIENDSHIP"
+    ]
+  }
+}

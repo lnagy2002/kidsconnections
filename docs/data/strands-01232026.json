@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CART",
+      "BAND",
+      "WILD",
+      "FIRM",
+      "GLOW",
+      "BUMP",
+      "FLEW",
+      "HIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "BUNGLE",
+      "CANDLE",
+      "FESTAL",
+      "SPIRAL",
+      "TWIRL",
+      "JOURN",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULATE",
+      "GRADUATES",
+      "FRIENDLY",
+      "HARMONIC",
+      "COMFORTING",
+      "INNOVATIVE",
+      "TRANQUIL",
+      "EXPLORING"
+    ]
+  }
+}

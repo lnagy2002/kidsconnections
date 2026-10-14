@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "LEAF",
+      "CAMP",
+      "HIVE",
+      "FIRM",
+      "RIDE",
+      "FAME",
+      "FOLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "HARMON",
+      "FESTAL",
+      "BALANC",
+      "DREAMY",
+      "SPIRAL",
+      "FESTIVE",
+      "WILLOW"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMFORT",
+      "GRADIENT",
+      "GENERATE",
+      "FANTASTIC",
+      "TRANQUIL",
+      "FRIENDSHIP",
+      "HARMONIC",
+      "ADVENTUR",
+      "INNOVATE"
+    ]
+  }
+}

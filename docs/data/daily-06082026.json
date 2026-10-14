@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06082026-E",
+    "generatedAt": "2026-06-08T05:11:44.775Z",
+    "groups": [
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "crayon",
+          "marker",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rideable Things",
+        "items": [
+          "bike",
+          "scooter",
+          "skateboard",
+          "tricycle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet Treats",
+        "items": [
+          "candy",
+          "cookie",
+          "cake",
+          "ice cream"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Underwater Friends",
+        "items": [
+          "fish",
+          "whale",
+          "octopus",
+          "shrimp"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle pack for date 06082026."
+  },
+  "medium": {
+    "id": "06082026-M",
+    "generatedAt": "2026-06-08T05:11:44.775Z",
+    "groups": [
+      {
+        "name": "Compound Word Pairs",
+        "items": [
+          "toothbrush",
+          "basketball",
+          "sunflower",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors That Are Also Words",
+        "items": [
+          "orange",
+          "blue",
+          "green",
+          "pink"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words You Can Add 'under' To",
+        "items": [
+          "ground",
+          "water",
+          "world",
+          "standing"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Capitalization Shifters",
+        "items": [
+          "march",
+          "polish",
+          "turkey",
+          "china"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle pack for date 06082026."
+  },
+  "hard": {
+    "id": "06082026-H",
+    "generatedAt": "2026-06-08T05:11:44.775Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "spring",
+          "bark",
+          "rock",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Can Be Verbs",
+        "items": [
+          "seal",
+          "horse",
+          "ram",
+          "bear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciation)",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Stress-Shift Noun/Verb Pairs",
+        "items": [
+          "record",
+          "conduct",
+          "object",
+          "permit"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle pack for date 06082026."
+  }
+}

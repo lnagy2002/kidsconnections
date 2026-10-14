@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07092026-E",
+    "generatedAt": "2026-07-09T04:29:49.004Z",
+    "groups": [
+      {
+        "name": "Writing tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "chopsticks"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drink containers",
+        "items": [
+          "cup",
+          "bottle",
+          "pitcher",
+          "mug"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle pack: 4 groups of 4 items each. Concrete, visual themes suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "07092026-M",
+    "generatedAt": "2026-07-09T04:29:49.004Z",
+    "groups": [
+      {
+        "name": "Animals that are also verbs",
+        "items": [
+          "bear",
+          "crane",
+          "seal",
+          "duck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-name fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with multiple meanings or pronunciations",
+        "items": [
+          "wind",
+          "read",
+          "tear",
+          "lead"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things found in a park",
+        "items": [
+          "tree",
+          "bench",
+          "swing",
+          "slide"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle: includes a few 'cross-over temptations' where a word might seem to fit more than one group at first glance."
+  },
+  "hard": {
+    "id": "07092026-H",
+    "generatedAt": "2026-07-09T04:29:49.004Z",
+    "groups": [
+      {
+        "name": "Body parts that can also be verbs",
+        "items": [
+          "hand",
+          "eye",
+          "lip",
+          "toe"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-the-first-letter words (remove first letter to form a new word)",
+        "items": [
+          "knight",
+          "scent",
+          "bloom",
+          "climb"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical concepts",
+        "items": [
+          "scale",
+          "note",
+          "beat",
+          "chord"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle: abstract connections and wordplay. Includes tricky items that can tempt you to group them differently."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02272026-E",
+    "generatedAt": "2026-02-27T03:13:43.125Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit on Trees",
+        "items": [
+          "apple",
+          "orange",
+          "cherry",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Popular Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "book",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections. Easy groups focus on concrete, recognizable items. No word repeats across difficulties."
+  },
+  "medium": {
+    "id": "02272026-M",
+    "generatedAt": "2026-02-27T03:13:43.125Z",
+    "groups": [
+      {
+        "name": "Outerwear",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "mittens"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "tidy",
+          "likely",
+          "usual",
+          "lucky"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Base-Word Compounds",
+        "items": [
+          "base",
+          "meat",
+          "basket",
+          "fire"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sky Features",
+        "items": [
+          "cloud",
+          "star",
+          "sun",
+          "bird"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and visible compounds. Expect some cross-over temptations where items could seem to fit another group, but only one placement is correct."
+  },
+  "hard": {
+    "id": "02272026-H",
+    "generatedAt": "2026-02-27T03:13:43.125Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "play",
+          "spring",
+          "bark",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "sanction",
+          "oversight",
+          "left"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "crane",
+          "seal",
+          "bat",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "-ful Suffix Friends",
+        "items": [
+          "care",
+          "grace",
+          "joy",
+          "help"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract connections and multi-meaning words. Expect deliberate cross-over temptations: some items could seem to belong in another group, but each item has a single correct home."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GOLD",
+      "BLOOM",
+      "FLEET",
+      "SPARK",
+      "CAVEY",
+      "PLANT",
+      "HIVEY",
+      "FABLE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPIRAL",
+      "TRICKY",
+      "BALANCE",
+      "CANDLE",
+      "NURTURE",
+      "FESTAL",
+      "BUNGLE",
+      "GATHER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "EXPLAIN",
+      "FRIENDLY",
+      "MAGNETIC",
+      "NARRATIVE",
+      "TRANSLATE",
+      "INNOVATE",
+      "GENERATE",
+      "COMFORTS"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "COLD",
+      "FINE",
+      "JUMP",
+      "MILD",
+      "WILD",
+      "BAND",
+      "CAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPIRIT",
+      "FARMER",
+      "BALANCE",
+      "DREAMY",
+      "GARNISH",
+      "TRICKY",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTACLE",
+      "INNOVATE",
+      "HARMONIZE",
+      "DREAMLIKE",
+      "GENERATION",
+      "ADVENTURE",
+      "TRANSLATE",
+      "FRIENDSHIP",
+      "COMPLICATE"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAVE",
+      "GLOW",
+      "BEND",
+      "LIFT",
+      "JUMP",
+      "WARM",
+      "SPIN",
+      "CLAP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TWIRL",
+      "GARDEN",
+      "BALLOO",
+      "FABLES",
+      "DREAMY",
+      "SPIRAL",
+      "FESTAL",
+      "FLAIRY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "COMFORTING",
+      "INNOVATIVE",
+      "TRANQUIL",
+      "HARMONIC",
+      "FANTASTIC",
+      "BALANCEDLY",
+      "SPECTRAL",
+      "FRIENDSHIP"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03032026-E",
+    "generatedAt": "2026-03-03T03:18:43.066Z",
+    "groups": [
+      {
+        "name": "Group A",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group B",
+        "items": [
+          "duck",
+          "boat",
+          "log",
+          "leaf"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group C",
+        "items": [
+          "car",
+          "bicycle",
+          "truck",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group D",
+        "items": [
+          "yogurt",
+          "soup",
+          "pudding",
+          "cereal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy connections."
+  },
+  "medium": {
+    "id": "03032026-M",
+    "generatedAt": "2026-03-03T03:18:43.066Z",
+    "groups": [
+      {
+        "name": "Group E",
+        "items": [
+          "raincoat",
+          "toothbrush",
+          "sunflower",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group F",
+        "items": [
+          "note",
+          "beat",
+          "scale",
+          "pitch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group G",
+        "items": [
+          "train",
+          "plane",
+          "scooter",
+          "skateboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group H",
+        "items": [
+          "giraffe",
+          "otter",
+          "yak",
+          "lemur"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level wordplay; cross-over temptations included."
+  },
+  "hard": {
+    "id": "03032026-H",
+    "generatedAt": "2026-03-03T03:18:43.066Z",
+    "groups": [
+      {
+        "name": "Group I",
+        "items": [
+          "tie",
+          "fold",
+          "pack",
+          "lock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group J",
+        "items": [
+          "wind",
+          "lead",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group K",
+        "items": [
+          "teach",
+          "play",
+          "ride",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group L",
+        "items": [
+          "glove",
+          "sock",
+          "shoe",
+          "glasses"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard connections rely on multi-meaning words and prefixes."
+  }
+}

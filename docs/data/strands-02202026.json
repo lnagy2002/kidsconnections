@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "CAGE",
+      "FIRM",
+      "HIVE",
+      "MIST",
+      "PUSH",
+      "RIDE",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDLE",
+      "FESTAL",
+      "GARNET",
+      "JOURN",
+      "PLANTS",
+      "SIMPLE",
+      "TWIRL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "BALANCED",
+      "DREAMING",
+      "HARMONIC",
+      "INNOVATE",
+      "SPIRITED",
+      "GENERATION",
+      "FANTASTIC",
+      "FRIENDLY"
+    ]
+  }
+}

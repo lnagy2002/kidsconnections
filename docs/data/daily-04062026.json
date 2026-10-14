@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04062026-E",
+    "generatedAt": "2026-04-06T03:45:41.228Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "coin",
+          "cookie",
+          "moon",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Know",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Items",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "pot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four concrete, visual groups. All items are kid-friendly and distinct from one another."
+  },
+  "medium": {
+    "id": "04062026-M",
+    "generatedAt": "2026-04-06T03:45:41.228Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "raincoat",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "glasses",
+          "belt",
+          "watch",
+          "socks"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Birds",
+        "items": [
+          "eagle",
+          "sparrow",
+          "peacock",
+          "owl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Orange-ish Foods",
+        "items": [
+          "carrot",
+          "pumpkin",
+          "papaya",
+          "mango"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix concrete words with a touch of wordplay. Some items could seem like they fit another group at first glance (cross-over temptation), but each item has a single best match."
+  },
+  "hard": {
+    "id": "04062026-H",
+    "generatedAt": "2026-04-06T03:45:41.228Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning (Polysemes)",
+        "items": [
+          "spring",
+          "note",
+          "bank",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Are Also Verbs (Same Spelling)",
+        "items": [
+          "sound",
+          "drive",
+          "train",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "blue",
+          "green",
+          "purple",
+          "gold"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "wrist",
+          "gnome",
+          "psalm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and ambiguity. Expect cross-over temptations (e.g., 'spring' can be a season or a verb), but each item belongs to one correct group."
+  }
+}

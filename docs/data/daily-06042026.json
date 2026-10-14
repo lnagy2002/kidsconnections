@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06042026-E",
+    "generatedAt": "2026-06-04T05:20:20.285Z",
+    "groups": [
+      {
+        "name": "Curvy Circle Club",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Treats",
+        "items": [
+          "cereal",
+          "pancake",
+          "egg",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Fashion",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections-style puzzles for date 06042026. Easy level features concrete, visual clusters."
+  },
+  "medium": {
+    "id": "06042026-M",
+    "generatedAt": "2026-06-04T05:20:20.285Z",
+    "groups": [
+      {
+        "name": "Compound Terms",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "backpack",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Name Fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Do Double Duty",
+        "items": [
+          "bat",
+          "rock",
+          "plant",
+          "note"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Meanings That Overlap",
+        "items": [
+          "spring",
+          "jam",
+          "bank",
+          "lead"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use wordplay and cross-over temptations to challenge thinking."
+  },
+  "hard": {
+    "id": "06042026-H",
+    "generatedAt": "2026-06-04T05:20:20.285Z",
+    "groups": [
+      {
+        "name": "Heteronym Set",
+        "items": [
+          "row",
+          "close",
+          "Polish",
+          "desert"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nearby Worlds",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mirror Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound-Alike Letters",
+        "items": [
+          "bee",
+          "sea",
+          "you",
+          "are"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push abstract connections and wordplay prowess. Includes cross-over temptations."
+  }
+}

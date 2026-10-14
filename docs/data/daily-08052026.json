@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08052026-E",
+    "generatedAt": "2026-08-05T03:42:35.802Z",
+    "groups": [
+      {
+        "name": "Household Helpers",
+        "items": [
+          "Chair",
+          "Table",
+          "Lamp",
+          "Clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors on the Color Wheel",
+        "items": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets and Pals",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Staples",
+        "items": [
+          "Oats",
+          "Egg",
+          "Toast",
+          "Milk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzles for 08/05/2026. Four easy groups with concrete, visual themes. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "08052026-M",
+    "generatedAt": "2026-08-05T03:42:35.802Z",
+    "groups": [
+      {
+        "name": "Nature Compounds",
+        "items": [
+          "Sunrise",
+          "Raindrop",
+          "Snowflake",
+          "Windmill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "Park",
+          "Match",
+          "Jump",
+          "Light"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "Waterfall",
+          "Watercolor",
+          "Waterline",
+          "Watermelon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Farm Words",
+        "items": [
+          "Cow",
+          "Hen",
+          "Pig",
+          "Barn"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and compounds. Cross-over temptations are present (e.g., Raindrop could belong with Water-Word Pairs). Ensure only the intended group is chosen."
+  },
+  "hard": {
+    "id": "08052026-H",
+    "generatedAt": "2026-08-05T03:42:35.802Z",
+    "groups": [
+      {
+        "name": "Polysemes with Many Meanings",
+        "items": [
+          "Bank",
+          "Crane",
+          "Seal",
+          "Bark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-Use Words",
+        "items": [
+          "Wave",
+          "Spring",
+          "Paint",
+          "Cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two Pronunciations (Heteronyms)",
+        "items": [
+          "Lead",
+          "Bass",
+          "Wind",
+          "Bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Multi-Meaning Pairs",
+        "items": [
+          "Chip",
+          "Trip",
+          "Fair",
+          "Plant"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles focus on abstract connections and polysemes. Includes cross-over temptations (e.g., Lead could fit both the 'Double-Use Words' and 'Two Pronunciations' groups) to challenge careful grouping."
+  }
+}

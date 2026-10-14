@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01232026-E",
+    "generatedAt": "2026-01-23T02:33:27.189Z",
+    "groups": [
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits on Trees",
+        "items": [
+          "apple",
+          "orange",
+          "pear",
+          "peach"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheel-Travel",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating Utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly grouping. Easy level uses familiar everyday items."
+  },
+  "medium": {
+    "id": "01232026-M",
+    "generatedAt": "2026-01-23T02:33:27.189Z",
+    "groups": [
+      {
+        "name": "Compound Word Pairs",
+        "items": [
+          "butterfly",
+          "rainstorm",
+          "starfish",
+          "snowman"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "duck",
+          "crane",
+          "seal",
+          "spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Word Compounds",
+        "items": [
+          "bluebird",
+          "greenhouse",
+          "blackboard",
+          "redstone"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemous Words",
+        "items": [
+          "note",
+          "scale",
+          "beat",
+          "pitch"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level introduces wordplay and compound terms. Watch for cross-over temptations that could seem to fit another group."
+  },
+  "hard": {
+    "id": "01232026-H",
+    "generatedAt": "2026-01-23T02:33:27.189Z",
+    "groups": [
+      {
+        "name": "Multifunctional Words",
+        "items": [
+          "bank",
+          "match",
+          "rose",
+          "level"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-First-Letter Words",
+        "items": [
+          "stone",
+          "pride",
+          "glance",
+          "crest"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Irregular Plurals",
+        "items": [
+          "man",
+          "woman",
+          "goose",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Object Names",
+        "items": [
+          "olive",
+          "plum",
+          "amber",
+          "jade"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level relies on clever wordplay and less-common connections. Items are carefully chosen to avoid overlaps with other groups."
+  }
+}

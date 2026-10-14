@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07142026-E",
+    "generatedAt": "2026-07-14T03:43:39.433Z",
+    "groups": [
+      {
+        "name": "Set A",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set B",
+        "items": [
+          "blue",
+          "green",
+          "red",
+          "pink"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set C",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set D",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "couch"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level connections puzzles designed for kids."
+  },
+  "medium": {
+    "id": "07142026-M",
+    "generatedAt": "2026-07-14T03:43:39.433Z",
+    "groups": [
+      {
+        "name": "Set E",
+        "items": [
+          "toothbrush",
+          "basketball",
+          "raincoat",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set F",
+        "items": [
+          "plant",
+          "rock",
+          "brush",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set G",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "crayon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set H",
+        "items": [
+          "peach",
+          "fig",
+          "olive",
+          "corn"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level puzzles with simple wordplay and compound words."
+  },
+  "hard": {
+    "id": "07142026-H",
+    "generatedAt": "2026-07-14T03:43:39.433Z",
+    "groups": [
+      {
+        "name": "Set I",
+        "items": [
+          "lead",
+          "bass",
+          "wind",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set J",
+        "items": [
+          "teacher",
+          "painter",
+          "writer",
+          "player"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set K",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set L",
+        "items": [
+          "knight",
+          "thumb",
+          "gnome",
+          "write"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard-level connections with abstract or multi-meaning word relationships."
+  }
+}

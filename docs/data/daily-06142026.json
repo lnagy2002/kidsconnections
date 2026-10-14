@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06142026-E",
+    "generatedAt": "2026-06-14T05:15:04.295Z",
+    "groups": [
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Can Ride",
+        "items": [
+          "bike",
+          "horse",
+          "scooter",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals with Stripes",
+        "items": [
+          "zebra",
+          "tiger",
+          "bee",
+          "skunk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods to Eat with a Spoon",
+        "items": [
+          "soup",
+          "yogurt",
+          "pudding",
+          "oatmeal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-grade connections with concrete, visual groupings."
+  },
+  "medium": {
+    "id": "06142026-M",
+    "generatedAt": "2026-06-14T05:15:04.295Z",
+    "groups": [
+      {
+        "name": "Playtime Word Pairs",
+        "items": [
+          "ground",
+          "date",
+          "time",
+          "room"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball-Word Pairs",
+        "items": [
+          "meat",
+          "base",
+          "fire",
+          "snow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pairs with 'Light'",
+        "items": [
+          "sun",
+          "spot",
+          "moon",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board-Word Combos",
+        "items": [
+          "surf",
+          "white",
+          "black",
+          "key"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use clear word pairs; some tempting misfits add a fun challenge."
+  },
+  "hard": {
+    "id": "06142026-H",
+    "generatedAt": "2026-06-14T05:15:04.295Z",
+    "groups": [
+      {
+        "name": "Word Twins with Different Sounds",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "plant",
+          "rock",
+          "brush",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Word Palindromes",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add -ful Suffix",
+        "items": [
+          "care",
+          "joy",
+          "hope",
+          "play"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set leans on abstract connections and polysemy; there can be tempting overlaps that only belong to one group."
+  }
+}

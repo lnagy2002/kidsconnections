@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05272026-E",
+    "generatedAt": "2026-05-27T04:54:27.069Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "ball",
+          "wheel",
+          "coin",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "banana",
+          "apple",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles for Transport",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "boat"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections puzzle set for 05272026. Easy level uses concrete, visual groupings."
+  },
+  "medium": {
+    "id": "05272026-M",
+    "generatedAt": "2026-05-27T04:54:27.069Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "bow",
+          "lead"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Same Spelling, Different Roles",
+        "items": [
+          "leaf",
+          "park",
+          "box",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Kitchen & Home Items",
+        "items": [
+          "spoon",
+          "cup",
+          "plate",
+          "chair"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "kite",
+          "balloon",
+          "plane",
+          "rocket"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level adds playful polysemes and cross-over words to tempt guesses without giving away the group."
+  },
+  "hard": {
+    "id": "05272026-H",
+    "generatedAt": "2026-05-27T04:54:27.069Z",
+    "groups": [
+      {
+        "name": "Times of Day",
+        "items": [
+          "dawn",
+          "noon",
+          "dusk",
+          "night"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "wind",
+          "snow",
+          "hail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Concepts",
+        "items": [
+          "note",
+          "tempo",
+          "beat",
+          "scale"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes & Forms",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "line"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level invites abstract connections, with subtle links between groups to challenge careful reasoning."
+  }
+}

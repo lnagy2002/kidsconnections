@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05052026-E",
+    "generatedAt": "2026-05-05T03:55:30.817Z",
+    "groups": [
+      {
+        "name": "Beach Treasures",
+        "items": [
+          "shell",
+          "starfish",
+          "towel",
+          "shovel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Favorites",
+        "items": [
+          "shoes",
+          "socks",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Playground Items",
+        "items": [
+          "swing",
+          "slide",
+          "seesaw",
+          "bench"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh kid-friendly Connections puzzle. Easy level focuses on concrete, visual groupings."
+  },
+  "medium": {
+    "id": "05052026-M",
+    "generatedAt": "2026-05-05T03:55:30.817Z",
+    "groups": [
+      {
+        "name": "Ride and Go",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Music Makers",
+        "items": [
+          "piano",
+          "guitar",
+          "flute",
+          "drum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Juicy Fruits",
+        "items": [
+          "mango",
+          "orange",
+          "peach",
+          "grape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wild Animals",
+        "items": [
+          "lion",
+          "tiger",
+          "bear",
+          "fox"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and a hint of cross-over temptations. Some items might seem like they fit another group at first glance, but belong to their assigned group."
+  },
+  "hard": {
+    "id": "05052026-H",
+    "generatedAt": "2026-05-05T03:55:30.817Z",
+    "groups": [
+      {
+        "name": "Opposite-Meanings",
+        "items": [
+          "sanction",
+          "left",
+          "dust",
+          "weather"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation Pairs",
+        "items": [
+          "wind",
+          "bass",
+          "tear",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-and-Verb Pairs",
+        "items": [
+          "plant",
+          "record",
+          "train",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "known",
+          "likely",
+          "pleasant",
+          "friendly"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore polysemy, pronunciation, and opposite meanings. Contains cross-over temptations to challenge careful grouping."
+  }
+}

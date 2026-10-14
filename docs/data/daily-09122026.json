@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09122026-E",
+    "generatedAt": "2026-09-12T04:51:19.552Z",
+    "groups": [
+      {
+        "name": "Group A: Round things you can touch",
+        "items": [
+          "Ball",
+          "Coin",
+          "Marble",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group B: Headwear you wear",
+        "items": [
+          "Hat",
+          "Cap",
+          "Helmet",
+          "Crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group C: Things that fly in the sky",
+        "items": [
+          "Kite",
+          "Balloon",
+          "Plane",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group D: Colorful foods you can eat",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Carrot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with four concrete visual themes."
+  },
+  "medium": {
+    "id": "09122026-M",
+    "generatedAt": "2026-09-12T04:51:19.552Z",
+    "groups": [
+      {
+        "name": "Group E1: Noun-verb words",
+        "items": [
+          "Plant",
+          "Watch",
+          "Jump",
+          "Ring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group E2: Color-name nouns",
+        "items": [
+          "Olive",
+          "Ivory",
+          "Rose",
+          "Coral"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group E3: Cardinal directions",
+        "items": [
+          "North",
+          "East",
+          "South",
+          "West"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group E4: Common containers",
+        "items": [
+          "Box",
+          "Cup",
+          "Jar",
+          "Bottle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and mild cross-over temptations to challenge quick-thinking kids."
+  },
+  "hard": {
+    "id": "09122026-H",
+    "generatedAt": "2026-09-12T04:51:19.552Z",
+    "groups": [
+      {
+        "name": "Group H1: Polysemes (words with multiple meanings)",
+        "items": [
+          "Bat",
+          "Bank",
+          "Crane",
+          "Duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group H2: Everyday tools",
+        "items": [
+          "Hammer",
+          "Saw",
+          "Wrench",
+          "Drill"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group H3: Celestial terms",
+        "items": [
+          "Star",
+          "Nova",
+          "Comet",
+          "Orbit"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group H4: Size descriptors",
+        "items": [
+          "Tiny",
+          "Large",
+          "Wide",
+          "Narrow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle features abstract connections and polysemes; includes gentle cross-over temptations to keep minds active."
+  }
+}

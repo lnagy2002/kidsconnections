@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04262026-E",
+    "generatedAt": "2026-04-26T04:01:28.762Z",
+    "groups": [
+      {
+        "name": "Red things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "fire truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "clock",
+          "pizza"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals that hop",
+        "items": [
+          "frog",
+          "rabbit",
+          "kangaroo",
+          "toad"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a classroom",
+        "items": [
+          "chalk",
+          "glue",
+          "ruler",
+          "globe"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set for 04262026. Easy puzzles use concrete, visual connections."
+  },
+  "medium": {
+    "id": "04262026-M",
+    "generatedAt": "2026-04-26T04:01:28.762Z",
+    "groups": [
+      {
+        "name": "Time-time pair words",
+        "items": [
+          "bed",
+          "story",
+          "meal",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'book' to make a new word",
+        "items": [
+          "note",
+          "guide",
+          "text",
+          "photo"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather terms",
+        "items": [
+          "rain",
+          "wind",
+          "snow",
+          "fog"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cleaning tools",
+        "items": [
+          "broom",
+          "mop",
+          "brush",
+          "rag"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce simple wordplay and cross-over temptations (e.g., 'story' could also fit a 'book' group)."
+  },
+  "hard": {
+    "id": "04262026-H",
+    "generatedAt": "2026-04-26T04:01:28.762Z",
+    "groups": [
+      {
+        "name": "Words that take 're' to mean do again",
+        "items": [
+          "do",
+          "act",
+          "place",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that form insects when 'fly' is added",
+        "items": [
+          "dragon",
+          "may",
+          "butter",
+          "fire"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Storm joiners",
+        "items": [
+          "brain",
+          "sand",
+          "thunder",
+          "dust"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Store-style word pairings",
+        "items": [
+          "candy",
+          "book",
+          "toy",
+          "shoe"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections. A few items (e.g., 'story' in medium) can seem to fit another group, adding a gentle temptation to re-scan."
+  }
+}

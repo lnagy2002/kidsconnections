@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05022026-E",
+    "generatedAt": "2026-05-02T03:59:12.757Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "butterfly",
+          "plane",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "moon",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level: four concrete, visual groups. Each group has 4 distinct, kid-friendly items."
+  },
+  "medium": {
+    "id": "05022026-M",
+    "generatedAt": "2026-05-02T03:59:12.757Z",
+    "groups": [
+      {
+        "name": "Accessories to Wear",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "earrings"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "grater",
+          "whisk",
+          "spatula"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Word Pairs",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Subjects",
+        "items": [
+          "math",
+          "science",
+          "art",
+          "history"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level: four groups with simple wordplay and cross-over temptations. Each group has 4 items; items are distinct from Easy and Hard sets."
+  },
+  "hard": {
+    "id": "05022026-H",
+    "generatedAt": "2026-05-02T03:59:12.757Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "box",
+          "chair",
+          "phone",
+          "record"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits That Are Colors",
+        "items": [
+          "orange",
+          "lime",
+          "olive",
+          "peach"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (Janus Words)",
+        "items": [
+          "sanction",
+          "oversight",
+          "dust",
+          "weather"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level: abstract connections and words with multiple meanings. Look for true group membership, not surface fit. Some items may tempt you to slip into another group, but they belong to their assigned set."
+  }
+}

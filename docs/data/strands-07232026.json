@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAVE",
+      "FIRM",
+      "GLOW",
+      "MIST",
+      "PLUM",
+      "RIDE",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOM",
+      "CRISP",
+      "DREAM",
+      "FLAIR",
+      "GARNET",
+      "NURSED",
+      "SHINE",
+      "TWIRL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "DREAMY",
+      "FESTIVAL",
+      "HARMONY",
+      "INNOVATE",
+      "SPIRITED",
+      "TRANQUIL",
+      "WONDERED",
+      "GLITTERY"
+    ]
+  }
+}

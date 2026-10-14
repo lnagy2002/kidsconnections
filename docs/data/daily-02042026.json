@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02042026-E",
+    "generatedAt": "2026-02-04T03:14:36.116Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals Starting with A",
+        "items": [
+          "ant",
+          "ape",
+          "alligator",
+          "albatross"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Face Accessories",
+        "items": [
+          "glasses",
+          "mask",
+          "sunglasses",
+          "face shield"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle set with concrete, picture-friendly categories suitable for younger solvers."
+  },
+  "medium": {
+    "id": "02042026-M",
+    "generatedAt": "2026-02-04T03:14:36.116Z",
+    "groups": [
+      {
+        "name": "Compound Words (Examples)",
+        "items": [
+          "raincoat",
+          "suitcase",
+          "lighthouse",
+          "toothbrush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "book",
+          "watch",
+          "park",
+          "note"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words Ending in -ful",
+        "items": [
+          "careful",
+          "colorful",
+          "beautiful",
+          "playful"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Adjectives",
+        "items": [
+          "sunny",
+          "rainy",
+          "windy",
+          "snowy"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and familiar patterns; some items might tempt you to place them in another group, but they belong here."
+  },
+  "hard": {
+    "id": "02042026-H",
+    "generatedAt": "2026-02-04T03:14:36.116Z",
+    "groups": [
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "left",
+          "fast",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors That Are Foods",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Object Hybrids",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "crow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words With Re- Prefix",
+        "items": [
+          "do",
+          "play",
+          "use",
+          "make"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set emphasizes abstract ideas and multiple meanings; trust the grouping logic, not first impressions."
+  }
+}

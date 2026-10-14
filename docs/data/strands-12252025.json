@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "BUMP",
+      "LAMP",
+      "DUST",
+      "FIRM",
+      "CANE",
+      "POND",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "JOURNAL",
+      "GATHER",
+      "CANDLE",
+      "PLANTS",
+      "WILLOW",
+      "NURTURE",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "ADVENTURE",
+      "BALANCED",
+      "FRIENDLY",
+      "GENERATE",
+      "COMFORTING",
+      "TRADITION",
+      "SPECTACLE",
+      "INNOVATIVE"
+    ]
+  }
+}

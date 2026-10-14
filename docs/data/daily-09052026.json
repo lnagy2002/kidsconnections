@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09052026-E",
+    "generatedAt": "2026-09-05T04:48:16.938Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "moon",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Helpers",
+        "items": [
+          "chalk",
+          "desk",
+          "pencil",
+          "book"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Popular Pets",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Clothing Items",
+        "items": [
+          "hat",
+          "shirt",
+          "coat",
+          "socks"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh on 09052026: easy connections with concrete, visual groups."
+  },
+  "medium": {
+    "id": "09052026-M",
+    "generatedAt": "2026-09-05T04:48:16.938Z",
+    "groups": [
+      {
+        "name": "Sun Pair Words",
+        "items": [
+          "flower",
+          "beam",
+          "rise",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "brush",
+          "plant",
+          "train",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "orange"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Sounds",
+        "items": [
+          "meow",
+          "moo",
+          "baa",
+          "oink"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes subtle cross-over temptations where some items might seem to fit more than one group, but only belong to one."
+  },
+  "hard": {
+    "id": "09052026-H",
+    "generatedAt": "2026-09-05T04:48:16.938Z",
+    "groups": [
+      {
+        "name": "Pronunciation Pairs",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Solar System Planets",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Laboratory Tools",
+        "items": [
+          "beaker",
+          "flask",
+          "goggles",
+          "lens"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "ruler",
+          "eraser",
+          "glue",
+          "scissors"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: emphasizes abstract connections and multi-meaning words; includes deliberate cross-over temptations."
+  }
+}

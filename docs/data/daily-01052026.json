@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01052026-E",
+    "generatedAt": "2026-01-05T02:42:44.534Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "button",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "beret",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "pancakes"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group has a simple, kid-friendly theme."
+  },
+  "medium": {
+    "id": "01052026-M",
+    "generatedAt": "2026-01-05T02:42:44.534Z",
+    "groups": [
+      {
+        "name": "Words that Pair with Sun",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow-Related Companions",
+        "items": [
+          "man",
+          "cone",
+          "flake",
+          "globe"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns and Verbs in One",
+        "items": [
+          "play",
+          "paint",
+          "drive",
+          "watch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "snow",
+          "hail",
+          "wind"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations exist; pick the strongest link in each group."
+  },
+  "hard": {
+    "id": "01052026-H",
+    "generatedAt": "2026-01-05T02:42:44.534Z",
+    "groups": [
+      {
+        "name": "Polysemous Words (Noun & Verb)",
+        "items": [
+          "bat",
+          "spring",
+          "crane",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitalization Shifts",
+        "items": [
+          "march",
+          "polish",
+          "china",
+          "turkey"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Also Mean Actions",
+        "items": [
+          "duck",
+          "seal",
+          "crab",
+          "snake"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit-Color Words",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections and multi-meaning words challenge pattern-finding."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04112026-E",
+    "generatedAt": "2026-04-11T03:23:44.658Z",
+    "groups": [
+      {
+        "name": "Color Burst",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "donut",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pond Buddies",
+        "items": [
+          "fish",
+          "frog",
+          "duck",
+          "turtle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Fun",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle for 04/11/2026."
+  },
+  "medium": {
+    "id": "04112026-M",
+    "generatedAt": "2026-04-11T03:23:44.658Z",
+    "groups": [
+      {
+        "name": "Senses in Action",
+        "items": [
+          "see",
+          "hear",
+          "smell",
+          "taste"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Hand Tools",
+        "items": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sky Travelers",
+        "items": [
+          "bird",
+          "bat",
+          "bee",
+          "owl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun/Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "note",
+          "rise"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle for 04/11/2026. Includes cross-over temptations to guide careful grouping."
+  },
+  "hard": {
+    "id": "04112026-H",
+    "generatedAt": "2026-04-11T03:23:44.658Z",
+    "groups": [
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "sanction",
+          "oversight",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Stars",
+        "items": [
+          "knight",
+          "island",
+          "wrist",
+          "gnome"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Different Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "happy",
+          "kind",
+          "tidy",
+          "fair"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle for 04/11/2026. Emphasizes tricky word meanings and pronunciation shifts."
+  }
+}

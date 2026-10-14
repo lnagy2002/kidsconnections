@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05112026-E",
+    "generatedAt": "2026-05-11T04:43:01.370Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "shoe",
+          "sock",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you write with",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four concrete groups for younger kids: round things, footwear, fruits, and writing tools. Each group has four items."
+  },
+  "medium": {
+    "id": "05112026-M",
+    "generatedAt": "2026-05-11T04:43:01.370Z",
+    "groups": [
+      {
+        "name": "Breakfast items",
+        "items": [
+          "toast",
+          "cereal",
+          "yogurt",
+          "egg"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Desk helpers",
+        "items": [
+          "eraser",
+          "notebook",
+          "stapler",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pet animals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words you can form by adding un- to make opposites",
+        "items": [
+          "happy",
+          "tidy",
+          "usual",
+          "kind"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include light wordplay. Some items could tempt you to place them in a different group, but each item truly belongs to its own group."
+  },
+  "hard": {
+    "id": "05112026-H",
+    "generatedAt": "2026-05-11T04:43:01.370Z",
+    "groups": [
+      {
+        "name": "Polysemes with two unrelated meanings",
+        "items": [
+          "bat",
+          "spring",
+          "bank",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones (sound-alikes)",
+        "items": [
+          "knight",
+          "flower",
+          "sea",
+          "bare"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-and-verb words (same spelling)",
+        "items": [
+          "watch",
+          "play",
+          "move",
+          "drink"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name words that are also things",
+        "items": [
+          "peach",
+          "olive",
+          "rose",
+          "violet"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and polysemes. There are cross-over temptations (words that could seem to fit another group) but each item belongs to exactly one group."
+  }
+}

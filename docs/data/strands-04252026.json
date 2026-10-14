@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "CLAP",
+      "GLOW",
+      "LIFT",
+      "MIST",
+      "PUSH",
+      "SAND",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BASKET",
+      "CRISPED",
+      "DUSTY",
+      "FABLES",
+      "GARDEN",
+      "HARMON",
+      "JOURNAL",
+      "PLANTS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "DREAMLIKE",
+      "FRIENDLY",
+      "INNOVATE",
+      "MAGNETIC",
+      "SPECTACLE",
+      "TRANSLATE",
+      "WONDERED",
+      "GLITTERY"
+    ]
+  }
+}

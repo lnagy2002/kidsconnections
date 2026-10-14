@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FARM",
+      "MEAL",
+      "WILD",
+      "BUMP",
+      "HIDE",
+      "CAGE",
+      "BEND",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPARKY",
+      "BALANCE",
+      "FESTAL",
+      "TWIRLS",
+      "FABLES",
+      "NURSED",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "SPIRITED",
+      "FRIENDLY",
+      "FANTASTIC",
+      "GRADUATES",
+      "COMFORTING",
+      "FASCINATE",
+      "TRANSLATE",
+      "INNOVATIVE"
+    ]
+  }
+}

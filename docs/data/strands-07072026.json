@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "BOLD",
+      "CAVE",
+      "FLEW",
+      "MESH",
+      "WIND",
+      "GLOW",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GARNET",
+      "NURSED",
+      "FARMER",
+      "JOURNEY",
+      "BRIDGE",
+      "TWILIGHT",
+      "SILENT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "EXPLAINED",
+      "FRIENDLY",
+      "FESTIVITY",
+      "MAGNETIC",
+      "DREAMLIKE",
+      "COMFORTED",
+      "TRANSLATED",
+      "INNOVATIVE"
+    ]
+  }
+}

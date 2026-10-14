@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FIRM",
+      "GLOW",
+      "BEND",
+      "CAVE",
+      "SPIN",
+      "FLEA",
+      "HIDE",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "SPARKY",
+      "CLIMAX",
+      "CIRCLE",
+      "BRIGHT",
+      "FARMER",
+      "DREAMY",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "DREAMING",
+      "FESTIVITY",
+      "SPIRITED",
+      "TRICKLE",
+      "WONDERED",
+      "GENERATE",
+      "INNOVATE",
+      "COMFORTS"
+    ]
+  }
+}

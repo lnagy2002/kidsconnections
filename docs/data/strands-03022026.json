@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "HIVE",
+      "WILD",
+      "BUMP",
+      "LUMP",
+      "BAND",
+      "GLOW",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "DREAMY",
+      "MYSTIC",
+      "BUNGLE",
+      "NURSED",
+      "CLIMBER",
+      "FESTAL",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVITY",
+      "TRANQUIL",
+      "BALANCING",
+      "HARMONIC",
+      "SPIRITED",
+      "GENERATION",
+      "MAGNETIC",
+      "DREAMLIKE",
+      "COMFORTING"
+    ]
+  }
+}

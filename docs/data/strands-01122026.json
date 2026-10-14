@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "CAME",
+      "FLEW",
+      "HIVE",
+      "LAMP",
+      "MIST",
+      "POND",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLASTED",
+      "FURNACE",
+      "GATHERD",
+      "HARMONY",
+      "JOURNEY",
+      "KITCHEN",
+      "SIMPLEX",
+      "WILLOWS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ABUNDANT",
+      "ACROBATICS",
+      "BALANCEDLY",
+      "CIRCULATED",
+      "COMFORTING",
+      "DREAMLIKE",
+      "INNOVATIVE",
+      "TRANSLATED",
+      "WONDERFUL"
+    ]
+  }
+}

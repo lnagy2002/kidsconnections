@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CORN",
+      "BARKY",
+      "FLASK",
+      "GRASS",
+      "JUMPY",
+      "PICKY",
+      "VINEY",
+      "SWEEP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PILLOW",
+      "FESTAL",
+      "SPIRAL",
+      "BUNGLE",
+      "CANDOR",
+      "FESTALY",
+      "TWIRLER",
+      "GARNISH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CIRCULATE",
+      "SPIRITED",
+      "TRANSLATE",
+      "INNOVATE",
+      "HARMONIC",
+      "ADVENTURE",
+      "GENERATE",
+      "IMAGINARY",
+      "FRIENDSHIP"
+    ]
+  }
+}

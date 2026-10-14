@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03012026-E",
+    "generatedAt": "2026-03-01T03:26:50.690Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Bits",
+        "items": [
+          "egg",
+          "toast",
+          "cereal",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "kite",
+          "plane",
+          "butterfly",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with 4 groups of 4 items; all items are unique and suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "03012026-M",
+    "generatedAt": "2026-03-01T03:26:50.690Z",
+    "groups": [
+      {
+        "name": "Made of Two Words",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "raincoat",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Friends",
+        "items": [
+          "spoon",
+          "plate",
+          "mug",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "dog",
+          "cat",
+          "rabbit",
+          "hamster"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "chalk",
+          "marker",
+          "binder",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and compound-word ideas. Some items might tempt you to place them in other groups, but they belong in their listed group."
+  },
+  "hard": {
+    "id": "03012026-H",
+    "generatedAt": "2026-03-01T03:26:50.690Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "bank",
+          "lead"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name Fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're' to Make New Verbs",
+        "items": [
+          "do",
+          "make",
+          "write",
+          "cycle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Park-Ready Things",
+        "items": [
+          "bench",
+          "swing",
+          "slide",
+          "tree"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and some tempting overlaps. Each item clearly belongs to one group when read carefully."
+  }
+}

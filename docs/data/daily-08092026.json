@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08092026-E",
+    "generatedAt": "2026-08-09T02:34:18.901Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "cherry",
+          "strawberry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "butterfly",
+          "plane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Other Fruits",
+        "items": [
+          "banana",
+          "grape",
+          "pear",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual groups for 2nd-6th graders."
+  },
+  "medium": {
+    "id": "08092026-M",
+    "generatedAt": "2026-08-09T02:34:18.901Z",
+    "groups": [
+      {
+        "name": "Word Mashups",
+        "items": [
+          "sunflower",
+          "toothbrush",
+          "rainbow",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "eraser",
+          "ruler",
+          "scissors",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Playground Items",
+        "items": [
+          "swing",
+          "slide",
+          "see-saw",
+          "fountain"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words Ending with -ing",
+        "items": [
+          "singing",
+          "dancing",
+          "cooking",
+          "reading"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles blend word parts and everyday items; some items could seem to fit other groups, but only belong to their assigned group."
+  },
+  "hard": {
+    "id": "08092026-H",
+    "generatedAt": "2026-08-09T02:34:18.901Z",
+    "groups": [
+      {
+        "name": "Prefix 're' Word Friends",
+        "items": [
+          "do",
+          "act",
+          "write",
+          "play"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Last-Letter Trims",
+        "items": [
+          "cart",
+          "care",
+          "tape",
+          "pins"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Backward Word Pairs",
+        "items": [
+          "live",
+          "part",
+          "stop",
+          "drawer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 's' to Front",
+        "items": [
+          "pan",
+          "car",
+          "ear",
+          "eat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections and multi-meaning wordplay; some items may resemble other groups to create tempting misplacements."
+  }
+}

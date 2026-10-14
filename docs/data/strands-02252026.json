@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "BEND",
+      "FLEW",
+      "GLOW",
+      "HIDE",
+      "MIST",
+      "CLIP",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKY",
+      "BUNGLE",
+      "CRUNCH",
+      "HARMON",
+      "FESTAL",
+      "TWIRLS",
+      "NURSED",
+      "SIMPLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CIRCULATE",
+      "TRANSLATE",
+      "COMFORTING",
+      "HARMONIOUS",
+      "ADVENTURE",
+      "GENERATE",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "FANTASTIC"
+    ]
+  }
+}

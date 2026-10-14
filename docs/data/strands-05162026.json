@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "KITE",
+      "CAMP",
+      "BUMP",
+      "HIDE",
+      "GLOW",
+      "MIST",
+      "FIRM",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOMY",
+      "CRISP",
+      "TWIRL",
+      "FLEETS",
+      "GARNET",
+      "SPIRAL",
+      "NURSED",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "FESTIVITY",
+      "HARMONIC",
+      "GRADUATE",
+      "DREAMLIKE",
+      "SPIRITED",
+      "FANTASTIC",
+      "TRANQUIL",
+      "CIRCULAR"
+    ]
+  }
+}

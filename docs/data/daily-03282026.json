@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03282026-E",
+    "generatedAt": "2026-03-28T03:21:35.411Z",
+    "groups": [
+      {
+        "name": "Yummy Eats",
+        "items": [
+          "Apple",
+          "Banana",
+          "Carrot",
+          "Bread"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "Pot",
+          "Pan",
+          "Spatula",
+          "Ladle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Friends",
+        "items": [
+          "Lion",
+          "Penguin",
+          "Giraffe",
+          "Zebra"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sounds to Hear",
+        "items": [
+          "Bell",
+          "Drum",
+          "Piano",
+          "Whistle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles feature concrete, visual groupings of everyday items kids recognize."
+  },
+  "medium": {
+    "id": "03282026-M",
+    "generatedAt": "2026-03-28T03:21:35.411Z",
+    "groups": [
+      {
+        "name": "Tools You Use",
+        "items": [
+          "Hammer",
+          "Wrench",
+          "Screwdriver",
+          "Pliers"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ways to Travel",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Train",
+          "Boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that are Also Verbs",
+        "items": [
+          "Run",
+          "Jump",
+          "Park",
+          "Play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fresh Produce",
+        "items": [
+          "Kiwi",
+          "Mango",
+          "Peas",
+          "Corn"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple word play and connections. Some items might tempt you to place them in another group, but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "03282026-H",
+    "generatedAt": "2026-03-28T03:21:35.411Z",
+    "groups": [
+      {
+        "name": "Double-Word Compounds",
+        "items": [
+          "Breakfast",
+          "Sunflower",
+          "Mailbox",
+          "Football"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Go with Fire",
+        "items": [
+          "Truck",
+          "Alarm",
+          "Fighter",
+          "Place"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under-Word Pairs",
+        "items": [
+          "Ground",
+          "Stand",
+          "Water",
+          "Pay"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Terms",
+        "items": [
+          "Storm",
+          "Hail",
+          "Fog",
+          "Wind"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require deeper connections. Look out for cross-over temptations—some items could seem to fit another group, but only the intended group is correct."
+  }
+}

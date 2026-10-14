@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "FRESH",
+      "HIVEY",
+      "LUMPY",
+      "SPARK",
+      "BUMPY",
+      "FABLE",
+      "NICE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "FESTAL",
+      "GARNET",
+      "FLEETS",
+      "CANDOR",
+      "HARMON",
+      "BUNGLE",
+      "GLIDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "NARRATIVE",
+      "TRANSLATE",
+      "HARMONIC",
+      "COMFORTED",
+      "WONDERMENT",
+      "GENERATE",
+      "EXPLORING",
+      "GRADIENT",
+      "SPECTRAL"
+    ]
+  }
+}

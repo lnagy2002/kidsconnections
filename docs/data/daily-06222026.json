@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06222026-E",
+    "generatedAt": "2026-06-22T05:40:25.061Z",
+    "groups": [
+      {
+        "name": "Circles and Orbs",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "bubble"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear for Heads",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yummy Snacks",
+        "items": [
+          "apple",
+          "cookie",
+          "cracker",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle with visual themes."
+  },
+  "medium": {
+    "id": "06222026-M",
+    "generatedAt": "2026-06-22T05:40:25.061Z",
+    "groups": [
+      {
+        "name": "Book Prefixes",
+        "items": [
+          "notebook",
+          "bookmark",
+          "bookcase",
+          "bookworm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Companions",
+        "items": [
+          "rise",
+          "beam",
+          "flower",
+          "screen"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Pairings",
+        "items": [
+          "wood",
+          "alarm",
+          "fly",
+          "engine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Workshop Tools",
+        "items": [
+          "hammer",
+          "saw",
+          "drill",
+          "wrench"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles blend simple wordplay and common compounds."
+  },
+  "hard": {
+    "id": "06222026-H",
+    "generatedAt": "2026-06-22T05:40:25.061Z",
+    "groups": [
+      {
+        "name": "Noun-and-Verb Words",
+        "items": [
+          "rock",
+          "plant",
+          "train",
+          "box"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Words that are Objects",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "lavender"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Home Phrases",
+        "items": [
+          "run",
+          "base",
+          "town",
+          "land"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Music Terms",
+        "items": [
+          "note",
+          "scale",
+          "chord",
+          "tempo"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections with a touch of tricky overlaps."
+  }
+}

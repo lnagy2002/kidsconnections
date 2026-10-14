@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06132026-E",
+    "generatedAt": "2026-06-13T05:00:31.583Z",
+    "groups": [
+      {
+        "name": "Wardrobe Picks",
+        "items": [
+          "hat",
+          "shirt",
+          "scarf",
+          "shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Snack Time Staples",
+        "items": [
+          "apple",
+          "banana",
+          "bread",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Dishes & Utensils",
+        "items": [
+          "spoon",
+          "plate",
+          "cup",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pasture Friends",
+        "items": [
+          "pig",
+          "cow",
+          "sheep",
+          "goat"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle set with concrete, visual themes. Fresh and kid-friendly—no repeats from other difficulties."
+  },
+  "medium": {
+    "id": "06132026-M",
+    "generatedAt": "2026-06-13T05:00:31.583Z",
+    "groups": [
+      {
+        "name": "Nature’s Double-Word Combos A",
+        "items": [
+          "bookcase",
+          "sunflower",
+          "raincoat",
+          "starfish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nature’s Double-Word Combos B",
+        "items": [
+          "earring",
+          "handbag",
+          "snowman",
+          "firefly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Food Pairs",
+        "items": [
+          "watermelon",
+          "hotdog",
+          "moonbeam",
+          "daybreak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Outdoor Word Pairs",
+        "items": [
+          "backyard",
+          "playground",
+          "sunrise",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay with compound words. Cross-over temptations may make a word seem like it belongs in another group, but each item fits only its assigned group."
+  },
+  "hard": {
+    "id": "06132026-H",
+    "generatedAt": "2026-06-13T05:00:31.583Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Word Pairs",
+        "items": [
+          "bat",
+          "note",
+          "park",
+          "play"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homographs with Different Sounds",
+        "items": [
+          "wind",
+          "bow",
+          "row",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Names",
+        "items": [
+          "fox",
+          "yak",
+          "crow",
+          "deer"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Time & Measurement Units",
+        "items": [
+          "hour",
+          "minute",
+          "mile",
+          "second"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multi-meaning words. Includes cross-over temptations where items might seem to fit another group but belong to their assigned one."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08212026-E",
+    "generatedAt": "2026-08-21T02:06:52.889Z",
+    "groups": [
+      {
+        "name": "Sky and Ground Objects",
+        "items": [
+          "sun",
+          "cloud",
+          "moon",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Fashion",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks to Sip",
+        "items": [
+          "water",
+          "milk",
+          "juice",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 08212026, kid-friendly and visually clear."
+  },
+  "medium": {
+    "id": "08212026-M",
+    "generatedAt": "2026-08-21T02:06:52.889Z",
+    "groups": [
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "book",
+          "pencil",
+          "eraser",
+          "notebook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Daily Actions",
+        "items": [
+          "run",
+          "eat",
+          "read",
+          "jump"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wintry Words",
+        "items": [
+          "ice",
+          "snow",
+          "rain",
+          "hail"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Travel Machines",
+        "items": [
+          "train",
+          "plane",
+          "boat",
+          "truck"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level twists with words that could tempt misplacement but fit uniquely."
+  },
+  "hard": {
+    "id": "08212026-H",
+    "generatedAt": "2026-08-21T02:06:52.889Z",
+    "groups": [
+      {
+        "name": "Words with Many Senses",
+        "items": [
+          "bat",
+          "line",
+          "note",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Verbs",
+        "items": [
+          "bear",
+          "duck",
+          "seal",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound Words",
+        "items": [
+          "ring",
+          "hum",
+          "buzz",
+          "clang"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite-Meanings Words",
+        "items": [
+          "dust",
+          "clip",
+          "fast",
+          "left"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set with polysemes, animal-verb pairs, and contronyms."
+  }
+}

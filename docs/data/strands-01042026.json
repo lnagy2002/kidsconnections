@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CLAMP",
+      "DUSTY",
+      "FLEET",
+      "GHOST",
+      "HAPPY",
+      "JUMPY",
+      "MISTY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALANCE",
+      "CANDLE",
+      "DREAMY",
+      "FESTAL",
+      "GARNISH",
+      "HARMONY",
+      "JOURNEY",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "COMPLICATE",
+      "DISCOVER",
+      "EXPLORING",
+      "GENERATE",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "NARRATIVE",
+      "SPIRALING"
+    ]
+  }
+}

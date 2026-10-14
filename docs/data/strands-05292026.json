@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "FLEW",
+      "HIDE",
+      "JUMP",
+      "LIFT",
+      "MIST",
+      "PUSH",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CRUNCH",
+      "FABLES",
+      "GATHER",
+      "HARMON",
+      "JOURN",
+      "NURSED",
+      "SIMPLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "BALANCED",
+      "CARNIVAL",
+      "COMFORTS",
+      "FRIENDLY",
+      "HARMONIC",
+      "INNOVATED",
+      "MAGNETIC",
+      "TRANSLATED"
+    ]
+  }
+}

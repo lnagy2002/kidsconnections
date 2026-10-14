@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOW",
+      "COLD",
+      "FIND",
+      "HIDE",
+      "MIST",
+      "PUSH",
+      "SWIM",
+      "WIND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FARMER",
+      "GATHER",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS",
+      "THUNDER",
+      "WATERING"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "BALANCED",
+      "COMFORTS",
+      "DREAMING",
+      "GENERATED",
+      "HARMONIC",
+      "INNOVATED",
+      "SPECTRAL",
+      "WONDERFUL"
+    ]
+  }
+}

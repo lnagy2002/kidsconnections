@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10032026-E",
+    "generatedAt": "2026-10-03T05:34:16.623Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Own",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set: 4 groups of 4 kid-friendly items; complete freshness and no repeated items across difficulties."
+  },
+  "medium": {
+    "id": "10032026-M",
+    "generatedAt": "2026-10-03T05:34:16.623Z",
+    "groups": [
+      {
+        "name": "Fruits that are Colors",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 're' Prefix Verbs",
+        "items": [
+          "do",
+          "play",
+          "write",
+          "try"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Supplies (Non-Easy)",
+        "items": [
+          "eraser",
+          "ruler",
+          "glue",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "plane",
+          "bike"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and cross-over hints; items are distinct from easy."
+  },
+  "hard": {
+    "id": "10032026-H",
+    "generatedAt": "2026-10-03T05:34:16.623Z",
+    "groups": [
+      {
+        "name": "Fire- Prefix Words",
+        "items": [
+          "fly",
+          "place",
+          "man",
+          "work"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Rain- Prefix Words",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "check"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Over- Prefix Words",
+        "items": [
+          "look",
+          "draw",
+          "turn",
+          "load"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water- Prefix Words",
+        "items": [
+          "fall",
+          "melon",
+          "proof",
+          "front"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections; some items could seem to fit other groups but belong to the designated theme."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05142026-E",
+    "generatedAt": "2026-05-14T04:27:32.912Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Finds",
+        "items": [
+          "carrot",
+          "potato",
+          "onion",
+          "garlic"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Friends",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Fun",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzle set for 05142026 (Easy level)."
+  },
+  "medium": {
+    "id": "05142026-M",
+    "generatedAt": "2026-05-14T04:27:32.912Z",
+    "groups": [
+      {
+        "name": "Two-Word Combos",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "firefly",
+          "snowball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Multiple Senses",
+        "items": [
+          "bat",
+          "line",
+          "spring",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School & Home Tools",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather & Sky",
+        "items": [
+          "cloud",
+          "sun",
+          "rain",
+          "storm"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level wordplay with cross-over hints to tempt but stay within one correct group."
+  },
+  "hard": {
+    "id": "05142026-H",
+    "generatedAt": "2026-05-14T04:27:32.912Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "box",
+          "park",
+          "pitch",
+          "record"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Wonders",
+        "items": [
+          "knock",
+          "isle",
+          "hour",
+          "tsar"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Foods",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-First-Letter Words",
+        "items": [
+          "glow",
+          "brake",
+          "plane",
+          "stone"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard-level abstract connections with tempting cross-overs (e.g., hour, box) that fit more than one idea but belong to one correct group."
+  }
+}

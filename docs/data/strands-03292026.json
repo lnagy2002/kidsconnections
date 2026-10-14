@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FARM",
+      "BUMP",
+      "PLAY",
+      "COLD",
+      "DUST",
+      "HIVE",
+      "MIST",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BAGGAGE",
+      "FLIGHT",
+      "GATHER",
+      "HEALTHY",
+      "JOURNEY",
+      "KITCHEN",
+      "NURTURE",
+      "SIMPLEX"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCING",
+      "COMFORTED",
+      "DREAMLIKE",
+      "ENCOURAGE",
+      "GENERATE",
+      "INNOVATED",
+      "SPECTACULAR",
+      "TRANSLATED",
+      "WONDERFUL"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09192026-E",
+    "generatedAt": "2026-09-19T04:51:59.335Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "coin",
+          "lid",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Flyers",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "dragonfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual themes: circular objects, things that fly, footwear, and common kitchen items. All 16 items are unique."
+  },
+  "medium": {
+    "id": "09192026-M",
+    "generatedAt": "2026-09-19T04:51:59.335Z",
+    "groups": [
+      {
+        "name": "Play-Word Pairs",
+        "items": [
+          "ground",
+          "time",
+          "date",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Compound Words",
+        "items": [
+          "flower",
+          "rise",
+          "light",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "backpack"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay with a cross-over temptation: some items might seem like they could fit another group at first glance, but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "09192026-H",
+    "generatedAt": "2026-09-19T04:51:59.335Z",
+    "groups": [
+      {
+        "name": "Dual-Meaning Words",
+        "items": [
+          "bank",
+          "ring",
+          "spring",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Words",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "scarlet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Verbs",
+        "items": [
+          "crane",
+          "seal",
+          "yak",
+          "ram"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Reversibles",
+        "items": [
+          "live",
+          "drawer",
+          "pots",
+          "diaper"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore wordplay and polysemy: items may tempt solvers to fit them into another group, but each item truly belongs to its stated theme. Cross-over temptations are deliberate."
+  }
+}

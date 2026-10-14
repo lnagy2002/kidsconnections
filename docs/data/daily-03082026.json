@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03082026-E",
+    "generatedAt": "2026-03-08T03:15:53.512Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools & Dishes",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Easy puzzle for 03082026 with four concrete themes."
+  },
+  "medium": {
+    "id": "03082026-M",
+    "generatedAt": "2026-03-08T03:15:53.512Z",
+    "groups": [
+      {
+        "name": "Nouns that are also Verbs",
+        "items": [
+          "play",
+          "watch",
+          "beat",
+          "train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Paper Compounds",
+        "items": [
+          "clip",
+          "weight",
+          "board",
+          "plate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals Used as Verbs",
+        "items": [
+          "duck",
+          "crane",
+          "bear",
+          "yak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Formed Phrases",
+        "items": [
+          "alarm",
+          "fly",
+          "fighter",
+          "drill"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh Medium puzzle for 03082026 with simple wordplay and cross-over temptations."
+  },
+  "hard": {
+    "id": "03082026-H",
+    "generatedAt": "2026-03-08T03:15:53.512Z",
+    "groups": [
+      {
+        "name": "Polysemes (multiple meanings)",
+        "items": [
+          "spring",
+          "bank",
+          "bat",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Remove first letter to form a new word",
+        "items": [
+          "smile",
+          "stone",
+          "bloom",
+          "stare"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-letter words",
+        "items": [
+          "knight",
+          "gnome",
+          "hour",
+          "write"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh Hard puzzle for 03082026 featuring abstract word connections and quirks."
+  }
+}

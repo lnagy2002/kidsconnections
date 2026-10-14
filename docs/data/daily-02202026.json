@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02202026-E",
+    "generatedAt": "2026-02-20T03:16:06.107Z",
+    "groups": [
+      {
+        "name": "Round and Round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Parade",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Travelers",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections puzzle set for 02/20/2026. Each group shares a clear, concrete theme."
+  },
+  "medium": {
+    "id": "02202026-M",
+    "generatedAt": "2026-02-20T03:16:06.107Z",
+    "groups": [
+      {
+        "name": "Color-Word Compounds",
+        "items": [
+          "bluebird",
+          "blackboard",
+          "greenhouse",
+          "yellowjacket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom Must-Haves",
+        "items": [
+          "desk",
+          "map",
+          "chalk",
+          "globe"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "plant",
+          "ring",
+          "train",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things in Pairs",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles with a few tempting misfits to test careful grouping. Some items might tempt you to fit them in another theme, but each item has a single correct group."
+  },
+  "hard": {
+    "id": "02202026-H",
+    "generatedAt": "2026-02-20T03:16:06.107Z",
+    "groups": [
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "clip",
+          "bolt",
+          "seed"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "known",
+          "happy",
+          "clear",
+          "kind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-First-Letter",
+        "items": [
+          "smile",
+          "stone",
+          "chair",
+          "flame"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles with abstract connections and multi-meaning words. Expect careful thinking and some tempting misdirections; each item belongs to exactly one group."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOB",
+      "HUSH",
+      "LIFT",
+      "MICE",
+      "BUMP",
+      "JUMP",
+      "FLIP",
+      "SPIN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMS",
+      "GLOWING",
+      "FABLES",
+      "NURSED",
+      "BALLOON",
+      "FESTIVE",
+      "PLANTS",
+      "TWIRLED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "FANTASTIC",
+      "ADVENTURE",
+      "CIRCULATE",
+      "MAGNETIC",
+      "TRANQUIL",
+      "GENERATE",
+      "HARMONIZE",
+      "COMFORTING"
+    ]
+  }
+}

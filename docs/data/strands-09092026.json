@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "JUMPY",
+      "FLAIR",
+      "CANDY",
+      "BLOOM",
+      "GRASP",
+      "WILDY",
+      "FLEET",
+      "BUMPY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPLASH",
+      "CLUSTER",
+      "GARNISH",
+      "TWIRLS",
+      "FESTIVE",
+      "CRUNCHY",
+      "WILLOW",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "FANTASTIC",
+      "SPIRITED",
+      "INNOVATE",
+      "WONDERED",
+      "CIRCULATE",
+      "GENERATION",
+      "COMFORTED",
+      "HARMONIZE"
+    ]
+  }
+}

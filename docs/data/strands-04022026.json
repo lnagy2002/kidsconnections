@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "COLD",
+      "HIVE",
+      "BUMP",
+      "CAVE",
+      "TIDE",
+      "BARK",
+      "POND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CLUSTER",
+      "DREAMY",
+      "FESTAL",
+      "GARNISH",
+      "NURTURE",
+      "SPLASHY",
+      "TWIRLER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULATE",
+      "FRIENDLY",
+      "HARMONIC",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "TRANSLATED",
+      "COMFORTED",
+      "EXPLORING"
+    ]
+  }
+}

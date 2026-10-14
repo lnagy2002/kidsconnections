@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02052026-E",
+    "generatedAt": "2026-02-05T03:16:00.350Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farmland Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in the Kitchen",
+        "items": [
+          "fork",
+          "spoon",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four simple, visual connections suitable for younger players: shapes, farm animals, common red items, and everyday kitchen objects."
+  },
+  "medium": {
+    "id": "02052026-M",
+    "generatedAt": "2026-02-05T03:16:00.350Z",
+    "groups": [
+      {
+        "name": "Handy Tools",
+        "items": [
+          "hammer",
+          "saw",
+          "drill",
+          "wrench"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Feathered Flyers",
+        "items": [
+          "eagle",
+          "parrot",
+          "sparrow",
+          "falcon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical Friends",
+        "items": [
+          "guitar",
+          "piano",
+          "drums",
+          "violin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "banana",
+          "grape",
+          "orange",
+          "pear"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce simple word categories and a hint of cross-over: some items could belong to more than one group, but each item has a single correct group."
+  },
+  "hard": {
+    "id": "02052026-H",
+    "generatedAt": "2026-02-05T03:16:00.350Z",
+    "groups": [
+      {
+        "name": "States of Matter",
+        "items": [
+          "solid",
+          "liquid",
+          "gas",
+          "plasma"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Energy Kinds",
+        "items": [
+          "kinetic",
+          "potential",
+          "thermal",
+          "electrical"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Hidden Homophones",
+        "items": [
+          "bare",
+          "knight",
+          "flower",
+          "sea"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sea Friends",
+        "items": [
+          "dolphin",
+          "shark",
+          "whale",
+          "octopus"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into science concepts and language quirks. Look for items that share a non-obvious connection and watch for temptations to cross-group."
+  }
+}

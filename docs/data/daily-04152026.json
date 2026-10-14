@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04152026-E",
+    "generatedAt": "2026-04-15T03:47:03.227Z",
+    "groups": [
+      {
+        "name": "Red things you can eat",
+        "items": [
+          "apple",
+          "rose",
+          "fire truck",
+          "strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals that can fly",
+        "items": [
+          "bird",
+          "bat",
+          "butterfly",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things to wear on your head",
+        "items": [
+          "hat",
+          "helmet",
+          "cap",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can ride",
+        "items": [
+          "bike",
+          "horse",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly connections for an easy puzzle set."
+  },
+  "medium": {
+    "id": "04152026-M",
+    "generatedAt": "2026-04-15T03:47:03.227Z",
+    "groups": [
+      {
+        "name": "Words that pair with light to form common words",
+        "items": [
+          "flash",
+          "sun",
+          "moon",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with rain to form common phrases",
+        "items": [
+          "coat",
+          "bow",
+          "drop",
+          "forest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with fire to form common words",
+        "items": [
+          "fighter",
+          "proof",
+          "fly",
+          "alarm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with home to form common words",
+        "items": [
+          "work",
+          "sick",
+          "town",
+          "maker"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes cross-over temptations (e.g., some items could also fit other logical partners) to test careful grouping."
+  },
+  "hard": {
+    "id": "04152026-H",
+    "generatedAt": "2026-04-15T03:47:03.227Z",
+    "groups": [
+      {
+        "name": "Words that spell another word when reversed",
+        "items": [
+          "live",
+          "drawer",
+          "stressed",
+          "parts"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that pair with 'silver' to form common phrases",
+        "items": [
+          "ware",
+          "lining",
+          "fish",
+          "screen"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with two pronunciations (heteronyms)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that are homophones of other common words",
+        "items": [
+          "knight",
+          "meat",
+          "flower",
+          "sea"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract linguistic connections designed for higher-thinking fun."
+  }
+}

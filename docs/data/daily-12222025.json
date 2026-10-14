@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12222025-E",
+    "generatedAt": "2025-12-22T02:33:34.138Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "moon",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow foods",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "mustard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "bat",
+          "butterfly",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things in a classroom",
+        "items": [
+          "desk",
+          "chalkboard",
+          "pencil",
+          "book"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzles at an easy level."
+  },
+  "medium": {
+    "id": "12222025-M",
+    "generatedAt": "2025-12-22T02:33:34.138Z",
+    "groups": [
+      {
+        "name": "Compound words",
+        "items": [
+          "sunset",
+          "hillside",
+          "toothbrush",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Places to visit in town",
+        "items": [
+          "hospital",
+          "library",
+          "bakery",
+          "bridge"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Flying birds",
+        "items": [
+          "parrot",
+          "eagle",
+          "hawk",
+          "owl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School supplies",
+        "items": [
+          "eraser",
+          "glue",
+          "ruler",
+          "marker"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "A touch more wordplay with safe, school-friendly items."
+  },
+  "hard": {
+    "id": "12222025-H",
+    "generatedAt": "2025-12-22T02:33:34.138Z",
+    "groups": [
+      {
+        "name": "Fruit that is also a color",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Reading materials",
+        "items": [
+          "newspaper",
+          "magazine",
+          "novel",
+          "comic"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical instruments",
+        "items": [
+          "piano",
+          "guitar",
+          "drum",
+          "flute"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Farm animals",
+        "items": [
+          "cow",
+          "goat",
+          "sheep",
+          "pig"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Harder connections with a playful twist and a cross-over hint."
+  }
+}

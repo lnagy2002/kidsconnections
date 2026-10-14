@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06162026-E",
+    "generatedAt": "2026-06-16T06:04:45.105Z",
+    "groups": [
+      {
+        "name": "Bright Bites",
+        "items": [
+          "apple",
+          "strawberry",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ride Around",
+        "items": [
+          "car",
+          "bus",
+          "train",
+          "bicycle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Pals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 6/16/2026 easy puzzle set."
+  },
+  "medium": {
+    "id": "06162026-M",
+    "generatedAt": "2026-06-16T06:04:45.105Z",
+    "groups": [
+      {
+        "name": "Animal Verbs",
+        "items": [
+          "duck",
+          "crane",
+          "ram",
+          "bat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Food Friends",
+        "items": [
+          "olive",
+          "salmon",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Re-",
+        "items": [
+          "do",
+          "write",
+          "play",
+          "turn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home Essentials",
+        "items": [
+          "chair",
+          "clock",
+          "lamp",
+          "sofa"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 6/16/2026 medium puzzle set."
+  },
+  "hard": {
+    "id": "06162026-H",
+    "generatedAt": "2026-06-16T06:04:45.105Z",
+    "groups": [
+      {
+        "name": "Lingual Surprises: Polysemes",
+        "items": [
+          "spring",
+          "bank",
+          "ring",
+          "scale"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms Parade",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Suffix-ful Adjectives",
+        "items": [
+          "care",
+          "hope",
+          "color",
+          "help"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Do-er Forms with -er",
+        "items": [
+          "bake",
+          "paint",
+          "sing",
+          "teach"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 6/16/2026 hard puzzle set."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAMP",
+      "FIRM",
+      "BUMP",
+      "FLAP",
+      "CANE",
+      "MIST",
+      "BELL",
+      "GLOW"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPLASH",
+      "FESTAL",
+      "SPIRAL",
+      "FLAIRY",
+      "BALLOO",
+      "CANDOR",
+      "TWIRLED",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "ADVENTUR",
+      "HARMONIC",
+      "NARRATIVE",
+      "CIRCULAR",
+      "TRANSLATED",
+      "COMFORTED",
+      "FANTASIES",
+      "GRADUATES"
+    ]
+  }
+}

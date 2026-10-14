@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08162026-E",
+    "generatedAt": "2026-08-16T02:05:14.648Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "moon",
+          "coin",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits That Grow on Trees",
+        "items": [
+          "apple",
+          "mango",
+          "cherry",
+          "peach"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head Gear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Friends",
+        "items": [
+          "panda",
+          "giraffe",
+          "zebra",
+          "koala"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections puzzle for 08/16/2026. Easy: four concrete visual groups."
+  },
+  "medium": {
+    "id": "08162026-M",
+    "generatedAt": "2026-08-16T02:05:14.648Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "blueprint",
+          "mailbox",
+          "football",
+          "toothbrush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verbs (Same Spelling)",
+        "items": [
+          "train",
+          "match",
+          "plant",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "orange"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "House/Ground Compounds",
+        "items": [
+          "treehouse",
+          "playground",
+          "warehouse",
+          "houseplant"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with word-building and small wordplay. Look for clues that point to a single correct group."
+  },
+  "hard": {
+    "id": "08162026-H",
+    "generatedAt": "2026-08-16T02:05:14.648Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "gnome",
+          "ghost",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words Reversed Form New Word",
+        "items": [
+          "live",
+          "stressed",
+          "drawer",
+          "stop"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections: heteronyms, silent letters, palindromes, and reversals. Includes some tempting cross-overs to test attention."
+  }
+}

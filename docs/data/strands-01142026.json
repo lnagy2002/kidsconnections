@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "CLIP",
+      "GLOW",
+      "FIRM",
+      "BUMP",
+      "LAMP",
+      "HIVE",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "BALLOON",
+      "BUNGLE",
+      "CLUSTER",
+      "FESTAL",
+      "GARNISH",
+      "NURTURE",
+      "SPLASHY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "UNDERSTAND",
+      "TRANSLATE",
+      "COMFORTING",
+      "GENERATE",
+      "INNOVATION",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "INSPIRING"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04272026-E",
+    "generatedAt": "2026-04-27T04:06:21.083Z",
+    "groups": [
+      {
+        "name": "Cluster A",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cluster B",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "bonnet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cluster C",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cluster D",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles group concrete, visual items into clear themes suitable for younger solvers."
+  },
+  "medium": {
+    "id": "04272026-M",
+    "generatedAt": "2026-04-27T04:06:21.083Z",
+    "groups": [
+      {
+        "name": "Cluster E",
+        "items": [
+          "basketball",
+          "notebook",
+          "toothbrush",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cluster F",
+        "items": [
+          "buzz",
+          "clang",
+          "hiss",
+          "pop"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cluster G",
+        "items": [
+          "fox",
+          "elk",
+          "lion",
+          "whale"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cluster H",
+        "items": [
+          "glue",
+          "stapler",
+          "scissors",
+          "marker"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix compound words, sounds, animals, and everyday tools. Watch for cross-over temptations that belong to only one cluster."
+  },
+  "hard": {
+    "id": "04272026-H",
+    "generatedAt": "2026-04-27T04:06:21.083Z",
+    "groups": [
+      {
+        "name": "Cluster I",
+        "items": [
+          "spring",
+          "bark",
+          "bank",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cluster J",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cluster K",
+        "items": [
+          "plant",
+          "rock",
+          "dust",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cluster L",
+        "items": [
+          "meter",
+          "gram",
+          "inch",
+          "mile"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract thinking and attention to words with multiple meanings, pronunciations, or parts of speech."
+  }
+}

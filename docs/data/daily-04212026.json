@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04212026-E",
+    "generatedAt": "2026-04-21T03:50:11.066Z",
+    "groups": [
+      {
+        "name": "Yellow friends",
+        "items": [
+          "banana",
+          "lemon",
+          "cheese",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head wear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "plane",
+          "kite",
+          "bird",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things to sit on",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four groups with simple, concrete connections. Each group has four items. Fresh content designed for grades 2-6."
+  },
+  "medium": {
+    "id": "04212026-M",
+    "generatedAt": "2026-04-21T03:50:11.066Z",
+    "groups": [
+      {
+        "name": "Bookish combos",
+        "items": [
+          "cookbook",
+          "notebook",
+          "guidebook",
+          "storybook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Balls that roll or fly",
+        "items": [
+          "baseball",
+          "basketball",
+          "fireball",
+          "meatball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that can be nouns and verbs",
+        "items": [
+          "play",
+          "train",
+          "phone",
+          "rock"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom staples",
+        "items": [
+          "desk",
+          "globe",
+          "chalk",
+          "projector"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level connections mix compound words, word forms, and everyday objects. Includes a few tempting alternatives that fit at first glance but belong to only one group."
+  },
+  "hard": {
+    "id": "04212026-H",
+    "generatedAt": "2026-04-21T03:50:11.066Z",
+    "groups": [
+      {
+        "name": "Polysemes with multiple meanings",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "jam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Board-game titles",
+        "items": [
+          "clue",
+          "monopoly",
+          "risk",
+          "scrabble"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-name nouns",
+        "items": [
+          "tan",
+          "sage",
+          "olive",
+          "rose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Invariable plurals",
+        "items": [
+          "sheep",
+          "fish",
+          "deer",
+          "series"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level with abstract links and cross-over temptations. Some items could plausibly fit other groups at first glance, but belong to their designated theme."
+  }
+}

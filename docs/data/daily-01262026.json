@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01262026-E",
+    "generatedAt": "2026-01-26T02:59:38.768Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinks to Sip",
+        "items": [
+          "water",
+          "milk",
+          "juice",
+          "soda"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four beginner-friendly categories with four items each. All items are distinct from other difficulty levels."
+  },
+  "medium": {
+    "id": "01262026-M",
+    "generatedAt": "2026-01-26T02:59:38.768Z",
+    "groups": [
+      {
+        "name": "Color-Word Compounds",
+        "items": [
+          "bluebird",
+          "greenhouse",
+          "blackboard",
+          "whiteboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal-Compound Friends",
+        "items": [
+          "honeybee",
+          "dragonfly",
+          "butterfly",
+          "catfish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Compound Daily Objects",
+        "items": [
+          "notebook",
+          "playground",
+          "sunrise",
+          "sandcastle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather/Nature Compounds",
+        "items": [
+          "rainstorm",
+          "snowflake",
+          "windmill",
+          "sunbeam"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and compounds. Some items might tempt you to slide to another group, but each item fits only one group."
+  },
+  "hard": {
+    "id": "01262026-H",
+    "generatedAt": "2026-01-26T02:59:38.768Z",
+    "groups": [
+      {
+        "name": "Nouns That Are Verbs (Same Spelling)",
+        "items": [
+          "plant",
+          "watch",
+          "park",
+          "play"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words With Multiple Meanings (Polysemes)",
+        "items": [
+          "spring",
+          "bank",
+          "bat",
+          "point"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Words With Different Pronunciations)",
+        "items": [
+          "bow",
+          "lead",
+          "wind",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 'Un-' to Make Opposites",
+        "items": [
+          "usual",
+          "happy",
+          "clear",
+          "safe"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles focus on abstract connections, polysemy, and pronunciation shifts. The items are chosen to present tempting overlaps that don’t actually belong to the wrong group."
+  }
+}

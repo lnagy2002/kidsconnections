@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09072026-E",
+    "generatedAt": "2026-09-07T05:02:04.593Z",
+    "groups": [
+      {
+        "name": "Color Quick Picks",
+        "items": [
+          "red",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "cat",
+          "dog",
+          "bird",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Learning Tools",
+        "items": [
+          "book",
+          "pencil",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy set: 4 groups with 4 concrete items each. Visual and familiar things for young puzzlers."
+  },
+  "medium": {
+    "id": "09072026-M",
+    "generatedAt": "2026-09-07T05:02:04.593Z",
+    "groups": [
+      {
+        "name": "Two-in-One Words",
+        "items": [
+          "sunlight",
+          "raincoat",
+          "notebook",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Household Helpers",
+        "items": [
+          "lamp",
+          "clock",
+          "mirror",
+          "stool"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Yummy Snacks",
+        "items": [
+          "apple",
+          "bread",
+          "juice",
+          "cookie"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Outdoors & Nature",
+        "items": [
+          "bench",
+          "tree",
+          "rock",
+          "cloud"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set adds cross-over clues with compound words and everyday objects."
+  },
+  "hard": {
+    "id": "09072026-H",
+    "generatedAt": "2026-09-07T05:02:04.593Z",
+    "groups": [
+      {
+        "name": "Many Meanings",
+        "items": [
+          "bank",
+          "note",
+          "light",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Different Pronunciations",
+        "items": [
+          "wind",
+          "bass",
+          "bow",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Duos",
+        "items": [
+          "brush",
+          "dress",
+          "ring",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Big Ideas",
+        "items": [
+          "truth",
+          "dream",
+          "courage",
+          "hope"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores words with multiple meanings, pronunciation shifts, and noun-verb pairs."
+  }
+}

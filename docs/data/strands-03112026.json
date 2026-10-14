@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CUBE",
+      "MIST",
+      "BEND",
+      "BUMP",
+      "FLEA",
+      "WARM",
+      "HIVE",
+      "CAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FESTAL",
+      "BRIDGE",
+      "FARMER",
+      "SPIRAL",
+      "BALANCE",
+      "DREAMY",
+      "CIRCLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "HARMONIC",
+      "INNOVATE",
+      "FRIENDLY",
+      "COMFORTS",
+      "SPIRITED",
+      "ADVENTUR",
+      "TRANQUIL",
+      "BALANCED"
+    ]
+  }
+}

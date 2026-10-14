@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01012026-E",
+    "generatedAt": "2026-01-01T02:41:47.611Z",
+    "groups": [
+      {
+        "name": "Circle Crew",
+        "items": [
+          "ball",
+          "coin",
+          "button",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Set",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "fork"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Handles",
+        "items": [
+          "mug",
+          "bucket",
+          "screwdriver",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Zoo Friends",
+        "items": [
+          "lion",
+          "zebra",
+          "giraffe",
+          "panda"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles: four concrete, visual groups with clear connections."
+  },
+  "medium": {
+    "id": "01012026-M",
+    "generatedAt": "2026-01-01T02:41:47.611Z",
+    "groups": [
+      {
+        "name": "Re- Prefix Group",
+        "items": [
+          "play",
+          "use",
+          "paint",
+          "cycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Group",
+        "items": [
+          "happy",
+          "clear",
+          "usual",
+          "known"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound-Word Friends",
+        "items": [
+          "butterfly",
+          "sunflower",
+          "raincoat",
+          "blackboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Alphabet-Letter Words",
+        "items": [
+          "bee",
+          "see",
+          "jay",
+          "tee"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: four groups use light wordplay (prefix tricks and compounds). Some items may seem to fit another group at first—solve by the intended rule."
+  },
+  "hard": {
+    "id": "01012026-H",
+    "generatedAt": "2026-01-01T02:41:47.611Z",
+    "groups": [
+      {
+        "name": "Dual-Use Nouns/Verbs",
+        "items": [
+          "plant",
+          "watch",
+          "ring",
+          "bear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Helpers",
+        "items": [
+          "crane",
+          "bat",
+          "seal",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Over- Prefix Set",
+        "items": [
+          "look",
+          "coat",
+          "sleep",
+          "time"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "left",
+          "sanction",
+          "clip"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and wordplay with some items that might tempt you to group them differently, but each item fits its own rule."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08032026-E",
+    "generatedAt": "2026-08-03T04:05:13.540Z",
+    "groups": [
+      {
+        "name": "Group One",
+        "items": [
+          "ruler",
+          "clock",
+          "pencil",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group Two",
+        "items": [
+          "stool",
+          "chair",
+          "sofa",
+          "cushion"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group Three",
+        "items": [
+          "carrot",
+          "tomato",
+          "lettuce",
+          "potato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group Four",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four easy groups with clearly visible themes: tools/time devices, furniture you sit on, garden veggies, and common fruits. Each group contains four items that share a simple, kid-friendly link."
+  },
+  "medium": {
+    "id": "08032026-M",
+    "generatedAt": "2026-08-03T04:05:13.540Z",
+    "groups": [
+      {
+        "name": "Group One",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "note"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group Two",
+        "items": [
+          "bookcase",
+          "sunflower",
+          "toothbrush",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group Three",
+        "items": [
+          "cow",
+          "eagle",
+          "frog",
+          "shark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group Four",
+        "items": [
+          "cookie",
+          "pretzel",
+          "popcorn",
+          "granola"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and familiar items: polysemous words (bat, bank, spring, note), compound words (bookcase, sunflower, toothbrush, raincoat), animals, and tasty snacks. Expect some calm 'temptations' where a word might look like it fits another group, but it belongs to its own."
+  },
+  "hard": {
+    "id": "08032026-H",
+    "generatedAt": "2026-08-03T04:05:13.540Z",
+    "groups": [
+      {
+        "name": "Group One",
+        "items": [
+          "bark",
+          "crack",
+          "seal",
+          "punch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Two",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Three",
+        "items": [
+          "fly",
+          "place",
+          "works",
+          "man"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group Four",
+        "items": [
+          "bee",
+          "sea",
+          "cue",
+          "jay"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract connections and multi-meaning words. Examples include words with two senses (bark, seal, punch), heteronym-like pairs (lead/wind/bass/tear), and other multi-meaning terms that invite careful thinking. Watch for cross-over temptations that might distract you from the correct grouping."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09132026-E",
+    "generatedAt": "2026-09-13T05:10:13.007Z",
+    "groups": [
+      {
+        "name": "Things that roll",
+        "items": [
+          "ball",
+          "wheel",
+          "dice",
+          "marble"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear you wear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen tools you use by hand",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "whisk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle set; 4 groups of 4 items; each item unique across all groups."
+  },
+  "medium": {
+    "id": "09132026-M",
+    "generatedAt": "2026-09-13T05:10:13.007Z",
+    "groups": [
+      {
+        "name": "Compound words (fused forms)",
+        "items": [
+          "rainbow",
+          "lighthouse",
+          "toothpaste",
+          "pillowcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "plant",
+          "dust",
+          "match",
+          "spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-words: add with 'fire' to form common terms",
+        "items": [
+          "alarm",
+          "fighter",
+          "place",
+          "starter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Temperature descriptors",
+        "items": [
+          "warm",
+          "cold",
+          "hot",
+          "cool"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with light wordplay. Some terms may tempt solvers to fit them into another group, but each item belongs to its listed group only."
+  },
+  "hard": {
+    "id": "09132026-H",
+    "generatedAt": "2026-09-13T05:10:13.007Z",
+    "groups": [
+      {
+        "name": "Two-meaning words",
+        "items": [
+          "bat",
+          "bear",
+          "duck",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same-spelling, different pronunciations",
+        "items": [
+          "polish",
+          "bass",
+          "wind",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-one-letter to form a new word",
+        "items": [
+          "glow",
+          "tone",
+          "spare",
+          "pride"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words borrowed from other languages",
+        "items": [
+          "sushi",
+          "tycoon",
+          "kindergarten",
+          "robot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and cross-language borrowing. 4 groups of 4 unique items."
+  }
+}

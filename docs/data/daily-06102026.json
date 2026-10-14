@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06102026-E",
+    "generatedAt": "2026-06-10T04:56:22.413Z",
+    "groups": [
+      {
+        "name": "Set A",
+        "items": [
+          "pillow",
+          "sock",
+          "teddy",
+          "blanket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set B",
+        "items": [
+          "hat",
+          "scarf",
+          "glove",
+          "shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set C",
+        "items": [
+          "apple",
+          "banana",
+          "carrot",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set D",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 06102026. Simple, concrete items that fit visual/grouping cues for younger players."
+  },
+  "medium": {
+    "id": "06102026-M",
+    "generatedAt": "2026-06-10T04:56:22.413Z",
+    "groups": [
+      {
+        "name": "Set M1",
+        "items": [
+          "toothbrush",
+          "raincoat",
+          "sunflower",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set M2",
+        "items": [
+          "play",
+          "watch",
+          "park",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set M3",
+        "items": [
+          "happy",
+          "kind",
+          "lucky",
+          "usual"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set M4",
+        "items": [
+          "rain",
+          "wind",
+          "snow",
+          "fog"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and compound-word ideas. Look for how some items could seem to fit other groups at first glance."
+  },
+  "hard": {
+    "id": "06102026-H",
+    "generatedAt": "2026-06-10T04:56:22.413Z",
+    "groups": [
+      {
+        "name": "Set H1",
+        "items": [
+          "alarm",
+          "truck",
+          "escape",
+          "fighter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set H2",
+        "items": [
+          "tear",
+          "bass",
+          "lead",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set H3",
+        "items": [
+          "seal",
+          "bat",
+          "crane",
+          "fox"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set H4",
+        "items": [
+          "orange",
+          "olive",
+          "salmon",
+          "peach"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract connections and polysemous words. Some items may tempt solvers to misplace them into another group, but each belongs to exactly one."
+  }
+}

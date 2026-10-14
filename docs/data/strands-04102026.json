@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAMP",
+      "LAMP",
+      "MIST",
+      "PLAY",
+      "RACE",
+      "WARM",
+      "YARD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CANDLE",
+      "DREAMY",
+      "FESTAL",
+      "GATHER",
+      "JOURNAL",
+      "NURSED",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "BALANCED",
+      "CIRCULATE",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "HARMONIZE",
+      "INNOVATIVE",
+      "MAGNETIC",
+      "SPECTACULAR"
+    ]
+  }
+}

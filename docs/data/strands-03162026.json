@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOOM",
+      "FABLE",
+      "GRAIN",
+      "SPARK",
+      "CLIMB",
+      "FLAIR",
+      "CLEAN",
+      "FRESH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "JOURNAL",
+      "SPIRITS",
+      "FESTIVE",
+      "PLASTIC",
+      "TRICKLE",
+      "BALANCE",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "GRADUATE",
+      "EXPLORER",
+      "TRADITION",
+      "COMFORTING",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "FANTASTIC",
+      "MAGNETIC"
+    ]
+  }
+}

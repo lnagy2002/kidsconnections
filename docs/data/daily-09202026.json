@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09202026-E",
+    "generatedAt": "2026-09-20T05:11:33.429Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "Apple",
+          "Rose",
+          "Strawberry",
+          "Tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "Hat",
+          "Gloves",
+          "Socks",
+          "Shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Essentials",
+        "items": [
+          "Spoon",
+          "Cup",
+          "Plate",
+          "Pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Backyard Friends",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Squirrel"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, concrete categories with simple, visible items for early learners."
+  },
+  "medium": {
+    "id": "09202026-M",
+    "generatedAt": "2026-09-20T05:11:33.429Z",
+    "groups": [
+      {
+        "name": "Book-Word Helpers",
+        "items": [
+          "Cook",
+          "Note",
+          "Story",
+          "Guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites with 'un-'",
+        "items": [
+          "Lock",
+          "Fold",
+          "Button",
+          "Wind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Basic Shapes",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Eraser",
+          "Marker"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles blend simple wordplay with easy-to-spot groupings. Some items may look like they fit more than one group, but only one grouping is correct."
+  },
+  "hard": {
+    "id": "09202026-H",
+    "generatedAt": "2026-09-20T05:11:33.429Z",
+    "groups": [
+      {
+        "name": "Quadruple Polysemes",
+        "items": [
+          "Bat",
+          "Crane",
+          "Seal",
+          "Mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re-Prefix Pairs",
+        "items": [
+          "Do",
+          "Play",
+          "Use",
+          "Write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Twins",
+        "items": [
+          "Park",
+          "Run",
+          "Jump",
+          "Sink"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cosmic Nouns",
+        "items": [
+          "Nebula",
+          "Planet",
+          "Comet",
+          "Galaxy"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and polysemy. Some items might tempt you to group them elsewhere, but they belong to their listed group."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05302026-E",
+    "generatedAt": "2026-05-30T04:33:14.525Z",
+    "groups": [
+      {
+        "name": "Things that are red",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that make music",
+        "items": [
+          "trumpet",
+          "drum",
+          "bell",
+          "whistle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ocean friends and swimmers",
+        "items": [
+          "fish",
+          "dolphin",
+          "crab",
+          "whale"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle set for 2026-05-30. Each group has a clear, visual theme."
+  },
+  "medium": {
+    "id": "05302026-M",
+    "generatedAt": "2026-05-30T04:33:14.525Z",
+    "groups": [
+      {
+        "name": "Compound words",
+        "items": [
+          "snowman",
+          "sunflower",
+          "toothpaste",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns and verbs",
+        "items": [
+          "paint",
+          "drive",
+          "watch",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size-describing words",
+        "items": [
+          "big",
+          "tiny",
+          "long",
+          "short"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that fly",
+        "items": [
+          "eagle",
+          "bat",
+          "parrot",
+          "dove"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with cross-over temptations: e.g., keyboard can be seen as a compound word and as a verb phrase; players should place it in the intended group."
+  },
+  "hard": {
+    "id": "05302026-H",
+    "generatedAt": "2026-05-30T04:33:14.525Z",
+    "groups": [
+      {
+        "name": "Polysemous basics (multiple meanings)",
+        "items": [
+          "float",
+          "dress",
+          "match",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "read",
+          "bass",
+          "wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (opposites in one word handling)",
+        "items": [
+          "dust",
+          "clip",
+          "trim",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "knight",
+          "night",
+          "plain",
+          "plane"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set with abstract wordplay and a few tempting overlaps to challenge thoughtful grouping."
+  }
+}

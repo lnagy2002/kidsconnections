@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10082026-E",
+    "generatedAt": "2026-10-08T06:27:15.246Z",
+    "groups": [
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "shirt",
+          "shoe",
+          "glove"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "book",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Items",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "duck"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle: 4 groups of 4 concrete themes. All items are distinct and kid-friendly."
+  },
+  "medium": {
+    "id": "10082026-M",
+    "generatedAt": "2026-10-08T06:27:15.246Z",
+    "groups": [
+      {
+        "name": "Words that pair with sun",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Play-Word Pairs",
+        "items": [
+          "date",
+          "ground",
+          "time",
+          "mate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Blue-Word Combos",
+        "items": [
+          "berry",
+          "bird",
+          "blood",
+          "sky"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical Terms",
+        "items": [
+          "scale",
+          "note",
+          "chord",
+          "beat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle adds wordplay with cross-over temptations: several items could seem to fit more than one group but only belong to their designated set."
+  },
+  "hard": {
+    "id": "10082026-H",
+    "generatedAt": "2026-10-08T06:27:15.246Z",
+    "groups": [
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "bat",
+          "rock",
+          "bark",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors and Things",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "rose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add UN to Form New Words",
+        "items": [
+          "wrap",
+          "lock",
+          "fold",
+          "do"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pronunciation Differences",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bow"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle challenges abstract connections, including words with multiple meanings and tricky pronunciation/meaning shifts."
+  }
+}

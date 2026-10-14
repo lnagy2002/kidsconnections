@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04182026-E",
+    "generatedAt": "2026-04-18T03:35:52.167Z",
+    "groups": [
+      {
+        "name": "Headwear Helpers",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Drinks",
+        "items": [
+          "water",
+          "milk",
+          "juice",
+          "tea"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual groupings suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "04182026-M",
+    "generatedAt": "2026-04-18T03:35:52.167Z",
+    "groups": [
+      {
+        "name": "Ball-Word Pairs",
+        "items": [
+          "basketball",
+          "meatball",
+          "hardball",
+          "snowball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Companions",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Opposites with Un-",
+        "items": [
+          "kind",
+          "happy",
+          "true",
+          "fair"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book Collocations",
+        "items": [
+          "cookbook",
+          "notebook",
+          "bookmark",
+          "checkbook"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use wordplay and compound-word tendencies with a few tempting misdirections."
+  },
+  "hard": {
+    "id": "04182026-H",
+    "generatedAt": "2026-04-18T03:35:52.167Z",
+    "groups": [
+      {
+        "name": "Words with Many Meanings (Part 1)",
+        "items": [
+          "lead",
+          "bank",
+          "bat",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Versus-Verb Pairs",
+        "items": [
+          "watch",
+          "press",
+          "wave",
+          "sail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Names that Do Work",
+        "items": [
+          "bear",
+          "crane",
+          "seal",
+          "goose"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "memory",
+          "truth",
+          "future",
+          "dream"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy with cross-over temptations."
+  }
+}

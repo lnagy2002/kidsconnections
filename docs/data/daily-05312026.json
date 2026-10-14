@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05312026-E",
+    "generatedAt": "2026-05-31T04:59:14.751Z",
+    "groups": [
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "bowl",
+          "pan",
+          "knife"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "tree",
+          "bird",
+          "path"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual themes kids can spot quickly."
+  },
+  "medium": {
+    "id": "05312026-M",
+    "generatedAt": "2026-05-31T04:59:14.751Z",
+    "groups": [
+      {
+        "name": "Nouns that Are Verbs",
+        "items": [
+          "bear",
+          "duck",
+          "bat",
+          "crane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book Pairs",
+        "items": [
+          "note",
+          "case",
+          "store",
+          "mark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Companions",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Over-Word Pairs",
+        "items": [
+          "coat",
+          "drive",
+          "pass",
+          "lap"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with familiar compound-word ideas."
+  },
+  "hard": {
+    "id": "05312026-H",
+    "generatedAt": "2026-05-31T04:59:14.751Z",
+    "groups": [
+      {
+        "name": "Polysemous Words",
+        "items": [
+          "bank",
+          "spring",
+          "ring",
+          "crack"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit Colors",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Emotions and Qualities",
+        "items": [
+          "hope",
+          "joy",
+          "fear",
+          "pride"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Music Terms",
+        "items": [
+          "tone",
+          "beat",
+          "scale",
+          "chord"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard sets emphasize abstract connections and multi-meaning words to challenge reasoning."
+  }
+}

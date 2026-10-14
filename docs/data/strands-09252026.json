@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "FUME",
+      "CANE",
+      "BEND",
+      "FLEW",
+      "HIDE",
+      "MIST",
+      "BOLT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "CANDLE",
+      "FESTAL",
+      "SPIRAL",
+      "CLOVER",
+      "FARMER",
+      "DRAGON",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "COMFORTS",
+      "FANTASTIC",
+      "BALANCED",
+      "HARMONIZE",
+      "SPIRITED",
+      "MAGNETIC",
+      "GENERATED",
+      "INNOVATIVE"
+    ]
+  }
+}

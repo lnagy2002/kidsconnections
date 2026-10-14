@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BENDY",
+      "FLEEK",
+      "TRAWL",
+      "LIFTY",
+      "CLAMP",
+      "JOLLY",
+      "FLEET",
+      "WOVEN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DREAMY",
+      "GATHER",
+      "SPIRAL",
+      "CLUSTER",
+      "FLICKER",
+      "FESTIVE",
+      "GHOSTLY",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "INTERFACE",
+      "TRANSLATE",
+      "GRADIENT",
+      "SPECTACLE",
+      "HARMONIZE",
+      "EXPLORING",
+      "COMFORTING",
+      "FANTASTIC"
+    ]
+  }
+}

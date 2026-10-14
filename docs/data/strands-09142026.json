@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MIST",
+      "BAND",
+      "WILD",
+      "CAVE",
+      "FLAP",
+      "GUST",
+      "HIDE",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLIDE",
+      "SPARK",
+      "FABLE",
+      "NURSE",
+      "PLANT",
+      "FRESH",
+      "CANDLE",
+      "BUNGLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "GRADUATE",
+      "TRANQUIL",
+      "SPIRITED",
+      "ADVENTURE",
+      "EXPLORING",
+      "HARMONIZE",
+      "GENERATE",
+      "MAGNETIC"
+    ]
+  }
+}

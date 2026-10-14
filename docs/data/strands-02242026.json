@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "MINT",
+      "LAMP",
+      "BEND",
+      "FIRM",
+      "BUMP",
+      "CAGE",
+      "HIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "FESTAL",
+      "NURTURE",
+      "CLUSTER",
+      "SPIRAL",
+      "BALLOON",
+      "FESTIVE",
+      "DREAMY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "IMAGINARY",
+      "HARMONIZE",
+      "TRANSLATE",
+      "FRIENDSHIP",
+      "COMFORTING",
+      "INNOVATE",
+      "FANTASTIC",
+      "WONDERMENT"
+    ]
+  }
+}

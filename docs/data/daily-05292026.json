@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05292026-E",
+    "generatedAt": "2026-05-29T04:52:22.234Z",
+    "groups": [
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Baked Goods",
+        "items": [
+          "bread",
+          "pie",
+          "cake",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles You Can Ride",
+        "items": [
+          "car",
+          "bike",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Essentials",
+        "items": [
+          "book",
+          "desk",
+          "chalk",
+          "globe"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy groups with clear, visual connections."
+  },
+  "medium": {
+    "id": "05292026-M",
+    "generatedAt": "2026-05-29T04:52:22.234Z",
+    "groups": [
+      {
+        "name": "Add -RE Prefix Words",
+        "items": [
+          "act",
+          "turn",
+          "use",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -UN Prefix Words",
+        "items": [
+          "kind",
+          "tidy",
+          "sure",
+          "fair"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "run",
+          "fish",
+          "plant",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors in Everyday Speech",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes gentle cross-over temptations: some items could seem to fit another group, but belong to their assigned group."
+  },
+  "hard": {
+    "id": "05292026-H",
+    "generatedAt": "2026-05-29T04:52:22.234Z",
+    "groups": [
+      {
+        "name": "Sun-Forming Parts",
+        "items": [
+          "flower",
+          "beam",
+          "rise",
+          "shine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms Parade",
+        "items": [
+          "wind",
+          "lead",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Math Terms",
+        "items": [
+          "sum",
+          "mean",
+          "product",
+          "zero"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cardinal Directions",
+        "items": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections with kid-friendly terms. Expect tempting misfits to test careful grouping."
+  }
+}

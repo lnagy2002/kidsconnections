@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02032026-E",
+    "generatedAt": "2026-02-03T03:18:04.355Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "Ball",
+          "Coin",
+          "Plate",
+          "Moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things to Wear on Feet",
+        "items": [
+          "Socks",
+          "Shoes",
+          "Boots",
+          "Sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Goodies",
+        "items": [
+          "Tomato",
+          "Carrot",
+          "Lettuce",
+          "Pepper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Supplies",
+        "items": [
+          "Pencil",
+          "Notebook",
+          "Ruler",
+          "Desk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy set: 4 groups of 4 tangible, kid-friendly items with concrete visual themes."
+  },
+  "medium": {
+    "id": "02032026-M",
+    "generatedAt": "2026-02-03T03:18:04.355Z",
+    "groups": [
+      {
+        "name": "Words that are both nouns and verbs",
+        "items": [
+          "Park",
+          "Match",
+          "Wave",
+          "Spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'sun' to form common terms",
+        "items": [
+          "Rise",
+          "Set",
+          "Ray",
+          "Burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common breakfast foods",
+        "items": [
+          "Oatmeal",
+          "Cereal",
+          "Yogurt",
+          "Banana"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Subjects you study in school",
+        "items": [
+          "Math",
+          "Science",
+          "History",
+          "Art"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set includes some cross-over temptations: items may seem to fit other groups, but each item truly belongs to its designated theme."
+  },
+  "hard": {
+    "id": "02032026-H",
+    "generatedAt": "2026-02-03T03:18:04.355Z",
+    "groups": [
+      {
+        "name": "Movement/action nouns",
+        "items": [
+          "Drift",
+          "Pivot",
+          "Launch",
+          "Glide"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space/sky terms",
+        "items": [
+          "Falcon",
+          "Comet",
+          "Nova",
+          "Meteor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color descriptors",
+        "items": [
+          "Bright",
+          "Muted",
+          "Vivid",
+          "Dull"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Units of measurement",
+        "items": [
+          "Meter",
+          "Gram",
+          "Liter",
+          "Second"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set uses abstract connections. Cross-over temptations are included to challenge deeper thinking while keeping items kid-friendly."
+  }
+}

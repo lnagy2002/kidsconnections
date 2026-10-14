@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FISH",
+      "CAVE",
+      "BUMP",
+      "CAMP",
+      "HIDE",
+      "FLAP",
+      "MIST",
+      "GLOW"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GHOSTS",
+      "FESTAL",
+      "GARDEN",
+      "SPIRIT",
+      "WILLOW",
+      "PLANTS",
+      "GARNET",
+      "BALLOO"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "TRIANGLE",
+      "HARMONY",
+      "FESTIVAL",
+      "CARNIVAL",
+      "COMFORTS",
+      "GENERATE",
+      "WONDERFUL",
+      "SPIRITED"
+    ]
+  }
+}

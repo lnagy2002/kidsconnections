@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BEND",
+      "CLAY",
+      "FIRM",
+      "BUMP",
+      "MILD",
+      "WILD",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLOWER",
+      "FLEETS",
+      "TWIRLS",
+      "DREAMY",
+      "SPIRAL",
+      "NURSED",
+      "BUNGLE",
+      "CAVERN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "FESTIVITY",
+      "GRADUATE",
+      "HARMONIC",
+      "BRAINWAVE",
+      "GENERATION",
+      "ADVENTUR",
+      "CIRCULATE",
+      "COMFORTING"
+    ]
+  }
+}

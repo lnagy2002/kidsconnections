@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07182026-E",
+    "generatedAt": "2026-07-18T03:40:57.027Z",
+    "groups": [
+      {
+        "name": "Rollable Objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "dice"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet-Wear Items",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods You Eat",
+        "items": [
+          "apple",
+          "bread",
+          "carrot",
+          "cheese"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "airplane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh set for 07182026; each group has a clear visual theme suitable for young puzzlers."
+  },
+  "medium": {
+    "id": "07182026-M",
+    "generatedAt": "2026-07-18T03:40:57.027Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "rainbow",
+          "bookcase",
+          "toothbrush",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun/Verb Pairs",
+        "items": [
+          "watch",
+          "play",
+          "phone",
+          "dance"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals Group",
+        "items": [
+          "lion",
+          "zebra",
+          "fox",
+          "otter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Kitchen & Dining",
+        "items": [
+          "spoon",
+          "knife",
+          "pan",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium group blends simple wordplay with familiar objects; cross-over items may seem like they fit another group but belong to their intended one."
+  },
+  "hard": {
+    "id": "07182026-H",
+    "generatedAt": "2026-07-18T03:40:57.027Z",
+    "groups": [
+      {
+        "name": "Polysemes (Multiple Meanings)",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun/Verb with Different Senses",
+        "items": [
+          "duck",
+          "match",
+          "wave",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Foods",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "mint"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set emphasizes abstract links and words with multiple meanings; includes tempting overlaps to challenge discerning solvers."
+  }
+}

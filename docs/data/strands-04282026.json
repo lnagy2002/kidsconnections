@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MEAL",
+      "CUBE",
+      "FARM",
+      "SPAR",
+      "BUNG",
+      "FEST",
+      "BAND",
+      "CART"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CLIMB",
+      "FABLES",
+      "GHOSTY",
+      "FLEETS",
+      "BUNGLE",
+      "DREAMY",
+      "GARNET",
+      "TRICKY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "BALANCED",
+      "CIRCULATE",
+      "INNOVATE",
+      "FESTIVITY",
+      "TRANQUIL",
+      "GENERATE",
+      "COMFORTED",
+      "DREAMLIKE"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BOLD",
+      "CANE",
+      "MIST",
+      "FLEA",
+      "LAMP",
+      "HIVE",
+      "DUST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BAGGED",
+      "TWIRLY",
+      "NURSED",
+      "CLIMBS",
+      "LANTER",
+      "FESTAL",
+      "BLUSHY",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GLITTER",
+      "FANTASY",
+      "SPECTRAL",
+      "TRANQUIL",
+      "HARMONIC",
+      "ADVENTUR",
+      "GENERATE",
+      "FRIENDLY",
+      "IMAGINARY"
+    ]
+  }
+}

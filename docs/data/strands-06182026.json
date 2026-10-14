@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "FLEW",
+      "WIND",
+      "PLAY",
+      "RIDE",
+      "BUMP",
+      "MIST",
+      "COLD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "GATHER",
+      "SPIRAL",
+      "TWIRL",
+      "GRANDY",
+      "NURSED",
+      "PLANTS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "FESTIVITY",
+      "HARMONIC",
+      "INNOVATE",
+      "TRANSLATED",
+      "CIRCULAR",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "MAGNETIC"
+    ]
+  }
+}

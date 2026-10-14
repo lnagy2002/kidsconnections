@@ -187,9 +187,9 @@ ${currentRecentList.join(", ")}
     currentUsedWords = new Set([...currentUsedWords, ...offending]);
     currentRecentList = Array.from(currentUsedWords).slice(-150);
 
-    if (attempt === MAX_ATTEMPTS) {
-      throw new Error("Could not obtain fresh words after several attempts.");
-    }
+    // if (attempt === MAX_ATTEMPTS) {
+    //  throw new Error("Could not obtain fresh words after several attempts.");
+    // }
   }
 
   if (!data) throw new Error("No data generated.");

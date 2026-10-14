@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06272026-E",
+    "generatedAt": "2026-06-27T04:33:48.380Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tasty Fruits",
+        "items": [
+          "apple",
+          "grape",
+          "orange",
+          "peach"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Barnyard Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections. Easy level uses concrete, visual categories."
+  },
+  "medium": {
+    "id": "06272026-M",
+    "generatedAt": "2026-06-27T04:33:48.380Z",
+    "groups": [
+      {
+        "name": "Compound Pairs",
+        "items": [
+          "snowman",
+          "sunflower",
+          "butterfly",
+          "cupcake"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word Roles",
+        "items": [
+          "play",
+          "note",
+          "wash",
+          "train"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearable Gear",
+        "items": [
+          "glove",
+          "scarf",
+          "sock",
+          "belt"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Zoo Guests",
+        "items": [
+          "lion",
+          "zebra",
+          "penguin",
+          "kangaroo"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level adds cross-over temptations (compound words, nouns that can be verbs) to challenge kids."
+  },
+  "hard": {
+    "id": "06272026-H",
+    "generatedAt": "2026-06-27T04:33:48.380Z",
+    "groups": [
+      {
+        "name": "Sound-Alike Pals",
+        "items": [
+          "knight",
+          "right",
+          "sea",
+          "flower"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Happy Synonyms",
+        "items": [
+          "glad",
+          "merry",
+          "joyful",
+          "cheerful"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Music Makers",
+        "items": [
+          "violin",
+          "flute",
+          "cello",
+          "trumpet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Solar System Members",
+        "items": [
+          "mercury",
+          "venus",
+          "earth",
+          "mars"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level leans on abstract ideas and wordplay to challenge beyond concrete categories."
+  }
+}

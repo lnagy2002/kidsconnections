@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01312026-E",
+    "generatedAt": "2026-01-31T03:05:38.064Z",
+    "groups": [
+      {
+        "name": "Circle Crew",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Bites",
+        "items": [
+          "pancake",
+          "cereal",
+          "toast",
+          "eggs"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Parade",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Twin-Tag Items",
+        "items": [
+          "socks",
+          "gloves",
+          "shoes",
+          "earrings"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 01312026-E puzzle set. Four groups of four items each. All items are unique and kid-friendly."
+  },
+  "medium": {
+    "id": "01312026-M",
+    "generatedAt": "2026-01-31T03:05:38.064Z",
+    "groups": [
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "bowl",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Shelf",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home Companions",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 01312026-M puzzle set. Medium level with approachable word connections and gentle temptations to place items in plausible but incorrect groups."
+  },
+  "hard": {
+    "id": "01312026-H",
+    "generatedAt": "2026-01-31T03:05:38.064Z",
+    "groups": [
+      {
+        "name": "Multi-Meaning Words",
+        "items": [
+          "spring",
+          "bark",
+          "bat",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Speedy Synonyms",
+        "items": [
+          "quick",
+          "rapid",
+          "swift",
+          "speedy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Fruits",
+        "items": [
+          "orange",
+          "olive",
+          "plum",
+          "peach"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Wild Animals",
+        "items": [
+          "fox",
+          "bear",
+          "eagle",
+          "otter"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 01312026-H puzzle set. Hard level with abstract connections and intentional cross-over temptations (polysemes and color/fruit overlaps)."
+  }
+}

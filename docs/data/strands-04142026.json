@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOK",
+      "CAND",
+      "HIVE",
+      "FLEA",
+      "CURL",
+      "MIST",
+      "WARM",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GATHER",
+      "FESTAL",
+      "BUNGLE",
+      "SPIRAL",
+      "PLANTS",
+      "JOURNAL",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "ADVENTURE",
+      "HARMONIC",
+      "MAGNETIC",
+      "FRIENDLY",
+      "COMFORTING",
+      "GENERATE",
+      "INNOVATIVE",
+      "FANTASTIC"
+    ]
+  }
+}

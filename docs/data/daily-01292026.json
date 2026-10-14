@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01292026-E",
+    "generatedAt": "2026-01-29T03:10:09.890Z",
+    "groups": [
+      {
+        "name": "Set A",
+        "items": [
+          "ball",
+          "coin",
+          "moon",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set B",
+        "items": [
+          "water",
+          "milk",
+          "tea",
+          "soda"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set C",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Set D",
+        "items": [
+          "desk",
+          "chalk",
+          "board",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four concrete, visual themes with four items each. Fresh and kid-friendly."
+  },
+  "medium": {
+    "id": "01292026-M",
+    "generatedAt": "2026-01-29T03:10:09.890Z",
+    "groups": [
+      {
+        "name": "Set E",
+        "items": [
+          "plant",
+          "cook",
+          "rock",
+          "beam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set F",
+        "items": [
+          "spoon",
+          "pan",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set G",
+        "items": [
+          "bike",
+          "car",
+          "train",
+          "bus"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Set H",
+        "items": [
+          "orange",
+          "lemon",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles blend simple wordplay with everyday items. Some words could seem to fit another group, but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "01292026-H",
+    "generatedAt": "2026-01-29T03:10:09.890Z",
+    "groups": [
+      {
+        "name": "Set I",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set J",
+        "items": [
+          "dust",
+          "fast",
+          "oversight",
+          "left"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set K",
+        "items": [
+          "watch",
+          "brush",
+          "note",
+          "lock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Set L",
+        "items": [
+          "crane",
+          "bat",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and multi-meaning words. There are cross-over temptations: some items could seem to fit other groups but belong to the intended one."
+  }
+}

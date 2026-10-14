@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07072026-E",
+    "generatedAt": "2026-07-07T04:32:03.622Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "button",
+          "puck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors You Can See",
+        "items": [
+          "orange",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "What You Sit On",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "cushion"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Pets",
+        "items": [
+          "cat",
+          "dog",
+          "hamster",
+          "bird"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle for date 07072026."
+  },
+  "medium": {
+    "id": "07072026-M",
+    "generatedAt": "2026-07-07T04:32:03.622Z",
+    "groups": [
+      {
+        "name": "Book Companions",
+        "items": [
+          "note",
+          "cook",
+          "story",
+          "text"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home-Word Pairs",
+        "items": [
+          "work",
+          "page",
+          "town",
+          "room"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Word Pairs",
+        "items": [
+          "rise",
+          "beam",
+          "flower",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Word Pairs",
+        "items": [
+          "fall",
+          "melon",
+          "proof",
+          "color"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations using simple word pairings."
+  },
+  "hard": {
+    "id": "07072026-H",
+    "generatedAt": "2026-07-07T04:32:03.622Z",
+    "groups": [
+      {
+        "name": "Polyseme Parade",
+        "items": [
+          "bat",
+          "spring",
+          "bank",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronym Heroes",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measure Me",
+        "items": [
+          "meter",
+          "gram",
+          "liter",
+          "inch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes in Mind",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and tricky word forms."
+  }
+}

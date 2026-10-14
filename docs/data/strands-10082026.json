@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOOM",
+      "CLEAN",
+      "FLAME",
+      "SHARE",
+      "GRASP",
+      "HAPPY",
+      "PLUMB",
+      "FLEET"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRUNCH",
+      "SPIRAL",
+      "BALANCE",
+      "FESTIVE",
+      "GATHER",
+      "JOURNEY",
+      "MYSTERY",
+      "MAGNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "HARMONIC",
+      "WONDERFUL",
+      "TRANSLATE",
+      "GENERATED",
+      "COMFORTING",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "EXPLAINED"
+    ]
+  }
+}

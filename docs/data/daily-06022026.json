@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06022026-E",
+    "generatedAt": "2026-06-02T05:09:33.934Z",
+    "groups": [
+      {
+        "name": "Circles & Orbs",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Picks",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Airborne Things",
+        "items": [
+          "bird",
+          "kite",
+          "balloon",
+          "airplane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit Names",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and visual easy connections set for 060226."
+  },
+  "medium": {
+    "id": "06022026-M",
+    "generatedAt": "2026-06-02T05:09:33.934Z",
+    "groups": [
+      {
+        "name": "Dual-Role Verbs",
+        "items": [
+          "play",
+          "cook",
+          "brush",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "wind",
+          "lead",
+          "tear",
+          "bass"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rhymes with AT",
+        "items": [
+          "hat",
+          "bat",
+          "mat",
+          "rat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Re- Fun",
+        "items": [
+          "write",
+          "cycle",
+          "build",
+          "do"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce approachable wordplay with a few tempting crossovers."
+  },
+  "hard": {
+    "id": "06022026-H",
+    "generatedAt": "2026-06-02T05:09:33.934Z",
+    "groups": [
+      {
+        "name": "Overlap Meanings",
+        "items": [
+          "spring",
+          "bank",
+          "crane",
+          "pound"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measuring Terms",
+        "items": [
+          "inch",
+          "foot",
+          "yard",
+          "mile"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Capitals vs Names",
+        "items": [
+          "march",
+          "polish",
+          "china",
+          "turkey"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Names",
+        "items": [
+          "rose",
+          "tan",
+          "gold",
+          "silver"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores abstract links and tricky word forms for curious minds."
+  }
+}

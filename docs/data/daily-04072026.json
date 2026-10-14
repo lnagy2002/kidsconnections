@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04072026-E",
+    "generatedAt": "2026-04-07T03:36:35.883Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "watch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear items",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Red foods",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "radish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 04072026 Easy puzzle: four groups, each with four items."
+  },
+  "medium": {
+    "id": "04072026-M",
+    "generatedAt": "2026-04-07T03:36:35.883Z",
+    "groups": [
+      {
+        "name": "Family relations",
+        "items": [
+          "aunt",
+          "uncle",
+          "cousin",
+          "mom"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Modes of travel",
+        "items": [
+          "bus",
+          "car",
+          "bike",
+          "boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 04072026 Medium puzzle: cross-over temptations present but each item belongs to exactly one group."
+  },
+  "hard": {
+    "id": "04072026-H",
+    "generatedAt": "2026-04-07T03:36:35.883Z",
+    "groups": [
+      {
+        "name": "Drop-first-letter words",
+        "items": [
+          "stone",
+          "bread",
+          "flute",
+          "smelt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words whose reverse is another word",
+        "items": [
+          "time",
+          "drawer",
+          "pans",
+          "live"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal names",
+        "items": [
+          "yak",
+          "frog",
+          "toad",
+          "otter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cardinal directions",
+        "items": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 04072026 Hard puzzle: abstract and multi-step connections with careful item placement. Some items might tempt guesses from other groups, but remain in their correct group."
+  }
+}

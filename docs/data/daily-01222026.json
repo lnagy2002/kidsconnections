@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01222026-E",
+    "generatedAt": "2026-01-22T02:37:31.812Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "pizza"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear you wear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things from trees",
+        "items": [
+          "leaf",
+          "sap",
+          "wood",
+          "apple"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing tools you find at a desk",
+        "items": [
+          "pencil",
+          "eraser",
+          "crayon",
+          "glue"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzles."
+  },
+  "medium": {
+    "id": "01222026-M",
+    "generatedAt": "2026-01-22T02:37:31.812Z",
+    "groups": [
+      {
+        "name": "Words that pair with 'fire' to form compounds",
+        "items": [
+          "fly",
+          "place",
+          "truck",
+          "works"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 'un' to form opposites",
+        "items": [
+          "able",
+          "kind",
+          "tidy",
+          "sure"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Green- prefixed phrases",
+        "items": [
+          "card",
+          "light",
+          "house",
+          "tea"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that follow 'rain' to form common terms",
+        "items": [
+          "bow",
+          "coat",
+          "check",
+          "storm"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and cross-over temptations."
+  },
+  "hard": {
+    "id": "01222026-H",
+    "generatedAt": "2026-01-22T02:37:31.812Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "park",
+          "plant",
+          "train",
+          "stone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with homophones",
+        "items": [
+          "knight",
+          "pear",
+          "sun",
+          "flower"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that describe direction or position",
+        "items": [
+          "left",
+          "right",
+          "up",
+          "down"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns that form new words with -hood",
+        "items": [
+          "child",
+          "mother",
+          "adult",
+          "priest"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and multi-meaning words."
+  }
+}

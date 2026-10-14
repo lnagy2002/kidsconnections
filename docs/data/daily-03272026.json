@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03272026-E",
+    "generatedAt": "2026-03-27T03:37:51.243Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinking Vessels",
+        "items": [
+          "cup",
+          "mug",
+          "bottle",
+          "glass"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Plant Parts and Growth",
+        "items": [
+          "leaf",
+          "stem",
+          "root",
+          "flower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Short-Distance Travel",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle set designed for 03272026. Four visual groups with four items each."
+  },
+  "medium": {
+    "id": "03272026-M",
+    "generatedAt": "2026-03-27T03:37:51.243Z",
+    "groups": [
+      {
+        "name": "Book-Word Combos",
+        "items": [
+          "text",
+          "cook",
+          "note",
+          "story"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Box Pairings",
+        "items": [
+          "lunch",
+          "gift",
+          "tool",
+          "jewelry"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rooms Words",
+        "items": [
+          "class",
+          "rest",
+          "bed",
+          "board"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Play-Word Pairs",
+        "items": [
+          "time",
+          "back",
+          "date",
+          "ground"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh, kid-friendly medium puzzle set designed for 03272026. Four wordplay groups with four items each."
+  },
+  "hard": {
+    "id": "03272026-H",
+    "generatedAt": "2026-03-27T03:37:51.243Z",
+    "groups": [
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "plant",
+          "watch",
+          "box",
+          "stamp"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're' Prefix to Make New Words",
+        "items": [
+          "act",
+          "do",
+          "place",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit-Color Duos",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh, kid-friendly hard puzzle set designed for 03272026. Four abstract groups exploring polysemy, prefixes, and wordplay."
+  }
+}

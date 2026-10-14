@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GROW",
+      "PUSH",
+      "RIDE",
+      "BEND",
+      "COLD",
+      "FIRM",
+      "HIVE",
+      "LUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "FESTAL",
+      "SPIRAL",
+      "GARNET",
+      "NURSED",
+      "CLIMBER",
+      "CANDLE",
+      "BUNGLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "HARMONIC",
+      "INNOVATE",
+      "FRIENDLY",
+      "GENERATE",
+      "COMFORTS",
+      "SPIRITED",
+      "TRANQUIL",
+      "COMPLICATE"
+    ]
+  }
+}

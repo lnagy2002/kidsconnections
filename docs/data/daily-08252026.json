@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08252026-E",
+    "generatedAt": "2026-08-25T01:59:54.734Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "coin",
+          "button",
+          "ring",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headgear",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "visor"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "goat"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set. Each group shares a simple, visual link. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "08252026-M",
+    "generatedAt": "2026-08-25T01:59:54.734Z",
+    "groups": [
+      {
+        "name": "Words that pair with 'book' to form common phrases",
+        "items": [
+          "note",
+          "cook",
+          "story",
+          "text"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water + [word] phrases",
+        "items": [
+          "bottle",
+          "fall",
+          "park",
+          "color"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that can also be verbs (different meanings)",
+        "items": [
+          "watch",
+          "box",
+          "train",
+          "duck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that become agents by adding -er",
+        "items": [
+          "bake",
+          "paint",
+          "write",
+          "drive"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations intentionally included: some items could seem to fit more than one group, but only belong to their listed connection."
+  },
+  "hard": {
+    "id": "08252026-H",
+    "generatedAt": "2026-08-25T01:59:54.734Z",
+    "groups": [
+      {
+        "name": "Contronyms (auto-antonyms)",
+        "items": [
+          "dust",
+          "clip",
+          "sanction",
+          "fast"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes (same spelling, multiple meanings)",
+        "items": [
+          "present",
+          "spring",
+          "rock",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with homophones (different spellings)",
+        "items": [
+          "knight",
+          "flower",
+          "sea",
+          "bare"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections for older kids. Four items per group with clever overlaps to avoid easy guesswork."
+  }
+}

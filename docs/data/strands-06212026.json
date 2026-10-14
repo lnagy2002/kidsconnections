@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "COLD",
+      "FIRM",
+      "BEND",
+      "HILL",
+      "MIST",
+      "BUMP",
+      "DUST",
+      "CANE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GATHER",
+      "NURSED",
+      "MYSTIC",
+      "BALANC",
+      "CIRCLE",
+      "FLICKER",
+      "FABLES"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPARKLE",
+      "DREAMER",
+      "FRIENDS",
+      "NARRATE",
+      "HARMONY",
+      "CARNIVAL",
+      "EXPLAIN",
+      "SPECTRAL",
+      "BALANCED"
+    ]
+  }
+}

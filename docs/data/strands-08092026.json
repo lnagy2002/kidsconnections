@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "DUSTY",
+      "FLEET",
+      "HAPPY",
+      "MUSHY",
+      "PLUMB",
+      "SPARK"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CLIMBER",
+      "DREAMY",
+      "FESTIVE",
+      "GARNISH",
+      "HARMONY",
+      "NARRATE",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "CIRCULATE",
+      "COMFORTING",
+      "DREAMLIKE",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "GENERATION",
+      "HARMONIZE",
+      "SPIRITED"
+    ]
+  }
+}

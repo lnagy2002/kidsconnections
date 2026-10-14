@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12302025-E",
+    "generatedAt": "2025-12-30T02:29:38.273Z",
+    "groups": [
+      {
+        "name": "Footwear",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast foods",
+        "items": [
+          "pancake",
+          "cereal",
+          "toast",
+          "eggs"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you sit on",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky elements",
+        "items": [
+          "sun",
+          "cloud",
+          "rain",
+          "wind"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 12/30/2025 easy puzzle set with concrete, visual groupings. Each group has 4 items."
+  },
+  "medium": {
+    "id": "12302025-M",
+    "generatedAt": "2025-12-30T02:29:38.273Z",
+    "groups": [
+      {
+        "name": "Compound words",
+        "items": [
+          "raincoat",
+          "snowball",
+          "windmill",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb pairs (same spelling)",
+        "items": [
+          "brush",
+          "chip",
+          "plant",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Colors that are foods",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Space terms",
+        "items": [
+          "rocket",
+          "planet",
+          "orbit",
+          "galaxy"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set introduces light wordplay. Watch for items that could seem to fit other groups but belong to one correct group."
+  },
+  "hard": {
+    "id": "12302025-H",
+    "generatedAt": "2025-12-30T02:29:38.273Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "bass",
+          "tear",
+          "lead",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-letter words",
+        "items": [
+          "knight",
+          "isle",
+          "dumb",
+          "thumb"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that are words",
+        "items": [
+          "scarlet",
+          "amber",
+          "teal",
+          "violet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set includes multi-meaning and tricky spellings. Some items may tempt you to group them elsewhere, but each belongs to its own rule."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10102026-E",
+    "generatedAt": "2026-10-10T06:11:45.113Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sitting furniture",
+        "items": [
+          "chair",
+          "sofa",
+          "stool",
+          "bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Starts with S",
+        "items": [
+          "sun",
+          "sailboat",
+          "socks",
+          "spoon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow foods",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "cheese"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level Connections puzzle with four concrete themes."
+  },
+  "medium": {
+    "id": "10102026-M",
+    "generatedAt": "2026-10-10T06:11:45.113Z",
+    "groups": [
+      {
+        "name": "Book words that form compounds with 'book'",
+        "items": [
+          "mark",
+          "note",
+          "case",
+          "store"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 'un' to form opposites",
+        "items": [
+          "lucky",
+          "usual",
+          "tidy",
+          "clear"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 're' to make new words",
+        "items": [
+          "do",
+          "play",
+          "use",
+          "dress"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rhyme group (words that rhyme with 'at')",
+        "items": [
+          "hat",
+          "bat",
+          "mat",
+          "cat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes cross-over temptation: several items could fit more than one group but belong to one."
+  },
+  "hard": {
+    "id": "10102026-H",
+    "generatedAt": "2026-10-10T06:11:45.113Z",
+    "groups": [
+      {
+        "name": "Noun-verb pairs with same spelling",
+        "items": [
+          "plant",
+          "watch",
+          "rock",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add -er to form agent nouns",
+        "items": [
+          "paint",
+          "cook",
+          "dance",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Removing first letter keeps a real word",
+        "items": [
+          "glance",
+          "grant",
+          "pride",
+          "smile"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and a couple of tricky items to tease the solver."
+  }
+}

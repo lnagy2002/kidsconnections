@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CAGEY",
+      "LUMPY",
+      "MUSHY",
+      "CURLY",
+      "DUSTY",
+      "HAPPY",
+      "MINTY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "FESTAL",
+      "BALLOO",
+      "CANDOR",
+      "NURSED",
+      "BUNGLE",
+      "TWIRLER",
+      "GLIDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "HARMONIC",
+      "TRANQUIL",
+      "FESTIVITY",
+      "BALANCED",
+      "CIRCULATE",
+      "FRIENDLY",
+      "GENERATE",
+      "ACROBATICS"
+    ]
+  }
+}

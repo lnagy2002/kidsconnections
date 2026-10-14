@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07102026-E",
+    "generatedAt": "2026-07-10T04:32:36.781Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals You Know",
+        "items": [
+          "cat",
+          "dog",
+          "cow",
+          "pig"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "cup",
+          "knife",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to Get Around",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 07/10/2026 easy puzzle sets. Each group has a clear, concrete theme suitable for grades 2-6. No item repeats across difficulties."
+  },
+  "medium": {
+    "id": "07102026-M",
+    "generatedAt": "2026-07-10T04:32:36.781Z",
+    "groups": [
+      {
+        "name": "Compound Word Pals",
+        "items": [
+          "bookcase",
+          "sunflower",
+          "raincoat",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "desk"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pets You Might See",
+        "items": [
+          "parrot",
+          "hamster",
+          "fish",
+          "turtle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sports Gear",
+        "items": [
+          "ball",
+          "bat",
+          "glove",
+          "racket"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 07/10/2026 medium puzzles. These sets mix clear wordplay with friendly, kid-appropriate items. Look for items that could plausibly fit more than one group, but only belong to their assigned group."
+  },
+  "hard": {
+    "id": "07102026-H",
+    "generatedAt": "2026-07-10T04:32:36.781Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning",
+        "items": [
+          "spring",
+          "crane",
+          "bank",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits That Are Colors",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "watch",
+          "plant",
+          "rock",
+          "trip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes Parade",
+        "items": [
+          "level",
+          "rotor",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 07/10/2026 hard puzzles. These sets lean into abstract connections and wordplay. Some items may tempt you to place them in a different group, but each item belongs to exactly one group to keep the puzzle trickiness engaging."
+  }
+}

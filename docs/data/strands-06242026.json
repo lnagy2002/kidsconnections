@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKS",
+      "WALTZ",
+      "JUMPY",
+      "GLOWY",
+      "SPARK",
+      "DUSTY",
+      "CAMPY",
+      "HIVEY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "TWIRL",
+      "PLANTS",
+      "FESTAL",
+      "BALLOO",
+      "NURSED",
+      "FABLES",
+      "GRAVEL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "FANTASTIC",
+      "HARMONIZE",
+      "INNOVATED",
+      "WONDERFUL",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "TRANQUIL",
+      "GENERATE"
+    ]
+  }
+}

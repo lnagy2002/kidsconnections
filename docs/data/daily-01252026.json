@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01252026-E",
+    "generatedAt": "2026-01-25T02:58:52.558Z",
+    "groups": [
+      {
+        "name": "Bright Sky Sightings",
+        "items": [
+          "sun",
+          "cloud",
+          "rainbow",
+          "kite"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Caring Companions",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "pencil",
+          "eraser",
+          "stapler",
+          "notebook"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy clues focus on concrete, familiar items. No tricky wordplay."
+  },
+  "medium": {
+    "id": "01252026-M",
+    "generatedAt": "2026-01-25T02:58:52.558Z",
+    "groups": [
+      {
+        "name": "Things That Roll",
+        "items": [
+          "ball",
+          "wheel",
+          "dice",
+          "marble"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Hand-Formed Phrases",
+        "items": [
+          "shake",
+          "book",
+          "print",
+          "rail"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Homes with 'home' Prefix",
+        "items": [
+          "work",
+          "room",
+          "page",
+          "town"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Star-Word Phrases",
+        "items": [
+          "fish",
+          "light",
+          "ship",
+          "dust"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium clues use simple wordplay (e.g., hand- or home- prefixes). There can be tempting overlaps; each item fits one specific pattern."
+  },
+  "hard": {
+    "id": "01252026-H",
+    "generatedAt": "2026-01-25T02:58:52.558Z",
+    "groups": [
+      {
+        "name": "Color-Fruit Hybrids",
+        "items": [
+          "orange",
+          "peach",
+          "lemon",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal and Object Twins",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "bear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools and Devices",
+        "items": [
+          "saw",
+          "plane",
+          "hammer",
+          "drill"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Pronunciations",
+        "items": [
+          "lead",
+          "bass",
+          "read",
+          "wind"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard clues embrace abstract links and polysemy. Some words may tempt you to fit them in another group, but they belong in their intended set."
+  }
+}

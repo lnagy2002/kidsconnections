@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "CAVE",
+      "BEND",
+      "FARM",
+      "HIVE",
+      "MIST",
+      "WAVE",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GATHER",
+      "SPLASH",
+      "DREAMY",
+      "JOURNAL",
+      "SPIRITS",
+      "FESTAL",
+      "BALANCE",
+      "CRYSTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "TRIUMPH",
+      "TRANSLATE",
+      "ADVENTURE",
+      "NARRATIVE",
+      "HARMONIZE",
+      "GENERATE",
+      "SPECTACULAR",
+      "COMPLICATE"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07222026-E",
+    "generatedAt": "2026-07-22T03:56:24.020Z",
+    "groups": [
+      {
+        "name": "Rainy Day Pairs",
+        "items": [
+          "coat",
+          "bow",
+          "forest",
+          "check"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Homes & Hobbies",
+        "items": [
+          "work",
+          "page",
+          "base",
+          "sick"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Time-Related Words",
+        "items": [
+          "bed",
+          "meal",
+          "play",
+          "past"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Light Friends",
+        "items": [
+          "star",
+          "moon",
+          "sun",
+          "flash"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 07222026."
+  },
+  "medium": {
+    "id": "07222026-M",
+    "generatedAt": "2026-07-22T03:56:24.020Z",
+    "groups": [
+      {
+        "name": "Ball Skills",
+        "items": [
+          "kick",
+          "catch",
+          "throw",
+          "dribble"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word-Man Team",
+        "items": [
+          "police",
+          "mail",
+          "chair",
+          "snow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Bird Friends",
+        "items": [
+          "house",
+          "bath",
+          "seed",
+          "brain"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "bear",
+          "plant",
+          "watch",
+          "drain"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh medium puzzle set for 07222026."
+  },
+  "hard": {
+    "id": "07222026-H",
+    "generatedAt": "2026-07-22T03:56:24.020Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Book-Word Companions",
+        "items": [
+          "note",
+          "log",
+          "story",
+          "guide"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mini Prefixes",
+        "items": [
+          "van",
+          "skirt",
+          "bus",
+          "bar"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "left",
+          "oversight",
+          "trim"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh hard puzzle set for 07222026."
+  }
+}

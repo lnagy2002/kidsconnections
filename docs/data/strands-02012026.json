@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CURL",
+      "FLAP",
+      "GOLD",
+      "HIVE",
+      "MIST",
+      "RIDE",
+      "SPIN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CANDLE",
+      "GARNET",
+      "JOURNAL",
+      "PLANTS",
+      "SILENT",
+      "TWIRLERS",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMBAT",
+      "DREAMER",
+      "FESTIVE",
+      "GATHERING",
+      "HARMONIZE",
+      "SPECTACLE",
+      "TRANSLATE",
+      "EXPLORING",
+      "MAGNETIC"
+    ]
+  }
+}

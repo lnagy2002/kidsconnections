@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10062026-E",
+    "generatedAt": "2026-10-06T06:41:05.942Z",
+    "groups": [
+      {
+        "name": "Circle-ish Objects",
+        "items": [
+          "ball",
+          "coin",
+          "clock",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Spin-Ready Things",
+        "items": [
+          "top",
+          "yo-yo",
+          "propeller",
+          "fan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Items",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "cup",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 10062026 easy puzzle: four concrete, visual groups with 4 items each."
+  },
+  "medium": {
+    "id": "10062026-M",
+    "generatedAt": "2026-10-06T06:41:05.942Z",
+    "groups": [
+      {
+        "name": "Books Joined by Book",
+        "items": [
+          "note",
+          "text",
+          "mark",
+          "case"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire-Related Compounds",
+        "items": [
+          "place",
+          "fly",
+          "work",
+          "brand"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Related Compounds",
+        "items": [
+          "fall",
+          "melon",
+          "way",
+          "proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Related Compounds",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "flower"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 10062026 medium puzzle: four groups built around common compound-word patterns. Cross-over temptations exist but each item belongs to its intended group."
+  },
+  "hard": {
+    "id": "10062026-H",
+    "generatedAt": "2026-10-06T06:41:05.942Z",
+    "groups": [
+      {
+        "name": "Words with Dual Roles (Noun/Verb)",
+        "items": [
+          "bat",
+          "park",
+          "leaf",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Names with Other Meanings",
+        "items": [
+          "crane",
+          "bear",
+          "seal",
+          "tick"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Units of Measure",
+        "items": [
+          "meter",
+          "liter",
+          "gram",
+          "second"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "live",
+          "read"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 10062026 hard puzzle: abstract connections and multi-meaning words. Some items could superficially seem to fit another group, but each belongs to its designated rule in this puzzle."
+  }
+}

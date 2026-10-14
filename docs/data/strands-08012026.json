@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "GUSTY",
+      "HUSHY",
+      "FLEEK",
+      "NICE",
+      "MASHY",
+      "CANDY",
+      "WILDY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "SPLASHY",
+      "FESTIVE",
+      "CRUNCHY",
+      "TWIRLED",
+      "WONDERY",
+      "CIRCLES",
+      "GLITTER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "FESTIVITY",
+      "TRANSLATE",
+      "GENERATED",
+      "IMAGINARY",
+      "SPIRALING",
+      "COMFORTED",
+      "DREAMLIKE",
+      "FRIENDLY"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CURLY",
+      "DUSTY",
+      "FABLE",
+      "FLEET",
+      "GLOWY",
+      "HIVEY",
+      "NICE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOON",
+      "CANDOR",
+      "GARNISH",
+      "SPARKY",
+      "NURTURE",
+      "TWIRLED",
+      "PLANTS",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "WONDERED",
+      "FANTASTIC",
+      "HARMONIC",
+      "BALANCED",
+      "TRANQUIL",
+      "SPIRITED",
+      "COMFORTED",
+      "GENERATION"
+    ]
+  }
+}

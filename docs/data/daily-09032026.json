@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09032026-E",
+    "generatedAt": "2026-09-03T04:51:26.583Z",
+    "groups": [
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "book",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "sun",
+          "rain",
+          "snow",
+          "wind"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle for 09032026. Groups are concrete and kid-friendly."
+  },
+  "medium": {
+    "id": "09032026-M",
+    "generatedAt": "2026-09-03T04:51:26.583Z",
+    "groups": [
+      {
+        "name": "Handy Compounds",
+        "items": [
+          "rail",
+          "pump",
+          "ball",
+          "print"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sunny Pairs",
+        "items": [
+          "rise",
+          "set",
+          "shine",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Companions",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "storm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Paper Companions",
+        "items": [
+          "clip",
+          "weight",
+          "plane",
+          "cut"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle introduces simple wordplay with common compound-formation ideas. Cross-over temptations may appear."
+  },
+  "hard": {
+    "id": "09032026-H",
+    "generatedAt": "2026-09-03T04:51:26.583Z",
+    "groups": [
+      {
+        "name": "Words with Many Jobs",
+        "items": [
+          "play",
+          "watch",
+          "ring",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Letters in Disguise",
+        "items": [
+          "bee",
+          "sea",
+          "are",
+          "why"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Backward Pals",
+        "items": [
+          "live",
+          "drawer",
+          "stressed",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Stress Shifters",
+        "items": [
+          "record",
+          "object",
+          "lead",
+          "project"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses polysemy, homophones, reversals, and stress-shift words to challenge older kids (Grades 4-6)."
+  }
+}

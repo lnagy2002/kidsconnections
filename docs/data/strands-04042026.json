@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "CAMP",
+      "FIRM",
+      "GLOW",
+      "HIDE",
+      "MIST",
+      "BUMP",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CANDLE",
+      "FESTAL",
+      "GATHER",
+      "JOURNAL",
+      "MAGNET",
+      "SPIRITS",
+      "SPARKLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBAT",
+      "BALANCED",
+      "COMFORTS",
+      "HARMONIC",
+      "INNOVATE",
+      "TRANSLATE",
+      "WONDERED",
+      "GENERATION",
+      "FRIENDSHIP"
+    ]
+  }
+}

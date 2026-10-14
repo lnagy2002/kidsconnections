@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WINDY",
+      "BUMPY",
+      "FLARE",
+      "HAPPY",
+      "JUMPY",
+      "FABLE",
+      "CRISP",
+      "FLEET"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "SPIRAL",
+      "GATHER",
+      "TWIRL",
+      "CLIMBER",
+      "FESTAL",
+      "BALLOON",
+      "NURTURE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "SPIRITED",
+      "ADVENTURE",
+      "COMFORTING",
+      "MAGNETIC",
+      "FRIENDSHIP",
+      "TRANQUIL",
+      "FANTASTIC",
+      "COMPLICATED"
+    ]
+  }
+}

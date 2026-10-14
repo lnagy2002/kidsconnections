@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKS",
+      "FLEET",
+      "CLAMP",
+      "GLOBE",
+      "WILDY",
+      "CURLY",
+      "SPARK",
+      "FABLE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "MYSTIC",
+      "DANGLE",
+      "BALCON",
+      "GARNET",
+      "FESTAL",
+      "WONDER",
+      "HARMON",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "FESTIVITY",
+      "SPIRITED",
+      "CIRCULATE",
+      "GRADIENT",
+      "MAGNETIC",
+      "FANTASTIC",
+      "COMFORTING",
+      "EXPLORING"
+    ]
+  }
+}

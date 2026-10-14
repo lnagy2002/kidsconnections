@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02062026-E",
+    "generatedAt": "2026-02-06T03:14:35.940Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "coin",
+          "ball",
+          "apple",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "bee",
+          "plane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable Items",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "sock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Refreshments",
+        "items": [
+          "water",
+          "juice",
+          "milk",
+          "tea"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 02062026 Easy set: four visual-themed groups, each with four concrete items."
+  },
+  "medium": {
+    "id": "02062026-M",
+    "generatedAt": "2026-02-06T03:14:35.940Z",
+    "groups": [
+      {
+        "name": "Light Companions",
+        "items": [
+          "flash",
+          "sun",
+          "spot",
+          "moon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball Partners",
+        "items": [
+          "basket",
+          "base",
+          "pin",
+          "kick"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Board-Prep Words",
+        "items": [
+          "skate",
+          "surf",
+          "snow",
+          "long"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "House Companions",
+        "items": [
+          "tree",
+          "green",
+          "play",
+          "bath"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium set uses simple wordplay and short compound-word ideas. Some items could tempt misgrouping, but each belongs to exactly one group."
+  },
+  "hard": {
+    "id": "02062026-H",
+    "generatedAt": "2026-02-06T03:14:35.940Z",
+    "groups": [
+      {
+        "name": "Animal-Object Hybrids",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "ram"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Different Pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit-Color Friends",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Star-Word Pairs",
+        "items": [
+          "fish",
+          "light",
+          "ship",
+          "dust"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set emphasizes abstract connections and polysemy. Includes tempting cross-overs to spark careful grouping."
+  }
+}

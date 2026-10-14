@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09292026-E",
+    "generatedAt": "2026-09-29T05:58:59.581Z",
+    "groups": [
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "Spatula",
+          "Whisk",
+          "Spoon",
+          "Bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits Parade",
+        "items": [
+          "Apple",
+          "Banana",
+          "Grape",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets and People",
+        "items": [
+          "Dog",
+          "Cat",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "Notebook",
+          "Pencil",
+          "Ruler",
+          "Eraser"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set. Four concrete groups with kid-friendly nouns suitable for grades 2-6."
+  },
+  "medium": {
+    "id": "09292026-M",
+    "generatedAt": "2026-09-29T05:58:59.581Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "Sunflower",
+          "Mailbox",
+          "Toothbrush",
+          "Starfish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polyseme Pairs",
+        "items": [
+          "Bark",
+          "Bank",
+          "Seal",
+          "Match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes Words",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Transport Things",
+        "items": [
+          "Car",
+          "Bike",
+          "Boat",
+          "Plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and familiar compounds. Cross-over temptation exists (e.g., 'Match' could hint at a compound-word group) to keep the solving interesting."
+  },
+  "hard": {
+    "id": "09292026-H",
+    "generatedAt": "2026-09-29T05:58:59.581Z",
+    "groups": [
+      {
+        "name": "Word Twins (Multiple Meanings)",
+        "items": [
+          "Crane",
+          "Spring",
+          "Bat",
+          "Bolt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "Lead",
+          "Wind",
+          "Tear",
+          "Bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Friends",
+        "items": [
+          "Knee",
+          "Write",
+          "Knight",
+          "Hour"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet Names as Nouns",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and wordplay. Includes heteronyms, silent-letter words, and multi-meaning terms to challenge older kids. Cross-over temptations are designed to steer solvers toward the intended group."
+  }
+}

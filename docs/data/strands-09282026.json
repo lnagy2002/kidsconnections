@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "WILDY",
+      "MASHY",
+      "CLAPS",
+      "FLEET",
+      "MISTY",
+      "JUMPY",
+      "CANDY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FESTAL",
+      "GARNET",
+      "FABLES",
+      "PLANTS",
+      "NURSED",
+      "FROSTY",
+      "TWIRLED",
+      "CAVERN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASY",
+      "HARMONIC",
+      "SPIRITED",
+      "BALANCED",
+      "GENERATE",
+      "FESTIVITY",
+      "ACROBATICS",
+      "TRANSLATE",
+      "COMFORTED"
+    ]
+  }
+}

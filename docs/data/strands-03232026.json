@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "GLOW",
+      "CAMP",
+      "HIDE",
+      "FIRM",
+      "BUMP",
+      "DUST",
+      "CANE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BAGPIPE",
+      "FESTAL",
+      "GARNISH",
+      "CANDLE",
+      "SPIRITS",
+      "ADVENT",
+      "CLUSTER",
+      "PLANTS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADUATE",
+      "HARMONIOUS",
+      "COMPLICATE",
+      "TRANSLATE",
+      "INNOVATION",
+      "FRIENDSHIP",
+      "WONDERFUL",
+      "EXPLORING",
+      "FANTASTIC"
+    ]
+  }
+}

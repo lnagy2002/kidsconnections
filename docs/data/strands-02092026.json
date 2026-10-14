@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BARK",
+      "HIDE",
+      "GLOW",
+      "JUMP",
+      "FIRM",
+      "CAMP",
+      "WIND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GARDEN",
+      "FESTAL",
+      "SPIRAL",
+      "TRICKY",
+      "BALLOON",
+      "PLANTS",
+      "GARNISH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "FANTASTIC",
+      "HARMONIZE",
+      "SPIRITED",
+      "INNOVATIVE",
+      "FRIENDSHIP",
+      "BALANCING",
+      "CIRCULATE",
+      "GENERATE"
+    ]
+  }
+}

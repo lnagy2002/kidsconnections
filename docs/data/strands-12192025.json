@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FLEW",
+      "GLOW",
+      "BUMP",
+      "CAVE",
+      "MIST",
+      "LAMP",
+      "HIDE",
+      "BEND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SILENT",
+      "FESTAL",
+      "BUNGLE",
+      "HARMON",
+      "CLUSTER",
+      "BALLOON",
+      "GARNISH",
+      "SPIRAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GATHERING",
+      "EXPLORING",
+      "TRANSLATE",
+      "HARMONIZE",
+      "CONTRIBUTE",
+      "FANTASTIC",
+      "COMPLICATED",
+      "DISCOVER",
+      "WONDERFUL"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "CLOVE",
+      "FLEET",
+      "GLOWY",
+      "JOLLY",
+      "LUMPY",
+      "PLUMB",
+      "SLEET"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "CANDOR",
+      "FESTAL",
+      "GARNET",
+      "HARMON",
+      "JOURNAL",
+      "PLANTS",
+      "TWIRL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CIRCULATE",
+      "FANTASTIC",
+      "INNOVATE",
+      "MAGNETIC",
+      "SPECTACLE",
+      "TRANQUIL",
+      "WONDERED",
+      "GENERATE"
+    ]
+  }
+}

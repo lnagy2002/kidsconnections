@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09062026-E",
+    "generatedAt": "2026-09-06T04:56:36.528Z",
+    "groups": [
+      {
+        "name": "Colorful Snacks",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Nearby Pets",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Home Furnishings",
+        "items": [
+          "chair",
+          "table",
+          "sofa",
+          "lamp"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Nature on Earth",
+        "items": [
+          "tree",
+          "rock",
+          "flower",
+          "cloud"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy connections with clear, concrete themes."
+  },
+  "medium": {
+    "id": "09062026-M",
+    "generatedAt": "2026-09-06T04:56:36.528Z",
+    "groups": [
+      {
+        "name": "Weather Watch",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "fog"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pairs in a Closet",
+        "items": [
+          "gloves",
+          "shoes",
+          "socks",
+          "mittens"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "pan"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include simple wordplay and cross-over temptations. Items are unique across all groups."
+  },
+  "hard": {
+    "id": "09062026-H",
+    "generatedAt": "2026-09-06T04:56:36.528Z",
+    "groups": [
+      {
+        "name": "Banks and Rings and More",
+        "items": [
+          "bank",
+          "spring",
+          "ring",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Mixer",
+        "items": [
+          "play",
+          "break",
+          "record",
+          "shape"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Are Not Just Animals",
+        "items": [
+          "crane",
+          "duck",
+          "seal",
+          "crab"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent Letter Starters",
+        "items": [
+          "knight",
+          "gnome",
+          "wrath",
+          "honest"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles feature abstract connections and polysemy. Some items might seem like they could fit another group at first glance, but belong to their designated group."
+  }
+}

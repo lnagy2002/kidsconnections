@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05062026-E",
+    "generatedAt": "2026-05-06T04:12:01.385Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "cherry",
+          "strawberry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head-Worn Items",
+        "items": [
+          "hat",
+          "cap",
+          "tiara",
+          "beret"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Spoons & Snacks",
+        "items": [
+          "soup",
+          "yogurt",
+          "pudding",
+          "oatmeal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: 4 groups of 4 concrete, kid-friendly items. Each item is unique across all groups."
+  },
+  "medium": {
+    "id": "05062026-M",
+    "generatedAt": "2026-05-06T04:12:01.385Z",
+    "groups": [
+      {
+        "name": "Water-Word Compounds",
+        "items": [
+          "waterfall",
+          "watermelon",
+          "watercolor",
+          "waterproof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Hand-Word Compounds",
+        "items": [
+          "handbook",
+          "handshake",
+          "handstand",
+          "handprint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add -ful Suffix to Make Adjectives",
+        "items": [
+          "care",
+          "play",
+          "color",
+          "hope"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Containers",
+        "items": [
+          "jar",
+          "bottle",
+          "can",
+          "box"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: 4 groups of 4 items. Each group forms a recognizable theme; watch for cross-over words that could seem to fit multiple groups but belong to the intended group."
+  },
+  "hard": {
+    "id": "05062026-H",
+    "generatedAt": "2026-05-06T04:12:01.385Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Multiple Meanings (noun/verb)",
+        "items": [
+          "bank",
+          "park",
+          "dust",
+          "record"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Names that are Fruits or Objects",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Verbs that Indicate Motion or Change",
+        "items": [
+          "rise",
+          "fade",
+          "drift",
+          "glide"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections. Includes cross-over temptation: some items could seem to belong to another hard group, but only fit the intended one."
+  }
+}

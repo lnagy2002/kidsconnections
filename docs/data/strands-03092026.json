@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FIRE",
+      "HIVE",
+      "CAGE",
+      "BUMP",
+      "MIST",
+      "BAND",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKS",
+      "CRISPY",
+      "GATHER",
+      "FESTAL",
+      "CRUNCH",
+      "TRICKY",
+      "BALANCE",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "GATHERED",
+      "EXPLAIN",
+      "FRIENDLY",
+      "INNOVATE",
+      "FANTASTIC",
+      "GRADUATE",
+      "MAGNETIC",
+      "ADVENTURE"
+    ]
+  }
+}

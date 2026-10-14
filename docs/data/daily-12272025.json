@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12272025-E",
+    "generatedAt": "2025-12-27T02:25:49.984Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "rose",
+          "firetruck",
+          "strawberry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "spatula"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four concrete categories with clear, visual clues."
+  },
+  "medium": {
+    "id": "12272025-M",
+    "generatedAt": "2025-12-27T02:25:49.984Z",
+    "groups": [
+      {
+        "name": "Polysemous Words",
+        "items": [
+          "bank",
+          "spring",
+          "pen",
+          "crane"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Words",
+        "items": [
+          "sunflower",
+          "notebook",
+          "rainbow",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals (Common Nouns)",
+        "items": [
+          "bear",
+          "fox",
+          "otter",
+          "seal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruit-Color Words",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lemon"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle: includes wordplay and compounds; some items may tempt grouping elsewhere, but belong to their labeled group."
+  },
+  "hard": {
+    "id": "12272025-H",
+    "generatedAt": "2025-12-27T02:25:49.984Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "fast",
+          "oversight",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "plant",
+          "watch",
+          "shape",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "write",
+          "psalm",
+          "isle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle: abstract connections with word quirks like heteronyms, contronyms, and silent letters."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FARM",
+      "BUMP",
+      "HIDE",
+      "CLIP",
+      "GLOW",
+      "PUSH",
+      "SWIM",
+      "CAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPARKY",
+      "FESTAL",
+      "GARNET",
+      "TWIRLS",
+      "BALLOO",
+      "CAVERN",
+      "NURSED",
+      "DREAMY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GLITTER",
+      "FESTIVITY",
+      "FRIENDLY",
+      "BALANCING",
+      "HARMONIC",
+      "SPIRITED",
+      "CIRCULATE",
+      "ADVENTURE",
+      "COMFORTED"
+    ]
+  }
+}

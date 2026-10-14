@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05232026-E",
+    "generatedAt": "2026-05-23T04:23:49.403Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "butterfly",
+          "kite",
+          "airplane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Guests",
+        "items": [
+          "rose",
+          "mushroom",
+          "carrot",
+          "pumpkin"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle set for date 05232026."
+  },
+  "medium": {
+    "id": "05232026-M",
+    "generatedAt": "2026-05-23T04:23:49.403Z",
+    "groups": [
+      {
+        "name": "Compound Word Friends",
+        "items": [
+          "keyboard",
+          "notebook",
+          "sunflower",
+          "toothpaste"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Verbs",
+        "items": [
+          "duck",
+          "crane",
+          "bear",
+          "fish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sky Objects",
+        "items": [
+          "cloud",
+          "stars",
+          "moon",
+          "comet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "eraser",
+          "pencil",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle: some items may tempt you to place them in another group (e.g., crane as a sky bird), but they belong to their labeled group."
+  },
+  "hard": {
+    "id": "05232026-H",
+    "generatedAt": "2026-05-23T04:23:49.403Z",
+    "groups": [
+      {
+        "name": "Word with Two Senses",
+        "items": [
+          "spring",
+          "bank",
+          "note",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "dress",
+          "record",
+          "train",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Terms",
+        "items": [
+          "asteroid",
+          "meteor",
+          "satellite",
+          "nebula"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "scissors",
+          "hammer",
+          "wrench",
+          "screwdriver"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle: words with multiple meanings and dual roles, with cross-over temptations (e.g., 'spring' as season/coil, 'bank' as river/finance)."
+  }
+}

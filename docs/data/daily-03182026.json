@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03182026-E",
+    "generatedAt": "2026-03-18T03:24:32.444Z",
+    "groups": [
+      {
+        "name": "Garden Finds",
+        "items": [
+          "carrot",
+          "flower",
+          "ladybug",
+          "spade"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Circular Objects",
+        "items": [
+          "coin",
+          "button",
+          "ring",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "socks"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy groups with concrete, visual themes."
+  },
+  "medium": {
+    "id": "03182026-M",
+    "generatedAt": "2026-03-18T03:24:32.444Z",
+    "groups": [
+      {
+        "name": "Un-Word Pairs",
+        "items": [
+          "do",
+          "fold",
+          "tie",
+          "lock"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Compound Words",
+        "items": [
+          "bookcase",
+          "snowman",
+          "cupcake",
+          "firefly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemes",
+        "items": [
+          "bat",
+          "bank",
+          "cell",
+          "spring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Movement Verbs",
+        "items": [
+          "step",
+          "jump",
+          "slide",
+          "crawl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptations: some words might look like they fit another group, but belong in the one shown."
+  },
+  "hard": {
+    "id": "03182026-H",
+    "generatedAt": "2026-03-18T03:24:32.444Z",
+    "groups": [
+      {
+        "name": "Anagrams",
+        "items": [
+          "stop",
+          "pots",
+          "spot",
+          "tops"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "write",
+          "thumb",
+          "island"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under-Word Family",
+        "items": [
+          "stand",
+          "water",
+          "ground",
+          "estimate"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push abstract connections; cross-over temptations are included to tempt you to think of other groups."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08082026-E",
+    "generatedAt": "2026-08-08T02:27:22.006Z",
+    "groups": [
+      {
+        "name": "Morning Treats",
+        "items": [
+          "pancake",
+          "cereal",
+          "toast",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet on the Ground",
+        "items": [
+          "socks",
+          "shoes",
+          "sneakers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to Get Around",
+        "items": [
+          "bike",
+          "car",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "disc"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle sets with concrete, visual connections."
+  },
+  "medium": {
+    "id": "08082026-M",
+    "generatedAt": "2026-08-08T02:27:22.006Z",
+    "groups": [
+      {
+        "name": "Jobs by Adding -er",
+        "items": [
+          "bake",
+          "paint",
+          "teach",
+          "print"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books That Pair with Book",
+        "items": [
+          "story",
+          "text",
+          "note",
+          "picture"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rhymes with Cat",
+        "items": [
+          "bat",
+          "hat",
+          "mat",
+          "sat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things Found in a Classroom",
+        "items": [
+          "desk",
+          "board",
+          "chalk",
+          "pencil"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix light wordplay with familiar word families; watch for cross-over ideas that might tempt but belong to only one group."
+  },
+  "hard": {
+    "id": "08082026-H",
+    "generatedAt": "2026-08-08T02:27:22.006Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "spring",
+          "bank",
+          "crane",
+          "draft"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 're' to Make New Verbs",
+        "items": [
+          "do",
+          "act",
+          "use",
+          "turn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under- prefixes That Create New Words",
+        "items": [
+          "stand",
+          "go",
+          "estimate",
+          "take"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Things",
+        "items": [
+          "gold",
+          "silver",
+          "bronze",
+          "orange"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract connections and multiple meanings to stretch older kids' thinking."
+  }
+}

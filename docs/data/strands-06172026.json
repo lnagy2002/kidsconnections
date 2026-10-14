@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FARM",
+      "BUMP",
+      "HIDE",
+      "CAVE",
+      "SPAR",
+      "CANE",
+      "FIRE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "BUNGLE",
+      "FLIGHT",
+      "FESTAL",
+      "CHANCE",
+      "SPIRAL",
+      "BALLOON",
+      "FESTIV"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "ADVENTURE",
+      "SPIRITED",
+      "GENERATE",
+      "INNOVATE",
+      "TRANSLATE",
+      "COMFORTING",
+      "FANTASTIC",
+      "HARMONIOUS"
+    ]
+  }
+}

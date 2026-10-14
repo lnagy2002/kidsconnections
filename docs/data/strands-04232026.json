@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAVE",
+      "FLEW",
+      "BUMP",
+      "COLD",
+      "GLOW",
+      "HIVE",
+      "WIND",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "TWIST",
+      "PLANT",
+      "FABLE",
+      "GARNET",
+      "SPLASH",
+      "DREAMY",
+      "BALANCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "ADVENTURE",
+      "FRIENDLY",
+      "HARMONIC",
+      "SPIRITED",
+      "INNOVATIVE",
+      "COMFORTING",
+      "GENERATE",
+      "TRANSLATE"
+    ]
+  }
+}

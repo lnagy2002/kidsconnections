@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01172026-E",
+    "generatedAt": "2026-01-17T02:25:21.547Z",
+    "groups": [
+      {
+        "name": "Sea friends",
+        "items": [
+          "dolphin",
+          "otter",
+          "seal",
+          "whale"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet crunchy snacks",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Ways to travel",
+        "items": [
+          "boat",
+          "car",
+          "bicycle",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 01172026, kid-friendly and visually approachable."
+  },
+  "medium": {
+    "id": "01172026-M",
+    "generatedAt": "2026-01-17T02:25:21.547Z",
+    "groups": [
+      {
+        "name": "Metal things",
+        "items": [
+          "nail",
+          "bolt",
+          "ring",
+          "coin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books that pair with 'book'",
+        "items": [
+          "story",
+          "note",
+          "guide",
+          "picture"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Verbs that can be nouns too",
+        "items": [
+          "drive",
+          "plant",
+          "bat",
+          "wash"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pantry staples",
+        "items": [
+          "salt",
+          "sugar",
+          "pepper",
+          "flour"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-link prompts and kid-friendly wordplay."
+  },
+  "hard": {
+    "id": "01172026-H",
+    "generatedAt": "2026-01-17T02:25:21.547Z",
+    "groups": [
+      {
+        "name": "Noun-verb pairs with different meanings",
+        "items": [
+          "punch",
+          "duck",
+          "beat",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-formed compounds",
+        "items": [
+          "work",
+          "fighter",
+          "place",
+          "ball"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Phrasal verbs with up",
+        "items": [
+          "hold",
+          "set",
+          "wake",
+          "turn"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Challenging connections that push abstract thinking while staying kid-friendly."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07172026-E",
+    "generatedAt": "2026-07-17T03:45:42.640Z",
+    "groups": [
+      {
+        "name": "Circle Shapes",
+        "items": [
+          "ball",
+          "coin",
+          "plate",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "B-words",
+        "items": [
+          "bus",
+          "book",
+          "banana",
+          "brush"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear for Heads",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits and Produce",
+        "items": [
+          "apple",
+          "peach",
+          "grape",
+          "kiwi"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy connections with clear, concrete themes for kids in grades 2-6."
+  },
+  "medium": {
+    "id": "07172026-M",
+    "generatedAt": "2026-07-17T03:45:42.640Z",
+    "groups": [
+      {
+        "name": "House Words",
+        "items": [
+          "green",
+          "work",
+          "out",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book Compounds",
+        "items": [
+          "note",
+          "cook",
+          "story",
+          "text"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Time Phrases",
+        "items": [
+          "bed",
+          "past",
+          "lunch",
+          "tea"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light Phrases",
+        "items": [
+          "sun",
+          "moon",
+          "star",
+          "spot"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay with common compound words and phrases. Some items might seem like they fit another group at first glance."
+  },
+  "hard": {
+    "id": "07172026-H",
+    "generatedAt": "2026-07-17T03:45:42.640Z",
+    "groups": [
+      {
+        "name": "Polysemes (multiple meanings)",
+        "items": [
+          "bat",
+          "spring",
+          "rock",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors and Things",
+        "items": [
+          "olive",
+          "violet",
+          "gold",
+          "silver"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Agent-Noun Forms",
+        "items": [
+          "run",
+          "bake",
+          "write",
+          "sing"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "lion",
+          "zebra",
+          "koala",
+          "panda"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections and some words with multiple meanings. Expect cross-cutting possibilities and think beyond the obvious."
+  }
+}

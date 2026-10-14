@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "LAMP",
+      "BOLD",
+      "CANE",
+      "FARM",
+      "HIDE",
+      "MIST",
+      "GLOW",
+      "WARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GARDEN",
+      "JOURNAL",
+      "SPIRITS",
+      "BUNGLE",
+      "FESTIVE",
+      "MAGNET",
+      "TRIUMPH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIZE",
+      "GENERATE",
+      "FRIENDSHIP",
+      "FANTASTIC",
+      "TRADITIONAL",
+      "BALANCEDLY",
+      "COMFORTING",
+      "DISCOVER",
+      "INNOVATIVE"
+    ]
+  }
+}

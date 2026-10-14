@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "HIVE",
+      "CAGE",
+      "BUMP",
+      "DUST",
+      "CAMP",
+      "MIST",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLOWING",
+      "SPARKLE",
+      "JOURNEY",
+      "FRIENDS",
+      "DREAMER",
+      "BUNGLES",
+      "BALANCE",
+      "GARNISH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONIC",
+      "CONSTRUCT",
+      "SPIRALING",
+      "FANTASTIC",
+      "EXPLORING",
+      "TRANQUIL",
+      "WONDERFUL",
+      "INNOVATE",
+      "GRADUATES"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05082026-E",
+    "generatedAt": "2026-05-08T03:57:45.451Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "airplane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Picks",
+        "items": [
+          "cereal",
+          "eggs",
+          "toast",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle sets for 05/08/2026. Each group has 4 items; all items are unique across difficulties."
+  },
+  "medium": {
+    "id": "05082026-M",
+    "generatedAt": "2026-05-08T03:57:45.451Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "waterfall",
+          "bookcase",
+          "toothbrush",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "brush",
+          "plant",
+          "watch",
+          "duck"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ways to Get Around",
+        "items": [
+          "bike",
+          "car",
+          "train",
+          "boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles feature simple wordplay and compound words. Watch for cross-over temptations—some words could seem to fit another group, but belong to their listed theme."
+  },
+  "hard": {
+    "id": "05082026-H",
+    "generatedAt": "2026-05-08T03:57:45.451Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "bank",
+          "note",
+          "spring",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruit-Colors",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Ideas",
+        "items": [
+          "freedom",
+          "honor",
+          "courage",
+          "truth"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and tricky wordplay. Includes cross-over temptations to challenge careful grouping while keeping content kid-friendly."
+  }
+}

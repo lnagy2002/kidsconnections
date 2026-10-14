@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CAMP",
+      "FIRM",
+      "GLOW",
+      "HIVE",
+      "JUMP",
+      "MILD",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLOO",
+      "CANDLE",
+      "FESTAL",
+      "GARNET",
+      "JOURNAL",
+      "PLANTS",
+      "SPARKY",
+      "TWIRLER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "COMFORTS",
+      "FANTASTIC",
+      "HARMONIC",
+      "INNOVATE",
+      "NARRATIVE",
+      "TRANQUIL",
+      "WONDERED",
+      "GENERATION"
+    ]
+  }
+}

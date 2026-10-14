@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "FIRM",
+      "FLAP",
+      "MESH",
+      "RIDE",
+      "BUMP",
+      "HIDE",
+      "SPOT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "JOURNAL",
+      "SPIRITS",
+      "FANTASY",
+      "GATHER",
+      "TRICKLE",
+      "TWILIGHT",
+      "SILENCE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXPLAIN",
+      "ADVENTURE",
+      "WONDERFUL",
+      "FESTIVITY",
+      "GENERATE",
+      "INNOVATIVE",
+      "TRANSLATED",
+      "COMFORTING",
+      "MAGNETIC"
+    ]
+  }
+}

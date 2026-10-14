@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BARK",
+      "COLD",
+      "FARM",
+      "DUST",
+      "FLEA",
+      "HIVE",
+      "MIST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GARDEN",
+      "PLANTS",
+      "SILVER",
+      "BASKET",
+      "FLIGHT",
+      "MAGNET",
+      "CANDLE",
+      "THUNDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FESTIVAL",
+      "WONDERFUL",
+      "FRIENDLY",
+      "DREAMLIKE",
+      "HARMONIOUS",
+      "TRANSLATE",
+      "INNOVATION",
+      "MAGNETIC",
+      "CIRCULATE"
+    ]
+  }
+}

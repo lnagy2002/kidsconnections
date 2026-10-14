@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05262026-E",
+    "generatedAt": "2026-05-26T04:42:14.263Z",
+    "groups": [
+      {
+        "name": "Sunny Yellow Things",
+        "items": [
+          "banana",
+          "sun",
+          "lemon",
+          "goldfish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Parade",
+        "items": [
+          "hat",
+          "cap",
+          "tiara",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Best Friends",
+        "items": [
+          "cow",
+          "sheep",
+          "pig",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 05262026 easy puzzle pack with four concrete, kid-friendly groups."
+  },
+  "medium": {
+    "id": "05262026-M",
+    "generatedAt": "2026-05-26T04:42:14.263Z",
+    "groups": [
+      {
+        "name": "Board-Builders",
+        "items": [
+          "chalk",
+          "key",
+          "surf",
+          "snow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books in the Making",
+        "items": [
+          "note",
+          "story",
+          "picture",
+          "guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ball Family Words",
+        "items": [
+          "basket",
+          "foot",
+          "base",
+          "soft"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Friends",
+        "items": [
+          "fall",
+          "melon",
+          "proof",
+          "color"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle pack with cross-over-friendly wordplay (board-words, book-words, ball-words, water-words)."
+  },
+  "hard": {
+    "id": "05262026-H",
+    "generatedAt": "2026-05-26T04:42:14.263Z",
+    "groups": [
+      {
+        "name": "Polyseme Pals",
+        "items": [
+          "bat",
+          "duck",
+          "plant",
+          "fan"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Word Set",
+        "items": [
+          "place",
+          "truck",
+          "fly",
+          "work"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Out-Word Pairs",
+        "items": [
+          "lay",
+          "put",
+          "post",
+          "fit"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Up-Word Pairs",
+        "items": [
+          "set",
+          "hold",
+          "take",
+          "beat"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle pack with abstract links and polysemous word connections for advanced fun."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09142026-E",
+    "generatedAt": "2026-09-14T05:16:48.472Z",
+    "groups": [
+      {
+        "name": "Round Rivals",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "disc"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Airborne Things",
+        "items": [
+          "kite",
+          "plane",
+          "rocket",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Desk Helpers",
+        "items": [
+          "eraser",
+          "pencil",
+          "crayon",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet Delights",
+        "items": [
+          "cake",
+          "candy",
+          "honey",
+          "jelly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual themes. Each group centers on familiar, kid-friendly items."
+  },
+  "medium": {
+    "id": "09142026-M",
+    "generatedAt": "2026-09-14T05:16:48.472Z",
+    "groups": [
+      {
+        "name": "Office Supplies",
+        "items": [
+          "paperclip",
+          "stapler",
+          "notebook",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Garden Gear",
+        "items": [
+          "shovel",
+          "hoe",
+          "rake",
+          "gloves"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "bicycle",
+          "train",
+          "boat",
+          "scooter"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Clues",
+        "items": [
+          "rain",
+          "fog",
+          "wind",
+          "sun"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and cross-over temptations: items could seem to fit more than one group, but each item has a single correct fit."
+  },
+  "hard": {
+    "id": "09142026-H",
+    "generatedAt": "2026-09-14T05:16:48.472Z",
+    "groups": [
+      {
+        "name": "Cosmic Connections",
+        "items": [
+          "fish",
+          "ship",
+          "dust",
+          "fighter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Moon Mergers",
+        "items": [
+          "beam",
+          "stone",
+          "shadow",
+          "glow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Stone Connections",
+        "items": [
+          "grind",
+          "mile",
+          "corner",
+          "touch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Things",
+        "items": [
+          "orange",
+          "peach",
+          "plum",
+          "rose"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections (cosmic, lunar, and stone-word patterns). Expect some tempting misfits that only fit the intended group."
+  }
+}

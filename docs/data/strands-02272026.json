@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FLAT",
+      "COLD",
+      "LAMP",
+      "BEND",
+      "CAVE",
+      "FARM",
+      "HIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "JOURNAL",
+      "BALANCE",
+      "FESTIVE",
+      "GRADUATE",
+      "SPIRITS",
+      "GATHERED",
+      "EXPLORE",
+      "NARRATE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HARMONY",
+      "COMBAT",
+      "FANTASY",
+      "MAGNETIC",
+      "TRANSLATE",
+      "FRIENDSHIP",
+      "ADVENTURE",
+      "COMPLICATE",
+      "UNDERSTAND"
+    ]
+  }
+}

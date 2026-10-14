@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "CURL",
+      "HIVE",
+      "GLOW",
+      "VINE",
+      "BUMP",
+      "CLIP",
+      "LUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "PLANTS",
+      "SPIRAL",
+      "BALLOO",
+      "GARNISH",
+      "NURSED",
+      "TWIRLED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FANTASY",
+      "HARMONIZE",
+      "GLITTERY",
+      "SPIRITED",
+      "EXPLAINED",
+      "TRANQUIL",
+      "GENERATE",
+      "COMFORTED",
+      "COMPLICATE"
+    ]
+  }
+}

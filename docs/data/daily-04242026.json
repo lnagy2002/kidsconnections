@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04242026-E",
+    "generatedAt": "2026-04-24T03:56:53.274Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "bus",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "shoes",
+          "socks",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzles with concrete, visual groupings."
+  },
+  "medium": {
+    "id": "04242026-M",
+    "generatedAt": "2026-04-24T03:56:53.274Z",
+    "groups": [
+      {
+        "name": "Words that pair with 'board' to form common words",
+        "items": [
+          "black",
+          "white",
+          "chalk",
+          "surf"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rideable things",
+        "items": [
+          "bike",
+          "skateboard",
+          "unicycle",
+          "tricycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Yellow foods",
+        "items": [
+          "corn",
+          "banana",
+          "lemon",
+          "pineapple"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles include cross-over temptations: items may seem to fit another group at first glance, but have a single correct grouping."
+  },
+  "hard": {
+    "id": "04242026-H",
+    "generatedAt": "2026-04-24T03:56:53.274Z",
+    "groups": [
+      {
+        "name": "Polysemes (words with multiple meanings)",
+        "items": [
+          "bank",
+          "spring",
+          "bat",
+          "jam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "wind",
+          "bow",
+          "tear",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Prefix 're' can make a new word",
+        "items": [
+          "do",
+          "write",
+          "play",
+          "run"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sounds like letters",
+        "items": [
+          "bee",
+          "sea",
+          "jay",
+          "tee"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy/phonology; look for words that challenge initial guesses."
+  }
+}

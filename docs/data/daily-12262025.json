@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12262025-E",
+    "generatedAt": "2025-12-26T02:27:38.661Z",
+    "groups": [
+      {
+        "name": "Glow at Night",
+        "items": [
+          "moon",
+          "firefly",
+          "lantern",
+          "stars"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yummy Foods",
+        "items": [
+          "apple",
+          "bread",
+          "carrot",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Backpack Essentials",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "map"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle sets for 12262025. Groups use concrete, visual themes."
+  },
+  "medium": {
+    "id": "12262025-M",
+    "generatedAt": "2025-12-26T02:27:38.661Z",
+    "groups": [
+      {
+        "name": "Play prefixes",
+        "items": [
+          "ground",
+          "date",
+          "time",
+          "mate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water pair words",
+        "items": [
+          "fall",
+          "melon",
+          "proof",
+          "mark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home-words combos",
+        "items": [
+          "work",
+          "page",
+          "maker",
+          "stead"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rhymes with light",
+        "items": [
+          "bright",
+          "night",
+          "might",
+          "flight"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh set for 12262025. Medium groups include cross-over temptations (e.g., melon could be seen as a food) to encourage careful grouping."
+  },
+  "hard": {
+    "id": "12262025-H",
+    "generatedAt": "2025-12-26T02:27:38.661Z",
+    "groups": [
+      {
+        "name": "Polysemes in daily words",
+        "items": [
+          "spring",
+          "bark",
+          "crane",
+          "mint"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "park",
+          "book",
+          "shoot",
+          "brush"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color words that describe objects",
+        "items": [
+          "orange",
+          "pink",
+          "olive",
+          "teal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pre- words that start a new form",
+        "items": [
+          "historic",
+          "view",
+          "school",
+          "season"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh, challenging hard puzzle set for 12262025. Some items may tempt misclassification to other groups—this is intentional to heighten the Connections feel."
+  }
+}

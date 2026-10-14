@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01142026-E",
+    "generatedAt": "2026-01-14T02:37:14.010Z",
+    "groups": [
+      {
+        "name": "Numbers (1-4)",
+        "items": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen friends",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pairs we wear",
+        "items": [
+          "glove",
+          "sock",
+          "shoe",
+          "earring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Face parts",
+        "items": [
+          "eye",
+          "nose",
+          "ear",
+          "mouth"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh kid-friendly easy set with concrete, visual connections."
+  },
+  "medium": {
+    "id": "01142026-M",
+    "generatedAt": "2026-01-14T02:37:14.010Z",
+    "groups": [
+      {
+        "name": "Add-RE words (common prefixes)",
+        "items": [
+          "play",
+          "do",
+          "act",
+          "cycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add-UN opposites",
+        "items": [
+          "tidy",
+          "usual",
+          "kind",
+          "lucky"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book partners",
+        "items": [
+          "phone",
+          "note",
+          "cook",
+          "story"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shop companions",
+        "items": [
+          "book",
+          "flower",
+          "clothes",
+          "pet"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay with cross-over possibilities."
+  },
+  "hard": {
+    "id": "01142026-H",
+    "generatedAt": "2026-01-14T02:37:14.010Z",
+    "groups": [
+      {
+        "name": "Words with multiple meanings (polysemes)",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that are also foods",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite-meaning contronyms",
+        "items": [
+          "dust",
+          "fast",
+          "trim",
+          "seed"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "row"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores abstract connections and tricky word forms."
+  }
+}

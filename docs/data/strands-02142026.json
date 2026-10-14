@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "FIRM",
+      "HIVE",
+      "LAMP",
+      "DUST",
+      "CANE",
+      "BOLT",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "GLOBE",
+      "PLANT",
+      "TWIRL",
+      "FABLES",
+      "NURSED",
+      "HARMON",
+      "BUNGLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GRADUATE",
+      "CIRCULATE",
+      "FANTASTIC",
+      "INNOVATE",
+      "COMFORTED",
+      "DREAMLIKE",
+      "TRANQUIL",
+      "SPIRITED"
+    ]
+  }
+}

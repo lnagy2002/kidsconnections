@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BARK",
+      "COLD",
+      "DUST",
+      "FIRM",
+      "FALL",
+      "MIST",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "GARDEN",
+      "SILVER",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS",
+      "TWILIGHT",
+      "GATHER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTURE",
+      "DREAMLIKE",
+      "FANTASTIC",
+      "HARMONIZE",
+      "IMAGINARY",
+      "TRANSLATED",
+      "GENERATE",
+      "INNOVATION",
+      "SPECTACULAR"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "COLD",
+      "FIRM",
+      "JUMP",
+      "MIST",
+      "PUSH",
+      "WILD",
+      "HIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "GARNISH",
+      "JOURNAL",
+      "PLASTIC",
+      "SPIRITS",
+      "TRIUMPH",
+      "WONDER",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "COMBAT",
+      "EXPLAIN",
+      "HARMONY",
+      "INNOVATE",
+      "UNDERSTAND",
+      "FRIENDSHIP",
+      "GENERATE",
+      "TRANSLATE",
+      "DISCOVER"
+    ]
+  }
+}

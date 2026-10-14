@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04232026-E",
+    "generatedAt": "2026-04-23T03:53:23.998Z",
+    "groups": [
+      {
+        "name": "Park Features",
+        "items": [
+          "bench",
+          "slide",
+          "swing",
+          "pond"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things With Wheels",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "truck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bedroom Essentials",
+        "items": [
+          "pillow",
+          "blanket",
+          "bed",
+          "lamp"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Easy puzzle: four concrete visual groups for kids."
+  },
+  "medium": {
+    "id": "04232026-M",
+    "generatedAt": "2026-04-23T03:53:23.998Z",
+    "groups": [
+      {
+        "name": "Word Combos A",
+        "items": [
+          "butterfly",
+          "sunset",
+          "raincoat",
+          "bookcase"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word Combos B",
+        "items": [
+          "keyboard",
+          "waterfall",
+          "playground",
+          "rainbow"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Action Words",
+        "items": [
+          "watch",
+          "play",
+          "paint",
+          "dance"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Careers/Professions",
+        "items": [
+          "teacher",
+          "chef",
+          "pilot",
+          "doctor"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes compound words and simple wordplay; some items may seem to fit another group but belong to the intended category."
+  },
+  "hard": {
+    "id": "04232026-H",
+    "generatedAt": "2026-04-23T03:53:23.998Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "bank",
+          "bear",
+          "spring",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Different Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Qualities",
+        "items": [
+          "freedom",
+          "courage",
+          "honesty",
+          "imagination"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound-Alike Pairs",
+        "items": [
+          "knight",
+          "night",
+          "son",
+          "sun"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and words with multiple meanings; careful grouping with cross-over temptation in mind."
+  }
+}

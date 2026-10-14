@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CLIP",
+      "WAVE",
+      "BUMP",
+      "LIFT",
+      "FIRM",
+      "HIDE",
+      "SPIN",
+      "BARK"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRICK",
+      "PLANT",
+      "FLEET",
+      "SPLAT",
+      "CANDLE",
+      "FABLES",
+      "BUNGLE",
+      "GRANDY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CIRCULAR",
+      "GRADUATE",
+      "DREAMING",
+      "FANTASTIC",
+      "HARMONIC",
+      "BALANCED",
+      "ADVENTURE",
+      "GENERATE",
+      "FRIENDLY"
+    ]
+  }
+}

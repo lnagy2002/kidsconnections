@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02132026-E",
+    "generatedAt": "2026-02-13T03:27:09.193Z",
+    "groups": [
+      {
+        "name": "Headwear Highlights",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Airborne Aids",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Basics",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Snack Time Favorites",
+        "items": [
+          "apple",
+          "cookie",
+          "crackers",
+          "popcorn"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 02132026 easy puzzle set for kids."
+  },
+  "medium": {
+    "id": "02132026-M",
+    "generatedAt": "2026-02-13T03:27:09.193Z",
+    "groups": [
+      {
+        "name": "Book-Word Bond",
+        "items": [
+          "story",
+          "cook",
+          "note",
+          "text"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Suffixes",
+        "items": [
+          "rise",
+          "shine",
+          "flower",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Play-Word Compounds",
+        "items": [
+          "ground",
+          "time",
+          "date",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Dual-Meaning Pairs",
+        "items": [
+          "bear",
+          "crane",
+          "bank",
+          "bolt"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 02132026 medium puzzle set for kids."
+  },
+  "hard": {
+    "id": "02132026-H",
+    "generatedAt": "2026-02-13T03:27:09.193Z",
+    "groups": [
+      {
+        "name": "Rich in Meaning",
+        "items": [
+          "ring",
+          "light",
+          "plant",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sounds-Alike Pairs",
+        "items": [
+          "knight",
+          "pair",
+          "sun",
+          "eight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Re- Prefix Builders",
+        "items": [
+          "act",
+          "write",
+          "build",
+          "turn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "The Classical Elements",
+        "items": [
+          "earth",
+          "water",
+          "air",
+          "fire"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 02132026 hard puzzle set for kids."
+  }
+}

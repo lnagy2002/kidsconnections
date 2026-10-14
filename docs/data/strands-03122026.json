@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FLEW",
+      "BUMP",
+      "HIVE",
+      "COLD",
+      "LIFT",
+      "GLOW",
+      "BAND",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TWIRL",
+      "BUNGLE",
+      "SPIRIT",
+      "FESTAL",
+      "FARMER",
+      "HARMON",
+      "JOURNAL",
+      "DREAMS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPIRITED",
+      "BALANCED",
+      "ADVENTUR",
+      "BALANCING",
+      "FANTASIES",
+      "INNOVATIVE",
+      "HARMONIC",
+      "FESTIVITY",
+      "GENERATE"
+    ]
+  }
+}

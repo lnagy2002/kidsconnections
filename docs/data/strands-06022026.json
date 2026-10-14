@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BLOOM",
+      "FLEET",
+      "CLASH",
+      "GRASP",
+      "SHINE",
+      "TWIST",
+      "BUMPY",
+      "FABLE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SPIRAL",
+      "TWILIGHT",
+      "BALANCE",
+      "CARNIVAL",
+      "DREAMER",
+      "GARNISH",
+      "FESTIVE",
+      "HARMONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "EXPLORER",
+      "HARMONIC",
+      "ADVENTURE",
+      "NARRATIVE",
+      "GENERATE",
+      "MAGNETIC",
+      "TRANQUIL",
+      "INNOVATIVE"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAMP",
+      "FIRM",
+      "GLOW",
+      "RIDE",
+      "HIDE",
+      "WILD",
+      "FINE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "GRANDY",
+      "HARMON",
+      "MAGNET",
+      "SPARKY",
+      "JOURNAL",
+      "PLASTIC"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "GENERATE",
+      "HARMONIC",
+      "TRANSLATE",
+      "DREAMLIKE",
+      "CIRCULATE",
+      "INNOVATED",
+      "SPECTACULAR",
+      "FRIENDSHIP"
+    ]
+  }
+}

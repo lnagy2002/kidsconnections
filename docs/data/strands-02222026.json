@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAVE",
+      "LIFT",
+      "HIVE",
+      "BEND",
+      "RACE",
+      "FIRM",
+      "WARM",
+      "FLEA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GLIDER",
+      "TWIRL",
+      "FESTAL",
+      "SPIRAL",
+      "NURSED",
+      "DREAMY",
+      "BALLOO",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CAVERN",
+      "DREAMER",
+      "FRIENDS",
+      "SPLASHY",
+      "GATHERD",
+      "SPARKLE",
+      "NARRATE",
+      "COMBAT",
+      "FANTASY"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12282025-E",
+    "generatedAt": "2025-12-28T02:40:52.571Z",
+    "groups": [
+      {
+        "name": "Things that are red",
+        "items": [
+          "apple",
+          "rose",
+          "strawberry",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "pizza",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things to eat with a spoon",
+        "items": [
+          "soup",
+          "yogurt",
+          "oatmeal",
+          "pudding"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled vehicles",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 12282025 puzzle. Easy: clear, concrete categories."
+  },
+  "medium": {
+    "id": "12282025-M",
+    "generatedAt": "2025-12-28T02:40:52.571Z",
+    "groups": [
+      {
+        "name": "Compound words describing objects",
+        "items": [
+          "playground",
+          "notebook",
+          "bookshelf",
+          "toothbrush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Clothing items",
+        "items": [
+          "sweater",
+          "scarf",
+          "gloves",
+          "hat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "cat",
+          "dog",
+          "parrot",
+          "fish"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nature features",
+        "items": [
+          "river",
+          "mountain",
+          "desert",
+          "forest"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes items that could seem to belong to another group at first glance; only the listed group is correct."
+  },
+  "hard": {
+    "id": "12282025-H",
+    "generatedAt": "2025-12-28T02:40:52.571Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "read",
+          "wind",
+          "lead",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes (words with multiple meanings)",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun/Verb pair words (same spelling, used as both noun and verb)",
+        "items": [
+          "time",
+          "play",
+          "draw",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract concepts",
+        "items": [
+          "truth",
+          "justice",
+          "freedom",
+          "courage"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses abstract connections and multiple-meaning words. Some entries may tempt misclassification in search of easier paths."
+  }
+}

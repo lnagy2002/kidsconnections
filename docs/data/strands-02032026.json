@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAME",
+      "MIST",
+      "BAND",
+      "LAMP",
+      "FIRM",
+      "FLEA",
+      "HIVE",
+      "CAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "PLANTS",
+      "GARNET",
+      "BUNGLE",
+      "TWIRL",
+      "CANDLE",
+      "FESTAL",
+      "DREAMY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "FRIENDLY",
+      "HARMONIC",
+      "ACROBAT",
+      "INNOVATE",
+      "GENERATE",
+      "SPIRITED",
+      "MAGNETIC",
+      "COMFORTING"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03122026-E",
+    "generatedAt": "2026-03-12T03:16:08.660Z",
+    "groups": [
+      {
+        "name": "Group 1: Circle Goods",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2: Head & Hands",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "belt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3: Dining Pieces",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4: Writing Time",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Each group uses concrete, visible themes for kids. Cross-over temptations exist in higher difficulties."
+  },
+  "medium": {
+    "id": "03122026-M",
+    "generatedAt": "2026-03-12T03:16:08.660Z",
+    "groups": [
+      {
+        "name": "Group 1: Water Wonders",
+        "items": [
+          "watermelon",
+          "waterfall",
+          "waterslide",
+          "waterbottle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2: Noun-Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "cook",
+          "brush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3: Rain Compounds",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4: Handy Classroom Tools",
+        "items": [
+          "chalk",
+          "whiteboard",
+          "glue",
+          "scissors"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups mix wordplay and obvious compounds. There is deliberate cross-over temptation; some items could seem to fit more than one group but belong to one theme."
+  },
+  "hard": {
+    "id": "03122026-H",
+    "generatedAt": "2026-03-12T03:16:08.660Z",
+    "groups": [
+      {
+        "name": "Group 1: Polysemous Nouns & Verbs",
+        "items": [
+          "train",
+          "plant",
+          "bat",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2: Sun Prefix Words",
+        "items": [
+          "flower",
+          "rise",
+          "burn",
+          "shine"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3: Animal-Names",
+        "items": [
+          "crane",
+          "fox",
+          "seal",
+          "yak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4: -ful Adjectives",
+        "items": [
+          "fear",
+          "art",
+          "mind",
+          "grace"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy. Some items could fit multiple themes, but only belong to their intended group."
+  }
+}

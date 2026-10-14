@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BUMP",
+      "CAGE",
+      "FIRM",
+      "JOLT",
+      "MASH",
+      "PUSH",
+      "SAND",
+      "WILD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BASKET",
+      "CANDLE",
+      "FESTAL",
+      "GATHER",
+      "GHOSTY",
+      "HARMON",
+      "PLANTS",
+      "TWIRLS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "FESTIVAL",
+      "FRIENDLY",
+      "GATHERED",
+      "MAGNETIC",
+      "SPIRITED",
+      "TRANSLATE",
+      "WONDERED",
+      "ADVENTURE"
+    ]
+  }
+}

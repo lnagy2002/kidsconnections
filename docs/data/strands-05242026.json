@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BEEP",
+      "HIVE",
+      "BUMP",
+      "FIRM",
+      "MINT",
+      "VINE",
+      "CANE",
+      "FLEW"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BLOOM",
+      "CRISP",
+      "FLARE",
+      "GLOWY",
+      "MYSTIC",
+      "SPARKY",
+      "TWIRL",
+      "PLANTY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCE",
+      "CARNIVAL",
+      "SPIRITED",
+      "FESTIVAL",
+      "GATHERED",
+      "HARMONIC",
+      "WONDERED",
+      "MAGNETIC",
+      "TRIANGULAR"
+    ]
+  }
+}

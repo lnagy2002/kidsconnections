@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06112026-E",
+    "generatedAt": "2026-06-11T05:08:14.764Z",
+    "groups": [
+      {
+        "name": "Kitchen items",
+        "items": [
+          "spoon",
+          "bowl",
+          "cup",
+          "pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Clothes you wear",
+        "items": [
+          "hat",
+          "scarf",
+          "glove",
+          "sock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "goat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 2026-06-11 easy connections: four groups of everyday items."
+  },
+  "medium": {
+    "id": "06112026-M",
+    "generatedAt": "2026-06-11T05:08:14.764Z",
+    "groups": [
+      {
+        "name": "Words that are both nouns and verbs",
+        "items": [
+          "plant",
+          "note",
+          "park",
+          "light"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Vehicles",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "boat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits (edible items)",
+        "items": [
+          "apple",
+          "grape",
+          "banana",
+          "mango"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School objects",
+        "items": [
+          "desk",
+          "pencil",
+          "book",
+          "chalk"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with surface temptations: some words could seem to fit other groups but belong to their listed links."
+  },
+  "hard": {
+    "id": "06112026-H",
+    "generatedAt": "2026-06-11T05:08:14.764Z",
+    "groups": [
+      {
+        "name": "Polyseme set (same word, different meanings)",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "file"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits that are also color words",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "saw",
+          "drill",
+          "hammer",
+          "plane"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and multi-meaning words. Some items may tempt to fit other groups, but each item has a unique correct group."
+  }
+}

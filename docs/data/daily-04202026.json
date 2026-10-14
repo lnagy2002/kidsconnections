@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04202026-E",
+    "generatedAt": "2026-04-20T03:57:06.082Z",
+    "groups": [
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Modes of Travel",
+        "items": [
+          "car",
+          "bicycle",
+          "train",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pet Companions",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drink Delights",
+        "items": [
+          "water",
+          "milk",
+          "juice",
+          "tea"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzles for date 04202026. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "04202026-M",
+    "generatedAt": "2026-04-20T03:57:06.082Z",
+    "groups": [
+      {
+        "name": "Sun Pairings",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Compound Partners",
+        "items": [
+          "fall",
+          "melon",
+          "bottle",
+          "proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Super-Word Pairs",
+        "items": [
+          "hero",
+          "market",
+          "vision",
+          "power"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Under Prefix Pairs",
+        "items": [
+          "ground",
+          "stand",
+          "lay",
+          "mine"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with cross-over temptations to challenge connections."
+  },
+  "hard": {
+    "id": "04202026-H",
+    "generatedAt": "2026-04-20T03:57:06.082Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "bat",
+          "plant",
+          "rock",
+          "leaf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Pronunciation Words",
+        "items": [
+          "wind",
+          "read",
+          "lead",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Over- Prefix Words",
+        "items": [
+          "look",
+          "see",
+          "work",
+          "flow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Verbs",
+        "items": [
+          "seal",
+          "crane",
+          "bear",
+          "duck"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores words with multiple meanings, pronunciation shifts, and prefix-based word formation."
+  }
+}

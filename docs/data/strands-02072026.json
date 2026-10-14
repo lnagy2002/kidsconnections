@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "BOLD",
+      "BUMP",
+      "LIFT",
+      "MIST",
+      "CAMP",
+      "FIRM",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "FESTAL",
+      "FLEETS",
+      "GARNET",
+      "PLANTS",
+      "SPIRAL",
+      "TWIRLS",
+      "WILLOW"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "DREAMING",
+      "FANTASTIC",
+      "GATHERED",
+      "INNOVATE",
+      "SPIRITED",
+      "TRADITION",
+      "WONDERED",
+      "HARMONIC"
+    ]
+  }
+}

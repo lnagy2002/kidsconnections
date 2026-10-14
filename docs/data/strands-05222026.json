@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BAND",
+      "CAGE",
+      "GLOW",
+      "VINE",
+      "WIND",
+      "FLIP",
+      "HUSH",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNGLE",
+      "CRISPY",
+      "FESTAL",
+      "GARNET",
+      "SPARKY",
+      "TWIRL",
+      "FABLES",
+      "DREAMY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "CARNIVAL",
+      "FANTASTIC",
+      "GRADUATE",
+      "HARMONIC",
+      "SPIRITED",
+      "INNOVATE",
+      "TRANQUIL",
+      "EXPLAINED"
+    ]
+  }
+}

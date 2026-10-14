@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05282026-E",
+    "generatedAt": "2026-05-28T04:48:49.133Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tree Fruits",
+        "items": [
+          "apple",
+          "orange",
+          "pear",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "shoes"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "backpack"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections puzzle (easy). Each group has a clear, concrete theme perfect for younger solvers."
+  },
+  "medium": {
+    "id": "05282026-M",
+    "generatedAt": "2026-05-28T04:48:49.133Z",
+    "groups": [
+      {
+        "name": "Fire-Word Compounds",
+        "items": [
+          "alarm",
+          "fighter",
+          "proof",
+          "escape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Bird Compounds After Bird",
+        "items": [
+          "seed",
+          "house",
+          "bath",
+          "cage"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain-Plus Words",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "storm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "kind",
+          "usual",
+          "happy",
+          "clear"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: Each group has a crisp connecting idea. Some items might seem like they could fit another group, but only the stated link is correct."
+  },
+  "hard": {
+    "id": "05282026-H",
+    "generatedAt": "2026-05-28T04:48:49.133Z",
+    "groups": [
+      {
+        "name": "Polysemous Nouns/Verbs",
+        "items": [
+          "bat",
+          "plant",
+          "match",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Follow Home",
+        "items": [
+          "work",
+          "page",
+          "body",
+          "land"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "true",
+          "certain",
+          "fair",
+          "likely"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bass"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and words with multiple meanings. Look for words with multiple pronunciations or uses to spot the right group."
+  }
+}

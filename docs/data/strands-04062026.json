@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARK",
+      "CAGE",
+      "FUME",
+      "GLOW",
+      "HIDE",
+      "LAMP",
+      "MIST",
+      "WAND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BRIGHT",
+      "CLIMB",
+      "FESTAL",
+      "GATHER",
+      "HARMON",
+      "JOURNAL",
+      "SPIRAL",
+      "THUNDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ADVENTUR",
+      "BALANCED",
+      "COMFORTS",
+      "DREAMING",
+      "EXPLORER",
+      "FANTASTIC",
+      "GENERATION",
+      "HARMONIC",
+      "INNOVATIVE"
+    ]
+  }
+}

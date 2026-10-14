@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03042026-E",
+    "generatedAt": "2026-03-04T03:10:17.844Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Items",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "knife"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 3-puzzle set for 03/04/2026. All items are kid-friendly and unique."
+  },
+  "medium": {
+    "id": "03042026-M",
+    "generatedAt": "2026-03-04T03:10:17.844Z",
+    "groups": [
+      {
+        "name": "Sun Prefix Compounds",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "dial"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ride-able Items",
+        "items": [
+          "bike",
+          "bus",
+          "car",
+          "skateboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "oatmeal",
+          "cereal",
+          "pancake",
+          "toast"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Meaning Words (Noun & Verb)",
+        "items": [
+          "watch",
+          "park",
+          "drive",
+          "beat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with light wordplay and cross-over temptations (words that could seem to fit another group but belong to the listed one)."
+  },
+  "hard": {
+    "id": "03042026-H",
+    "generatedAt": "2026-03-04T03:10:17.844Z",
+    "groups": [
+      {
+        "name": "Polysemous Everyday Words",
+        "items": [
+          "spring",
+          "bank",
+          "note",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water Endings (common compounds)",
+        "items": [
+          "proof",
+          "fall",
+          "melon",
+          "drop"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "glue",
+          "eraser",
+          "chalk",
+          "board"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Basic Math Terms",
+        "items": [
+          "mean",
+          "sum",
+          "mode",
+          "ratio"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle exploring multiple meanings and word connections. Cross-over temptations are present (e.g., 'melon' could temptily belong to a fruit group)."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BOLT",
+      "FIRM",
+      "GRAD",
+      "HIDE",
+      "LIFT",
+      "PUSH",
+      "WILD",
+      "RIDE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BALLET",
+      "GRAINY",
+      "HARMON",
+      "JOURNAL",
+      "MYSTIC",
+      "PLASTIC",
+      "SPIRITS",
+      "TROPHY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CARNIVAL",
+      "FESTIVITY",
+      "FRIENDLY",
+      "GENERATE",
+      "HARMONIC",
+      "INNOVATE",
+      "SPECTRAL",
+      "TRADITION",
+      "WONDERED"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10072026-E",
+    "generatedAt": "2026-10-07T06:17:26.527Z",
+    "groups": [
+      {
+        "name": "Circular Objects",
+        "items": [
+          "ball",
+          "wheel",
+          "coin",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Elongated Fruits",
+        "items": [
+          "banana",
+          "pineapple",
+          "mango",
+          "kiwi"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Items",
+        "items": [
+          "hat",
+          "cap",
+          "beanie",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set for 10072026."
+  },
+  "medium": {
+    "id": "10072026-M",
+    "generatedAt": "2026-10-07T06:17:26.527Z",
+    "groups": [
+      {
+        "name": "Prefix Pairs with Fire",
+        "items": [
+          "alarm",
+          "place",
+          "fighter",
+          "work"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs with Water",
+        "items": [
+          "melon",
+          "proof",
+          "color",
+          "polo"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs with Moon",
+        "items": [
+          "light",
+          "beam",
+          "walk",
+          "rise"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prefix Pairs with Super",
+        "items": [
+          "hero",
+          "star",
+          "market",
+          "natural"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium connections with playful prefix themes; watch for cross-over temptations."
+  },
+  "hard": {
+    "id": "10072026-H",
+    "generatedAt": "2026-10-07T06:17:26.527Z",
+    "groups": [
+      {
+        "name": "Over-Set A",
+        "items": [
+          "look",
+          "due",
+          "eat",
+          "sleep"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Under-Set B",
+        "items": [
+          "stand",
+          "take",
+          "mine",
+          "line"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Snow-Set C",
+        "items": [
+          "cone",
+          "man",
+          "flake",
+          "storm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Green-Set D",
+        "items": [
+          "house",
+          "thumb",
+          "tea",
+          "screen"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level with abstract + prefix-based connections; includes a couple of thoughtful cross-over hints (e.g., line can fit over/under)."
+  }
+}

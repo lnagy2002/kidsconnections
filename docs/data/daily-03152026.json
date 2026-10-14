@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03152026-E",
+    "generatedAt": "2026-03-15T03:39:17.213Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "pie",
+          "watch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast favorites",
+        "items": [
+          "egg",
+          "toast",
+          "cereal",
+          "pancake"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm animals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Backpack items",
+        "items": [
+          "book",
+          "pencil",
+          "notebook",
+          "water bottle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzles with four simple, concrete connections."
+  },
+  "medium": {
+    "id": "03152026-M",
+    "generatedAt": "2026-03-15T03:39:17.213Z",
+    "groups": [
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "play",
+          "dust",
+          "park",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that fly",
+        "items": [
+          "bird",
+          "bat",
+          "bee",
+          "owl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen tools",
+        "items": [
+          "spoon",
+          "pan",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School subjects",
+        "items": [
+          "math",
+          "science",
+          "art",
+          "geography"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with concrete categories. Cross-over temptation exists: spoon could also fit a 'nouns/verbs' group, but it’s placed in kitchen tools."
+  },
+  "hard": {
+    "id": "03152026-H",
+    "generatedAt": "2026-03-15T03:39:17.213Z",
+    "groups": [
+      {
+        "name": "Public transportation items",
+        "items": [
+          "train",
+          "plane",
+          "bus",
+          "ship"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Building and crafting tools",
+        "items": [
+          "hammer",
+          "saw",
+          "drill",
+          "wrench"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Wild animals",
+        "items": [
+          "lion",
+          "zebra",
+          "giraffe",
+          "rhino"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "People who help us",
+        "items": [
+          "teacher",
+          "nurse",
+          "chef",
+          "pilot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard connections push abstract thinking. Cross-over temptation: pilot might seem to belong with transportation (plane/train), but it’s placed with occupations. This challenges solvers to see the intended grouping."
+  }
+}

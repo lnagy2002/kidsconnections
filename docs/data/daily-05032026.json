@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05032026-E",
+    "generatedAt": "2026-05-03T04:27:10.320Z",
+    "groups": [
+      {
+        "name": "Red Treats",
+        "items": [
+          "apple",
+          "strawberry",
+          "radish",
+          "cherry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Noisy Things",
+        "items": [
+          "bell",
+          "drum",
+          "whistle",
+          "piano"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "glasses"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Speedy Things",
+        "items": [
+          "cheetah",
+          "rocket",
+          "train",
+          "horse"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle groups use clear, concrete themes that visually stand out to kids."
+  },
+  "medium": {
+    "id": "05032026-M",
+    "generatedAt": "2026-05-03T04:27:10.320Z",
+    "groups": [
+      {
+        "name": "Two-Word Compounds",
+        "items": [
+          "raincoat",
+          "notebook",
+          "sunflower",
+          "waterfall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spatula",
+          "whisk",
+          "ladle",
+          "peeler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "rock"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sports Gear",
+        "items": [
+          "racket",
+          "helmet",
+          "ball",
+          "net"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and compound words; some items might seem to fit other groups but belong to their listed theme (cross-over temptation). For example, 'bat' could be a sports item, but in this group it's a word with multiple meanings."
+  },
+  "hard": {
+    "id": "05032026-H",
+    "generatedAt": "2026-05-03T04:27:10.320Z",
+    "groups": [
+      {
+        "name": "Heteronyms & Polysemes",
+        "items": [
+          "wind",
+          "bass",
+          "row",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planets & Space Terms",
+        "items": [
+          "earth",
+          "mars",
+          "venus",
+          "jupiter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes for Beginners",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "line"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms Duo",
+        "items": [
+          "sanction",
+          "dust",
+          "clip",
+          "seed"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections and multi-meaning words. Some items can trigger temptations to fit another group's theme, but only belong to their correct hard-group. For example, 'line' can be a shape and a verb, providing a subtle cross-over cue."
+  }
+}

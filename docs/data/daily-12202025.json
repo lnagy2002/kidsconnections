@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12202025-E",
+    "generatedAt": "2025-12-20T02:19:27.678Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "Coin",
+          "Button",
+          "Plate",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "Chair",
+          "Couch",
+          "Bench",
+          "Stool"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "Notebook",
+          "Pencil",
+          "Ruler",
+          "Folder"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sweet Treats",
+        "items": [
+          "Donut",
+          "Cookie",
+          "Apple",
+          "Candy"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle with concrete visuals."
+  },
+  "medium": {
+    "id": "12202025-M",
+    "generatedAt": "2025-12-20T02:19:27.678Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "Sunflower",
+          "Toothbrush",
+          "Snowman",
+          "Playground"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Action Words",
+        "items": [
+          "Jump",
+          "Run",
+          "Write",
+          "Read"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pets & Animals",
+        "items": [
+          "Dog",
+          "Cat",
+          "Fish",
+          "Bird"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "Backpack",
+          "Binder",
+          "Marker",
+          "WaterBottle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes cross-over temptations; some items could seem to fit other groups."
+  },
+  "hard": {
+    "id": "12202025-H",
+    "generatedAt": "2025-12-20T02:19:27.678Z",
+    "groups": [
+      {
+        "name": "Words with More Than One Meaning",
+        "items": [
+          "Bank",
+          "Bat",
+          "Spring",
+          "Crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "Level",
+          "Radar",
+          "Civic",
+          "Rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "Knight",
+          "Gnome",
+          "Wrist",
+          "Honest"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same spelling, different pronunciation)",
+        "items": [
+          "Lead",
+          "Wind",
+          "Bow",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and multi-meaning words; careful with pronunciations and spellings."
+  }
+}

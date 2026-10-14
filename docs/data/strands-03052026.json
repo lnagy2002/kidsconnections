@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BARKY",
+      "FLEET",
+      "GLOBE",
+      "PUSHY",
+      "VINEY",
+      "BUMPY",
+      "CLAMP",
+      "HIVEY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISPED",
+      "NURSED",
+      "PLANTS",
+      "TWIRLED",
+      "DANGLE",
+      "BALLOON",
+      "FESTALY",
+      "SPIRITS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACROBATICS",
+      "UNDERSTAND",
+      "TRANQUIL",
+      "COMFORTING",
+      "GENERATE",
+      "HARMONIOUS",
+      "EXPLORING",
+      "FRIENDSHIP",
+      "DREAMLIKE"
+    ]
+  }
+}

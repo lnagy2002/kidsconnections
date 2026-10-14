@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01202026-E",
+    "generatedAt": "2026-01-20T02:33:43.405Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "cherry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets People Often Have",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheels and Rides",
+        "items": [
+          "car",
+          "bike",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles: four concrete, kid-friendly groups that are easy to spot visually."
+  },
+  "medium": {
+    "id": "01202026-M",
+    "generatedAt": "2026-01-20T02:33:43.405Z",
+    "groups": [
+      {
+        "name": "Double-Word Compounds",
+        "items": [
+          "sunlight",
+          "backpack",
+          "bedroom",
+          "bookshelf"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "park",
+          "watch",
+          "play",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits as Everyday Words",
+        "items": [
+          "date",
+          "lemon",
+          "peach",
+          "grape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Capitalize to Change Meaning Clues",
+        "items": [
+          "march",
+          "polish",
+          "china",
+          "turkey"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce simple wordplay and some cross-over clues that can tempt misplacement."
+  },
+  "hard": {
+    "id": "01202026-H",
+    "generatedAt": "2026-01-20T02:33:43.405Z",
+    "groups": [
+      {
+        "name": "Many-Meaning Words",
+        "items": [
+          "present",
+          "current",
+          "dust",
+          "jam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-First-Letter Word Tricks",
+        "items": [
+          "stone",
+          "pride",
+          "phone",
+          "globe"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ghostly Initial Letters",
+        "items": [
+          "knock",
+          "gnome",
+          "wrist",
+          "knife"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Rhyming Quartet",
+        "items": [
+          "light",
+          "night",
+          "right",
+          "might"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles invite abstract connections and multi-meaning wordplay for curious minds."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06072026-E",
+    "generatedAt": "2026-06-07T05:05:45.101Z",
+    "groups": [
+      {
+        "name": "Things that are red",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "airplane",
+          "butterfly",
+          "helicopter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on hands and feet",
+        "items": [
+          "shoe",
+          "sock",
+          "glove",
+          "mitten"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you eat with your hands",
+        "items": [
+          "pizza",
+          "cookie",
+          "grape",
+          "banana"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle set for 06072026. All items are unique and kid-friendly."
+  },
+  "medium": {
+    "id": "06072026-M",
+    "generatedAt": "2026-06-07T05:05:45.101Z",
+    "groups": [
+      {
+        "name": "Make new words by adding -er",
+        "items": [
+          "teach",
+          "build",
+          "paint",
+          "write"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'sun' to form common words",
+        "items": [
+          "flower",
+          "rise",
+          "burn",
+          "shine"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'hand' to form new words",
+        "items": [
+          "shake",
+          "made",
+          "book",
+          "out"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Polysemes that act as both a noun and a verb",
+        "items": [
+          "play",
+          "rock",
+          "spring",
+          "bat"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptation included: e.g., 'book' can be a noun or a verb in other contexts, but here it's used with 'hand' to form a compound."
+  },
+  "hard": {
+    "id": "06072026-H",
+    "generatedAt": "2026-06-07T05:05:45.101Z",
+    "groups": [
+      {
+        "name": "Add 're-' to form new words",
+        "items": [
+          "act",
+          "solve",
+          "cover",
+          "turn"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common measurement words",
+        "items": [
+          "inch",
+          "foot",
+          "mile",
+          "yard"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (words with opposite meanings)",
+        "items": [
+          "sanction",
+          "dust",
+          "clip",
+          "oversight"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bass"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and tricky phrase choices. Some items may tempt you to cross into other groups, but only the listed group is correct."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06052026-E",
+    "generatedAt": "2026-06-05T04:55:31.240Z",
+    "groups": [
+      {
+        "name": "Sky Sights",
+        "items": [
+          "sun",
+          "cloud",
+          "moon",
+          "stars"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Purr-fect Pals",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Bright Breakfast",
+        "items": [
+          "cereal",
+          "eggs",
+          "toast",
+          "milk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzle set for 06052026. Easy level focuses on concrete, familiar objects."
+  },
+  "medium": {
+    "id": "06052026-M",
+    "generatedAt": "2026-06-05T04:55:31.240Z",
+    "groups": [
+      {
+        "name": "Parts of Speech",
+        "items": [
+          "noun",
+          "verb",
+          "adjective",
+          "adverb"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "spatula",
+          "whisk",
+          "ladle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Non-Motorized Vehicles",
+        "items": [
+          "bicycle",
+          "skateboard",
+          "scooter",
+          "pogostick"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "glasses",
+          "scarf",
+          "helmet"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level clues mix simple wordplay and familiar items. A few items may seem like they could fit more than one group, but each belongs to its intended set."
+  },
+  "hard": {
+    "id": "06052026-H",
+    "generatedAt": "2026-06-05T04:55:31.240Z",
+    "groups": [
+      {
+        "name": "Super-Word Starters",
+        "items": [
+          "man",
+          "market",
+          "hero",
+          "star"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Mini-Word Bundle",
+        "items": [
+          "van",
+          "bus",
+          "skirt",
+          "dress"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Home Phrases",
+        "items": [
+          "work",
+          "town",
+          "run",
+          "page"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Agent -er Makers",
+        "items": [
+          "teach",
+          "paint",
+          "bake",
+          "swim"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle challenges abstract connections and wordplay with prefixes and common phrases."
+  }
+}

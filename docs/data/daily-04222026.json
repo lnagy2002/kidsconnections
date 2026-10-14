@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "04222026-E",
+    "generatedAt": "2026-04-22T03:46:16.506Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "bunny"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy set for 04/22/2026; all items are unique across difficulty levels."
+  },
+  "medium": {
+    "id": "04222026-M",
+    "generatedAt": "2026-04-22T03:46:16.506Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "match",
+          "plant",
+          "brush",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-Word Compounds",
+        "items": [
+          "text",
+          "story",
+          "cook",
+          "hand"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that Come in Pairs",
+        "items": [
+          "socks",
+          "shoes",
+          "glasses",
+          "mittens"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add un- to Form Opposites",
+        "items": [
+          "tie",
+          "wrap",
+          "lock",
+          "fold"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle mix with wordplay and simple compounds; includes cross-over temptations."
+  },
+  "hard": {
+    "id": "04222026-H",
+    "generatedAt": "2026-04-22T03:46:16.506Z",
+    "groups": [
+      {
+        "name": "Polyseme Treasures",
+        "items": [
+          "bank",
+          "bark",
+          "spring",
+          "note"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs (Different Meanings)",
+        "items": [
+          "park",
+          "drive",
+          "draw",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Word Phrases",
+        "items": [
+          "alarm",
+          "truck",
+          "proof",
+          "fighter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Remove-the-First-Letter",
+        "items": [
+          "glove",
+          "stone",
+          "pride",
+          "scope"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard set explores multiple meanings and wordplay with a careful cross-over check."
+  }
+}

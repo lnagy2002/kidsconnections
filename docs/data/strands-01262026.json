@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "MIST",
+      "BUMP",
+      "CLAY",
+      "GLOW",
+      "LIFT",
+      "DUST",
+      "FIRM",
+      "BEND"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DRAGON",
+      "JOURNAL",
+      "WILLOW",
+      "CANDLE",
+      "GARNET",
+      "SILENT",
+      "MAGNET",
+      "FESTAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TRANQUIL",
+      "EXPLORER",
+      "HARMONIC",
+      "SPIRITED",
+      "COMFORTS",
+      "FANTASTIC",
+      "FRIENDSHIP",
+      "GENERATE",
+      "BALANCED"
+    ]
+  }
+}

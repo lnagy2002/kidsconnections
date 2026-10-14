@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "07162026-E",
+    "generatedAt": "2026-07-16T03:46:19.979Z",
+    "groups": [
+      {
+        "name": "Fruit Parade",
+        "items": [
+          "apple",
+          "banana",
+          "grapes",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet on the Go",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that Fly",
+        "items": [
+          "bird",
+          "kite",
+          "airplane",
+          "rocket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "plate",
+          "bowl",
+          "cup"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly puzzle set for 07162026 with four concrete groups."
+  },
+  "medium": {
+    "id": "07162026-M",
+    "generatedAt": "2026-07-16T03:46:19.979Z",
+    "groups": [
+      {
+        "name": "Compound Word Crew",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "bookshelf",
+          "mailbox"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Pet Friends",
+        "items": [
+          "cat",
+          "dog",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Getting Around",
+        "items": [
+          "car",
+          "bus",
+          "bicycle",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level puzzle uses light wordplay and familiar items; one item could seem to fit another group, offering a gentle tempting misstep."
+  },
+  "hard": {
+    "id": "07162026-H",
+    "generatedAt": "2026-07-16T03:46:19.979Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "park",
+          "plant",
+          "ring",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Object Pairs",
+        "items": [
+          "bat",
+          "crane",
+          "mouse",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-Sense Wearables",
+        "items": [
+          "glove",
+          "glasses",
+          "earring",
+          "mittens"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Music Makers",
+        "items": [
+          "drum",
+          "piano",
+          "guitar",
+          "flute"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set emphasizes abstract connections and polysemy; deliberate near-misses test careful reasoning."
+  }
+}

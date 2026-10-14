@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "03102026-E",
+    "generatedAt": "2026-03-10T03:10:47.457Z",
+    "groups": [
+      {
+        "name": "Things you eat with",
+        "items": [
+          "Spoon",
+          "Fork",
+          "Knife",
+          "Chopsticks"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rides and travel",
+        "items": [
+          "Car",
+          "Scooter",
+          "Bus",
+          "Plane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom basics",
+        "items": [
+          "Desk",
+          "Chalk",
+          "Marker",
+          "Ruler"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Light-up items",
+        "items": [
+          "Lamp",
+          "Candle",
+          "Lantern",
+          "Glowstick"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set with four concrete, kid-friendly connections."
+  },
+  "medium": {
+    "id": "03102026-M",
+    "generatedAt": "2026-03-10T03:10:47.457Z",
+    "groups": [
+      {
+        "name": "Words that pair with 'play' to form common phrases",
+        "items": [
+          "Ground",
+          "Date",
+          "House",
+          "Time"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Device controls (buttons)",
+        "items": [
+          "Power",
+          "Reset",
+          "Menu",
+          "Volume"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Undo opposites (add 'un')",
+        "items": [
+          "Do",
+          "Fold",
+          "Tie",
+          "Wrap"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Domestic pets",
+        "items": [
+          "Cat",
+          "Dog",
+          "Hamster",
+          "Fish"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses simple wordplay and contrasts; there is a gentle cross-over temptation to guide thinkers without giving away the exact group."
+  },
+  "hard": {
+    "id": "03102026-H",
+    "generatedAt": "2026-03-10T03:10:47.457Z",
+    "groups": [
+      {
+        "name": "Animal-words that double as other objects",
+        "items": [
+          "Seal",
+          "Crane",
+          "Mouse",
+          "Bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors that are foods",
+        "items": [
+          "Orange",
+          "Olive",
+          "Peach",
+          "Lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Length measurement units",
+        "items": [
+          "Foot",
+          "Inch",
+          "Yard",
+          "Meter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Directions (left/right/up/down)",
+        "items": [
+          "Left",
+          "Right",
+          "Up",
+          "Down"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle features abstract connections with a few tempting overlaps to test careful thinking in kids."
+  }
+}

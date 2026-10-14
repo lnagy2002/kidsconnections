@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CUBE",
+      "LIME",
+      "TRAY",
+      "BOWL",
+      "MIST",
+      "JUMP",
+      "FOND",
+      "WAVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "CANDLE",
+      "GRAVEL",
+      "GATHER",
+      "FOLKED",
+      "SPIRAL",
+      "THRIVE",
+      "WISTFUL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DREAMER",
+      "FLICKER",
+      "GRADIENT",
+      "HARMONIC",
+      "JOURNEY",
+      "SPECTRAL",
+      "TRIANGLE",
+      "WONDERED",
+      "BRAINWAVE"
+    ]
+  }
+}

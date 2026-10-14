@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "GLOW",
+      "BUMP",
+      "CAVE",
+      "FIRM",
+      "FLEA",
+      "WILD",
+      "HIVE",
+      "GARD"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DRAGON",
+      "FESTAL",
+      "CANDLE",
+      "PLANTS",
+      "SPLASH",
+      "BALLOO",
+      "TWIRLED",
+      "FESTIVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDLY",
+      "HARMONIC",
+      "ADVENTUR",
+      "TRANQUIL",
+      "INNOVATE",
+      "FANTASTIC",
+      "BALANCED",
+      "SPIRITED",
+      "GENERATION"
+    ]
+  }
+}

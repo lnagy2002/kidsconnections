@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "12242025-E",
+    "generatedAt": "2025-12-24T02:26:25.260Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "cookie",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Seating Items",
+        "items": [
+          "chair",
+          "stool",
+          "bench",
+          "sofa"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "spatula"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-Legged Animals",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "bear"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy connections puzzle set designed with concrete, everyday objects."
+  },
+  "medium": {
+    "id": "12242025-M",
+    "generatedAt": "2025-12-24T02:26:25.260Z",
+    "groups": [
+      {
+        "name": "Words that can be nouns or verbs",
+        "items": [
+          "play",
+          "drive",
+          "paint",
+          "dance"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things that come in pairs",
+        "items": [
+          "glove",
+          "sock",
+          "shoe",
+          "earring"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Objects",
+        "items": [
+          "pencil",
+          "eraser",
+          "ruler",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Park Items",
+        "items": [
+          "fountain",
+          "pond",
+          "slide",
+          "swing"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level puzzles with a touch of wordplay and crossover clues (e.g., pencil can be a noun or a verb)."
+  },
+  "hard": {
+    "id": "12242025-H",
+    "generatedAt": "2025-12-24T02:26:25.260Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "dust",
+          "left",
+          "sanction",
+          "screen"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pantry Staples",
+        "items": [
+          "salt",
+          "sugar",
+          "pepper",
+          "oil"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle leaning on language tricks: heteronyms, contronyms, palindromes, and familiar pantry words."
+  }
+}

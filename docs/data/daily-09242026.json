@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "09242026-E",
+    "generatedAt": "2026-09-24T05:09:57.612Z",
+    "groups": [
+      {
+        "name": "Spoon-Sized Snacks",
+        "items": [
+          "soup",
+          "yogurt",
+          "pudding",
+          "ice cream"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tree-Fruit Friends",
+        "items": [
+          "apple",
+          "peach",
+          "orange",
+          "kiwi"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Helpers",
+        "items": [
+          "chalk",
+          "glue",
+          "paper",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle for 09242026. Each group has a concrete, visual theme with 4 items."
+  },
+  "medium": {
+    "id": "09242026-M",
+    "generatedAt": "2026-09-24T05:09:57.612Z",
+    "groups": [
+      {
+        "name": "Words That Become Agents with -er",
+        "items": [
+          "read",
+          "swim",
+          "draw",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Word Family",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Stone Pairs",
+        "items": [
+          "grave",
+          "corner",
+          "mile",
+          "key"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Directional Opposites",
+        "items": [
+          "front",
+          "back",
+          "left",
+          "right"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with simple wordplay: suffixes, prefixes, and familiar compound ideas. Includes a few tempting ties to other groups for challenge."
+  },
+  "hard": {
+    "id": "09242026-H",
+    "generatedAt": "2026-09-24T05:09:57.612Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words That Follow 'rain' to Form Common Phrases",
+        "items": [
+          "coat",
+          "check",
+          "shower",
+          "water"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs (Different Meanings)",
+        "items": [
+          "rock",
+          "watch",
+          "spring",
+          "march"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Words",
+        "items": [
+          "scarlet",
+          "teal",
+          "amber",
+          "magenta"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle explores abstract connections and polysemy. Includes cross-over temptations to challenge careful grouping."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "01182026-E",
+    "generatedAt": "2026-01-18T02:41:22.405Z",
+    "groups": [
+      {
+        "name": "Cozy Seats",
+        "items": [
+          "couch",
+          "sofa",
+          "stool",
+          "bench"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors Parade",
+        "items": [
+          "blue",
+          "green",
+          "pink",
+          "purple"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruit Basket",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "peach"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Flying Friends",
+        "items": [
+          "bird",
+          "bat",
+          "bee",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four concrete, kid-friendly categories with bright, familiar items."
+  },
+  "medium": {
+    "id": "01182026-M",
+    "generatedAt": "2026-01-18T02:41:22.405Z",
+    "groups": [
+      {
+        "name": "Bright Compounds",
+        "items": [
+          "sunset",
+          "rainbow",
+          "bookcase",
+          "toothbrush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Verbs",
+        "items": [
+          "run",
+          "eat",
+          "read",
+          "jump"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "lion",
+          "zebra",
+          "otter",
+          "yak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color Words",
+        "items": [
+          "orange",
+          "yellow",
+          "brown",
+          "black"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with visual cues. Some items may tempt you to group them by color, but they belong in their assigned groups."
+  },
+  "hard": {
+    "id": "01182026-H",
+    "generatedAt": "2026-01-18T02:41:22.405Z",
+    "groups": [
+      {
+        "name": "Word Reversals",
+        "items": [
+          "smile",
+          "stone",
+          "globe",
+          "plane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sound-alike Letters",
+        "items": [
+          "see",
+          "sea",
+          "are",
+          "you"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Letter Shifts",
+        "items": [
+          "live",
+          "drawer",
+          "stressed",
+          "parts"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent Letters",
+        "items": [
+          "knight",
+          "wrist",
+          "gnome",
+          "isle"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles rely on abstract connections (reversals, homophones, silent letters). Some items may resemble other groups, but they fit only in their designated sets."
+  }
+}

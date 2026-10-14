@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02192026-E",
+    "generatedAt": "2026-02-19T03:21:16.807Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "scooter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Have",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tree Fruits",
+        "items": [
+          "orange",
+          "peach",
+          "pear",
+          "mango"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh kid-friendly Connections puzzle for 02192026. Each group has a clear, visual link."
+  },
+  "medium": {
+    "id": "02192026-M",
+    "generatedAt": "2026-02-19T03:21:16.807Z",
+    "groups": [
+      {
+        "name": "Compound Words (Two-Word Combos)",
+        "items": [
+          "lighthouse",
+          "basketball",
+          "bookstore",
+          "snowman"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rhymes with -at",
+        "items": [
+          "hat",
+          "bat",
+          "rat",
+          "sat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Drop-First-Letter to Form Real Words",
+        "items": [
+          "glove",
+          "stone",
+          "plane",
+          "bright"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things You Wear on Your Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "boots",
+          "slippers"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles add simple wordplay and concrete links with a playful twist."
+  },
+  "hard": {
+    "id": "02192026-H",
+    "generatedAt": "2026-02-19T03:21:16.807Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations (Heteronyms)",
+        "items": [
+          "lead",
+          "read",
+          "wind",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Super- Prefix Pals",
+        "items": [
+          "market",
+          "hero",
+          "star",
+          "man"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Double Letters",
+        "items": [
+          "book",
+          "cool",
+          "feed",
+          "letter"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Terms Common in Songs",
+        "items": [
+          "note",
+          "beat",
+          "tone",
+          "scale"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles encourage abstract connections and polysemy while staying kid-friendly."
+  }
+}

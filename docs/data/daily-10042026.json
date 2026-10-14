@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10042026-E",
+    "generatedAt": "2026-10-04T06:10:47.096Z",
+    "groups": [
+      {
+        "name": "Circular items",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shoes and socks",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Dishes and utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "cup"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Hoppers",
+        "items": [
+          "frog",
+          "rabbit",
+          "kangaroo",
+          "hare"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections puzzle set for 10042026. Easy level with concrete, visual groupings."
+  },
+  "medium": {
+    "id": "10042026-M",
+    "generatedAt": "2026-10-04T06:10:47.096Z",
+    "groups": [
+      {
+        "name": "Sky travellers",
+        "items": [
+          "bird",
+          "airplane",
+          "kite",
+          "rocket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Writing implements",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "chalk"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Morning foods",
+        "items": [
+          "cereal",
+          "pancake",
+          "yogurt",
+          "toast"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School gear",
+        "items": [
+          "backpack",
+          "lunchbox",
+          "ruler",
+          "globe"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh Connections puzzle set for 10042026. Medium level with light wordplay and overlap potential."
+  },
+  "hard": {
+    "id": "10042026-H",
+    "generatedAt": "2026-10-04T06:10:47.096Z",
+    "groups": [
+      {
+        "name": "Noun-verb twins",
+        "items": [
+          "duck",
+          "bat",
+          "crane",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-food words",
+        "items": [
+          "orange",
+          "olive",
+          "salmon",
+          "peach"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Global cities",
+        "items": [
+          "Paris",
+          "Rome",
+          "Sydney",
+          "Dallas"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Length units",
+        "items": [
+          "foot",
+          "inch",
+          "yard",
+          "mile"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh Connections puzzle set for 10042026. Hard level emphasizes abstract connections and multi-meaning words."
+  }
+}

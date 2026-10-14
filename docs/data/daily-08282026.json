@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "08282026-E",
+    "generatedAt": "2026-08-28T11:37:57.074Z",
+    "groups": [
+      {
+        "name": "Round objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Airborne items",
+        "items": [
+          "bird",
+          "kite",
+          "bee",
+          "plane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Beverages",
+        "items": [
+          "water",
+          "milk",
+          "tea",
+          "soda"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Domestic creatures",
+        "items": [
+          "cat",
+          "dog",
+          "cow",
+          "pig"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles: four clear, concrete groups that are fun and kid-friendly."
+  },
+  "medium": {
+    "id": "08282026-M",
+    "generatedAt": "2026-08-28T11:37:57.074Z",
+    "groups": [
+      {
+        "name": "Stick-word combos",
+        "items": [
+          "lip",
+          "candle",
+          "drum",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Agent-forming suffix",
+        "items": [
+          "bake",
+          "teach",
+          "run",
+          "paint"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "ant",
+          "frog",
+          "seal",
+          "whale"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather terms",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "hail"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and simple categories. Some items might seem like they could fit another group, but each item has one correct place."
+  },
+  "hard": {
+    "id": "08282026-H",
+    "generatedAt": "2026-08-28T11:37:57.074Z",
+    "groups": [
+      {
+        "name": "Dual-role words",
+        "items": [
+          "plant",
+          "brush",
+          "ring",
+          "bark"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposite-meaning words",
+        "items": [
+          "dust",
+          "bolt",
+          "sanction",
+          "clip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-named foods",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Playable instruments",
+        "items": [
+          "cello",
+          "tuba",
+          "flute",
+          "violin"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and multi-meaning words. Some items could tempt reclassification, but each belongs in exactly one group."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "CAGE",
+      "BUMP",
+      "FARM",
+      "CLAY",
+      "MASH",
+      "LIFT",
+      "HIDE",
+      "FUME"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BAGPIPE",
+      "GLOBEY",
+      "BASKET",
+      "FESTAL",
+      "NURSED",
+      "PLANTS",
+      "JOURNEY",
+      "CANDLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GRADIENT",
+      "CIRCULAR",
+      "DREAMING",
+      "BALANCED",
+      "SPIRITED",
+      "FANTASTIC",
+      "GENERATE",
+      "COMFORTS",
+      "HARMONIC"
+    ]
+  }
+}

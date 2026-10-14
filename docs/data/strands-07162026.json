@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "FLAT",
+      "FINE",
+      "CANE",
+      "SPAR",
+      "COLD",
+      "BUMP",
+      "FIRM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "FESTAL",
+      "SILENT",
+      "WILLOW",
+      "GATHER",
+      "SPIRAL",
+      "BALCON",
+      "GARNET"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SPECTRAL",
+      "FANTASTIC",
+      "DREAMLIKE",
+      "HARMONIC",
+      "TRANSLATE",
+      "GENERATED",
+      "INNOVATIVE",
+      "COMFORTED",
+      "FRIENDSHIP"
+    ]
+  }
+}

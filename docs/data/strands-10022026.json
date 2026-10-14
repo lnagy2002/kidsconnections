@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "BIRD",
+      "CAVE",
+      "FIRM",
+      "MIST",
+      "LAMP",
+      "BUMP",
+      "RIDE",
+      "LIFT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CRISP",
+      "FLEET",
+      "GUSTY",
+      "PLUMB",
+      "CANDLE",
+      "SHRUNK",
+      "FLAREY",
+      "CLIMBS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FRIENDS",
+      "CARNIVAL",
+      "GRADIENT",
+      "HARMONY",
+      "ADVENTURE",
+      "SPIRITED",
+      "BALANCED",
+      "WONDERFUL",
+      "GRADUATES"
+    ]
+  }
+}

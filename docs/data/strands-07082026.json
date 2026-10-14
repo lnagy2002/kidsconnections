@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "WAVE",
+      "BARK",
+      "FIRM",
+      "HIDE",
+      "CAVE",
+      "BUMP",
+      "FLEA",
+      "SPAR"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TWIRL",
+      "FLEETS",
+      "FABLES",
+      "BALLOO",
+      "FESTAL",
+      "SPLASH",
+      "GATHER",
+      "NURSED"
+    ]
+  },
+  "hard": {
+    "words": [
+      "MAGNETIC",
+      "FESTIVITY",
+      "BALANCED",
+      "HARMONIC",
+      "CIRCULATE",
+      "FRIENDSHIP",
+      "SPIRITED",
+      "TRANSLATED",
+      "DREAMLIKE"
+    ]
+  }
+}

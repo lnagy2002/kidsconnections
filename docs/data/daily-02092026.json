@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02092026-E",
+    "generatedAt": "2026-02-09T03:26:24.529Z",
+    "groups": [
+      {
+        "name": "Group 1: 3D Shapes",
+        "items": [
+          "cube",
+          "sphere",
+          "cone",
+          "cylinder"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2: Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3: Things with handles",
+        "items": [
+          "mug",
+          "bucket",
+          "purse",
+          "suitcase"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4: Fast Movers",
+        "items": [
+          "cheetah",
+          "rocket",
+          "train",
+          "falcon"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzle for 02/09/2026. Easy level with concrete, visual groupings."
+  },
+  "medium": {
+    "id": "02092026-M",
+    "generatedAt": "2026-02-09T03:26:24.529Z",
+    "groups": [
+      {
+        "name": "Group 1: Color-Plus-Object Compounds",
+        "items": [
+          "bluebird",
+          "greenhouse",
+          "blackboard",
+          "redwood"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2: Noun-Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "brush",
+          "clip"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3: Position Words",
+        "items": [
+          "above",
+          "below",
+          "inside",
+          "around"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4: Sea Mammals",
+        "items": [
+          "dolphin",
+          "whale",
+          "seal",
+          "otter"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh puzzle for 02/09/2026. Medium level with a mix of wordplay and concrete items. Expect cross-over temptations: e.g., bluebird could seem like an animal group."
+  },
+  "hard": {
+    "id": "02092026-H",
+    "generatedAt": "2026-02-09T03:26:24.529Z",
+    "groups": [
+      {
+        "name": "Group 1: Polysemes (many meanings)",
+        "items": [
+          "bank",
+          "spring",
+          "crane",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2: Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3: Color-name Fruits",
+        "items": [
+          "peach",
+          "lime",
+          "olive",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4: Measurement Words",
+        "items": [
+          "foot",
+          "inch",
+          "yard",
+          "mile"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh puzzle for 02/09/2026. Hard level with abstract connections and polysemy. Cross-over temptations: e.g., 'bank' could seem to fit money groups, 'lead' could be 'to lead' vs 'lead' metal."
+  }
+}

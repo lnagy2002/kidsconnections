@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06302026-E",
+    "generatedAt": "2026-06-30T04:43:44.378Z",
+    "groups": [
+      {
+        "name": "Things that roll",
+        "items": [
+          "ball",
+          "wheel",
+          "marble",
+          "coin"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning foods",
+        "items": [
+          "pancake",
+          "cereal",
+          "yogurt",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things worn on the feet",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School classroom items",
+        "items": [
+          "pencil",
+          "book",
+          "desk",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle: four groups with clear, concrete connections kids can spot."
+  },
+  "medium": {
+    "id": "06302026-M",
+    "generatedAt": "2026-06-30T04:43:44.378Z",
+    "groups": [
+      {
+        "name": "Sweet word compounds",
+        "items": [
+          "strawberry",
+          "pineapple",
+          "blueberry",
+          "popcorn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "plate"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather and sky",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "sun"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School topics",
+        "items": [
+          "math",
+          "science",
+          "history",
+          "art"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses wordplay and compound words. Some items might seem to fit another group, but only belong to the intended one."
+  },
+  "hard": {
+    "id": "06302026-H",
+    "generatedAt": "2026-06-30T04:43:44.378Z",
+    "groups": [
+      {
+        "name": "Words with two meanings",
+        "items": [
+          "bat",
+          "crane",
+          "pump",
+          "bolt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with two pronunciations/uses",
+        "items": [
+          "bow",
+          "tear",
+          "lead",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Opposites with un-",
+        "items": [
+          "tidy",
+          "fair",
+          "true",
+          "cool"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Occupation-forming suffixes (-er)",
+        "items": [
+          "bake",
+          "write",
+          "draw",
+          "catch"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle focuses on abstract connections and polysemy/phonetic twists. Expect some tempting misplacements to test precision."
+  }
+}

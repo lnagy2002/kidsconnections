@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "06242026-E",
+    "generatedAt": "2026-06-24T04:45:50.510Z",
+    "groups": [
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow things",
+        "items": [
+          "banana",
+          "lemon",
+          "sunflower",
+          "butter"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on the feet",
+        "items": [
+          "shoe",
+          "sock",
+          "boot",
+          "sandal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you can ride",
+        "items": [
+          "bike",
+          "horse",
+          "scooter",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set with concrete, visual categories suitable for kids."
+  },
+  "medium": {
+    "id": "06242026-M",
+    "generatedAt": "2026-06-24T04:45:50.510Z",
+    "groups": [
+      {
+        "name": "4 compound words",
+        "items": [
+          "rainbow",
+          "sunlight",
+          "backpack",
+          "birthday"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with more than one meaning (polysemes)",
+        "items": [
+          "date",
+          "bank",
+          "spring",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Parts of the body that can also be tools or objects",
+        "items": [
+          "hand",
+          "arm",
+          "eye",
+          "foot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Headwear you can wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "helmet"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with familiar double meanings."
+  },
+  "hard": {
+    "id": "06242026-H",
+    "generatedAt": "2026-06-24T04:45:50.510Z",
+    "groups": [
+      {
+        "name": "Words that form new words when preceded by 'fire'",
+        "items": [
+          "fly",
+          "wall",
+          "truck",
+          "proof"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that form common phrases when preceded by 'air'",
+        "items": [
+          "space",
+          "bag",
+          "plane",
+          "wave"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic words (read the same forwards and backwards)",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "mom"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore wordplay, multiple pronunciations, and symmetry for curious minds."
+  }
+}

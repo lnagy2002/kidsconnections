@@ -1,0 +1,39 @@
+{
+  "easy": {
+    "words": [
+      "FIND",
+      "COLD",
+      "GLOW",
+      "SPIN",
+      "BARK",
+      "MIST",
+      "WAVE",
+      "FARM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FABLES",
+      "GUSTY",
+      "WILLOW",
+      "SPIRAL",
+      "JOURNAL",
+      "BALANC",
+      "FESTAL",
+      "CRUNCH"
+    ]
+  },
+  "hard": {
+    "words": [
+      "BALANCED",
+      "GRADIENT",
+      "FESTIVITY",
+      "COMFORTS",
+      "FANTASTIC",
+      "SPIRITED",
+      "GENERATED",
+      "HARMONIC",
+      "EXPLAINED"
+    ]
+  }
+}

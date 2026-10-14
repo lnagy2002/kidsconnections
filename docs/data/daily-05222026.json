@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "05222026-E",
+    "generatedAt": "2026-05-22T04:43:11.245Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sitting Spots",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fresh Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh puzzles for 05222026. Each group has 4 items; all items are unique across difficulties."
+  },
+  "medium": {
+    "id": "05222026-M",
+    "generatedAt": "2026-05-22T04:43:11.245Z",
+    "groups": [
+      {
+        "name": "Nouns that Are Verbs",
+        "items": [
+          "watch",
+          "plant",
+          "bear",
+          "brush"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "cat",
+          "dog",
+          "cow",
+          "goat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "toast",
+          "eggs",
+          "yogurt",
+          "cereal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Travel Essentials",
+        "items": [
+          "passport",
+          "backpack",
+          "ticket",
+          "suitcase"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes a few 'cross-over temptations' (e.g., bear could be seen as an animal) to test focus."
+  },
+  "hard": {
+    "id": "05222026-H",
+    "generatedAt": "2026-05-22T04:43:11.245Z",
+    "groups": [
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Book Pairings",
+        "items": [
+          "note",
+          "text",
+          "story",
+          "cook"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-First-Letter Tricks",
+        "items": [
+          "drum",
+          "glass",
+          "plane",
+          "smile"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Math Basics",
+        "items": [
+          "sum",
+          "mean",
+          "mode",
+          "line"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle features abstract links; feel free to discuss why each item fits its group. Cross-over temptations exist (e.g., wind as noun vs verb)."
+  }
+}

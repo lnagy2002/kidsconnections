@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02122026-E",
+    "generatedAt": "2026-02-12T03:26:15.265Z",
+    "groups": [
+      {
+        "name": "Wear It On You",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "wagon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "pan",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park & Places",
+        "items": [
+          "bench",
+          "tree",
+          "slide",
+          "lake"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set. Easy level features concrete, visual groupings."
+  },
+  "medium": {
+    "id": "02122026-M",
+    "generatedAt": "2026-02-12T03:26:15.265Z",
+    "groups": [
+      {
+        "name": "Common Compound Words",
+        "items": [
+          "toothbrush",
+          "rainbow",
+          "lighthouse",
+          "butterfly"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Add 'un' to Form Opposites",
+        "items": [
+          "fold",
+          "kind",
+          "lock",
+          "clear"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals You Know",
+        "items": [
+          "dog",
+          "cat",
+          "fox",
+          "lion"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Tools (Common)",
+        "items": [
+          "eraser",
+          "pencil",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use light wordplay and familiar compound words; some items may tempt into other groups but belong to the intended one."
+  },
+  "hard": {
+    "id": "02122026-H",
+    "generatedAt": "2026-02-12T03:26:15.265Z",
+    "groups": [
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "row",
+          "bass"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Reversed Partners",
+        "items": [
+          "stressed",
+          "desserts",
+          "drawer",
+          "reward"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Stars",
+        "items": [
+          "knight",
+          "knife",
+          "isle",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planet Pals",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean abstract connections and multi-meaning words; includes cross-over temptations to ensure careful grouping."
+  }
+}

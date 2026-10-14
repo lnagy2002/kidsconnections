@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "02172026-E",
+    "generatedAt": "2026-02-17T03:19:23.213Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "disc"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head Accessories",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "bandana"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Picks",
+        "items": [
+          "eggs",
+          "bacon",
+          "cereal",
+          "toast"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You May Have",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "fish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh date puzzle for kids. Four easy groups with concrete, visual themes."
+  },
+  "medium": {
+    "id": "02172026-M",
+    "generatedAt": "2026-02-17T03:19:23.213Z",
+    "groups": [
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "watch",
+          "plant",
+          "drive",
+          "punch"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "grape",
+          "orange",
+          "pear"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sitting Surfaces",
+        "items": [
+          "stool",
+          "bench",
+          "couch",
+          "chair"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "mug",
+          "cup",
+          "pan",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle adds some cross-over temptations—items that could belong to other groups but belong here."
+  },
+  "hard": {
+    "id": "02172026-H",
+    "generatedAt": "2026-02-17T03:19:23.213Z",
+    "groups": [
+      {
+        "name": "Polysemy Parade",
+        "items": [
+          "bat",
+          "crane",
+          "mouse",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Meaning Words",
+        "items": [
+          "bear",
+          "lead",
+          "wind",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Shapes in Math",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent Letters",
+        "items": [
+          "knife",
+          "gnome",
+          "knock",
+          "wrap"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections and polysemes; watch for tempting cross-covers like circle vs ring."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Stock + BTC",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "ccxt": "^4.3.0",
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.18.3"
+  },
+  "author": "LN",
+  "license": "MIT"
+}

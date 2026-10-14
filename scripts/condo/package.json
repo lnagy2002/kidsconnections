@@ -1,0 +1,18 @@
+{
+  "name": "condo-scraper",
+  "version": "1.0.0",
+  "description": "MLS + Zillow yield calculator for real estate listings",
+  "main": "condo.js",
+  "scripts": {
+    "start": "node condo.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0",
+    "openai": "^6.16.0",
+    "puppeteer": "^24.27.0"
+  },
+  "author": "LN",
+  "license": "MIT"
+}

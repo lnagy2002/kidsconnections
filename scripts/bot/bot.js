@@ -1,7 +1,8 @@
-// bot-unified.js — unified backtest + live-paper (CCXT/Alpaca)
+// bot-unified.cjs — unified backtest + live-paper (CCXT/Alpaca)
 // MeanReversion & Trend, HTF filter (close-aligned), ATR trailing,
 // robust HTF warmup, optional session filter, richer logs, state/CSV.
-// Enhanced: robust blocked logs, LIVE uPnL/R, close-only trailing, pyramiding.
+// Enhanced: robust blocked logs, LIVE uPnL/R, close-only trailing, pyramiding,
+// auto-mode, volatility filter, time-based exit, partial scale-out, DD throttle.
 
 const fs = require("fs");
 const path = require("path");
@@ -54,7 +55,7 @@ async function withRetries(fn, {tries=5, baseMs=500, factor=2, jitter=true, tag=
 
 // ---------- config ----------
 const configFile = process.argv[2];
-if(!configFile){ console.error("❌ Usage: node bot-unified.js <config.json> [symbol]"); process(1); }
+if(!configFile){ console.error("❌ Usage: node bot-unified.cjs <config.json> [symbol]"); process.exit(1); }
 let P;
 try{ P = JSON.parse(fs.readFileSync(configFile,"utf-8")); console.log("✅ Loaded config", P); }
 catch(e){ console.error("❌ Failed to load config:", e.message); process.exit(1); }
@@ -70,6 +71,25 @@ P.debugSignals = P.debugSignals ?? true;
 P.debugToFile = P.debugToFile ?? true;
 P.statePersistence = Object.assign({ enable:true, file:"livestate.json"}, P.statePersistence||{});
 P.strategy = P.strategy || { style: "trend" };
+
+// === NEW: adaptive mode + risk rails ===
+// 1) Auto-mode blends trend + mean reversion so you don't sit idle.
+//    style can now be: "trend" | "meanReversion" | "auto"
+P.strategy.style = P.strategy.style || "trend";
+P.auto = Object.assign({ enabled:true, prefer:"trend", fallback:"meanReversion" }, P.auto || {});
+
+// 2) Volatility filter (skip dead markets and chaos) — ATR% of price
+P.volFilter = Object.assign({ enabled:true, atrPctMin:0.15, atrPctMax:6.0 }, P.volFilter || {});
+
+// 3) Time-based exit to recycle capital (cap risk window)
+P.timeStop = Object.assign({ enabled:true, bars:96 }, P.timeStop || {}); // tune per timeframe
+
+// 4) Partial profit taking to lock gains and cut tail-risk
+P.partialTake = Object.assign({ enabled:true, atR:1.0, closeFrac:0.5, moveStopToBE:true }, P.partialTake || {});
+
+// 5) Drawdown throttle (reduce size in heat; full stop past a limit)
+P.ddThrottle = Object.assign({ enabled:true, reduceAtPct:5, stopAtPct:10, minRiskPct:0.15 }, P.ddThrottle || {});
+
 P.trailingStop = Object.assign({ enabled:true, mode:"barATR", atrMult:2.2, percent:4, onCloseOnly:true }, P.trailingStop||{});
 P.trailStartR = Number(P.trailStartR ?? 1.5);
 P.minBarsBetweenTrades = Number(P.minBarsBetweenTrades ?? 2);
@@ -92,13 +112,13 @@ P.emaFast = Number(P.emaFast ?? 50);
 P.emaSlow = Number(P.emaSlow ?? 200);
 P.rsiPeriod = Number(P.rsiPeriod ?? 14);
 P.rsiLong = Number(P.rsiLong ?? 55);
+P.rsiLongSoft = Number(P.rsiLongSoft ?? 48);
 P.rsiOversold = Number(P.rsiOversold ?? 40);
 P.rsiExit = Number(P.rsiExit ?? 58);
 P.momentumExit = Object.assign({ enabled:true, requiresProfit:true, minR:0.30 }, P.momentumExit||{});
 P.htfFilter = Object.assign({ enabled:true, timeframe:"4h", mode:"emaUp", emaFast:P.emaFast, emaSlow:P.emaSlow, rsiAbove:50, confirmLag:0, minBars:260 }, P.htfFilter||{});
 P.enterExecLog = Object.assign({ enable: true, file: "enter-exec.csv" }, P.enterExecLog || {});
 P.retry = Object.assign({ tries:5, baseMs:500, factor:2, jitter:true }, P.retry||{});
-P.rsiLongSoft = Number(P.rsiLongSoft ?? 48);
 P.useLtfEmaSlope = P.useLtfEmaSlope ?? true;
 P.reentryATRStop = Number(P.reentryATRStop ?? 0.6);
 P.reentryATRProfit = Number(P.reentryATRProfit ?? 0.3);
@@ -152,7 +172,6 @@ function addIndicators(rows){
   }));
   return out;
 }
-
 function addIndicatorsWithTf(rows, timeframe){
   const ser = addIndicators(rows);
   if (ser.length === 0) return ser;
@@ -287,8 +306,10 @@ function makeGuards(){
     barsSinceLastEntry: Infinity, cooldown: 0, consecutiveLosses: 0,
     tradesToday: 0, dayStamp: null, dayStartEquity: null,
     lastExitPx: null, lastExitReason: null, lastExitProfit: false, lastATR: null,
+    // risk state for drawdown throttle & partial tracking
+    equityPeak: P.startEquity, ddPct: 0, partialTaken: false,
     diag: { rsiCrossUps:0, entriesPassedHTF:0, trendFails:0, htfFails:0,
-      blocked:{ cooldown:0, minBarsBetween:0, reentryAtr:0, maxTrades:0, consecLoss:0, minHold:0, dailyLoss:0, session:0 } }
+      blocked:{ cooldown:0, minBarsBetween:0, reentryAtr:0, maxTrades:0, consecLoss:0, minHold:0, dailyLoss:0, session:0, ddStop:0, volFilter:0 } }
   };
 }
 function newDayIfNeeded(guards, t, broker){
@@ -302,7 +323,7 @@ function newDayIfNeeded(guards, t, broker){
   }
 }
 
-// Entry gate explanation
+// ---------- Entry gate explanation ----------
 function canEnterNowExplain({ bar, last, guards, htfOk, position, equityNow }){
   const g = guards;
 
@@ -310,7 +331,21 @@ function canEnterNowExplain({ bar, last, guards, htfOk, position, equityNow }){
     return { ok:false, why:"atr-not-ready", details:{ need:P.atrPeriod } };
   }
 
-  if(P.strategy.style === "trend"){
+  // Volatility guardrail
+  if (P.volFilter?.enabled) {
+    const atrPct = (bar?.atr && bar?.c) ? (100 * (bar.atr / bar.c)) : 0;
+    if (atrPct < P.volFilter.atrPctMin || atrPct > P.volFilter.atrPctMax) {
+      g.diag.blocked.volFilter++;
+      return { ok:false, why:"volFilter", details:{ atrPct, min:P.volFilter.atrPctMin, max:P.volFilter.atrPctMax } };
+    }
+  }
+
+  // Auto-mode routes style
+  const style = (P.strategy.style === "auto")
+    ? ((bar?.emaFast ?? 0) > (bar?.emaSlow ?? 0) ? (P.auto.prefer || "trend") : (P.auto.fallback || "meanReversion"))
+    : P.strategy.style;
+
+  if(style === "trend"){
     const rsi = (bar?.rsi||0);
     const emaUp = (bar?.emaFast ?? 0) > (bar?.emaSlow ?? 0);
     const emaSlopeUp = (last?.emaFast != null) ? (bar.emaFast >= last.emaFast) : true;
@@ -362,6 +397,7 @@ function canEnterNowExplain({ bar, last, guards, htfOk, position, equityNow }){
   return { ok:true };
 }
 
+// ---------- broker & ops ----------
 function makeBroker(){
   return {
     position: 0, entry: null, stop: null,
@@ -420,7 +456,7 @@ function logEnterExec(ev){
   }catch(e){ logLine(`[ENTERLOG] write-failed: ${e.message}`); }
 }
 
-// ---------- trade ops ----------
+// trade ops
 function enterLong(broker, bar){
   const riskUSD = (broker.equity ?? P.startEquity) * (P.riskPerTradePct/100);
   const stopDist = ((P.atrPeriod>0 ? (P.atrStopMult||2.0) * (bar.atr||0) : 0) || (bar.c*0.01));
@@ -453,21 +489,36 @@ function enterLong(broker, bar){
   });
 
   appendTradeCsv(broker.trades[broker.trades.length - 1]);
-
-  // Intraday-hard initial stop: push immediately (your real broker impl would place it)
-  // Here, we just keep `broker.stop` authoritative and check intraday vs. bar.l in run loop
 }
 
 function exitLong(broker, barLike, note){
-  if(broker.position<=0) return;
-  const qty = broker.position; const px = slip(barLike.c);
-  broker.position = 0; broker.stop=null;
+  if(broker.position<=0) return 0;
+  const qty = broker.position;
+  const px = slip(barLike.c);
+  broker.position = 0;
+  broker.stop = null;
   broker.trades.push({ t:barLike.t, side:"SELL", px, qty, fee:(px*qty)*(P.feesPctRoundtrip/200), note });
   const lastBuy = broker.trades.slice().reverse().find(x=>x.side==="BUY");
   const pnl = (px - (lastBuy?.px||px)) * qty - ((px+lastBuy?.px||px)*qty)*(P.feesPctRoundtrip/200);
   broker.equity += pnl;
   debugSignal({ t: barLike.t, px, reason: "exit-exec", details: { note, pnl } });
   logLine(`[EXITLOG] ${tsISO(barLike.t)} ${P.symbol} px=${px.toFixed(2)} pnl=${pnl?.toFixed(2)} note=${note}`);
+  appendTradeCsv(broker.trades[broker.trades.length - 1]);
+  return pnl;
+}
+
+// partial scale-out
+function exitPartial(broker, barLike, frac, note){
+  if(broker.position<=0) return 0;
+  const qty = Math.max(0, Math.min(broker.position, Math.floor(broker.position * frac * 10000)/10000));
+  if(qty === 0) return 0;
+  const px = slip(barLike.c);
+  broker.position -= qty;
+  broker.trades.push({ t:barLike.t, side:"SELL", px, qty, fee:(px*qty)*(P.feesPctRoundtrip/200), note });
+  const lastBuy = broker.trades.slice().reverse().find(x=>x.side==="BUY");
+  const pnl = (px - (lastBuy?.px||px)) * qty - ((px+lastBuy?.px||px)*qty)*(P.feesPctRoundtrip/200);
+  broker.equity += pnl;
+  debugSignal({ t: barLike.t, px, reason: "exit-partial", details: { note, qty, pnl } });
   appendTradeCsv(broker.trades[broker.trades.length - 1]);
   return pnl;
 }
@@ -505,7 +556,7 @@ function updateTrailingStop(broker, bar){
   }
 }
 
-// ---------- helpers: Donchian High, R multiple, LIVE line ----------
+// ---------- helpers ----------
 function donchianHigh(series, N){
   if (!series || series.length < N) return undefined;
   let hi = -Infinity;
@@ -515,14 +566,12 @@ function donchianHigh(series, N){
   }
   return (hi === -Infinity) ? undefined : hi;
 }
-
 function rMultipleNow(broker, bar){
   if (!broker || broker.position <= 0) return 0;
   const rps = (broker.entry != null && broker.stop != null) ? (broker.entry - broker.stop) : 0;
   if (rps <= 0) return 0;
   return (bar.c - broker.entry) / rps;
 }
-
 function printLive(broker, bar, tradesTodayCount){
   const retPct = ((broker.equity / P.startEquity) - 1) * 100;
   let extra = "";
@@ -567,25 +616,40 @@ async function runBacktest(){
   const broker = makeBroker();
   const guards = makeGuards();
 
-  const eqRows = [];
-  const markToMarket = (bar) => {
-    if (broker.position <= 0) return broker.equity;
-    const lastBuy = broker.trades.slice().reverse().find(x => x.side === "BUY");
-    if (!lastBuy) return broker.equity;
-    const floatPnL = (bar.c - lastBuy.px) * broker.position;
-    return broker.equity + floatPnL;
-  };
-
   for (let i = 1; i < series.length; i++) {
     const b = series[i], last = series[i - 1];
+    b.isClose = true; // treat as close bars
     newDayIfNeeded(guards, b.t, broker);
+
+    // DD throttle update
+    if (P.ddThrottle.enabled) {
+      guards.equityPeak = Math.max(guards.equityPeak || broker.equity, broker.equity);
+      guards.ddPct = guards.equityPeak > 0 ? (100 * (guards.equityPeak - broker.equity) / guards.equityPeak) : 0;
+    }
 
     // exits
     if (broker.position > 0) {
       broker.holdBars++;
       updateTrailingStop(broker, b);
 
-      // intraday-hard stop check (on backtest bar-level: use low breach)
+      // Time-based exit
+      if (P.timeStop.enabled && broker.holdBars >= P.timeStop.bars) {
+        const pnl = exitLong(broker, b, "timeStop");
+        guards.lastExitPx = b.c; guards.lastExitReason = "timeStop";
+        guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
+        if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
+        guards.cooldown = pnl < 0 ? P.cooldownBarsAfterLoss : 0;
+      } else if (P.partialTake.enabled && !guards.partialTaken) {
+        const trailDist = (P.atrStopMult || 2.0) * (broker._entryAtr || b.atr || 0);
+        const rNow = trailDist > 0 ? (b.c - broker.entry) / trailDist : 0;
+        if (rNow >= (P.partialTake.atR || 1.0)) {
+          exitPartial(broker, b, P.partialTake.closeFrac || 0.5, "scaleOut");
+          guards.partialTaken = true;
+          if (P.partialTake.moveStopToBE) broker.stop = Math.max(broker.stop ?? -Infinity, broker.entry);
+        }
+      }
+
+      // stop check (backtest with bar.l breach)
       if (broker.stop && b.l <= broker.stop) {
         const pnl = exitLong(broker, { t: b.t, c: broker.stop }, "stopHit");
         guards.lastExitPx = broker.stop; guards.lastExitReason = "stopHit";
@@ -593,6 +657,7 @@ async function runBacktest(){
         if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
         guards.cooldown = P.cooldownBarsAfterLoss;
       } else {
+        // strategy exits
         if (P.strategy.style === "meanReversion" && (b.rsi || 0) >= P.rsiExit) {
           const pnl = exitLong(broker, b, "mrExit");
           guards.lastExitPx = b.c; guards.lastExitReason = "mrExit";
@@ -602,56 +667,66 @@ async function runBacktest(){
         } else if (P.momentumExit.enabled) {
           const trailDist = (P.atrStopMult || 2.0) * (broker._entryAtr || b.atr || 0);
           const rNow = trailDist > 0 ? (b.c - broker.entry) / trailDist : 0;
-          const pnlNow = (b.c - broker.entry) * broker.position
-                         - (b.c + broker.entry) * broker.position * (P.feesPctRoundtrip / 200);
-          if (P.momentumExit.requiresProfit) {
-            if (rNow >= (P.momentumExit.minR || 0.5) && pnlNow > 0) {
-              const pnl = exitLong(broker, b, "momentumExit");
-              guards.lastExitPx = b.c; guards.lastExitReason = "momentumExit";
-              guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
-              if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
-              guards.cooldown = pnl < 0 ? P.cooldownBarsAfterLoss : 0;
-            }
+          if (!P.momentumExit.requiresProfit || rNow >= (P.momentumExit.minR || 0.5)) {
+            const pnl = exitLong(broker, b, "momentumExit");
+            guards.lastExitPx = b.c; guards.lastExitReason = "momentumExit";
+            guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
+            if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
+            guards.cooldown = pnl < 0 ? P.cooldownBarsAfterLoss : 0;
           }
         }
       }
     }
 
-    // entries
+    // ENTRY
+    const htfIdx = P.htfFilter.enabled ? upperBoundIdx(htfSeries, b.t) : -1;
+    const htfOk  = !P.htfFilter.enabled || htfPass(htfSeries, htfIdx, P.htfFilter.mode);
+
     guards.barsSinceLastEntry++;
     const explain = canEnterNowExplain({
-      bar:b, last, guards, htfOk:true,
-      position: broker.position>0 ? { holdBars:broker.holdBars } : null,
+      bar: b, last, guards, htfOk,
+      position: broker.position > 0 ? { holdBars: broker.holdBars } : null,
       equityNow: broker.equity
     });
 
-    if (explain.ok && broker.position === 0) {
+    // dd throttle gate
+    if (P.ddThrottle.enabled && guards.ddPct >= P.ddThrottle.stopAtPct) {
+      debugSignal({ t:b.t, px:b.c, reason:"entry-blocked", details:{ why:"ddStop", ddPct:guards.ddPct } });
+      guards.diag.blocked.ddStop++;
+    } else if (explain.ok && broker.position === 0) {
+      const _riskBefore = P.riskPerTradePct;
+      if (P.ddThrottle.enabled && guards.ddPct >= P.ddThrottle.reduceAtPct) {
+        P.riskPerTradePct = Math.max(P.ddThrottle.minRiskPct, _riskBefore * 0.5);
+      }
+
       let okToEnter = true;
-      if (P.strategy.style === "trend") {
+      if (P.strategy.style === "trend" || (P.strategy.style === "auto" && (b.emaFast ?? 0) >= (b.emaSlow ?? 0))) {
         const emaFast = b.emaFast ?? NaN;
         const cushion = (P.entryAtrCushion || 0) * (b.atr || 0);
-        okToEnter = Number.isFinite(emaFast) && b.c > (emaFast + cushion);
-        if(!okToEnter){
-          debugSignal({ t:b.t, px:b.c, reason:"entry-blocked",
-            details:{ why:"breakout-cushion", emaFast, cushion, need:(emaFast + cushion) } });
+        okToEnter = Number.isFinite(emaFast) && (b.c > emaFast + cushion);
+        if (!okToEnter) {
+          debugSignal({ t:b.t, px:b.c, reason:"entry-blocked", details:{ why:"breakout-cushion", emaFast, cushion, need:(emaFast + cushion) } });
         }
       }
+      if (P.sessionFilter?.enabled && !isUSSession(b.t, P.sessionFilter)) {
+        debugSignal({ t:b.t, px:b.c, reason:"entry-blocked", details:{ why:"session-filter" } });
+        guards.diag.blocked.session++; okToEnter=false;
+      }
       if (okToEnter) { enterLong(broker, b); guards.tradesToday++; guards.barsSinceLastEntry = 0; }
-      else if (guards.cooldown > 0) { guards.cooldown--; }
+      P.riskPerTradePct = _riskBefore;
     } else {
       debugSignal({ t:b.t, px:b.c, reason:"entry-blocked",
         details: explain.details ? Object.assign({ why: explain.why }, explain.details) : { why: explain.why } });
-      if (guards.cooldown > 0) guards.cooldown--;
     }
 
-    // (optional) pyramiding in BT: needs Donchian High over recent N bars
-    if (broker.position > 0 && P.pyramiding?.enabled) {
+    // PYRAMID adds
+    if (broker.position > 0 && P.pyramiding?.enabled && (!P.maxTradesPerDay || guards.tradesToday < P.maxTradesPerDay)) {
       const N = P.pyramiding.donchianN || 20;
       const dcH = donchianHigh(series.slice(0, i+1), N);
       const atr = b.atr || broker._entryAtr || 0;
       const need = (dcH ?? b.h) + (P.pyramiding.breakATR || 0.25) * atr;
       const Rnow = rMultipleNow(broker, b);
-      if (Rnow >= 1.0 && b.c > need && guards.tradesToday < P.maxTradesPerDay) {
+      if (Rnow >= 1.0 && b.c > need) {
         const riskBudget = (broker.equity || P.startEquity) * (P.riskPerTradePct/100);
         const openRisk = Math.max(0, (b.c - broker.stop) * broker.position);
         const remainingRisk = Math.max(0, riskBudget - openRisk);
@@ -664,7 +739,6 @@ async function runBacktest(){
             broker.position += qtyAdd;
             broker.trades.push({ t:b.t, side:"BUY", px, qty:qtyAdd, fee:(px*qtyAdd)*(P.feesPctRoundtrip/200), note:"pyramid" });
             guards.tradesToday++;
-            // keep total open risk ≤ 1R by raising stop if needed
             const desired = riskBudget;
             const openRiskPost = Math.max(0, (b.c - broker.stop) * broker.position);
             if (openRiskPost > desired) {
@@ -680,134 +754,110 @@ async function runBacktest(){
       }
     }
 
-    eqRows.push([b.t, markToMarket(b)]);
+    // mark equity each bar in backtest
+    appendEquityCsv(b.t, broker.equity);
   }
 
-  const lastBar = series.at(-1);
-  if (broker.position > 0) {
-    const pnl = exitLong(broker, lastBar, "eodFlat");
-    guards.lastExitPx = lastBar.c; guards.lastExitReason = "eodFlat";
-    guards.lastExitProfit = (pnl ?? 0) > 0; guards.lastATR = lastBar.atr || guards.lastATR;
-  }
-  eqRows.push([lastBar.t, broker.equity]);
-
-  if (P.csv.enable) {
-    ensureDir(P.reportsDir);
-    const tradesCsv = ["time,side,px,qty,fee,note", ...broker.trades.map(t => `${tsISO(t.t)},${t.side},${t.px},${t.qty},${t.fee},${t.note}`)].join("\n");
-    fs.writeFileSync(path.join(P.reportsDir, P.csv.trades), tradesCsv);
-    const eqCsv = ["time,equity", ...eqRows.map(r => `${tsISO(r[0])},${Number(r[1]).toFixed(2)}`)].join("\n");
-    fs.writeFileSync(path.join(P.reportsDir, P.csv.equity), eqCsv);
-  }
+  logLine("✅ Backtest completed");
 }
 
 async function runLive(){
   const backend = makeBackend(P);
-  const broker = makeBroker();
-  const guards = makeGuards();
-  initCsvIfNeeded();
 
-  // restore
-  if(P.statePersistence.enable){
-    const pth = P.statePersistence.file;
-    try{ if(fs.existsSync(pth)){ const st = JSON.parse(fs.readFileSync(pth,"utf-8")); Object.assign(broker, st.broker||{}); Object.assign(guards, st.guards||{}); console.log("♻️  Restored state from", pth); } }
-    catch(e){ console.warn("State restore failed:", e.message); }
+  // load state if present
+  let broker = makeBroker();
+  let guards = makeGuards();
+  if(P.statePersistence.enable && fs.existsSync(P.statePersistence.file)){
+    try{
+      const s = JSON.parse(fs.readFileSync(P.statePersistence.file,"utf-8"));
+      if(s?.broker) broker = Object.assign(makeBroker(), s.broker);
+      if(s?.guards) guards = Object.assign(makeGuards(), s.guards);
+      logLine("💾 State restored.");
+    }catch(_){}
   }
 
-  // HTF refresh
-  let htfSeries = []; let htfReady=false;
-  async function refreshHTF(){
-    if(!P.htfFilter.enabled) return;
-    const tf = P.htfFilter.timeframe || "4h";
-    const need = Math.max(P.htfFilter.minBars||260, 260);
-    const recent = await withRetries(() => backend.fetchRecent(P.symbol, tf, need), { ...P.retry, tag:`htf-refresh:${P.symbol}:${tf}` });
-    htfSeries = addIndicatorsWithTf(recent, tf);
-    htfReady = true;
-    debugSignal({ t: htfSeries.at(-1)?.t || Date.now(), px: htfSeries.at(-1)?.c || 0, reason:"htf-refresh", details:{ bars: htfSeries.length }});
-  }
-  await refreshHTF();
+  let lastProcessedT = 0;
 
-  process.on('SIGINT', saveStateAndExit); process.on('SIGTERM', saveStateAndExit);
-  let iter=0;
   while(true){
     try{
-      const rec = await withRetries(() => backend.fetchRecent(P.symbol, P.timeframe, 300),
-        { ...P.retry, tag:`ltv:${P.symbol}:${P.timeframe}` });
-      const series = addIndicatorsWithTf(rec, P.timeframe);
+      const rows = await backend.fetchRecent(P.symbol, P.timeframe, Math.max(500, P.lookback));
+      const seriesAll = addIndicatorsWithTf(rows, P.timeframe);
+      if(seriesAll.length < 2){ await sleep(P.pollSeconds*1000); continue; }
 
-      if (iter === 0) {
-        const lastRaw = rec.at(-1)?.[0];
-        const alignedLast = series.at(-1)?.t;
-        debugSignal({
-          t: alignedLast ?? Date.now(),
-          px: series.at(-1)?.c,
-          reason: "startup-info",
-          details: {
-            timeframe: P.timeframe,
-            rawLastISO: lastRaw ? new Date(lastRaw).toISOString() : null,
-            alignedLastISO: alignedLast ? new Date(alignedLast).toISOString() : null
-          }
-        });
-        debugSignal({
-          t: Date.now(),
-          px: series.at(-1)?.c,
-          reason: "timeframe-check",
-          details: { timeframe: P.timeframe, tfMs: tfMs(P.timeframe) }
-        });
+      const b = seriesAll.at(-1); // treat last bar as closed in polling loop
+      b.isClose = true;
+      const last = seriesAll.at(-2);
+
+      if (b.t <= lastProcessedT){ await sleep(P.pollSeconds*1000); continue; }
+      lastProcessedT = b.t;
+
+      newDayIfNeeded(guards, b.t, broker);
+
+      // (optional) recompute HTF window around now
+      let htfOk = true;
+      if (P.htfFilter.enabled) {
+        const htfTF = P.htfFilter.timeframe || "4h";
+        const htf = tfMs(htfTF);
+        const htfSince = b.t - 400 * htf;
+        const htfSer = await precomputeHTF(backend, P.symbol, htfTF, htfSince, 500);
+        const hidx = upperBoundIdx(htfSer, b.t);
+        htfOk = htfPass(htfSer, hidx, P.htfFilter.mode);
       }
 
-      if(series.length<2){ await sleep(P.pollSeconds*1000); continue; }
-      const b = series.at(-1); const last = series.at(-2);
-
-      // HTF gate
-      let htfOk = true; let htfIdx = -1; let hb = {};
-      if(P.htfFilter.enabled){
-        if(iter%10===0 || !htfReady) await refreshHTF();
-        htfIdx = upperBoundIdx(htfSeries, b.t-1);
-        hb = htfSeries[htfIdx] || {};
-        htfOk = htfPass(htfSeries, htfIdx, P.htfFilter.mode);
-        if(!htfOk){
-          debugSignal({ t:b.t, px:b.c, reason:"htf-veto",
-            details:{ mode:P.htfFilter.mode, tf:P.htfFilter.timeframe, emaFast:hb.emaFast, emaSlow:hb.emaSlow, rsi:hb.rsi } });
-        } else if (iter % 30 === 0) {
-          debugSignal({ t:b.t, px:b.c, reason:"htf-pass",
-            details:{ mode:P.htfFilter.mode, tf:P.htfFilter.timeframe, emaFast:hb.emaFast, emaSlow:hb.emaSlow, rsi:hb.rsi } });
-        }
+      // DD throttle update
+      if (P.ddThrottle.enabled) {
+        guards.equityPeak = Math.max(guards.equityPeak || broker.equity, broker.equity);
+        guards.ddPct = guards.equityPeak > 0 ? (100 * (guards.equityPeak - broker.equity) / guards.equityPeak) : 0;
       }
 
-      // EXIT logic (intraday-hard stop)
-      if(broker.position>0){
+      // exits
+      if (broker.position > 0) {
         broker.holdBars++;
         updateTrailingStop(broker, b);
 
-        if(broker.stop && b.l <= broker.stop){
-          const pnl = exitLong(broker, { t:b.t, c:broker.stop }, "stopHit");
-          guards.lastExitPx = broker.stop; guards.lastExitReason="stopHit"; guards.lastExitProfit = pnl>0; guards.lastATR = b.atr||guards.lastATR;
-          if(pnl<0) guards.consecutiveLosses++; else guards.consecutiveLosses=0; guards.cooldown = P.cooldownBarsAfterLoss;
-          iter++; appendEquityCsv(b.t, broker.equity); printLive(broker, b, guards.tradesToday); await sleep(P.pollSeconds*1000); continue;
+        if (P.timeStop.enabled && broker.holdBars >= P.timeStop.bars) {
+          const pnl = exitLong(broker, b, "timeStop");
+          guards.lastExitPx = b.c; guards.lastExitReason = "timeStop";
+          guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
+          if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
+          guards.cooldown = pnl < 0 ? P.cooldownBarsAfterLoss : 0;
+        } else if (P.partialTake.enabled && !guards.partialTaken) {
+          const trailDist = (P.atrStopMult || 2.0) * (broker._entryAtr || b.atr || 0);
+          const rNow = trailDist > 0 ? (b.c - broker.entry) / trailDist : 0;
+          if (rNow >= (P.partialTake.atR || 1.0)) {
+            exitPartial(broker, b, P.partialTake.closeFrac || 0.5, "scaleOut");
+            guards.partialTaken = true;
+            if (P.partialTake.moveStopToBE) broker.stop = Math.max(broker.stop ?? -Infinity, broker.entry);
+          }
         }
-        if(P.strategy.style === "meanReversion" && (b.rsi||0) >= P.rsiExit){
-          const pnl = exitLong(broker, b, "mrExit");
-          guards.lastExitPx = b.c; guards.lastExitReason="mrExit"; guards.lastExitProfit = pnl>0; guards.lastATR = b.atr||guards.lastATR;
-          if(pnl<0) guards.consecutiveLosses++; else guards.consecutiveLosses=0; guards.cooldown = pnl<0 ? P.cooldownBarsAfterLoss : 0;
-          iter++; appendEquityCsv(b.t, broker.equity); printLive(broker, b, guards.tradesToday); await sleep(P.pollSeconds*1000); continue;
-        }
-        if(P.momentumExit.enabled){
-          const pnlNow = (b.c - broker.entry) * broker.position - (b.c + broker.entry) * broker.position * (P.feesPctRoundtrip/200);
-          const riskUSD = (broker.equity || P.startEquity) * (P.riskPerTradePct/100);
-          const rNow = riskUSD > 0 ? (pnlNow / riskUSD) : 0;
-          if(P.momentumExit.requiresProfit){
-            if(rNow >= (P.momentumExit.minR||0.5) && pnlNow > 0){
+
+        // close-bar stop enforcement (no intrabar ticks here)
+        if (broker.stop && b.c <= broker.stop) {
+          const pnl = exitLong(broker, { t: b.t, c: broker.stop }, "stopHit");
+          guards.lastExitPx = broker.stop; guards.lastExitReason = "stopHit";
+          guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
+          if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
+          guards.cooldown = P.cooldownBarsAfterLoss;
+        } else {
+          if (P.strategy.style === "meanReversion" && (b.rsi || 0) >= P.rsiExit) {
+            const pnl = exitLong(broker, b, "mrExit");
+            guards.lastExitPx = b.c; guards.lastExitReason = "mrExit";
+            guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
+            if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
+            guards.cooldown = pnl < 0 ? P.cooldownBarsAfterLoss : 0;
+          } else if (P.momentumExit.enabled) {
+            const trailDist = (P.atrStopMult || 2.0) * (broker._entryAtr || b.atr || 0);
+            const rNow = trailDist > 0 ? (b.c - broker.entry) / trailDist : 0;
+            if (!P.momentumExit.requiresProfit || rNow >= (P.momentumExit.minR || 0.5)) {
               const pnl = exitLong(broker, b, "momentumExit");
-              guards.lastExitPx = b.c; guards.lastExitReason="momentumExit"; guards.lastExitProfit = pnl>0; guards.lastATR = b.atr||guards.lastATR;
-              if(pnl<0) guards.consecutiveLosses++; else guards.consecutiveLosses=0; guards.cooldown = pnl<0 ? P.cooldownBarsAfterLoss : 0;
-              iter++; appendEquityCsv(b.t, broker.equity); printLive(broker, b, guards.tradesToday); await sleep(P.pollSeconds*1000); continue;
+              guards.lastExitPx = b.c; guards.lastExitReason = "momentumExit";
+              guards.lastExitProfit = pnl > 0; guards.lastATR = b.atr || guards.lastATR;
+              if (pnl < 0) guards.consecutiveLosses++; else guards.consecutiveLosses = 0;
+              guards.cooldown = pnl < 0 ? P.cooldownBarsAfterLoss : 0;
             }
           }
         }
       }
-
-      // day boundary
-      newDayIfNeeded(guards, b.t, broker);
 
       // ENTRY
       guards.barsSinceLastEntry++;
@@ -817,14 +867,22 @@ async function runLive(){
         equityNow: broker.equity
       });
 
-      if (explain.ok && broker.position === 0) {
+      if (P.ddThrottle.enabled && guards.ddPct >= P.ddThrottle.stopAtPct) {
+        debugSignal({ t:b.t, px:b.c, reason:"entry-blocked", details:{ why:"ddStop", ddPct:guards.ddPct } });
+        guards.diag.blocked.ddStop++;
+      } else if (explain.ok && broker.position === 0) {
+        const _riskBefore = P.riskPerTradePct;
+        if (P.ddThrottle.enabled && guards.ddPct >= P.ddThrottle.reduceAtPct) {
+          P.riskPerTradePct = Math.max(P.ddThrottle.minRiskPct, _riskBefore * 0.5);
+        }
         let okToEnter = true;
-        if (P.strategy.style === "trend") {
+        if (P.strategy.style === "trend" || (P.strategy.style === "auto" && (b.emaFast ?? 0) >= (b.emaSlow ?? 0))) {
           const emaFast = b.emaFast ?? NaN;
           const cushion = (P.entryAtrCushion || 0) * (b.atr || 0);
           okToEnter = Number.isFinite(emaFast) && (b.c > emaFast + cushion);
           if (!okToEnter) {
-            debugSignal({ t:b.t, px:b.c, reason:"entry-blocked", details:{ why:"breakout-cushion", emaFast, cushion, need:(emaFast + cushion) } });
+            debugSignal({ t:b.t, px:b.c, reason:"entry-blocked",
+              details:{ why:"breakout-cushion", emaFast, cushion, need:(emaFast + cushion) } });
           }
         }
         if (P.sessionFilter?.enabled && !isUSSession(b.t, P.sessionFilter)) {
@@ -832,15 +890,17 @@ async function runLive(){
           guards.diag.blocked.session++; okToEnter=false;
         }
         if (okToEnter) { enterLong(broker, b); guards.tradesToday++; guards.barsSinceLastEntry = 0; }
+        P.riskPerTradePct = _riskBefore;
       } else {
         debugSignal({ t:b.t, px:b.c, reason:"entry-blocked",
           details: explain.details ? Object.assign({ why: explain.why }, explain.details) : { why: explain.why } });
       }
 
-      // PYRAMID adds
+      // Pyramid adds on live (same logic as backtest; here only on close)
       if (broker.position > 0 && P.pyramiding?.enabled && (!P.maxTradesPerDay || guards.tradesToday < P.maxTradesPerDay)) {
         const N = P.pyramiding.donchianN || 20;
-        const dcH = donchianHigh(series, N);
+        // use last N over the fetched series
+        const dcH = donchianHigh(seriesAll, N);
         const atr = b.atr || broker._entryAtr || 0;
         const need = (dcH ?? b.h) + (P.pyramiding.breakATR || 0.25) * atr;
         const Rnow = rMultipleNow(broker, b);
@@ -872,30 +932,20 @@ async function runLive(){
         }
       }
 
-      // LIVE line & equity mark
-      if (iter % 6 === 0) {
-        printLive(broker, b, guards.tradesToday);
-        appendEquityCsv(b.t, broker.equity);
-      }
+      // live line & equity mark
+      printLive(broker, b, guards.tradesToday);
+      appendEquityCsv(b.t, broker.equity);
 
-      // Persist
-      if(P.statePersistence.enable && iter%3===0){
+      // persist state
+      if(P.statePersistence.enable){
         fs.writeFileSync(P.statePersistence.file, JSON.stringify({broker, guards}, null,2));
       }
 
-      iter++;
       await sleep(P.pollSeconds*1000);
     }catch(e){
       logLine("[LIVE] error: "+e.message);
       await sleep(30_000);
     }
-  }
-
-  function saveStateAndExit(){
-    if(P.statePersistence.enable){
-      try{ fs.writeFileSync(P.statePersistence.file, JSON.stringify({broker, guards}, null,2)); console.log("💾 State saved."); }catch(_){ }
-    }
-    process.exit(0);
   }
 }
 

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daily Shape Count · The Mind Bits</title>
+
+<!-- Optional: Sugo Display -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Sugo+Display&display=swap" rel="stylesheet"> -->
+
+<style>
+  :root{
+    --bg:#0e364b; --ink:#a9f4f4; --accent:#f0db79; --muted:#7bd7d7;
+    --edge:#0a2230; --grid:#0f4160; --ok:#3bae84; --bad:#e4572e;
+    --c1:#4891d9; --c2:#71d1d1; --c3:#ffd064; --c4:#3bae84; --c5:#bcd6ff;
+    --radius:16px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:linear-gradient(135deg,#0c2b3a, var(--bg));
+    color:var(--ink); font:16px/1.35 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+    min-height:100svh; display:grid; place-items:center; padding:18px;
+  }
+  .wrap{width:min(1020px,100%); display:grid; gap:16px; grid-template-columns: 360px 1fr;}
+  @media (max-width:900px){ .wrap{grid-template-columns:1fr} }
+  .card{
+    background:linear-gradient(180deg,#104862,#0f3a50); border:1px solid rgba(255,255,255,.06);
+    border-radius:var(--radius); box-shadow:0 14px 36px rgba(0,0,0,.18); padding:16px;
+  }
+  h1{margin:0 0 6px; font-weight:900; color:var(--accent)} .sub{color:var(--muted); margin:.25rem 0 .75rem}
+  .row{display:flex; gap:8px; flex-wrap:wrap}
+  .btn{display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid #0b2b3d; background:#0d3347; color:var(--ink); font-weight:800; cursor:pointer; user-select:none; transition:.15s transform ease, .15s filter ease;}
+  .btn:hover{transform:translateY(-1px); filter:brightness(1.05)} .btn.primary{background:var(--accent); color:#0b1d28; border-color:#d2bd61}
+  select, input[type="number"]{appearance:none; border:1px solid #0b2b3d; background:#0d3347; color:var(--ink); border-radius:12px; padding:10px 12px; font-weight:700}
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:10px}
+  .stat{background:#0c3042; border:1px solid #0b2b3d; border-radius:12px; padding:10px; text-align:center}
+  .stat .big{display:block; font:900 22px/1.1 system-ui}
+  .board.card{padding:0; overflow:hidden}
+  .topbar,.bottombar{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:12px 14px; border-bottom:1px solid rgba(255,255,255,.06)}
+  .bottombar{border-top:1px solid rgba(255,255,255,.06); border-bottom:none; background:#0c3042}
+  .question{font-weight:900} .ok{color:var(--ok)} .bad{color:var(--bad)}
+  #stageWrap{min-height:480px; display:grid; place-items:center; background:radial-gradient(1200px circle at 12% 10%, #0c4059, #0a2c3d)}
+  svg{width:100%; height:100%; max-height:70vh}
+  .edge{stroke:var(--edge); stroke-width:6; fill:none}
+  .grid{stroke:var(--grid); stroke-width:2}
+  .patch{stroke:rgba(0,0,0,.18); stroke-width:1}
+  .void{fill:transparent; stroke:rgba(255,255,255,.07); stroke-width:1}
+  footer{margin-top:10px; font-size:13px; color:#9cd8d8; opacity:.85; text-align:center}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>Daily Shape Count</h1>
+      <div class="sub">One big colorful layout — count <b>all</b> target shapes (any size)!</div>
+
+      <div class="row" style="margin-bottom:.35rem">
+        <label style="font-weight:800">Level:</label>
+        <button class="btn" data-level="easy">Easy</button>
+        <button class="btn" data-level="medium">Medium</button>
+        <button class="btn" data-level="hard">Hard</button>
+      </div>
+
+      <div class="row" style="margin-bottom:.35rem">
+        <label style="font-weight:800">Shape:</label>
+        <select id="shape">
+          <option value="triangle">Triangles (subdivided)</option>
+          <option value="square">Squares (free-form)</option>
+          <option value="rectangle">Rectangles (free-form)</option>
+        </select>
+        <button id="todayBtn" class="btn primary">Today’s Puzzle</button>
+        <button id="revealBtn" class="btn">Reveal</button>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><span class="big" id="todayStr">—</span>Today</div>
+        <div class="stat"><span class="big" id="orderStr">—</span>Order / Size</div>
+        <div class="stat"><span class="big" id="answerStr">?</span>Answer</div>
+      </div>
+      <footer>© TheMindBits · Brain Gym for Growing Minds</footer>
+    </section>
+
+    <section class="board card">
+      <div class="topbar">
+        <div class="question" id="q">How many do you see?</div>
+        <div id="fb">&nbsp;</div>
+      </div>
+      <div id="stageWrap">
+        <svg id="stage" viewBox="0 0 960 680" role="img" aria-label="puzzle board"></svg>
+      </div>
+      <div class="bottombar">
+        <div class="row">
+          <label for="guess" style="font-weight:800">Your answer:</label>
+          <input id="guess" type="number" min="0" step="1" placeholder="0" style="width:120px">
+          <button id="submitBtn" class="btn primary">Submit</button>
+        </div>
+        <div id="explain" class="sub" style="opacity:.8"></div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+  'use strict';
+  (function(){
+    // ---------- Daily seed ----------
+    function yyyymmdd(d){ d = d || new Date(); return d.getFullYear()*10000 + (d.getMonth()+1)*100 + d.getDate(); }
+    function mulberry32(a){
+      return function(){
+        let t = a += 0x6D2B79F5;
+        t = Math.imul(t ^ (t >>> 15), t | 1);
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+    function pick(rng, arr){ return arr[Math.floor(rng()*arr.length)]; }
+
+    // ---------- SVG helpers ----------
+    var stage = document.getElementById('stage');
+    var svgNS = 'http://www.w3.org/2000/svg';
+    function S(tag, attrs){
+      var e = document.createElementNS(svgNS, tag);
+      for(var k in attrs){ e.setAttribute(k, String(attrs[k])); }
+      return e;
+    }
+    function clear(){ while(stage.firstChild) stage.removeChild(stage.firstChild); }
+
+    // ---------- Palette ----------
+    var palette = ['var(--c1)','var(--c2)','var(--c3)','var(--c4)','var(--c5)'];
+
+    // ---------- TRIANGLES (subdivided big triangle) ----------
+    function countTriangles(n){
+      var tot = 0;
+      for(var k=1;k<=n;k++){
+        var up = (n-k+1)*(n-k+2)/2;
+        var dn = (n-k)*(n-k+1)/2;
+        tot += up + dn;
+      }
+      return tot|0;
+    }
+    function drawTriangleGrid(n){
+      clear();
+      var W=960, H=680, pad=50;
+      var side = Math.min(W-2*pad, (H-2*pad)*2/Math.sqrt(3));
+      var h = side*Math.sqrt(3)/2;
+      var cx=W/2, topY=(H-h)/2;
+      var A=[cx, topY], B=[cx-side/2, topY+h], C=[cx+side/2, topY+h];
+
+      var unit = side/n, rowH = unit*Math.sqrt(3)/2;
+      for(var row=0; row<n; row++){
+        var y = topY + row*rowH;
+        var cols = n - row;
+        for(var col=0; col<cols; col++){
+          var xLeft = (cx - side/2) + row*unit/2 + col*unit;
+          var up = S('polygon', { points: (xLeft+unit/2)+','+y+' '+xLeft+','+(y+rowH)+' '+(xLeft+unit)+','+(y+rowH), class:'patch', fill: palette[(col+row)%palette.length] });
+          stage.appendChild(up);
+          if(row < n-1){
+            var y2 = y + rowH;
+            var inv = S('polygon', { points: (xLeft+unit/2)+','+(y2+rowH)+' '+xLeft+','+y2+' '+(xLeft+unit)+','+y2, class:'patch', fill: palette[(col+row+1)%palette.length] });
+            stage.appendChild(inv);
+          }
+        }
+      }
+      function lerp(P,Q,t){ return [P[0]+(Q[0]-P[0])*t, P[1]+(Q[1]-P[1])*t]; }
+      for(var k=1;k<n;k++){
+        var P=lerp(A,B,k/n), Q=lerp(A,C,k/n);
+        stage.appendChild(S('line',{x1:P[0],y1:P[1],x2:Q[0],y2:Q[1],class:'grid'}));
+        P=lerp(A,B,k/n); Q=lerp(C,B,k/n);
+        stage.appendChild(S('line',{x1:P[0],y1:P[1],x2:Q[0],y2:Q[1],class:'grid'}));
+        P=lerp(A,C,k/n); Q=lerp(B,C,k/n);
+        stage.appendChild(S('line',{x1:P[0],y1:P[1],x2:Q[0],y2:Q[1],class:'grid'}));
+      }
+      stage.appendChild(S('polygon',{points:A[0]+','+A[1]+' '+B[0]+','+B[1]+' '+C[0]+','+C[1], class:'edge'}));
+    }
+
+    // ---------- SQUARES (free-form) ----------
+    function countSquaresFree(mat){
+      var r=mat.length, c=mat[0].length, total=0;
+      var dp=new Array(r);
+      for(var i=0;i<r;i++) dp[i]=new Array(c).fill(0);
+      for(var y=0;y<r;y++){
+        for(var x=0;x<c;x++){
+          if(mat[y][x]){
+            var a = (y>0 && x>0) ? dp[y-1][x-1] : 0;
+            var b = (y>0) ? dp[y-1][x] : 0;
+            var d = (x>0) ? dp[y][x-1] : 0;
+            var m = Math.min(a,b,d);
+            dp[y][x] = 1 + m;
+            total += dp[y][x];
+          }
+        }
+      }
+      return total;
+    }
+    function drawSquaresFree(n, seed, pFill){
+      clear();
+      var W=960, H=680, pad=60;
+      var size = Math.min(W-2*pad, H-2*pad);
+      var x0=(W-size)/2, y0=(H-size)/2, step=size/n;
+      var rng = mulberry32(seed);
+      var mat = new Array(n);
+      for(var y=0;y<n;y++){
+        mat[y] = new Array(n);
+        for(var x=0;x<n;x++){
+          mat[y][x] = (rng() < pFill) ? 1 : 0;
+        }
+      }
+      for(var yy=0;yy<n;yy++){
+        for(var xx=0;xx<n;xx++){
+          if(mat[yy][xx]){
+            stage.appendChild(S('rect',{x:x0+xx*step,y:y0+yy*step,width:step,height:step,class:'patch',fill:palette[(yy+2*xx)%palette.length]}));
+          }else{
+            stage.appendChild(S('rect',{x:x0+xx*step,y:y0+yy*step,width:step,height:step,class:'void'}));
+          }
+        }
+      }
+      for(var k=0;k<=n;k++){
+        stage.appendChild(S('line',{x1:x0,y1:y0+k*step,x2:x0+size,y2:y0+k*step,class:'grid',opacity:0.4}));
+        stage.appendChild(S('line',{x1:x0+k*step,y1:y0,x2:x0+k*step,y2:y0+size,class:'grid',opacity:0.4}));
+      }
+      return mat;
+    }
+
+    // ---------- RECTANGLES (free-form) ----------
+    function countRectanglesFree(mat){
+      var R=mat.length, C=mat[0].length, total=0;
+      var h = new Array(C).fill(0);
+      for(var y=0;y<R;y++){
+        for(var x=0;x<C;x++) h[x] = mat[y][x] ? h[x]+1 : 0;
+        for(var right=0; right<C; right++){
+          var minH = Infinity;
+          for(var left=right; left>=0; left--){
+            if(h[left]===0) break;
+            if(h[left] < minH) minH = h[left];
+            total += minH;
+          }
+        }
+      }
+      return total;
+    }
+    function drawRectanglesFree(rows, cols, seed, pFill){
+      clear();
+      var W=960, H=680, pad=60;
+      var cell = Math.min((W-2*pad)/cols, (H-2*pad)/rows);
+      var width = cell*cols, height = cell*rows;
+      var x0=(W-width)/2, y0=(H-height)/2;
+      var rng = mulberry32(seed);
+      var mat = new Array(rows);
+      for(var y=0;y<rows;y++){
+        mat[y] = new Array(cols);
+        for(var x=0;x<cols;x++){
+          mat[y][x] = (rng() < pFill) ? 1 : 0;
+        }
+      }
+      for(var yy=0;yy<rows;yy++){
+        for(var xx=0;xx<cols;xx++){
+          if(mat[yy][xx]){
+            stage.appendChild(S('rect',{x:x0+xx*cell,y:y0+yy*cell,width:cell,height:cell,class:'patch',fill:palette[(yy+3*xx)%palette.length]}));
+          }else{
+            stage.appendChild(S('rect',{x:x0+xx*cell,y:y0+yy*cell,width:cell,height:cell,class:'void'}));
+          }
+        }
+      }
+      for(var k=0;k<=rows;k++){ stage.appendChild(S('line',{x1:x0,y1:y0+k*cell,x2:x0+width,y2:y0+k*cell,class:'grid',opacity:0.4})); }
+      for(var j=0;j<=cols;j++){ stage.appendChild(S('line',{x1:x0+j*cell,y1:y0,x2:x0+j*cell,y2:y0+height,class:'grid',opacity:0.4})); }
+      return mat;
+    }
+
+    // ---------- Easier levels (daily) ----------
+    function todayLabel(){
+      var d=new Date();
+      return d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'});
+    }
+    function dailyParams(shape, level){
+      var base = yyyymmdd(new Date());
+      var salts = {triangle:17, square:29, rectangle:47};
+      var lvl = {easy:101, medium:307, hard:919}[level];
+      var rng = mulberry32(base + salts[shape] + lvl);
+
+      if(shape==='triangle'){
+        var nt = (level==='easy') ? pick(rng,[2,3]) :
+                 (level==='medium') ? pick(rng,[3,4]) :
+                 pick(rng,[4,5]);
+        return {n: nt, seed: base + 13*salts.triangle + lvl};
+      }
+      if(shape==='square'){
+        var ns = (level==='easy') ? 5 : (level==='medium' ? 6 : 7);
+        var ps = (level==='easy') ? 0.45 : (level==='medium' ? 0.5 : 0.55);
+        return {n: ns, p: ps, seed: base + 13*salts.square + lvl};
+      }
+      // rectangle
+      var rows = (level==='easy') ? pick(rng,[4,5]) :
+                 (level==='medium') ? pick(rng,[5,6]) :
+                 pick(rng,[6,7]);
+      var cols = (level==='easy') ? pick(rng,[6,7]) :
+                 (level==='medium') ? pick(rng,[7,8]) :
+                 pick(rng,[8,9]);
+      var pr = (level==='easy') ? 0.45 : (level==='medium' ? 0.5 : 0.55);
+      return {rows: rows, cols: cols, p: pr, seed: base + 13*salts.rectangle + lvl};
+    }
+
+    // ---------- UI / Game ----------
+    var todayEl = document.getElementById('todayStr');
+    var orderEl = document.getElementById('orderStr');
+    var answerEl = document.getElementById('answerStr');
+    var fb = document.getElementById('fb');
+    var explain = document.getElementById('explain');
+    var guess = document.getElementById('guess');
+    var shapeSel = document.getElementById('shape');
+
+    var state = { level:'easy', shape:'triangle', answer:0 };
+
+    function setQuestion(){
+      var s = state.shape;
+      var map = {
+        triangle: 'How many triangles (any size, any orientation) do you see?',
+        square: 'How many squares (any size) are formed by colored tiles?',
+        rectangle: 'How many rectangles (any size) are formed by colored tiles?'
+      };
+      document.getElementById('q').textContent = map[s];
+    }
+
+    function newDaily(level, shape){
+      level = level || state.level;
+      shape = shape || state.shape;
+      state.level = level; state.shape = shape; setQuestion();
+
+      todayEl.textContent = todayLabel();
+      fb.textContent = '\u00A0';
+      explain.textContent = '';
+      guess.value = '';
+      answerEl.textContent = '—';
+
+      var p = dailyParams(shape, level);
+
+      if(shape==='triangle'){
+        orderEl.textContent = 'n=' + p.n;
+        state.answer = countTriangles(p.n);
+        drawTriangleGrid(p.n);
+        explain.textContent = 'Triangles: sum sizes k=1..n of up + down.';
+      } else if(shape==='square'){
+        orderEl.textContent = 'n=' + p.n + ' (free-form)';
+        var ms = drawSquaresFree(p.n, p.seed, p.p);
+        state.answer = countSquaresFree(ms);
+        explain.textContent = 'Squares: dynamic programming over contiguous 1-patches.';
+      } else {
+        orderEl.textContent = p.rows + '×' + p.cols + ' (free-form)';
+        var mr = drawRectanglesFree(p.rows, p.cols, p.seed, p.p);
+        state.answer = countRectanglesFree(mr);
+        explain.textContent = 'Rectangles: histogram per row; sum of min heights across spans.';
+      }
+    }
+
+    document.querySelectorAll('[data-level]').forEach(function(b){
+      b.addEventListener('click', function(){ newDaily(b.dataset.level, state.shape); });
+    });
+    document.getElementById('todayBtn').addEventListener('click', function(){ newDaily(); });
+    document.getElementById('revealBtn').addEventListener('click', function(){
+      answerEl.textContent = String(state.answer);
+    });
+    document.getElementById('submitBtn').addEventListener('click', submit);
+    shapeSel.addEventListener('change', function(){ newDaily(state.level, shapeSel.value); });
+    guess.addEventListener('keydown', function(e){ if(e.key==='Enter') submit(); });
+
+    function submit(){
+      var val = Number(guess.value || 0);
+      if(!Number.isFinite(val)) return;
+      if(val === state.answer){
+        fb.textContent = 'Correct!'; fb.className = 'ok';
+        answerEl.textContent = String(state.answer);
+      } else {
+        fb.textContent = 'Not yet — try again!'; fb.className = 'bad';
+      }
+    }
+
+    // boot
+    newDaily('easy','triangle');
+  })();
+  </script>
+</body>
+</html>

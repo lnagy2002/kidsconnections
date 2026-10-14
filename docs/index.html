@@ -109,6 +109,12 @@ h1{
   font-weight: 900; font-size: 1.25rem; line-height: 1.2;
 }
 
+.game-cats {
+  margin-top: -6px;
+  font-size: .95rem; font-weight: 600; line-height: 1.2;
+  opacity: .85;
+}
+
 .play {
   font-size: 1rem;
   appearance: none; border: 0; cursor: pointer;
@@ -172,18 +178,21 @@ async function fetchGames(url){
     href: g.href || g.url || '#',
     logo: g.logo || g.logoUrl || '',
     color: g.color || '#111',
-    defaultDifficulty: (g.defaultDifficulty || 'easy').toLowerCase()
+    categories: Array.isArray(g.categories) ? g.categories : []
   })).filter(g=> g.id && g.href);
 }
 
 function refreshCardState(card, game){
-  console.log (window.MindBitsProgress)
-  if (window.MindBitsProgress?.isDoneToday(game.id)) {
-    card.classList.add('done-today');
-  } else {
-    card.classList.remove('done-today');
-  }
+  card.classList.toggle('done-today', !!window.MindBitsProgress?.isDoneToday(game.id));
 }
+
+// One shared set of listeners keeps every card's done-today state in sync
+const cards = [];
+const refreshAll = ()=> cards.forEach(({ card, game })=> refreshCardState(card, game));
+window.addEventListener('mb:done-updated', refreshAll);
+window.addEventListener('storage', (e)=>{
+  if (e.key && e.key.startsWith('mb:done:')) refreshAll();
+});
 
 function buildCard(game){
   const card = document.createElement('article');
@@ -210,7 +219,7 @@ function buildCard(game){
       logo.style.background = game.color;
       logo.style.color = '#fff';
     };
-    logo.loading = 'lazy';
+    img.loading = 'lazy';
     logo.appendChild(img);
   } else {
     logo.textContent = (game.title?.[0] || 'G').toUpperCase();
@@ -226,13 +235,8 @@ function buildCard(game){
   title.className = 'game-title';
   title.textContent = game.title;
 
-  const btn = document.createElement('button');
-  btn.className = 'play';
-  btn.type = 'button';
-  btn.textContent = 'Play';
-
   card.addEventListener('click', ()=>{
-    // /kidsconnections/<href>?level=<defaultDifficulty>
+    // /kidsconnections/start.html?id=<game.id>
     const path = `/kidsconnections/start.html`;
     const u = new URL(path, location.origin);
     const sp = new URLSearchParams(u.search);
@@ -242,14 +246,18 @@ function buildCard(game){
   });
 
   bottom.append(title);
+
+  if (game.categories.length){
+    const cats = document.createElement('div');
+    cats.className = 'game-cats';
+    cats.textContent = game.categories.join(' • ');
+    bottom.append(cats);
+  }
   card.append(top, bottom);
 
-  // Initialize done-today state and keep in sync
+  // Initialize done-today state; shared listeners keep it in sync
   refreshCardState(card, game);
-  window.addEventListener('mb:done-updated', ()=> refreshCardState(card, game));
-  window.addEventListener('storage', (e)=>{
-    if (e.key && e.key.startsWith('mb:done:')) refreshCardState(card, game);
-  });
+  cards.push({ card, game });
 
   return card;
 }
@@ -274,10 +282,6 @@ function buildCard(game){
     els.error.hidden = false;
   }
 })();
-
-if (window.self !== window.top) {
-  document.body.classList.add('embedded');
-}
 </script>
 </body>
 </html>

@@ -1,0 +1,64 @@
+{
+  "mode": "backtest",
+  "reportsDir": "reports",
+  "backend": { "type": "ccxt" },
+  "exchange": "kraken",
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "lookback": 1200,
+  "startEquity": 20000,
+  "riskPerTradePct": 0.9,
+  "maxPositionNotionalUSD": 20000,
+  "feesPctRoundtrip": 0.08,
+  "slippageBps": 2,
+
+  "rsiPeriod": 14,
+  "emaFast": 50,
+  "emaSlow": 200,
+  "atrPeriod": 21,
+  "atrStopMult": 2.0,
+
+  "strategy": { "style": "trend" },
+  "rsiLong": 51,
+  "rsiLongSoft": 47,
+  "useLtfEmaSlope": false,
+
+  "momentumExit": { "enabled": true, "requiresProfit": false, "minR": -0.15 },
+
+  "trailingStop": {
+    "enabled": true,
+    "mode": "entryATR",
+    "atrMult": 2.8,
+    "percent": 4,
+    "onCloseOnly": true
+  },
+  "trailStartR": 2.2,
+
+  "htfFilter": {
+    "enabled": true,
+    "timeframe": "4h",
+    "mode": "emaUpOrRsi",
+    "rsiAbove": 48,
+    "confirmLag": 0,
+    "minBars": 50
+  },
+
+  "trendLtfConfirm": false,
+  "minBarsBetweenTrades": 5,
+  "cooldownBarsAfterLoss": 3,
+
+  "reentryATR": 0.25,
+  "reentryATRStop": 0.5,
+  "reentryATRProfit": 0.15,
+
+  "maxTradesPerDay": 4,
+  "maxConsecutiveLosses": 4,
+  "minHoldBars": 2,
+  "dailyLossLimitPct": 1.5,
+  "lossStreakDecayPerDay": 1,
+
+  "statePersistence": { "enable": true, "file": "reports/livestate.json" },
+  "debugSignals": true,
+  "debugToFile": false,
+  "pollSeconds": 60
+}

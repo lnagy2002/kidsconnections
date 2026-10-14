@@ -1,0 +1,58 @@
+{
+  "mode": "live-paper",
+  "reportsDir": "reports-se",
+  "backend": { "type": "alpaca" },
+  "alpacaFeed": "iex",
+
+  "symbol": "SE",
+  "timeframe": "1d",
+  "lookback": 1500,
+
+  "startEquity": 20000,
+  "riskPerTradePct": 0.6,
+  "maxPositionNotionalUSD": 15000,
+  "feesPctRoundtrip": 0.04,
+  "slippageBps": 1,
+
+  "strategy": { "style": "trend" },
+
+  "rsiPeriod": 14,
+  "emaFast": 50,
+  "emaSlow": 200,
+  "atrPeriod": 21,
+  "atrStopMult": 2.4,
+
+  "rsiLong": 52,
+  "rsiLongSoft": 48,
+  "useLtfEmaSlope": true,
+  "entryAtrCushion": 0.20,
+
+  "momentumExit": { "enabled": true, "requiresProfit": true, "minR": 0.8 },
+
+  "trailingStop": { "enabled": true, "mode": "entryATR", "atrMult": 2.6, "percent": 4, "onCloseOnly": true },
+  "trailStartR": 1.2,
+
+  "htfFilter": { "enabled": false },
+
+  "minBarsBetweenTrades": 1,
+  "cooldownBarsAfterLoss": 2,
+  "maxTradesPerDay": 1,
+
+  "reentryATR": 0.30,
+  "reentryATRStop": 0.80,
+  "reentryATRProfit": 0.50,
+
+  "volFilter": { "enabled": true, "atrPctMin": 0.50, "atrPctMax": 12.0 },
+  "timeStop": { "enabled": true, "bars": 40 },
+  "partialTake": { "enabled": true, "atR": 1.0, "closeFrac": 0.4, "moveStopToBE": true },
+  "ddThrottle": { "enabled": true, "reduceAtPct": 6, "stopAtPct": 12, "minRiskPct": 0.2 },
+
+  "pyramiding": { "enabled": false },
+
+  "csv": { "enable": true, "trades": "trades.csv", "equity": "equity.csv" },
+  "statePersistence": { "enable": true, "file": "livestate.json" },
+  "enterExecLog": { "enable": true, "file": "enter-exec.csv" },
+  "debugSignals": true,
+  "debugToFile": true,
+  "pollSeconds": 60
+}

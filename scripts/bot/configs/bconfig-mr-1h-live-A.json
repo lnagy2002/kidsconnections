@@ -1,0 +1,49 @@
+{
+  "mode": "live-paper",
+  "reportsDir": "reports-mr-live",
+  "backend": { "type": "alpaca" },
+  "alpacaFeed": "iex",
+
+  "timeframe": "1h",
+  "lookback": 7000,
+
+  "startEquity": 20000,
+  "riskPerTradePct": 0.6,
+  "maxPositionNotionalUSD": 15000,
+  "feesPctRoundtrip": 0.04,
+  "slippageBps": 1,
+
+  "strategy": { "style": "meanReversion" },
+
+  "emaFast": 50,
+  "emaSlow": 200,
+  "rsiPeriod": 14,
+  "atrPeriod": 21,
+
+  "rsiOversold": 40,
+  "rsiExit": 58,
+
+  "atrStopMult": 2.0,
+  "trailingStop": { "enabled": true, "mode": "barATR", "atrMult": 2.2, "onCloseOnly": true },
+  "momentumExit": { "enabled": true, "requiresProfit": true, "minR": 0.30 },
+
+  "htfFilter": { "enabled": true, "timeframe": "4h", "mode": "emaUp", "minBars": 260 },
+
+  "entryAtrCushion": 0,
+  "minBarsBetweenTrades": 1,
+  "cooldownBarsAfterLoss": 2,
+  "maxTradesPerDay": 5,
+
+  "reentryATR": 0.30,
+  "reentryATRStop": 0.60,
+  "reentryATRProfit": 0.30,
+
+  "sessionFilter": { "enabled": false, "graceMin": 2, "tz": "America/New_York", "open": "09:30", "close": "16:00" },
+
+  "csv": { "enable": true, "trades": "trades.csv", "equity": "equity.csv" },
+  "enterExecLog": { "enable": true, "file": "enter-exec.csv" },
+  "statePersistence": { "enable": true, "file": "livestate.json" },
+  "debugSignals": true,
+  "debugToFile": true,
+  "pollSeconds": 60
+}

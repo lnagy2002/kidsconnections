@@ -1,39 +1,39 @@
 {
   "easy": {
     "words": [
-      "MIST",
-      "BUMP",
-      "CAMP",
-      "GLOW",
-      "WILD",
-      "FLEX",
-      "SPAR",
-      "LIFT"
+      "BARKY",
+      "CURLY",
+      "FABLE",
+      "JOLLY",
+      "MERRY",
+      "PLUMB",
+      "GRASP",
+      "HAPPY"
     ]
   },
   "medium": {
     "words": [
-      "DREAMS",
-      "FESTIVE",
       "GATHER",
-      "SPIRITS",
-      "CANDLE",
+      "SPIRAL",
+      "FARMER",
       "BALANCE",
-      "BUNGLE",
-      "FESTAL"
+      "BRIGHT",
+      "JOURNAL",
+      "FLOATY",
+      "CIRCLE"
     ]
   },
   "hard": {
     "words": [
-      "FRIENDLY",
-      "WONDERED",
+      "BALANCED",
+      "INNOVATE",
+      "FESTIVITY",
       "GENERATION",
-      "COMFORTED",
-      "TRANSLATED",
       "HARMONIC",
-      "SPECTACULAR",
-      "INNOVATIVE",
-      "ACROBATICS"
+      "COMFORTED",
+      "GRADUATES",
+      "FRIENDLY",
+      "TRANSLATED"
     ]
   }
 }

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10142026-E",
+    "generatedAt": "2026-10-14T05:11:13.257Z",
+    "groups": [
+      {
+        "name": "Round things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "kite",
+          "bird",
+          "plane",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearable items",
+        "items": [
+          "hat",
+          "shirt",
+          "scarf",
+          "gloves"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Drinking vessels",
+        "items": [
+          "cup",
+          "bottle",
+          "mug",
+          "glass"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy level featuring concrete, visual connections. All items are kid-friendly and unique."
+  },
+  "medium": {
+    "id": "10142026-M",
+    "generatedAt": "2026-10-14T05:11:13.257Z",
+    "groups": [
+      {
+        "name": "Sun word pairs",
+        "items": [
+          "rise",
+          "set",
+          "beam",
+          "ray"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-formation words",
+        "items": [
+          "note",
+          "text",
+          "story",
+          "cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Play prefixes / play- compounds",
+        "items": [
+          "ground",
+          "time",
+          "date",
+          "maker"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size descriptors",
+        "items": [
+          "big",
+          "small",
+          "long",
+          "short"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium level includes some cross-over temptations (words that could seem to fit other groups) but each item belongs to one correct group."
+  },
+  "hard": {
+    "id": "10142026-H",
+    "generatedAt": "2026-10-14T05:11:13.257Z",
+    "groups": [
+      {
+        "name": "Words with multiple meanings (verbs/nouns)",
+        "items": [
+          "watch",
+          "spring",
+          "ring",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-words that are also foods",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tools with more than one meaning",
+        "items": [
+          "saw",
+          "drill",
+          "hammer",
+          "wrench"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals that are also action words",
+        "items": [
+          "bear",
+          "duck",
+          "crab",
+          "parrot"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard level relies on polysemy and playful word pairs. Some items have multiple senses; the strongest single-group connection is the intended one."
+  }
+}

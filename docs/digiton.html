@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Digiton · Wordle‑style Numbers Game Daily</title>
+<title>Numbit · Wordle‑style Numbers Game Daily</title>
 <style>
 
 @import url('./theme.css');
@@ -88,22 +88,32 @@
    }
   /* .key.special{ grid-column: span 5; } */
   .key.correct{
-    /* background: var(--ok);
-    color: #083f2b  */
+    background: var(--ok);
+    border-color: var(--ok);
+    color: #083f2b
   }
   .key.present{
-    /* background: var(--maybe);
-    color: #4a3a00  */
+    background: var(--maybe);
+    border-color: var(--maybe);
+    color: #4a3a00
   }
   .key.absent{
-      /* outline: 2px dashed #8aa0ff;
-      outline-offset: 2px;
-      opacity: .9  */
+      background: var(--no);
+      border-color: var(--no);
+      color: #0b1222;
+      opacity: .55
     }
 
     .key.wide {
         grid-column: span 1;
         font-size: 13px;
+        background: var(--ink);
+        border-color: var(--ink);
+        color: var(--bg);
+    }
+
+    .key.wide:hover {
+        background: #c9eaea;
     }
 
   .status{min-height:24px; font-size:14px; opacity:0.9;}
@@ -131,7 +141,8 @@
 
     .key.wide {
       min-width: 50px;
-      font-size: 10px;
+      padding-inline: 2px;
+      font-size: 13px;
     }
   }
 </style>
@@ -149,7 +160,7 @@
 <body>
   <main class="main">
     <div>
-      <script src="./header.js" data-title="Digiton"></script>
+      <script src="./header.js" data-title="Numbit"></script>
     </div>
       <section id="game" class="panel">
           <h3 class="section" id="status"></h3>
@@ -319,7 +330,11 @@ const LEVEL_CONFIG = {
         if(cell.color) tile.classList.add(cell.color);
       }
     }
-    // keyboard
+    drawKeyboardFromState();
+    updateStatus();
+  }
+
+  function drawKeyboardFromState(){
     for(const [k, v] of Object.entries(state.keyboard)){
       const keyEl = document.querySelector(`.key[data-key="${k}"]`);
       if(keyEl){
@@ -327,7 +342,6 @@ const LEVEL_CONFIG = {
         keyEl.classList.add(v);
       }
     }
-    updateStatus();
   }
 
   function buildKeyboard(){
@@ -466,9 +480,10 @@ function makeKey(label){
       state.keyboard[k] = bestKeyClass(state.keyboard[k], colors[c]);
     }
     applyReveal(r, colors);
+    drawKeyboardFromState();
 
     if(guess === state.target){
-      state.done = true; state.win = true; updateStatus(`You got it in ${r+1}/${state.rows}!`); showToast('🎉 Correct!');
+      state.done = true; state.win = true; updateStatus(`Brilliant! You got it in ${r+1} ${r === 0 ? 'try' : 'tries'}!`); showToast('🎉 Correct!');
       celebrate  (getQueryParam("level")||"easy");
       window.MindBitsProgress?.markDoneToday(`digiton-${(getQueryParam("level")||"easy").toLowerCase()}`);
       save();

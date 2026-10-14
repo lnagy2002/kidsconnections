@@ -98,6 +98,16 @@ async function callModel({ system, user }) {
   if (typeof data.medium === "string") data.medium = data.medium.toUpperCase();
   if (typeof data.hard === "string") data.hard = data.hard.toUpperCase();
 
+  // Keep only well-formed definitions; the game simply hides the card when one is missing
+  const defs = {};
+  for (const slot of ["easy", "medium", "hard"]) {
+    const d = data.definitions?.[slot];
+    if (d && typeof d.text === "string" && d.text.trim()) {
+      defs[slot] = { pos: typeof d.pos === "string" ? d.pos.trim().toLowerCase() : "", text: d.text.trim() };
+    }
+  }
+  data.definitions = defs;
+
   return data;
 }
 
@@ -111,7 +121,8 @@ async function main() {
 
   const baseSystem = `
 You generate daily words for a kids' Wordle-style game.
-Return ONLY a JSON object with keys: "easy", "medium", "hard".
+Return ONLY a JSON object with keys: "easy", "medium", "hard", "definitions".
+"definitions" maps each of "easy", "medium", "hard" to { "pos": part of speech (e.g. "noun"), "text": definition }.
 
 Rules:
 - EASY: exactly 4 letters
@@ -120,6 +131,7 @@ Rules:
 - ALL CAPS A–Z only (no accents, punctuation, numbers)
 - School-safe, age-appropriate (grades 2+)
 - No proper nouns, brand names, slang, or offensive terms
+- Definitions: one short, simple sentence a 7-year-old understands, without using the word itself
 `;
 
   // These evolve as we retry

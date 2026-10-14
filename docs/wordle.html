@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kids' Wordle — Daily</title>
+    <title>Kids' Wordbit — Daily</title>
     <style>
       @import url('./theme.css');
         .panel {
@@ -112,11 +112,20 @@
         .key.wide {
             grid-column: span 1;
             font-size: 13px;
+            background: var(--ink);
+            border-color: var(--ink);
+            color: var(--bg);
+        }
+
+        .key.wide:hover {
+            background: #c9eaea;
         }
 
         .key.bad {
-            background: #1c253f;
-            color: #6d7aa3
+            background: var(--no);
+            border-color: var(--no);
+            color: #0b1222;
+            opacity: .55
         }
 
         .key.ok {
@@ -129,10 +138,49 @@
             color: #4a3a00
         }
 
-        .key.used {
-            outline: 2px dashed #8aa0ff;
-            outline-offset: 2px;
-            opacity: .9
+        .word-def {
+            max-width: 420px;
+            margin: 4px auto 0;
+            padding: 14px 16px;
+            border-radius: 14px;
+            background: #D7BDE2;
+            color: #1b1f3b;
+            text-align: left;
+        }
+
+        .word-def .def-head {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+
+        .word-def .def-tiles {
+            display: flex;
+            gap: 3px;
+        }
+
+        .word-def .def-tiles span {
+            width: 26px;
+            height: 26px;
+            border-radius: 6px;
+            display: grid;
+            place-items: center;
+            background: var(--ok);
+            color: #083f2b;
+            font-weight: 900;
+            font-size: 15px;
+        }
+
+        .word-def .def-pos {
+            font-style: italic;
+            opacity: .75;
+        }
+
+        .word-def .def-text {
+            margin: 0;
+            font-size: 17px;
+            line-height: 1.35;
         }
 
         .status {
@@ -168,7 +216,8 @@
 
             .key.wide {
               min-width: 50px;
-              font-size: 10px;
+              padding-inline: 2px;
+              font-size: 13px;
             }
         }
 
@@ -189,11 +238,18 @@
   <body>
     <main class="main">
       <div>
-        <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Wordle"></script>
+        <script src="https://lnagy2002.github.io/kidsconnections/header.js" data-title="Wordbit"></script>
       </div>
         <section id="game" class="panel">
             <div id="msg" class="muted" style="margin-left:auto">Ready</div>
             <div id="board" class="board" aria-live="polite"></div>
+            <div id="wordDef" class="word-def" hidden>
+                <div class="def-head">
+                    <div class="def-tiles"></div>
+                    <span class="def-pos"></span>
+                </div>
+                <p class="def-text"></p>
+            </div>
             <div class="keyboard" aria-label="On‑screen keyboard">
                 <div id="kb1" class="kbrow top"></div>
                 <div id="kb2" class="kbrow mid"></div>
@@ -274,8 +330,7 @@
             max: 6,
             grid: [],
             done: false,
-            keyState: new Map(),
-            touched: new Array()
+            keyState: new Map()
         };
 
         function pickDaily(level, d) {
@@ -360,22 +415,33 @@
                     length: 6
                 }, () => Array(secret.length).fill('')),
                 done: false,
-                keyState: new Map(),
-                touched: new Array()
+                keyState: new Map()
             };
             buildBoard(S.len, S.max);
             buildKeyboard();
             msg(``);
+            $('#wordDef').hidden = true;
+        }
+
+        // Word-of-the-day definition, shown once the game ends (win or out of guesses)
+        function showDefinition() {
+            const def = WORDS.definitions?.[S.level];
+            const box = $('#wordDef');
+            if (!def?.text) return;
+            const tiles = box.querySelector('.def-tiles');
+            tiles.innerHTML = '';
+            for (const ch of S.secret) {
+                const t = document.createElement('span');
+                t.textContent = ch;
+                tiles.appendChild(t);
+            }
+            box.querySelector('.def-pos').textContent = def.pos || '';
+            box.querySelector('.def-text').textContent = def.text;
+            box.hidden = false;
         }
 
         function msg(t) {
             msgEl.textContent = t;
-        }
-
-        function markTouched(ch) {
-            if (!/^[A-Z]$/.test(ch)) return;
-            S.touched.push(ch);
-            updateKeycaps();
         }
 
         function place(ch) {
@@ -385,15 +451,12 @@
             const cell = boardEl.children[S.row].children[S.col];
             cell.textContent = ch;
             S.col++;
-            markTouched(ch);
         }
 
         function back() {
             if (S.col > 0) {
                 S.col--;
                 //console.log (S.grid[S.row][S.col]);
-S.touched.pop();
-updateKeycaps()
                 S.grid[S.row][S.col] = '';
                 boardEl.children[S.row].children[S.col].textContent = '';
             }
@@ -409,8 +472,7 @@ updateKeycaps()
                     maybe: 1,
                     ok: 2
                 };
-                if (prio[score] > prio[cur]) S.keyState.set(ch, score);
-                S.touched.push(ch);
+                if (!S.keyState.has(ch) || prio[score] > prio[cur]) S.keyState.set(ch, score);
             }
             updateKeycaps();
         }
@@ -419,13 +481,12 @@ updateKeycaps()
             const all = [...kb1.children, ...kb2.children, ...kb3.children];
             for (const b of all) {
                 const k = b.textContent;
-                b.classList.remove('ok', 'maybe', 'bad', 'used');
+                b.classList.remove('ok', 'maybe', 'bad');
                 if (k === 'ENTER' || k === '⌫' || k === '') continue;
                 const st = S.keyState.get(k) || null;
                 if (st === 'ok') b.classList.add('ok');
                 else if (st === 'maybe') b.classList.add('maybe');
-                else if (st === null && S.touched.includes(k)) b.classList.add('used');
-                else if (st) b.classList.add('bad');
+                else if (st === 'no') b.classList.add('bad');
             }
         }
 
@@ -443,6 +504,7 @@ updateKeycaps()
                 celebrate  (getQueryParam("level")||"easy");
                 window.MindBitsProgress?.markDoneToday(`wordle-${(getQueryParam("level")||"easy").toLowerCase()}`);
                 msg('🎉 You got it!');
+                showDefinition();
                 return;
             }
             S.row++;
@@ -450,7 +512,8 @@ updateKeycaps()
             if (S.row >= S.max) {
                 S.done = true;
                 gtag('event', 'wordle_out_of_guesses', { app: 'wordle' });
-                msg(`Out of guesses! Answer: ${S.secret}`);
+                msg(`Good try! Today's word was ${S.secret}`);
+                showDefinition();
             }
         }
 

@@ -5,7 +5,7 @@
       "color": "#F1948A",
       "id": "connect",
       "title": "Connections",
-      "categories": ["Logic", "Vocabulary"],
+      "categories": ["Logic"],
       "href": "connect.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_28_28-pm.png' alt='Connections' style='width:20px;height:20px;'>",
       "description": "Group related words into sets of four that share a hidden theme."
@@ -15,7 +15,7 @@
       "color": "#C39BD3",
       "id": "wordle",
       "title": "Wordle",
-      "categories": ["Words", "Strategy"],
+      "categories": ["Words"],
       "href": "wordle.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_38_07-pm.png' alt='Wordle' style='width:20px;height:20px;'>",
       "description": "Guess the hidden word in six tries using color clues."
@@ -25,7 +25,7 @@
       "color": "#85C1E9",
       "id": "simon",
       "title": "Simon Game",
-      "categories": ["Memory", "Focus"],
+      "categories": ["Memory"],
       "href": "simon.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_46_40-pm.png' alt='Simon Game' style='width:20px;height:20px;'>",
       "description": "Repeat the sequence of lights and sounds to practice your memory."
@@ -35,7 +35,7 @@
       "color": "#76D7C4",
       "id": "magicsquare",
       "title": "Magic Square",
-      "categories": ["Numbers", "Logic"],
+      "categories": ["Numbers"],
       "href": "magicsquare.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_30_48-pm-1.png' alt='Magic Square' style='width:20px;height:20px;'>",
       "description": "Arrange numbers in a grid so each row, column, and diagonal adds up equally."
@@ -45,7 +45,7 @@
       "color": "#82E0AA",
       "id": "mirror",
       "title": "Mirror Match",
-      "categories": ["Visual", "Memory"],
+      "categories": ["Visual"],
       "href": "mirror.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_52_48-pm.png' alt='Mirror Match' style='width:20px;height:20px;'>",
       "description": "Find the mirrored image by matching shapes and symmetry."
@@ -55,7 +55,7 @@
       "color": "#F7DC6F",
       "id": "jigsaw",
       "title": "Jigsaw",
-      "categories": ["Spatial", "Logic"],
+      "categories": ["Visual"],
       "href": "jigsaw.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_26_42-pm.png' alt='Jigsaw Puzzle' style='width:20px;height:20px;'>",
       "description": "Assemble scattered pieces to complete a full picture."
@@ -65,7 +65,7 @@
       "color": "#E59866",
       "id": "wordsearch",
       "title": "Word Search",
-      "categories": ["Words", "Focus"],
+      "categories": ["Words"],
       "href": "strands.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/10/chatgpt-image-oct-17-2025-07_55_04-pm.png' alt='Word Search' style='width:20px;height:20px;'>",
       "description": "Find hidden words arranged horizontally, vertically, or diagonally in the grid."
@@ -75,7 +75,7 @@
       "color": "#CACFD2",
       "id": "digiton",
       "title": "Digiton",
-      "categories": ["Numbers", "Logic"],
+      "categories": ["Numbers"],
       "href": "digiton.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/12/chatgpt-image-oct-17-2025-07_38_07-pm.png' alt='Digiton' style='width:20px;height:20px;'>",
       "description": "A Wordle-style numbers game where you guess the hidden number pattern."
@@ -85,7 +85,7 @@
       "color": "#ABB2B9",
       "id": "numberseq",
       "title": "Next in Line",
-      "categories": ["Patterns", "Reasoning"],
+      "categories": ["Logic"],
       "href": "numbersequence.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/12/chatgpt-image-oct-17-2025-07_26_42-pm.png' alt='Digiton' style='width:20px;height:20px;'>",
       "description": "Find the missing numbers that complete the sequence or pattern."
@@ -95,7 +95,7 @@
       "color": "#F5B7B1",
       "id": "analogy",
       "title": "Word Analogy",
-      "categories": ["Words", "Thinking"],
+      "categories": ["Words"],
       "href": "analogy.html",
       "emoji": "<img src='https://bittobitscom.wordpress.com/wp-content/uploads/2025/12/untitled-design-5.png' alt='Word Analogy' style='width:20px;height:20px;'>",
       "description": "Match word pairs with the same connection."

@@ -395,6 +395,8 @@ async function toImageBitmapCompat(dataUrl) {
                 rotate: 0,
                 label: "Mirror (horizontal)"
             };
+            // The other three ways to turn the picture. Each looks different from the mirror
+            // (mirror + 180° turn is the same as an upside-down flip, so it is not a separate choice).
             const distractors = [{
                     flipX: false,
                     flipY: false,
@@ -408,29 +410,16 @@ async function toImageBitmapCompat(dataUrl) {
                     label: "Vertical flip"
                 },
                 {
-                    flipX: true,
-                    flipY: false,
-                    rotate: 180,
-                    label: "Mirror + 180°"
-                },
-                {
                     flipX: false,
                     flipY: false,
                     rotate: 180,
                     label: "Rotate 180°"
                 }
             ];
-            const options = [Object.assign({}, correct, {
-                isCorrect: true
-            })];
-            while (options.length < 4) {
-                const d = distractors[Math.floor(Math.random() * distractors.length)];
-                if (!options.some(o => o.label === d.label && o.rotate === d.rotate && o.flipX === d.flipX && o.flipY === d.flipY)) {
-                    options.push(Object.assign({}, d, {
-                        isCorrect: false
-                    }));
-                }
-            }
+            const options = [
+                Object.assign({}, correct, { isCorrect: true }),
+                ...distractors.map(d => Object.assign({}, d, { isCorrect: false }))
+            ];
             for (let i = options.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [options[i], options[j]] = [options[j], options[i]];

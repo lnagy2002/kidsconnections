@@ -143,6 +143,7 @@ color: var(--muted);
   max-width: 900px; margin: 18px auto 0; padding: 0 16px; box-sizing: border-box;
   color: var(--muted);
 }
+.bottom-row[hidden] { display: none; }
 .bottom-row .score-pill { justify-self: start; }
 .bottom-row #qCounter { justify-self: end; }
 
@@ -247,7 +248,7 @@ let currentLevel = getQueryParam ("level") || "easy";
 let questions = [];
 let index = 0;
 let score = 0;
-const QUESTIONS_PER_DAY = 10;
+const QUESTIONS_PER_DAY = 1; // one daily challenge, like the other games
 
 // ---------- DOM ----------
 const qCounter = document.getElementById("qCounter");
@@ -306,6 +307,8 @@ function setLevel(level){
 
   index = 0;
   score = 0;
+  // With a single daily question there's nothing to count or move on to
+  document.querySelector(".bottom-row").hidden = questions.length <= 1;
   renderQuestion();
 }
 
@@ -405,6 +408,7 @@ function handleChoice(i, el){
   scorePill.textContent = `Score: ${score}`;
   revealAnswer(q);
   nextBtn.disabled = false;
+  if (index >= questions.length - 1) { nextBtn.disabled = true; finishGame(); }
 
   // progressFill.style.width = `${((index+1)/QUESTIONS_PER_DAY)*100}%`;
 }
@@ -431,9 +435,17 @@ document.getElementById("helpBtn").addEventListener("click", (e) => {
 // End of today's questions: celebrate and mark the game done
 function finishGame(){
   const msgEl = document.getElementById("message");
-  msgEl.textContent = `🎉 All done! You got ${score} of ${questions.length} right.`;
-  msgEl.className = "game-message good";
-  celebrate(currentLevel);
+  if (questions.length === 1) {
+    const right = score === 1;
+    const [c, d] = splitPair(questions[0].choices[questions[0].answer]);
+    msgEl.textContent = right ? "🎉 You got it! Come back tomorrow for a new one." : `Good try! The answer was ${c} → ${d}.`;
+    msgEl.className = "game-message" + (right ? " good" : "");
+    if (right) celebrate(currentLevel);
+  } else {
+    msgEl.textContent = `🎉 All done! You got ${score} of ${questions.length} right.`;
+    msgEl.className = "game-message good";
+    celebrate(currentLevel);
+  }
   window.MindBitsProgress?.markGameDone("analogy");
 }
 

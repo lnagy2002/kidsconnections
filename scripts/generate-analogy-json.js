@@ -14,16 +14,92 @@ const OUT_DIR = path.join("docs", "data");
 const HISTORY_FILE = path.join(OUT_DIR, "analogy-history.json");
 const STATIC_FILE = path.join(OUT_DIR, "daily-analogies.json"); // the old fixed set; never reuse it either
 const LEVELS = ["easy", "medium", "hard"];
-const COUNT = 10;          // questions per level per day (the game shows 10)
-const MIN_QUESTIONS = 6;   // fewer than this fails the run, so the game falls back to yesterday's file
+const COUNT = 1;           // one daily question per level (the game shows 1)
+const MIN_QUESTIONS = 1;   // fewer than this fails the run, so the game falls back to yesterday's file
 const MAX_ATTEMPTS = 5;
 const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
 
-const LEVEL_GUIDE = {
-  easy: "ages 6–8: everyday things, animals and their babies, opposites, colors, simple 'what it does' pairs",
-  medium: "ages 8–10: part/whole, tool/use, worker/workplace, category/member, measurement/what it measures",
-  hard: "ages 10–12: cause/effect, degree (warm : hot), shapes and numbers, nature and science facts, synonyms"
+const AGES = { easy: "ages 6–8", medium: "ages 8–10", hard: "ages 10–12" };
+
+// Kinds of relationships, each with an example. Every day uses a different mix of these per level.
+const RELATIONSHIPS = {
+  easy: [
+    "animal : its baby (cat : kitten)",
+    "opposites (hot : cold)",
+    "animal : the sound it makes (dog : bark)",
+    "animal : its home (bird : nest)",
+    "thing : its color (banana : yellow)",
+    "thing : what it does (scissors : cut)",
+    "body part : what it does (eyes : see)",
+    "food : where it grows (apple : tree)",
+    "small : big of the same kind (pebble : boulder)",
+    "weather : what you wear (rain : raincoat)",
+    "thing : where it is kept (car : garage)",
+    "shape : something with that shape (circle : wheel)",
+    "day : night things (sun : moon)",
+  ],
+  medium: [
+    "part : whole (wheel : car)",
+    "tool : what it is used for (broom : sweep)",
+    "tool : who uses it (hammer : carpenter)",
+    "worker : where they work (chef : kitchen)",
+    "member : group it belongs to (apple : fruit)",
+    "measuring tool : what it measures (thermometer : temperature)",
+    "material : what is made from it (wool : sweater)",
+    "young : grown-up form (tadpole : frog)",
+    "same meaning (big : large)",
+    "container : what goes in it (wallet : money)",
+    "player : team or group (singer : choir)",
+    "season : something that happens then (autumn : leaves fall)",
+    "instrument : how you play it (drum : hit)",
+    "place : what you do there (library : read)",
+  ],
+  hard: [
+    "cause : effect (rain : flood)",
+    "degree, a little : a lot (warm : hot)",
+    "same meaning with harder words (rapid : fast)",
+    "opposites with harder words (ancient : modern)",
+    "shape : number of sides (hexagon : 6 sides)",
+    "number : its double (5 : 10)",
+    "material : change it goes through (ice : melt)",
+    "animal : name of its group (wolf : pack)",
+    "problem : what fixes it (thirst : water)",
+    "habitat : animal that lives there (desert : camel)",
+    "word : opposite made with a prefix (happy : unhappy)",
+    "expert : the tool they use (surgeon : scalpel)",
+    "earlier : later in a sequence (dawn : dusk)",
+    "planet or star : what goes around it (earth : moon)",
+  ],
 };
+
+// Words in each day's questions lean toward a topic, so the vocabulary changes too
+const TOPICS = [
+  "animals", "food", "the ocean", "space", "weather", "the farm", "sports", "music", "school",
+  "the garden", "toys and games", "the kitchen", "transportation", "the forest", "insects",
+  "the beach", "jobs", "clothes", "birds", "the city", "camping", "the body", "holidays",
+  "art", "the house", "pets", "the jungle", "winter", "summer", "tools and machines"
+];
+
+const RELATIONSHIPS_PER_DAY = 3;
+
+// Same pick for the whole day, different from day to day
+function dailyMix(date) {
+  let h = 2166136261;
+  for (const ch of date) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+  const rand = () => { h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0; h ^= h >>> 13; return (h >>> 0) / 4294967296; };
+  const pick = (arr, n) => {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    return a.slice(0, n);
+  };
+  return {
+    topic: pick(TOPICS, 1)[0],
+    relationships: Object.fromEntries(LEVELS.map((l) => [l, pick(RELATIONSHIPS[l], RELATIONSHIPS_PER_DAY)])),
+  };
+}
+
+// Only the most recent past analogies are sent to the model (all of them are still checked in code)
+const AVOID_IN_PROMPT = 300;
 
 // UTC date, so the run right after midnight UTC writes today's file (not yesterday's)
 function todayStr() {
@@ -89,7 +165,7 @@ function cleanItem(raw) {
 }
 
 // ---------- Model ----------
-async function askModel(client, { date, need, avoid }) {
+async function askModel(client, { date, need, avoid, mix }) {
   const system = [
     "You write word analogy questions for a kids' daily puzzle game.",
     "Return STRICT JSON ONLY with keys \"easy\", \"medium\", \"hard\"; each is an array of objects { \"q\", \"choices\", \"answer\" }.",
@@ -101,14 +177,13 @@ async function askModel(client, { date, need, avoid }) {
     "- lowercase words only (digits allowed, e.g. \"hexagon : 6 sides\"); no punctuation besides \" : \".",
     "- The 3 wrong choices must be clearly wrong, but still use sensible real words.",
     "Content:",
-    `- EASY: ${LEVEL_GUIDE.easy}`,
-    `- MEDIUM: ${LEVEL_GUIDE.medium}`,
-    `- HARD: ${LEVEL_GUIDE.hard}`,
-    "- School-safe, kind, and correct. Mix many different relationships in each level.",
+    ...LEVELS.map((l) => `- ${l.toUpperCase()} (${AGES[l]}): spread the questions across these relationships: ${mix.relationships[l].join("; ")}`),
+    `- Where it fits naturally, use words about today's topic: ${mix.topic}.`,
+    "- School-safe, kind, and correct.",
     "- Never repeat any analogy listed in AVOID (format: \"question correct-pair\")."
   ].join("\n");
 
-  const user = JSON.stringify({ date, how_many: need, AVOID: avoid });
+  const user = JSON.stringify({ date, topic: mix.topic, how_many: need, AVOID: avoid.slice(-AVOID_IN_PROMPT) });
 
   const resp = await client.chat.completions.create({
     model: MODEL,
@@ -140,6 +215,9 @@ async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   const { history, used } = loadUsed();
+  const mix = dailyMix(date);
+  console.log(`Topic: ${mix.topic}`);
+  for (const l of LEVELS) console.log(`  ${l}: ${mix.relationships[l].map((r) => r.split(" (")[0]).join(" | ")}`);
   const accepted = { easy: [], medium: [], hard: [] };
   const reasons = {};
   let example = null;
@@ -150,8 +228,8 @@ async function main() {
     if (!Object.keys(need).length) break;
 
     // Ask for a few extra, since some answers get filtered out
-    const ask = Object.fromEntries(Object.entries(need).map(([l, n]) => [l, n + 3]));
-    const reply = await askModel(client, { date, need: ask, avoid: [...used] });
+    const ask = Object.fromEntries(Object.entries(need).map(([l, n]) => [l, n + 2]));
+    const reply = await askModel(client, { date, need: ask, avoid: [...used], mix });
 
     const levels = reply.levels && typeof reply.levels === "object" ? reply.levels : reply;
     for (const l of Object.keys(need)) {

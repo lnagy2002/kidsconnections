@@ -121,7 +121,7 @@
         <div id="simonMsg" class="game-message" role="status"></div>
         <div class="section">
           <button id="startBtn" class="btn primary">Start</button>
-          <button id="muteBtn" class="btn" aria-pressed="false">Sound On</button>
+          <button id="muteBtn" class="btn" aria-pressed="true">🔊 Sound: On</button>
         </div>
   </main>
   <div>
@@ -155,7 +155,14 @@
 
   const FREQS = [329.63, 261.63, 220.00, 164.81]; // green, red, yellow, blue
   let audioCtx = null, muted = false;
-  function ensureAudio(){ if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
+  // Create/wake the audio on a tap. On iPhone, "playback" lets the tones play even with the silent switch on.
+  function ensureAudio(){
+    try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}
+    if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+    if(audioCtx.state === 'suspended' && audioCtx.resume) audioCtx.resume();
+  }
+  // Any tap on the page unlocks sound (browsers only allow audio after the player touches something)
+  ['pointerdown','keydown'].forEach(t => window.addEventListener(t, ensureAudio, { passive: true }));
   function playTone(idx, duration){ if(muted) return; ensureAudio(); const o = audioCtx.createOscillator(); const g = audioCtx.createGain();
     o.type = 'sine'; o.frequency.value = FREQS[idx]; o.connect(g); g.connect(audioCtx.destination);
     const now = audioCtx.currentTime;
@@ -293,7 +300,10 @@
 
   startBtn.addEventListener('click', startGame);
   muteBtn.addEventListener('click', ()=>{
-    muted = !muted; muteBtn.setAttribute('aria-pressed', String(muted)); muteBtn.textContent = muted? 'Sound Off' : 'Sound On';
+    muted = !muted;
+    muteBtn.setAttribute('aria-pressed', String(!muted));
+    muteBtn.textContent = muted ? '🔇 Sound: Off' : '🔊 Sound: On';
+    if (!muted) { ensureAudio(); playTone(0, 150); } // a short beep so you can hear it's back on
   });
   // difficultySel.addEventListener('change', ()=>{
   //   setLives(SPEEDS[difficultySel.value].lives);

@@ -78,7 +78,8 @@
     .piece.selected { border: 3px solid #7fd6c2; box-shadow: 0 0 14px rgba(127,214,194,.6); }
     .piece.locked { cursor: default; border-color: rgba(88,214,141,0.8); }
     .piece.wrong { animation: shake .45s ease-in-out; border-color: var(--bad); }
-    .placeholder { visibility: hidden; }
+    .piece.lifted { opacity: .25; }
+    .piece { -webkit-touch-callout: none; }
 
 
     .actions { display: flex; gap: 10px; flex-wrap: wrap; }
@@ -275,7 +276,7 @@
   }
 
   function cellPiece(cell) {
-    return cell.querySelector('.piece:not(.placeholder)');
+    return cell.querySelector('.piece');
   }
 
   function sendToTray(piece) {
@@ -349,28 +350,24 @@
     try { piece.setPointerCapture(e.pointerId); } catch (err) { /* window listeners still track the pointer */ }
   }
 
+  // A floating copy follows the finger; the real piece stays put until it's dropped.
+  // (On iPhone/iPad, moving the touched element around the page cancels the touch.)
   function liftPiece() {
     const { piece } = drag;
     const rect = piece.getBoundingClientRect();
-    drag.origin = piece.parentElement;
     drag.originX = rect.left;
     drag.originY = rect.top;
-    // keep the gap in the tray while the piece is lifted
-    drag.placeholder = piece.cloneNode(false);
-    drag.placeholder.className = 'piece placeholder';
-    piece.parentElement.insertBefore(drag.placeholder, piece);
-    document.body.appendChild(piece);
-    Object.assign(piece.style, {
+    const ghost = piece.cloneNode(false);
+    ghost.classList.remove('selected', 'wrong');
+    ghost.classList.add('dragging');
+    Object.assign(ghost.style, {
       position: 'fixed', left: rect.left + 'px', top: rect.top + 'px',
-      width: rect.width + 'px', height: rect.height + 'px', zIndex: 1000
+      width: rect.width + 'px', height: rect.height + 'px', zIndex: 1000, pointerEvents: 'none', margin: 0
     });
-    piece.classList.add('dragging');
+    document.body.appendChild(ghost);
+    drag.ghost = ghost;
+    piece.classList.add('lifted');
     selectPiece(null);
-  }
-
-  function resetPieceStyle(piece) {
-    piece.classList.remove('dragging');
-    Object.assign(piece.style, { position: '', left: '', top: '', width: '', height: '', zIndex: '' });
   }
 
   function cellUnder(x, y) {
@@ -394,15 +391,15 @@
       drag.moved = true;
       liftPiece();
     }
-    drag.piece.style.left = (drag.originX + dx) + 'px';
-    drag.piece.style.top = (drag.originY + dy) + 'px';
-    const r = drag.piece.getBoundingClientRect();
+    drag.ghost.style.left = (drag.originX + dx) + 'px';
+    drag.ghost.style.top = (drag.originY + dy) + 'px';
+    const r = drag.ghost.getBoundingClientRect();
     highlightTarget(cellUnder(r.left + r.width / 2, r.top + r.height / 2));
   });
 
   function endDrag(e, cancelled) {
     if (!drag || e.pointerId !== drag.id) return;
-    const { piece, moved, placeholder, origin } = drag;
+    const { piece, moved, ghost } = drag;
     drag = null;
     try { piece.releasePointerCapture(e.pointerId); } catch (err) { /* already released */ }
 
@@ -411,17 +408,13 @@
       return;
     }
 
-    const r = piece.getBoundingClientRect();
+    const r = ghost.getBoundingClientRect();
     const cell = cancelled ? null : cellUnder(r.left + r.width / 2, r.top + r.height / 2);
     highlightTarget(null);
-    resetPieceStyle(piece);
-
-    if (cell && placeInCell(piece, cell)) {
-      placeholder.remove();
-    } else {
-      placeholder.replaceWith(piece); // back to where it came from
-      if (origin && origin.classList.contains('cell')) origin.classList.remove('correct');
-    }
+    ghost.remove();
+    piece.classList.remove('lifted');
+    // Dropped on a square: move the real piece there; anywhere else it simply stays where it was
+    if (cell) placeInCell(piece, cell);
     // the click that follows a drag should not count as a tap on a square
     dragJustEnded = true;
     setTimeout(() => { dragJustEnded = false; }, 0);

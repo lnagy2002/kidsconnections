@@ -57,18 +57,35 @@ function saveHistory(history, accepted) {
 }
 
 // ---------- Validation ----------
-const PAIR = /^[a-z0-9' -]{2,30} : [a-z0-9' -]{1,30}$/;
+// Accepts the shapes models tend to return: "a : b", "a:b", "a -> b", "a → b", "a is to b"
+function cleanPair(text) {
+  const t = norm(text).replace(/\s*::\s*$/, "").replace(/\s*(?:->|→|=>|\bis to\b)\s*/g, " : ");
+  const parts = t.split(":").map((x) => x.trim()).filter(Boolean);
+  if (parts.length !== 2) return null;
+  const ok = (w) => /^[a-z0-9' -]{1,30}$/.test(w);
+  return ok(parts[0]) && ok(parts[1]) ? `${parts[0]} : ${parts[1]}` : null;
+}
 
+// Returns { item } or { reason } so failures can be counted and logged
 function cleanItem(raw) {
-  if (!raw || typeof raw !== "object") return null;
-  const q = norm(raw.q).replace(/\s*::\s*$/, "");
-  const choices = Array.isArray(raw.choices) ? raw.choices.map(norm) : [];
-  const answer = Number(raw.answer);
-  if (!PAIR.test(q)) return null;
-  if (choices.length !== 4 || !choices.every((c) => PAIR.test(c))) return null;
-  if (new Set(choices).size !== 4 || choices.includes(q)) return null;
-  if (!Number.isInteger(answer) || answer < 0 || answer > 3) return null;
-  return { q: `${q} ::`, choices, answer };
+  if (!raw || typeof raw !== "object") return { reason: "not an object" };
+  const q = cleanPair(raw.q ?? raw.question ?? raw.prompt ?? raw.pair);
+  if (!q) return { reason: "bad question pair" };
+  const rawChoices = raw.choices ?? raw.options ?? raw.answers;
+  if (!Array.isArray(rawChoices) || rawChoices.length !== 4) return { reason: "not 4 choices" };
+  const choices = rawChoices.map((c) => cleanPair(typeof c === "object" && c ? (c.text ?? c.pair ?? "") : c));
+  if (choices.some((c) => !c)) return { reason: "bad choice pair" };
+  if (new Set(choices).size !== 4 || choices.includes(q)) return { reason: "repeated choice" };
+
+  // The answer may come as an index (0-3 or "2"), a letter ("C"), or the text of the right choice
+  let a = raw.answer ?? raw.correct ?? raw.answer_index ?? raw.correct_index ?? raw.correct_answer;
+  let answer = -1;
+  if (typeof a === "number" || /^\d$/.test(String(a ?? "").trim())) answer = Number(a);
+  else if (/^[a-d]$/i.test(String(a ?? "").trim())) answer = String(a).trim().toLowerCase().charCodeAt(0) - 97;
+  else if (typeof a === "string") answer = choices.indexOf(cleanPair(a));
+  if (!Number.isInteger(answer) || answer < 0 || answer > 3) return { reason: "bad answer" };
+
+  return { item: { q: `${q} ::`, choices, answer } };
 }
 
 // ---------- Model ----------
@@ -76,6 +93,7 @@ async function askModel(client, { date, need, avoid }) {
   const system = [
     "You write word analogy questions for a kids' daily puzzle game.",
     "Return STRICT JSON ONLY with keys \"easy\", \"medium\", \"hard\"; each is an array of objects { \"q\", \"choices\", \"answer\" }.",
+    "Example of ONE item: {\"q\": \"cat : kitten ::\", \"choices\": [\"cow : milk\", \"dog : puppy\", \"bird : nest\", \"fish : water\"], \"answer\": 1}",
     "Format:",
     "- q is one pair followed by \" ::\", e.g. \"cat : kitten ::\".",
     "- choices is exactly 4 pairs written \"word : word\"; exactly one has the SAME relationship as q.",
@@ -123,7 +141,8 @@ async function main() {
 
   const { history, used } = loadUsed();
   const accepted = { easy: [], medium: [], hard: [] };
-  let rejected = 0;
+  const reasons = {};
+  let example = null;
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     const need = {};
@@ -134,16 +153,26 @@ async function main() {
     const ask = Object.fromEntries(Object.entries(need).map(([l, n]) => [l, n + 3]));
     const reply = await askModel(client, { date, need: ask, avoid: [...used] });
 
+    const levels = reply.levels && typeof reply.levels === "object" ? reply.levels : reply;
     for (const l of Object.keys(need)) {
-      for (const raw of Array.isArray(reply[l]) ? reply[l] : []) {
+      const list = Array.isArray(levels[l]) ? levels[l] : Array.isArray(levels[l]?.questions) ? levels[l].questions : [];
+      if (!list.length) reasons[`no ${l} list`] = (reasons[`no ${l} list`] || 0) + 1;
+      for (const raw of list) {
         if (accepted[l].length >= COUNT) break;
-        const item = cleanItem(raw);
-        if (!item || used.has(keyOf(item))) { rejected++; continue; }
+        const { item, reason } = cleanItem(raw);
+        const why = reason || (used.has(keyOf(item)) ? "already used" : null);
+        if (why) {
+          reasons[why] = (reasons[why] || 0) + 1;
+          if (!example) example = { why, raw };
+          continue;
+        }
         accepted[l].push(item);
         used.add(keyOf(item));
       }
     }
-    console.log(`Attempt ${attempt}: ` + LEVELS.map((l) => `${l} ${accepted[l].length}/${COUNT}`).join(", ") + ` (rejected so far: ${rejected})`);
+    console.log(`Attempt ${attempt}: ` + LEVELS.map((l) => `${l} ${accepted[l].length}/${COUNT}`).join(", ") +
+      (Object.keys(reasons).length ? ` | rejected so far: ${JSON.stringify(reasons)}` : ""));
+    if (example && attempt === 1) console.log("  example of a rejected item:", JSON.stringify(example).slice(0, 300));
   }
 
   const short = LEVELS.filter((l) => accepted[l].length < MIN_QUESTIONS);

@@ -105,7 +105,7 @@ h1{
   justify-items: center; text-align: center;
 }
 
-.game-title {
+.card-title {
   font-weight: 900; font-size: 1.25rem; line-height: 1.2;
 }
 
@@ -232,7 +232,7 @@ function buildCard(game){
   bottom.className = 'card-bottom';
 
   const title = document.createElement('div');
-  title.className = 'game-title';
+  title.className = 'card-title';
   title.textContent = game.title;
 
   card.addEventListener('click', ()=>{

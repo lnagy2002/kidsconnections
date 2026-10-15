@@ -160,7 +160,7 @@
         <div class="section">
             <button id="btnSubmit" class="btn primary">Submit</button>
             <button id="btnShuffle" class="btn">Shuffle</button>
-            <!-- <button id="btnHint" class="btn">Hint</button> -->
+            <button id="btnHint" class="btn">Hint</button>
             <button id="btnReset" class="btn">Start Over</button>
         </div>
 
@@ -203,6 +203,7 @@
             state.level = level;
             state.solved = [];
             state.selected = new Set();
+            state.hinted = [];
             const groups = PUZZLE_BANK[level].groups;
             showMessage('');
 
@@ -353,7 +354,18 @@
             render();
         };
         document.getElementById("btnReset").onclick = () => init(state.level);
-        // document.getElementById("btnHint").onclick = () => showMessage("Look for 4 things that belong together!");
+        // Hint: reveal the name of one group that hasn't been found yet (a new one each time)
+        document.getElementById("btnHint").onclick = () => {
+            gtag('event', 'connections_hint_clicked', { app: 'connections' });
+            const groups = PUZZLE_BANK[state.level]?.groups || [];
+            const found = new Set(state.solved.map(s => s.groupName));
+            const open = groups.filter(g => !found.has(g.name));
+            if (!open.length) return;
+            const next = open.find(g => !state.hinted.includes(g.name));
+            if (next) state.hinted.push(next.name);
+            const shown = open.map(g => g.name).filter(n => state.hinted.includes(n));
+            showMessage(shown.length === 1 ? `Hint: one group is “${shown[0]}”` : `Hints: look for “${shown.join("”, “")}”`);
+        };
         // document.getElementById("level").onchange = (e) => init(e.target.value);
 
         // Shrink text inside an element until it fits its box (both width & height)

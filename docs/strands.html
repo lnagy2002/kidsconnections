@@ -66,8 +66,14 @@ ul.words li.found::before{
 
 @media (max-width:700px){
   .left,.right{flex:0 0 100%;}
-  .cell{width:40px; height:40px; font-weight:500; font-size:1rem;}
-  .board{gap:1px;}
+  /* Squares shrink to fit the screen (iPhone SE is 375px wide): 16px side margins, 2px gaps */
+  .left{padding:12px 16px;}
+  .board{gap:2px;}
+  .cell{
+    --cell: min(44px, calc((100vw - 32px - (var(--n, 8) - 1) * 2px) / var(--n, 8)));
+    width:var(--cell); height:var(--cell);
+    font-weight:600; font-size:calc(var(--cell) * .5); border-radius:calc(var(--cell) * .22);
+  }
   ul.words{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 </style>
@@ -215,6 +221,7 @@ ul.words li.found::before{
 
   function renderBoard(){
     elBoard.style.gridTemplateColumns = `repeat(${size}, max-content)`;
+    elBoard.style.setProperty('--n', size); // lets the phone layout size the squares to fit
     elBoard.innerHTML = '';
     for(let y=0;y<size;y++){
       for(let x=0;x<size;x++){

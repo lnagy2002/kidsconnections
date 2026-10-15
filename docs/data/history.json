@@ -229,7 +229,15 @@
     "PEAR",
     "WISP",
     "SHARE",
-    "FOLD"
+    "FOLD",
+    "PIZZA",
+    "APPLE",
+    "BREAD",
+    "CEREAL",
+    "CHEESE",
+    "FRUIT",
+    "BAGEL",
+    "GRAPE"
   ],
   "medium": [
     "MYSTIC",
@@ -427,7 +435,15 @@
     "GRANITE",
     "SHRUNK",
     "FLAREY",
-    "GRANDE"
+    "GRANDE",
+    "SALAD",
+    "SANDWICH",
+    "MUSHROOM",
+    "AVOCADO",
+    "SPAGHETTI",
+    "PUMPKIN",
+    "CARROTS",
+    "CHICKEN"
   ],
   "hard": [
     "EXEMPLARY",
@@ -555,6 +571,15 @@
     "DREAMY",
     "CIRCLES",
     "TRICKLE",
-    "MAGNETS"
+    "MAGNETS",
+    "HAMBURGER",
+    "MAYONNAISE",
+    "CHESTNUTS",
+    "SQUASHES",
+    "CABBAGE",
+    "BROCCOLI",
+    "BISCUITS",
+    "CROISSANT",
+    "NUTRITION"
   ]
 }

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10152026-E",
+    "generatedAt": "2026-10-15T04:59:03.130Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Big Animals",
+        "items": [
+          "elephant",
+          "giraffe",
+          "bear",
+          "zebra"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tools for Writing",
+        "items": [
+          "pencil",
+          "pen",
+          "crayon",
+          "marker"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Foods",
+        "items": [
+          "pancake",
+          "toast",
+          "eggs",
+          "cereal"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Set: 10152026-E. Each group of four shares a clear, kid-friendly connection."
+  },
+  "medium": {
+    "id": "10152026-M",
+    "generatedAt": "2026-10-15T04:59:03.130Z",
+    "groups": [
+      {
+        "name": "Ball-Word Pairs",
+        "items": [
+          "fire",
+          "meat",
+          "snow",
+          "basket"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals that are Verbs",
+        "items": [
+          "duck",
+          "bat",
+          "crane",
+          "seal"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that take un- to Oppose",
+        "items": [
+          "happy",
+          "kind",
+          "usual",
+          "true"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs with -er Qualities",
+        "items": [
+          "watch",
+          "box",
+          "plant",
+          "line"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations included; ensure only one group fits each item."
+  },
+  "hard": {
+    "id": "10152026-H",
+    "generatedAt": "2026-10-15T04:59:03.130Z",
+    "groups": [
+      {
+        "name": "Planet Quartet",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-a-Letter to Make a Word",
+        "items": [
+          "stone",
+          "plane",
+          "glove",
+          "scone"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add -ful to Make New Words",
+        "items": [
+          "care",
+          "joy",
+          "hope",
+          "color"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract links and wordplay; items are purposely chosen to tempt misclassification."
+  }
+}

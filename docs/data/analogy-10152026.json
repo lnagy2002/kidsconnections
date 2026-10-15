@@ -1,0 +1,41 @@
+{
+  "date": "10152026",
+  "levels": {
+    "easy": [
+      {
+        "q": "apple : tree ::",
+        "choices": [
+          "carrot : ground",
+          "cake : oven",
+          "banana : fridge",
+          "chicken : coop"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "apple : fruit ::",
+        "choices": [
+          "dog : pet",
+          "pen : write",
+          "screwdriver : tool",
+          "car : vehicle"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "happy : unhappy ::",
+        "choices": [
+          "kind : unkind",
+          "tall : wide",
+          "fast : slow",
+          "big : small"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "easy": [
+    "apple : tree :: carrot : ground"
+  ],
+  "medium": [
+    "apple : fruit :: screwdriver : tool"
+  ],
+  "hard": [
+    "happy : unhappy :: kind : unkind"
+  ]
+}

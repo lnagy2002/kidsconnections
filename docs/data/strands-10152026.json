@@ -1,0 +1,40 @@
+{
+  "theme": "food",
+  "easy": {
+    "words": [
+      "PIZZA",
+      "APPLE",
+      "BREAD",
+      "CEREAL",
+      "CHEESE",
+      "FRUIT",
+      "BAGEL",
+      "GRAPE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SALAD",
+      "SANDWICH",
+      "MUSHROOM",
+      "AVOCADO",
+      "SPAGHETTI",
+      "PUMPKIN",
+      "CARROTS",
+      "CHICKEN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HAMBURGER",
+      "MAYONNAISE",
+      "CHESTNUTS",
+      "SQUASHES",
+      "CABBAGE",
+      "BROCCOLI",
+      "BISCUITS",
+      "CROISSANT",
+      "NUTRITION"
+    ]
+  }
+}

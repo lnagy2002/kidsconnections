@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10162026-E",
+    "generatedAt": "2026-10-16T04:48:37.778Z",
+    "groups": [
+      {
+        "name": "Round & Common Objects",
+        "items": [
+          "ball",
+          "coin",
+          "button",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wearables",
+        "items": [
+          "hat",
+          "glove",
+          "scarf",
+          "shoe"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Travelers",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Local Places",
+        "items": [
+          "school",
+          "store",
+          "library",
+          "park"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level connections puzzle set for Oct 16, 2026."
+  },
+  "medium": {
+    "id": "10162026-M",
+    "generatedAt": "2026-10-16T04:48:37.778Z",
+    "groups": [
+      {
+        "name": "Word-Meaning Pairs",
+        "items": [
+          "play",
+          "watch",
+          "spring",
+          "slide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Park Objects",
+        "items": [
+          "bench",
+          "fence",
+          "swing",
+          "path"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Phrases (after Fire)",
+        "items": [
+          "alarm",
+          "engine",
+          "fly",
+          "proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level wordplay with cross-over temptations."
+  },
+  "hard": {
+    "id": "10162026-H",
+    "generatedAt": "2026-10-16T04:48:37.778Z",
+    "groups": [
+      {
+        "name": "Polysemous Picks",
+        "items": [
+          "bank",
+          "bat",
+          "jam",
+          "cell"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "hail",
+          "mist",
+          "snow",
+          "storm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sun Prefix Pairs",
+        "items": [
+          "flower",
+          "burn",
+          "rise",
+          "set"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Book Beginnings",
+        "items": [
+          "story",
+          "note",
+          "guide",
+          "text"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard-level abstract connections involving multiple meanings and prefixes."
+  }
+}

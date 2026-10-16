@@ -1,11 +1,14 @@
 {
   "easy": [
-    "apple : tree :: carrot : ground"
+    "apple : tree :: carrot : ground",
+    "cat : kitten :: dog : pup"
   ],
   "medium": [
-    "apple : fruit :: screwdriver : tool"
+    "apple : fruit :: screwdriver : tool",
+    "tadpole : frog :: caterpillar : butterfly"
   ],
   "hard": [
-    "happy : unhappy :: kind : unkind"
+    "happy : unhappy :: kind : unkind",
+    "dawn : dusk :: begin : end"
   ]
 }

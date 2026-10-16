@@ -1,0 +1,41 @@
+{
+  "date": "10162026",
+  "levels": {
+    "easy": [
+      {
+        "q": "cat : kitten ::",
+        "choices": [
+          "dog : pup",
+          "fish : ocean",
+          "cow : grass",
+          "apple : tree"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "tadpole : frog ::",
+        "choices": [
+          "caterpillar : butterfly",
+          "pancake : breakfast",
+          "tomato : sauce",
+          "carrot : garden"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "dawn : dusk ::",
+        "choices": [
+          "begin : end",
+          "kitchen : dining",
+          "oven : heat",
+          "table : chair"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

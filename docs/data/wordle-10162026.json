@@ -1,0 +1,19 @@
+{
+  "easy": "MOON",
+  "medium": "BEACH",
+  "hard": "SPRING",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "The bright satellite moves across the night sky."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "Sandy shore where waves meet land."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A season of warmth when flowers start to grow."
+    }
+  }
+}

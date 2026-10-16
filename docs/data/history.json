@@ -237,7 +237,13 @@
     "CHEESE",
     "FRUIT",
     "BAGEL",
-    "GRAPE"
+    "GRAPE",
+    "SEA",
+    "WORM",
+    "POOL",
+    "SHOR",
+    "CORAL",
+    "BOAT"
   ],
   "medium": [
     "MYSTIC",
@@ -443,7 +449,14 @@
     "SPAGHETTI",
     "PUMPKIN",
     "CARROTS",
-    "CHICKEN"
+    "CHICKEN",
+    "OCEAN",
+    "ISLAND",
+    "SEASHELL",
+    "PLANKTON",
+    "WHALE",
+    "JELLYFISH",
+    "TURTLE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -580,6 +593,15 @@
     "BROCCOLI",
     "BISCUITS",
     "CROISSANT",
-    "NUTRITION"
+    "NUTRITION",
+    "CRUSTACEAN",
+    "SEAURCHIN",
+    "SUBMARINE",
+    "TORTOISE",
+    "SEAFOAM",
+    "FLIPPER",
+    "BAYWATCH",
+    "HORIZON",
+    "SALTWATER"
   ]
 }

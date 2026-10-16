@@ -1,0 +1,40 @@
+{
+  "theme": "the ocean",
+  "easy": {
+    "words": [
+      "FISH",
+      "SEA",
+      "SAND",
+      "WORM",
+      "POOL",
+      "SHOR",
+      "CORAL",
+      "BOAT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "OCEAN",
+      "ISLAND",
+      "DOLPHIN",
+      "SEASHELL",
+      "PLANKTON",
+      "WHALE",
+      "JELLYFISH",
+      "TURTLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CRUSTACEAN",
+      "SEAURCHIN",
+      "SUBMARINE",
+      "TORTOISE",
+      "SEAFOAM",
+      "FLIPPER",
+      "BAYWATCH",
+      "HORIZON",
+      "SALTWATER"
+    ]
+  }
+}

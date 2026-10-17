@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10172026-E",
+    "generatedAt": "2026-10-17T04:48:44.186Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "cherry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Flyers",
+        "items": [
+          "bird",
+          "butterfly",
+          "bat",
+          "bee"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Common Animals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "frog"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 10172026 easy puzzle with four concrete, visual themes. Each group contains four familiar items."
+  },
+  "medium": {
+    "id": "10172026-M",
+    "generatedAt": "2026-10-17T04:48:44.186Z",
+    "groups": [
+      {
+        "name": "Two-Word Foods",
+        "items": [
+          "ice cream",
+          "peanut butter",
+          "banana bread",
+          "orange juice"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Two-Word Animals",
+        "items": [
+          "polar bear",
+          "red panda",
+          "koala bear",
+          "golden eagle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Household Items",
+        "items": [
+          "paper towel",
+          "alarm clock",
+          "pencil sharpener",
+          "medicine cabinet"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Action Phrases",
+        "items": [
+          "jump rope",
+          "sit down",
+          "run fast",
+          "clap hands"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses simple wordplay with two-word phrases and familiar items. Some phrases could tempt to fit other groups, but each item belongs to its best-fit group."
+  },
+  "hard": {
+    "id": "10172026-H",
+    "generatedAt": "2026-10-17T04:48:44.186Z",
+    "groups": [
+      {
+        "name": "Polysemes (same word, different meanings)",
+        "items": [
+          "bark",
+          "spring",
+          "duck",
+          "bolt"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "lead",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "pump",
+          "shape",
+          "case",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Other Polysemes and Verbs",
+        "items": [
+          "crane",
+          "jam",
+          "clip",
+          "dust"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle features abstract connections and multi-meaning words. There is deliberate cross-over temptation: some items could plausibly belong to other groups, but they are placed to fit the group’s main theme."
+  }
+}

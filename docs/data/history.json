@@ -243,7 +243,13 @@
     "POOL",
     "SHOR",
     "CORAL",
-    "BOAT"
+    "BOAT",
+    "STAR",
+    "ROCK",
+    "ASTRO",
+    "SHIP",
+    "SKY",
+    "ZONE"
   ],
   "medium": [
     "MYSTIC",
@@ -456,7 +462,15 @@
     "PLANKTON",
     "WHALE",
     "JELLYFISH",
-    "TURTLE"
+    "TURTLE",
+    "PLANET",
+    "COMET",
+    "GALAXY",
+    "ASTEROID",
+    "ORBITAL",
+    "SPACER",
+    "LUNAR",
+    "BOOSTER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -602,6 +616,15 @@
     "FLIPPER",
     "BAYWATCH",
     "HORIZON",
-    "SALTWATER"
+    "SALTWATER",
+    "ASTRONOMY",
+    "NAVIGATE",
+    "SPACECRAFT",
+    "COSMONAUT",
+    "ASTROLOGY",
+    "EXPLORATION",
+    "TELESCOPY",
+    "GRAVITY",
+    "SATELLITE"
   ]
 }

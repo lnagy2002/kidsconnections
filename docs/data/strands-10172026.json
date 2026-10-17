@@ -1,0 +1,40 @@
+{
+  "theme": "space",
+  "easy": {
+    "words": [
+      "STAR",
+      "MOON",
+      "SUN",
+      "ROCK",
+      "ASTRO",
+      "SHIP",
+      "SKY",
+      "ZONE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PLANET",
+      "COMET",
+      "GALAXY",
+      "ASTEROID",
+      "ORBITAL",
+      "SPACER",
+      "LUNAR",
+      "BOOSTER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ASTRONOMY",
+      "NAVIGATE",
+      "SPACECRAFT",
+      "COSMONAUT",
+      "ASTROLOGY",
+      "EXPLORATION",
+      "TELESCOPY",
+      "GRAVITY",
+      "SATELLITE"
+    ]
+  }
+}

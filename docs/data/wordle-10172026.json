@@ -1,0 +1,19 @@
+{
+  "easy": "STAR",
+  "medium": "WAGON",
+  "hard": "TURTLE",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A bright point of light in the night sky."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A small cart pulled by horses."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A slow reptile with a shell."
+    }
+  }
+}

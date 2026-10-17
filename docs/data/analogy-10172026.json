@@ -1,0 +1,41 @@
+{
+  "date": "10172026",
+  "levels": {
+    "easy": [
+      {
+        "q": "pebble : boulder ::",
+        "choices": [
+          "mouse : elephant",
+          "ant : spider",
+          "pencil : book",
+          "leaf : tree"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "singer : choir ::",
+        "choices": [
+          "swimmer : relay",
+          "runner : race",
+          "artist : canvas",
+          "writer : pen"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "ice : cold ::",
+        "choices": [
+          "fire : heat",
+          "wind : breeze",
+          "cloud : grey",
+          "stone : heavy"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

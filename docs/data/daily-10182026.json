@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10182026-E",
+    "generatedAt": "2026-10-18T04:54:58.472Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "apple",
+          "coin",
+          "ball",
+          "ring"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "banana",
+          "lemon",
+          "corn",
+          "sunflower"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "bowl",
+          "pan",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly",
+        "items": [
+          "bird",
+          "kite",
+          "plane",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle set with concrete, visual themes suitable for ages 7-11."
+  },
+  "medium": {
+    "id": "10182026-M",
+    "generatedAt": "2026-10-18T04:54:58.472Z",
+    "groups": [
+      {
+        "name": "Words that pair with light",
+        "items": [
+          "day",
+          "spot",
+          "moon",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "play",
+          "wash",
+          "call",
+          "walk"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rainy-day pairings",
+        "items": [
+          "bow",
+          "coat",
+          "storm",
+          "forest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical terms",
+        "items": [
+          "note",
+          "scale",
+          "tone",
+          "chord"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes some tempting overlaps to encourage careful grouping and word-family thinking."
+  },
+  "hard": {
+    "id": "10182026-H",
+    "generatedAt": "2026-10-18T04:54:58.472Z",
+    "groups": [
+      {
+        "name": "Polysemes (words with more than one meaning)",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "pen"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "read",
+          "live"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Fruits",
+        "items": [
+          "orange",
+          "lime",
+          "olive",
+          "plum"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (auto opposite meanings)",
+        "items": [
+          "dust",
+          "left",
+          "clip",
+          "oversight"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses abstract word relationships and multiple-meaning words; beware cross-over temptations."
+  }
+}

@@ -2,16 +2,19 @@
   "easy": [
     "apple : tree :: carrot : ground",
     "cat : kitten :: dog : pup",
-    "pebble : boulder :: mouse : elephant"
+    "pebble : boulder :: mouse : elephant",
+    "rain : raincoat :: snow : gloves"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
     "tadpole : frog :: caterpillar : butterfly",
-    "singer : choir :: swimmer : relay"
+    "singer : choir :: swimmer : relay",
+    "broom : sweep :: hammer : build"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
     "dawn : dusk :: begin : end",
-    "ice : cold :: fire : heat"
+    "ice : cold :: fire : heat",
+    "5 : 10 :: 7 : 14"
   ]
 }

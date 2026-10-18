@@ -1,0 +1,41 @@
+{
+  "date": "10182026",
+  "levels": {
+    "easy": [
+      {
+        "q": "rain : raincoat ::",
+        "choices": [
+          "snow : gloves",
+          "sun : hat",
+          "wind : kite",
+          "storm : shelter"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "broom : sweep ::",
+        "choices": [
+          "hammer : build",
+          "pencil : erase",
+          "knife : cook",
+          "saw : measure"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "5 : 10 ::",
+        "choices": [
+          "7 : 14",
+          "8 : 19",
+          "9 : 18",
+          "10 : 12"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

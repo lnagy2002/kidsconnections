@@ -1,0 +1,19 @@
+{
+  "easy": "BIRD",
+  "medium": "APPLE",
+  "hard": "SUMMIT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "This is an animal with feathers and wings."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "This is a round fruit that can be red or green."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "The top or highest point of a hill or mountain."
+    }
+  }
+}

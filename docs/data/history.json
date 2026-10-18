@@ -249,7 +249,11 @@
     "ASTRO",
     "SHIP",
     "SKY",
-    "ZONE"
+    "ZONE",
+    "RAIN",
+    "SNOW",
+    "HAIL",
+    "FOG"
   ],
   "medium": [
     "MYSTIC",
@@ -470,7 +474,14 @@
     "ORBITAL",
     "SPACER",
     "LUNAR",
-    "BOOSTER"
+    "BOOSTER",
+    "BREEZE",
+    "RAINBOW",
+    "LIGHTNING",
+    "WETTER",
+    "DRIZZLE",
+    "FOGGY",
+    "COLDER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -625,6 +636,14 @@
     "EXPLORATION",
     "TELESCOPY",
     "GRAVITY",
-    "SATELLITE"
+    "SATELLITE",
+    "CLIMATE",
+    "MOISTURE",
+    "TEMPERATURE",
+    "HAILSTORM",
+    "WEATHERLY",
+    "CLOUDY",
+    "FORECAST",
+    "PRECIPITATE"
   ]
 }

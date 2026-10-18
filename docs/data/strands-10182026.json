@@ -1,0 +1,40 @@
+{
+  "theme": "weather",
+  "easy": {
+    "words": [
+      "RAIN",
+      "SNOW",
+      "WIND",
+      "HAIL",
+      "FOG",
+      "CLOUD",
+      "STORM",
+      "FAN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BREEZE",
+      "THUNDER",
+      "RAINBOW",
+      "LIGHTNING",
+      "WETTER",
+      "DRIZZLE",
+      "FOGGY",
+      "COLDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CLIMATE",
+      "MOISTURE",
+      "TEMPERATURE",
+      "HAILSTORM",
+      "WEATHERLY",
+      "FROSTY",
+      "CLOUDY",
+      "FORECAST",
+      "PRECIPITATE"
+    ]
+  }
+}

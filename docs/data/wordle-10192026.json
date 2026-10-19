@@ -1,0 +1,19 @@
+{
+  "easy": "REED",
+  "medium": "GLASS",
+  "hard": "STREAM",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A round fruit that is juicy."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A hard see through material."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A small river that flows gently."
+    }
+  }
+}

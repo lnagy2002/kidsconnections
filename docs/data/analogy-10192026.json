@@ -1,0 +1,41 @@
+{
+  "date": "10192026",
+  "levels": {
+    "easy": [
+      {
+        "q": "eyes : see ::",
+        "choices": [
+          "ears : hear",
+          "nose : smell",
+          "mouth : taste",
+          "hands : touch"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "wallet : money ::",
+        "choices": [
+          "basket : fruit",
+          "bottle : water",
+          "bin : trash",
+          "folder : paper"
+        ],
+        "answer": 3
+      }
+    ],
+    "hard": [
+      {
+        "q": "rapid : fast ::",
+        "choices": [
+          "quiet : loud",
+          "brisk : slow",
+          "simple : easy",
+          "quick : swift"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

@@ -3,18 +3,21 @@
     "apple : tree :: carrot : ground",
     "cat : kitten :: dog : pup",
     "pebble : boulder :: mouse : elephant",
-    "rain : raincoat :: snow : gloves"
+    "rain : raincoat :: snow : gloves",
+    "eyes : see :: ears : hear"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
     "tadpole : frog :: caterpillar : butterfly",
     "singer : choir :: swimmer : relay",
-    "broom : sweep :: hammer : build"
+    "broom : sweep :: hammer : build",
+    "wallet : money :: folder : paper"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
     "dawn : dusk :: begin : end",
     "ice : cold :: fire : heat",
-    "5 : 10 :: 7 : 14"
+    "5 : 10 :: 7 : 14",
+    "rapid : fast :: quick : swift"
   ]
 }

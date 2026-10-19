@@ -253,7 +253,14 @@
     "RAIN",
     "SNOW",
     "HAIL",
-    "FOG"
+    "FOG",
+    "COW",
+    "PIG",
+    "BARN",
+    "SEED",
+    "CROP",
+    "HENS",
+    "GOAT"
   ],
   "medium": [
     "MYSTIC",
@@ -481,7 +488,14 @@
     "WETTER",
     "DRIZZLE",
     "FOGGY",
-    "COLDER"
+    "COLDER",
+    "TRACTOR",
+    "MUDDLE",
+    "HARVEST",
+    "FENCING",
+    "PLANTER",
+    "FALLOW",
+    "RANCHER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -644,6 +658,15 @@
     "WEATHERLY",
     "CLOUDY",
     "FORECAST",
-    "PRECIPITATE"
+    "PRECIPITATE",
+    "FERTILE",
+    "AGRICULT",
+    "CULTIVAT",
+    "TILLAGE",
+    "TERRACE",
+    "SOWING",
+    "HUSBANDRY",
+    "VETERINARY",
+    "COMPOSTING"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "theme": "the farm",
+  "easy": {
+    "words": [
+      "COW",
+      "HAY",
+      "PIG",
+      "BARN",
+      "SEED",
+      "CROP",
+      "HENS",
+      "GOAT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRACTOR",
+      "MUDDLE",
+      "HARVEST",
+      "FENCING",
+      "GARDEN",
+      "PLANTER",
+      "FALLOW",
+      "RANCHER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "FERTILE",
+      "AGRICULT",
+      "CULTIVAT",
+      "TILLAGE",
+      "TERRACE",
+      "SOWING",
+      "HUSBANDRY",
+      "VETERINARY",
+      "COMPOSTING"
+    ]
+  }
+}

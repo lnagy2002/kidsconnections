@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10202026-E",
+    "generatedAt": "2026-10-20T05:06:34.047Z",
+    "groups": [
+      {
+        "name": "Round Objects",
+        "items": [
+          "ball",
+          "coin",
+          "clock",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Playscape Favorites",
+        "items": [
+          "slide",
+          "swing",
+          "seesaw",
+          "ladder"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Paired Accessories",
+        "items": [
+          "gloves",
+          "socks",
+          "shoes",
+          "earrings"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Breakfast Picks",
+        "items": [
+          "pancake",
+          "cereal",
+          "eggs",
+          "toast"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for date 10202026."
+  },
+  "medium": {
+    "id": "10202026-M",
+    "generatedAt": "2026-10-20T05:06:34.047Z",
+    "groups": [
+      {
+        "name": "Book-Related Compounds",
+        "items": [
+          "case",
+          "shelf",
+          "store",
+          "club"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fish-Related Words",
+        "items": [
+          "bowl",
+          "tank",
+          "food",
+          "net"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits That Are Colors",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Word Pairs with Un- Opposites",
+        "items": [
+          "certain",
+          "happy",
+          "clear",
+          "done"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with approachable cross-overs."
+  },
+  "hard": {
+    "id": "10202026-H",
+    "generatedAt": "2026-10-20T05:06:34.047Z",
+    "groups": [
+      {
+        "name": "Multi-Meaning Verbs",
+        "items": [
+          "drive",
+          "watch",
+          "object",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Hand Tools",
+        "items": [
+          "hammer",
+          "saw",
+          "drill",
+          "plane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Different Pronunciations",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Words",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract links and pronunciation tricks."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "easy": "SOIL",
+  "medium": "SOLAR",
+  "hard": "BRIGHT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "The dirt on the ground where plants grow."
+    },
+    "medium": {
+      "pos": "adjective",
+      "text": "It relates to the sun and its light."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "Full of light and easy to see."
+    }
+  }
+}

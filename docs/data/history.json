@@ -260,7 +260,12 @@
     "SEED",
     "CROP",
     "HENS",
-    "GOAT"
+    "GOAT",
+    "BALL",
+    "TEAM",
+    "CATCH",
+    "KICK",
+    "HIT"
   ],
   "medium": [
     "MYSTIC",
@@ -495,7 +500,15 @@
     "FENCING",
     "PLANTER",
     "FALLOW",
-    "RANCHER"
+    "RANCHER",
+    "SOCCER",
+    "SWIMMER",
+    "RUGBY",
+    "HOCKEY",
+    "BASEBALL",
+    "TENNIS",
+    "CRICKET",
+    "ATHLETIC"
   ],
   "hard": [
     "EXEMPLARY",
@@ -667,6 +680,15 @@
     "SOWING",
     "HUSBANDRY",
     "VETERINARY",
-    "COMPOSTING"
+    "COMPOSTING",
+    "PRACTICE",
+    "COMPETITION",
+    "STADIUM",
+    "TRAINING",
+    "MARATHON",
+    "ATHLETE",
+    "CHEERLEAD",
+    "EXERCISE",
+    "SKATEBOARD"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "theme": "sports",
+  "easy": {
+    "words": [
+      "BALL",
+      "TEAM",
+      "RUN",
+      "SWIM",
+      "CATCH",
+      "PLAY",
+      "KICK",
+      "HIT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SOCCER",
+      "SWIMMER",
+      "RUGBY",
+      "HOCKEY",
+      "BASEBALL",
+      "TENNIS",
+      "CRICKET",
+      "ATHLETIC"
+    ]
+  },
+  "hard": {
+    "words": [
+      "PRACTICE",
+      "COMPETITION",
+      "STADIUM",
+      "TRAINING",
+      "MARATHON",
+      "ATHLETE",
+      "CHEERLEAD",
+      "EXERCISE",
+      "SKATEBOARD"
+    ]
+  }
+}

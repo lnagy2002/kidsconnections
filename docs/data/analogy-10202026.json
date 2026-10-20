@@ -1,0 +1,41 @@
+{
+  "date": "10202026",
+  "levels": {
+    "easy": [
+      {
+        "q": "day : night ::",
+        "choices": [
+          "sun : moon",
+          "fork : eat",
+          "cloud : raincoat",
+          "bowl : cereal"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "big : large ::",
+        "choices": [
+          "small : tiny",
+          "kitchen : pantry",
+          "happy : joy",
+          "round : circle"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "surgeon : scalpel ::",
+        "choices": [
+          "painter : canvas",
+          "chef : knife",
+          "teacher : book",
+          "doctor : stethoscope"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

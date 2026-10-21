@@ -265,7 +265,13 @@
     "TEAM",
     "CATCH",
     "KICK",
-    "HIT"
+    "HIT",
+    "TUNE",
+    "HORN",
+    "NOTE",
+    "SING",
+    "DRUM",
+    "MUTE"
   ],
   "medium": [
     "MYSTIC",
@@ -508,7 +514,15 @@
     "BASEBALL",
     "TENNIS",
     "CRICKET",
-    "ATHLETIC"
+    "ATHLETIC",
+    "GUITAR",
+    "SONGBOOK",
+    "ALBUM",
+    "DANCING",
+    "ORCHESTRA",
+    "CRESCENDO",
+    "FESTIVAL",
+    "MELODY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -689,6 +703,15 @@
     "ATHLETE",
     "CHEERLEAD",
     "EXERCISE",
-    "SKATEBOARD"
+    "SKATEBOARD",
+    "SYNTHESIS",
+    "ACCORDION",
+    "COMPOSITE",
+    "REVERBERATE",
+    "REHEARSALS",
+    "MELODIST",
+    "CONCERTOS",
+    "SEMIFINALS",
+    "SCOREBOARD"
   ]
 }

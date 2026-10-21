@@ -1,0 +1,40 @@
+{
+  "theme": "music",
+  "easy": {
+    "words": [
+      "BAND",
+      "TUNE",
+      "HORN",
+      "NOTE",
+      "SING",
+      "DRUM",
+      "MUTE",
+      "RING"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GUITAR",
+      "SONGBOOK",
+      "ALBUM",
+      "DANCING",
+      "ORCHESTRA",
+      "CRESCENDO",
+      "FESTIVAL",
+      "MELODY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SYNTHESIS",
+      "ACCORDION",
+      "COMPOSITE",
+      "REVERBERATE",
+      "REHEARSALS",
+      "MELODIST",
+      "CONCERTOS",
+      "SEMIFINALS",
+      "SCOREBOARD"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "easy": "BRIM",
+  "medium": "CLEAN",
+  "hard": "TRAVEL",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "The outer edge of something like a cup or hat."
+    },
+    "medium": {
+      "pos": "verb",
+      "text": "To remove dirt from something."
+    },
+    "hard": {
+      "pos": "verb",
+      "text": "To move from one place to another."
+    }
+  }
+}

@@ -5,7 +5,8 @@
     "pebble : boulder :: mouse : elephant",
     "rain : raincoat :: snow : gloves",
     "eyes : see :: ears : hear",
-    "day : night :: sun : moon"
+    "day : night :: sun : moon",
+    "bird : nest :: bear : cave"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -13,7 +14,8 @@
     "singer : choir :: swimmer : relay",
     "broom : sweep :: hammer : build",
     "wallet : money :: folder : paper",
-    "big : large :: small : tiny"
+    "big : large :: small : tiny",
+    "drum : hit :: guitar : strum"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -21,6 +23,7 @@
     "ice : cold :: fire : heat",
     "5 : 10 :: 7 : 14",
     "rapid : fast :: quick : swift",
-    "surgeon : scalpel :: chef : knife"
+    "surgeon : scalpel :: chef : knife",
+    "ancient : modern :: frozen : thawed"
   ]
 }

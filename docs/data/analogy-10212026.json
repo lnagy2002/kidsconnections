@@ -1,0 +1,41 @@
+{
+  "date": "10212026",
+  "levels": {
+    "easy": [
+      {
+        "q": "bird : nest ::",
+        "choices": [
+          "dog : bark",
+          "cat : house",
+          "fish : water",
+          "bear : cave"
+        ],
+        "answer": 3
+      }
+    ],
+    "medium": [
+      {
+        "q": "drum : hit ::",
+        "choices": [
+          "guitar : strum",
+          "piano : read",
+          "flute : dance",
+          "violin : listen"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "ancient : modern ::",
+        "choices": [
+          "happy : sad",
+          "cold : warm",
+          "active : lazy",
+          "frozen : thawed"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

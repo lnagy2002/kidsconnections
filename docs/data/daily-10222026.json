@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10222026-E",
+    "generatedAt": "2026-10-22T05:10:27.113Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Hoppers",
+        "items": [
+          "rabbit",
+          "frog",
+          "kangaroo",
+          "toad"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "chalk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Spoon-Satisfiers",
+        "items": [
+          "soup",
+          "yogurt",
+          "cereal",
+          "pudding"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual themes. Each group has four items sharing a clear, kid-friendly trait."
+  },
+  "medium": {
+    "id": "10222026-M",
+    "generatedAt": "2026-10-22T05:10:27.113Z",
+    "groups": [
+      {
+        "name": "Book-Word Bridges",
+        "items": [
+          "case",
+          "mark",
+          "store",
+          "club"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Plant Parts",
+        "items": [
+          "leaf",
+          "stem",
+          "root",
+          "seed"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "play",
+          "watch",
+          "book",
+          "drink"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Home-Word Pairings",
+        "items": [
+          "run",
+          "page",
+          "town",
+          "made"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and compound-word ideas. Some items could tempt you to place them in another group, but each item fits uniquely."
+  },
+  "hard": {
+    "id": "10222026-H",
+    "generatedAt": "2026-10-22T05:10:27.113Z",
+    "groups": [
+      {
+        "name": "Words With Two Senses",
+        "items": [
+          "bank",
+          "spring",
+          "note",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-Linked Words",
+        "items": [
+          "fly",
+          "fighter",
+          "fight",
+          "alarm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Beast-Word Partners",
+        "items": [
+          "bat",
+          "crane",
+          "duck",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Food Color Names",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "olive"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore abstract connections and word meanings. Expect some tempting cross-overs to test careful grouping."
+  }
+}

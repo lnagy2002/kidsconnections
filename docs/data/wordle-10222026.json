@@ -1,0 +1,19 @@
+{
+  "easy": "GLOW",
+  "medium": "PRISM",
+  "hard": "OCEANS",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A soft light that shines."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A device that shows colors when light goes through it."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A huge stretch of salt water that covers much of the world."
+    }
+  }
+}

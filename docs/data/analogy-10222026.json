@@ -1,0 +1,41 @@
+{
+  "date": "10222026",
+  "levels": {
+    "easy": [
+      {
+        "q": "cat : kitten ::",
+        "choices": [
+          "cow : calf",
+          "dog : puppy",
+          "bird : nest",
+          "fish : water"
+        ],
+        "answer": 2
+      }
+    ],
+    "medium": [
+      {
+        "q": "big : large ::",
+        "choices": [
+          "small : tiny",
+          "happy : joyful",
+          "loud : quiet",
+          "fast : quick"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "ice : melt ::",
+        "choices": [
+          "paper : tear",
+          "snow : fall",
+          "water : freeze",
+          "sand : shift"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

@@ -6,7 +6,8 @@
     "rain : raincoat :: snow : gloves",
     "eyes : see :: ears : hear",
     "day : night :: sun : moon",
-    "bird : nest :: bear : cave"
+    "bird : nest :: bear : cave",
+    "cat : kitten :: bird : nest"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -15,7 +16,8 @@
     "broom : sweep :: hammer : build",
     "wallet : money :: folder : paper",
     "big : large :: small : tiny",
-    "drum : hit :: guitar : strum"
+    "drum : hit :: guitar : strum",
+    "big : large :: happy : joyful"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -24,6 +26,7 @@
     "5 : 10 :: 7 : 14",
     "rapid : fast :: quick : swift",
     "surgeon : scalpel :: chef : knife",
-    "ancient : modern :: frozen : thawed"
+    "ancient : modern :: frozen : thawed",
+    "ice : melt :: water : freeze"
   ]
 }

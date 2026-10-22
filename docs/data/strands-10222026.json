@@ -1,0 +1,40 @@
+{
+  "theme": "school",
+  "easy": {
+    "words": [
+      "BOOK",
+      "PEN",
+      "DESK",
+      "CLASS",
+      "CHALK",
+      "TEACH",
+      "STUDY",
+      "GLOBE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PENCIL",
+      "SCHOOL",
+      "LESSON",
+      "STUDENT",
+      "BINDER",
+      "PAINTER",
+      "TEACHER",
+      "PROJECT"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TEXTBOOKS",
+      "EDUCATION",
+      "EXAMINATION",
+      "CLASSROOM",
+      "ARTICLES",
+      "LIBRARY",
+      "COMPUTERS",
+      "PRACTICAL",
+      "SCHEDULED"
+    ]
+  }
+}

@@ -271,7 +271,13 @@
     "NOTE",
     "SING",
     "DRUM",
-    "MUTE"
+    "MUTE",
+    "BOOK",
+    "DESK",
+    "CLASS",
+    "CHALK",
+    "TEACH",
+    "STUDY"
   ],
   "medium": [
     "MYSTIC",
@@ -522,7 +528,15 @@
     "ORCHESTRA",
     "CRESCENDO",
     "FESTIVAL",
-    "MELODY"
+    "MELODY",
+    "PENCIL",
+    "SCHOOL",
+    "LESSON",
+    "STUDENT",
+    "BINDER",
+    "PAINTER",
+    "TEACHER",
+    "PROJECT"
   ],
   "hard": [
     "EXEMPLARY",
@@ -712,6 +726,15 @@
     "MELODIST",
     "CONCERTOS",
     "SEMIFINALS",
-    "SCOREBOARD"
+    "SCOREBOARD",
+    "TEXTBOOKS",
+    "EDUCATION",
+    "EXAMINATION",
+    "CLASSROOM",
+    "ARTICLES",
+    "LIBRARY",
+    "COMPUTERS",
+    "PRACTICAL",
+    "SCHEDULED"
   ]
 }

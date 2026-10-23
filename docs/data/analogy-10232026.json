@@ -1,0 +1,41 @@
+{
+  "date": "10232026",
+  "levels": {
+    "easy": [
+      {
+        "q": "hot : cold ::",
+        "choices": [
+          "happy : sad",
+          "big : small",
+          "fast : slow",
+          "tall : short"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "chef : kitchen ::",
+        "choices": [
+          "teacher : classroom",
+          "singer : stage",
+          "doctor : hospital",
+          "artist : museum"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "desert : camel ::",
+        "choices": [
+          "ocean : fish",
+          "forest : bird",
+          "mountain : deer",
+          "school : teacher"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

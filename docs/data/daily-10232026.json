@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10232026-E",
+    "generatedAt": "2026-10-23T05:10:40.897Z",
+    "groups": [
+      {
+        "name": "Round Wonders",
+        "items": [
+          "Ball",
+          "Coin",
+          "Marble",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Friends",
+        "items": [
+          "Shoes",
+          "Socks",
+          "Boots",
+          "Sandals"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Marker",
+          "Crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating Helpers",
+        "items": [
+          "Spoon",
+          "Fork",
+          "Plate",
+          "Napkin"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle for 2026-10-23. Each group contains four concrete items."
+  },
+  "medium": {
+    "id": "10232026-M",
+    "generatedAt": "2026-10-23T05:10:40.897Z",
+    "groups": [
+      {
+        "name": "Sun Companions",
+        "items": [
+          "Flower",
+          "Beam",
+          "Rise",
+          "Set"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fire Prefix Pairs",
+        "items": [
+          "Fly",
+          "Man",
+          "Place",
+          "Works"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Paired Things",
+        "items": [
+          "Gloves",
+          "Earrings",
+          "Glasses",
+          "Mittens"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wheel-Travel Kit",
+        "items": [
+          "Bike",
+          "Scooter",
+          "Skateboard",
+          "Rollerblade"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium-level puzzles mix wordplay with simple compound formations and paired items. Some items may tempt crossing into other groups."
+  },
+  "hard": {
+    "id": "10232026-H",
+    "generatedAt": "2026-10-23T05:10:40.897Z",
+    "groups": [
+      {
+        "name": "Word-Meanings in Piles",
+        "items": [
+          "Bat",
+          "Bank",
+          "Seal",
+          "Ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two Pronunciations Words",
+        "items": [
+          "Bow",
+          "Lead",
+          "Read",
+          "Wind"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "Park",
+          "Play",
+          "Drive",
+          "Jump"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Concepts",
+        "items": [
+          "Time",
+          "Hope",
+          "Truth",
+          "Joy"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard-level connections involve polysemes, words with multiple meanings, and words with more than one pronunciation. Some items may tempt misclassification into other groups."
+  }
+}

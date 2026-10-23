@@ -1,0 +1,40 @@
+{
+  "theme": "the garden",
+  "easy": {
+    "words": [
+      "ROSE",
+      "BUDS",
+      "BUSH",
+      "DIRT",
+      "GROW",
+      "VINE",
+      "ROOT",
+      "SPROUT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FLOWER",
+      "TULIPS",
+      "GERANIUM",
+      "PANSY",
+      "NUTSHELL",
+      "BLOOMING",
+      "GARDENS",
+      "TOMATO"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HORTICULT",
+      "HYDRANGEA",
+      "RHODODENDR",
+      "ORNAMENTAL",
+      "POLLENIZE",
+      "SUSTAINAB",
+      "FERTILIZER",
+      "MANAGEMENT",
+      "BIODIVERSITY"
+    ]
+  }
+}

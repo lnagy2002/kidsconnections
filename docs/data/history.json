@@ -277,7 +277,12 @@
     "CLASS",
     "CHALK",
     "TEACH",
-    "STUDY"
+    "STUDY",
+    "ROSE",
+    "BUDS",
+    "DIRT",
+    "ROOT",
+    "SPROUT"
   ],
   "medium": [
     "MYSTIC",
@@ -536,7 +541,15 @@
     "BINDER",
     "PAINTER",
     "TEACHER",
-    "PROJECT"
+    "PROJECT",
+    "FLOWER",
+    "TULIPS",
+    "GERANIUM",
+    "PANSY",
+    "NUTSHELL",
+    "BLOOMING",
+    "GARDENS",
+    "TOMATO"
   ],
   "hard": [
     "EXEMPLARY",
@@ -735,6 +748,15 @@
     "LIBRARY",
     "COMPUTERS",
     "PRACTICAL",
-    "SCHEDULED"
+    "SCHEDULED",
+    "HORTICULT",
+    "HYDRANGEA",
+    "RHODODENDR",
+    "ORNAMENTAL",
+    "POLLENIZE",
+    "SUSTAINAB",
+    "FERTILIZER",
+    "MANAGEMENT",
+    "BIODIVERSITY"
   ]
 }

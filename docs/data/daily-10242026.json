@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10242026-E",
+    "generatedAt": "2026-10-24T04:53:19.003Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Green Things",
+        "items": [
+          "leaf",
+          "frog",
+          "lime",
+          "broccoli"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Sit On",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Staples",
+        "items": [
+          "oatmeal",
+          "toast",
+          "egg",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle sets for 10/24/2026. Each group has 4 items; all items are unique."
+  },
+  "medium": {
+    "id": "10242026-M",
+    "generatedAt": "2026-10-24T04:53:19.003Z",
+    "groups": [
+      {
+        "name": "-er Suffix Words",
+        "items": [
+          "bake",
+          "draw",
+          "write",
+          "read"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Books That Pair with 'Book'",
+        "items": [
+          "cook",
+          "story",
+          "photo",
+          "guide"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Also Verbs",
+        "items": [
+          "water",
+          "plant",
+          "dance",
+          "run"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Hobbies & Sports",
+        "items": [
+          "soccer",
+          "piano",
+          "swim",
+          "skate"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay and dual-meaning ideas. Includes a minor cross-over temptation where items could fit other groups but belong to their assigned one."
+  },
+  "hard": {
+    "id": "10242026-H",
+    "generatedAt": "2026-10-24T04:53:19.003Z",
+    "groups": [
+      {
+        "name": "Heteronyms (Different Pronunciations)",
+        "items": [
+          "wind",
+          "lead",
+          "bass",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes (Two Distinct Meanings)",
+        "items": [
+          "bat",
+          "crane",
+          "spring",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones of Letters",
+        "items": [
+          "bee",
+          "sea",
+          "jay",
+          "cue"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "thumb",
+          "wrist",
+          "island"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set focusing on multiple meanings, pronunciations, and silent letters. Items are chosen to be engaging for older kids while remaining age-appropriate."
+  }
+}

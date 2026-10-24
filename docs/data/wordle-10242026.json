@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "WALLS",
+  "hard": "BUBBLE",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A bright device that gives light."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A flat vertical surface that divides rooms."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A round soapy ball that can float."
+    }
+  }
+}

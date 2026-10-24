@@ -282,7 +282,14 @@
     "BUDS",
     "DIRT",
     "ROOT",
-    "SPROUT"
+    "SPROUT",
+    "DOLL",
+    "GAME",
+    "TOYS",
+    "CAR",
+    "YARN",
+    "PUZZLE",
+    "TENT"
   ],
   "medium": [
     "MYSTIC",
@@ -549,7 +556,14 @@
     "NUTSHELL",
     "BLOOMING",
     "GARDENS",
-    "TOMATO"
+    "TOMATO",
+    "ACTION",
+    "GADGET",
+    "ROCKET",
+    "FINGER",
+    "BUBBLE",
+    "SNAPSHOT",
+    "DOLLS"
   ],
   "hard": [
     "EXEMPLARY",
@@ -757,6 +771,15 @@
     "SUSTAINAB",
     "FERTILIZER",
     "MANAGEMENT",
-    "BIODIVERSITY"
+    "BIODIVERSITY",
+    "GAMEBOARD",
+    "TAMAGOTCHI",
+    "PLAYMOBILE",
+    "HOPSCOTCH",
+    "POKEMON",
+    "SPINNER",
+    "KNOCKOUT",
+    "SLIMEBALL",
+    "ROBORACE"
   ]
 }

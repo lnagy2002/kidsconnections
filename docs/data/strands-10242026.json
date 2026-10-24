@@ -1,0 +1,40 @@
+{
+  "theme": "toys and games",
+  "easy": {
+    "words": [
+      "DOLL",
+      "GAME",
+      "TOYS",
+      "CUBE",
+      "CAR",
+      "YARN",
+      "PUZZLE",
+      "TENT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "ACTION",
+      "GADGET",
+      "ROCKET",
+      "FINGER",
+      "BUBBLE",
+      "SNAPSHOT",
+      "GLIDER",
+      "DOLLS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "GAMEBOARD",
+      "TAMAGOTCHI",
+      "PLAYMOBILE",
+      "HOPSCOTCH",
+      "POKEMON",
+      "SPINNER",
+      "KNOCKOUT",
+      "SLIMEBALL",
+      "ROBORACE"
+    ]
+  }
+}

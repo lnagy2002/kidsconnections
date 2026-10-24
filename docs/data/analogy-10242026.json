@@ -1,0 +1,41 @@
+{
+  "date": "10242026",
+  "levels": {
+    "easy": [
+      {
+        "q": "sun : shine ::",
+        "choices": [
+          "rain : fall",
+          "snow : freeze",
+          "cloud : cover",
+          "wind : blow"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "cotton : t-shirt ::",
+        "choices": [
+          "wood : table",
+          "glass : cup",
+          "wool : sweater",
+          "metal : car"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "wood : saw ::",
+        "choices": [
+          "ice : freeze",
+          "stone : carve",
+          "paper : fold",
+          "clay : shape"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

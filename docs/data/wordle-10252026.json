@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "SOLAR",
+  "hard": "QUARRY",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A bright thing that gives light."
+    },
+    "medium": {
+      "pos": "adjective",
+      "text": "Relating to the sun and to getting power from sunlight."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A place where people dig stone."
+    }
+  }
+}

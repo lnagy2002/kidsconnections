@@ -1,0 +1,41 @@
+{
+  "date": "10252026",
+  "levels": {
+    "easy": [
+      {
+        "q": "apple : tree ::",
+        "choices": [
+          "carrot : ground",
+          "peach : orchard",
+          "potato : field",
+          "berry : bush"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "wallet : money ::",
+        "choices": [
+          "basket : fruit",
+          "bottle : water",
+          "box : toys",
+          "cup : juice"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "ice : melt ::",
+        "choices": [
+          "wood : burn",
+          "stone : chip",
+          "water : freeze",
+          "sand : collect"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

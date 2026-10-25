@@ -1,0 +1,40 @@
+{
+  "theme": "the kitchen",
+  "easy": {
+    "words": [
+      "OVEN",
+      "SINK",
+      "CUP",
+      "PAN",
+      "DISH",
+      "KNIFE",
+      "FORK",
+      "LADLE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "STOVE",
+      "MIXER",
+      "GRATER",
+      "COUNTER",
+      "UTENSIL",
+      "COOKBOOK",
+      "MEASURING",
+      "GINGER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "REFRIGERATOR",
+      "MICROWAVE",
+      "APPLIANCE",
+      "SPOONFULS",
+      "INGREDIENT",
+      "EMBOSSING",
+      "FERMENTING",
+      "SKILLET",
+      "CHOPPING"
+    ]
+  }
+}

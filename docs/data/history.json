@@ -289,7 +289,15 @@
     "CAR",
     "YARN",
     "PUZZLE",
-    "TENT"
+    "TENT",
+    "OVEN",
+    "SINK",
+    "CUP",
+    "PAN",
+    "DISH",
+    "KNIFE",
+    "FORK",
+    "LADLE"
   ],
   "medium": [
     "MYSTIC",
@@ -563,7 +571,15 @@
     "FINGER",
     "BUBBLE",
     "SNAPSHOT",
-    "DOLLS"
+    "DOLLS",
+    "STOVE",
+    "MIXER",
+    "GRATER",
+    "COUNTER",
+    "UTENSIL",
+    "COOKBOOK",
+    "MEASURING",
+    "GINGER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -780,6 +796,15 @@
     "SPINNER",
     "KNOCKOUT",
     "SLIMEBALL",
-    "ROBORACE"
+    "ROBORACE",
+    "REFRIGERATOR",
+    "MICROWAVE",
+    "APPLIANCE",
+    "SPOONFULS",
+    "INGREDIENT",
+    "EMBOSSING",
+    "FERMENTING",
+    "SKILLET",
+    "CHOPPING"
   ]
 }

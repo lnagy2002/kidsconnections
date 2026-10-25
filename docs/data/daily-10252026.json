@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10252026-E",
+    "generatedAt": "2026-10-25T05:04:20.451Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "Ball",
+          "Coin",
+          "Plate",
+          "Wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "Hat",
+          "Cap",
+          "Helmet",
+          "Beret"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yellow Things",
+        "items": [
+          "Banana",
+          "Lemon",
+          "Pineapple",
+          "Corn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Foods You Eat with a Spoon",
+        "items": [
+          "Yogurt",
+          "Soup",
+          "Oatmeal",
+          "Applesauce"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy connections. Each group contains 4 related items."
+  },
+  "medium": {
+    "id": "10252026-M",
+    "generatedAt": "2026-10-25T05:04:20.451Z",
+    "groups": [
+      {
+        "name": "Fire-Word Pairs",
+        "items": [
+          "Fly",
+          "Place",
+          "Truck",
+          "Works"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "Happy",
+          "Known",
+          "Fair",
+          "Kind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun/Verb Pairs (Same Spelling)",
+        "items": [
+          "Park",
+          "Plant",
+          "Duck",
+          "Cook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes That Are Names",
+        "items": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and familiar compounds. There can be tempting near-misses that fit other groups but belong to one."
+  },
+  "hard": {
+    "id": "10252026-H",
+    "generatedAt": "2026-10-25T05:04:20.451Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Meanings",
+        "items": [
+          "Bank",
+          "Bat",
+          "Seal",
+          "Crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Food Words",
+        "items": [
+          "Orange",
+          "Olive",
+          "Peach",
+          "Lime"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun/Verb with Same Spelling",
+        "items": [
+          "Jump",
+          "Slide",
+          "Draft",
+          "Link"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "Fox",
+          "Bear",
+          "Wolf",
+          "Hawk"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize polysemy and cross-category temptations to challenge older kids."
+  }
+}

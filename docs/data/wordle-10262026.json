@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "NIGHT",
+  "hard": "SILVER",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A small light to help you see in the dark."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "The dark time after the sun goes down."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A shiny metal used for coins and tableware."
+    }
+  }
+}

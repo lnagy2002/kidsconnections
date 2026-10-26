@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10262026-E",
+    "generatedAt": "2026-10-26T05:07:53.309Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "donut",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pairs You Wear",
+        "items": [
+          "socks",
+          "gloves",
+          "shoes",
+          "glasses"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visual groupings like round objects, things worn on the head, fruits, and items worn in pairs."
+  },
+  "medium": {
+    "id": "10262026-M",
+    "generatedAt": "2026-10-26T05:07:53.309Z",
+    "groups": [
+      {
+        "name": "Pre- Words",
+        "items": [
+          "heat",
+          "view",
+          "pay",
+          "vent"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Un- Opposites",
+        "items": [
+          "happy",
+          "tidy",
+          "usual",
+          "done"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "-er Agents",
+        "items": [
+          "teach",
+          "build",
+          "write",
+          "run"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snow Compounds",
+        "items": [
+          "shoe",
+          "flake",
+          "plow",
+          "drift"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce cross-over temptations: words that could seem to fit another group, but only belong to the intended one."
+  },
+  "hard": {
+    "id": "10262026-H",
+    "generatedAt": "2026-10-26T05:07:53.309Z",
+    "groups": [
+      {
+        "name": "Polysemes",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "lead"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun/Verb Pairs",
+        "items": [
+          "watch",
+          "park",
+          "plant",
+          "match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Book-Word Combos",
+        "items": [
+          "note",
+          "mark",
+          "shelf",
+          "case"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "wind",
+          "rain",
+          "snow",
+          "fog"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on abstract connections and multi-meaning words. Some items may tempt solvers to fit them into another group, but they belong to their designated connection."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date": "10262026",
+  "levels": {
+    "easy": [
+      {
+        "q": "dog : bark ::",
+        "choices": [
+          "cat : purr",
+          "cow : moo",
+          "horse : neigh",
+          "pig : oink"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "singer : choir ::",
+        "choices": [
+          "footballer : team",
+          "artist : canvas",
+          "teacher : school",
+          "runner : marathon"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "dawn : dusk ::",
+        "choices": [
+          "begin : finish",
+          "top : bottom",
+          "light : shadow",
+          "start : end"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

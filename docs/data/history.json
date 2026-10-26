@@ -297,7 +297,14 @@
     "DISH",
     "KNIFE",
     "FORK",
-    "LADLE"
+    "LADLE",
+    "BUS",
+    "JET",
+    "VAN",
+    "RAIL",
+    "CYCLE",
+    "TRAM",
+    "FERRY"
   ],
   "medium": [
     "MYSTIC",
@@ -579,7 +586,14 @@
     "UTENSIL",
     "COOKBOOK",
     "MEASURING",
-    "GINGER"
+    "GINGER",
+    "TRUCK",
+    "TRAIN",
+    "MOTOR",
+    "HELICOP",
+    "COASTER",
+    "LIMOUSINE",
+    "CABOOSE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -805,6 +819,15 @@
     "EMBOSSING",
     "FERMENTING",
     "SKILLET",
-    "CHOPPING"
+    "CHOPPING",
+    "AUTOMOBILE",
+    "BICYCLE",
+    "LOCATION",
+    "LANDSCAPE",
+    "COMMUTE",
+    "SUBWAY",
+    "HIGHWAYS",
+    "TRANSIT",
+    "AIRPLANE"
   ]
 }

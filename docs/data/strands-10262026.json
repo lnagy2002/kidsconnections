@@ -1,0 +1,40 @@
+{
+  "theme": "transportation",
+  "easy": {
+    "words": [
+      "BUS",
+      "JET",
+      "VAN",
+      "RIDE",
+      "RAIL",
+      "CYCLE",
+      "TRAM",
+      "FERRY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRUCK",
+      "TRAIN",
+      "MOTOR",
+      "HELICOP",
+      "COASTER",
+      "LIMOUSINE",
+      "FLIGHT",
+      "CABOOSE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "AUTOMOBILE",
+      "BICYCLE",
+      "LOCATION",
+      "LANDSCAPE",
+      "COMMUTE",
+      "SUBWAY",
+      "HIGHWAYS",
+      "TRANSIT",
+      "AIRPLANE"
+    ]
+  }
+}

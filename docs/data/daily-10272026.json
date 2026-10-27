@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10272026-E",
+    "generatedAt": "2026-10-27T05:22:45.352Z",
+    "groups": [
+      {
+        "name": "Red things you can see",
+        "items": [
+          "rose",
+          "firetruck",
+          "strawberry",
+          "cardinal"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles with wheels",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast foods",
+        "items": [
+          "pancakes",
+          "eggs",
+          "oatmeal",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets you might own",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "goldfish"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 10272026 Easy puzzle set with four simple, kid-friendly connections."
+  },
+  "medium": {
+    "id": "10272026-M",
+    "generatedAt": "2026-10-27T05:22:45.352Z",
+    "groups": [
+      {
+        "name": "Ball games",
+        "items": [
+          "baseball",
+          "basketball",
+          "football",
+          "volleyball"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun–verb duals",
+        "items": [
+          "bat",
+          "record",
+          "train",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Wearable items (hands/feet/face)",
+        "items": [
+          "gloves",
+          "glasses",
+          "shoes",
+          "socks"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common kitchen utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set uses light wordplay and familiar compound ideas; watch for items that could seem like they fit another group but belong to just one."
+  },
+  "hard": {
+    "id": "10272026-H",
+    "generatedAt": "2026-10-27T05:22:45.352Z",
+    "groups": [
+      {
+        "name": "Polysemous words (multiple meanings)",
+        "items": [
+          "crane",
+          "spring",
+          "chip",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "civic",
+          "radar",
+          "kayak",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that take un- to form opposites",
+        "items": [
+          "wrap",
+          "do",
+          "fold",
+          "lock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Names of planets",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set emphasizes abstract connections; includes deliberate cross-over temptations to challenge careful grouping."
+  }
+}

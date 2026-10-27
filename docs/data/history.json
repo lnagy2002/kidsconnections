@@ -304,7 +304,11 @@
     "RAIL",
     "CYCLE",
     "TRAM",
-    "FERRY"
+    "FERRY",
+    "TREE",
+    "MOSS",
+    "SPRY",
+    "PATH"
   ],
   "medium": [
     "MYSTIC",
@@ -593,7 +597,14 @@
     "HELICOP",
     "COASTER",
     "LIMOUSINE",
-    "CABOOSE"
+    "CABOOSE",
+    "FOREST",
+    "ANIMAL",
+    "BRANCH",
+    "NESTING",
+    "CREEK",
+    "SHADOW",
+    "FOLIAGE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -828,6 +839,14 @@
     "SUBWAY",
     "HIGHWAYS",
     "TRANSIT",
-    "AIRPLANE"
+    "AIRPLANE",
+    "UNDERGROWTH",
+    "CONIFER",
+    "SQUIRREL",
+    "SEEDLING",
+    "WILDFLOWERS",
+    "HABITAT",
+    "NATURAL",
+    "EMERALD"
   ]
 }

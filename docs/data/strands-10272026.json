@@ -1,0 +1,40 @@
+{
+  "theme": "the forest",
+  "easy": {
+    "words": [
+      "TREE",
+      "BIRD",
+      "LEAF",
+      "MOSS",
+      "CAVE",
+      "SPRY",
+      "BARK",
+      "PATH"
+    ]
+  },
+  "medium": {
+    "words": [
+      "FOREST",
+      "ANIMAL",
+      "BRANCH",
+      "WILDFLOWER",
+      "NESTING",
+      "CREEK",
+      "SHADOW",
+      "FOLIAGE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "UNDERGROWTH",
+      "CONIFER",
+      "SQUIRREL",
+      "SEEDLING",
+      "WILDFLOWERS",
+      "HABITAT",
+      "EXPLORE",
+      "NATURAL",
+      "EMERALD"
+    ]
+  }
+}

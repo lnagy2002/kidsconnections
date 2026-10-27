@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "BRAVE",
+  "hard": "GROOVE",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A BRIGHT LIGHT SHINES AT NIGHT"
+    },
+    "medium": {
+      "pos": "adjective",
+      "text": "SHOWING COURAGE AND NOT AFRAID"
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A LONG NARROW CUT IN A SURFACE"
+    }
+  }
+}

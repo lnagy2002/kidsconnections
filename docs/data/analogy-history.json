@@ -11,7 +11,8 @@
     "hot : cold :: happy : sad",
     "sun : shine :: snow : freeze",
     "apple : tree :: peach : orchard",
-    "dog : bark :: cat : purr"
+    "dog : bark :: cat : purr",
+    "cat : kitten :: car : garage"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -25,7 +26,8 @@
     "chef : kitchen :: teacher : classroom",
     "cotton : t-shirt :: wool : sweater",
     "wallet : money :: basket : fruit",
-    "singer : choir :: footballer : team"
+    "singer : choir :: footballer : team",
+    "ruler : length :: thermometer : temperature"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -39,6 +41,7 @@
     "desert : camel :: ocean : fish",
     "wood : saw :: stone : carve",
     "ice : melt :: wood : burn",
-    "dawn : dusk :: start : end"
+    "dawn : dusk :: start : end",
+    "problem : solution :: thirst : water"
   ]
 }

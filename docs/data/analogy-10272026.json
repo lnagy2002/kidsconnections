@@ -1,0 +1,41 @@
+{
+  "date": "10272026",
+  "levels": {
+    "easy": [
+      {
+        "q": "cat : kitten ::",
+        "choices": [
+          "car : garage",
+          "dog : puppy",
+          "tree : leaves",
+          "fish : school"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "ruler : length ::",
+        "choices": [
+          "thermometer : temperature",
+          "basket : fruit",
+          "library : study",
+          "car : speed"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "problem : solution ::",
+        "choices": [
+          "thirst : water",
+          "wind : kite",
+          "car : road",
+          "tool : kit"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10282026-E",
+    "generatedAt": "2026-10-28T06:01:01.095Z",
+    "groups": [
+      {
+        "name": "Writers' Tools",
+        "items": [
+          "Pencil",
+          "Pen",
+          "Marker",
+          "Crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Things",
+        "items": [
+          "Bird",
+          "Balloon",
+          "Kite",
+          "Airplane"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Beverages to Sip",
+        "items": [
+          "Water",
+          "Juice",
+          "Milk",
+          "Lemonade"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sleep Essentials",
+        "items": [
+          "Bed",
+          "Pillow",
+          "Blanket",
+          "Mattress"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles with concrete, visual connections. Fresh and kid-friendly."
+  },
+  "medium": {
+    "id": "10282026-M",
+    "generatedAt": "2026-10-28T06:01:01.095Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Double Duty",
+        "items": [
+          "Jump",
+          "Wave",
+          "Park",
+          "Trip"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Outdoorsy Bits",
+        "items": [
+          "Tree",
+          "Rock",
+          "Creek",
+          "Hill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Kitchen Ware",
+        "items": [
+          "Spoon",
+          "Plate",
+          "Cup",
+          "Pan"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Vehicles & Travel",
+        "items": [
+          "Car",
+          "Bike",
+          "Bus",
+          "Train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix simple wordplay with cross-over hints to tempt careful grouping."
+  },
+  "hard": {
+    "id": "10282026-H",
+    "generatedAt": "2026-10-28T06:01:01.095Z",
+    "groups": [
+      {
+        "name": "Polysemous Power Words",
+        "items": [
+          "Bank",
+          "Spring",
+          "Bat",
+          "Tie"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "Cat",
+          "Dog",
+          "Bear",
+          "Fox"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Night Sky Things",
+        "items": [
+          "Moon",
+          "Star",
+          "Comet",
+          "Galaxy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Things People Put On",
+        "items": [
+          "Hat",
+          "Glove",
+          "Sock",
+          "Boots"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract links and multiple meanings; some items fit more than one potential group to encourage careful placement."
+  }
+}

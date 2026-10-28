@@ -1,0 +1,40 @@
+{
+  "theme": "insects and bugs",
+  "easy": {
+    "words": [
+      "ANT",
+      "BUG",
+      "BEE",
+      "FLEA",
+      "FLY",
+      "MITE",
+      "WASP",
+      "TERM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "MANTIS",
+      "CATERP",
+      "CICADA",
+      "BUTTER",
+      "JUMPER",
+      "HARLEQU",
+      "TERMIT",
+      "SPIDER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HONEYBEE",
+      "SCARABEE",
+      "CATERPILL",
+      "MEALWORM",
+      "FIREFLIES",
+      "PILLBUGS",
+      "ANALOGUE",
+      "GRASSHOP",
+      "SCORPION"
+    ]
+  }
+}

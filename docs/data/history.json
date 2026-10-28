@@ -308,7 +308,14 @@
     "TREE",
     "MOSS",
     "SPRY",
-    "PATH"
+    "PATH",
+    "ANT",
+    "BUG",
+    "BEE",
+    "FLY",
+    "MITE",
+    "WASP",
+    "TERM"
   ],
   "medium": [
     "MYSTIC",
@@ -604,7 +611,15 @@
     "NESTING",
     "CREEK",
     "SHADOW",
-    "FOLIAGE"
+    "FOLIAGE",
+    "MANTIS",
+    "CATERP",
+    "CICADA",
+    "BUTTER",
+    "JUMPER",
+    "HARLEQU",
+    "TERMIT",
+    "SPIDER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -847,6 +862,15 @@
     "WILDFLOWERS",
     "HABITAT",
     "NATURAL",
-    "EMERALD"
+    "EMERALD",
+    "HONEYBEE",
+    "SCARABEE",
+    "CATERPILL",
+    "MEALWORM",
+    "FIREFLIES",
+    "PILLBUGS",
+    "ANALOGUE",
+    "GRASSHOP",
+    "SCORPION"
   ]
 }

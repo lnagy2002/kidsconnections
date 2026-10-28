@@ -1,0 +1,41 @@
+{
+  "date": "10282026",
+  "levels": {
+    "easy": [
+      {
+        "q": "scissors : cut ::",
+        "choices": [
+          "cloud : rain",
+          "pencil : write",
+          "hammer : build",
+          "saw : cut"
+        ],
+        "answer": 3
+      }
+    ],
+    "medium": [
+      {
+        "q": "wool : sweater ::",
+        "choices": [
+          "cotton : shirt",
+          "plastic : bottle",
+          "metal : car",
+          "glass : window"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "desert : camel ::",
+        "choices": [
+          "forest : deer",
+          "ocean : whale",
+          "house : family",
+          "river : boat"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

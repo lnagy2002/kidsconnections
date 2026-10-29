@@ -1,0 +1,40 @@
+{
+  "theme": "the beach",
+  "easy": {
+    "words": [
+      "WAVE",
+      "BEACH",
+      "TIDE",
+      "FLOAT",
+      "DUNE",
+      "SHOVEL",
+      "SHELL",
+      "SANDY"
+    ]
+  },
+  "medium": {
+    "words": [
+      "SHELLS",
+      "SURFING",
+      "TOWEL",
+      "SUNBATHE",
+      "BASKET",
+      "COASTAL",
+      "KAYAKING",
+      "PARASAIL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SEAGULLS",
+      "CROSSBOW",
+      "BOOGIEBOARD",
+      "SANDWICHES",
+      "TRAMPOLINE",
+      "TENTACLES",
+      "ADVENTURE",
+      "SUNSCREEN",
+      "WATERSPORTS"
+    ]
+  }
+}

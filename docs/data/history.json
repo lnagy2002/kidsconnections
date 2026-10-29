@@ -315,7 +315,12 @@
     "FLY",
     "MITE",
     "WASP",
-    "TERM"
+    "TERM",
+    "BEACH",
+    "FLOAT",
+    "DUNE",
+    "SHOVEL",
+    "SHELL"
   ],
   "medium": [
     "MYSTIC",
@@ -619,7 +624,14 @@
     "JUMPER",
     "HARLEQU",
     "TERMIT",
-    "SPIDER"
+    "SPIDER",
+    "SHELLS",
+    "SURFING",
+    "TOWEL",
+    "SUNBATHE",
+    "COASTAL",
+    "KAYAKING",
+    "PARASAIL"
   ],
   "hard": [
     "EXEMPLARY",
@@ -871,6 +883,14 @@
     "PILLBUGS",
     "ANALOGUE",
     "GRASSHOP",
-    "SCORPION"
+    "SCORPION",
+    "SEAGULLS",
+    "CROSSBOW",
+    "BOOGIEBOARD",
+    "SANDWICHES",
+    "TRAMPOLINE",
+    "TENTACLES",
+    "SUNSCREEN",
+    "WATERSPORTS"
   ]
 }

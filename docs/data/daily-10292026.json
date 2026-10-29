@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10292026-E",
+    "generatedAt": "2026-10-29T06:12:11.137Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "pizza",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear on Your Feet",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "In the Classroom",
+        "items": [
+          "desk",
+          "pencil",
+          "chalk",
+          "book"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Yummy Snacks",
+        "items": [
+          "apple",
+          "cookie",
+          "banana",
+          "grapes"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Solve by spotting what the four items in each group have in common. Easy themes are concrete and visual."
+  },
+  "medium": {
+    "id": "10292026-M",
+    "generatedAt": "2026-10-29T06:12:11.137Z",
+    "groups": [
+      {
+        "name": "Books By This Word",
+        "items": [
+          "cook",
+          "note",
+          "text",
+          "story"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Box Partners (prefixes)",
+        "items": [
+          "shoe",
+          "mail",
+          "tool",
+          "gift"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Make a Ball Word",
+        "items": [
+          "snow",
+          "basket",
+          "fire",
+          "meat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "sun",
+          "fog",
+          "wind"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Each group hides a link to a common word or phrase. Some words may tempt you to group them differently, but only the intended match is correct."
+  },
+  "hard": {
+    "id": "10292026-H",
+    "generatedAt": "2026-10-29T06:12:11.137Z",
+    "groups": [
+      {
+        "name": "Words with Two Meanings (Noun/Verb)",
+        "items": [
+          "bat",
+          "park",
+          "bank",
+          "plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciation)",
+        "items": [
+          "lead",
+          "bass",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 'un' for Opposites",
+        "items": [
+          "able",
+          "usual",
+          "kind",
+          "happy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Make Agents with -er",
+        "items": [
+          "paint",
+          "read",
+          "bake",
+          "write"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract thinking. Look for words that behave differently in different contexts. Some items might tempt you to fit them into the wrong group, but only one is correct."
+  }
+}

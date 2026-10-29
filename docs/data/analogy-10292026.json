@@ -1,0 +1,41 @@
+{
+  "date": "10292026",
+  "levels": {
+    "easy": [
+      {
+        "q": "circle : wheel ::",
+        "choices": [
+          "square : box",
+          "triangle : hat",
+          "rectangle : book",
+          "oval : egg"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "broom : sweep ::",
+        "choices": [
+          "fork : eat",
+          "saw : cut",
+          "brush : paint",
+          "car : drive"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "ancient : modern ::",
+        "choices": [
+          "fast : slow",
+          "bright : dull",
+          "heavy : light",
+          "old : new"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

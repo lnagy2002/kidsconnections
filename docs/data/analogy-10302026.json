@@ -1,0 +1,41 @@
+{
+  "date": "10302026",
+  "levels": {
+    "easy": [
+      {
+        "q": "apple : tree ::",
+        "choices": [
+          "carrot : ground",
+          "banana : bush",
+          "grape : vine",
+          "potato : field"
+        ],
+        "answer": 2
+      }
+    ],
+    "medium": [
+      {
+        "q": "wheel : car ::",
+        "choices": [
+          "leaf : tree",
+          "leg : body",
+          "wing : bird",
+          "handle : door"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "ice : melt ::",
+        "choices": [
+          "sand : drip",
+          "snow : freeze",
+          "water : boil",
+          "rock : break"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

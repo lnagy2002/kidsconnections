@@ -14,7 +14,8 @@
     "dog : bark :: cat : purr",
     "cat : kitten :: car : garage",
     "scissors : cut :: saw : cut",
-    "circle : wheel :: square : box"
+    "circle : wheel :: square : box",
+    "apple : tree :: grape : vine"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -31,7 +32,8 @@
     "singer : choir :: footballer : team",
     "ruler : length :: thermometer : temperature",
     "wool : sweater :: cotton : shirt",
-    "broom : sweep :: saw : cut"
+    "broom : sweep :: saw : cut",
+    "wheel : car :: leg : body"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -48,6 +50,7 @@
     "dawn : dusk :: start : end",
     "problem : solution :: thirst : water",
     "desert : camel :: ocean : whale",
-    "ancient : modern :: old : new"
+    "ancient : modern :: old : new",
+    "ice : melt :: water : boil"
   ]
 }

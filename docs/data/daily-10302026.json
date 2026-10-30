@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10302026-E",
+    "generatedAt": "2026-10-30T06:12:12.799Z",
+    "groups": [
+      {
+        "name": "Group 1: Round Things",
+        "items": [
+          "Ball",
+          "Coin",
+          "Apple",
+          "Orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2: Headwear",
+        "items": [
+          "Hat",
+          "Cap",
+          "Beanie",
+          "Tiara"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3: Kitchen Helpers/Items",
+        "items": [
+          "Spoon",
+          "Plate",
+          "Cup",
+          "Pan"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4: Things that Fly",
+        "items": [
+          "Airplane",
+          "Kite",
+          "Balloon",
+          "Bird"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy: Visual, concrete categories with familiar items. Ensure the groups are distinct and kid-friendly."
+  },
+  "medium": {
+    "id": "10302026-M",
+    "generatedAt": "2026-10-30T06:12:12.799Z",
+    "groups": [
+      {
+        "name": "Group 1: Compound Words",
+        "items": [
+          "Sunflower",
+          "Toothbrush",
+          "Raincoat",
+          "Bookshelf"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2: Add 'un' to Opposites",
+        "items": [
+          "Usual",
+          "Happy",
+          "Clear",
+          "Certain"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3: Book-Word Pairs",
+        "items": [
+          "Note",
+          "Phone",
+          "Log",
+          "Guest"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4: Rhymes with 'Light'",
+        "items": [
+          "Bright",
+          "Flight",
+          "Night",
+          "White"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: Some cross-over temptation exists (words that could seem to belong to another group) but belong to one correct group."
+  },
+  "hard": {
+    "id": "10302026-H",
+    "generatedAt": "2026-10-30T06:12:12.799Z",
+    "groups": [
+      {
+        "name": "Group 1: Polysemous Nouns/Verbs",
+        "items": [
+          "Bat",
+          "Bank",
+          "Chip",
+          "Seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2: Add -er to form Occupations",
+        "items": [
+          "Bake",
+          "Draw",
+          "Write",
+          "Read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3: Over- Prefixes",
+        "items": [
+          "Look",
+          "Work",
+          "Turn",
+          "Flow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4: Weather Words",
+        "items": [
+          "Rain",
+          "Snow",
+          "Wind",
+          "Storm"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: Abstract connections and word-meaning nuances; ensure each item clearly belongs to its group and avoid cross-group ambiguity."
+  }
+}

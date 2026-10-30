@@ -1,0 +1,40 @@
+{
+  "theme": "jobs and helpers",
+  "easy": {
+    "words": [
+      "HELP",
+      "COOK",
+      "FARM",
+      "NURSE",
+      "CLEAN",
+      "WAIT",
+      "MAIL",
+      "DRIVE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DOCTOR",
+      "FISHER",
+      "POLICE",
+      "TELECOM",
+      "SERVER",
+      "DESIGN",
+      "OFFICE",
+      "JOURNAL"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ARCHITECT",
+      "EMBALMER",
+      "ELECTRICIAN",
+      "ACCOUNTANT",
+      "MECHANIC",
+      "PHOTOGRAPH",
+      "NUTRITION",
+      "DETECTIVE",
+      "FIREMAN"
+    ]
+  }
+}

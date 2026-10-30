@@ -320,7 +320,12 @@
     "FLOAT",
     "DUNE",
     "SHOVEL",
-    "SHELL"
+    "SHELL",
+    "HELP",
+    "COOK",
+    "WAIT",
+    "MAIL",
+    "DRIVE"
   ],
   "medium": [
     "MYSTIC",
@@ -631,7 +636,14 @@
     "SUNBATHE",
     "COASTAL",
     "KAYAKING",
-    "PARASAIL"
+    "PARASAIL",
+    "DOCTOR",
+    "FISHER",
+    "POLICE",
+    "TELECOM",
+    "SERVER",
+    "DESIGN",
+    "OFFICE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -891,6 +903,14 @@
     "TRAMPOLINE",
     "TENTACLES",
     "SUNSCREEN",
-    "WATERSPORTS"
+    "WATERSPORTS",
+    "ARCHITECT",
+    "EMBALMER",
+    "ELECTRICIAN",
+    "ACCOUNTANT",
+    "MECHANIC",
+    "PHOTOGRAPH",
+    "DETECTIVE",
+    "FIREMAN"
   ]
 }

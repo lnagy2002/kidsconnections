@@ -1,0 +1,19 @@
+{
+  "easy": "WIND",
+  "medium": "GLEAM",
+  "hard": "CLOUDS",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "The air that moves and can push a leaf."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A small shine you can see for a moment."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "White or gray shapes in the sky."
+    }
+  }
+}

@@ -325,7 +325,13 @@
     "COOK",
     "WAIT",
     "MAIL",
-    "DRIVE"
+    "DRIVE",
+    "CAP",
+    "SHOE",
+    "BAG",
+    "COAT",
+    "PANT",
+    "VEST"
   ],
   "medium": [
     "MYSTIC",
@@ -643,7 +649,15 @@
     "TELECOM",
     "SERVER",
     "DESIGN",
-    "OFFICE"
+    "OFFICE",
+    "JACKET",
+    "PULLOVER",
+    "SANDALS",
+    "BOOTIES",
+    "CARDIGAN",
+    "OVERALLS",
+    "BLOUSE",
+    "SWEATER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -911,6 +925,15 @@
     "MECHANIC",
     "PHOTOGRAPH",
     "DETECTIVE",
-    "FIREMAN"
+    "FIREMAN",
+    "ACCESSORY",
+    "KILTFULL",
+    "LEGGINGS",
+    "BLOUSELET",
+    "PINAFORE",
+    "PANTALONE",
+    "WAISTCOAT",
+    "SLIPPERS",
+    "HEADSCARF"
   ]
 }

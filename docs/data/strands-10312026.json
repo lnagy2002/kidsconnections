@@ -1,0 +1,40 @@
+{
+  "theme": "clothes",
+  "easy": {
+    "words": [
+      "HAT",
+      "CAP",
+      "TOP",
+      "SHOE",
+      "BAG",
+      "COAT",
+      "PANT",
+      "VEST"
+    ]
+  },
+  "medium": {
+    "words": [
+      "JACKET",
+      "PULLOVER",
+      "SANDALS",
+      "BOOTIES",
+      "CARDIGAN",
+      "OVERALLS",
+      "BLOUSE",
+      "SWEATER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ACCESSORY",
+      "KILTFULL",
+      "LEGGINGS",
+      "BLOUSELET",
+      "PINAFORE",
+      "PANTALONE",
+      "WAISTCOAT",
+      "SLIPPERS",
+      "HEADSCARF"
+    ]
+  }
+}

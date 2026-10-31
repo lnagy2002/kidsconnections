@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "10312026-E",
+    "generatedAt": "2026-10-31T06:05:33.400Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "tomato"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "shoe",
+          "sock",
+          "boot",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sky Things",
+        "items": [
+          "cloud",
+          "sun",
+          "kite",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Transport",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "skateboard"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy puzzle set for date 10312026."
+  },
+  "medium": {
+    "id": "10312026-M",
+    "generatedAt": "2026-10-31T06:05:33.400Z",
+    "groups": [
+      {
+        "name": "Pets",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Clothing on Top",
+        "items": [
+          "shirt",
+          "jacket",
+          "scarf",
+          "sweater"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Transport Modes",
+        "items": [
+          "train",
+          "plane",
+          "boat",
+          "scooter"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle features light wordplay and everyday terms."
+  },
+  "hard": {
+    "id": "10312026-H",
+    "generatedAt": "2026-10-31T06:05:33.400Z",
+    "groups": [
+      {
+        "name": "Polyseme Pairs",
+        "items": [
+          "bank",
+          "bat",
+          "spring",
+          "date"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromic Terms",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sun-Compound Friends",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "hat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Four-Legged Animals",
+        "items": [
+          "lion",
+          "wolf",
+          "bear",
+          "frog"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract links and multi-meaning words."
+  }
+}

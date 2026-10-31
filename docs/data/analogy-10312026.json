@@ -1,0 +1,41 @@
+{
+  "date": "10312026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "grass : green",
+          "car : fast",
+          "sky : blue",
+          "cloud : soft"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "library : read ::",
+        "choices": [
+          "gym : exercise",
+          "park : walk",
+          "shop : buy",
+          "school : play"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "rain : flood ::",
+        "choices": [
+          "wind : storm",
+          "snow : ice",
+          "heat : fire",
+          "sun : brightness"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

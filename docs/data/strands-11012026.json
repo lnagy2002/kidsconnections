@@ -1,0 +1,40 @@
+{
+  "theme": "birds",
+  "easy": {
+    "words": [
+      "OWL",
+      "EAGLE",
+      "DUCK",
+      "CRANE",
+      "FALCON",
+      "SPARROW",
+      "ROBIN",
+      "FLICK"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PARROT",
+      "HUMMING",
+      "FINCHES",
+      "PIGEON",
+      "BULBUL",
+      "GOLDFIN",
+      "SWALLOWS",
+      "AUKLETS"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ROBINSON",
+      "PEREGRINE",
+      "HERRING",
+      "BULLOCKS",
+      "SPARROWHAWK",
+      "SWALLOWTAIL",
+      "HONEYBIRD",
+      "NIGHTINGALE",
+      "COCKATIELS"
+    ]
+  }
+}

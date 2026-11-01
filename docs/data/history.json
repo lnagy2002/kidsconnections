@@ -331,7 +331,15 @@
     "BAG",
     "COAT",
     "PANT",
-    "VEST"
+    "VEST",
+    "OWL",
+    "EAGLE",
+    "DUCK",
+    "CRANE",
+    "FALCON",
+    "SPARROW",
+    "ROBIN",
+    "FLICK"
   ],
   "medium": [
     "MYSTIC",
@@ -657,7 +665,15 @@
     "CARDIGAN",
     "OVERALLS",
     "BLOUSE",
-    "SWEATER"
+    "SWEATER",
+    "PARROT",
+    "HUMMING",
+    "FINCHES",
+    "PIGEON",
+    "BULBUL",
+    "GOLDFIN",
+    "SWALLOWS",
+    "AUKLETS"
   ],
   "hard": [
     "EXEMPLARY",
@@ -934,6 +950,15 @@
     "PANTALONE",
     "WAISTCOAT",
     "SLIPPERS",
-    "HEADSCARF"
+    "HEADSCARF",
+    "ROBINSON",
+    "PEREGRINE",
+    "HERRING",
+    "BULLOCKS",
+    "SPARROWHAWK",
+    "SWALLOWTAIL",
+    "HONEYBIRD",
+    "NIGHTINGALE",
+    "COCKATIELS"
   ]
 }

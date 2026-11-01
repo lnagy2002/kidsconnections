@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11012026-E",
+    "generatedAt": "2026-11-01T06:35:51.459Z",
+    "groups": [
+      {
+        "name": "Handy Objects",
+        "items": [
+          "Spoon",
+          "Phone",
+          "Pencil",
+          "Ball"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Park Zone Items",
+        "items": [
+          "Swing",
+          "Tree",
+          "Pond",
+          "Slide"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Have",
+        "items": [
+          "Cat",
+          "Dog",
+          "Goldfish",
+          "Hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "Notebook",
+          "Eraser",
+          "Glue",
+          "Ruler"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, concrete categories ideal for quick Connections-style puzzles for kids."
+  },
+  "medium": {
+    "id": "11012026-M",
+    "generatedAt": "2026-11-01T06:35:51.459Z",
+    "groups": [
+      {
+        "name": "Fire-Related Phrases",
+        "items": [
+          "Alarm",
+          "Truck",
+          "Hydrant",
+          "Escape"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sea-Going Phrases",
+        "items": [
+          "Horse",
+          "Shell",
+          "Weed",
+          "Shore"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Compounds",
+        "items": [
+          "Flower",
+          "Rise",
+          "Burn",
+          "Beam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light-Word Pairs",
+        "items": [
+          "Moon",
+          "Star",
+          "Flash",
+          "Day"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Contains cross-over temptations: Moon/Star could hint at a sun-related group, and Flower could hint at sunflower-related connections."
+  },
+  "hard": {
+    "id": "11012026-H",
+    "generatedAt": "2026-11-01T06:35:51.459Z",
+    "groups": [
+      {
+        "name": "Two-Meanings (Noun & Verb)",
+        "items": [
+          "Park",
+          "Seal",
+          "Wave",
+          "Match"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Wearable Items",
+        "items": [
+          "Cap",
+          "Glove",
+          "Boot",
+          "Scarf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "Guitar",
+          "Drum",
+          "Piano",
+          "Violin"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Seating Furniture",
+        "items": [
+          "Chair",
+          "Stool",
+          "Couch",
+          "Sofa"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Abstract connections and polysemous terms create deeper puzzle work; some items may tempt players to swap groups, which is intentional for challenge."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date": "11012026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "kiwi : green",
+          "car : red",
+          "tree : brown",
+          "cloud : white"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "apple : fruit ::",
+        "choices": [
+          "rose : flower",
+          "carrot : vegetable",
+          "dog : animal",
+          "book : shelf"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "rapid : fast ::",
+        "choices": [
+          "devious : tricky",
+          "brilliant : smart",
+          "beautiful : pretty",
+          "angry : mad"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

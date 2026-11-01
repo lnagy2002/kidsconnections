@@ -16,7 +16,8 @@
     "scissors : cut :: saw : cut",
     "circle : wheel :: square : box",
     "apple : tree :: grape : vine",
-    "banana : yellow :: grass : green"
+    "banana : yellow :: grass : green",
+    "banana : yellow :: kiwi : green"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -35,7 +36,8 @@
     "wool : sweater :: cotton : shirt",
     "broom : sweep :: saw : cut",
     "wheel : car :: leg : body",
-    "library : read :: gym : exercise"
+    "library : read :: gym : exercise",
+    "apple : fruit :: carrot : vegetable"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -54,6 +56,7 @@
     "desert : camel :: ocean : whale",
     "ancient : modern :: old : new",
     "ice : melt :: water : boil",
-    "rain : flood :: wind : storm"
+    "rain : flood :: wind : storm",
+    "rapid : fast :: devious : tricky"
   ]
 }

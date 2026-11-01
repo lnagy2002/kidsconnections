@@ -1,0 +1,19 @@
+{
+  "easy": "TIDE",
+  "medium": "TRAIN",
+  "hard": "CLOVER",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "The ocean water rises and falls twice a day."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A vehicle with wheels moved on rails."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A small green plant with three heart shaped leaves."
+    }
+  }
+}

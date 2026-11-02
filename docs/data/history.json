@@ -339,7 +339,15 @@
     "FALCON",
     "SPARROW",
     "ROBIN",
-    "FLICK"
+    "FLICK",
+    "FOSSIL",
+    "EGG",
+    "TAIL",
+    "ROAR",
+    "CLAW",
+    "JAW",
+    "BONE",
+    "WING"
   ],
   "medium": [
     "MYSTIC",
@@ -673,7 +681,15 @@
     "BULBUL",
     "GOLDFIN",
     "SWALLOWS",
-    "AUKLETS"
+    "AUKLETS",
+    "DINOSAUR",
+    "HERBIVORE",
+    "CARNIVORE",
+    "FOSSILS",
+    "TERRAS",
+    "GIGANTIC",
+    "VELOCITY",
+    "STEGOSAUR"
   ],
   "hard": [
     "EXEMPLARY",
@@ -959,6 +975,15 @@
     "SWALLOWTAIL",
     "HONEYBIRD",
     "NIGHTINGALE",
-    "COCKATIELS"
+    "COCKATIELS",
+    "PALEONTOLOGY",
+    "MEGALOSAURUS",
+    "DIPLODOCUS",
+    "SPECIATION",
+    "PREDATORS",
+    "EVOLUTION",
+    "EXCAVATION",
+    "DINOSAURUS",
+    "ANCIENT"
   ]
 }

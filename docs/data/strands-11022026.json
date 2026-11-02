@@ -1,0 +1,40 @@
+{
+  "theme": "dinosaurs",
+  "easy": {
+    "words": [
+      "FOSSIL",
+      "EGG",
+      "TAIL",
+      "ROAR",
+      "CLAW",
+      "JAW",
+      "BONE",
+      "WING"
+    ]
+  },
+  "medium": {
+    "words": [
+      "DINOSAUR",
+      "HERBIVORE",
+      "CARNIVORE",
+      "FOSSILS",
+      "TERRAS",
+      "GIGANTIC",
+      "VELOCITY",
+      "STEGOSAUR"
+    ]
+  },
+  "hard": {
+    "words": [
+      "PALEONTOLOGY",
+      "MEGALOSAURUS",
+      "DIPLODOCUS",
+      "SPECIATION",
+      "PREDATORS",
+      "EVOLUTION",
+      "EXCAVATION",
+      "DINOSAURUS",
+      "ANCIENT"
+    ]
+  }
+}

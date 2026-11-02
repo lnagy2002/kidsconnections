@@ -1,0 +1,41 @@
+{
+  "date": "11022026",
+  "levels": {
+    "easy": [
+      {
+        "q": "dog : bark ::",
+        "choices": [
+          "cat : purr",
+          "cow : moo",
+          "fish : swim",
+          "bird : chirp"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "apple : fruit ::",
+        "choices": [
+          "dog : animal",
+          "car : vehicle",
+          "rose : flower",
+          "spider : insect"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "rapid : fast ::",
+        "choices": [
+          "swift : quick",
+          "silent : loud",
+          "end : finish",
+          "bright : dark"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

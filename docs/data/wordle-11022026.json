@@ -1,0 +1,19 @@
+{
+  "easy": "NEST",
+  "medium": "GRAPE",
+  "hard": "BEACON",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A place where birds lay eggs and raise their young."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A round fruit with sweet juice and a soft skin."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A bright guiding sign that helps you find your way."
+    }
+  }
+}

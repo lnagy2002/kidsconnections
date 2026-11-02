@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11022026-E",
+    "generatedAt": "2026-11-02T06:35:28.267Z",
+    "groups": [
+      {
+        "name": "Things that are red",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets you can own",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen basics",
+        "items": [
+          "spoon",
+          "fork",
+          "cup",
+          "pan"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy groups with concrete visuals. Each group has 4 items; no repeats across easy puzzles."
+  },
+  "medium": {
+    "id": "11022026-M",
+    "generatedAt": "2026-11-02T06:35:28.267Z",
+    "groups": [
+      {
+        "name": "Color-based compounds",
+        "items": [
+          "bluebird",
+          "greenhouse",
+          "blackboard",
+          "whiteboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-related compounds",
+        "items": [
+          "notebook",
+          "cookbook",
+          "guidebook",
+          "textbook"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Other common compounds",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "toothbrush",
+          "keyboard"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that can be nouns and verbs",
+        "items": [
+          "drill",
+          "brush",
+          "jump",
+          "roll"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Contains mild cross-over temptations: some items could seem to fit another group (e.g., 'brush' as a tool; 'keyboard' as computer related), but each item belongs to the group listed above."
+  },
+  "hard": {
+    "id": "11022026-H",
+    "generatedAt": "2026-11-02T06:35:28.267Z",
+    "groups": [
+      {
+        "name": "Polysemous words (multiple meanings)",
+        "items": [
+          "bat",
+          "spring",
+          "crane",
+          "bank"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones",
+        "items": [
+          "knight",
+          "sun",
+          "right",
+          "pair"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Add 'un' to form opposites",
+        "items": [
+          "happy",
+          "likely",
+          "cool",
+          "tidy"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sense-related actions",
+        "items": [
+          "see",
+          "hear",
+          "smell",
+          "taste"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy. There are deliberate cross-over temptations: some words could hint at other group themes, but each item belongs to its own defined group."
+  }
+}

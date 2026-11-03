@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11032026-E",
+    "generatedAt": "2026-11-03T07:05:06.791Z",
+    "groups": [
+      {
+        "name": "Footwear Frenzy",
+        "items": [
+          "sneakers",
+          "sandals",
+          "boots",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "orb"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets in the House",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fresh Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "pear"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 11/03/2026 puzzle set. Easy groups focus on concrete, visual connections. No item repeats across all difficulties."
+  },
+  "medium": {
+    "id": "11032026-M",
+    "generatedAt": "2026-11-03T07:05:06.791Z",
+    "groups": [
+      {
+        "name": "Words to add 're' to",
+        "items": [
+          "do",
+          "act",
+          "mark",
+          "wind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "House-words forming 'house' compounds",
+        "items": [
+          "tree",
+          "boat",
+          "farm",
+          "green"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Notable animals",
+        "items": [
+          "horse",
+          "lion",
+          "otter",
+          "yak"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common kitchen items",
+        "items": [
+          "spoon",
+          "pan",
+          "knife",
+          "bowl"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses cross-over wordplay. Some items might seem to fit other groups but belong to their named theme."
+  },
+  "hard": {
+    "id": "11032026-H",
+    "generatedAt": "2026-11-03T07:05:06.791Z",
+    "groups": [
+      {
+        "name": "Colors that are foods",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "olive"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemous words (multiple meanings)",
+        "items": [
+          "bank",
+          "bat",
+          "ring",
+          "trip"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fire-related phrases",
+        "items": [
+          "fly",
+          "truck",
+          "place",
+          "storm"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that take -ful to form adjectives",
+        "items": [
+          "care",
+          "play",
+          "hope",
+          "help"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle leans on abstract connections and polysemy. Some items might tempt you to group them elsewhere, but each item fits only its designated group."
+  }
+}

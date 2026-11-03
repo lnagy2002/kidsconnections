@@ -1,0 +1,40 @@
+{
+  "theme": "the city",
+  "easy": {
+    "words": [
+      "CITY",
+      "HALL",
+      "ROAD",
+      "PARK",
+      "STREET",
+      "HOUSE",
+      "TOWN",
+      "LIGHT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUILDING",
+      "MARKET",
+      "PEDESTRIAN",
+      "PAVEMENT",
+      "JUNCTION",
+      "SUBURBAN",
+      "TRAFFIC",
+      "NEIGHBOR"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CONSTRUCTION",
+      "DEMOGRAPHIC",
+      "EXPLORATION",
+      "ENVIRONMENT",
+      "COMMUNITY",
+      "EXHIBITION",
+      "POPULATION",
+      "URBANIZATION",
+      "SUSTAINABLE"
+    ]
+  }
+}

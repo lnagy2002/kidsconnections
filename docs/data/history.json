@@ -347,7 +347,14 @@
     "CLAW",
     "JAW",
     "BONE",
-    "WING"
+    "WING",
+    "CITY",
+    "HALL",
+    "ROAD",
+    "STREET",
+    "HOUSE",
+    "TOWN",
+    "LIGHT"
   ],
   "medium": [
     "MYSTIC",
@@ -689,7 +696,15 @@
     "TERRAS",
     "GIGANTIC",
     "VELOCITY",
-    "STEGOSAUR"
+    "STEGOSAUR",
+    "BUILDING",
+    "MARKET",
+    "PEDESTRIAN",
+    "PAVEMENT",
+    "JUNCTION",
+    "SUBURBAN",
+    "TRAFFIC",
+    "NEIGHBOR"
   ],
   "hard": [
     "EXEMPLARY",
@@ -984,6 +999,14 @@
     "EVOLUTION",
     "EXCAVATION",
     "DINOSAURUS",
-    "ANCIENT"
+    "ANCIENT",
+    "CONSTRUCTION",
+    "DEMOGRAPHIC",
+    "ENVIRONMENT",
+    "COMMUNITY",
+    "EXHIBITION",
+    "POPULATION",
+    "URBANIZATION",
+    "SUSTAINABLE"
   ]
 }

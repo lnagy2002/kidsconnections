@@ -1,0 +1,41 @@
+{
+  "date": "11032026",
+  "levels": {
+    "easy": [
+      {
+        "q": "rain : raincoat ::",
+        "choices": [
+          "snow : mittens",
+          "sun : sunglasses",
+          "storm : umbrella",
+          "wind : kite"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "hammer : carpenter ::",
+        "choices": [
+          "pencil : artist",
+          "saw : worker",
+          "drill : engineer",
+          "knife : cook"
+        ],
+        "answer": 3
+      }
+    ],
+    "hard": [
+      {
+        "q": "5 : 10 ::",
+        "choices": [
+          "3 : 6",
+          "8 : 16",
+          "2 : 4",
+          "4 : 8"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

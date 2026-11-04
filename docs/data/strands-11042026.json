@@ -1,0 +1,40 @@
+{
+  "theme": "camping",
+  "easy": {
+    "words": [
+      "CAMP",
+      "FIRE",
+      "HIKING",
+      "TRAIL",
+      "SLEEP",
+      "RIVER",
+      "STARS",
+      "NIGHT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "OUTDOOR",
+      "WILDER",
+      "CAMPER",
+      "BACKPACK",
+      "FISHING",
+      "HORIZON",
+      "BARRACK",
+      "TROOP"
+    ]
+  },
+  "hard": {
+    "words": [
+      "EXCURSION",
+      "TENTCAMP",
+      "WILDLIFE",
+      "CAMPFIRE",
+      "MULTIPLE",
+      "JOURNEY",
+      "SURVIVAL",
+      "CAMPUS",
+      "SCOUTING"
+    ]
+  }
+}

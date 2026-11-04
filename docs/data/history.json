@@ -354,7 +354,13 @@
     "STREET",
     "HOUSE",
     "TOWN",
-    "LIGHT"
+    "LIGHT",
+    "HIKING",
+    "TRAIL",
+    "SLEEP",
+    "RIVER",
+    "STARS",
+    "NIGHT"
   ],
   "medium": [
     "MYSTIC",
@@ -704,7 +710,14 @@
     "JUNCTION",
     "SUBURBAN",
     "TRAFFIC",
-    "NEIGHBOR"
+    "NEIGHBOR",
+    "OUTDOOR",
+    "WILDER",
+    "CAMPER",
+    "BACKPACK",
+    "FISHING",
+    "BARRACK",
+    "TROOP"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1007,6 +1020,14 @@
     "EXHIBITION",
     "POPULATION",
     "URBANIZATION",
-    "SUSTAINABLE"
+    "SUSTAINABLE",
+    "EXCURSION",
+    "TENTCAMP",
+    "WILDLIFE",
+    "CAMPFIRE",
+    "MULTIPLE",
+    "SURVIVAL",
+    "CAMPUS",
+    "SCOUTING"
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "date": "11042026",
+  "levels": {
+    "easy": [
+      {
+        "q": "bird : nest ::",
+        "choices": [
+          "dog : house",
+          "fish : water",
+          "cat : basket",
+          "frog : pond"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "singer : choir ::",
+        "choices": [
+          "player : team",
+          "teacher : book",
+          "painter : canvas",
+          "dancer : rhythm"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "rapid : fast ::",
+        "choices": [
+          "happy : joyful",
+          "difficult : hard",
+          "silent : loud",
+          "nasty : mean"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

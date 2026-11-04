@@ -19,7 +19,8 @@
     "banana : yellow :: grass : green",
     "banana : yellow :: kiwi : green",
     "dog : bark :: cow : moo",
-    "rain : raincoat :: sun : sunglasses"
+    "rain : raincoat :: sun : sunglasses",
+    "bird : nest :: dog : house"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -41,7 +42,8 @@
     "library : read :: gym : exercise",
     "apple : fruit :: carrot : vegetable",
     "apple : fruit :: rose : flower",
-    "hammer : carpenter :: knife : cook"
+    "hammer : carpenter :: knife : cook",
+    "singer : choir :: player : team"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -63,6 +65,7 @@
     "rain : flood :: wind : storm",
     "rapid : fast :: devious : tricky",
     "rapid : fast :: swift : quick",
-    "5 : 10 :: 2 : 4"
+    "5 : 10 :: 2 : 4",
+    "rapid : fast :: happy : joyful"
   ]
 }

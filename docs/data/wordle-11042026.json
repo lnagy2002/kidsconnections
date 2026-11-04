@@ -1,0 +1,19 @@
+{
+  "easy": "STAR",
+  "medium": "APPLE",
+  "hard": "BANANA",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A bright point in the sky that shines at night."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A round fruit that can be red, green, or yellow."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A long yellow fruit that is soft inside."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11042026-E",
+    "generatedAt": "2026-11-04T06:50:35.151Z",
+    "groups": [
+      {
+        "name": "Round-ish Objects",
+        "items": [
+          "ball",
+          "coin",
+          "disc",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things You Wear",
+        "items": [
+          "hat",
+          "scarf",
+          "gloves",
+          "boots"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Food You Bite",
+        "items": [
+          "apple",
+          "banana",
+          "carrot",
+          "bread"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Four-Legged Friends",
+        "items": [
+          "dog",
+          "cat",
+          "cow",
+          "lion"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle set for 11042026. Concrete, visual groupings."
+  },
+  "medium": {
+    "id": "11042026-M",
+    "generatedAt": "2026-11-04T06:50:35.151Z",
+    "groups": [
+      {
+        "name": "Boxy Compounds",
+        "items": [
+          "mail",
+          "tool",
+          "shoe",
+          "match"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Hand Words",
+        "items": [
+          "book",
+          "print",
+          "shake",
+          "stand"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Pairings",
+        "items": [
+          "rise",
+          "flower",
+          "set",
+          "shade"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Words",
+        "items": [
+          "fall",
+          "melon",
+          "color",
+          "proof"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce simple wordplay and cross-over temptations. Each set stays unique."
+  },
+  "hard": {
+    "id": "11042026-H",
+    "generatedAt": "2026-11-04T06:50:35.151Z",
+    "groups": [
+      {
+        "name": "Polysemous Pairs",
+        "items": [
+          "bat",
+          "spring",
+          "seal",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verbs",
+        "items": [
+          "play",
+          "drive",
+          "store",
+          "watch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals",
+        "items": [
+          "bear",
+          "owl",
+          "yak",
+          "goat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "pear",
+          "plum",
+          "kiwi",
+          "mango"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set explores words with multiple meanings and dual roles. Look for cross-over temptations."
+  }
+}

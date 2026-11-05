@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11052026-E",
+    "generatedAt": "2026-11-05T07:09:36.889Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "COIN",
+          "MOON",
+          "WHEEL",
+          "PIE"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "HAT",
+          "CAP",
+          "BEANIE",
+          "HELMET"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Eating Utensils",
+        "items": [
+          "KNIFE",
+          "FORK",
+          "SPOON",
+          "CUP"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Know",
+        "items": [
+          "DOG",
+          "CAT",
+          "FISH",
+          "BIRD"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle set for early learners. Each group has a clear, concrete theme."
+  },
+  "medium": {
+    "id": "11052026-M",
+    "generatedAt": "2026-11-05T07:09:36.889Z",
+    "groups": [
+      {
+        "name": "Book-Word Pairs",
+        "items": [
+          "NOTE",
+          "PHONE",
+          "STORY",
+          "TEXT"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Musical Instruments",
+        "items": [
+          "GUITAR",
+          "DRUM",
+          "PIANO",
+          "FLUTE"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Cleaning Tools",
+        "items": [
+          "MOP",
+          "BROOM",
+          "CLOTH",
+          "DUSTPAN"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Bird Names",
+        "items": [
+          "EAGLE",
+          "SPARROW",
+          "PIGEON",
+          "OWL"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay; one item (NOTE) might tempt you to group with music (notes) but belongs with book-word pairs."
+  },
+  "hard": {
+    "id": "11052026-H",
+    "generatedAt": "2026-11-05T07:09:36.889Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Polysemes",
+        "items": [
+          "DUST",
+          "LOAD",
+          "PARK",
+          "SEED"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "KNIGHT",
+          "PSALM",
+          "KNACK",
+          "KNOW"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "CIRCLE",
+          "SQUARE",
+          "TRIANGLE",
+          "PENTAGON"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colors That Describe Things",
+        "items": [
+          "RED",
+          "BLUE",
+          "GREEN",
+          "ORANGE"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles use abstract connections and polysemes; there are tempting cross-overs (e.g., DUST as a verb vs noun, KNIGHT vs NIGHT) to challenge careful grouping."
+  }
+}

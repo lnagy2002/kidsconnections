@@ -1,0 +1,19 @@
+{
+  "easy": "WIND",
+  "medium": "CLOUD",
+  "hard": "SCALES",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "Air in motion that can move leaves."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "Visible water droplets or ice in the sky."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "Hard plates that grow on fish or reptiles."
+    }
+  }
+}

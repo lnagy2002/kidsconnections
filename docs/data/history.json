@@ -360,7 +360,12 @@
     "SLEEP",
     "RIVER",
     "STARS",
-    "NIGHT"
+    "NIGHT",
+    "LEMON",
+    "PEACH",
+    "CARROT",
+    "ONION",
+    "BEANS"
   ],
   "medium": [
     "MYSTIC",
@@ -717,7 +722,13 @@
     "BACKPACK",
     "FISHING",
     "BARRACK",
-    "TROOP"
+    "TROOP",
+    "ORANGE",
+    "BROCCOLI",
+    "RUTABAGA",
+    "ZUCCHINI",
+    "SPINACH",
+    "CABBAGE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1028,6 +1039,15 @@
     "MULTIPLE",
     "SURVIVAL",
     "CAMPUS",
-    "SCOUTING"
+    "SCOUTING",
+    "WATERMELON",
+    "CUCUMBER",
+    "TOMATILLO",
+    "SQUASH",
+    "EGGPLANT",
+    "PERSIMMON",
+    "BLUEBERRY",
+    "CLEMENTINE",
+    "PINEAPPLE"
   ]
 }

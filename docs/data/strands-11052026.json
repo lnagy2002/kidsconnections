@@ -1,0 +1,40 @@
+{
+  "theme": "fruits and vegetables",
+  "easy": {
+    "words": [
+      "APPLE",
+      "GRAPE",
+      "LEMON",
+      "PEACH",
+      "PLUM",
+      "CARROT",
+      "ONION",
+      "BEANS"
+    ]
+  },
+  "medium": {
+    "words": [
+      "ORANGE",
+      "BANANA",
+      "BROCCOLI",
+      "PUMPKIN",
+      "RUTABAGA",
+      "ZUCCHINI",
+      "SPINACH",
+      "CABBAGE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "WATERMELON",
+      "CUCUMBER",
+      "TOMATILLO",
+      "SQUASH",
+      "EGGPLANT",
+      "PERSIMMON",
+      "BLUEBERRY",
+      "CLEMENTINE",
+      "PINEAPPLE"
+    ]
+  }
+}

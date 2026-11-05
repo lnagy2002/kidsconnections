@@ -1,0 +1,41 @@
+{
+  "date": "11052026",
+  "levels": {
+    "easy": [
+      {
+        "q": "eyes : see ::",
+        "choices": [
+          "hands : touch",
+          "ears : listen",
+          "mouth : speak",
+          "nose : smell"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "hammer : carpenter ::",
+        "choices": [
+          "spade : gardener",
+          "string : musician",
+          "paint : artist",
+          "pencil : teacher"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "warm : hot ::",
+        "choices": [
+          "bright : dazzling",
+          "soft : rough",
+          "calm : stormy",
+          "loud : silent"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

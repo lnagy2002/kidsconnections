@@ -1,0 +1,41 @@
+{
+  "date": "11062026",
+  "levels": {
+    "easy": [
+      {
+        "q": "apple : fruit ::",
+        "choices": [
+          "car : garage",
+          "banana : yellow",
+          "grape : vine",
+          "peach : tree"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "hammer : carpenter ::",
+        "choices": [
+          "pencil : teacher",
+          "guitar : musician",
+          "spoon : chef",
+          "shovel : gardener"
+        ],
+        "answer": 3
+      }
+    ],
+    "hard": [
+      {
+        "q": "desert : camel ::",
+        "choices": [
+          "forest : bear",
+          "ocean : shark",
+          "mountain : eagle",
+          "field : rabbit"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

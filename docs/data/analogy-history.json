@@ -21,7 +21,8 @@
     "dog : bark :: cow : moo",
     "rain : raincoat :: sun : sunglasses",
     "bird : nest :: dog : house",
-    "eyes : see :: hands : touch"
+    "eyes : see :: hands : touch",
+    "apple : fruit :: car : garage"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -45,7 +46,8 @@
     "apple : fruit :: rose : flower",
     "hammer : carpenter :: knife : cook",
     "singer : choir :: player : team",
-    "hammer : carpenter :: spade : gardener"
+    "hammer : carpenter :: spade : gardener",
+    "hammer : carpenter :: shovel : gardener"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -69,6 +71,7 @@
     "rapid : fast :: swift : quick",
     "5 : 10 :: 2 : 4",
     "rapid : fast :: happy : joyful",
-    "warm : hot :: bright : dazzling"
+    "warm : hot :: bright : dazzling",
+    "desert : camel :: ocean : shark"
   ]
 }

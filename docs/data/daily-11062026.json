@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11062026-E",
+    "generatedAt": "2026-11-06T07:09:19.025Z",
+    "groups": [
+      {
+        "name": "Bright Objects",
+        "items": [
+          "sun",
+          "lamp",
+          "cloud",
+          "rainbow"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "cat",
+          "dog",
+          "frog",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Helpers",
+        "items": [
+          "book",
+          "eraser",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Snack Time",
+        "items": [
+          "banana",
+          "carrot",
+          "grape",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy puzzle: 4 concrete themes with 4 items each. All items are kid-friendly and unique."
+  },
+  "medium": {
+    "id": "11062026-M",
+    "generatedAt": "2026-11-06T07:09:19.025Z",
+    "groups": [
+      {
+        "name": "Action Words",
+        "items": [
+          "run",
+          "sing",
+          "write",
+          "draw"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Park Scene",
+        "items": [
+          "bench",
+          "tree",
+          "squirrel",
+          "pond"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "square",
+          "circle",
+          "triangle",
+          "rectangle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "wind",
+          "rain",
+          "snow",
+          "fog"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with simple wordplay and categorization. Watch for cross-over temptations (words that could fit other groups)."
+  },
+  "hard": {
+    "id": "11062026-H",
+    "generatedAt": "2026-11-06T07:09:19.025Z",
+    "groups": [
+      {
+        "name": "Pronunciation Pals",
+        "items": [
+          "bow",
+          "lead",
+          "row",
+          "close"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Double-Duty Words",
+        "items": [
+          "bank",
+          "crane",
+          "coach",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Name Pairs",
+        "items": [
+          "seal",
+          "bear",
+          "mouse",
+          "crow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Quick Action Verbs",
+        "items": [
+          "tap",
+          "snap",
+          "dump",
+          "race"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle uses words with multiple pronunciations and meanings. Cross-over temptations are deliberate to challenge sleuthing."
+  }
+}

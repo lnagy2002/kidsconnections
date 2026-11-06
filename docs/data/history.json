@@ -365,7 +365,15 @@
     "PEACH",
     "CARROT",
     "ONION",
-    "BEANS"
+    "BEANS",
+    "ARM",
+    "LEG",
+    "TOE",
+    "LIP",
+    "SKIN",
+    "NOSE",
+    "HAND",
+    "EYE"
   ],
   "medium": [
     "MYSTIC",
@@ -728,7 +736,15 @@
     "RUTABAGA",
     "ZUCCHINI",
     "SPINACH",
-    "CABBAGE"
+    "CABBAGE",
+    "ELBOW",
+    "SHOULD",
+    "ANKLE",
+    "WAIST",
+    "THIGH",
+    "HEART",
+    "BRAIN",
+    "LIVER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1048,6 +1064,14 @@
     "PERSIMMON",
     "BLUEBERRY",
     "CLEMENTINE",
-    "PINEAPPLE"
+    "PINEAPPLE",
+    "HUMANITY",
+    "PULMONARY",
+    "DIGESTIVE",
+    "INTEGUMENT",
+    "RESPIRATORY",
+    "CARTILAGE",
+    "SKELETAL",
+    "ABDOMINAL"
   ]
 }

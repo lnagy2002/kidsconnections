@@ -1,0 +1,40 @@
+{
+  "theme": "the body",
+  "easy": {
+    "words": [
+      "ARM",
+      "LEG",
+      "TOE",
+      "LIP",
+      "SKIN",
+      "NOSE",
+      "HAND",
+      "EYE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "ELBOW",
+      "SHOULD",
+      "ANKLE",
+      "WAIST",
+      "THIGH",
+      "HEART",
+      "BRAIN",
+      "LIVER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "HUMANITY",
+      "PULMONARY",
+      "CIRCULATE",
+      "DIGESTIVE",
+      "INTEGUMENT",
+      "RESPIRATORY",
+      "CARTILAGE",
+      "SKELETAL",
+      "ABDOMINAL"
+    ]
+  }
+}

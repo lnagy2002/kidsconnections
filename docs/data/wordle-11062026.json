@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "MAGIC",
+  "hard": "CLOUDS",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A lamp shines light in a room."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "Something wonderful that makes you think of fantasy and surprise."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "White puffy shapes in the sky that you can see from the ground."
+    }
+  }
+}

@@ -373,7 +373,14 @@
     "SKIN",
     "NOSE",
     "HAND",
-    "EYE"
+    "EYE",
+    "GIFT",
+    "CAKE",
+    "JULY",
+    "PARADE",
+    "CAROL",
+    "FAMILY",
+    "TRIP"
   ],
   "medium": [
     "MYSTIC",
@@ -744,7 +751,11 @@
     "THIGH",
     "HEART",
     "BRAIN",
-    "LIVER"
+    "LIVER",
+    "HOLIDAY",
+    "CHRISTMAS",
+    "NEWYEAR",
+    "DECORATE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1072,6 +1083,14 @@
     "RESPIRATORY",
     "CARTILAGE",
     "SKELETAL",
-    "ABDOMINAL"
+    "ABDOMINAL",
+    "CELEBRATION",
+    "DECEMBER",
+    "ANNIVERSARY",
+    "HAPPINESS",
+    "REUNION",
+    "EXCITEMENT",
+    "SATISFACTION",
+    "PHOTOGRAPHY"
   ]
 }

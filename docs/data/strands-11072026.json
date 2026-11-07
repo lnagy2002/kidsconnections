@@ -1,0 +1,40 @@
+{
+  "theme": "holidays",
+  "easy": {
+    "words": [
+      "GIFT",
+      "CAKE",
+      "FEST",
+      "JULY",
+      "PARADE",
+      "CAROL",
+      "FAMILY",
+      "TRIP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "CANDLE",
+      "BALLOON",
+      "HOLIDAY",
+      "CHRISTMAS",
+      "NEWYEAR",
+      "FESTIVE",
+      "DECORATE",
+      "SPARKLE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CELEBRATION",
+      "TRADITIONAL",
+      "DECEMBER",
+      "ANNIVERSARY",
+      "HAPPINESS",
+      "REUNION",
+      "EXCITEMENT",
+      "SATISFACTION",
+      "PHOTOGRAPHY"
+    ]
+  }
+}

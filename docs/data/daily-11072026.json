@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11072026-E",
+    "generatedAt": "2026-11-07T06:21:14.160Z",
+    "groups": [
+      {
+        "name": "Snack Time",
+        "items": [
+          "apple",
+          "cheese",
+          "crackers",
+          "popcorn"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Classroom Tools",
+        "items": [
+          "pencil",
+          "notebook",
+          "eraser",
+          "glue"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Pets You Might Know",
+        "items": [
+          "cat",
+          "dog",
+          "rabbit",
+          "fish"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheels in Motion",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly easy-level connections using concrete items."
+  },
+  "medium": {
+    "id": "11072026-M",
+    "generatedAt": "2026-11-07T06:21:14.160Z",
+    "groups": [
+      {
+        "name": "Sun Compounds",
+        "items": [
+          "ray",
+          "rise",
+          "set",
+          "flower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Book-Word Builders",
+        "items": [
+          "case",
+          "let",
+          "mark",
+          "worm"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water Pair Words",
+        "items": [
+          "bottle",
+          "park",
+          "melon",
+          "fall"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Music Terms",
+        "items": [
+          "note",
+          "scale",
+          "chord",
+          "tempo"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and light compound-word ideas with a few tempting overlaps."
+  },
+  "hard": {
+    "id": "11072026-H",
+    "generatedAt": "2026-11-07T06:21:14.160Z",
+    "groups": [
+      {
+        "name": "Polyseme Parade",
+        "items": [
+          "bank",
+          "bat",
+          "ring",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronym Hangout",
+        "items": [
+          "wind",
+          "tear",
+          "bow",
+          "read"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Drop-First Letter",
+        "items": [
+          "stone",
+          "glove",
+          "cream",
+          "dream"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Colorful Objects",
+        "items": [
+          "orange",
+          "olive",
+          "peach",
+          "plum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and words with multiple meanings, plus a few tricky overlaps to test careful grouping."
+  }
+}

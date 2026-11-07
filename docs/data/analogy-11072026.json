@@ -1,0 +1,41 @@
+{
+  "date": "11072026",
+  "levels": {
+    "easy": [
+      {
+        "q": "rain : raincoat ::",
+        "choices": [
+          "snow : mittens",
+          "sun : shades",
+          "cloud : sky",
+          "wind : kite"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "chef : kitchen ::",
+        "choices": [
+          "teacher : school",
+          "doctor : hospital",
+          "pilot : airplane",
+          "farmer : field"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "warm : hot ::",
+        "choices": [
+          "cool : cold",
+          "tired : exhausted",
+          "bright : flashy",
+          "small : tiny"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

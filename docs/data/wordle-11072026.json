@@ -1,0 +1,19 @@
+{
+  "easy": "LION",
+  "medium": "SHINE",
+  "hard": "POWDER",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A large wild cat that roams open grasslands."
+    },
+    "medium": {
+      "pos": "verb",
+      "text": "To glow or reflect light."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A fine dry grain used in many products."
+    }
+  }
+}

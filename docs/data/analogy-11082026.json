@@ -1,0 +1,41 @@
+{
+  "date": "11082026",
+  "levels": {
+    "easy": [
+      {
+        "q": "apple : tree ::",
+        "choices": [
+          "carrot : ground",
+          "tomato : bush",
+          "potato : soil",
+          "lettuce : garden"
+        ],
+        "answer": 2
+      }
+    ],
+    "medium": [
+      {
+        "q": "wheel : car ::",
+        "choices": [
+          "leaf : tree",
+          "finger : hand",
+          "seat : chair",
+          "spoon : fork"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "hexagon : 6 sides ::",
+        "choices": [
+          "triangle : 4 sides",
+          "square : 4 sides",
+          "circle : 0 sides",
+          "octagon : 8 sides"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "MUSIC",
+  "hard": "SPRING",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A small light that helps you see at night."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A form of art with melody and rhythm that people listen to."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A season after winter when flowers grow."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "theme": "art and colors",
+  "easy": {
+    "words": [
+      "ART",
+      "RED",
+      "BLUE",
+      "INK",
+      "PEN",
+      "DAB",
+      "RAY",
+      "HUE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PAINT",
+      "CRAYON",
+      "CANVAS",
+      "COLORFUL",
+      "BRUSHES",
+      "SHADING",
+      "CHARCOAL",
+      "SPRAYING"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ABSTRACT",
+      "COLLAGE",
+      "WATERCOLOR",
+      "SILHOUETTE",
+      "PORTRAIT",
+      "PRACTICAL",
+      "IMPRESSION",
+      "REALISTIC",
+      "GEOMETRIC"
+    ]
+  }
+}

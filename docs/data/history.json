@@ -380,7 +380,14 @@
     "PARADE",
     "CAROL",
     "FAMILY",
-    "TRIP"
+    "TRIP",
+    "ART",
+    "RED",
+    "BLUE",
+    "INK",
+    "DAB",
+    "RAY",
+    "HUE"
   ],
   "medium": [
     "MYSTIC",
@@ -755,7 +762,15 @@
     "HOLIDAY",
     "CHRISTMAS",
     "NEWYEAR",
-    "DECORATE"
+    "DECORATE",
+    "PAINT",
+    "CRAYON",
+    "CANVAS",
+    "COLORFUL",
+    "BRUSHES",
+    "SHADING",
+    "CHARCOAL",
+    "SPRAYING"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1091,6 +1106,14 @@
     "REUNION",
     "EXCITEMENT",
     "SATISFACTION",
-    "PHOTOGRAPHY"
+    "PHOTOGRAPHY",
+    "ABSTRACT",
+    "COLLAGE",
+    "WATERCOLOR",
+    "SILHOUETTE",
+    "PORTRAIT",
+    "IMPRESSION",
+    "REALISTIC",
+    "GEOMETRIC"
   ]
 }

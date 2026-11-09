@@ -1,0 +1,19 @@
+{
+  "easy": "MOON",
+  "medium": "SHORE",
+  "hard": "BRIGHT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "It shines in the night sky."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "The land at the edge of the sea."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "It is full of light or color."
+    }
+  }
+}

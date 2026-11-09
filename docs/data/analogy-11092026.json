@@ -1,0 +1,41 @@
+{
+  "date": "11092026",
+  "levels": {
+    "easy": [
+      {
+        "q": "scissors : cut ::",
+        "choices": [
+          "pencil : write",
+          "brush : paint",
+          "hammer : build",
+          "saw : slice"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "autumn : leaves fall ::",
+        "choices": [
+          "summer : sun",
+          "winter : snow",
+          "spring : flowers bloom",
+          "rain : wet"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "earth : moon ::",
+        "choices": [
+          "star : planet",
+          "sun : solar system",
+          "jupiter : rings",
+          "saturn : rings"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

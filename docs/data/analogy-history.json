@@ -24,7 +24,8 @@
     "eyes : see :: hands : touch",
     "apple : fruit :: car : garage",
     "rain : raincoat :: snow : mittens",
-    "apple : tree :: potato : soil"
+    "apple : tree :: potato : soil",
+    "scissors : cut :: pencil : write"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -51,7 +52,8 @@
     "hammer : carpenter :: spade : gardener",
     "hammer : carpenter :: shovel : gardener",
     "chef : kitchen :: doctor : hospital",
-    "wheel : car :: finger : hand"
+    "wheel : car :: finger : hand",
+    "autumn : leaves fall :: spring : flowers bloom"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -78,6 +80,7 @@
     "warm : hot :: bright : dazzling",
     "desert : camel :: ocean : shark",
     "warm : hot :: tired : exhausted",
-    "hexagon : 6 sides :: octagon : 8 sides"
+    "hexagon : 6 sides :: octagon : 8 sides",
+    "earth : moon :: star : planet"
   ]
 }

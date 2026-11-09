@@ -387,7 +387,15 @@
     "INK",
     "DAB",
     "RAY",
-    "HUE"
+    "HUE",
+    "ROOM",
+    "BATH",
+    "WALL",
+    "CEIL",
+    "FLOOR",
+    "DOOR",
+    "STAIR",
+    "SHED"
   ],
   "medium": [
     "MYSTIC",
@@ -770,7 +778,13 @@
     "BRUSHES",
     "SHADING",
     "CHARCOAL",
-    "SPRAYING"
+    "SPRAYING",
+    "WINDOW",
+    "CUPBOARD",
+    "FURNITURE",
+    "BATHROOM",
+    "LIVING",
+    "DORMER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1114,6 +1128,14 @@
     "PORTRAIT",
     "IMPRESSION",
     "REALISTIC",
-    "GEOMETRIC"
+    "GEOMETRIC",
+    "APARTMENT",
+    "LAVATORY",
+    "CONTAINER",
+    "BASEMENT",
+    "CONTRACTOR",
+    "LIFESTYLE",
+    "BEDROOMS",
+    "TOOLSHED"
   ]
 }

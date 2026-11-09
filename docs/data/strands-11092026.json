@@ -1,0 +1,40 @@
+{
+  "theme": "the house",
+  "easy": {
+    "words": [
+      "ROOM",
+      "BATH",
+      "WALL",
+      "CEIL",
+      "FLOOR",
+      "DOOR",
+      "STAIR",
+      "SHED"
+    ]
+  },
+  "medium": {
+    "words": [
+      "WINDOW",
+      "CUPBOARD",
+      "FURNITURE",
+      "KITCHEN",
+      "BATHROOM",
+      "LIVING",
+      "DORMER",
+      "BALCONY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "APARTMENT",
+      "LAVATORY",
+      "CONTAINER",
+      "BASEMENT",
+      "CONTRACTOR",
+      "LIFESTYLE",
+      "FIREPLACE",
+      "BEDROOMS",
+      "TOOLSHED"
+    ]
+  }
+}

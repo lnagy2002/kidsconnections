@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11092026-E",
+    "generatedAt": "2026-11-09T06:59:41.748Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "apple",
+          "banana",
+          "grape",
+          "orange"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "dog",
+          "cat",
+          "frog",
+          "bear"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "hammer",
+          "screw",
+          "wrench",
+          "saw"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level puzzle set with four concrete themes. All items are unique across difficulties."
+  },
+  "medium": {
+    "id": "11092026-M",
+    "generatedAt": "2026-11-09T06:59:41.748Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "sunflower",
+          "rainbow",
+          "toothbrush",
+          "lighthouse"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "otter",
+          "panda",
+          "koala",
+          "llama"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "noodle",
+          "rice",
+          "tofu",
+          "mango"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "train"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: four groups using compound words, animals, edible items, and vehicles. There are deliberate cross-overs that might tempt grouping but each item belongs to its correct group."
+  },
+  "hard": {
+    "id": "11092026-H",
+    "generatedAt": "2026-11-09T06:59:41.748Z",
+    "groups": [
+      {
+        "name": "Group 1",
+        "items": [
+          "bank",
+          "seal",
+          "bat",
+          "pump"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 2",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 3",
+        "items": [
+          "park",
+          "watch",
+          "plan",
+          "stamp"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Group 4",
+        "items": [
+          "crane",
+          "dock",
+          "spring",
+          "chip"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections and multi-meaning words. Look for polysemes, pronunciation shifts, and words with several senses."
+  }
+}

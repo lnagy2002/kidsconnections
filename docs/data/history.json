@@ -395,7 +395,10 @@
     "FLOOR",
     "DOOR",
     "STAIR",
-    "SHED"
+    "SHED",
+    "PET",
+    "PUP",
+    "HAM"
   ],
   "medium": [
     "MYSTIC",
@@ -784,7 +787,15 @@
     "FURNITURE",
     "BATHROOM",
     "LIVING",
-    "DORMER"
+    "DORMER",
+    "BUNNY",
+    "GUINEA",
+    "LIZARD",
+    "FERRET",
+    "HEDGEHOG",
+    "TORTOISE",
+    "RABBIT",
+    "CHIHUAHUA"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1136,6 +1147,15 @@
     "CONTRACTOR",
     "LIFESTYLE",
     "BEDROOMS",
-    "TOOLSHED"
+    "TOOLSHED",
+    "KITTEN",
+    "BICHONFRISE",
+    "SHEPHERD",
+    "BIRDIE",
+    "HUSKYDOG",
+    "PAGODAWAG",
+    "WATERDOG",
+    "CROSSBRED",
+    "HOUNDMIX"
   ]
 }

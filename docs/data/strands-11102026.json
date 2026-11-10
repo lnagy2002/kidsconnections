@@ -1,0 +1,40 @@
+{
+  "theme": "pets",
+  "easy": {
+    "words": [
+      "CAT",
+      "DOG",
+      "PET",
+      "RAT",
+      "FISH",
+      "PUP",
+      "HAM",
+      "COW"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BUNNY",
+      "GUINEA",
+      "LIZARD",
+      "FERRET",
+      "HEDGEHOG",
+      "TORTOISE",
+      "RABBIT",
+      "CHIHUAHUA"
+    ]
+  },
+  "hard": {
+    "words": [
+      "KITTEN",
+      "BICHONFRISE",
+      "SHEPHERD",
+      "BIRDIE",
+      "HUSKYDOG",
+      "PAGODAWAG",
+      "WATERDOG",
+      "CROSSBRED",
+      "HOUNDMIX"
+    ]
+  }
+}

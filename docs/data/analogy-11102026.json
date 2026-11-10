@@ -1,0 +1,41 @@
+{
+  "date": "11102026",
+  "levels": {
+    "easy": [
+      {
+        "q": "hot : cold ::",
+        "choices": [
+          "wet : dry",
+          "big : small",
+          "red : blue",
+          "fast : slow"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "thermometer : temperature ::",
+        "choices": [
+          "ruler : width",
+          "basket : fruit",
+          "clock : time",
+          "camera : photo"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "desert : camel ::",
+        "choices": [
+          "forest : wolf",
+          "ocean : dolphin",
+          "mountain : eagle",
+          "city : human"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

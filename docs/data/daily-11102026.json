@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11102026-E",
+    "generatedAt": "2026-11-10T07:36:37.572Z",
+    "groups": [
+      {
+        "name": "Things that are round",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you wear on your head",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "crown"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that can fly",
+        "items": [
+          "bird",
+          "plane",
+          "kite",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things you find in a kitchen",
+        "items": [
+          "spoon",
+          "pan",
+          "fork",
+          "kettle"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly: four concrete themes with simple items."
+  },
+  "medium": {
+    "id": "11102026-M",
+    "generatedAt": "2026-11-10T07:36:37.572Z",
+    "groups": [
+      {
+        "name": "Words that pair with sun to make common words",
+        "items": [
+          "flower",
+          "roof",
+          "rise",
+          "beam"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with water to make common words",
+        "items": [
+          "fall",
+          "color",
+          "way",
+          "melon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words that pair with 'fire' to make common words",
+        "items": [
+          "fly",
+          "place",
+          "work",
+          "man"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Base words that take -er to describe doers",
+        "items": [
+          "paint",
+          "sing",
+          "teach",
+          "run"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium: includes cross-over temptations where some items could fit other groups, but belong to the intended group."
+  },
+  "hard": {
+    "id": "11102026-H",
+    "generatedAt": "2026-11-10T07:36:37.572Z",
+    "groups": [
+      {
+        "name": "Words with multiple meanings across uses",
+        "items": [
+          "bank",
+          "spring",
+          "pool",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Homophones with similar sounds but different spellings",
+        "items": [
+          "knight",
+          "night",
+          "right",
+          "write"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words that are both animals and tools/devices",
+        "items": [
+          "crane",
+          "seal",
+          "mouse",
+          "wolf"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms (meanings that can be opposite)",
+        "items": [
+          "dust",
+          "left",
+          "sanction",
+          "oversight"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard: abstract connections, with cross-over temptations and polysemous items."
+  }
+}

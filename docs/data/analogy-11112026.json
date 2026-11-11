@@ -1,0 +1,41 @@
+{
+  "date": "11112026",
+  "levels": {
+    "easy": [
+      {
+        "q": "car : garage ::",
+        "choices": [
+          "books : library",
+          "cat : kitten",
+          "plant : soil",
+          "dog : leash"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "wallet : money ::",
+        "choices": [
+          "basket : apple",
+          "box : toy",
+          "door : house",
+          "pocket : keys"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "surgeon : scalpel ::",
+        "choices": [
+          "artist : paintbrush",
+          "teacher : book",
+          "nurse : stethoscope",
+          "chef : oven"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11112026-E",
+    "generatedAt": "2026-11-11T06:54:57.144Z",
+    "groups": [
+      {
+        "name": "Circle-y Objects",
+        "items": [
+          "ball",
+          "coin",
+          "ring",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Glow & Light Things",
+        "items": [
+          "lantern",
+          "glowstick",
+          "stars",
+          "firefly"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Garden Guests",
+        "items": [
+          "flower",
+          "fern",
+          "butterfly",
+          "worm"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Footwear Friends",
+        "items": [
+          "socks",
+          "shoes",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly easy puzzle set for 11112026."
+  },
+  "medium": {
+    "id": "11112026-M",
+    "generatedAt": "2026-11-11T06:54:57.144Z",
+    "groups": [
+      {
+        "name": "Two-Word Compound House Items",
+        "items": [
+          "backyard",
+          "sunflower",
+          "rainbow",
+          "playground"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Name Foods",
+        "items": [
+          "orange",
+          "peach",
+          "olive",
+          "gold"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Schoolroom Tools",
+        "items": [
+          "eraser",
+          "ruler",
+          "glue",
+          "stapler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snack Time Snacks",
+        "items": [
+          "pretzel",
+          "cookie",
+          "banana",
+          "grape"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and compound-word ideas."
+  },
+  "hard": {
+    "id": "11112026-H",
+    "generatedAt": "2026-11-11T06:54:57.144Z",
+    "groups": [
+      {
+        "name": "Everyday Polysemes",
+        "items": [
+          "bat",
+          "crane",
+          "spring",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Musical Terms",
+        "items": [
+          "note",
+          "beat",
+          "scale",
+          "pitch"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Two-Meaning Nouns/Verbs",
+        "items": [
+          "time",
+          "call",
+          "wash",
+          "paint"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Backward Word Puzzles",
+        "items": [
+          "drawer",
+          "stressed",
+          "live",
+          "strap"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy with a tricky twist."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "easy": "LARK",
+  "medium": "PIXEL",
+  "hard": "GALAXY",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A small bird that sings softly."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A tiny dot on a screen that helps make pictures."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A huge group of stars far away in space."
+    }
+  }
+}

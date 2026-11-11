@@ -398,7 +398,9 @@
     "SHED",
     "PET",
     "PUP",
-    "HAM"
+    "HAM",
+    "FERN",
+    "BEAR"
   ],
   "medium": [
     "MYSTIC",
@@ -795,7 +797,13 @@
     "HEDGEHOG",
     "TORTOISE",
     "RABBIT",
-    "CHIHUAHUA"
+    "CHIHUAHUA",
+    "JUNGLE",
+    "CROCODILE",
+    "MONKEY",
+    "HIPPO",
+    "RACCOON",
+    "SNAKE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1156,6 +1164,13 @@
     "PAGODAWAG",
     "WATERDOG",
     "CROSSBRED",
-    "HOUNDMIX"
+    "HOUNDMIX",
+    "KANGAROO",
+    "HYPOTHESES",
+    "THREATEN",
+    "TRIBESMAN",
+    "EQUATORIAL",
+    "COMPLEXITY",
+    "IMMERSION"
   ]
 }

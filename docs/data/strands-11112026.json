@@ -1,0 +1,40 @@
+{
+  "theme": "the jungle",
+  "easy": {
+    "words": [
+      "FERN",
+      "TREE",
+      "LEAF",
+      "WILD",
+      "WORM",
+      "CAVE",
+      "RIDE",
+      "BEAR"
+    ]
+  },
+  "medium": {
+    "words": [
+      "ANIMAL",
+      "FOREST",
+      "JUNGLE",
+      "CROCODILE",
+      "MONKEY",
+      "HIPPO",
+      "RACCOON",
+      "SNAKE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "KANGAROO",
+      "HYPOTHESES",
+      "HABITAT",
+      "THREATEN",
+      "TRIBESMAN",
+      "EXPLORER",
+      "EQUATORIAL",
+      "COMPLEXITY",
+      "IMMERSION"
+    ]
+  }
+}

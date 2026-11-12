@@ -400,7 +400,10 @@
     "PUP",
     "HAM",
     "FERN",
-    "BEAR"
+    "BEAR",
+    "ICE",
+    "FUR",
+    "SLIP"
   ],
   "medium": [
     "MYSTIC",
@@ -803,7 +806,14 @@
     "MONKEY",
     "HIPPO",
     "RACCOON",
-    "SNAKE"
+    "SNAKE",
+    "WINTER",
+    "SLEDDING",
+    "SNOWMAN",
+    "MITTENS",
+    "CROSSING",
+    "GATHERING",
+    "BLIZZARD"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1171,6 +1181,15 @@
     "TRIBESMAN",
     "EQUATORIAL",
     "COMPLEXITY",
-    "IMMERSION"
+    "IMMERSION",
+    "SNOWFLAKE",
+    "ICICLE",
+    "WINTERTIME",
+    "HOSPITALITY",
+    "SNOWSHOEING",
+    "WHIRLWIND",
+    "WINTERSPORT",
+    "SKIING",
+    "WINDCHILL"
   ]
 }

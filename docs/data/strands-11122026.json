@@ -1,0 +1,40 @@
+{
+  "theme": "winter",
+  "easy": {
+    "words": [
+      "SNOW",
+      "COLD",
+      "ICE",
+      "FUR",
+      "FALL",
+      "WIND",
+      "FROST",
+      "SLIP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "WINTER",
+      "SLEDDING",
+      "FROSTY",
+      "SNOWMAN",
+      "MITTENS",
+      "CROSSING",
+      "GATHERING",
+      "BLIZZARD"
+    ]
+  },
+  "hard": {
+    "words": [
+      "SNOWFLAKE",
+      "ICICLE",
+      "WINTERTIME",
+      "HOSPITALITY",
+      "SNOWSHOEING",
+      "WHIRLWIND",
+      "WINTERSPORT",
+      "SKIING",
+      "WINDCHILL"
+    ]
+  }
+}

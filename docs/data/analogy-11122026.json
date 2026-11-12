@@ -1,0 +1,41 @@
+{
+  "date": "11122026",
+  "levels": {
+    "easy": [
+      {
+        "q": "shirt : closet ::",
+        "choices": [
+          "sandwich : lunchbox",
+          "pencil : case",
+          "sock : drawer",
+          "shoe : box"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "scissors : tailor ::",
+        "choices": [
+          "hammer : carpenter",
+          "paint : artist",
+          "screwdriver : mechanic",
+          "pencil : writer"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "cotton : shirt ::",
+        "choices": [
+          "gold : ring",
+          "plastic : bottle",
+          "wool : sweater",
+          "silk : dress"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

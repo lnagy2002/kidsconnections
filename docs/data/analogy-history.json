@@ -27,7 +27,8 @@
     "apple : tree :: potato : soil",
     "scissors : cut :: pencil : write",
     "hot : cold :: wet : dry",
-    "car : garage :: books : library"
+    "car : garage :: books : library",
+    "shirt : closet :: sandwich : lunchbox"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -57,7 +58,8 @@
     "wheel : car :: finger : hand",
     "autumn : leaves fall :: spring : flowers bloom",
     "thermometer : temperature :: clock : time",
-    "wallet : money :: basket : apple"
+    "wallet : money :: basket : apple",
+    "scissors : tailor :: hammer : carpenter"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -87,6 +89,7 @@
     "hexagon : 6 sides :: octagon : 8 sides",
     "earth : moon :: star : planet",
     "desert : camel :: forest : wolf",
-    "surgeon : scalpel :: artist : paintbrush"
+    "surgeon : scalpel :: artist : paintbrush",
+    "cotton : shirt :: gold : ring"
   ]
 }

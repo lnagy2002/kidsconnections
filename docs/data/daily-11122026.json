@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11122026-E",
+    "generatedAt": "2026-11-12T07:30:50.904Z",
+    "groups": [
+      {
+        "name": "Animals You Might See",
+        "items": [
+          "dog",
+          "cat",
+          "owl",
+          "lion"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Foods",
+        "items": [
+          "eggs",
+          "toast",
+          "milk",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Shapes",
+        "items": [
+          "square",
+          "circle",
+          "triangle",
+          "oval"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Colors",
+        "items": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections puzzle for date 11122026. Each group has 4 concrete items."
+  },
+  "medium": {
+    "id": "11122026-M",
+    "generatedAt": "2026-11-12T07:30:50.904Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "cap",
+          "play",
+          "watch",
+          "drive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "helmet",
+          "scarf",
+          "beanie"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruits",
+        "items": [
+          "apple",
+          "banana",
+          "orange",
+          "grape"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle with a cross-over temptation: cap is both a noun-verb and a headwear item, guiding careful grouping."
+  },
+  "hard": {
+    "id": "11122026-H",
+    "generatedAt": "2026-11-12T07:30:50.904Z",
+    "groups": [
+      {
+        "name": "Fire Compounds",
+        "items": [
+          "alarm",
+          "place",
+          "man",
+          "works"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Water Compounds",
+        "items": [
+          "melon",
+          "fall",
+          "proof",
+          "bottle"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Space Terms",
+        "items": [
+          "bar",
+          "ship",
+          "suit",
+          "station"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Star Terms",
+        "items": [
+          "board",
+          "dust",
+          "fighter",
+          "light"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle with abstract connections. Some words (e.g., ship) can plausibly fit multiple groups, but belong to the listed group for this puzzle."
+  }
+}

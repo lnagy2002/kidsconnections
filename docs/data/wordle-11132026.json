@@ -1,0 +1,19 @@
+{
+  "easy": "BIRD",
+  "medium": "SHORE",
+  "hard": "PUZZLE",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A feathered animal that can fly."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "The land at the edge of the sea."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A game or question that tests your thinking."
+    }
+  }
+}

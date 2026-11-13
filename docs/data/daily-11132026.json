@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11132026-E",
+    "generatedAt": "2026-11-13T07:02:23.232Z",
+    "groups": [
+      {
+        "name": "Footwear Lineup",
+        "items": [
+          "shoes",
+          "boots",
+          "sandals",
+          "slippers"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "mug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things That Fly (Common Toys/Objects)",
+        "items": [
+          "kite",
+          "plane",
+          "helicopter",
+          "balloon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Seating Spots",
+        "items": [
+          "chair",
+          "bench",
+          "stool",
+          "couch"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Connections-style puzzle set for 11132026. Easy groups use concrete, visual categories with four clear items each. All words are unique across the entire puzzle."
+  },
+  "medium": {
+    "id": "11132026-M",
+    "generatedAt": "2026-11-13T07:02:23.232Z",
+    "groups": [
+      {
+        "name": "Nouns and Verbs",
+        "items": [
+          "watch",
+          "brush",
+          "paint",
+          "lift"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Workshop Tools",
+        "items": [
+          "hammer",
+          "wrench",
+          "screwdriver",
+          "drill"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common School Supplies",
+        "items": [
+          "notebook",
+          "pencil",
+          "eraser",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Domestic Animals",
+        "items": [
+          "dog",
+          "cat",
+          "horse",
+          "pig"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix straightforward wordplay with familiar objects. Some items could plausibly fit multiple groups at first glance, so players should think carefully about each group's unifying rule."
+  },
+  "hard": {
+    "id": "11132026-H",
+    "generatedAt": "2026-11-13T07:02:23.232Z",
+    "groups": [
+      {
+        "name": "Polysemes with distinct uses",
+        "items": [
+          "spring",
+          "ring",
+          "bolt",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "read",
+          "lead",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ordinal Numbers",
+        "items": [
+          "first",
+          "second",
+          "third",
+          "fourth"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- prefix opposites ready",
+        "items": [
+          "kind",
+          "happy",
+          "true",
+          "likely"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections. Each group uses a different linguistic angle (polysemy, heteronyms, ordinals, and opposites with un-). Cross-over temptations are intentional to challenge careful grouping."
+  }
+}

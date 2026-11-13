@@ -1,0 +1,41 @@
+{
+  "date": "11132026",
+  "levels": {
+    "easy": [
+      {
+        "q": "apple : tree ::",
+        "choices": [
+          "carrot : garden",
+          "banana : plant",
+          "egg : chicken",
+          "rose : bush"
+        ],
+        "answer": 2
+      }
+    ],
+    "medium": [
+      {
+        "q": "scissors : tailor ::",
+        "choices": [
+          "screwdriver : engineer",
+          "hammer : chef",
+          "paintbrush : artist",
+          "drill : gardener"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "ice : melt ::",
+        "choices": [
+          "paper : tear",
+          "snow : vanish",
+          "water : freeze",
+          "sand : sink"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

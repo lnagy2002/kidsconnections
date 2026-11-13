@@ -1,0 +1,40 @@
+{
+  "theme": "summer",
+  "easy": {
+    "words": [
+      "SUN",
+      "WET",
+      "SEA",
+      "SAND",
+      "HOT",
+      "FUN",
+      "SWIM",
+      "POOL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "BEACH",
+      "PICNIC",
+      "FLORAL",
+      "SUNSHINE",
+      "FIESTA",
+      "TROPIC",
+      "LEISURE",
+      "GARDEN"
+    ]
+  },
+  "hard": {
+    "words": [
+      "VACATION",
+      "SPECTRUM",
+      "ADVENTURE",
+      "ESCAPADE",
+      "BLOSSOM",
+      "FIREFLIES",
+      "EXPLORE",
+      "HARMONY",
+      "BASKETRY"
+    ]
+  }
+}

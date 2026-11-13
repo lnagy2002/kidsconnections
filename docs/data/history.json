@@ -403,7 +403,10 @@
     "BEAR",
     "ICE",
     "FUR",
-    "SLIP"
+    "SLIP",
+    "WET",
+    "HOT",
+    "FUN"
   ],
   "medium": [
     "MYSTIC",
@@ -813,7 +816,14 @@
     "MITTENS",
     "CROSSING",
     "GATHERING",
-    "BLIZZARD"
+    "BLIZZARD",
+    "BEACH",
+    "PICNIC",
+    "FLORAL",
+    "SUNSHINE",
+    "FIESTA",
+    "TROPIC",
+    "LEISURE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1190,6 +1200,11 @@
     "WHIRLWIND",
     "WINTERSPORT",
     "SKIING",
-    "WINDCHILL"
+    "WINDCHILL",
+    "VACATION",
+    "SPECTRUM",
+    "ESCAPADE",
+    "BLOSSOM",
+    "BASKETRY"
   ]
 }

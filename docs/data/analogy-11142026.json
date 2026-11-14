@@ -1,0 +1,41 @@
+{
+  "date": "11142026",
+  "levels": {
+    "easy": [
+      {
+        "q": "bird : nest ::",
+        "choices": [
+          "cow : barn",
+          "fish : water",
+          "dog : leash",
+          "cat : food"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "big : large ::",
+        "choices": [
+          "tall : high",
+          "small : tiny",
+          "happy : joyful",
+          "fast : quick"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "5 : 10 ::",
+        "choices": [
+          "3 : 6",
+          "7 : 14",
+          "2 : 4",
+          "8 : 16"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

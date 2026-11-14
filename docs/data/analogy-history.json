@@ -29,7 +29,8 @@
     "hot : cold :: wet : dry",
     "car : garage :: books : library",
     "shirt : closet :: sandwich : lunchbox",
-    "apple : tree :: egg : chicken"
+    "apple : tree :: egg : chicken",
+    "bird : nest :: cow : barn"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -61,7 +62,8 @@
     "thermometer : temperature :: clock : time",
     "wallet : money :: basket : apple",
     "scissors : tailor :: hammer : carpenter",
-    "scissors : tailor :: paintbrush : artist"
+    "scissors : tailor :: paintbrush : artist",
+    "big : large :: tall : high"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -93,6 +95,7 @@
     "desert : camel :: forest : wolf",
     "surgeon : scalpel :: artist : paintbrush",
     "cotton : shirt :: gold : ring",
-    "ice : melt :: snow : vanish"
+    "ice : melt :: snow : vanish",
+    "5 : 10 :: 3 : 6"
   ]
 }

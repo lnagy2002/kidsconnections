@@ -1,0 +1,19 @@
+{
+  "easy": "LAMP",
+  "medium": "VOICE",
+  "hard": "SUMMER",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "It gives light."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "It is the sound a person makes when talking."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "It is the warmest season of the year."
+    }
+  }
+}

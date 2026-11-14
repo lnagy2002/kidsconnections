@@ -406,7 +406,14 @@
     "SLIP",
     "WET",
     "HOT",
-    "FUN"
+    "FUN",
+    "SAW",
+    "RAMP",
+    "DRILL",
+    "WRENCH",
+    "PULLEY",
+    "CHAIN",
+    "HACKSAW"
   ],
   "medium": [
     "MYSTIC",
@@ -823,7 +830,15 @@
     "SUNSHINE",
     "FIESTA",
     "TROPIC",
-    "LEISURE"
+    "LEISURE",
+    "ENGINE",
+    "TOOLBOX",
+    "HARDWARE",
+    "MACHINE",
+    "SHRINKER",
+    "CUTTING",
+    "GRINDER",
+    "SPANNER"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1205,6 +1220,15 @@
     "SPECTRUM",
     "ESCAPADE",
     "BLOSSOM",
-    "BASKETRY"
+    "BASKETRY",
+    "CONCRETE",
+    "SANDPAPER",
+    "INSTALLER",
+    "ELECTRICAL",
+    "ADAPTERS",
+    "COMPRESSOR",
+    "TRACKHOE",
+    "MULTISAW",
+    "WELDING"
   ]
 }

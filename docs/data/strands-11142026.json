@@ -1,0 +1,40 @@
+{
+  "theme": "machines and tools",
+  "easy": {
+    "words": [
+      "SAW",
+      "RAMP",
+      "DRILL",
+      "WRENCH",
+      "PULLEY",
+      "CHAIN",
+      "HACKSAW",
+      "CLAMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "ENGINE",
+      "TOOLBOX",
+      "HARDWARE",
+      "MACHINE",
+      "SHRINKER",
+      "CUTTING",
+      "GRINDER",
+      "SPANNER"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CONCRETE",
+      "SANDPAPER",
+      "INSTALLER",
+      "ELECTRICAL",
+      "ADAPTERS",
+      "COMPRESSOR",
+      "TRACKHOE",
+      "MULTISAW",
+      "WELDING"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11142026-E",
+    "generatedAt": "2026-11-14T06:51:59.927Z",
+    "groups": [
+      {
+        "name": "Things That Are Red",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Tools for Writing",
+        "items": [
+          "pencil",
+          "crayon",
+          "marker",
+          "eraser"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Vehicles with Wheels",
+        "items": [
+          "bike",
+          "car",
+          "skateboard",
+          "wagon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast Favorites",
+        "items": [
+          "oatmeal",
+          "pancake",
+          "cereal",
+          "toast"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles focus on concrete, visible categories kids can spot quickly."
+  },
+  "medium": {
+    "id": "11142026-M",
+    "generatedAt": "2026-11-14T06:51:59.927Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "keyboard",
+          "raincoat",
+          "toothbrush",
+          "sunflower"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Nouns That Are Verbs",
+        "items": [
+          "play",
+          "book",
+          "watch",
+          "drive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Fruit-Color Duo Words",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "lemon"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common Kitchen Tools",
+        "items": [
+          "spoon",
+          "pan",
+          "whisk",
+          "knife"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce light wordplay and product-like compound terms."
+  },
+  "hard": {
+    "id": "11142026-H",
+    "generatedAt": "2026-11-14T06:51:59.927Z",
+    "groups": [
+      {
+        "name": "Heteronyms",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals and Things",
+        "items": [
+          "bat",
+          "crane",
+          "seal",
+          "mouse"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "kayak"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Cardinal Directions",
+        "items": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into abstract and multi-meaning connections; some items might seem to fit other groups, but belong to only one."
+  }
+}

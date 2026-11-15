@@ -1,0 +1,40 @@
+{
+  "theme": "the playground",
+  "easy": {
+    "words": [
+      "SWING",
+      "SLIDE",
+      "PLAY",
+      "JUMP",
+      "BALL",
+      "DART",
+      "CLIMB",
+      "BUMP"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TIRESWING",
+      "SLIDES",
+      "PLAYGROUND",
+      "BENCHES",
+      "SWINGS",
+      "GRASS",
+      "BASKET",
+      "GYMNAST"
+    ]
+  },
+  "hard": {
+    "words": [
+      "RECREATION",
+      "COLLECTING",
+      "EXERCISE",
+      "SEESAW",
+      "IMAGINATION",
+      "INTERACTIVE",
+      "CHALLENGING",
+      "ENJOYMENT",
+      "ENTERTAIN"
+    ]
+  }
+}

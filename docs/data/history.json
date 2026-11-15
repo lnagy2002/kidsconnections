@@ -413,7 +413,9 @@
     "WRENCH",
     "PULLEY",
     "CHAIN",
-    "HACKSAW"
+    "HACKSAW",
+    "SWING",
+    "SLIDE"
   ],
   "medium": [
     "MYSTIC",
@@ -838,7 +840,14 @@
     "SHRINKER",
     "CUTTING",
     "GRINDER",
-    "SPANNER"
+    "SPANNER",
+    "TIRESWING",
+    "SLIDES",
+    "PLAYGROUND",
+    "BENCHES",
+    "SWINGS",
+    "GRASS",
+    "GYMNAST"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1229,6 +1238,14 @@
     "COMPRESSOR",
     "TRACKHOE",
     "MULTISAW",
-    "WELDING"
+    "WELDING",
+    "RECREATION",
+    "COLLECTING",
+    "SEESAW",
+    "IMAGINATION",
+    "INTERACTIVE",
+    "CHALLENGING",
+    "ENJOYMENT",
+    "ENTERTAIN"
   ]
 }

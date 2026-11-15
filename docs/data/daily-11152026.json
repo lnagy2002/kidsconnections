@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11152026-E",
+    "generatedAt": "2026-11-15T06:56:30.532Z",
+    "groups": [
+      {
+        "name": "Things that are red",
+        "items": [
+          "apple",
+          "strawberry",
+          "cherry",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Fruits that grow on trees",
+        "items": [
+          "orange",
+          "peach",
+          "pear",
+          "mango"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Round objects you can hold",
+        "items": [
+          "ball",
+          "ring",
+          "coin",
+          "pie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things that fly",
+        "items": [
+          "bird",
+          "bat",
+          "bee",
+          "butterfly"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh and kid-friendly categories; all items are unique across puzzles."
+  },
+  "medium": {
+    "id": "11152026-M",
+    "generatedAt": "2026-11-15T06:56:30.532Z",
+    "groups": [
+      {
+        "name": "Metals",
+        "items": [
+          "gold",
+          "iron",
+          "copper",
+          "tin"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun compounds",
+        "items": [
+          "flower",
+          "rise",
+          "set",
+          "dial"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Animals from different continents",
+        "items": [
+          "zebra",
+          "giraffe",
+          "koala",
+          "panda"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Footwear",
+        "items": [
+          "sock",
+          "shoe",
+          "boot",
+          "slipper"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes cross-over temptations (e.g., rise/set connect to sun-words) but each item clearly fits only one group."
+  },
+  "hard": {
+    "id": "11152026-H",
+    "generatedAt": "2026-11-15T06:56:30.532Z",
+    "groups": [
+      {
+        "name": "Polysemes (same word, multiple meanings)",
+        "items": [
+          "bank",
+          "spring",
+          "watch",
+          "rock"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "wind",
+          "bass",
+          "bow",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Nouns that are also verbs",
+        "items": [
+          "table",
+          "file",
+          "plant",
+          "crate"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract concepts",
+        "items": [
+          "time",
+          "space",
+          "truth",
+          "dream"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle emphasizes word senses and pronunciation. Cross-over temptations exist (e.g., bank can be money or riverbank; wind can be wind or to wind)."
+  }
+}

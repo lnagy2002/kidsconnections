@@ -1,0 +1,19 @@
+{
+  "easy": "TREE",
+  "medium": "CLOUD",
+  "hard": "BRIGHT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A tall plant with branches and leaves."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A white shape in the sky made of tiny water drops."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "Giving a lot of light or showing intelligence."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date": "11152026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "apple : red",
+          "grape : green",
+          "carrot : orange",
+          "plum : round"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "thermometer : temperature ::",
+        "choices": [
+          "ruler : length",
+          "cup : water",
+          "basket : apples",
+          "paintbrush : color"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "warm : hot ::",
+        "choices": [
+          "cool : cold",
+          "bright : dim",
+          "small : tiny",
+          "fast : slow"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

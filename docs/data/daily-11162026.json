@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11162026-E",
+    "generatedAt": "2026-11-16T07:01:40.584Z",
+    "groups": [
+      {
+        "name": "Circles and Orbs",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "donut"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "knife",
+          "whisk"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animal Friends",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "bird"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Travel in Style",
+        "items": [
+          "car",
+          "bike",
+          "bus",
+          "train"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly groupings with concrete visuals."
+  },
+  "medium": {
+    "id": "11162026-M",
+    "generatedAt": "2026-11-16T07:01:40.584Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Pairs",
+        "items": [
+          "park",
+          "watch",
+          "paint",
+          "plant"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "wind",
+          "snow",
+          "sun"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Classroom Helpers",
+        "items": [
+          "desk",
+          "chair",
+          "chalk",
+          "book"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Watercraft Terms",
+        "items": [
+          "boat",
+          "raft",
+          "sail",
+          "kayak"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Includes some cross-over wordplay; items could seem to fit other groups but belong to their defined connections."
+  },
+  "hard": {
+    "id": "11162026-H",
+    "generatedAt": "2026-11-16T07:01:40.584Z",
+    "groups": [
+      {
+        "name": "Words with Multiple Pronunciations (Heteronyms)",
+        "items": [
+          "lead",
+          "bow",
+          "tear",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Common Tools",
+        "items": [
+          "hammer",
+          "saw",
+          "wrench",
+          "drill"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Time Measurements",
+        "items": [
+          "hour",
+          "minute",
+          "second",
+          "day"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Measuring Units",
+        "items": [
+          "inch",
+          "foot",
+          "yard",
+          "mile"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard connections invite abstract thinking; expect some tempting misplacements to test careful grouping."
+  }
+}

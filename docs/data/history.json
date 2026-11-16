@@ -415,7 +415,12 @@
     "CHAIN",
     "HACKSAW",
     "SWING",
-    "SLIDE"
+    "SLIDE",
+    "FAIRY",
+    "KING",
+    "QUEEN",
+    "SWORD",
+    "TROLL"
   ],
   "medium": [
     "MYSTIC",
@@ -847,7 +852,14 @@
     "BENCHES",
     "SWINGS",
     "GRASS",
-    "GYMNAST"
+    "GYMNAST",
+    "ENCHANT",
+    "PRINCESS",
+    "MAGIC",
+    "WIZARD",
+    "CASTLE",
+    "CLOAKED",
+    "FAIRYTALE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1246,6 +1258,14 @@
     "INTERACTIVE",
     "CHALLENGING",
     "ENJOYMENT",
-    "ENTERTAIN"
+    "ENTERTAIN",
+    "ENCHANTMENT",
+    "UNIVERSE",
+    "CHALLENGE",
+    "NIGHTMARE",
+    "MYSTERIOUS",
+    "WONDERLAND",
+    "FANTASYLAND",
+    "PRINCELESS"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "theme": "fairy tales",
+  "easy": {
+    "words": [
+      "WISH",
+      "FAIRY",
+      "KING",
+      "QUEEN",
+      "POND",
+      "GHOST",
+      "SWORD",
+      "TROLL"
+    ]
+  },
+  "medium": {
+    "words": [
+      "ENCHANT",
+      "PRINCESS",
+      "MAGIC",
+      "WIZARD",
+      "DRAGON",
+      "CASTLE",
+      "CLOAKED",
+      "FAIRYTALE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "IMAGINARY",
+      "ENCHANTMENT",
+      "UNIVERSE",
+      "CHALLENGE",
+      "NIGHTMARE",
+      "MYSTERIOUS",
+      "WONDERLAND",
+      "FANTASYLAND",
+      "PRINCELESS"
+    ]
+  }
+}

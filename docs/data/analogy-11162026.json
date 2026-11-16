@@ -1,0 +1,41 @@
+{
+  "date": "11162026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "car : red",
+          "sky : blue",
+          "leaf : green",
+          "carrot : orange"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "hammer : carpenter ::",
+        "choices": [
+          "paintbrush : artist",
+          "shovel : gardener",
+          "saw : woodworker",
+          "pencil : student"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "happy : unhappy ::",
+        "choices": [
+          "clear : unclear",
+          "bright : dark",
+          "excited : calm",
+          "loud : quiet"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

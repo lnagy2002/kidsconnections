@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11172026-E",
+    "generatedAt": "2026-11-17T08:17:27.926Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "firetruck",
+          "rose"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things with Wheels",
+        "items": [
+          "bicycle",
+          "car",
+          "skateboard",
+          "tricycle"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Flyers",
+        "items": [
+          "bird",
+          "butterfly",
+          "bee",
+          "bat"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Helpers",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections puzzle. Some items might seem to fit another group at first glance, but they belong to their designated theme."
+  },
+  "medium": {
+    "id": "11172026-M",
+    "generatedAt": "2026-11-17T08:17:27.926Z",
+    "groups": [
+      {
+        "name": "Compound Words",
+        "items": [
+          "keyboard",
+          "notebook",
+          "sunflower",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verbs That Use the Same Word",
+        "items": [
+          "play",
+          "watch",
+          "brush",
+          "ride"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Color-Fruit Words",
+        "items": [
+          "orange",
+          "lime",
+          "peach",
+          "olive"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common School Tools",
+        "items": [
+          "pencil",
+          "eraser",
+          "scissors",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles mix wordplay and dual meanings. Some items (like orange) might tempt you to think of more than one group—but they belong in their assigned group."
+  },
+  "hard": {
+    "id": "11172026-H",
+    "generatedAt": "2026-11-17T08:17:27.926Z",
+    "groups": [
+      {
+        "name": "Heteronyms (same spelling, different pronunciations)",
+        "items": [
+          "lead",
+          "wind",
+          "tear",
+          "bow"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Un- Prefix Opposites",
+        "items": [
+          "fold",
+          "wrap",
+          "tie",
+          "cool"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Polysemes (words with unrelated meanings)",
+        "items": [
+          "spring",
+          "bank",
+          "date",
+          "seal"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Silent-Letter Words",
+        "items": [
+          "knight",
+          "island",
+          "honest",
+          "wrist"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean into language tricks. Watch for cross-over hints, but each item fits only its own group."
+  }
+}

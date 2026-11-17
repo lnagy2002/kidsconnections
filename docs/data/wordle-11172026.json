@@ -1,0 +1,19 @@
+{
+  "easy": "KITE",
+  "medium": "GLASS",
+  "hard": "ORANGE",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A light toy that flies high when you run with it on a windy day."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A hard clear material used to make windows and cups."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A round fruit with a bright color and a thick peel."
+    }
+  }
+}

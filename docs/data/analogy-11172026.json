@@ -1,0 +1,41 @@
+{
+  "date": "11172026",
+  "levels": {
+    "easy": [
+      {
+        "q": "scissors : cut ::",
+        "choices": [
+          "knife : slice",
+          "fork : eat",
+          "spoon : drink",
+          "shovel : dig"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "autumn : leaves fall ::",
+        "choices": [
+          "winter : snow comes",
+          "summer : flowers bloom",
+          "spring : trees green",
+          "autumn : crops ripe"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "thirst : water ::",
+        "choices": [
+          "hunger : food",
+          "sadness : joy",
+          "pain : relief",
+          "tired : rest"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -32,7 +32,8 @@
     "apple : tree :: egg : chicken",
     "bird : nest :: cow : barn",
     "banana : yellow :: apple : red",
-    "banana : yellow :: sky : blue"
+    "banana : yellow :: sky : blue",
+    "scissors : cut :: knife : slice"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -67,7 +68,8 @@
     "scissors : tailor :: paintbrush : artist",
     "big : large :: tall : high",
     "thermometer : temperature :: ruler : length",
-    "hammer : carpenter :: paintbrush : artist"
+    "hammer : carpenter :: paintbrush : artist",
+    "autumn : leaves fall :: winter : snow comes"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -102,6 +104,7 @@
     "ice : melt :: snow : vanish",
     "5 : 10 :: 3 : 6",
     "warm : hot :: cool : cold",
-    "happy : unhappy :: clear : unclear"
+    "happy : unhappy :: clear : unclear",
+    "thirst : water :: hunger : food"
   ]
 }

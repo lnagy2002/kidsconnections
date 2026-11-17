@@ -420,7 +420,9 @@
     "KING",
     "QUEEN",
     "SWORD",
-    "TROLL"
+    "TROLL",
+    "HEN",
+    "FOX"
   ],
   "medium": [
     "MYSTIC",
@@ -859,7 +861,10 @@
     "WIZARD",
     "CASTLE",
     "CLOAKED",
-    "FAIRYTALE"
+    "FAIRYTALE",
+    "HORSE",
+    "FLAMINGO",
+    "PANDA"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1266,6 +1271,14 @@
     "MYSTERIOUS",
     "WONDERLAND",
     "FANTASYLAND",
-    "PRINCELESS"
+    "PRINCELESS",
+    "CATERPILLAR",
+    "CHIMPANZEE",
+    "WALLABY",
+    "ALLIGATOR",
+    "PANTHER",
+    "HIPPOPOTAMUS",
+    "BARRACUDA",
+    "CONDOR"
   ]
 }

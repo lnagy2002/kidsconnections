@@ -1,0 +1,40 @@
+{
+  "theme": "animals",
+  "easy": {
+    "words": [
+      "BAT",
+      "ANT",
+      "BIRD",
+      "FROG",
+      "PIG",
+      "HEN",
+      "FOX",
+      "BEE"
+    ]
+  },
+  "medium": {
+    "words": [
+      "HORSE",
+      "SPIDER",
+      "TIGER",
+      "DOLPHIN",
+      "PARROT",
+      "GIRAFFE",
+      "FLAMINGO",
+      "PANDA"
+    ]
+  },
+  "hard": {
+    "words": [
+      "CATERPILLAR",
+      "CHIMPANZEE",
+      "SQUIRREL",
+      "WALLABY",
+      "ALLIGATOR",
+      "PANTHER",
+      "HIPPOPOTAMUS",
+      "BARRACUDA",
+      "CONDOR"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "easy": "LION",
+  "medium": "STONE",
+  "hard": "SPRING",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "a big cat"
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "a hard rock"
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "a coil that bounces back"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date": "11182026",
+  "levels": {
+    "easy": [
+      {
+        "q": "circle : wheel ::",
+        "choices": [
+          "triangle : tent",
+          "rectangle : pillow",
+          "square : window",
+          "oval : egg"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "wheel : car ::",
+        "choices": [
+          "string : guitar",
+          "leaf : tree",
+          "page : book",
+          "finger : hand"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "dawn : dusk ::",
+        "choices": [
+          "first : last",
+          "begin : finish",
+          "start : stop",
+          "day : night"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

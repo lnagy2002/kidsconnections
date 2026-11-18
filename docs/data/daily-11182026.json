@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11182026-E",
+    "generatedAt": "2026-11-18T07:49:07.554Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "button"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "crown",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Things from Trees",
+        "items": [
+          "apple",
+          "leaf",
+          "acorn",
+          "branch"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sea Animals That Swim",
+        "items": [
+          "fish",
+          "otter",
+          "seal",
+          "penguin"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Four clear, concrete themes. Each group uses easy, everyday items that kids can picture."
+  },
+  "medium": {
+    "id": "11182026-M",
+    "generatedAt": "2026-11-18T07:49:07.554Z",
+    "groups": [
+      {
+        "name": "School Supplies",
+        "items": [
+          "pencil",
+          "eraser",
+          "notebook",
+          "ruler"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Flying Animals",
+        "items": [
+          "eagle",
+          "hawk",
+          "swallow",
+          "parrot"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Foods You Bake",
+        "items": [
+          "bread",
+          "cake",
+          "cookie",
+          "pie"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Things That Come in Pairs",
+        "items": [
+          "socks",
+          "shoes",
+          "gloves",
+          "glasses"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Cross-over temptations can arise (e.g., 'pencil' might remind of other school items, 'parrot' is clearly a flyer). Each item fits its group cleanly."
+  },
+  "hard": {
+    "id": "11182026-H",
+    "generatedAt": "2026-11-18T07:49:07.554Z",
+    "groups": [
+      {
+        "name": "Contronyms (Words with Opposite Meanings)",
+        "items": [
+          "dust",
+          "sanction",
+          "oversight",
+          "screen"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "radar",
+          "civic",
+          "rotor"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms (Same Spelling, Different Pronunciation)",
+        "items": [
+          "lead",
+          "wind",
+          "bass",
+          "dove"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun–Verb Pairs (Same Spelling)",
+        "items": [
+          "play",
+          "watch",
+          "train",
+          "book"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections. The 'cross-over temptation' idea is present: some items could hint at other groups (e.g., wind as a noun/verb, lead as a metal vs verb), but each item belongs to exactly one group."
+  }
+}

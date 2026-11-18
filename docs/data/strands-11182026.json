@@ -1,0 +1,40 @@
+{
+  "theme": "food",
+  "easy": {
+    "words": [
+      "BUN",
+      "NUT",
+      "OIL",
+      "POT",
+      "RIB",
+      "BEEF",
+      "BREAD",
+      "MILK"
+    ]
+  },
+  "medium": {
+    "words": [
+      "PIZZA",
+      "PASTA",
+      "CHEESE",
+      "SANDWICH",
+      "SAUSAGE",
+      "PICKLES",
+      "BUTTER",
+      "MUSHROOM"
+    ]
+  },
+  "hard": {
+    "words": [
+      "DESSERTS",
+      "POTATOES",
+      "VEGETABLE",
+      "CROISSANT",
+      "CORNICHE",
+      "PUDDINGS",
+      "SPAGHETTI",
+      "MARSHMALLOW",
+      "CONFECTION"
+    ]
+  }
+}

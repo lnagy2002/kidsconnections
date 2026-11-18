@@ -422,7 +422,14 @@
     "SWORD",
     "TROLL",
     "HEN",
-    "FOX"
+    "FOX",
+    "BUN",
+    "NUT",
+    "OIL",
+    "POT",
+    "RIB",
+    "BEEF",
+    "MILK"
   ],
   "medium": [
     "MYSTIC",
@@ -864,7 +871,12 @@
     "FAIRYTALE",
     "HORSE",
     "FLAMINGO",
-    "PANDA"
+    "PANDA",
+    "PIZZA",
+    "PASTA",
+    "CHEESE",
+    "SAUSAGE",
+    "PICKLES"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1279,6 +1291,14 @@
     "PANTHER",
     "HIPPOPOTAMUS",
     "BARRACUDA",
-    "CONDOR"
+    "CONDOR",
+    "DESSERTS",
+    "POTATOES",
+    "VEGETABLE",
+    "CORNICHE",
+    "PUDDINGS",
+    "SPAGHETTI",
+    "MARSHMALLOW",
+    "CONFECTION"
   ]
 }

@@ -429,7 +429,12 @@
     "POT",
     "RIB",
     "BEEF",
-    "MILK"
+    "MILK",
+    "COVE",
+    "REEF",
+    "SHIN",
+    "CATS",
+    "TUNA"
   ],
   "medium": [
     "MYSTIC",
@@ -876,7 +881,12 @@
     "PASTA",
     "CHEESE",
     "SAUSAGE",
-    "PICKLES"
+    "PICKLES",
+    "CORAL",
+    "MARINE",
+    "KAYAK",
+    "AQUARIUM",
+    "FLOTILLA"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1299,6 +1309,15 @@
     "PUDDINGS",
     "SPAGHETTI",
     "MARSHMALLOW",
-    "CONFECTION"
+    "CONFECTION",
+    "ANEMONE",
+    "MANATEE",
+    "PLANKTON",
+    "FLOUNDER",
+    "DOLPHINS",
+    "SEAWEEDS",
+    "MARSHLAND",
+    "CRUSTACEA",
+    "WHALESONG"
   ]
 }

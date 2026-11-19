@@ -1,0 +1,40 @@
+{
+  "theme": "the ocean",
+  "easy": {
+    "words": [
+      "WAVE",
+      "COVE",
+      "BOAT",
+      "REEF",
+      "SHIN",
+      "CATS",
+      "TIDE",
+      "TUNA"
+    ]
+  },
+  "medium": {
+    "words": [
+      "OCEAN",
+      "CORAL",
+      "SEASHELL",
+      "MARINE",
+      "KAYAK",
+      "FISHING",
+      "AQUARIUM",
+      "FLOTILLA"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ANEMONE",
+      "MANATEE",
+      "PLANKTON",
+      "FLOUNDER",
+      "DOLPHINS",
+      "SEAWEEDS",
+      "MARSHLAND",
+      "CRUSTACEA",
+      "WHALESONG"
+    ]
+  }
+}

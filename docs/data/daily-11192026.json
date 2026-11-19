@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11192026-E",
+    "generatedAt": "2026-11-19T07:44:55.593Z",
+    "groups": [
+      {
+        "name": "Living Room Items",
+        "items": [
+          "Couch",
+          "Lamp",
+          "Remote",
+          "Rug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head-to-Toe Gear",
+        "items": [
+          "Hat",
+          "Shoes",
+          "Gloves",
+          "Jacket"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Things",
+        "items": [
+          "Pan",
+          "Spoon",
+          "Knife",
+          "Bowl"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Animals",
+        "items": [
+          "Cow",
+          "Chicken",
+          "Sheep",
+          "Pig"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh Easy puzzle set for date 11192026."
+  },
+  "medium": {
+    "id": "11192026-M",
+    "generatedAt": "2026-11-19T07:44:55.593Z",
+    "groups": [
+      {
+        "name": "Weather Words",
+        "items": [
+          "Storm",
+          "Rain",
+          "Snow",
+          "Wind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Craft Tools",
+        "items": [
+          "Glue",
+          "Scissors",
+          "Tape",
+          "Marker"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Tree Parts",
+        "items": [
+          "Leaf",
+          "Bark",
+          "Branch",
+          "Roots"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Noun-Verb Pairs (multiple meanings)",
+        "items": [
+          "Park",
+          "Match",
+          "Spring",
+          "Wave"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle set with some tempting cross-over words."
+  },
+  "hard": {
+    "id": "11192026-H",
+    "generatedAt": "2026-11-19T07:44:55.593Z",
+    "groups": [
+      {
+        "name": "Double-Meaning Words",
+        "items": [
+          "Bug",
+          "Figure",
+          "Toast",
+          "Plant"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms",
+        "items": [
+          "Bow",
+          "Lead",
+          "Read",
+          "Tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Abstract Qualities",
+        "items": [
+          "Hope",
+          "Bravery",
+          "Curiosity",
+          "Friendship"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Contronyms",
+        "items": [
+          "Sanction",
+          "Oversight",
+          "Dust",
+          "Clip"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle set exploring tricky word meanings and pronunciations."
+  }
+}

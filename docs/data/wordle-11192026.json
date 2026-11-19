@@ -1,0 +1,19 @@
+{
+  "easy": "WIND",
+  "medium": "CLOUD",
+  "hard": "STREAM",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "Air that moves in the sky."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A soft water mist in the sky."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "Water that moves slowly along a path."
+    }
+  }
+}

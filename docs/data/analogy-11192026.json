@@ -1,0 +1,41 @@
+{
+  "date": "11192026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "carrot : orange",
+          "apple : red",
+          "grass : green",
+          "sky : blue"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "broom : sweep ::",
+        "choices": [
+          "fork : eat",
+          "shovel : dig",
+          "rake : plant",
+          "knife : slice"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "surgeon : scalpel ::",
+        "choices": [
+          "artist : brush",
+          "teacher : classroom",
+          "pilot : airplane",
+          "farmer : soil"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

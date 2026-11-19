@@ -34,7 +34,8 @@
     "banana : yellow :: apple : red",
     "banana : yellow :: sky : blue",
     "scissors : cut :: knife : slice",
-    "circle : wheel :: triangle : tent"
+    "circle : wheel :: triangle : tent",
+    "banana : yellow :: carrot : orange"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -71,7 +72,8 @@
     "thermometer : temperature :: ruler : length",
     "hammer : carpenter :: paintbrush : artist",
     "autumn : leaves fall :: winter : snow comes",
-    "wheel : car :: leaf : tree"
+    "wheel : car :: leaf : tree",
+    "broom : sweep :: shovel : dig"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -108,6 +110,7 @@
     "warm : hot :: cool : cold",
     "happy : unhappy :: clear : unclear",
     "thirst : water :: hunger : food",
-    "dawn : dusk :: begin : finish"
+    "dawn : dusk :: begin : finish",
+    "surgeon : scalpel :: artist : brush"
   ]
 }

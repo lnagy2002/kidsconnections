@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11202026-E",
+    "generatedAt": "2026-11-20T07:37:23.300Z",
+    "groups": [
+      {
+        "name": "Circular Items",
+        "items": [
+          "ball",
+          "coin",
+          "button",
+          "wheel"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Finds",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "plate"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Home Beasts",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "hamster"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "School Essentials",
+        "items": [
+          "desk",
+          "chair",
+          "board",
+          "pencil"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles group common, kid-friendly items by simple, visual themes. Each item is used once across all puzzles."
+  },
+  "medium": {
+    "id": "11202026-M",
+    "generatedAt": "2026-11-20T07:37:23.300Z",
+    "groups": [
+      {
+        "name": "Book-Word Combos",
+        "items": [
+          "note",
+          "mark",
+          "case",
+          "shelf"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Water-Word Pairs",
+        "items": [
+          "fall",
+          "melon",
+          "color",
+          "proof"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun-Word Pairs",
+        "items": [
+          "rise",
+          "flower",
+          "set",
+          "light"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Play-Word Combinations",
+        "items": [
+          "ground",
+          "time",
+          "book",
+          "date"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay with compounds. Some items might tempt you to group them differently, but each belongs in its own set."
+  },
+  "hard": {
+    "id": "11202026-H",
+    "generatedAt": "2026-11-20T07:37:23.300Z",
+    "groups": [
+      {
+        "name": "Noun-Verb Polys",
+        "items": [
+          "bat",
+          "bank",
+          "spring",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronym Pairs",
+        "items": [
+          "lead",
+          "wind",
+          "bow",
+          "tear"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animal-Tool-Word Trio",
+        "items": [
+          "bear",
+          "crane",
+          "seal",
+          "duck"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Color-Name Fruits",
+        "items": [
+          "orange",
+          "peach",
+          "lime",
+          "plum"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles explore polysemy, heteronyms, and color-name fruits. Some items may look like they fit another group at first glance."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "date": "11202026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "car : red",
+          "tree : green",
+          "cloud : white",
+          "sky : blue"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "big : large ::",
+        "choices": [
+          "fast : speedy",
+          "small : tiny",
+          "tall : high",
+          "bright : dim"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "warm : hot ::",
+        "choices": [
+          "wide : narrow",
+          "bright : dull",
+          "cold : freezing",
+          "happy : silly"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

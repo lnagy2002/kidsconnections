@@ -434,7 +434,11 @@
     "REEF",
     "SHIN",
     "CATS",
-    "TUNA"
+    "TUNA",
+    "FUEL",
+    "ASTR",
+    "COMET",
+    "ORBIT"
   ],
   "medium": [
     "MYSTIC",
@@ -886,7 +890,12 @@
     "MARINE",
     "KAYAK",
     "AQUARIUM",
-    "FLOTILLA"
+    "FLOTILLA",
+    "COSMOS",
+    "NEBULA",
+    "SPACESHIP",
+    "SATELLITE",
+    "ASTRONOMY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1318,6 +1327,14 @@
     "SEAWEEDS",
     "MARSHLAND",
     "CRUSTACEA",
-    "WHALESONG"
+    "WHALESONG",
+    "LIGHTYEAR",
+    "ASTRONAUT",
+    "EXOPLANET",
+    "QUASAR",
+    "SOLARWIND",
+    "TELESCOPIC",
+    "ROVERLANDER",
+    "METEORITE"
   ]
 }

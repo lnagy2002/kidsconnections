@@ -1,0 +1,19 @@
+{
+  "easy": "SPOT",
+  "medium": "GLADE",
+  "hard": "QUARRY",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A small mark on a surface."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "An open space in a forest."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A place where stones are taken from the ground."
+    }
+  }
+}

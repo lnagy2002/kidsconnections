@@ -1,0 +1,41 @@
+{
+  "date": "11212026",
+  "levels": {
+    "easy": [
+      {
+        "q": "scissors : cut ::",
+        "choices": [
+          "toy : play",
+          "banana : peel",
+          "book : read",
+          "car : drive"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "drum : hit ::",
+        "choices": [
+          "flute : blow",
+          "piano : strike",
+          "trumpet : blow",
+          "guitar : pluck"
+        ],
+        "answer": 2
+      }
+    ],
+    "hard": [
+      {
+        "q": "happy : unhappy ::",
+        "choices": [
+          "bright : dim",
+          "light : heavy",
+          "hot : cold",
+          "fast : slow"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

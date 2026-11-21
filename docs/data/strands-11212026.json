@@ -1,0 +1,40 @@
+{
+  "theme": "weather",
+  "easy": {
+    "words": [
+      "RAIN",
+      "HAIL",
+      "WARM",
+      "FLOOD",
+      "CLOUD",
+      "FAN",
+      "MIST",
+      "STORM"
+    ]
+  },
+  "medium": {
+    "words": [
+      "WEATHER",
+      "TYPHOON",
+      "RAINBOW",
+      "HURRICANE",
+      "SQUALL",
+      "CYCLONE",
+      "LIGHTNING",
+      "RAINY"
+    ]
+  },
+  "hard": {
+    "words": [
+      "TEMPORARY",
+      "METEOROLOGY",
+      "CLOUDINESS",
+      "PROBABILITY",
+      "DEHYDRATION",
+      "NEBULOSITY",
+      "OVERCAST",
+      "THERMOMETER",
+      "PREVAILING"
+    ]
+  }
+}

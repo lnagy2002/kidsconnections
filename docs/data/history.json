@@ -438,7 +438,8 @@
     "FUEL",
     "ASTR",
     "COMET",
-    "ORBIT"
+    "ORBIT",
+    "FLOOD"
   ],
   "medium": [
     "MYSTIC",
@@ -895,7 +896,13 @@
     "NEBULA",
     "SPACESHIP",
     "SATELLITE",
-    "ASTRONOMY"
+    "ASTRONOMY",
+    "WEATHER",
+    "TYPHOON",
+    "HURRICANE",
+    "SQUALL",
+    "CYCLONE",
+    "RAINY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1335,6 +1342,15 @@
     "SOLARWIND",
     "TELESCOPIC",
     "ROVERLANDER",
-    "METEORITE"
+    "METEORITE",
+    "TEMPORARY",
+    "METEOROLOGY",
+    "CLOUDINESS",
+    "PROBABILITY",
+    "DEHYDRATION",
+    "NEBULOSITY",
+    "OVERCAST",
+    "THERMOMETER",
+    "PREVAILING"
   ]
 }

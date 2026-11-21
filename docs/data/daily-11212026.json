@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11212026-E",
+    "generatedAt": "2026-11-21T07:33:04.727Z",
+    "groups": [
+      {
+        "name": "Objects in circular shapes",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "disc"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear",
+        "items": [
+          "hat",
+          "cap",
+          "tiara",
+          "helmet"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Breakfast favorites",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "bacon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sip-worthy drinks",
+        "items": [
+          "water",
+          "milk",
+          "juice",
+          "soda"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh easy-level groups with concrete, visible items."
+  },
+  "medium": {
+    "id": "11212026-M",
+    "generatedAt": "2026-11-21T07:33:04.727Z",
+    "groups": [
+      {
+        "name": "Noun-Verb words with same spelling",
+        "items": [
+          "watch",
+          "paste",
+          "rock",
+          "mail"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Plant parts",
+        "items": [
+          "stem",
+          "leaf",
+          "root",
+          "bark"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather terms",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "fog"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Common kitchen tools",
+        "items": [
+          "spoon",
+          "fork",
+          "bowl",
+          "knife"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle uses wordplay and multiple-meaning words; some items might seem to fit other groups."
+  },
+  "hard": {
+    "id": "11212026-H",
+    "generatedAt": "2026-11-21T07:33:04.727Z",
+    "groups": [
+      {
+        "name": "Polyseme power: double meanings",
+        "items": [
+          "spring",
+          "bank",
+          "crane",
+          "bat"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tempest weather terms",
+        "items": [
+          "storm",
+          "haze",
+          "gale",
+          "sleet"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Home furnishings",
+        "items": [
+          "desk",
+          "sofa",
+          "chair",
+          "rug"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sky travelers",
+        "items": [
+          "plane",
+          "kite",
+          "rocket",
+          "balloon"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean toward abstract connections and polysemy; cross-over temptations are intentional."
+  }
+}

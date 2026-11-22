@@ -37,7 +37,8 @@
     "circle : wheel :: triangle : tent",
     "banana : yellow :: carrot : orange",
     "banana : yellow :: car : red",
-    "scissors : cut :: toy : play"
+    "scissors : cut :: toy : play",
+    "hot : cold :: fast : slow"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -77,7 +78,8 @@
     "wheel : car :: leaf : tree",
     "broom : sweep :: shovel : dig",
     "big : large :: fast : speedy",
-    "drum : hit :: trumpet : blow"
+    "drum : hit :: trumpet : blow",
+    "broom : sweep :: pen : write"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -117,6 +119,7 @@
     "dawn : dusk :: begin : finish",
     "surgeon : scalpel :: artist : brush",
     "warm : hot :: cold : freezing",
-    "happy : unhappy :: bright : dim"
+    "happy : unhappy :: bright : dim",
+    "hexagon : 6 sides :: triangle : 3 sides"
   ]
 }

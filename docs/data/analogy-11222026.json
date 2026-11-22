@@ -1,0 +1,41 @@
+{
+  "date": "11222026",
+  "levels": {
+    "easy": [
+      {
+        "q": "hot : cold ::",
+        "choices": [
+          "fast : slow",
+          "big : small",
+          "happy : sad",
+          "bright : dark"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "broom : sweep ::",
+        "choices": [
+          "pen : write",
+          "knife : cut",
+          "screwdriver : twist",
+          "saw : slice"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "hexagon : 6 sides ::",
+        "choices": [
+          "triangle : 3 sides",
+          "square : 4 angles",
+          "circle : 0 sides",
+          "octagon : 8 edges"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11222026-E",
+    "generatedAt": "2026-11-22T07:14:55.197Z",
+    "groups": [
+      {
+        "name": "Circular Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "cookie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Coverings",
+        "items": [
+          "sock",
+          "boot",
+          "sandal",
+          "slipper"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Cooking Helpers",
+        "items": [
+          "spoon",
+          "cup",
+          "pan",
+          "mug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals on a Farm",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzle with four concrete, kid-friendly themes. Each group has four items; all items are unique across puzzles."
+  },
+  "medium": {
+    "id": "11222026-M",
+    "generatedAt": "2026-11-22T07:14:55.197Z",
+    "groups": [
+      {
+        "name": "Pets and Farm Animals",
+        "items": [
+          "cat",
+          "dog",
+          "goat",
+          "llama"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Everyday Foods",
+        "items": [
+          "apple",
+          "bread",
+          "cheese",
+          "yogurt"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Geometric Shapes",
+        "items": [
+          "circle",
+          "square",
+          "triangle",
+          "star"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Travel Modes",
+        "items": [
+          "car",
+          "boat",
+          "bike",
+          "plane"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzle includes light word-matching play. Cross-over temptation examples: some animals could be tied to foods (e.g., goat → goat cheese). Shapes are listed as shapes; travel modes are common ways to get around."
+  },
+  "hard": {
+    "id": "11222026-H",
+    "generatedAt": "2026-11-22T07:14:55.197Z",
+    "groups": [
+      {
+        "name": "Polysemes Across Senses",
+        "items": [
+          "bank",
+          "bat",
+          "coach",
+          "fan"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Weather Phenomena",
+        "items": [
+          "wind",
+          "rain",
+          "snow",
+          "hail"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Music-Related Terms",
+        "items": [
+          "note",
+          "chord",
+          "scale",
+          "tempo"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Office Essentials",
+        "items": [
+          "paper",
+          "pencil",
+          "eraser",
+          "staple"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzle emphasizes abstract connections and polysemy. Cross-over temptation is intentional: words like 'bank' can mean a financial institution or a river bank; 'bat' can be an animal or a sports implement; 'coach' can be a teacher or a vehicle, etc. Kids should identify the intended group by the provided four-item theme."
+  }
+}

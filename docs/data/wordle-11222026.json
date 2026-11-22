@@ -1,0 +1,19 @@
+{
+  "easy": "BARN",
+  "medium": "CLOUD",
+  "hard": "BRIGHT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A small building on a farm."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A fluffy thing in the sky formed by water droplets."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "Describes light that is strong and easy to see."
+    }
+  }
+}

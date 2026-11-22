@@ -1,0 +1,40 @@
+{
+  "theme": "the farm",
+  "easy": {
+    "words": [
+      "FARM",
+      "HAY",
+      "CROP",
+      "SEED",
+      "GROW",
+      "BARN",
+      "GOAT",
+      "EARS"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TRACTOR",
+      "CABBAGE",
+      "SCARECROW",
+      "HARVEST",
+      "CHICKEN",
+      "SHEEPDOG",
+      "FARMERS",
+      "TOMATOE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "AGRICULTURE",
+      "HAYSTACKS",
+      "WHEATFIELD",
+      "FERTILIZER",
+      "LANDSCAPE",
+      "POULTRY",
+      "PERSIMMON",
+      "CORNFIELD",
+      "HARVESTER"
+    ]
+  }
+}

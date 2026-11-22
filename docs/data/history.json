@@ -439,7 +439,8 @@
     "ASTR",
     "COMET",
     "ORBIT",
-    "FLOOD"
+    "FLOOD",
+    "EARS"
   ],
   "medium": [
     "MYSTIC",
@@ -902,7 +903,11 @@
     "HURRICANE",
     "SQUALL",
     "CYCLONE",
-    "RAINY"
+    "RAINY",
+    "SCARECROW",
+    "SHEEPDOG",
+    "FARMERS",
+    "TOMATOE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1351,6 +1356,12 @@
     "NEBULOSITY",
     "OVERCAST",
     "THERMOMETER",
-    "PREVAILING"
+    "PREVAILING",
+    "AGRICULTURE",
+    "HAYSTACKS",
+    "WHEATFIELD",
+    "POULTRY",
+    "CORNFIELD",
+    "HARVESTER"
   ]
 }

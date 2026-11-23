@@ -38,7 +38,8 @@
     "banana : yellow :: carrot : orange",
     "banana : yellow :: car : red",
     "scissors : cut :: toy : play",
-    "hot : cold :: fast : slow"
+    "hot : cold :: fast : slow",
+    "hot : cold :: light : heavy"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -79,7 +80,8 @@
     "broom : sweep :: shovel : dig",
     "big : large :: fast : speedy",
     "drum : hit :: trumpet : blow",
-    "broom : sweep :: pen : write"
+    "broom : sweep :: pen : write",
+    "chef : kitchen :: teacher : school"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -120,6 +122,7 @@
     "surgeon : scalpel :: artist : brush",
     "warm : hot :: cold : freezing",
     "happy : unhappy :: bright : dim",
-    "hexagon : 6 sides :: triangle : 3 sides"
+    "hexagon : 6 sides :: triangle : 3 sides",
+    "desert : camel :: ocean : dolphin"
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "date": "11232026",
+  "levels": {
+    "easy": [
+      {
+        "q": "hot : cold ::",
+        "choices": [
+          "big : small",
+          "long : short",
+          "light : heavy",
+          "fast : slow"
+        ],
+        "answer": 2
+      }
+    ],
+    "medium": [
+      {
+        "q": "chef : kitchen ::",
+        "choices": [
+          "teacher : school",
+          "doctor : hospital",
+          "artist : gallery",
+          "builder : construction"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "desert : camel ::",
+        "choices": [
+          "ocean : dolphin",
+          "jungle : monkey",
+          "mountain : eagle",
+          "forest : bear"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

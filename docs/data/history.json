@@ -440,7 +440,10 @@
     "COMET",
     "ORBIT",
     "FLOOD",
-    "EARS"
+    "EARS",
+    "BATS",
+    "GOAL",
+    "DIVE"
   ],
   "medium": [
     "MYSTIC",
@@ -907,7 +910,9 @@
     "SCARECROW",
     "SHEEPDOG",
     "FARMERS",
-    "TOMATOE"
+    "TOMATOE",
+    "VOLLEY",
+    "SWIMMING"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1362,6 +1367,14 @@
     "WHEATFIELD",
     "POULTRY",
     "CORNFIELD",
-    "HARVESTER"
+    "HARVESTER",
+    "WRESTLING",
+    "BASKETBALL",
+    "ATHLETICS",
+    "CHEERLEADING",
+    "CROSSCOUNTRY",
+    "SNOWBOARDING",
+    "MOUNTAINBIKE",
+    "WATERPOLO"
   ]
 }

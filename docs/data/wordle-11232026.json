@@ -1,0 +1,19 @@
+{
+  "easy": "CAKE",
+  "medium": "LEMON",
+  "hard": "STREAM",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A sweet baked treat."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A sour yellow fruit."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A small river or a flow of water."
+    }
+  }
+}

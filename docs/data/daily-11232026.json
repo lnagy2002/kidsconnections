@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11232026-E",
+    "generatedAt": "2026-11-23T07:58:56.854Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "rose",
+          "firetruck"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wheeled Vehicles",
+        "items": [
+          "car",
+          "bicycle",
+          "skateboard",
+          "bus"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Animals",
+        "items": [
+          "dog",
+          "cat",
+          "hamster",
+          "parrot"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Morning Foods",
+        "items": [
+          "eggs",
+          "toast",
+          "cereal",
+          "yogurt"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly Connections-style puzzles for 11232026."
+  },
+  "medium": {
+    "id": "11232026-M",
+    "generatedAt": "2026-11-23T07:58:56.854Z",
+    "groups": [
+      {
+        "name": "Words you can make by adding 're' to form new words",
+        "items": [
+          "do",
+          "view",
+          "paint",
+          "play"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sun Prefix Group",
+        "items": [
+          "flower",
+          "rise",
+          "beam",
+          "burn"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Rain Prefix Group",
+        "items": [
+          "bow",
+          "coat",
+          "forest",
+          "check"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Under Prefix Group",
+        "items": [
+          "stand",
+          "water",
+          "cover",
+          "study"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles involve simple wordplay and prefixes."
+  },
+  "hard": {
+    "id": "11232026-H",
+    "generatedAt": "2026-11-23T07:58:56.854Z",
+    "groups": [
+      {
+        "name": "Opposite-meaning words",
+        "items": [
+          "dust",
+          "bolt",
+          "clip",
+          "sanction"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Heteronyms: same spelling, different pronunciation",
+        "items": [
+          "wind",
+          "read",
+          "present",
+          "desert"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Noun-Verb pairs (same spelling)",
+        "items": [
+          "record",
+          "watch",
+          "table",
+          "ring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with many meanings",
+        "items": [
+          "bark",
+          "bank",
+          "spring",
+          "pitch"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles require abstract connections and attention to multiple meanings."
+  }
+}

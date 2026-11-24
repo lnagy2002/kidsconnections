@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11242026-E",
+    "generatedAt": "2026-11-24T10:13:41.076Z",
+    "groups": [
+      {
+        "name": "Round Things",
+        "items": [
+          "ball",
+          "coin",
+          "wheel",
+          "moon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Writing Tools",
+        "items": [
+          "pencil",
+          "pen",
+          "marker",
+          "crayon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Animals on a Farm",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "chicken"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Items in a Park",
+        "items": [
+          "bench",
+          "swing",
+          "slide",
+          "fountain"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh, kid-friendly connections for Easy. All items are distinct."
+  },
+  "medium": {
+    "id": "11242026-M",
+    "generatedAt": "2026-11-24T10:13:41.076Z",
+    "groups": [
+      {
+        "name": "Word Combos",
+        "items": [
+          "sunflower",
+          "raincoat",
+          "snowman",
+          "bookshelf"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Vehicles You Ride",
+        "items": [
+          "bicycle",
+          "scooter",
+          "skateboard",
+          "tricycle"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Words with Un Prefix",
+        "items": [
+          "undo",
+          "untie",
+          "unlock",
+          "unload"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Light Sources",
+        "items": [
+          "candle",
+          "lantern",
+          "lamp",
+          "flashlight"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles introduce some cross-over temptations: some items could seem like they fit another group at first glance, but belong to the intended group."
+  },
+  "hard": {
+    "id": "11242026-H",
+    "generatedAt": "2026-11-24T10:13:41.076Z",
+    "groups": [
+      {
+        "name": "Words with Several Meanings",
+        "items": [
+          "bat",
+          "spring",
+          "bank",
+          "crane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Same-Spelling, Different-Pronunciation",
+        "items": [
+          "wind",
+          "bow",
+          "tear",
+          "row"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Palindromes",
+        "items": [
+          "level",
+          "civic",
+          "radar",
+          "madam"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Planets of the Solar System",
+        "items": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles push abstract thinking. Some items may tempt you to group them differently, but the set follows the stated patterns."
+  }
+}

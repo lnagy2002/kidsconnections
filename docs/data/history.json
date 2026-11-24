@@ -443,7 +443,12 @@
     "EARS",
     "BATS",
     "GOAL",
-    "DIVE"
+    "DIVE",
+    "BEAT",
+    "HARP",
+    "JAZZ",
+    "LYRE",
+    "CANT"
   ],
   "medium": [
     "MYSTIC",
@@ -912,7 +917,14 @@
     "FARMERS",
     "TOMATOE",
     "VOLLEY",
-    "SWIMMING"
+    "SWIMMING",
+    "TROMBONE",
+    "SYMPHONY",
+    "DRUMMER",
+    "KEYBOARD",
+    "RHYTHM",
+    "VIOLIN",
+    "OCTAVE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1375,6 +1387,14 @@
     "CROSSCOUNTRY",
     "SNOWBOARDING",
     "MOUNTAINBIKE",
-    "WATERPOLO"
+    "WATERPOLO",
+    "ORCHESTRA",
+    "MELODYING",
+    "SAXOPHONE",
+    "CLARINET",
+    "PIANIST",
+    "FREQUENCY",
+    "ANTHEM",
+    "NOTATION"
   ]
 }

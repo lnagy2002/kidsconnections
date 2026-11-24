@@ -1,0 +1,40 @@
+{
+  "theme": "music",
+  "easy": {
+    "words": [
+      "NOTE",
+      "BEAT",
+      "SING",
+      "HARP",
+      "BAND",
+      "JAZZ",
+      "LYRE",
+      "CANT"
+    ]
+  },
+  "medium": {
+    "words": [
+      "GUITAR",
+      "TROMBONE",
+      "SYMPHONY",
+      "DRUMMER",
+      "KEYBOARD",
+      "RHYTHM",
+      "VIOLIN",
+      "OCTAVE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ORCHESTRA",
+      "MELODYING",
+      "SAXOPHONE",
+      "CLARINET",
+      "PIANIST",
+      "FREQUENCY",
+      "ANTHEM",
+      "NOTATION",
+      "PRACTICE"
+    ]
+  }
+}

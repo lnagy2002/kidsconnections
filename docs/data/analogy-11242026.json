@@ -1,0 +1,41 @@
+{
+  "date": "11242026",
+  "levels": {
+    "easy": [
+      {
+        "q": "cow : calf ::",
+        "choices": [
+          "pig : pork",
+          "hen : chick",
+          "horse : hay",
+          "sheep : fleece"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "sickle : grass ::",
+        "choices": [
+          "hammer : nail",
+          "fork : food",
+          "ruler : length",
+          "spade : soil"
+        ],
+        "answer": 3
+      }
+    ],
+    "hard": [
+      {
+        "q": "farm : cow ::",
+        "choices": [
+          "ocean : fish",
+          "forest : deer",
+          "school : student",
+          "desert : camel"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

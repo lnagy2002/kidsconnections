@@ -39,7 +39,8 @@
     "banana : yellow :: car : red",
     "scissors : cut :: toy : play",
     "hot : cold :: fast : slow",
-    "hot : cold :: light : heavy"
+    "hot : cold :: light : heavy",
+    "cow : calf :: hen : chick"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -81,7 +82,8 @@
     "big : large :: fast : speedy",
     "drum : hit :: trumpet : blow",
     "broom : sweep :: pen : write",
-    "chef : kitchen :: teacher : school"
+    "chef : kitchen :: teacher : school",
+    "sickle : grass :: spade : soil"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -123,6 +125,7 @@
     "warm : hot :: cold : freezing",
     "happy : unhappy :: bright : dim",
     "hexagon : 6 sides :: triangle : 3 sides",
-    "desert : camel :: ocean : dolphin"
+    "desert : camel :: ocean : dolphin",
+    "farm : cow :: ocean : fish"
   ]
 }

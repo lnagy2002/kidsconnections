@@ -1,0 +1,25 @@
+{
+  "easy": [
+    "SAND"
+  ],
+  "medium": [
+    "SMILE"
+  ],
+  "hard": [
+    "STABLE"
+  ],
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "Tiny grains of rock found on beaches and deserts."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A friendly expression made by turning the lips into a small curve."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "Something that stays steady and does not move easily."
+    }
+  }
+}

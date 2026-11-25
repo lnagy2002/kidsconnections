@@ -1,0 +1,19 @@
+{
+  "easy": "DOVE",
+  "medium": "PLANT",
+  "hard": "BRIGHT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A white bird that coos."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A living thing that grows in soil."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "Something that shines or is easy to see."
+    }
+  }
+}

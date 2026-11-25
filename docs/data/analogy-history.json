@@ -40,7 +40,8 @@
     "scissors : cut :: toy : play",
     "hot : cold :: fast : slow",
     "hot : cold :: light : heavy",
-    "cow : calf :: hen : chick"
+    "cow : calf :: hen : chick",
+    "banana : yellow :: leaf : green"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -83,7 +84,8 @@
     "drum : hit :: trumpet : blow",
     "broom : sweep :: pen : write",
     "chef : kitchen :: teacher : school",
-    "sickle : grass :: spade : soil"
+    "sickle : grass :: spade : soil",
+    "hammer : carpenter :: brush : artist"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -126,6 +128,7 @@
     "happy : unhappy :: bright : dim",
     "hexagon : 6 sides :: triangle : 3 sides",
     "desert : camel :: ocean : dolphin",
-    "farm : cow :: ocean : fish"
+    "farm : cow :: ocean : fish",
+    "desert : camel :: forest : deer"
   ]
 }

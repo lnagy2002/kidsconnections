@@ -1,0 +1,41 @@
+{
+  "date": "11252026",
+  "levels": {
+    "easy": [
+      {
+        "q": "banana : yellow ::",
+        "choices": [
+          "leaf : green",
+          "apple : red",
+          "sky : blue",
+          "car : red"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "hammer : carpenter ::",
+        "choices": [
+          "brush : artist",
+          "saw : builder",
+          "computer : programmer",
+          "paint : room"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "desert : camel ::",
+        "choices": [
+          "forest : deer",
+          "ocean : dolphin",
+          "mountain : eagle",
+          "swamp : frog"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

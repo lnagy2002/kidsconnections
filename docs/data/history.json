@@ -448,7 +448,10 @@
     "HARP",
     "JAZZ",
     "LYRE",
-    "CANT"
+    "CANT",
+    "PAPER",
+    "WRITE",
+    "MATH"
   ],
   "medium": [
     "MYSTIC",
@@ -924,7 +927,11 @@
     "KEYBOARD",
     "RHYTHM",
     "VIOLIN",
-    "OCTAVE"
+    "OCTAVE",
+    "REPORT",
+    "SUBJECT",
+    "HOMEWORK",
+    "LIBRARY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1395,6 +1402,13 @@
     "PIANIST",
     "FREQUENCY",
     "ANTHEM",
-    "NOTATION"
+    "NOTATION",
+    "ASSEMBLY",
+    "ENROLLMENT",
+    "EXERCISES",
+    "DICTIONARY",
+    "CALENDAR",
+    "SCHOLARSHIP",
+    "PRESENTATION"
   ]
 }

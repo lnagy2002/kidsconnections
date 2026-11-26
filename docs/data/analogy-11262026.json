@@ -1,0 +1,41 @@
+{
+  "date": "11262026",
+  "levels": {
+    "easy": [
+      {
+        "q": "cat : kitten ::",
+        "choices": [
+          "cow : calf",
+          "dog : yard",
+          "fish : water",
+          "bird : nest"
+        ],
+        "answer": 0
+      }
+    ],
+    "medium": [
+      {
+        "q": "library : read ::",
+        "choices": [
+          "forest : walk",
+          "park : play",
+          "market : buy",
+          "mountain : climb"
+        ],
+        "answer": 0
+      }
+    ],
+    "hard": [
+      {
+        "q": "wolf : pack ::",
+        "choices": [
+          "deer : herd",
+          "fish : school",
+          "cat : group",
+          "bird : flock"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

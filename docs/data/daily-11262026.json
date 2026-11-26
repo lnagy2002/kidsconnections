@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11262026-E",
+    "generatedAt": "2026-11-26T08:44:06.918Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "apple",
+          "strawberry",
+          "tomato",
+          "cherry"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Rounded Objects for Play",
+        "items": [
+          "ball",
+          "wheel",
+          "coin",
+          "clock"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Headwear Choices",
+        "items": [
+          "hat",
+          "cap",
+          "helmet",
+          "beanie"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Household Animals",
+        "items": [
+          "dog",
+          "cat",
+          "fish",
+          "rabbit"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 4x4 connections puzzle set for 11262026. Easy level focuses on concrete, visual groupings."
+  },
+  "medium": {
+    "id": "11262026-M",
+    "generatedAt": "2026-11-26T08:44:06.918Z",
+    "groups": [
+      {
+        "name": "Classroom Essentials",
+        "items": [
+          "eraser",
+          "notebook",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Hot or Cold Beverages",
+        "items": [
+          "soup",
+          "tea",
+          "water",
+          "lemonade"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Terms",
+        "items": [
+          "sun",
+          "rain",
+          "snow",
+          "wind"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Size Descriptors",
+        "items": [
+          "big",
+          "small",
+          "huge",
+          "tiny"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium puzzles use simple wordplay and common compound ideas. Some items could tempt mis-grouping but belong to a single correct set."
+  },
+  "hard": {
+    "id": "11262026-H",
+    "generatedAt": "2026-11-26T08:44:06.918Z",
+    "groups": [
+      {
+        "name": "Polysemy Pairs",
+        "items": [
+          "bank",
+          "bark",
+          "bat",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pairs of Wearables",
+        "items": [
+          "shoes",
+          "socks",
+          "gloves",
+          "earrings"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Eating Utensils",
+        "items": [
+          "spoon",
+          "fork",
+          "plate",
+          "bowl"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Counting Numbers",
+        "items": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles emphasize abstract connections and polysemy. Expect some tempting cross-overs to seem like they could fit other groups, but each item belongs to exactly one correct group."
+  }
+}

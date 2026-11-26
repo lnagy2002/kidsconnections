@@ -1,0 +1,19 @@
+{
+  "easy": "WIND",
+  "medium": "PLANT",
+  "hard": "BRIGHT",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "Air in motion."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A living thing that grows in soil."
+    },
+    "hard": {
+      "pos": "adjective",
+      "text": "Full of light."
+    }
+  }
+}

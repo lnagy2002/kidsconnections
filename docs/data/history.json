@@ -451,7 +451,9 @@
     "CANT",
     "PAPER",
     "WRITE",
-    "MATH"
+    "MATH",
+    "PLOT",
+    "BEAN"
   ],
   "medium": [
     "MYSTIC",
@@ -931,7 +933,15 @@
     "REPORT",
     "SUBJECT",
     "HOMEWORK",
-    "LIBRARY"
+    "LIBRARY",
+    "TROWEL",
+    "SPADE",
+    "GROWTH",
+    "NATURE",
+    "WEEDER",
+    "BLOOMED",
+    "FERTIL",
+    "COMPOST"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1409,6 +1419,15 @@
     "DICTIONARY",
     "CALENDAR",
     "SCHOLARSHIP",
-    "PRESENTATION"
+    "PRESENTATION",
+    "ORNAMENT",
+    "TOMATOES",
+    "HERBICIDE",
+    "NUTRIENT",
+    "ELECTRIC",
+    "DECORATE",
+    "ENHANCE",
+    "RADIATION",
+    "POLLINATE"
   ]
 }

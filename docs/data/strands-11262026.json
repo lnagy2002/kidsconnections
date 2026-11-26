@@ -1,0 +1,40 @@
+{
+  "theme": "the garden",
+  "easy": {
+    "words": [
+      "FLOW",
+      "LEAF",
+      "ROOT",
+      "BUSH",
+      "PLOT",
+      "HIVE",
+      "BEAN",
+      "PICK"
+    ]
+  },
+  "medium": {
+    "words": [
+      "TROWEL",
+      "SPADE",
+      "GROWTH",
+      "NATURE",
+      "WEEDER",
+      "BLOOMED",
+      "FERTIL",
+      "COMPOST"
+    ]
+  },
+  "hard": {
+    "words": [
+      "ORNAMENT",
+      "TOMATOES",
+      "HERBICIDE",
+      "NUTRIENT",
+      "ELECTRIC",
+      "DECORATE",
+      "ENHANCE",
+      "RADIATION",
+      "POLLINATE"
+    ]
+  }
+}

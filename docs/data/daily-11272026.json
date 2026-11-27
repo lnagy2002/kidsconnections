@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11272026-E",
+    "generatedAt": "2026-11-27T08:55:08.077Z",
+    "groups": [
+      {
+        "name": "Red Things",
+        "items": [
+          "APPLE",
+          "ROSE",
+          "CHERRY",
+          "STRAWBERRY"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Friends",
+        "items": [
+          "COW",
+          "PIG",
+          "HEN",
+          "SHEEP"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Basics",
+        "items": [
+          "SPOON",
+          "BOWL",
+          "POT",
+          "KNIFE"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Head to Toe",
+        "items": [
+          "HAT",
+          "SHIRT",
+          "SHOES",
+          "SOCKS"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Fresh 4x4 easy puzzle set for 11272026. Kid-friendly and concrete, with distinct groups. Some items might tempt you to place them in another group, but each item belongs to just one group."
+  },
+  "medium": {
+    "id": "11272026-M",
+    "generatedAt": "2026-11-27T08:55:08.077Z",
+    "groups": [
+      {
+        "name": "Airborne Items",
+        "items": [
+          "PLANE",
+          "KITE",
+          "BALLOON",
+          "BEE"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Morning Eats",
+        "items": [
+          "CEREAL",
+          "EGG",
+          "TOAST",
+          "MILK"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Round Objects",
+        "items": [
+          "BALL",
+          "COIN",
+          "ORB",
+          "ORANGE"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Winter Wardrobe",
+        "items": [
+          "SCARF",
+          "GLOVE",
+          "BOOTS",
+          "JACKET"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Fresh 4x4 medium puzzle set for 11272026. Includes cross-over temptations: some items could seem like they belong in another group, so pay attention to the defined theme for each group."
+  },
+  "hard": {
+    "id": "11272026-H",
+    "generatedAt": "2026-11-27T08:55:08.077Z",
+    "groups": [
+      {
+        "name": "Double-Use Words",
+        "items": [
+          "PARK",
+          "DUST",
+          "BRUSH",
+          "ROLL"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Words with Two Pronunciations",
+        "items": [
+          "WIND",
+          "LEAD",
+          "BOW",
+          "READ"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Animals That Are Also Objects",
+        "items": [
+          "BAT",
+          "CRANE",
+          "MOUSE",
+          "RAM"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Move It",
+        "items": [
+          "RUN",
+          "JUMP",
+          "WALK",
+          "FLY"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Fresh 4x4 hard puzzle set for 11272026. Abstract connections and polysemy shine here. Some items may seem like they could belong to another group, but they fit only one group exactly."
+  }
+}

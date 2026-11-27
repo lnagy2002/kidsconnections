@@ -453,7 +453,11 @@
     "WRITE",
     "MATH",
     "PLOT",
-    "BEAN"
+    "BEAN",
+    "PULL",
+    "STACK",
+    "HUG",
+    "TOTE"
   ],
   "medium": [
     "MYSTIC",
@@ -941,7 +945,14 @@
     "WEEDER",
     "BLOOMED",
     "FERTIL",
-    "COMPOST"
+    "COMPOST",
+    "FIGURE",
+    "PUZZLE",
+    "GAMING",
+    "BLOCKS",
+    "PLAYSET",
+    "ROBOTIC",
+    "MONOPOLY"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1428,6 +1439,12 @@
     "DECORATE",
     "ENHANCE",
     "RADIATION",
-    "POLLINATE"
+    "POLLINATE",
+    "KITEBOARD",
+    "KICKBALL",
+    "SLEDGING",
+    "PLUSHIE",
+    "SLIDEABLE",
+    "PUPPETRY"
   ]
 }

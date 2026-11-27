@@ -1,0 +1,41 @@
+{
+  "date": "11272026",
+  "levels": {
+    "easy": [
+      {
+        "q": "bee : honey ::",
+        "choices": [
+          "ant : crawl",
+          "spider : web",
+          "butterfly : flutter",
+          "fly : buzz"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "ant : colony ::",
+        "choices": [
+          "shark : ocean",
+          "bee : hive",
+          "lion : pack",
+          "bird : flock"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "happy : unhappy ::",
+        "choices": [
+          "safe : unsafe",
+          "fast : slow",
+          "bright : dark",
+          "strong : weak"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

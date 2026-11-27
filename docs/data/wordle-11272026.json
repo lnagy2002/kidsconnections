@@ -1,0 +1,19 @@
+{
+  "easy": "MOON",
+  "medium": "CLOUD",
+  "hard": "KITTEN",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A ROUND LIGHT IN THE NIGHT SKY"
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A FLUFFY MASS IN THE SKY MADE OF TINY WATER DROPS"
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "A YOUNG CAT"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "theme": "the kitchen",
+  "easy": {
+    "words": [
+      "PAN",
+      "MUG",
+      "CUP",
+      "PLATE",
+      "SPATULA",
+      "SPOON",
+      "FORK",
+      "OVEN"
+    ]
+  },
+  "medium": {
+    "words": [
+      "STOVE",
+      "RANGE",
+      "CANDLE",
+      "KITCHEN",
+      "FURNACE",
+      "SLICING",
+      "FRIDGE",
+      "FOODIE"
+    ]
+  },
+  "hard": {
+    "words": [
+      "MICROWAVE",
+      "COOKBOOK",
+      "RECIPE",
+      "CULLENDER",
+      "REFRIGERATOR",
+      "BAKING",
+      "DISHWASHER",
+      "BASTING",
+      "TOASTER"
+    ]
+  }
+}

@@ -457,7 +457,11 @@
     "PULL",
     "STACK",
     "HUG",
-    "TOTE"
+    "TOTE",
+    "MUG",
+    "PLATE",
+    "SPATULA",
+    "SPOON"
   ],
   "medium": [
     "MYSTIC",
@@ -952,7 +956,11 @@
     "BLOCKS",
     "PLAYSET",
     "ROBOTIC",
-    "MONOPOLY"
+    "MONOPOLY",
+    "RANGE",
+    "SLICING",
+    "FRIDGE",
+    "FOODIE"
   ],
   "hard": [
     "EXEMPLARY",
@@ -1445,6 +1453,13 @@
     "SLEDGING",
     "PLUSHIE",
     "SLIDEABLE",
-    "PUPPETRY"
+    "PUPPETRY",
+    "COOKBOOK",
+    "RECIPE",
+    "CULLENDER",
+    "BAKING",
+    "DISHWASHER",
+    "BASTING",
+    "TOASTER"
   ]
 }

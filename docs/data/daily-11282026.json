@@ -1,0 +1,143 @@
+{
+  "easy": {
+    "id": "11282026-E",
+    "generatedAt": "2026-11-28T08:15:17.234Z",
+    "groups": [
+      {
+        "name": "Fruit Friends",
+        "items": [
+          "apple",
+          "grape",
+          "peach",
+          "lemon"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Kitchen Tools",
+        "items": [
+          "spoon",
+          "pan",
+          "bowl",
+          "mug"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Farm Pals",
+        "items": [
+          "cow",
+          "pig",
+          "sheep",
+          "horse"
+        ],
+        "difficulty": "easy"
+      },
+      {
+        "name": "Feet Gear",
+        "items": [
+          "shoes",
+          "socks",
+          "slippers",
+          "sandals"
+        ],
+        "difficulty": "easy"
+      }
+    ],
+    "notes": "Easy puzzles use concrete, visible groups (like fruits or kitchen items). Each group has four items sharing a clear, kid-friendly link."
+  },
+  "medium": {
+    "id": "11282026-M",
+    "generatedAt": "2026-11-28T08:15:17.234Z",
+    "groups": [
+      {
+        "name": "Two-Part Compounds",
+        "items": [
+          "cupcake",
+          "sunset",
+          "bookcase",
+          "raincoat"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Weather Words",
+        "items": [
+          "rain",
+          "snow",
+          "wind",
+          "thunder"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Careers",
+        "items": [
+          "teacher",
+          "nurse",
+          "pilot",
+          "chef"
+        ],
+        "difficulty": "medium"
+      },
+      {
+        "name": "Ocean Friends",
+        "items": [
+          "dolphin",
+          "whale",
+          "octopus",
+          "seal"
+        ],
+        "difficulty": "medium"
+      }
+    ],
+    "notes": "Medium groups blend simple wordplay and familiar terms. Cross-over temptations exist, but each item fits uniquely into one group."
+  },
+  "hard": {
+    "id": "11282026-H",
+    "generatedAt": "2026-11-28T08:15:17.234Z",
+    "groups": [
+      {
+        "name": "Word Flexibility",
+        "items": [
+          "bat",
+          "duck",
+          "plant",
+          "spring"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Classroom Treasures",
+        "items": [
+          "chalk",
+          "eraser",
+          "ruler",
+          "glue"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Ride & Travel",
+        "items": [
+          "car",
+          "bus",
+          "bike",
+          "plane"
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "name": "Geographic Features",
+        "items": [
+          "valley",
+          "canyon",
+          "desert",
+          "ocean"
+        ],
+        "difficulty": "hard"
+      }
+    ],
+    "notes": "Hard puzzles lean on abstract connections and word meanings. Some items have more than one sense, which can tempt misclassification—stick to the group’s defined link."
+  }
+}

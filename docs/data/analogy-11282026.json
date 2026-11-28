@@ -1,0 +1,41 @@
+{
+  "date": "11282026",
+  "levels": {
+    "easy": [
+      {
+        "q": "car : garage ::",
+        "choices": [
+          "fish : tank",
+          "book : shelf",
+          "dog : leash",
+          "cat : toy"
+        ],
+        "answer": 1
+      }
+    ],
+    "medium": [
+      {
+        "q": "wheel : car ::",
+        "choices": [
+          "leaf : tree",
+          "book : library",
+          "finger : hand",
+          "door : house"
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "q": "thirst : water ::",
+        "choices": [
+          "hunger : bread",
+          "tiredness : sleep",
+          "pain : medicine",
+          "boredom : game"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

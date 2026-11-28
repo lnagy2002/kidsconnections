@@ -43,7 +43,8 @@
     "cow : calf :: hen : chick",
     "banana : yellow :: leaf : green",
     "cat : kitten :: cow : calf",
-    "bee : honey :: spider : web"
+    "bee : honey :: spider : web",
+    "car : garage :: book : shelf"
   ],
   "medium": [
     "apple : fruit :: screwdriver : tool",
@@ -89,7 +90,8 @@
     "sickle : grass :: spade : soil",
     "hammer : carpenter :: brush : artist",
     "library : read :: forest : walk",
-    "ant : colony :: bee : hive"
+    "ant : colony :: bee : hive",
+    "wheel : car :: book : library"
   ],
   "hard": [
     "happy : unhappy :: kind : unkind",
@@ -135,6 +137,7 @@
     "farm : cow :: ocean : fish",
     "desert : camel :: forest : deer",
     "wolf : pack :: deer : herd",
-    "happy : unhappy :: safe : unsafe"
+    "happy : unhappy :: safe : unsafe",
+    "thirst : water :: pain : medicine"
   ]
 }

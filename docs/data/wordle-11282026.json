@@ -1,0 +1,19 @@
+{
+  "easy": "BOAT",
+  "medium": "APPLE",
+  "hard": "CLOUDS",
+  "definitions": {
+    "easy": {
+      "pos": "noun",
+      "text": "A water vehicle that moves on the surface."
+    },
+    "medium": {
+      "pos": "noun",
+      "text": "A sweet fruit that grows on trees."
+    },
+    "hard": {
+      "pos": "noun",
+      "text": "White puffy things in the sky."
+    }
+  }
+}
